@@ -43,7 +43,7 @@ On appelle fonctions de base les fonctions suivantes :
 Soit $\mathcal{C}_0$ la classe des fonctions de base, et étant donné $\mathcal{C}_s$, soit $\mathcal{C}_{s+1}$ la classe qui contient les fonctions de $\mathcal{C}_s$, et telle que pour tous $n, k \in \N$, pour toutes fonctions $g_0, . . . , g_{n−1} \in \mathcal{C}_s$ de type $\N^k → \N$ et toute fonction $f \in C_s$ de type $\N^n \to \N$, la fonction $h : \N^k \to \N$ définie par
 $$h(x_0, . . . , x_{k−1}) = f(g_0(x_0, . . . , x_{k−1}), . . . , g_{n−1}(x_0, . . . , x_{k−1}))$$
  appartient à $\mathcal{C}_{s+1}$.
- Soit C^^∞ = S s Cs la plus petite classe de fonctions contenant les fonctions de base, et close par l’opération de composition définie ci-dessus.
+ Soit $\mathcal{C}^∞ = \bigcup_{s=0}^\infin \mathcal{C}_s$ la plus petite classe de fonctions contenant les fonctions de base, et close par l’opération de composition définie ci-dessus.
 
 ## M-003**
 On essaye de coder un serveur pour un jeu vidéo de combat.
@@ -72,6 +72,6 @@ Proposer une méthode avec des mutex et sémaphore.
 
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2Mzk1OTc0MiwtMTY5ODUwNDI5OSwtMT
+eyJoaXN0b3J5IjpbMTQ2NzYwMTI3NCwtMTY5ODUwNDI5OSwtMT
 E0MDc5NTkyNl19
 -->
