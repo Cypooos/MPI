@@ -32,13 +32,14 @@ Proposer une condition suffisante et nécessaire sur un automate fini pour que l
 On prend un groupe de n amis.
 Montrez que 2 personnes ont au moins autant d'amis en commun dans ce groupe.
 
-## T-003*** Fonctions Primitives Récursives
+## T-003*** Fonctions Primitives Composable
 > Oraux L4 - Ulm 2021
 
 On appelle fonctions de base les fonctions suivantes :
 1. la fonction constante $0$, notée $Z : \N \to \N$, et définie par $Z(n) = 0$
 2. la fonction successeur $S : \N \to \N$ , définie par $S(n) = n + 1$
-3. les fonctions de projection $\pi_n^i : \N^n \to \N$ définies pour $0 \le i < n \in \N$ par $ \pi_n^i(x0, . . . , xn−1) = x
+3. les fonctions de projection $\pi_n^i : \N^n \to \N$ définies pour $0 \le i < n \in \N$ par $\pi_n^i(x_0, . . . , x_{n−1}) = x_i$
+
 Soit $\mathcal{C}_0$ la classe des fonctions de base, et étant donné Cs, soit Cs+1 la classe qui contient les fonctions de Cs, et telle que pour tous n, k ∈ N, pour toutes fonctions g0, . . . , gn−1 ∈ Cs de type N k → N et toute fonction f ∈ Cs de type N n → N, la fonction h : N k → N définie par h(x0, . . . , xk−1) = f(g0(x0, . . . , xk−1), . . . , gn−1(x0, . . . , xk−1)) appartient à Cs+1. Soit C∞ = S s Cs la plus petite classe de fonctions contenant les fonctions de base, et close par l’opération de composition définie ci-dessus.
 
 ## M-003**
@@ -68,5 +69,6 @@ Proposer une méthode avec des mutex et sémaphore.
 
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NzgwMjg4MSwtMTE0MDc5NTkyNl19
+eyJoaXN0b3J5IjpbLTE2OTg1MDQyOTksLTExNDA3OTU5MjZdfQ
+==
 -->
