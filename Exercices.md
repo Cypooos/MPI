@@ -40,7 +40,7 @@ On appelle fonctions de base les fonctions suivantes :
 2. la fonction successeur $S : \N \to \N$ , définie par $S(n) = n + 1$
 3. les fonctions de projection $\pi_n^i : \N^n \to \N$ définies pour $0 \le i < n \in \N$ par $\pi_n^i(x_0, . . . , x_{n−1}) = x_i$
 
-Soit $\mathcal{C}_0$ la classe des fonctions de base, et étant donné $C_s$, soit $C_{s+1}$ la classe qui contient les fonctions de $C_s$, et telle que pour tous $n, k \in \N$, pour toutes fonctions $g0, . . . , gn−1 ∈ Cs$ de type N k → N et toute fonction f ∈ Cs de type N n → N, la fonction h : N k → N définie par h(x0, . . . , xk−1) = f(g0(x0, . . . , xk−1), . . . , gn−1(x0, . . . , xk−1)) appartient à Cs+1. Soit C∞ = S s Cs la plus petite classe de fonctions contenant les fonctions de base, et close par l’opération de composition définie ci-dessus.
+Soit $\mathcal{C}_0$ la classe des fonctions de base, et étant donné $C_s$, soit $C_{s+1}$ la classe qui contient les fonctions de $C_s$, et telle que pour tous $n, k \in \N$, pour toutes fonctions $g_0, . . . , g_{n−1} ∈ C_s$ de type $\N^k → \N$ et toute fonction $f \in C_s$ de type $\N^n \to \N$, la fonction $h : \N^k \to N$ définie par $h(x_0, . . . , x_{k−1}) = f(g_0(x_0, . . . , x_{k−1}), . . . , g_{n−1(x0, . . . , xk−1))$ appartient à Cs+1. Soit C∞ = S s Cs la plus petite classe de fonctions contenant les fonctions de base, et close par l’opération de composition définie ci-dessus.
 
 ## M-003**
 On essaye de coder un serveur pour un jeu vidéo de combat.
@@ -69,6 +69,6 @@ Proposer une méthode avec des mutex et sémaphore.
 
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1NzkzNjgzLC0xNjk4NTA0Mjk5LC0xMT
-QwNzk1OTI2XX0=
+eyJoaXN0b3J5IjpbLTU4MzQzOTMxNSwtMTY5ODUwNDI5OSwtMT
+E0MDc5NTkyNl19
 -->
