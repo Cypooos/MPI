@@ -14,9 +14,9 @@ C : Cours
 \* = Exercice facile
 \*\* = Exercice moyen
 \*\*\* = Exercice difficile
-\*\*\*\* = Question ouverte
+\*\*\*\* = Question ouverte / Exercice hardcore
 
-## AL-001***
+## A-001***
 > Oraux A2 - Ulm 2021
 
 La densité de $L$ un langage est la fonction $δ_L: \N \to \N$ où $δ_L(n) := |L \cap Σ^n |$ pour $n ∈ \N$. On dit que $L$ est épars si on a $δ_L = O(P(n))$ pour un polynôme $P$.
@@ -33,6 +33,8 @@ On prend un groupe de n amis.
 Montrez que 2 personnes ont au moins autant d'amis en commun dans ce groupe.
 
 ## T-003*** /!\ TODO
+> Oraux A2 - Ulm 2021
+
 On appelle fonctions de base les fonctions suivantes :
 1. la fonction constante 0, notée $Z : \N → \N$, et définie par Z(x) = 0
 2. la fonction successeur S : N → N , définie par S(x) = x + 1
@@ -66,5 +68,5 @@ Proposer une méthode avec des mutex et sémaphore.
 
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDA3OTU5MjZdfQ==
+eyJoaXN0b3J5IjpbMTQwNDIzODM1MywtMTE0MDc5NTkyNl19
 -->
