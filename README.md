@@ -1,2 +1,2 @@
 # MPI
-Liste personnel d'exercices pour la MPI
+Liste personnelle d'exercices pour la MPI
