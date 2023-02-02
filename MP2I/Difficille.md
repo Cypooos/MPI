@@ -1,4 +1,5 @@
-# ENS ULM J3 2019
+L'étoile devant un exos indique q
+# ENS ULM J3 2019*
 > Math, arithmétique, programmation, pseudo-code et structure de données
 
 On dit qu’un entier naturel est sans carré s’il n’est pas divisible par le carré d’un entier supérieur ou égal à $2$.
@@ -35,7 +36,7 @@ $$
 $$
 En déduire le pseudo-code d’un algorithme permettant de calculer $\Phi(n)$ en temps sous-linéaire par rapport à $n$. Quelles sont ses complexités en temps et en espace ?
 
-# ENS ULM L2 2019
+# ENS ULM L2 2019 (entier)
 > Tableaux, Récurrence, Arbre 
 
 Un chemin de Schröder de longueur $2n$ est un chemin de $(0, 0)$ à $(2n, 0)$ formés de pas unitaires nord-est et sud-est (pas $(1, 1)$ ou $(1, −1)$) ou de pas horizontaux doubles (pas $(2, 0)$), et qui de plus sont toujours au-dessus de l’axe des $x$.
@@ -65,8 +66,13 @@ Dessiner les bosquets possédant 1, 2 et 3 feuilles
 ## Question 5
 Soit $B_n$ le nombre de bosquets à $n$ feuilles. Montrer pour tout $n \ge 2$ qu’il existe $B_n/2$ bosquets dont la racine possède au moins deux enfants.
 
+## Question 6
+Soit T un bosquet possédant $n$ feuilles et $p$ nœuds internes. Prouver que T possède $n + p − 1$ arêtes.
+
+## Question 7
+Construire une bijection des bosquets à $n + 1$ feuilles vers les chemins de Schröder de longueur $2n$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5MjU2MDEyLC0xNTA5MTMwNzQ4LDEzNj
-Q3MjUxODEsNzAwNDQwNDEzLDE0NjUzNDIzMzMsLTg2NzkxMzA2
-NF19
+eyJoaXN0b3J5IjpbMTU4MzEyMjIzNSwtMTUwOTEzMDc0OCwxMz
+Y0NzI1MTgxLDcwMDQ0MDQxMywxNDY1MzQyMzMzLC04Njc5MTMw
+NjRdfQ==
 -->
