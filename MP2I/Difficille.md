@@ -51,8 +51,10 @@ Le $n$-ième nombre de Schröder $S_n$ est défini comme le nombre de chemins de
 Quelle est la complexité en temps ? en mémoire ?
 
 ## Question 3
-Un chemin de Schröder est aérien s’il ne comporte aucun pas horizontal au niveau du sol. Sinon, le chemin est terrestre. Soit An le nombre de chemins aériens de Schröder de longueur 2n.
+Un chemin de Schröder est aérien s’il ne comporte aucun pas horizontal au niveau du sol. Sinon, le chemin est terrestre. Soit $A_n$ le nombre de chemins aériens de Schröder de longueur $2n$.
+
+Construire une bijection entre les chemins de Schröder terrestres de longueur $2n$ et les chemins de Schröder aériens de longueur $2n$. Que peut-on en déduire du lien entre $S_n$ et $A_n$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0OTA0OTQ4LDEzNjQ3MjUxODEsNzAwND
-QwNDEzLDE0NjUzNDIzMzMsLTg2NzkxMzA2NF19
+eyJoaXN0b3J5IjpbLTE1MDkxMzA3NDgsMTM2NDcyNTE4MSw3MD
+A0NDA0MTMsMTQ2NTM0MjMzMywtODY3OTEzMDY0XX0=
 -->
