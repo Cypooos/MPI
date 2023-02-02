@@ -17,12 +17,13 @@ Décrire une structure de données permettant de représenter un sous-ensemble $
 — énumération dans l’ordre croissant de tous les éléments de l’ensemble $E \sub [\![1, n]\!]$ en temps $O(|E|)$.
 La structure de données occupera un espace $O(n)$.
 
-## Question 3. En déduire le pseudo-code d’un algorithme qui permet de résoudre la question 1 en
-temps O(n).
-Question 4. Donner le pseudo-code d’un algorithme permettant de calculer tous les pgcd(p, q) pour
-p, q ∈ J1, nK. Quelle est sa complexité en temps ?
-On admet qu’il est possible d’implémenter une structure de donnée de dictionnaire dont les clés sont des
-entiers (non nécessairement contigus) de telle façon que tous les accès soient en temps O(1). Autrement
+## Question 3
+En déduire le pseudo-code d’un algorithme qui permet de résoudre la question 1 en temps $O(n)$.
+## Question 4
+Donner le pseudo-code d’un algorithme permettant de calculer tous les $p \land q$ (pgcd) pour $p, q \in [\![1, n]\!]$. Quelle est sa complexité en temps ?
+
+## Question 5
+On admet qu’il est possible d’implémenter une structure de donnée de dictionnaire dont les clés sont des entiers (non nécessairement contigus) de telle façon que tous les accès soient en temps $O(1)$. Autrement
 dit, on peut se donner une structure T de sorte que, pour tout entier i ∈ N, on puisse lire la valeur
 T[i] ou écrire la valeur T[i] en temps O(1); la structure utilise un espace mémoire O(n) où n est le
 nombre d’entiers i différents pour lesquels on a écrit T[i].
@@ -39,5 +40,5 @@ k
 En déduire le pseudo-code d’un algorithme permettant de calculer Φ(n) en temps sous-linéaire par
 rapport à n. Quelles sont ses complexités en temps et en espace ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAyNjg5MjMsLTg2NzkxMzA2NF19
+eyJoaXN0b3J5IjpbMTQ2NTM0MjMzMywtODY3OTEzMDY0XX0=
 -->
