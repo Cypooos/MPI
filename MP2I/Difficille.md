@@ -73,8 +73,8 @@ Soit T un bosquet possédant $n$ feuilles et $p$ nœuds internes. Prouver que T 
 Construire une bijection des bosquets à $n + 1$ feuilles vers les chemins de Schröder de longueur $2n$.
 
 # ULM L4 2019
-Soit $F \sub \N$ et $b ∈ \N$. On note  F +b l’ensemble {a+b : a ∈ F} et F −b l’ensemble {a ∈ N : a+b ∈ F}.
-Un ensemble S ⊆ N est syndétique s’il existe un ensemble fini F ⊆ N tel que N =
+Soit $F \sub \N$ et $b ∈ \N$. On note $F + b$ l’ensemble $\{a+b : a \in F\}$ et F−b l’ensemble $\{a-b : a \in F\}$.
+Un ensemble $S \sub N$ est *syndétique* s’il existe un ensemble fini $F \sub N$ tel que $N =
 S
 a∈F S − a.
 Question 0. Montrer qu’un ensemble S est syndétique si et seulement s’il existe un entier d ∈ N tel
@@ -117,7 +117,7 @@ X0 ⊔ X1 = A, alors soit X0 ∈ A , soit X1 ∈ A .
 Question 11. En déduire que pour toute k-partition A0⊔· · ·⊔Ak−1 = N, l’un au moins de A0, . . . , Ak−1
 est syndétique par parties.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjY4MTg3OCwtMTQyMTcxOTYyMCwtMT
-UwOTEzMDc0OCwxMzY0NzI1MTgxLDcwMDQ0MDQxMywxNDY1MzQy
-MzMzLC04Njc5MTMwNjRdfQ==
+eyJoaXN0b3J5IjpbLTExMzczNTgxMTQsLTE0MjE3MTk2MjAsLT
+E1MDkxMzA3NDgsMTM2NDcyNTE4MSw3MDA0NDA0MTMsMTQ2NTM0
+MjMzMywtODY3OTEzMDY0XX0=
 -->
