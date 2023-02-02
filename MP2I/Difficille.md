@@ -26,10 +26,10 @@ Donner le pseudo-code d’un algorithme permettant de calculer tous les $p \land
 On admet qu’il est possible d’implémenter une structure de donnée de dictionnaire dont les clés sont des entiers (non nécessairement contigus) de telle façon que tous les accès soient en temps $O(1)$. Autrement
 dit, on peut se donner une structure $T$ de sorte que, pour tout entier $i \in \N$, on puisse lire la valeur T[i] ou écrire la valeur T[i] en temps $O(1)$; la structure utilise un espace mémoire $O(n)$ où $n$ est le nombre d’entiers $i$ différents pour lesquels on a écrit T[i].
 
-On note $Φ(n)$ le nombre de paires d’entiers $(p, q)$, avec $1 \le p \le n$, $1 \le q \le n$, et $p$ et $q$ premiers entre eux.
+On note $\Phi(n)$ le nombre de paires d’entiers $(p, q)$, avec $1 \le p \le n$, $1 \le q \le n$, et $p$ et $q$ premiers entre eux.
 Démontrer la formule de récurrence :
 $$
-$$Φ(n) = n
+$$\Phi(n) = n
 2 −
 Xn
 d=2
@@ -40,6 +40,6 @@ k
 En déduire le pseudo-code d’un algorithme permettant de calculer Φ(n) en temps sous-linéaire par
 rapport à n. Quelles sont ses complexités en temps et en espace ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5OTI3MDU2MywxNDY1MzQyMzMzLC04Nj
-c5MTMwNjRdfQ==
+eyJoaXN0b3J5IjpbLTExMTAxNTk0MzcsMTQ2NTM0MjMzMywtOD
+Y3OTEzMDY0XX0=
 -->
