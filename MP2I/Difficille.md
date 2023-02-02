@@ -37,8 +37,8 @@ En déduire le pseudo-code d’un algorithme permettant de calculer $\Phi(n)$ en
 
 # ENS ULM L2 2019
 Un chemin de Schröder de longueur $2n$ est un chemin de $(0, 0)$ à $(2n, 0)$ formés de pas unitaires nord-est et sud-est (pas $(1, 1)$ ou $(1, −1)$) ou de pas horizontaux doubles (pas $(2, 0)$), et qui de plus sont toujours au-dessus de l’axe des $x$. Voici un exemple de chemin de Schröder :
-
+![Chemin de Schröder](https://i.postimg.cc/Jz2gcr1h/a.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQ1MjYxNDQsMTM2NDcyNTE4MSw3MD
+eyJoaXN0b3J5IjpbLTE5MTU0NTc2NDQsMTM2NDcyNTE4MSw3MD
 A0NDA0MTMsMTQ2NTM0MjMzMywtODY3OTEzMDY0XX0=
 -->
