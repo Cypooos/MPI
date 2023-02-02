@@ -44,8 +44,14 @@ Voici un exemple de chemin de Schröder :
 Dessiner les chemins de Schröder de longueur 2 et de longueur 4.
 
 ## Question 1
-Le $n$-ième nombre de Schröder $S_n$ est défini comme le nombre de chemins de Schröder de longueur $2n$. Par convention, il existe un unique chemin de Schröder de longueur 0. Déterminer la formule de récurrence de $S_{n+1}$ en fonction de $S0, . . . , Sn.
+Le $n$-ième nombre de Schröder $S_n$ est défini comme le nombre de chemins de Schröder de longueur $2n$. Par convention, il existe un unique chemin de Schröder de longueur 0. Déterminer la formule de récurrence de $S_{n+1}$ en fonction de $S_0, . . . , S_n$.
+
+## Question 2
+Écrire un algorithme qui prend en entrée une liste de coordonnées $(x, y)$ triée par abscisses, et détermine s’il existe un chemin de Schröder passant par tous ces points. On considère qu’un pas horizontal passe également par son centre.
+## Question 3
+
+Quelle est la complexité en temps ? en mémoire ? Un chemin de Schröder est aérien s’il ne comporte aucun pas horizontal au niveau du sol. Sinon, le chemin est terrestre. Soit An le nombre de chemins aériens de Schröder de longueur 2n.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjY1ODk2NTUsMTM2NDcyNTE4MSw3MD
-A0NDA0MTMsMTQ2NTM0MjMzMywtODY3OTEzMDY0XX0=
+eyJoaXN0b3J5IjpbLTM0Mjg5NzkwLDEzNjQ3MjUxODEsNzAwND
+QwNDEzLDE0NjUzNDIzMzMsLTg2NzkxMzA2NF19
 -->
