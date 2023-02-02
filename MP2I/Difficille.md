@@ -29,7 +29,7 @@ dit, on peut se donner une structure $T$ de sorte que, pour tout entier $i \in \
 On note $\Phi(n)$ le nombre de paires d’entiers $(p, q)$, avec $1 \le p \le n$, $1 \le q \le n$, et $p$ et $q$ premiers entre eux.
 Démontrer la formule de récurrence :
 $$
-\Phi(n) = n^2+\sum_{d=2}^n
+\Phi(n) = n^2+\sum_{d=2}^n \Phi(n)
 $$
 2 −
 Xn
@@ -41,6 +41,6 @@ k
 En déduire le pseudo-code d’un algorithme permettant de calculer Φ(n) en temps sous-linéaire par
 rapport à n. Quelles sont ses complexités en temps et en espace ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwNDQwNDEzLDE0NjUzNDIzMzMsLTg2Nz
-kxMzA2NF19
+eyJoaXN0b3J5IjpbMTM2NDcyNTE4MSw3MDA0NDA0MTMsMTQ2NT
+M0MjMzMywtODY3OTEzMDY0XX0=
 -->
