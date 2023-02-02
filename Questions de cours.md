@@ -1,22 +1,3 @@
-
-
-
-# Cours 
-Question de cours extrait d'oraux et autres.
-A : Automates
-L : Logique
-S : Structure de donnée
-P : Programmation
-M : Multi-threading / Mutex / Sémaphore
-T : Théorique
-C : Cours
-! = à savoir, mais pas du cours 
-
-\* = Exercice facile
-\*\* = Exercice moyen
-\*\*\* = Exercice difficile
-\*\*\*\* = Question ouverte
-
 ## S-001
 > Oraux J1 Ulm 2021
 
@@ -63,5 +44,6 @@ Donner le pseudo-code des opérations de base sur les tables de hachage : recher
 Donner la complexité de ces fonctions en fonction de $n$ et de $k$ dans le pire des cas. Donner la complexité en moyenne de ces fonctions si on suppose que h répartie équitablement les éléments dans $[\![0;2^{k-1}]\!]$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbLTg4MDMxNDc5OCw4MDUxNDg2ODUsLTE4Nz
+cxMjAxMjhdfQ==
 -->
