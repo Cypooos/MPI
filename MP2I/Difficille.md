@@ -71,8 +71,53 @@ Soit T un bosquet possédant $n$ feuilles et $p$ nœuds internes. Prouver que T 
 
 ## Question 7
 Construire une bijection des bosquets à $n + 1$ feuilles vers les chemins de Schröder de longueur $2n$.
+
+# ULM L4 2019
+Soit $F \sub \N$ et $b ∈ \N$. On note  F +b l’ensemble {a+b : a ∈ F} et F −b l’ensemble {a ∈ N : a+b ∈ F}.
+Un ensemble S ⊆ N est syndétique s’il existe un ensemble fini F ⊆ N tel que N =
+S
+a∈F S − a.
+Question 0. Montrer qu’un ensemble S est syndétique si et seulement s’il existe un entier d ∈ N tel
+que pour tout k ∈ N, {k, k + 1, . . . , k + d − 1} ∩ S 6= ∅. On dit aussi que S est d-syndétique.
+Question 1. Parmi les ensembles suivants, lesquels sont syndétiques ?
+(1) L’ensemble des entiers naturels
+(2) L’ensemble des nombres pairs
+(3) L’ensemble des nombres premiers
+(4) {3n + 5 : n ∈ N}
+Un ensemble T ⊆ N est épais si pour tout ensemble fini F ⊆ N, il existe un n ∈ N tel que F + n ⊆ T.
+Question 2. Montrer qu’un ensemble T est épais si et seulement si pour tout k ∈ N, il existe un
+n ∈ N tel que {n, n + 1, n + 2, . . . , n + k − 1} ⊆ T.
+Question 3. Parmi les ensembles suivants, lesquels sont épais ?
+(1) L’ensemble des entiers naturels
+(2) L’ensemble des nombres pairs
+(3) L’ensemble des nombres premiers
+(4) {2
+n + m : n ∈ N, m ∈ {0, . . . , n}}
+Question 4. Pour toute 2-partition A0 ⊔ A1 = N, existe-t-il toujours une partie épaisse ? syndétique ?
+Un ensemble S ⊆ N est syndétique par parties s’il est l’intersection d’un ensemble syndétique U et
+d’un ensemble épais T. Si U est d-syndétique, alors S est dit d-syndétique par parties.
+Question 5. Montrer que pour toute 2-partition A0⊔A1 = N, l’un au moins de A0 et A1 est syndétique
+par parties.
+Soit d ∈ N. Un ensemble fini F = {n0 < n1 < · · · < nk−1} est localement d-syndétique si pour tout
+0 ≤ i < k − 1, on a ni+1 − ni < d.
+Question 6. Écrire le pseudocode d’un algorithme qui prend en entrée un ensemble fini S et un entier
+d ∈ N, et détermine si S est localement d-syndétique. L’ensemble S est donné comme un tableau T de
+booléens où T[i] indique si i appartient à S. Discuter de sa complexité en temps et en espace.
+Question 7. Soit d ∈ N. Montrer que si un ensemble S est d-syndétique par parties alors pour tout
+k ∈ N, il existe un ensemble localement d-syndétique F de cardinalité k tel que F ⊆ S.
+Question 8. Soit d ∈ N et S ⊆ N. Montrer que, si pour tout k ∈ N, il existe un ensemble localement
+d-syndétique F de cardinalité k tel que F ⊆ S, alors S est d-syndétique par parties. Commenter.
+Suite des questions
+Soit une famille S d’ensembles d’entiers naturels close par le haut (si S ∈ S et T ⊇ S, alors T ∈ S ).
+La famille duale de S est la famille T = {T ⊆ N : ∀S ∈ S [S ∩ T 6= ∅]}.
+Question 9. Montrer que la famille des ensembles épais est la famille duale des ensembles syndétiques.
+Question 10. Soit une famille S d’ensembles d’entiers naturels close par le haut. Soit T sa famille
+duale, et soit A = {S ∩ T : S ∈ S , T ∈ T } la famille intersection. Montrer que si A ∈ A , et
+X0 ⊔ X1 = A, alors soit X0 ∈ A , soit X1 ∈ A .
+Question 11. En déduire que pour toute k-partition A0⊔· · ·⊔Ak−1 = N, l’un au moins de A0, . . . , Ak−1
+est syndétique par parties.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1OTA4NTkwLC0xNDIxNzE5NjIwLC0xNT
-A5MTMwNzQ4LDEzNjQ3MjUxODEsNzAwNDQwNDEzLDE0NjUzNDIz
-MzMsLTg2NzkxMzA2NF19
+eyJoaXN0b3J5IjpbMTU2MjY4MTg3OCwtMTQyMTcxOTYyMCwtMT
+UwOTEzMDc0OCwxMzY0NzI1MTgxLDcwMDQ0MDQxMywxNDY1MzQy
+MzMzLC04Njc5MTMwNjRdfQ==
 -->
