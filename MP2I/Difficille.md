@@ -63,9 +63,10 @@ Un arbre est planaire si l’ensemble des enfants d’un nœud est ordonné. Ain
 Dessiner les bosquets possédant 1, 2 et 3 feuilles
 
 ## Question 5
-Soit $B_n$ le nombre de bosquets à n feuilles. Montrer pour tout n ≥ 2 qu’il existe Bn/2 bosquets dont la racine possède au moins deux enfants.
+Soit $B_n$ le nombre de bosquets à $n$ feuilles. Montrer pour tout $n \ge 2$ qu’il existe $B_n/2$ bosquets dont la racine possède au moins deux enfants.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Njk5NjQ4NCwtMTUwOTEzMDc0OCwxMz
-Y0NzI1MTgxLDcwMDQ0MDQxMywxNDY1MzQyMzMzLC04Njc5MTMw
-NjRdfQ==
+eyJoaXN0b3J5IjpbNDc5MjU2MDEyLC0xNTA5MTMwNzQ4LDEzNj
+Q3MjUxODEsNzAwNDQwNDEzLDE0NjUzNDIzMzMsLTg2NzkxMzA2
+NF19
 -->
