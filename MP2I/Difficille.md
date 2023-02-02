@@ -11,13 +11,13 @@ Ceci implique en particulier que la valeur du $k$-ème nombre premier $p_k$ est 
 
 Donner le pseudo-code d’un algorithme permettant de calculer $π(n)$. Quelles sont ses complexités en temps et en espace ?
 ## Question 2
-Décrire une structure de données permettant de représenter un sous-ensemble $E$ de $J_1, n]
-et supportant les opérations suivantes :
-— initialisation à J1, nK en temps O(n),
-— suppression d’un élément en temps O(1),
-— énumération dans l’ordre croissant de tous les éléments de l’ensemble E ⊆ J1, nK en temps O(|E|).
-La structure de données occupera un espace O(n).
-Question 3. En déduire le pseudo-code d’un algorithme qui permet de résoudre la question 1 en
+Décrire une structure de données permettant de représenter un sous-ensemble $E$ de $[\![1, n]\!]$ et supportant les opérations suivantes :
+— initialisation à $[\![1, n]\!]$ en temps $O(n)$,
+— suppression d’un élément en temps $O(1)$,
+— énumération dans l’ordre croissant de tous les éléments de l’ensemble $E \sub [\![1, n]\!]$ en temps $O(|E|)$.
+La structure de données occupera un espace $O(n)$.
+
+## Question 3. En déduire le pseudo-code d’un algorithme qui permet de résoudre la question 1 en
 temps O(n).
 Question 4. Donner le pseudo-code d’un algorithme permettant de calculer tous les pgcd(p, q) pour
 p, q ∈ J1, nK. Quelle est sa complexité en temps ?
@@ -39,5 +39,5 @@ k
 En déduire le pseudo-code d’un algorithme permettant de calculer Φ(n) en temps sous-linéaire par
 rapport à n. Quelles sont ses complexités en temps et en espace ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0Mjk3MzU3MywtODY3OTEzMDY0XX0=
+eyJoaXN0b3J5IjpbODAyNjg5MjMsLTg2NzkxMzA2NF19
 -->
