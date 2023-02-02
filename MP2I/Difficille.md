@@ -9,9 +9,9 @@ On note $π(n)$ le nombre de nombres premiers inférieurs ou égaux à $n$.
 On admet le théorème des nombres premiers : quand $n$ tend vers l’infini, $π(n) \sim \frac{n}{\ln n}$
 Ceci implique en particulier que la valeur du $k$-ème nombre premier $p_k$ est équivalente à $k \ln k$.
 
-Donner le pseudo-code d’un algorithme permettant de calculer π(n). Quelles sont ses
-complexités en temps et en espace ?
-Question 2. Décrire une structure de données permettant de représenter un sous-ensemble E de J1, nK
+Donner le pseudo-code d’un algorithme permettant de calculer $π(n)$. Quelles sont ses complexités en temps et en espace ?
+## Question 2
+Décrire une structure de données permettant de représenter un sous-ensemble $E$ de $J_1, n]
 et supportant les opérations suivantes :
 — initialisation à J1, nK en temps O(n),
 — suppression d’un élément en temps O(1),
@@ -39,5 +39,5 @@ k
 En déduire le pseudo-code d’un algorithme permettant de calculer Φ(n) en temps sous-linéaire par
 rapport à n. Quelles sont ses complexités en temps et en espace ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzkxMzA2NF19
+eyJoaXN0b3J5IjpbMTE0Mjk3MzU3MywtODY3OTEzMDY0XX0=
 -->
