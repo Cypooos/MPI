@@ -2,14 +2,14 @@
 On dit qu’un entier naturel est sans carré s’il n’est pas divisible par le carré d’un entier supérieur ou égal à $2$.
 ## Question 0
  Donner le pseudo-code d’un algorithme permettant de calculer le nombre d’entiers naturels sans carré inférieurs ou égaux à $n$. Quelles sont ses complexités en temps et en espace ?
- ## Question 1
+
+## Question 1
  
 On note $π(n)$ le nombre de nombres premiers inférieurs ou égaux à $n$.
-On admet le théorème des nombres premiers : quand $n$ tend vers l’infini, $π(n) \sim n$ est équivalent à n
-ln n
-.
-Ceci implique en particulier que la valeur du k-ème nombre premier pk est équivalente à k ln k.
-Question 1. Donner le pseudo-code d’un algorithme permettant de calculer π(n). Quelles sont ses
+On admet le théorème des nombres premiers : quand $n$ tend vers l’infini, $π(n) \sim \frac{n}{\ln n}$
+Ceci implique en particulier que la valeur du $k$-ème nombre premier $p_k$ est équivalente à $k \ln k$.
+
+Donner le pseudo-code d’un algorithme permettant de calculer π(n). Quelles sont ses
 complexités en temps et en espace ?
 Question 2. Décrire une structure de données permettant de représenter un sous-ensemble E de J1, nK
 et supportant les opérations suivantes :
@@ -39,5 +39,5 @@ k
 En déduire le pseudo-code d’un algorithme permettant de calculer Φ(n) en temps sous-linéaire par
 rapport à n. Quelles sont ses complexités en temps et en espace ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjM4ODc4MF19
+eyJoaXN0b3J5IjpbLTg2NzkxMzA2NF19
 -->
