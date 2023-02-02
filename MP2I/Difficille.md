@@ -35,8 +35,10 @@ $$
 $$
 En déduire le pseudo-code d’un algorithme permettant de calculer $\Phi(n)$ en temps sous-linéaire par rapport à $n$. Quelles sont ses complexités en temps et en espace ?
 
-# ENS ULM L2
+# ENS ULM L2 2019
+Un chemin de Schröder de longueur $2n$ est un chemin de $(0, 0)$ à $(2n, 0)$ formés de pas unitaires nord-est et sud-est (pas $(1, 1)$ ou $(1, −1)$) ou de pas horizontaux doubles (pas $(2, 0)$), et qui de plus sont toujours au-dessus de l’axe des $x$. Voici un exemple de chemin de Schröder :
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzIzNTMxNSwxMzY0NzI1MTgxLDcwMD
-Q0MDQxMywxNDY1MzQyMzMzLC04Njc5MTMwNjRdfQ==
+eyJoaXN0b3J5IjpbLTE0MTQ1MjYxNDQsMTM2NDcyNTE4MSw3MD
+A0NDA0MTMsMTQ2NTM0MjMzMywtODY3OTEzMDY0XX0=
 -->
