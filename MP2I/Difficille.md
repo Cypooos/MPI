@@ -1,9 +1,11 @@
 # ENS ULM J3 2019
-On dit qu’un entier naturel est sans carré s’il n’est pas divisible par le carré d’un entier supérieur ou égal à 2.
-### Question 0
- Donner le pseudo-code d’un algorithme permettant de calculer le nombre d’entiers naturels sans carré inférieurs ou égaux à n. Quelles sont ses complexités en temps et en espace ?
-On note π(n) le nombre de nombres premiers inférieurs ou égaux à n.
-On admet le théorème des nombres premiers : quand n tend vers l’infini, π(n) est équivalent à n
+On dit qu’un entier naturel est sans carré s’il n’est pas divisible par le carré d’un entier supérieur ou égal à $2$.
+## Question 0
+ Donner le pseudo-code d’un algorithme permettant de calculer le nombre d’entiers naturels sans carré inférieurs ou égaux à $n$. Quelles sont ses complexités en temps et en espace ?
+ ## Question 1
+ 
+On note $π(n)$ le nombre de nombres premiers inférieurs ou égaux à $n$.
+On admet le théorème des nombres premiers : quand $n$ tend vers l’infini, $π(n) \sim n$ est équivalent à n
 ln n
 .
 Ceci implique en particulier que la valeur du k-ème nombre premier pk est équivalente à k ln k.
@@ -37,5 +39,5 @@ k
 En déduire le pseudo-code d’un algorithme permettant de calculer Φ(n) en temps sous-linéaire par
 rapport à n. Quelles sont ses complexités en temps et en espace ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjMzMzU2M119
+eyJoaXN0b3J5IjpbMTYxMjM4ODc4MF19
 -->
