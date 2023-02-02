@@ -34,7 +34,9 @@ $$
 \Phi(n) = n^2+\sum_{d=2}^n \Phi(n)
 $$
 En déduire le pseudo-code d’un algorithme permettant de calculer $\Phi(n)$ en temps sous-linéaire par rapport à $n$. Quelles sont ses complexités en temps et en espace ?
+
+# ENS ULM L2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzc1OTQ4NTQsMTM2NDcyNTE4MSw3MD
-A0NDA0MTMsMTQ2NTM0MjMzMywtODY3OTEzMDY0XX0=
+eyJoaXN0b3J5IjpbMTQ5NzIzNTMxNSwxMzY0NzI1MTgxLDcwMD
+Q0MDQxMywxNDY1MzQyMzMzLC04Njc5MTMwNjRdfQ==
 -->
