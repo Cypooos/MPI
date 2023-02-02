@@ -77,12 +77,14 @@ Soit $F \sub \N$ et $b ∈ \N$. On note $F + b$ l’ensemble $\{a+b : a \in F\}$
 Un ensemble $S \sub N$ est *syndétique* s’il existe un ensemble fini $F \sub \N$ tel que $\N = \bigcup_{a\in F} S − a$ .
 
 ## Question 0
-Montrer qu’un ensemble $S$ est *syndétique* si et seulement s’il existe un entier $d ∈ \N$ tel que pour tout $k ∈ \N, \{k, k + 1, . . . , k + d − 1\} ∩ S 6= ∅$. On dit aussi que S est d-syndétique.
-Question 1. Parmi les ensembles suivants, lesquels sont syndétiques ?
-(1) L’ensemble des entiers naturels
-(2) L’ensemble des nombres pairs
-(3) L’ensemble des nombres premiers
-(4) {3n + 5 : n ∈ N}
+Montrer qu’un ensemble $S$ est *syndétique* si et seulement s’il existe un entier $d ∈ \N$ tel que pour tout $k ∈ \N, \{k, k + 1, . . . , k + d − 1\} ∩ S \ne \empty$. On dit aussi que S est d-syndétique.
+
+## Question 1
+Parmi les ensembles suivants, lesquels sont syndétiques ?
+ - (1) L’ensemble des entiers naturels
+ - (2) L’ensemble des nombres pairs
+ - (3) L’ensemble des nombres premiers
+ - (4) $\{3n + 5 : n ∈ N\}$
 Un ensemble T ⊆ N est épais si pour tout ensemble fini F ⊆ N, il existe un n ∈ N tel que F + n ⊆ T.
 Question 2. Montrer qu’un ensemble T est épais si et seulement si pour tout k ∈ N, il existe un
 n ∈ N tel que {n, n + 1, n + 2, . . . , n + k − 1} ⊆ T.
@@ -116,7 +118,7 @@ X0 ⊔ X1 = A, alors soit X0 ∈ A , soit X1 ∈ A .
 Question 11. En déduire que pour toute k-partition A0⊔· · ·⊔Ak−1 = N, l’un au moins de A0, . . . , Ak−1
 est syndétique par parties.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzgzODQwNywxMjQ0NTA1Nzg1LC0xND
-IxNzE5NjIwLC0xNTA5MTMwNzQ4LDEzNjQ3MjUxODEsNzAwNDQw
-NDEzLDE0NjUzNDIzMzMsLTg2NzkxMzA2NF19
+eyJoaXN0b3J5IjpbLTE1ODg3MjcwNDksMTI0NDUwNTc4NSwtMT
+QyMTcxOTYyMCwtMTUwOTEzMDc0OCwxMzY0NzI1MTgxLDcwMDQ0
+MDQxMywxNDY1MzQyMzMzLC04Njc5MTMwNjRdfQ==
 -->
