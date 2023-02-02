@@ -74,9 +74,7 @@ Construire une bijection des bosquets à $n + 1$ feuilles vers les chemins de Sc
 
 # ULM L4 2019
 Soit $F \sub \N$ et $b ∈ \N$. On note $F + b$ l’ensemble $\{a+b : a \in F\}$ et F−b l’ensemble $\{a-b : a \in F\}$.
-Un ensemble $S \sub N$ est *syndétique* s’il existe un ensemble fini $F \sub N$ tel que $N =
-S
-a∈F S − a.
+Un ensemble $S \sub N$ est *syndétique* s’il existe un ensemble fini $F \sub \N$ tel que $\N = \Cup_{}$ S a∈F S − a.
 Question 0. Montrer qu’un ensemble S est syndétique si et seulement s’il existe un entier d ∈ N tel
 que pour tout k ∈ N, {k, k + 1, . . . , k + d − 1} ∩ S 6= ∅. On dit aussi que S est d-syndétique.
 Question 1. Parmi les ensembles suivants, lesquels sont syndétiques ?
@@ -117,7 +115,7 @@ X0 ⊔ X1 = A, alors soit X0 ∈ A , soit X1 ∈ A .
 Question 11. En déduire que pour toute k-partition A0⊔· · ·⊔Ak−1 = N, l’un au moins de A0, . . . , Ak−1
 est syndétique par parties.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzczNTgxMTQsLTE0MjE3MTk2MjAsLT
+eyJoaXN0b3J5IjpbLTIxMDI3NTQ3NjEsLTE0MjE3MTk2MjAsLT
 E1MDkxMzA3NDgsMTM2NDcyNTE4MSw3MDA0NDA0MTMsMTQ2NTM0
 MjMzMywtODY3OTEzMDY0XX0=
 -->
