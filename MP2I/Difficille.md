@@ -44,8 +44,8 @@ Voici un exemple de chemin de Schröder :
 Dessiner les chemins de Schröder de longueur 2 et de longueur 4.
 
 ## Question 1
-Le $n$-ième nombre de Schröder Sn est défini comme le nombre de chemins de Schröder de longueur 2n. Par convention, il existe un unique chemin de Schröder de longueur 0. Déterminer la formule de récurrence de Sn+1 en fonction de S0, . . . , Sn.
+Le $n$-ième nombre de Schröder $S_n$ est défini comme le nombre de chemins de Schröder de longueur $2n$. Par convention, il existe un unique chemin de Schröder de longueur 0. Déterminer la formule de récurrence de $S_{n+1}$ en fonction de $S0, . . . , Sn.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MTY2Mzg4MSwxMzY0NzI1MTgxLDcwMD
-Q0MDQxMywxNDY1MzQyMzMzLC04Njc5MTMwNjRdfQ==
+eyJoaXN0b3J5IjpbLTE3MjY1ODk2NTUsMTM2NDcyNTE4MSw3MD
+A0NDA0MTMsMTQ2NTM0MjMzMywtODY3OTEzMDY0XX0=
 -->
