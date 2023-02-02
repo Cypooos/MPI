@@ -1,4 +1,6 @@
 # ENS ULM J3 2019
+> Math, arithmétique, programmation, pseudo-code et structure de données
+
 On dit qu’un entier naturel est sans carré s’il n’est pas divisible par le carré d’un entier supérieur ou égal à $2$.
 ## Question 0
  Donner le pseudo-code d’un algorithme permettant de calculer le nombre d’entiers naturels sans carré inférieurs ou égaux à $n$. Quelles sont ses complexités en temps et en espace ?
@@ -31,16 +33,8 @@ Démontrer la formule de récurrence :
 $$
 \Phi(n) = n^2+\sum_{d=2}^n \Phi(n)
 $$
-2 −
-Xn
-d=2
-Φ
-jn
-d
-k
-En déduire le pseudo-code d’un algorithme permettant de calculer Φ(n) en temps sous-linéaire par
-rapport à n. Quelles sont ses complexités en temps et en espace ?
+En déduire le pseudo-code d’un algorithme permettant de calculer $\Phi(n)$ en temps sous-linéaire par rapport à $n$. Quelles sont ses complexités en temps et en espace ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDcyNTE4MSw3MDA0NDA0MTMsMTQ2NT
-M0MjMzMywtODY3OTEzMDY0XX0=
+eyJoaXN0b3J5IjpbLTE0Mzc1OTQ4NTQsMTM2NDcyNTE4MSw3MD
+A0NDA0MTMsMTQ2NTM0MjMzMywtODY3OTEzMDY0XX0=
 -->
