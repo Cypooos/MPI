@@ -107,12 +107,14 @@ Montrer que pour toute 2-partition $A_0 \sqcup A_1 = \N$, l’un au moins de $A_
 
 ## Question 6
 Soit $d ∈ \N$. Un ensemble fini $F = \{n_0 < n_1 < · · · < n_{k−1}\}$ est localement $d$-syndétique si pour tout $0 \le i < k − 1$, on a $n_{i+1} − n_i < d$.
-Question 6. Écrire le pseudocode d’un algorithme qui prend en entrée un ensemble fini S et un entier
-d ∈ N, et détermine si S est localement d-syndétique. L’ensemble S est donné comme un tableau T de
-booléens où T[i] indique si i appartient à S. Discuter de sa complexité en temps et en espace.
-Question 7. Soit d ∈ N. Montrer que si un ensemble S est d-syndétique par parties alors pour tout
-k ∈ N, il existe un ensemble localement d-syndétique F de cardinalité k tel que F ⊆ S.
-Question 8. Soit d ∈ N et S ⊆ N. Montrer que, si pour tout k ∈ N, il existe un ensemble localement
+Écrire le pseudocode d’un algorithme qui prend en entrée un ensemble fini $S$ et un entier $d \in \N$, et détermine si $S$ est localement $d$-syndétique. L’ensemble $S$ est donné comme un tableau T de
+booléens où T[i] indique si i appartient à $S$. Discuter de sa complexité en temps et en espace.
+
+## Question 7
+Soit $d \in \N$. Montrer que si un ensemble S est $d$-syndétique par parties alors pour tout $k \in \N$, il existe un ensemble localement d-syndétique F de cardinalité k tel que $F \subseteq S$.
+
+## Question 8
+Soit d ∈ N et S ⊆ N. Montrer que, si pour tout k ∈ N, il existe un ensemble localement
 d-syndétique F de cardinalité k tel que F ⊆ S, alors S est d-syndétique par parties. Commenter.
 Suite des questions
 Soit une famille S d’ensembles d’entiers naturels close par le haut (si S ∈ S et T ⊇ S, alors T ∈ S ).
@@ -124,7 +126,7 @@ X0 ⊔ X1 = A, alors soit X0 ∈ A , soit X1 ∈ A .
 Question 11. En déduire que pour toute k-partition A0⊔· · ·⊔Ak−1 = N, l’un au moins de A0, . . . , Ak−1
 est syndétique par parties.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzM5Njg4MiwtMTU4ODcyNzA0OSwxMj
+eyJoaXN0b3J5IjpbMTI3MDM5NzEzNSwtMTU4ODcyNzA0OSwxMj
 Q0NTA1Nzg1LC0xNDIxNzE5NjIwLC0xNTA5MTMwNzQ4LDEzNjQ3
 MjUxODEsNzAwNDQwNDEzLDE0NjUzNDIzMzMsLTg2NzkxMzA2NF
 19
