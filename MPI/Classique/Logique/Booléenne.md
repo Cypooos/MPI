@@ -5,7 +5,10 @@ Démontrez que toute les propositions peuvent s'écrire à l'aide de $\land$ et 
 
 ## Exprimer $P$ à l'aide de $\lozenge$
 
+On pose pour toute proposition $A,B$ : 
+$$A \lozenge B = \lnot A \land \lnot B$$
 
+Démontrez que toute proposition peux être écrite seulement à l'aide de cet opérateur.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4MDc1NDhdfQ==
+eyJoaXN0b3J5IjpbLTM1MjQ1NDg0M119
 -->
