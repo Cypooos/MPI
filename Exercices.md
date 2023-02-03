@@ -46,14 +46,8 @@ $$h(x_0, . . . , x_{k−1}) = f(g_0(x_0, . . . , x_{k−1}), . . . , g_{n−1}(x
  Soit $\mathcal{C}^∞ = \bigcup_{s=0}^\infin \mathcal{C}_s$ la plus petite classe de fonctions contenant les fonctions de base, et close par l’opération de composition définie ci-dessus.
 
 ## M-003**
-On essaye de coder un serveur pour un jeu vidéo de combat.
-Nous avons besoin du comportement suivant : 
- - Les joueurs se connecte à un lobby commun.
- - Quand une des $k$ arènes se libère, les $n$ joueurs prioritaires y sont envoyés.
- - Les joueurs quand ils perdent se déconnectent un à un de leur arène et retourne au lobby.
 
-Chaque joueur sera représenté par un fil d’exécution.
-Proposer une architecture utilisant des sémaphores pour implémenter.
+
 
 ## M-004*
 Dans une école, on essaye de concevoir des classes.
@@ -72,6 +66,6 @@ Proposer une méthode avec des mutex et sémaphore.
 
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzYwMTI3NCwtMTY5ODUwNDI5OSwtMT
-E0MDc5NTkyNl19
+eyJoaXN0b3J5IjpbLTEyNDYzMjUzNjUsMTQ2NzYwMTI3NCwtMT
+Y5ODUwNDI5OSwtMTE0MDc5NTkyNl19
 -->
