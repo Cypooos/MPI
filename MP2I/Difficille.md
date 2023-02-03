@@ -118,17 +118,17 @@ Soit $d \in \N$ et $S \subseteq \N$. Montrer que, si pour tout $k \in \N$, il ex
 
 ## Question 9
 Soit une famille $\mathscr{S}$ d’ensembles d’entiers naturels close par le haut (si $S \in \mathscr{S}$ et $T \subseteq S$, alors $T \in \mathscr{S}$ ).
-La famille duale de $\mathscr{S}$ est la famille $\mathscr{T} = \{T \s \N : ∀S ∈ S [S ∩ T 6= ∅]\}$.
+La famille duale de $\mathscr{S}$ est la famille $\mathscr{T} = \{T \subseteq \N : \forall S ∈ \mathscr{S} [S ∩ T \not= ∅]\}$.
 
-Question 9. Montrer que la famille des ensembles épais est la famille duale des ensembles syndétiques.
-Question 10. Soit une famille S d’ensembles d’entiers naturels close par le haut. Soit T sa famille
-duale, et soit A = {S ∩ T : S ∈ S , T ∈ T } la famille intersection. Montrer que si A ∈ A , et
+Montrer que la famille des ensembles épais est la famille duale des ensembles syndétiques.
+## Question 10
+Soit une famille $\mathscr{S}$ d’ensembles d’entiers naturels close par le haut. Soit $\mathscr{T}$ sa famille duale, et soit $A = {S ∩ T : S ∈ S , T ∈ \mathscr{T }$ la famille intersection. Montrer que si A ∈ A , et
 X0 ⊔ X1 = A, alors soit X0 ∈ A , soit X1 ∈ A .
 Question 11. En déduire que pour toute k-partition A0⊔· · ·⊔Ak−1 = N, l’un au moins de A0, . . . , Ak−1
 est syndétique par parties.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjkxNzc4OSwtMTU4ODcyNzA0OSwxMj
-Q0NTA1Nzg1LC0xNDIxNzE5NjIwLC0xNTA5MTMwNzQ4LDEzNjQ3
-MjUxODEsNzAwNDQwNDEzLDE0NjUzNDIzMzMsLTg2NzkxMzA2NF
-19
+eyJoaXN0b3J5IjpbMjM1Nzg4MTgzLC0xNTg4NzI3MDQ5LDEyND
+Q1MDU3ODUsLTE0MjE3MTk2MjAsLTE1MDkxMzA3NDgsMTM2NDcy
+NTE4MSw3MDA0NDA0MTMsMTQ2NTM0MjMzMywtODY3OTEzMDY0XX
+0=
 -->
