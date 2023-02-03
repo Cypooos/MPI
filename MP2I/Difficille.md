@@ -101,11 +101,12 @@ Parmi les ensembles suivants, lesquels sont épais ?
 Pour toute 2-partition $A_0 \sqcup A_1 = \N$, existe-t-il toujours une partie épaisse ? syndétique ?
 
 ## Question 5
-Un ensemble S ⊆ N est syndétique par parties s’il est l’intersection d’un ensemble syndétique U et
-d’un ensemble épais T. Si U est d-syndétique, alors S est dit d-syndétique par parties.
-Question 5. Montrer que pour toute 2-partition A0⊔A1 = N, l’un au moins de A0 et A1 est syndétique
-par parties.
-Soit d ∈ N. Un ensemble fini F = {n0 < n1 < · · · < nk−1} est localement d-syndétique si pour tout
+Un ensemble $S \subseteq \N$ est syndétique par parties s’il est l’intersection d’un ensemble syndétique $U$ et d’un ensemble épais $T$. Si $U$ est $d$-syndétique, alors $S$ est dit $d$-syndétique par parties.
+
+Montrer que pour toute 2-partition $A_0 \sqcup A_1 = \N$, l’un au moins de $A_0$ et $A_1$ est syndétique par parties.
+
+## 
+Soit $d ∈ \N$. Un ensemble fini $F = {n0 < n1 < · · · < nk−1}$ est localement d-syndétique si pour tout
 0 ≤ i < k − 1, on a ni+1 − ni < d.
 Question 6. Écrire le pseudocode d’un algorithme qui prend en entrée un ensemble fini S et un entier
 d ∈ N, et détermine si S est localement d-syndétique. L’ensemble S est donné comme un tableau T de
@@ -124,8 +125,8 @@ X0 ⊔ X1 = A, alors soit X0 ∈ A , soit X1 ∈ A .
 Question 11. En déduire que pour toute k-partition A0⊔· · ·⊔Ak−1 = N, l’un au moins de A0, . . . , Ak−1
 est syndétique par parties.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4Njk1MzI1LC0xNTg4NzI3MDQ5LDEyND
-Q1MDU3ODUsLTE0MjE3MTk2MjAsLTE1MDkxMzA3NDgsMTM2NDcy
-NTE4MSw3MDA0NDA0MTMsMTQ2NTM0MjMzMywtODY3OTEzMDY0XX
-0=
+eyJoaXN0b3J5IjpbLTE4MTkzMTgzMzgsLTE1ODg3MjcwNDksMT
+I0NDUwNTc4NSwtMTQyMTcxOTYyMCwtMTUwOTEzMDc0OCwxMzY0
+NzI1MTgxLDcwMDQ0MDQxMywxNDY1MzQyMzMzLC04Njc5MTMwNj
+RdfQ==
 -->
