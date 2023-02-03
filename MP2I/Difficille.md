@@ -73,6 +73,8 @@ Soit T un bosquet possédant $n$ feuilles et $p$ nœuds internes. Prouver que T 
 Construire une bijection des bosquets à $n + 1$ feuilles vers les chemins de Schröder de longueur $2n$.
 
 # ULM L4 2019
+> Ensemble, partitions, familles
+
 Soit $F \sub \N$ et $b ∈ \N$. On note $F + b$ l’ensemble $\{a+b : a \in F\}$ et F−b l’ensemble $\{a-b : a \in F\}$.
 Un ensemble $S \sub N$ est *syndétique* s’il existe un ensemble fini $F \sub \N$ tel que $\N = \bigcup_{a\in F} S − a$ .
 
@@ -122,14 +124,15 @@ La famille duale de $\mathscr{S}$ est la famille $\mathscr{T} = \{T \subseteq \N
 
 Montrer que la famille des ensembles épais est la famille duale des ensembles syndétiques.
 ## Question 10
-Soit une famille $\mathscr{S}$ d’ensembles d’entiers naturels close par le haut. Soit $\mathscr{T}$ sa famille duale, et soit $\mathscr{A} = \{S ∩ T : S \in \mathscr{S} , T ∈ \mathscr{T} \}$ la famille intersection. Montrer que si $A \in \mathscr{A}$ , et $X_0 \sqcup X_1 = A$, alors soit $X_0 ∈ \mathscr{A}$ , soit $X_1 \in \mathscr{A}$ .
+Soit une famille $\mathscr{S}$ d’ensembles d’entiers naturels close par le haut. Soit $\mathscr{T}$ sa famille duale, et soit $\mathscr{A} = \{S ∩ T : S \in \mathscr{S} , T ∈ \mathscr{T} \}$ la famille intersection.
 
-Question 11
- En déduire que pour toute k-partition A0⊔· · ·⊔Ak−1 = N, l’un au moins de A0, . . . , Ak−1
-est syndétique par parties.
+Montrer que si $A \in \mathscr{A}$ , et $X_0 \sqcup X_1 = A$, alors soit $X_0 ∈ \mathscr{A}$ , soit $X_1 \in \mathscr{A}$ .
+
+## Question 11
+En déduire que pour toute k-partition $A_0 \sqcup ... \sqcup A_{k−1} = \N$, l’un au moins de $A_0, . . . , A_{k−1}$ est syndétique par parties.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjQxNjMzNywtMTU4ODcyNzA0OSwxMj
-Q0NTA1Nzg1LC0xNDIxNzE5NjIwLC0xNTA5MTMwNzQ4LDEzNjQ3
-MjUxODEsNzAwNDQwNDEzLDE0NjUzNDIzMzMsLTg2NzkxMzA2NF
-19
+eyJoaXN0b3J5IjpbLTEyNTkwNDAzNjEsLTE1ODg3MjcwNDksMT
+I0NDUwNTc4NSwtMTQyMTcxOTYyMCwtMTUwOTEzMDc0OCwxMzY0
+NzI1MTgxLDcwMDQ0MDQxMywxNDY1MzQyMzMzLC04Njc5MTMwNj
+RdfQ==
 -->
