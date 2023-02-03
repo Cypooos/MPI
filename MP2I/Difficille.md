@@ -109,6 +109,7 @@ Montrer que pour toute 2-partition $A_0 \sqcup A_1 = \N$, l’un au moins de $A_
 
 ## Question 6
 Soit $d ∈ \N$. Un ensemble fini $F = \{n_0 < n_1 < · · · < n_{k−1}\}$ est localement $d$-syndétique si pour tout $0 \le i < k − 1$, on a $n_{i+1} − n_i < d$.
+
 Écrire le pseudocode d’un algorithme qui prend en entrée un ensemble fini $S$ et un entier $d \in \N$, et détermine si $S$ est localement $d$-syndétique. L’ensemble $S$ est donné comme un tableau T de
 booléens où T[i] indique si i appartient à $S$. Discuter de sa complexité en temps et en espace.
 
@@ -129,10 +130,10 @@ Soit une famille $\mathscr{S}$ d’ensembles d’entiers naturels close par le h
 Montrer que si $A \in \mathscr{A}$ , et $X_0 \sqcup X_1 = A$, alors soit $X_0 ∈ \mathscr{A}$ , soit $X_1 \in \mathscr{A}$ .
 
 ## Question 11
-En déduire que pour toute k-partition $A_0 \sqcup ... \sqcup A_{k−1} = \N$, l’un au moins de $A_0, . . . , A_{k−1}$ est syndétique par parties.
+En déduire que pour toute k-partition $A_0 \sqcup ... \sqcup A_{k−1} = \N$, l’un au moins des $A_0, . . . , A_{k−1}$ est syndétique par parties.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTkwNDAzNjEsLTE1ODg3MjcwNDksMT
-I0NDUwNTc4NSwtMTQyMTcxOTYyMCwtMTUwOTEzMDc0OCwxMzY0
-NzI1MTgxLDcwMDQ0MDQxMywxNDY1MzQyMzMzLC04Njc5MTMwNj
-RdfQ==
+eyJoaXN0b3J5IjpbNDg0OTA2OTEwLC0xNTg4NzI3MDQ5LDEyND
+Q1MDU3ODUsLTE0MjE3MTk2MjAsLTE1MDkxMzA3NDgsMTM2NDcy
+NTE4MSw3MDA0NDA0MTMsMTQ2NTM0MjMzMywtODY3OTEzMDY0XX
+0=
 -->
