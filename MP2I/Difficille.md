@@ -95,7 +95,7 @@ Parmi les ensembles suivants, lesquels sont épais ?
 (1) L’ensemble des entiers naturels
 (2) L’ensemble des nombres pairs
 (3) L’ensemble des nombres premiers
-(4) ${2n + m : n ∈ N, m ∈ {0, . . . , n}}$
+(4) ${2^n + m : n \in \N, m ∈ {0, . . . , n}}$
 Question 4. Pour toute 2-partition A0 ⊔ A1 = N, existe-t-il toujours une partie épaisse ? syndétique ?
 Un ensemble S ⊆ N est syndétique par parties s’il est l’intersection d’un ensemble syndétique U et
 d’un ensemble épais T. Si U est d-syndétique, alors S est dit d-syndétique par parties.
@@ -120,8 +120,8 @@ X0 ⊔ X1 = A, alors soit X0 ∈ A , soit X1 ∈ A .
 Question 11. En déduire que pour toute k-partition A0⊔· · ·⊔Ak−1 = N, l’un au moins de A0, . . . , Ak−1
 est syndétique par parties.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDc4Njc4OSwtMTU4ODcyNzA0OSwxMj
-Q0NTA1Nzg1LC0xNDIxNzE5NjIwLC0xNTA5MTMwNzQ4LDEzNjQ3
-MjUxODEsNzAwNDQwNDEzLDE0NjUzNDIzMzMsLTg2NzkxMzA2NF
-19
+eyJoaXN0b3J5IjpbLTE2MjQ4NTg1ODYsLTE1ODg3MjcwNDksMT
+I0NDUwNTc4NSwtMTQyMTcxOTYyMCwtMTUwOTEzMDc0OCwxMzY0
+NzI1MTgxLDcwMDQ0MDQxMywxNDY1MzQyMzMzLC04Njc5MTMwNj
+RdfQ==
 -->
