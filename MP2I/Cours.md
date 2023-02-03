@@ -1,4 +1,4 @@
-## ABR et dictionnaire
+## ABR et dictionnaires
 > Oraux J5 - Q0 Ulm 2019
 
 (a) Rappeler ce qu’est un arbre binaire de recherche et comment un tel arbre peut être utilisé pour implémenter la structure de données de dictionnaire. On supposera que chaque clé est unique.
@@ -13,5 +13,5 @@ Quelle est la complexité en terme du nombre $n$ de nœuds et $m$ d’arêtes du
 
 Quelle est la complexité de l’algorithme de Dijkstra si on utilise un tas binaire ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzMTEwMzMwLDc1MTQxMDY2OV19
+eyJoaXN0b3J5IjpbMTIzNzg3NDYxMyw3NTE0MTA2NjldfQ==
 -->
