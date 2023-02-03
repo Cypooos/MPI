@@ -1,6 +1,8 @@
-> Sujet tombé à l'oral L4 d'INFO théorique d'Ulm en 2021
+> Fonction, Classes, Ensembles, Codage
 
+Sujet tombé à l'oral L4 d'INFO théorique d'Ulm en 2021
 Source : https://a3nm.net/work/exams/ens/exercices_info_ulm_2021.pdf
+
 ## Fonctions Primitives Composable
 
 
@@ -15,5 +17,5 @@ $$h(x_0, . . . , x_{k−1}) = f(g_0(x_0, . . . , x_{k−1}), . . . , g_{n−1}(x
  Soit $\mathcal{C}^∞ = \bigcup_{s=0}^\infin \mathcal{C}_s$ la plus petite classe de fonctions contenant les fonctions de base, et close par l’opération de composition définie ci-dessus.
 TODO : recopier la suite...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQxNjAzMV19
+eyJoaXN0b3J5IjpbNTY4MzUzMDE0XX0=
 -->
