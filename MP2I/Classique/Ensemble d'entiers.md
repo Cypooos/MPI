@@ -6,11 +6,12 @@ Cet exercice très très classique de sup peut ce retrouver dans de nombreux ora
 ## Ensemble d'entiers, version 1
 
 Proposer une structure de données pour stocker sous-ensemble d’entiers S compris entre 0 et M qui supporte les opérations suivantes :
-  — Créer cette structure (prend M en argument) en O(M)
-  — Ajouter un entier dans S, en O(1);
-  — Retirer un entier de S, en O(1);
-  — Parcourir les entiers actuellement stockés dans S, en O(|M|).
+  — Créer cette structure (prend M en argument) en $O(M)$
+  — Ajouter un entier dans S, en $O(1)$;
+  — Retirer un entier de S, en $O(1)$;
+  — Parcourir les entiers actuellement stockés dans S, en $O(M)$.
 
+La complexité en espace sera de $O(M)$
 Écrire le pseudocode pour ces opérations.
 
 ## Ensemble d'entiers, version 2
@@ -20,11 +21,12 @@ Proposer une structure de données pour stocker sous-ensemble d’entiers S comp
   — Créer cette structure (prend M en argument) en $O(\log_2(M))$
   — Ajouter un entier dans S, en  $O(1)$;
   — Retirer un entier de S, en $O(1)$;
-  — Parcourir les entiers actuellement stockés dans S, en $O(|M|)$.
+  — Parcourir les entiers actuellement stockés dans S, en $O(M)$.
 
+La complexité en espace sera de $O(\log_2(M))$
 Écrire le pseudocode pour ces opérations.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjU2NzA2NV19
+eyJoaXN0b3J5IjpbMTgwNDcxMDE5OV19
 -->
