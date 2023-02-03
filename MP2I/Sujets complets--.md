@@ -1,6 +1,3 @@
-Le nombre d'étoile indique la difficulté
-Un point d'interrogation indique que le sujet n'as pas été testé
-
 # Ulm J3 2019
 > Math, arithmétique, programmation, pseudo-code et structure de données
 
@@ -134,5 +131,5 @@ Montrer que si $A \in \mathscr{A}$ , et $X_0 \sqcup X_1 = A$, alors soit $X_0 �
 ## Question 11
 En déduire que pour toute k-partition $A_0 \sqcup ... \sqcup A_{k−1} = \N$, l’un au moins des $A_0, . . . , A_{k−1}$ est syndétique par parties.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTA1Njc0M119
+eyJoaXN0b3J5IjpbLTE5NDI4OTI4NjBdfQ==
 -->
