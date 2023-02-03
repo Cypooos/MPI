@@ -105,9 +105,8 @@ Un ensemble $S \subseteq \N$ est syndétique par parties s’il est l’intersec
 
 Montrer que pour toute 2-partition $A_0 \sqcup A_1 = \N$, l’un au moins de $A_0$ et $A_1$ est syndétique par parties.
 
-## 
-Soit $d ∈ \N$. Un ensemble fini $F = {n0 < n1 < · · · < nk−1}$ est localement d-syndétique si pour tout
-0 ≤ i < k − 1, on a ni+1 − ni < d.
+## Question 6
+Soit $d ∈ \N$. Un ensemble fini $F = \{n_0 < n_1 < · · · < n_{k−1}\}$ est localement $d$-syndétique si pour tout $0 \le i < k − 1$, on a $n_{i+1} − n_i < d$.
 Question 6. Écrire le pseudocode d’un algorithme qui prend en entrée un ensemble fini S et un entier
 d ∈ N, et détermine si S est localement d-syndétique. L’ensemble S est donné comme un tableau T de
 booléens où T[i] indique si i appartient à S. Discuter de sa complexité en temps et en espace.
@@ -125,8 +124,8 @@ X0 ⊔ X1 = A, alors soit X0 ∈ A , soit X1 ∈ A .
 Question 11. En déduire que pour toute k-partition A0⊔· · ·⊔Ak−1 = N, l’un au moins de A0, . . . , Ak−1
 est syndétique par parties.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTkzMTgzMzgsLTE1ODg3MjcwNDksMT
-I0NDUwNTc4NSwtMTQyMTcxOTYyMCwtMTUwOTEzMDc0OCwxMzY0
-NzI1MTgxLDcwMDQ0MDQxMywxNDY1MzQyMzMzLC04Njc5MTMwNj
-RdfQ==
+eyJoaXN0b3J5IjpbLTcyNzM5Njg4MiwtMTU4ODcyNzA0OSwxMj
+Q0NTA1Nzg1LC0xNDIxNzE5NjIwLC0xNTA5MTMwNzQ4LDEzNjQ3
+MjUxODEsNzAwNDQwNDEzLDE0NjUzNDIzMzMsLTg2NzkxMzA2NF
+19
 -->
