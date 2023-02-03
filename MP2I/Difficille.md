@@ -117,8 +117,8 @@ Soit $d \in \N$. Montrer que si un ensemble S est $d$-syndétique par parties al
 Soit $d \in \N$ et $S \subseteq \N$. Montrer que, si pour tout $k \in \N$, il existe un ensemble localement d-syndétique $F$ de cardinalité k tel que $F \subseteq S$, alors $S$ est d-syndétique par parties. Commenter.
 
 ## Question 9
-Soit une famille $\mathcal{S}$ d’ensembles d’entiers naturels close par le haut (si $S \in \mathcal{S}$ et $T \subseteq S$, alors $T \in \mathcal{S}$ ).
-La famille duale de S est la famille T = {T ⊆ N : ∀S ∈ S [S ∩ T 6= ∅]}.
+Soit une famille $\mathscr{S}$ d’ensembles d’entiers naturels close par le haut (si $S \in \mathscr{S}$ et $T \subseteq S$, alors $T \in \mathscr{S}$ ).
+La famille duale de $\mathscr{S}$ est la famille $\mathscr{T} = \{T \s \N : ∀S ∈ S [S ∩ T 6= ∅]\}$.
 
 Question 9. Montrer que la famille des ensembles épais est la famille duale des ensembles syndétiques.
 Question 10. Soit une famille S d’ensembles d’entiers naturels close par le haut. Soit T sa famille
@@ -127,7 +127,7 @@ X0 ⊔ X1 = A, alors soit X0 ∈ A , soit X1 ∈ A .
 Question 11. En déduire que pour toute k-partition A0⊔· · ·⊔Ak−1 = N, l’un au moins de A0, . . . , Ak−1
 est syndétique par parties.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzYyMDI5OCwtMTU4ODcyNzA0OSwxMj
+eyJoaXN0b3J5IjpbLTQ0MjkxNzc4OSwtMTU4ODcyNzA0OSwxMj
 Q0NTA1Nzg1LC0xNDIxNzE5NjIwLC0xNTA5MTMwNzQ4LDEzNjQ3
 MjUxODEsNzAwNDQwNDEzLDE0NjUzNDIzMzMsLTg2NzkxMzA2NF
 19
