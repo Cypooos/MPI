@@ -114,11 +114,12 @@ booléens où T[i] indique si i appartient à $S$. Discuter de sa complexité en
 Soit $d \in \N$. Montrer que si un ensemble S est $d$-syndétique par parties alors pour tout $k \in \N$, il existe un ensemble localement d-syndétique F de cardinalité k tel que $F \subseteq S$.
 
 ## Question 8
-Soit d ∈ N et S ⊆ N. Montrer que, si pour tout k ∈ N, il existe un ensemble localement
-d-syndétique F de cardinalité k tel que F ⊆ S, alors S est d-syndétique par parties. Commenter.
-Suite des questions
-Soit une famille S d’ensembles d’entiers naturels close par le haut (si S ∈ S et T ⊇ S, alors T ∈ S ).
+Soit $d \in \N$ et $S \subseteq \N$. Montrer que, si pour tout $k \in \N$, il existe un ensemble localement d-syndétique $F$ de cardinalité k tel que $F \subseteq S$, alors $S$ est d-syndétique par parties. Commenter.
+
+## Question 9
+Soit une famille $\math$ d’ensembles d’entiers naturels close par le haut (si $S \in S$ et T ⊇ S, alors T ∈ S ).
 La famille duale de S est la famille T = {T ⊆ N : ∀S ∈ S [S ∩ T 6= ∅]}.
+
 Question 9. Montrer que la famille des ensembles épais est la famille duale des ensembles syndétiques.
 Question 10. Soit une famille S d’ensembles d’entiers naturels close par le haut. Soit T sa famille
 duale, et soit A = {S ∩ T : S ∈ S , T ∈ T } la famille intersection. Montrer que si A ∈ A , et
@@ -126,8 +127,8 @@ X0 ⊔ X1 = A, alors soit X0 ∈ A , soit X1 ∈ A .
 Question 11. En déduire que pour toute k-partition A0⊔· · ·⊔Ak−1 = N, l’un au moins de A0, . . . , Ak−1
 est syndétique par parties.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDM5NzEzNSwtMTU4ODcyNzA0OSwxMj
-Q0NTA1Nzg1LC0xNDIxNzE5NjIwLC0xNTA5MTMwNzQ4LDEzNjQ3
-MjUxODEsNzAwNDQwNDEzLDE0NjUzNDIzMzMsLTg2NzkxMzA2NF
-19
+eyJoaXN0b3J5IjpbLTEwMzcwNjAyNTcsLTE1ODg3MjcwNDksMT
+I0NDUwNTc4NSwtMTQyMTcxOTYyMCwtMTUwOTEzMDc0OCwxMzY0
+NzI1MTgxLDcwMDQ0MDQxMywxNDY1MzQyMzMzLC04Njc5MTMwNj
+RdfQ==
 -->
