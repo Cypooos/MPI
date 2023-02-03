@@ -85,7 +85,8 @@ Parmi les ensembles suivants, lesquels sont syndétiques ?
  - (2) L’ensemble des nombres pairs
  - (3) L’ensemble des nombres premiers
  - (4) $\{3n + 5 : n ∈ N\}$
-Un ensemble T ⊆ N est épais si pour tout ensemble fini F ⊆ N, il existe un n ∈ N tel que F + n ⊆ T.
+## Question 2
+Un ensemble $T \sub \N$ est épais si pour tout ensemble fini $F \sub \N$, il existe un n ∈ N tel que F + n ⊆ T.
 Question 2. Montrer qu’un ensemble T est épais si et seulement si pour tout k ∈ N, il existe un
 n ∈ N tel que {n, n + 1, n + 2, . . . , n + k − 1} ⊆ T.
 Question 3. Parmi les ensembles suivants, lesquels sont épais ?
@@ -118,7 +119,8 @@ X0 ⊔ X1 = A, alors soit X0 ∈ A , soit X1 ∈ A .
 Question 11. En déduire que pour toute k-partition A0⊔· · ·⊔Ak−1 = N, l’un au moins de A0, . . . , Ak−1
 est syndétique par parties.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg3MjcwNDksMTI0NDUwNTc4NSwtMT
-QyMTcxOTYyMCwtMTUwOTEzMDc0OCwxMzY0NzI1MTgxLDcwMDQ0
-MDQxMywxNDY1MzQyMzMzLC04Njc5MTMwNjRdfQ==
+eyJoaXN0b3J5IjpbMTEyMzAwNzM1LC0xNTg4NzI3MDQ5LDEyND
+Q1MDU3ODUsLTE0MjE3MTk2MjAsLTE1MDkxMzA3NDgsMTM2NDcy
+NTE4MSw3MDA0NDA0MTMsMTQ2NTM0MjMzMywtODY3OTEzMDY0XX
+0=
 -->
