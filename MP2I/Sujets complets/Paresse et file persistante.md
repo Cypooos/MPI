@@ -24,7 +24,8 @@ val force : ’a susp -> ’a
 ```
 Une suspension (de type `’a susp`) contient une fonction permettant de calculer une valeur de type `’a`.
 Elle peut être construite facilement grâce à la fonction `susp`. Le calcul n’est effectué que lorsque l’utilisateur de la bibliothèque le demande via la fonction force. Cette dernière fonction vérifie si le calcul a déjà été effectué : si tel est le cas, elle en renvoie le résultat pré-calculé. Sinon, elle lance le calcul, stocke le résultat pour de futurs appels, et elle le renvoie.
-Question 2. Donner une implémentation possible de cette bibliothèque, dans le langage OCaml.
+
+Donner une implémentation possible de cette bibliothèque, dans le langage OCaml.
 On définit le type des listes paresseuses en OCaml :
 type ’a slist_cell =
 | SNil
@@ -61,5 +62,5 @@ Suite des questions
 Question 5. Une liste paresseuse est-elle toujours de longueur finie ? Définir en OCaml une liste
 paresseuse qui énumère les carrés parfaits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NzM5NzMyNF19
+eyJoaXN0b3J5IjpbLTc2MDY2NDQyOF19
 -->
