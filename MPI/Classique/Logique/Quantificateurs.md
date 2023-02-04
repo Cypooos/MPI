@@ -8,7 +8,8 @@ Donnez un arbre de preuve pour les propositions suivantes :
  
 ## Pour tout
 Donnez un arbre de preuve pour les propositions suivantes :
-- $|\forall x.P)$
+- $(\forall x.P) \land (\forall x.P') \rarr \forall x.(P\land P')$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTMxNTU4MCwtMjEzNTE3Nzg3M119
+eyJoaXN0b3J5IjpbLTEyOTU2NDkyMjEsLTIxMzUxNzc4NzNdfQ
+==
 -->
