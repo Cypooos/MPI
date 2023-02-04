@@ -1,14 +1,15 @@
 > File, récursivité, liste, types, ocaml++ 
 
 Cet exercice est difficile, et pousse la création de type récursif assez loin
-Source : Sujet Ulm 2019 J3 https://a3nm.net/work/exams/ens/exercices_info_ulm_2019.pdf
-## Paresse et file persistante
-Question 0.
-(a) Qu’est-ce qu’une file ?
-(b) Rappeler la distinction entre structure de donnée persistante et impérative.
-(c) Donner une implémentation persistante d’une file.
-(d) En déduire une implémentation impérative d’une file.
-(e) Dans le pire cas, quelle est la complexité de chacune des opérations des ces deux implémentations ?
+Source : Sujet Ulm 2021 J2 https://a3nm.net/work/exams/ens/exercices_info_ulm_2021.pdf
+# Paresse et file persistante
+
+## Question 0
+1) Qu’est-ce qu’une file ?
+2) Rappeler la distinction entre structure de donnée persistante et impérative.
+3) Donner une implémentation persistante d’une file.
+4) En déduire une implémentation impérative d’une file.
+5) Dans le pire cas, quelle est la complexité de chacune des opérations des ces deux implémentations ?
 Lorsque l’on analyse la complexité amortie d’une bibliothèque, on s’intéresse à la complexité d’une
 séquence d’opérations dans son ensemble plutôt qu’à la complexité de chaque opération fournie par
 la bibliothèque. Ainsi, même si une opération A est très coûteuse, son coût peut être compensé par
@@ -63,5 +64,5 @@ Suite des questions
 Question 5. Une liste paresseuse est-elle toujours de longueur finie ? Définir en OCaml une liste
 paresseuse qui énumère les carrés parfaits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDAwMzUxMTBdfQ==
+eyJoaXN0b3J5IjpbMjA1NzgxMzExOF19
 -->
