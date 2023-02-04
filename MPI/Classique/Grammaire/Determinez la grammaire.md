@@ -9,7 +9,6 @@ Déterminez des grammaire hors contexte pour les langages suivants :
 5) $L_5 = \{a^mb^n\ |\ n \not = m \}$
 
 Plus difficile :
-6) $L_1' = \{a^nb^nc^n\}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDA5MDk2MV19
+eyJoaXN0b3J5IjpbODQxNzU4MTk4XX0=
 -->
