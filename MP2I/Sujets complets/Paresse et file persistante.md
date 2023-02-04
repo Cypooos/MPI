@@ -26,17 +26,19 @@ Une suspension (de type `’a susp`) contient une fonction permettant de calcule
 Elle peut être construite facilement grâce à la fonction `susp`. Le calcul n’est effectué que lorsque l’utilisateur de la bibliothèque le demande via la fonction force. Cette dernière fonction vérifie si le calcul a déjà été effectué : si tel est le cas, elle en renvoie le résultat pré-calculé. Sinon, elle lance le calcul, stocke le résultat pour de futurs appels, et elle le renvoie.
 
 Donner une implémentation possible de cette bibliothèque, dans le langage OCaml.
+## Question 3
 On définit le type des listes paresseuses en OCaml :
+```ocaml
 type ’a slist_cell =
 | SNil
 | SCons of ’a * ’a slist
 and ’a slist = ’a slist_cell susp
-Question 3.
-(a) Comparer la notion de liste paresseuse avec la notion habituelle de liste.
-(b) Écrire une fonction scons : ’a -> ’a slist -> ’a slist qui ajoute un élément en tête d’une
-liste paresseuse, ainsi qu’une valeur snil de liste paresseuse vide.
-(c) Écrire deux fonctions shd : ’a slist -> ’a et stl : ’a slist -> ’a slist qui prennent
-une liste paresseuse non vide en paramètre, et qui renvoient respectivement son premier élément
+```
+
+1) Comparer la notion de liste paresseuse avec la notion habituelle de liste.
+2) Écrire une fonction `scons : ’a -> ’a slist -> ’a slist` qui ajoute un élément en tête d’une liste paresseuse
+3) ainsi qu’une valeur `snil` de liste paresseuse vide.
+3) Écrire deux fonctions shd : ’a slist -> ’a et stl : ’a slist -> ’a slist qui prennent une liste paresseuse non vide en paramètre, et qui renvoient respectivement son premier élément
 et la liste paresseuse des autres éléments.
 (d) Écrire une fonction sappend : ’a slist -> ’a slist -> ’a slist qui concatène de manière
 paresseuse deux listes paresseuses. Cette fonction devra s’exécuter en temps constant.
@@ -62,5 +64,5 @@ Suite des questions
 Question 5. Une liste paresseuse est-elle toujours de longueur finie ? Définir en OCaml une liste
 paresseuse qui énumère les carrés parfaits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDY2NDQyOF19
+eyJoaXN0b3J5IjpbMTIxNDk1NzM2XX0=
 -->
