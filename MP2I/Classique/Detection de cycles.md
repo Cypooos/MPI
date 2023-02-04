@@ -1,5 +1,6 @@
+Cet exercice simple est souvent utillisé
 
-## Detection de liste cyclique
+## Détection de liste cyclique
 On ce donne le type suivant en C:
 ```c
 struct liste {
@@ -15,6 +16,7 @@ Donnez le code de la fonction suivante qui détecte si un cycle est présent ou 
 ```c
 bool is_cyclique(liste* tete)
 ```
+**DIFFICILE** : transformer la fonction pour quelle rende la liste acyclique sans perdre aucun maillon. On veillera à toujours le faire en O(N) en et O(1)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzNDE0MDcwXX0=
+eyJoaXN0b3J5IjpbMjA2NjA5MDcyM119
 -->
