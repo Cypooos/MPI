@@ -7,7 +7,7 @@ Source : Sujet Ulm 2019 J3 https://a3nm.net/work/exams/ens/exercices_info_ulm_20
 
 On dit qu’un entier naturel est sans carré s’il n’est pas divisible par le carré d’un entier supérieur ou égal à $2$.
 ## Question 0
- Donner le pseudo-code d’un algorithme permettant de calculer le nombre d’entiers naturels sans carré inférieurs ou égaux à $n$. Quelles sont ses complexités en temps et en espace ?
+Donner le pseudo-code d’un algorithme permettant de calculer le nombre d’entiers naturels sans carré inférieurs ou égaux à $n$. Quelles sont ses complexités en temps et en espace ?
 
 ## Question 1
  
@@ -40,5 +40,5 @@ $$
 En déduire le pseudo-code d’un algorithme permettant de calculer $\Phi(n)$ en temps sous-linéaire par rapport à $n$. Quelles sont ses complexités en temps et en espace ?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTUwNzgwNV19
+eyJoaXN0b3J5IjpbLTE1MTA4ODg2MzUsMTMzMTUwNzgwNV19
 -->
