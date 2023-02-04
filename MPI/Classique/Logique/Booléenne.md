@@ -9,8 +9,7 @@ On pose pour toute proposition $A,B$ :
 $$A\ \lozenge\ B = \lnot A \land \lnot B$$
 
 Démontrez que toute proposition peux être écrite seulement à l'aide de cet opérateur.
-
-(a revérifier)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjU2NjM4NSwyMDM5OTMzMDcxXX0=
+eyJoaXN0b3J5IjpbMTkyNTY0NDM5MiwtMjgyNTY2Mzg1LDIwMz
+k5MzMwNzFdfQ==
 -->
