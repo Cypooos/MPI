@@ -1,5 +1,5 @@
-## Jeudi  
-Mathis Bueno 
+## Jeudi 9 fev.
+ - 18h Mathis Bueno, Paresse et file persistante
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjQxNTI5OF19
+eyJoaXN0b3J5IjpbLTc2Mzc1OTMyNl19
 -->
