@@ -46,22 +46,22 @@ and ’a slist = ’a slist_cell susp
 Grâce aux listes paresseuses, on propose ici une variante de la file proposée dans la question **0.3**, qui évite le problème de complexité expliqué dans la question **0.5**. Dans cette nouvelle implémentation, une file sera représenté en OCaml par le type enregistrement suivant :
 ```ocaml
 type ’a queue = {
-rear : ’a slist;
-len_rear : int;
-front : ’a slist;
-len_front : int;
+	rear : ’a slist;
+	len_rear : int;
+	front : ’a slist;
+	len_front : int;
 }
 ```
-Le plus souvent, on enfilera les éléments au début de la liste rear et on les défilera au début de la liste
-front. De plus, on maintiendra les invariants suivants :
-— les champs len_front et len_rear contiennent les longueurs des listes front et rear ;
-— on a toujours len_rear ≤ len_front.
-Question 4.
-(a) Définir les fonctions d’enfilage et de défilage pour cette variante d’implémentation de file.
-(b) Prouver que le temps d’exécution amorti de chacune de ces deux opérations est O(1).
-Suite des questions
-Question 5. Une liste paresseuse est-elle toujours de longueur finie ? Définir en OCaml une liste
+Le plus souvent, on enfilera les éléments au début de la liste `rear` et on les défilera au début de la liste `front`. De plus, on maintiendra les invariants suivants :
+— les champs `len_front` et `len_rear` contiennent les longueurs des listes `front` et `rear` ;
+— on a toujours `len_rear` $\le$ `len_front`.
+
+1) Définir les fonctions d’enfilage et de défilage pour cette variante d’implémentation de file.
+2) Prouver que le temps d’exécution amorti de chacune de ces deux opérations est O(1).
+
+## Question 5
+Une liste paresseuse est-elle toujours de longueur finie ? Définir en OCaml une liste
 paresseuse qui énumère les carrés parfaits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzMDg2MjM2LDEyMTQ5NTczNl19
+eyJoaXN0b3J5IjpbLTExMzAxNjM0NTQsMTIxNDk1NzM2XX0=
 -->
