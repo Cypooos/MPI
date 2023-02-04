@@ -10,13 +10,13 @@ struct liste {
 typedef struct liste liste;
 ```
 
-Créé une liste cyclique. Une liste acyclique.
+Créez une liste cyclique. Une liste acyclique.
 
 Donnez le code de la fonction suivante qui détecte si un cycle est présent ou non dans la liste, en O(N) avec N la taille de la liste
 ```c
 bool is_cyclique(liste* tete)
 ```
-**DIFFICILE** : transformer la fonction pour quelle rende la liste acyclique sans perdre aucun maillon. On veillera à toujours le faire en O(N) en et O(1)
+**DIFFICILE** : Transformer la fonction pour quelle rende la liste acyclique sans perdre aucun maillon. On veillera à toujours le faire en O(N) en complexité temporelle et O(1) en complexité spatial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NjA5MDcyM119
+eyJoaXN0b3J5IjpbLTg0ODA4NDA5XX0=
 -->
