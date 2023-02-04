@@ -8,6 +8,10 @@ struct liste {
 };
 typedef struct liste liste;
 ```
+Donnez le code de la fonction suivante qui détecte si un cycle 
+```c
+bool is_cyclique(liste* tete)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwODYyNjM1OV19
+eyJoaXN0b3J5IjpbNjEwNzA5NTQxXX0=
 -->
