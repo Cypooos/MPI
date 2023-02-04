@@ -11,7 +11,8 @@ Source : Sujet Ulm 2021 J2 https://a3nm.net/work/exams/ens/exercices_info_ulm_20
 4) En déduire une implémentation impérative d’une file.
 5) Dans le pire cas, quelle est la complexité de chacune des opérations des ces deux implémentations ?
 
-Lorsque l’on analyse la complexité amortie d’une bibliothèque, on s’intéresse à la complexité d’une séquence d’opérations dans son ensemble plutôt qu’à la complexité de chaque opération fournie par la bibliothèque. Ainsi, même si une opération A est très coûteuse, son coût peut être compensé par l’exécution préalable d’un grand nombre d’opérations B, de façon à ce que la complexité globale de la séquence d’opérations soit asymptotiquement le même que si A était peu coûteuse.
+Lorsque l’on analyse la complexité amortie d’une bibliothèque, on s’intéresse à la complexité d’une séquence d’opérations dans son ensemble plutôt qu’à la complexité de chaque opération fournie par la bibliothèque.
+Ainsi, même si une opération A est très coûteuse, son coût peut être compensé par l’exécution préalable d’un grand nombre d’opérations B, de façon à ce que la complexité globale de la séquence d’opérations soit asymptotiquement le même que si A était peu coûteuse.
 ## Question 1
 1) Faire l’analyse de complexité amortie de l’implémentation impérative de la question 0.
 2) Ce raisonnement peut-il s’appliquer pour l’implémentation persistante ?
@@ -39,19 +40,18 @@ and ’a slist = ’a slist_cell susp
 2) Écrire une fonction `scons : ’a -> ’a slist -> ’a slist` qui ajoute un élément en tête d’une liste paresseuse.
 3) Définissez une valeur `snil` de liste paresseuse vide.
 3) Écrire deux fonctions `shd : ’a slist -> ’a` et `stl : ’a slist -> ’a slist` qui prennent une liste paresseuse non vide en paramètre, et qui renvoient respectivement son premier élément et la liste paresseuse des autres éléments.
-(d) Écrire une fonction `sappend : ’a slist -> ’a slist -> ’a slist` qui concatène de manière
-paresseuse deux listes paresseuses. Cette fonction devra s’exécuter en temps constant.
-(e) Écrire une fonction srev : ’a slist -> ’a slist qui renverse une liste paresseuse de manière
-efficace. Quelle est la complexité des accès aux différents éléments de la liste renversée ?
-Grâce aux listes paresseuses, on propose ici une variante de la file proposée dans la question 0.c, qui
-évite le problème de complexité expliqué dans la question 0.e. Dans cette nouvelle implémentation, une
-file sera représenté en OCaml par le type enregistrement suivant :
+4) Écrire une fonction `sappend : ’a slist -> ’a slist -> ’a slist` qui concatène de manière paresseuse deux listes paresseuses. Cette fonction devra s’exécuter en temps constant.
+5) Écrire une fonction `srev : ’a slist -> ’a slist` qui renverse une liste paresseuse de manière efficace. Quelle est la complexité des accès aux différents éléments de la liste renversée ?
+## Questions 4
+Grâce aux listes paresseuses, on propose ici une variante de la file proposée dans la question **0.3**, qui évite le problème de complexité expliqué dans la question **0.5**. Dans cette nouvelle implémentation, une file sera représenté en OCaml par le type enregistrement suivant :
+```ocaml
 type ’a queue = {
 rear : ’a slist;
 len_rear : int;
 front : ’a slist;
 len_front : int;
 }
+```
 Le plus souvent, on enfilera les éléments au début de la liste rear et on les défilera au début de la liste
 front. De plus, on maintiendra les invariants suivants :
 — les champs len_front et len_rear contiennent les longueurs des listes front et rear ;
@@ -63,5 +63,5 @@ Suite des questions
 Question 5. Une liste paresseuse est-elle toujours de longueur finie ? Définir en OCaml une liste
 paresseuse qui énumère les carrés parfaits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTM1Nzc1NSwxMjE0OTU3MzZdfQ==
+eyJoaXN0b3J5IjpbODQzMDg2MjM2LDEyMTQ5NTczNl19
 -->
