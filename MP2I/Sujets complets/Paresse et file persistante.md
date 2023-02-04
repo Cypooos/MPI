@@ -36,11 +36,10 @@ and ’a slist = ’a slist_cell susp
 ```
 
 1) Comparer la notion de liste paresseuse avec la notion habituelle de liste.
-2) Écrire une fonction `scons : ’a -> ’a slist -> ’a slist` qui ajoute un élément en tête d’une liste paresseuse
-3) ainsi qu’une valeur `snil` de liste paresseuse vide.
-3) Écrire deux fonctions shd : ’a slist -> ’a et stl : ’a slist -> ’a slist qui prennent une liste paresseuse non vide en paramètre, et qui renvoient respectivement son premier élément
-et la liste paresseuse des autres éléments.
-(d) Écrire une fonction sappend : ’a slist -> ’a slist -> ’a slist qui concatène de manière
+2) Écrire une fonction `scons : ’a -> ’a slist -> ’a slist` qui ajoute un élément en tête d’une liste paresseuse.
+3) Définissez une valeur `snil` de liste paresseuse vide.
+3) Écrire deux fonctions `shd : ’a slist -> ’a` et `stl : ’a slist -> ’a slist` qui prennent une liste paresseuse non vide en paramètre, et qui renvoient respectivement son premier élément et la liste paresseuse des autres éléments.
+(d) Écrire une fonction `sappend : ’a slist -> ’a slist -> ’a slist` qui concatène de manière
 paresseuse deux listes paresseuses. Cette fonction devra s’exécuter en temps constant.
 (e) Écrire une fonction srev : ’a slist -> ’a slist qui renverse une liste paresseuse de manière
 efficace. Quelle est la complexité des accès aux différents éléments de la liste renversée ?
@@ -64,5 +63,5 @@ Suite des questions
 Question 5. Une liste paresseuse est-elle toujours de longueur finie ? Définir en OCaml une liste
 paresseuse qui énumère les carrés parfaits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDk1NzM2XX0=
+eyJoaXN0b3J5IjpbMTIzMTM1Nzc1NSwxMjE0OTU3MzZdfQ==
 -->
