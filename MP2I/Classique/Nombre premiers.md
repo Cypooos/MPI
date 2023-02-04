@@ -1,5 +1,5 @@
 Cet exercice est tellement classique qu'il est nécessaire de pouvoir le recoder si nécessaire pour résoudre des questions plus complexe.
-Il y 
+Il y a en a plusieurs versions.
 
 ## Nombre de nombres premiers
 
@@ -17,5 +17,5 @@ On dit qu’un entier naturel est sans carré s’il n’est pas divisible par l
 Donner le pseudo-code d’un algorithme permettant de calculer le nombre d’entiers naturels sans carré inférieurs ou égaux à $n$. Quelles sont ses complexités en temps et en espace ?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzM5MjI2MzZdfQ==
+eyJoaXN0b3J5IjpbMTE0MzY2MzE2MF19
 -->
