@@ -11,7 +11,8 @@ Démontrez la rationalité des langages suivants :
 6) $\text{Suf}(L_1)$ les suffixes de $L_1$
 7) $\text{Fac}(L_1)$ les facteurs de $L_1$
 8) $\text{Mir}(L_1) = \{ \overline\omega = \omega_1\omega_2...\omega_n \in \Sigma\ |\ \omega = \omega_n\omega_{n-1}...\omega_1 \in L_1 \}$ les mots miroirs de $L_1$
-9) $\sqrt{L_1} = \{\}$
+9) $\sqrt{L_1} = \{ \omega \in\Sigma^*\ |\ \omega\omega \in L_1 \}$
+10) $\frac{L_1}{2} = \{ \omega \in\Sigma^*\ |\ \exist\omega' \in \Sigma^* | \omega \omega \in L_1 \}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDY5Mjg5NzEsLTI4NjQxNjIwMF19
+eyJoaXN0b3J5IjpbOTA5NDcwNTg1LC0yODY0MTYyMDBdfQ==
 -->
