@@ -10,23 +10,20 @@ Source : Sujet Ulm 2021 J2 https://a3nm.net/work/exams/ens/exercices_info_ulm_20
 3) Donner une implémentation persistante d’une file.
 4) En déduire une implémentation impérative d’une file.
 5) Dans le pire cas, quelle est la complexité de chacune des opérations des ces deux implémentations ?
-Lorsque l’on analyse la complexité amortie d’une bibliothèque, on s’intéresse à la complexité d’une
-séquence d’opérations dans son ensemble plutôt qu’à la complexité de chaque opération fournie par
-la bibliothèque. Ainsi, même si une opération A est très coûteuse, son coût peut être compensé par
-l’exécution préalable d’un grand nombre d’opérations B, de façon à ce que la complexité globale de la
-séquence d’opérations soit asymptotiquement le même que si A était peu coûteuse.
-Question 1.
-(a) Faire l’analyse de complexité amortie de l’implémentation impérative de la question 0.
-(b) Ce raisonnement peut-il s’appliquer pour l’implémentation persistante ?
-On se propose d’implémenter, en OCaml, une bibliothèque de calcul paresseux. Celle-ci expose un
-type paramétré de suspensions ’a susp et des fonctions de types suivants :
-susp : (unit -> ’a) -> ’a susp
-force : ’a susp -> ’a
-Une suspension (de type ’a susp) contient une fonction permettant de calculer une valeur de type ’a.
-Elle peut être construite facilement grâce à la fonction susp. Le calcul n’est effectué que lorsque
-l’utilisateur de la bibliothèque le demande via la fonction force. Cette dernière fonction vérifie si le
-calcul a déjà été effectué : si tel est le cas, elle en renvoie le résultat pré-calculé. Sinon, elle lance le
-calcul, stocke le résultat pour de futurs appels, et elle le renvoie.
+
+Lorsque l’on analyse la complexité amortie d’une bibliothèque, on s’intéresse à la complexité d’une séquence d’opérations dans son ensemble plutôt qu’à la complexité de chaque opération fournie par la bibliothèque. Ainsi, même si une opération A est très coûteuse, son coût peut être compensé par l’exécution préalable d’un grand nombre d’opérations B, de façon à ce que la complexité globale de la séquence d’opérations soit asymptotiquement le même que si A était peu coûteuse.
+## Question 1
+1) Faire l’analyse de complexité amortie de l’implémentation impérative de la question 0.
+2) Ce raisonnement peut-il s’appliquer pour l’implémentation persistante ?
+
+## Question 2
+On se propose d’implémenter, en OCaml, une bibliothèque de calcul paresseux. Celle-ci expose un type paramétré de suspensions `’a susp` et des fonctions de types suivants :
+```ocaml
+val susp : (unit -> ’a) -> ’a susp
+val force : ’a susp -> ’a
+```
+Une suspension (de type `’a susp`) contient une fonction permettant de calculer une valeur de type `’a`.
+Elle peut être construite facilement grâce à la fonction `susp`. Le calcul n’est effectué que lorsque l’utilisateur de la bibliothèque le demande via la fonction force. Cette dernière fonction vérifie si le calcul a déjà été effectué : si tel est le cas, elle en renvoie le résultat pré-calculé. Sinon, elle lance le calcul, stocke le résultat pour de futurs appels, et elle le renvoie.
 Question 2. Donner une implémentation possible de cette bibliothèque, dans le langage OCaml.
 On définit le type des listes paresseuses en OCaml :
 type ’a slist_cell =
@@ -64,5 +61,5 @@ Suite des questions
 Question 5. Une liste paresseuse est-elle toujours de longueur finie ? Définir en OCaml une liste
 paresseuse qui énumère les carrés parfaits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NzgxMzExOF19
+eyJoaXN0b3J5IjpbMTA1NzM5NzMyNF19
 -->
