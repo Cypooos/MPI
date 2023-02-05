@@ -15,7 +15,7 @@ La complexité en espace sera de $O(M)$
 Écrire le pseudocode pour ces opérations.
 
 ## Ensemble d'entiers, version 2
-On suppose maintenant la présence d'une fonction `pow b` calculant $2^b$ en $O(1)$, et que nos entiers ne sont pas borné.
+On suppose maintenant la présence d'une fonction `pow b` calculant $2^b$ en $O(1)$, et que nos entiers ne sont pas bornés.
 
 Proposer une structure de données pour stocker sous-ensemble d’entiers S compris entre 0 et M qui supporte les opérations suivantes :
   — Créer cette structure (prend M en argument) en $O(1)$
@@ -28,5 +28,5 @@ La complexité en espace sera de $O(1)$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjE4MzAxNTRdfQ==
+eyJoaXN0b3J5IjpbMTYyNTU4MTM2MSwtMjAyMTgzMDE1NF19
 -->
