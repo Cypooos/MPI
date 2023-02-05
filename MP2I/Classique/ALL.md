@@ -4,7 +4,7 @@
 On ce donne le type suivant en C:
 ```c
 struct liste {
-	liste* next;
+	struct liste* next;
 	int value;
 };
 typedef struct liste liste;
@@ -55,5 +55,5 @@ On dit qu’un entier naturel est sans carré s’il n’est pas divisible par l
 
 Donner le pseudo-code d’un algorithme permettant de calculer le nombre d’entiers naturels sans carré inférieurs ou égaux à $n$. Quelles sont ses complexités en temps et en espace ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODgzOTcxOV19
+eyJoaXN0b3J5IjpbLTY5MDg2ODgyMF19
 -->
