@@ -1,4 +1,4 @@
-Ceci reviens souvent comme question à l'écrit
+Ceci reviens souvent comme question à l'écrit.
 
 ## Exprimer $P$ avec $\lnot$ et $\land$
 Démontrez que toutes les propositions peuvent s'écrire à l'aide de $\land$ et $\lnot$
@@ -10,6 +10,6 @@ $$A\ \lozenge\ B = \lnot A \land \lnot B$$
 
 Démontrez que toute proposition peut-être écrite seulement à l'aide de cet opérateur.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDU0Nzg0OSwtMjgyNTY2Mzg1LDIwMz
+eyJoaXN0b3J5IjpbMTYzMDYyNTIyNywtMjgyNTY2Mzg1LDIwMz
 k5MzMwNzFdfQ==
 -->
