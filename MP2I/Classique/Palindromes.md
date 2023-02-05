@@ -1,8 +1,8 @@
 
 ## Palindromes
-On dit que un sous mot
+On dit que $\omega$ est un sous-mots (ou facteur) de $u$ s'il existe deux mots potentiellement vide $a$, $b$ tel que $u=a.\omega.b$ (l'opération $.$ est ici la concaténation)
 
 **Question 1**: Donnez le code d'une fonction naïve qui à un string associe la liste de tout ses sous-mots qui sont des palindromes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NzIzOTc4Nl19
+eyJoaXN0b3J5IjpbLTEyOTA1MzA0NjddfQ==
 -->
