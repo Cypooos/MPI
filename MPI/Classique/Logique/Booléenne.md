@@ -8,8 +8,8 @@ Démontrez que toutes les propositions peuvent s'écrire à l'aide de $\land$ et
 On pose pour toute proposition $A,B$ : 
 $$A\ \lozenge\ B = \lnot A \land \lnot B$$
 
-Démontrez que toute proposition peux être écrite seulement à l'aide de cet opérateur.
+Démontrez que toute proposition peut-être écrite seulement à l'aide de cet opérateur.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTY0NDM5MiwtMjgyNTY2Mzg1LDIwMz
+eyJoaXN0b3J5IjpbLTkxNDU0Nzg0OSwtMjgyNTY2Mzg1LDIwMz
 k5MzMwNzFdfQ==
 -->
