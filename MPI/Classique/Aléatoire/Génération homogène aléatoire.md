@@ -1,5 +1,5 @@
 
-Ces exercices sont difficile, mais il est plus qu'intéressant
+Ces exercices sont difficiles, mais sont très intéressant
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjYxMDk5MV19
+eyJoaXN0b3J5IjpbNTg4NDA3NDg1XX0=
 -->
