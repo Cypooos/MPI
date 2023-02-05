@@ -1,3 +1,4 @@
+# Profondeur et diagrammes de 
 On fixe un ensemble $X = \{x_1, ... , x_n\}$ de variables booléennes.
 
 Un *diagramme de décision* $D$ sur $X$ est la donnée d’un graphe orienté $(V, E)$, supposé sans cycle, d’un nœud initial $v_i \in V$, d’une partition de $V$ en $V =  V_0 \sqcup V_1 \sqcup V'$, d’une partition de $E$ en $E = E_0 \sqcup E_1$, et d’une fonction $μ : V' \to X$, de sorte que:
@@ -10,12 +11,14 @@ Si on se donne une *valuation* $\nu :  X \to \{0, 1\}$, le diagramme de décisio
 2) Une fois que $v\in V_0$ ou $v \in V_1$ alors on renvoie $0$ ou $1$ suivant le cas.
 
 ## Question 0
-![graphe](https://i.postimg.cc/nrWN8ywx/Capture-d-cran-du-2023-02-05-19-08-44.png)
 On considère $X = \{x_1, x_2, x_3, x_4\}$ et le diagramme $D_0$ suivant, où on indique dans chaque nœud la valeur de $μ$ ou l’appartenance à $V_0$ ou $V_1$, et on indique le nœud initial par une flèche :  
+![graphe](https://i.postimg.cc/nrWN8ywx/Capture-d-cran-du-2023-02-05-19-08-44.png)
 
-À quelle valeur est associée la valuation qui envoie  x1, x2, x3, x4  respectivement vers  1,  1,  0,  1  ? vers  
-0,  1,  0,  0  ?  
-Question 1.  Donner une formule logique décrivant la fonction booléenne représentée par  D0.  
+
+À quelle valeur est associée la valuation qui envoie $x_1, x_2, x_3, x_4$ respectivement vers $1, 1, 0, 1$? vers $0, 1, 0, 0$ ?
+
+## Question 1
+Donner une formule logique décrivant la fonction booléenne représentée par $D_0$.  
 Question 2.  Si on se donne une formule logique  φ, on dit que  D  représente  φ  si  φ  est la fonction  
 booléenne qu’il décrit. Donner un diagramme de décision  D2  représentant la fonction  ¬(x1  ∧  x2)  ∨  x3  
 Question 3.  La  profondeur  d’un diagramme de décision est la plus grande longueur possible d’un che-  
@@ -31,5 +34,5 @@ de  n. Donner un exemple d’une famille infinie de fonctions évasives, et just
 Question 7.  On considère, pour tout  n  ≥  1, la fonction booléenne  ψn  définie par la formule  (x0  ∧  
 x1)  ∨  (x1  ∧  x2)  ∨  (x2  ∧  x3)  ∨ · · · ∨  (xn−1  ∧  xn). Ces fonctions sont-elles évasives ? Justifier.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwMDM2MDI1XX0=
+eyJoaXN0b3J5IjpbODMxNDY0MTYzXX0=
 -->
