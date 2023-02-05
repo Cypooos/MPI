@@ -4,9 +4,13 @@ Un *diagramme de décision* $D$ sur $X$ est la donnée d’un graphe orienté $(
 1) Aucun nœud  $v \in V_0$ ou $v \in V_1$ n’a d’arête sortante, i.e., il n’existe aucun $w \in V$ tel que $(v, w) \in E$ ;
 2) Tout nœud $v \in V'$ a exactement une arête sortante dans $E_0$ et une arête sortante dans $E_1$, i.e., il existe exactement un $w_0 \in V$ et exactement un $w_1 \in V$ tels que $(v, w_0) \in E_0$ et $(v, w_1) \in E_1$.
 
-Si on se donne une *valuation* $\nu :  X \to \{0, 1\}$, le diagramme de décision $D$ associe $\nu$ à une valeur $b \in \{0, 1\}$ obtenue comme suit : on initialise le nœud courant par $v := v_i$, tant que le nœud courant $v$ est dans $V'$ alors on remplace $v$ par $v := w_0$ ou $v := w_1$ comme défini ci-dessus selon la valeur de $\nu(μ(v))$, et une fois que $v\in V_0$ ou $v \in V_1$ alors on renvoie $0$ ou $1$ suivant le cas.
+Si on se donne une *valuation* $\nu :  X \to \{0, 1\}$, le diagramme de décision $D$ associe $\nu$ à une valeur $b \in \{0, 1\}$ obtenue comme suit :
+1) On initialise le nœud courant par $v := v_i$
+2) Tant que le nœud courant $v$ est dans $V'$ alors on remplace $v$ par $v := w_0$ ou $v := w_1$ comme défini ci-dessus selon la valeur de $\nu(μ(v))$
+2) Une fois que $v\in V_0$ ou $v \in V_1$ alors on renvoie $0$ ou $1$ suivant le cas.
 
-Question 0.  On considère  X  =  {x1, x2, x3, x4}  et le diagramme  D0  suivant, où on indique dans  
+## Question 0
+On considère $X = \{x_1, x_2, x_3, x_4\}$ et le diagramme $D0  suivant, où on indique dans  
 chaque nœud la valeur de  μ  ou l’appartenance à  V0  ou  V1, et on indique le nœud initial par une flèche :  
 x1  
 x3  
@@ -37,5 +41,5 @@ de  n. Donner un exemple d’une famille infinie de fonctions évasives, et just
 Question 7.  On considère, pour tout  n  ≥  1, la fonction booléenne  ψn  définie par la formule  (x0  ∧  
 x1)  ∨  (x1  ∧  x2)  ∨  (x2  ∧  x3)  ∨ · · · ∨  (xn−1  ∧  xn). Ces fonctions sont-elles évasives ? Justifier.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjY4MTIwNTldfQ==
+eyJoaXN0b3J5IjpbLTkwNDAwMDgxNl19
 -->
