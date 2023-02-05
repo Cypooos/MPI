@@ -4,7 +4,7 @@ Il y a en a plusieurs versions.
 ## Nombre de nombres premiers
 
 On note $\pi(n)$ le nombre de nombres premiers inférieurs ou égaux à $n$.
-Donnez son code. Quelles sont ses complexités en temps et en espace ?
+Donnez une manière de calculer la fonction. Quelles sont ses complexités en temps et en espace ?
 
 ## Est-il premier ?
 Donnez le code de `val premier: int -> bool` qui à un entier retourne `true` si il est premier. Quelles sont ses complexités en temps et en espace ?
@@ -17,5 +17,5 @@ On dit qu’un entier naturel est sans carré s’il n’est pas divisible par l
 Donner le pseudo-code d’un algorithme permettant de calculer le nombre d’entiers naturels sans carré inférieurs ou égaux à $n$. Quelles sont ses complexités en temps et en espace ?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MzY2MzE2MF19
+eyJoaXN0b3J5IjpbLTI3NDYzMjQwMCwxMTQzNjYzMTYwXX0=
 -->
