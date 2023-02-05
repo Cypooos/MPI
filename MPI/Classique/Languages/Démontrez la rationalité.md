@@ -1,4 +1,4 @@
-Source : https://xavierbdm.fr/stabilite-des-langages-rationnels/
+> Source : https://xavierbdm.fr/stabilite-des-langages-rationnels/
 
 ## Démontrez la rationalité 
 Soit $L_1$ et $L_2$ deux langages rationnels.
@@ -14,5 +14,6 @@ Démontrez la rationalité des langages suivants :
 9) $\sqrt{L_1} = \{ \omega \in\Sigma^*\ |\ \omega\omega \in L_1 \}$
 10) $\frac{L_1}{2} = \{ \omega \in\Sigma^*\ |\ \exist\omega' \in \Sigma^* : |\omega| = |\omega'| \ \land\ \omega\omega'\in L_1 \}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDIyNzc4NywtMjg2NDE2MjAwXX0=
+eyJoaXN0b3J5IjpbMTgwNTU1NTAzMSwtNjM0MjI3Nzg3LC0yOD
+Y0MTYyMDBdfQ==
 -->
