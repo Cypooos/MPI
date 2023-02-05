@@ -1,7 +1,6 @@
-On fixe un ensemble $X = \{x_1, ... , x_n\}$ de variables booléennes. Un *diagramme de décision* $D$ sur X est la donnée d’un graphe orienté $(V, E)$, supposé sans cycle, d’un nœud initial $v_i \in  V  , d’une partition  
-de  V  en  V  =  V0  ⊔  V1  ⊔  V  ′, d’une partition de  E  en en  E  =  E0  ⊔  E1, et d’une fonction  μ  :  V  ′  →  X, de  
-sorte que :  
-— Aucun nœud  v  ∈  V0  ou  v  ∈  V1  n’a d’arête sortante, i.e., il n’existe aucun  w  ∈  V  tel que  
+On fixe un ensemble $X = \{x_1, ... , x_n\}$ de variables booléennes. Un *diagramme de décision* $D$ sur X est la donnée d’un graphe orienté $(V, E)$, supposé sans cycle, d’un nœud initial $v_i \in V$, d’une partition de $V$ en $V =  V_0 \sqcup V_1 \sqcup V′$, d’une partition de $E$ en $E = E_0 \sqcup E_1$, et d’une fonction $μ : V′ \to X$, de  
+sorte que:  
+— Aucun nœud  $v \in V_0$ ou  v  ∈  V1  n’a d’arête sortante, i.e., il n’existe aucun  w  ∈  V  tel que  
 (v, w)  ∈  E  ;  
 — Tout nœud  v  ∈  V  ′  a exactement une arête sortante dans  E0  et une arête sortante dans  E1, i.e.,  
 il existe exactement un  w0  ∈  V  et exactement un  w1  ∈  V  tels que  (v, w0)  ∈  E0  et  (v, w1)  ∈  E1.  
@@ -40,5 +39,5 @@ de  n. Donner un exemple d’une famille infinie de fonctions évasives, et just
 Question 7.  On considère, pour tout  n  ≥  1, la fonction booléenne  ψn  définie par la formule  (x0  ∧  
 x1)  ∨  (x1  ∧  x2)  ∨  (x2  ∧  x3)  ∨ · · · ∨  (xn−1  ∧  xn). Ces fonctions sont-elles évasives ? Justifier.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDkwMDA3ODFdfQ==
+eyJoaXN0b3J5IjpbLTgzMTg5MTg1NV19
 -->
