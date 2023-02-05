@@ -1,7 +1,7 @@
 On fixe un ensemble $X = \{x_1, ... , x_n\}$ de variables booléennes.
-Un *diagramme de décision* $D$ sur X est la donnée d’un graphe orienté $(V, E)$, supposé sans cycle, d’un nœud initial $v_i \in V$, d’une partition de $V$ en $V =  V_0 \sqcup V_1 \sqcup V'$, d’une partition de $E$ en $E = E_0 \sqcup E_1$, et d’une fonction $μ : V' \to X$, de  
-sorte que:  
-— Aucun nœud  $v \in V_0$ ou $v \in V_1$ n’a d’arête sortante, i.e., il n’existe aucun $w \in V$ tel que $(v, w) \in E$;  
+Un *diagramme de décision* $D$ sur $X$ est la donnée d’un graphe orienté $(V, E)$, supposé sans cycle, d’un nœud initial $v_i \in V$, d’une partition de $V$ en $V =  V_0 \sqcup V_1 \sqcup V'$, d’une partition de $E$ en $E = E_0 \sqcup E_1$, et d’une fonction $μ : V' \to X$, de sorte que:
+
+1) Aucun nœud  $v \in V_0$ ou $v \in V_1$ n’a d’arête sortante, i.e., il n’existe aucun $w \in V$ tel que $(v, w) \in E$;  
 — Tout nœud $v \in V′$ a exactement une arête sortante dans $E_0$ et une arête sortante dans $E_1$, i.e., il existe exactement un $w_0 \in V$ et exactement un $w_1 \in V$ tels que $(v, w_0) \in E_0$ et $(v, w_1) \in E_1$.
   
 Si on se donne une  valuation  ν  :  X  → {0,  1}, le diagramme de décision  D  associe  ν  à une valeur  
@@ -39,5 +39,5 @@ de  n. Donner un exemple d’une famille infinie de fonctions évasives, et just
 Question 7.  On considère, pour tout  n  ≥  1, la fonction booléenne  ψn  définie par la formule  (x0  ∧  
 x1)  ∨  (x1  ∧  x2)  ∨  (x2  ∧  x3)  ∨ · · · ∨  (xn−1  ∧  xn). Ces fonctions sont-elles évasives ? Justifier.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzA3MDQ2NDhdfQ==
+eyJoaXN0b3J5IjpbMTM4Mjc2Mjg4XX0=
 -->
