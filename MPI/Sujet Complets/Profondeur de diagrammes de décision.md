@@ -10,6 +10,7 @@ Si on se donne une *valuation* $\nu :  X \to \{0, 1\}$, le diagramme de décisio
 2) Une fois que $v\in V_0$ ou $v \in V_1$ alors on renvoie $0$ ou $1$ suivant le cas.
 
 ## Question 0
+![graphe](https://i.postimg.cc/nrWN8ywx/Capture-d-cran-du-2023-02-05-19-08-44.png)
 On considère $X = \{x_1, x_2, x_3, x_4\}$ et le diagramme $D_0$ suivant, où on indique dans chaque nœud la valeur de $μ$ ou l’appartenance à $V_0$ ou $V_1$, et on indique le nœud initial par une flèche :  
 
 À quelle valeur est associée la valuation qui envoie  x1, x2, x3, x4  respectivement vers  1,  1,  0,  1  ? vers  
@@ -30,5 +31,5 @@ de  n. Donner un exemple d’une famille infinie de fonctions évasives, et just
 Question 7.  On considère, pour tout  n  ≥  1, la fonction booléenne  ψn  définie par la formule  (x0  ∧  
 x1)  ∨  (x1  ∧  x2)  ∨  (x2  ∧  x3)  ∨ · · · ∨  (xn−1  ∧  xn). Ces fonctions sont-elles évasives ? Justifier.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0OTU0NjI5M119
+eyJoaXN0b3J5IjpbNDUwMDM2MDI1XX0=
 -->
