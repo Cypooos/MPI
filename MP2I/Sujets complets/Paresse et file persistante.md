@@ -12,6 +12,7 @@ Source : Sujet Ulm 2021 J2 https://a3nm.net/work/exams/ens/exercices_info_ulm_20
 5) Dans le pire cas, quelle est la complexité de chacune des opérations des ces deux implémentations ?
 
 Lorsque l’on analyse la complexité amortie d’une bibliothèque, on s’intéresse à la complexité d’une séquence d’opérations dans son ensemble plutôt qu’à la complexité de chaque opération fournie par la bibliothèque.
+
 Ainsi, même si une opération A est très coûteuse, son coût peut être compensé par l’exécution préalable d’un grand nombre d’opérations B, de façon à ce que la complexité globale de la séquence d’opérations soit asymptotiquement le même que si A était peu coûteuse.
 ## Question 1
 1) Faire l’analyse de complexité amortie de l’implémentation impérative de la question 0.
@@ -60,8 +61,8 @@ Le plus souvent, on enfilera les éléments au début de la liste `rear` et on l
 2) Prouver que le temps d’exécution amorti de chacune de ces deux opérations est O(1).
 
 ## Question 5
-Une liste paresseuse est-elle toujours de longueur finie ? Définir en OCaml une liste
-paresseuse qui énumère les carrés parfaits
+Une liste paresseuse est-elle toujours de longueur finie ? Définir en OCaml une liste paresseuse qui énumère les carrés parfaits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzAxNjM0NTQsMTIxNDk1NzM2XX0=
+eyJoaXN0b3J5IjpbLTE0NDI3NzY0MTYsLTExMzAxNjM0NTQsMT
+IxNDk1NzM2XX0=
 -->
