@@ -61,11 +61,22 @@ Retrouver la complexité de la recherche par dichotomie et du tri fusion avec ce
 En utilisant ce théorème, donner la complexité d'un problème dont la complexité est décrite par la formule de récurrence suivante :
 $$
 \begin{cases}
-T(n) = 8T(\frac{n}{2}) + \Theta(n^2) \text{pour} n  \\
-
+T(n) = 8T(\frac{n}{2}) + \Theta(n^2)\ \ \ \ \text{ pour } n\ge 2  \\
+T(1) = \Theta(1)
 \end{cases}
 $$
+
+## Question 11
+En utilisant ce théorème, donner la complexité d'un problème dont la complexité est décrite par la formule de récurrence suivante :
+$$
+\begin{cases}
+T(n) = 7T(\frac{n}{2}) + \Theta(n^2)\ \ \ \ \text{ pour } n\ge 2  \\
+T(1) = \Theta(1)
+\end{cases}
+$$
+## Question 12
+Le théorème s'applique-t-i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjg5MzU3NSwtNzk5Nzc3Njk1LC0xMz
+eyJoaXN0b3J5IjpbMTM3MzUxNDAwNiwtNzk5Nzc3Njk1LC0xMz
 YwNjk2MTE0XX0=
 -->
