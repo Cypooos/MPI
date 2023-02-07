@@ -12,11 +12,10 @@ rationnel strictement plus grand que 1), ainsi qu’un certain nombre d’autres
 
 Ainsi, le temps $T(n)$ pris pour résoudre le problème au rang $n$ est :
 $$
-T(n) = aT\Big(\frac{n}{b}\Big) + f(n)
+T(n) = a\times T\Big(\frac{n}{b}\Big) + f(n)
 $$
 Par simplicité, on supposera dans tout le problème qu’on applique toujours l’algorithme à un $n$ pour  
 lequel $\frac{n}{b}$ est un entier, y compris lors des appels récursifs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDA3MzkxNTIsLTEzNjA2OTYxMTRdfQ
-==
+eyJoaXN0b3J5IjpbMzg1NzI0MTE4LC0xMzYwNjk2MTE0XX0=
 -->
