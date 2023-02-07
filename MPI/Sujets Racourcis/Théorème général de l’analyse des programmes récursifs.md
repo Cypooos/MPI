@@ -35,41 +35,20 @@ $$
 
 où $c = \log_b(a)$
 
-## Question 6
+## Question 2
 
-Montrez que si $f(n) = O(n^{c'})$ avec $c' < c$, alors $T(n) = \Theta(n ^c)$
+1) Montrez que si $f(n) = O(n^{c'})$ avec $c' < c$, alors $T(n) = \Theta(n ^c)$
 
-## Question 7
+2) Montrez que si $f(n) = \Theta(n^c)$, alors $T(n) = \Theta(n ^c\log n)$
 
-Montrez que si $f(n) = \Theta(n^c)$, alors $T(n) = \Theta(n ^c\log n)$
-
-## Question 8
-
-Montrez que si $n^{c'}=O(f(n))$ avec $c'>c$ et si $a\times f(\frac{n}{b}) \le \alpha f(n)$ pour un certain $\alpha\in ]0;1[$, alors $$T(n) = \Theta(f(n))$$
+3) Montrez que si $n^{c'}=O(f(n))$ avec $c'>c$ et si $a\times f(\frac{n}{b}) \le \alpha f(n)$ pour un certain $\alpha\in ]0;1[$, alors $T(n) = \Theta(f(n))$
 
 ## Question 9
-Retrouver la complexité de la recherche par dichotomie et du tri fusion avec ce théorème.
+Retrouver la complexité des algorithmes de la question 0.
 
-## Question 10
-En utilisant ce théorème, donner la complexité d'un problème dont la complexité est décrite par la formule de récurrence suivante :
-$$
-\begin{cases}
-T(n) = 8T(\frac{n}{2}) + \Theta(n^2)\ \ \ \ \text{ pour } n\ge 2  \\
-T(1) = \Theta(1)
-\end{cases}
-$$
-
-## Question 11
-En utilisant ce théorème, donner la complexité d'un problème dont la complexité est décrite par la formule de récurrence suivante :
-$$
-\begin{cases}
-T(n) = 7T(\frac{n}{2}) + \Theta(n^2)\ \ \ \ \text{ pour } n\ge 2  \\
-T(1) = \Theta(1)
-\end{cases}
-$$
-## Question 12
+## Question 4
 Le théorème s'applique-t-il à toutes les récurrences de la forme $T(n) = a\times R(\frac{n}{b}) + f(n)$ ?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzODk4MDZdfQ==
+eyJoaXN0b3J5IjpbODAyNzI3OTUzXX0=
 -->
