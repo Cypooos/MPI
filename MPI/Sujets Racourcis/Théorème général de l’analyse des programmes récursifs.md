@@ -20,28 +20,19 @@ lequel $\frac{n}{b}$ est un entier, y compris lors des appels récursifs.
 Donner les valeurs de $a, b$ et une estimation asymptotique de $f(n)$ sous la forme d’un Θ(g(n)) pour les algorithmes suivants :
 1) L’algorithme de recherche par dichotomie dans un tableau de taille $n$.
 2) L’algorithme de tri fusion d’une liste de $n$ éléments.
-## Question 1
-Donner sous la forme de pseudo-code l’algorithme de tri fusion.
-En déduire les valeurs de $a, b$ et une estimation asymptotique de $f(n)$ sous la forme d’un $Θ(g(n))$ pour le cas de l’algorithme de tri fusion d’une liste de $n$ éléments.
+3) L'algorithme du calcul du carré d'une matrice naïf
 
 On cherche maintenant à résoudre la formule de récurrence définissant $T(n)$ dans le cas le plus  
 général possible pour permettre de déterminer la complexité asymptotique de l’algorithme $\mathcal{A}$.
-## Question 2
+## Question 1
 Représenter les appels récursifs effectués par $\mathcal{A}$ sur une entrée de taille $n$ sous la forme d’un arbre dont la racine représente l’appel principal et les enfants d’un nœud les appels récursifs directs effectués.
 On indiquera comme étiquette d’un nœud de l’arbre la taille de l’entrée.
 
-## Question 3
-Pour un certain $k\in\N$ fixé et inférieur à la hauteur de l’arbre, combien de nœuds de  
-profondeur $k$ (c’est-à-dire, à distance  k  de la racine) cet arbre comporte-t-il ?
-
-## Question 4
-Exprimer la hauteur de l’arbre en fonction de $n$ et $b$.
-
-## Question 5
 Montrer l’égalité suivante :
 $$
 T(n) = \Theta(n^c) + \sum_{k=0}^{\log_b(n-1)}a^kf\Big(\frac{n}{b^k}\Big)
 $$
+
 où $c = \log_b(a)$
 
 ## Question 6
@@ -80,5 +71,5 @@ $$
 Le théorème s'applique-t-il à toutes les récurrences de la forme $T(n) = a\times R(\frac{n}{b}) + f(n)$ ?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzY2OTY3MjRdfQ==
+eyJoaXN0b3J5IjpbNzAzODk4MDZdfQ==
 -->
