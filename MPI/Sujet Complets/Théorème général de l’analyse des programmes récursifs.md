@@ -38,9 +38,9 @@ Exprimer la hauteur de l’arbre en fonction de $n$ et $b$.
 ## Question 5
 Montrer l’égalité suivante :
 $$
-T(n) = \Theta(n^c) + \sum_{k=0}^{\log_b(n-1)}a^kf(\frac{n}{b^k})
+T(n) = \Theta(n^c) + \sum_{k=0}^{\log_b(n-1)}a^kf\Big(\frac{n}{b^k}\Big)
 $$
 où $c = \log_b(a)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzU0NjAwNCwtMTM2MDY5NjExNF19
+eyJoaXN0b3J5IjpbLTMwNzQ2NzM2MiwtMTM2MDY5NjExNF19
 -->
