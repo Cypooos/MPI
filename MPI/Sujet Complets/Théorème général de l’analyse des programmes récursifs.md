@@ -48,7 +48,11 @@ Montrez que si $f(n) = O(n^{c'})$ avec $c' < c$, alors $T(n) = \Theta(n ^c)$
 
 ## Question 7
 
-Montrez que si $f(n) = \Theta(n^c)$, alors $T(n) = \Theta(n ^c)$
+Montrez que si $f(n) = \Theta(n^c)$, alors $T(n) = \Theta(n ^c\log n)$
+
+## Question 8
+
+Montrez que si $n^{c'}=$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzEzMTQ4NSwtMTM2MDY5NjExNF19
+eyJoaXN0b3J5IjpbNTQwNzE1NjA4LC0xMzYwNjk2MTE0XX0=
 -->
