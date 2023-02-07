@@ -17,14 +17,17 @@ $$
 Par simplicité, on supposera dans tout le problème qu’on applique toujours l’algorithme à un $n$ pour  
 lequel $\frac{n}{b}$ est un entier, y compris lors des appels récursifs.
 ## Question 0
-Donner les valeurs de $a, b$ et une estimation asymptotique de $f(n)$ sous la forme d’un  
-Θ(g(n)) pour le cas de l’algorithme de recherche par dichotomie dans un tableau de taille $n$.
+Donner les valeurs de $a, b$ et une estimation asymptotique de $f(n)$ sous la forme d’un Θ(g(n)) pour le cas de l’algorithme de recherche par dichotomie dans un tableau de taille $n$.
 ## Question 1
 Donner sous la forme de pseudo-code l’algorithme de tri fusion.
-En déduire les valeurs de $a, b$ et une estimation asymptotique de $f(n)  sous la forme d’un  Θ(g(n))  
-pour le cas de l’algorithme de tri fusion d’une liste de  n  éléments.
-On cherche maintenant à résoudre la formule de récurrence définissant  T  (n)  dans le cas le plus  
-général possible pour permettre de déterminer la complexité asymptotique de l’algorithme  A.
+En déduire les valeurs de $a, b$ et une estimation asymptotique de $f(n)$ sous la forme d’un $Θ(g(n))$ pour le cas de l’algorithme de tri fusion d’une liste de $n$ éléments.
+
+On cherche maintenant à résoudre la formule de récurrence définissant $T(n)$ dans le cas le plus  
+général possible pour permettre de déterminer la complexité asymptotique de l’algorithme $\mathcal{A}$.
+## Question 2
+Représenter les appels récursifs effectués par $\mathcal{A}$ sur une entrée de taille $n$ sous la forme d’un arbre dont la racine représente l’appel principal et les enfants d’un nœud les appels récursifs 
+directs effectués. On indiquera comme étiquette d’un nœud de l’arbre la taille de l’entrée.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzIzMTI1OCwtMTM2MDY5NjExNF19
+eyJoaXN0b3J5IjpbLTQwNjAzMjk5NSwtMTM2MDY5NjExNF19
 -->
