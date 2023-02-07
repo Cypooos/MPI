@@ -1,6 +1,6 @@
 > Fonction, Récursivité, Équivalents, Analyse de programme
 
-Sujet P1 d'INFO théorique d'Ulm en 202, retravaillé pour qu'il 
+Sujet P1 d'INFO théorique d'Ulm en 202, retravaillé pour qu'il soit plus rapide et plus difficile
 Il me semble d'une importance cruciale de par à quel point il est général
 Source : https://a3nm.net/work/exams/ens/exercices_info_ulm_2021.pdf
 # Théorème général de l’analyse des programmes récursifs
@@ -17,7 +17,9 @@ $$
 Par simplicité, on supposera dans tout le problème qu’on applique toujours l’algorithme à un $n$ pour  
 lequel $\frac{n}{b}$ est un entier, y compris lors des appels récursifs.
 ## Question 0
-Donner les valeurs de $a, b$ et une estimation asymptotique de $f(n)$ sous la forme d’un Θ(g(n)) pour le cas de l’algorithme de recherche par dichotomie dans un tableau de taille $n$.
+Donner les valeurs de $a, b$ et une estimation asymptotique de $f(n)$ sous la forme d’un Θ(g(n)) pour les algorithmes suivants :
+1) L’algorithme de recherche par dichotomie dans un tableau de taille $n$.
+2) L’algorithme de tri fusion d’une liste de $n$ éléments.
 ## Question 1
 Donner sous la forme de pseudo-code l’algorithme de tri fusion.
 En déduire les valeurs de $a, b$ et une estimation asymptotique de $f(n)$ sous la forme d’un $Θ(g(n))$ pour le cas de l’algorithme de tri fusion d’une liste de $n$ éléments.
@@ -78,5 +80,5 @@ $$
 Le théorème s'applique-t-il à toutes les récurrences de la forme $T(n) = a\times R(\frac{n}{b}) + f(n)$ ?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjAyMzk3MDldfQ==
+eyJoaXN0b3J5IjpbLTE0MzY2OTY3MjRdfQ==
 -->
