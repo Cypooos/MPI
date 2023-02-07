@@ -52,7 +52,7 @@ Montrez que si $f(n) = \Theta(n^c)$, alors $T(n) = \Theta(n ^c\log n)$
 
 ## Question 8
 
-Montrez que si $n^{c'}=$
+Montrez que si $n^{c'}=O(f(n))$ avec $c'>c$ et si $a\times f(\frac{n}{b}) \le \alpha f(n)$ pour un certain $\alpha\in ]0;1[$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwNzE1NjA4LC0xMzYwNjk2MTE0XX0=
+eyJoaXN0b3J5IjpbNTc1NTM2OTkwLC0xMzYwNjk2MTE0XX0=
 -->
