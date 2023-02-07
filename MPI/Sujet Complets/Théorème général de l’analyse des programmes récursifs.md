@@ -55,10 +55,11 @@ Montrez que si $f(n) = \Theta(n^c)$, alors $T(n) = \Theta(n ^c\log n)$
 Montrez que si $n^{c'}=O(f(n))$ avec $c'>c$ et si $a\times f(\frac{n}{b}) \le \alpha f(n)$ pour un certain $\alpha\in ]0;1[$, alors $$T(n) = \Theta(f(n))$$
 
 ## Question 9
-Retrouver la complexité de la recherche par dichotomie et du tri fusion avec ce théorème
+Retrouver la complexité de la recherche par dichotomie et du tri fusion avec ce théorème.
 
 ## Question 10
-
+En utilisant ce théorème, donner la complexité d'un problème dont la complexité est décrite par la formule de récurrence suivante 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTc3NzY5NSwtMTM2MDY5NjExNF19
+eyJoaXN0b3J5IjpbMTMzMTY4MjQ2MSwtNzk5Nzc3Njk1LC0xMz
+YwNjk2MTE0XX0=
 -->
