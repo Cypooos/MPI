@@ -58,8 +58,14 @@ Montrez que si $n^{c'}=O(f(n))$ avec $c'>c$ et si $a\times f(\frac{n}{b}) \le \a
 Retrouver la complexité de la recherche par dichotomie et du tri fusion avec ce théorème.
 
 ## Question 10
-En utilisant ce théorème, donner la complexité d'un problème dont la complexité est décrite par la formule de récurrence suivante 
+En utilisant ce théorème, donner la complexité d'un problème dont la complexité est décrite par la formule de récurrence suivante :
+$$
+\begin{cases}
+T(n) = 8T(\frac{n}{2}) + \Theta(n^2) \text{pour} n  \\
+
+\end{cases}
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTY4MjQ2MSwtNzk5Nzc3Njk1LC0xMz
+eyJoaXN0b3J5IjpbMTAzNjg5MzU3NSwtNzk5Nzc3Njk1LC0xMz
 YwNjk2MTE0XX0=
 -->
