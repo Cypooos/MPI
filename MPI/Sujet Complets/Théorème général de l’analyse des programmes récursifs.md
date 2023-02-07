@@ -41,6 +41,14 @@ $$
 T(n) = \Theta(n^c) + \sum_{k=0}^{\log_b(n-1)}a^kf\Big(\frac{n}{b^k}\Big)
 $$
 où $c = \log_b(a)$
+
+## Question 6
+
+Montrez que si $f(n) = O(n^{c'})$ avec $c' < c$, alors $T(n) = \Theta(n ^c)$
+
+## Question 7
+
+Montrez que si $f(n) = \Theta(n^c)$, alors $T(n) = \Theta(n ^c)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzQ2NzM2MiwtMTM2MDY5NjExNF19
+eyJoaXN0b3J5IjpbMTM1MzEzMTQ4NSwtMTM2MDY5NjExNF19
 -->
