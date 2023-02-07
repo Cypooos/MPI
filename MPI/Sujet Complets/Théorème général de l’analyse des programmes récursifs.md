@@ -16,6 +16,15 @@ T(n) = a\times T\Big(\frac{n}{b}\Big) + f(n)
 $$
 Par simplicité, on supposera dans tout le problème qu’on applique toujours l’algorithme à un $n$ pour  
 lequel $\frac{n}{b}$ est un entier, y compris lors des appels récursifs.
+## Question 0
+Donner les valeurs de $a, b$ et une estimation asymptotique de $f(n)$ sous la forme d’un  
+Θ(g(n)) pour le cas de l’algorithme de recherche par dichotomie dans un tableau de taille $n$.
+## Question 1
+Donner sous la forme de pseudo-code l’algorithme de tri fusion.
+En déduire les valeurs de $a, b$ et une estimation asymptotique de $f(n)  sous la forme d’un  Θ(g(n))  
+pour le cas de l’algorithme de tri fusion d’une liste de  n  éléments.
+On cherche maintenant à résoudre la formule de récurrence définissant  T  (n)  dans le cas le plus  
+général possible pour permettre de déterminer la complexité asymptotique de l’algorithme  A.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1NzI0MTE4LC0xMzYwNjk2MTE0XX0=
+eyJoaXN0b3J5IjpbMTAyMzIzMTI1OCwtMTM2MDY5NjExNF19
 -->
