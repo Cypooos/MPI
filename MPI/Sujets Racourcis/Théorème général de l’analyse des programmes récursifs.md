@@ -22,8 +22,7 @@ Donner les valeurs de $a, b$ et une estimation asymptotique de $f(n)$ sous la fo
 2) L’algorithme de tri fusion d’une liste de $n$ éléments.
 3) L'algorithme du calcul du carré d'une matrice naïf
 
-On cherche maintenant à résoudre la formule de récurrence définissant $T(n)$ dans le cas le plus  
-général possible pour permettre de déterminer la complexité asymptotique de l’algorithme $\mathcal{A}$.
+On cherche maintenant à résoudre la formule de récurrence définissant $T(n)$ dans le cas le plus général possible pour permettre de déterminer la complexité asymptotique de l’algorithme $\mathcal{A}$.
 ## Question 1
 Représenter les appels récursifs effectués par $\mathcal{A}$ sur une entrée de taille $n$ sous la forme d’un arbre dont la racine représente l’appel principal et les enfants d’un nœud les appels récursifs directs effectués.
 On indiquera comme étiquette d’un nœud de l’arbre la taille de l’entrée.
@@ -43,12 +42,12 @@ où $c = \log_b(a)$
 
 3) Montrez que si $n^{c'}=O(f(n))$ avec $c'>c$ et si $a\times f(\frac{n}{b}) \le \alpha f(n)$ pour un certain $\alpha\in ]0;1[$, alors $T(n) = \Theta(f(n))$
 
-## Question 9
+## Question 3
 Retrouver la complexité des algorithmes de la question 0.
 
 ## Question 4
 Le théorème s'applique-t-il à toutes les récurrences de la forme $T(n) = a\times R(\frac{n}{b}) + f(n)$ ?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAyNzI3OTUzXX0=
+eyJoaXN0b3J5IjpbLTE5NDQ4NTM1MTddfQ==
 -->
