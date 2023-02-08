@@ -14,9 +14,10 @@ Donnez une version naïve de l'algorithme pour donner la liste des couples $(i,j
 
 ## Question 2
 Expliquer comment on peut transformer ce problème en la recherche de palindrome de longueur impaire. Donner le code d'une fonction effectuant cette transformation.
+En ne considérant que les palindromes de longueur impaire, donnez une version de l'algorithme recherché en $O(n²$
 
 ## Question 3
 On note $\rho_i$ la taille du plus grand palindrome centré en $i$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzNjkyNzIzLDEwODI0MTE1MDZdfQ==
+eyJoaXN0b3J5IjpbLTE2Mjk2MjYyMzYsMTA4MjQxMTUwNl19
 -->
