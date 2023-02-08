@@ -1,5 +1,5 @@
 Ce sont des sujets assez récurrents. Les palindromes sont par exemple à la base de l'oral A3 de l'ens ulm en 2019 (https://diplome.di.ens.fr/informatique-ens/annales/2019_InfoU-exercices.pdf)
-Voir l'exercice dans Suejt 
+Voir l'exercice dans Sujet Raccourcis 
 
 ## Tout les Palindromes
 > Oral A3 Q1 Ulm 2021
@@ -13,6 +13,6 @@ On dit que $\omega$ est un sous-mots (ou facteur) de $u$ s'il existe deux mots p
 Donnez le code d'une fonction qui à un string associe son plus long facteur palindrome. Quel est la complexité ? 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzUxMDU1MTIsLTczMTY2NDg3NSwtNT
-c5NjUyMDQ4XX0=
+eyJoaXN0b3J5IjpbMTMzMDIxOTY3NCwtNzMxNjY0ODc1LC01Nz
+k2NTIwNDhdfQ==
 -->
