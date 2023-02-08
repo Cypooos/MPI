@@ -1,4 +1,4 @@
-Ce sont des sujets assez récurrents. Les palindromes sont à la base de cet oral de l'ens ULM
+Ce sont des sujets assez récurrents. Les palindromes sont par exemple à la base de l'oral A3 de l'ens ulm en 2019 (https://diplome.di.ens.fr/informatique-ens/annales/2019_InfoU-exercices.pdf)
 
 ## Tout les Palindromes
 > Oral A3 Q1  Ulm 2021
@@ -9,7 +9,9 @@ Donnez le code d'une fonction qui à un string associe la liste de tout ses fact
 ## Le plus long Palindrome
 On dit que $\omega$ est un sous-mots (ou facteur) de $u$ s'il existe deux mots potentiellement vide $a$, $b$ tel que $u=a.\omega.b$ (l'opération $.$ est ici la concaténation)
 Donnez le code d'une fonction qui à un string associe son plus long palindrome. Quel est la complexité ? 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjY5MjM1NTYsLTczMTY2NDg3NSwtNT
-c5NjUyMDQ4XX0=
+eyJoaXN0b3J5IjpbODc1NjE1NDI2LC03MzE2NjQ4NzUsLTU3OT
+Y1MjA0OF19
 -->
