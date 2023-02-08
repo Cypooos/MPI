@@ -13,7 +13,9 @@ Le but de ce sujet est de calculer le nombre de facteurs palindromes d'un mot $\
 Donnez une version naïve pour donner la liste des couples $(i,j)$ tel que le facteur de $\omega$ commençant en $i$ et terminant en $j$ soit un palindrome. 
 
 ## Question 2
+Optimisez votre algorithme pour qu'il ai une complexité de $O(n^2)$. On pourra réfléchir sur la parité de la longueur du mot.
+## Question 3
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2NjQ4MzgyXX0=
+eyJoaXN0b3J5IjpbODg1MjczOTRdfQ==
 -->
