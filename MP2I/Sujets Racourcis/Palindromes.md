@@ -18,7 +18,10 @@ En ne considérant que les palindromes de longueur impaire, donnez une version d
 
 ## Question 3
 On note $\rho_i$ la longueur du plus grand palindrome centré en $i$
-Donnez une formule de récurrence entre $\rho$
+Donnez une inégalité sur $\rho_{i+d}$ qui fasse intervenir $\rho_{i-d}$
+Donnez une condition suffisante pour qu'il y ait égalité.
+
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2MjY3MzMzLDEwODI0MTE1MDZdfQ==
+eyJoaXN0b3J5IjpbLTEzNjcwOTE4MjMsMTA4MjQxMTUwNl19
 -->
