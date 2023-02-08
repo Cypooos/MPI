@@ -8,8 +8,7 @@ Si l’on fixe un langage régulier  $L \sube \Sigma^*$, le problème d’appart
 
 ## Question 2
 Ce sujet s’intéresse à la *complexité incrémentale* du problème d’appartenance à un langage régulier $L$.
-Dans ce problème, on reçoit en entrée un mot $\omega \in\Sigma^*$ de longueur $n$. On effectue d’abord un pré-traitement pour déterminer si $\omega\inL$ et pour construire si on le souhaite une structure de données auxiliaire : cette phase de pré-traitement doit s’exécuter en $O(n)$. Ensuite, on reçoit des *mises à jour*, c’est-à-dire des paires $(i, a)$ pour $1\le i\le n$ et $a\in\Sigma$, données l’une après l’autre. À chaque mise à jour,  
-on modifie le mot  w  pour que sa  i-ème lettre devienne  a, et on doit déterminer si  w  ∈  L  après cette  
+Dans ce problème, on reçoit en entrée un mot $\omega \in\Sigma^*$ de longueur $n$. On effectue d’abord un pré-traitement pour déterminer si $\omega\inL$ et pour construire si on le souhaite une structure de données auxiliaire : cette phase de pré-traitement doit s’exécuter en $O(n)$. Ensuite, on reçoit des *mises à jour*, c’est-à-dire des paires $(i, a)$ pour $1\le i\le n$ et $a\in\Sigma$, données l’une après l’autre. À chaque mise à jour, on modifie le mot $\omega$ pour que sa $i$-ème lettre devienne $a$, et on doit déterminer si  w  ∈  L  après cette  
 modification. La longueur  n  du mot ne change jamais. La  complexité incrémentale  d’un langage est la  
 complexité dans le pire cas pour prendre en compte une mise à jour, exprimée en fonction de  n.  
 Question 1.  Montrer que tout langage régulier a une complexité incrémentale en  O(n).  
@@ -41,5 +40,5 @@ Question 9.  On s’intéresse aux langages réguliers admettant au moins une �
 que le candidat ou la candidate aura dû identifier à la question 7). Proposer une classe aussi générale  
 que possible de langages de complexité incrémentale en  O(1).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjE5NDYxNiw0NjE5MDEyNTZdfQ==
+eyJoaXN0b3J5IjpbLTE1MDM1MzAxMDgsNDYxOTAxMjU2XX0=
 -->
