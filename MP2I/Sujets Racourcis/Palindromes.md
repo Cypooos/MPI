@@ -17,7 +17,8 @@ Expliquer comment on peut transformer ce problème en la recherche de palindrome
 En ne considérant que les palindromes de longueur impaire, donnez une version de l'algorithme recherché en $O(n^2)$ 
 
 ## Question 3
-On note $\rho_i$ la taille du plus grand palindrome centré en $i$
+On note $\rho_i$ la longueur du plus grand palindrome centré en $i$
+Donnez une formule de récurrence entre $\rho$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1MTExNzU3LDEwODI0MTE1MDZdfQ==
+eyJoaXN0b3J5IjpbODM2MjY3MzMzLDEwODI0MTE1MDZdfQ==
 -->
