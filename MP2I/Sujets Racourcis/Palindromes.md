@@ -10,8 +10,9 @@ Un palindrome est un mot dont la lecture de gauche à droite et de droite à gau
 Le but de ce sujet est de calculer le nombre de facteurs palindromes d'un mot $\omega$.
 ## Question 1
 
-Donnez une version naïve pour donner la liste des couples $(i,j)$ tel que le facteur de $\omega$ commeçant 
+Donnez une version naïve pour donner la liste des couples $(i,j)$ tel que le facteur de $\omega$ commençant en $i$ et terminant en $j$ soit un palindrome. 
+On cherchera à obtenir une version plus optimisé (en $O(n^2)$en mémoïsant
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjAxMjkyNTNdfQ==
+eyJoaXN0b3J5IjpbMTU1NjEyMDIzMl19
 -->
