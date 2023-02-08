@@ -23,6 +23,7 @@ Donnez une condition suffisante pour qu'il y ait égalité.
 
 ## Question 4
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDMzMzcyNDMsMTA4MjQxMTUwNl19
+eyJoaXN0b3J5IjpbLTYzODg3NTY5MywxMDgyNDExNTA2XX0=
 -->
