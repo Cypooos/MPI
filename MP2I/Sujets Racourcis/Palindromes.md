@@ -5,11 +5,13 @@ Source : oral A3 tomé à l'ens ulm en 2019 https://diplome.di.ens.fr/informatiq
 Un mot est ici un `string`
 
 On dit que $\omega$ est un sous-mot (ou facteur) d'un mot $u$ s'il existe deux mots potentiellement vide $a$, $b$ tel que $u=a.\omega.b$ (l'opération $.$ est ici la concaténation)
+Un palindrome est un mot dont la lecture de gauche à droite et de droite à gauche des lettres donne la même chose.
 
-Le but de ce sujet est de calculer le nombre de facteurs palindromes d'un mot $\omega$, soit le nombre de couples $(i,j) \in\N²$ tel que $\omega$[i:j]
+Le but de ce sujet est de calculer le nombre de facteurs palindromes d'un mot $\omega$.
 ## Question 1
 
+Donnez une version na
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3NjQxMjRdfQ==
+eyJoaXN0b3J5IjpbLTExMjc5ODk5NzZdfQ==
 -->
