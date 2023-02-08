@@ -1,4 +1,4 @@
-
+EN COURS
 Source : Exercice oral A3 de l'ens Ulm 2021 https://a3nm.net/work/exams/ens/exercices_info_ulm_2021.pdf
 
 # Maintenance incrémentale de langages réguliers  
@@ -44,6 +44,6 @@ Question 9.  On s’intéresse aux langages réguliers admettant au moins une �
 que le candidat ou la candidate aura dû identifier à la question 7). Proposer une classe aussi générale  
 que possible de langages de complexité incrémentale en  O(1).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzc1OTQyNjAsLTE1MDM1MzAxMDgsND
+eyJoaXN0b3J5IjpbLTE4NTIxMTQ0NjUsLTE1MDM1MzAxMDgsND
 YxOTAxMjU2XX0=
 -->
