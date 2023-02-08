@@ -13,10 +13,12 @@ Dans ce problème, on reçoit en entrée un mot $\omega \in\Sigma^*$ de longueur
 Montrer que tout langage régulier a une complexité incrémentale en $O(n)$.
 
 ## Question 2
-Montrer que le langage régulier $a$ sur l’alphabet  Σ =  {a, b}  a une complexité incrémen-  
-tale en  O(1).  
-Question 3.  Soit  L3  le langage des mots sur l’alphabet  Σ =  {a, b}  comportant au moins deux  a, un  
-nombre pair de  a, et un nombre de  b  qui n’est pas divisible par 3. Ce langage est-il régulier ? Quelle  
+Montrer que le langage régulier $a^*$ sur l’alphabet $\Sigma = \{a, b\}$ a une complexité incrémentale en $O(1)$.
+## Question 3
+Soit  $L_3$  le langage des mots sur l’alphabet $\Sigma = \{a, b\}$ : 
+- Comportant au moins deux $a$,
+- Un nombre pair de $a$,
+- Un nombre de  b$ qui n’est pas divisible par 3. Ce langage est-il régulier ? Quelle  
 est sa complexité incrémentale ?  
 Question 4.  On dénote par  w1, . . . , wn  les lettres d’un mot  w  ∈  Σ∗  de longueur  n. Pour toute  
 permutation  σ  :  {1, . . . , n} → {1, . . . , n}, on écrit par abus de notation  σ(w)  pour désigner le mot  
@@ -41,6 +43,6 @@ Question 9.  On s’intéresse aux langages réguliers admettant au moins une �
 que le candidat ou la candidate aura dû identifier à la question 7). Proposer une classe aussi générale  
 que possible de langages de complexité incrémentale en  O(1).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1NDQ1MzM4LC0xNTAzNTMwMTA4LDQ2MT
-kwMTI1Nl19
+eyJoaXN0b3J5IjpbMjA2MjI0OTQxMCwtMTUwMzUzMDEwOCw0Nj
+E5MDEyNTZdfQ==
 -->
