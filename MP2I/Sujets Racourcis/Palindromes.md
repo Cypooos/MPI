@@ -21,7 +21,8 @@ On note $\rho_i$ la longueur du plus grand palindrome centré en $i$
 Donnez une inégalité sur $\rho_{i+d}$ qui fasse intervenir $\rho_{i-d}$
 Donnez une condition suffisante pour qu'il y ait égalité.
 
-## 
+## Question 4
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjcwOTE4MjMsMTA4MjQxMTUwNl19
+eyJoaXN0b3J5IjpbLTIxMDMzMzcyNDMsMTA4MjQxMTUwNl19
 -->
