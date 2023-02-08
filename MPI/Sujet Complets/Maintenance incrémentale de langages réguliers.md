@@ -18,10 +18,11 @@ Montrer que le langage régulier $a^*$ sur l’alphabet $\Sigma = \{a, b\}$ a un
 Soit  $L_3$  le langage des mots sur l’alphabet $\Sigma = \{a, b\}$ : 
 - Comportant au moins deux $a$,
 - Un nombre pair de $a$,
-- Un nombre de  b$ qui n’est pas divisible par 3. Ce langage est-il régulier ? Quelle  
-est sa complexité incrémentale ?  
-Question 4.  On dénote par  w1, . . . , wn  les lettres d’un mot  w  ∈  Σ∗  de longueur  n. Pour toute  
-permutation  σ  :  {1, . . . , n} → {1, . . . , n}, on écrit par abus de notation  σ(w)  pour désigner le mot  
+- Un nombre de $b$ qui n’est pas divisible par 3.
+
+Ce langage est-il régulier ? Quelle est sa complexité incrémentale ?
+## Question 4
+On dénote par $\omega_1, ... , \omega_n$ les lettres d’un mot $\omega\in\Sigma^*$ de longueur $n$. Pour toute permutation  σ  :  {1, . . . , n} → {1, . . . , n}, on écrit par abus de notation  σ(w)  pour désigner le mot  
 wσ(1)  · · ·  wσ(n). Un langage  L  est  commutatif  si pour tout  w  ∈  Σ∗, pour  n  la longueur de  w, pour toute  
 permutation  σ  :  {1, . . . , n} → {1, . . . , n}, on a  w  ∈  L  si et seulement si  σ(w)  ∈  L.  
 Montrer que tout langage régulier commutatif a une complexité incrémentale en  O(1).  
@@ -43,6 +44,6 @@ Question 9.  On s’intéresse aux langages réguliers admettant au moins une �
 que le candidat ou la candidate aura dû identifier à la question 7). Proposer une classe aussi générale  
 que possible de langages de complexité incrémentale en  O(1).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjI0OTQxMCwtMTUwMzUzMDEwOCw0Nj
-E5MDEyNTZdfQ==
+eyJoaXN0b3J5IjpbLTExNzc1OTQyNjAsLTE1MDM1MzAxMDgsND
+YxOTAxMjU2XX0=
 -->
