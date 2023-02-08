@@ -23,7 +23,8 @@ Donnez une condition suffisante pour qu'il y ait égalité.
 
 ## Question 4
 
-
+Sur la base de cette observation, améliorer l’algorithme de la question 4 pour qu’il  
+fonctionne en temps linéaire
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODg3NTY5MywxMDgyNDExNTA2XX0=
+eyJoaXN0b3J5IjpbLTEzOTIzNzYyNDIsMTA4MjQxMTUwNl19
 -->
