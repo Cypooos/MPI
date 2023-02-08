@@ -1,5 +1,6 @@
+Un sujet tout entier peut parfois être à la limite d'un exercice classique de sup ! En voici un.
 
-Source : oral A3 tomé à l'ens ulm en 2019 https://diplome.di.ens.fr/informatique-ens/annales/2019_InfoU-exercices.pdf
+Source : oral A3 retravailler tombé à l'ENS Ulm en 2019 https://diplome.di.ens.fr/informatique-ens/annales/2019_InfoU-exercices.pdf
 
 # Palindromes
 Un mot est ici un `string`
@@ -14,6 +15,7 @@ Donnez une version naïve de l'algorithme pour donner la liste des couples $(i,j
 
 ## Question 2
 Expliquer comment on peut transformer ce problème en la recherche de palindrome de longueur impaire. Donner le code d'une fonction effectuant cette transformation.
+
 En ne considérant que les palindromes de longueur impaire, donnez une version de l'algorithme recherché en $O(n^2)$ 
 
 ## Question 3
@@ -25,5 +27,5 @@ Donnez une condition suffisante pour qu'il y ait égalité.
 
 Sur la base de cette observation, améliorer l’algorithme pour qu’il fonctionne en temps linéaire
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTA4Mzk2NDYsMTA4MjQxMTUwNl19
+eyJoaXN0b3J5IjpbLTMzNTk0NTEwNCwxMDgyNDExNTA2XX0=
 -->
