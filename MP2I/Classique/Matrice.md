@@ -39,6 +39,16 @@ $$
 Donnez $\Gamma \times \Delta$ en fonction des $(M_i)_i$
 Modifier l'algorithme pour qu'il soit plus efficace (de meilleure complexité). Quelle est-elle ?
 
+## Solution
+
+$$
+\Gamma\times \Delta = \begin{pmatrix}
+M_1 & B \\
+C & D 
+\end{pmatrix}
+$$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU3ODI4NTUsMjg5NjY0NTNdfQ==
+eyJoaXN0b3J5IjpbLTk2OTg2NzkxMCwtMjAwNTc4Mjg1NSwyOD
+k2NjQ1M119
 -->
