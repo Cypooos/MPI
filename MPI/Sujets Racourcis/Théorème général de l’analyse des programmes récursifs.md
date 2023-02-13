@@ -20,7 +20,7 @@ lequel $\frac{n}{b}$ est un entier, y compris lors des appels récursifs.
 Donner les valeurs de $a, b$ et une estimation asymptotique de $f(n)$ sous la forme d’un Θ(g(n)) pour les algorithmes suivants :
 1) L’algorithme de recherche par dichotomie dans un tableau de taille $n$.
 2) L’algorithme de tri fusion d’une liste de $n$ éléments.
-3) L'algorithme du calcul du carré d'une matrice naïf
+3) L'algorithme du calcul du carré d'une matrice diviser pour régner
 
 On cherche maintenant à résoudre la formule de récurrence définissant $T(n)$ dans le cas le plus général possible pour permettre de déterminer la complexité asymptotique de l’algorithme $\mathcal{A}$.
 ## Question 1
@@ -49,5 +49,5 @@ Retrouver la complexité des algorithmes de la question 0.
 Le théorème s'applique-t-il à toutes les récurrences de la forme $T(n) = a\times R(\frac{n}{b}) + f(n)$ ?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDQ4NTM1MTddfQ==
+eyJoaXN0b3J5IjpbNzcxODc2MTgwXX0=
 -->
