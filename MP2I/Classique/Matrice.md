@@ -33,12 +33,12 @@ $$
 &M_4 = D(Y-W)\\
 &M_5 = (A+B)Z \\
 &M_6 = (C-A)(W+X) \\
-&M_7 = (B-D)(W+X) \\
+&M_7 = (B-D)(Y+Z) \\
 \end{align*}
 $$
 Donnez $\Gamma \times \Delta$ en fonction des $(M_i)_i$
 Modifier l'algorithme pour qu'il soit plus efficace (de meilleure complexité). Quelle est-elle ?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5NjY0NTNdfQ==
+eyJoaXN0b3J5IjpbLTIwMDU3ODI4NTUsMjg5NjY0NTNdfQ==
 -->
