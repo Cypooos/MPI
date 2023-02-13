@@ -43,12 +43,12 @@ Modifier l'algorithme pour qu'il soit plus efficace (de meilleure complexité). 
 
 $$
 \Gamma\times \Delta = \begin{pmatrix}
-M_1 & B \\
+M_1 + M_7 & B \\
 C & D 
 \end{pmatrix}
 $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTg2NzkxMCwtMjAwNTc4Mjg1NSwyOD
+eyJoaXN0b3J5IjpbLTQ1MjU0NzIyMiwtMjAwNTc4Mjg1NSwyOD
 k2NjQ1M119
 -->
