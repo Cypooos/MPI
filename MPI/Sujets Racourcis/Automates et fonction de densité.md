@@ -11,7 +11,7 @@ Donner un exemple d’un langage régulier épars, et d’un langage régulier n
 ### Question 2
 Proposer une condition suffisante et nécessaire sur un automate fini pour que le langage accepté par l’automate ne soit pas épars.
 ### Question 3
-Écrire le pseudocode d’un algorithme naïf pour tester le critère de la question 2 sur un automate fourni en entrée, et discuter de sa complexité.
+Écrire le pseudo code d’un algorithme naïf pour tester le critère de la question 2 sur un automate fourni en entrée, et discuter de sa complexité.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDA3NjQyOV19
+eyJoaXN0b3J5IjpbNTU5OTc3MTMzLDEzNjAwNzY0MjldfQ==
 -->
