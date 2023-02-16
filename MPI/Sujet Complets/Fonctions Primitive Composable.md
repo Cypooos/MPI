@@ -32,10 +32,11 @@ est dans $\mathcal{C}_{s+1}$
 Montrez qu'elle est aussi dans $\mathcal{C}_{s}$
 
 ## Question 3
-Montrer que pour toute fonction $f\in\mathcal{C}_s$ de type $\N^n\to\N$, il existe un entier $0\le i \le n$ et une fonction $g\in\mathcal{C}_s$ de type $\N\to\N$ telle que pour tout $x_0,...,x_{n-1}$, on a $$
+Montrer que pour toute fonction $f\in\mathcal{C}_s$ de type $\N^n\to\N$, il existe un entier $0\le i \le n$ et une fonction $g\in\mathcal{C}_s$ de type $\N\to\N$ telle que pour tout $x_0,...,x_{n-1}$, on a
+$$
 f(x_0,...,x_{n-1}) = g(x_i)
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3MzIzMzE0LC0xMzg2ODgzMzgxLC0zMT
-g1NjAyNTksMTIyMDU4MzMzOSwtMzU5NTEyODA5XX0=
+eyJoaXN0b3J5IjpbMTI4MzQ3ODU1MiwtMTM4Njg4MzM4MSwtMz
+E4NTYwMjU5LDEyMjA1ODMzMzksLTM1OTUxMjgwOV19
 -->
