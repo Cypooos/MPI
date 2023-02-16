@@ -8,7 +8,7 @@ Source : https://a3nm.net/work/exams/ens/exercices_info_ulm_2021.pdf
 On appelle fonctions de base les fonctions suivantes :
 1. la fonction constante $0$, notée $Z : \N \to \N$, et définie par $Z(n) = 0$
 2. la fonction successeur $S : \N \to \N$ , définie par $S(n) = n + 1$
-3. les fonctions de projection $\pi_n^i : \N^n \to \N$ définies pour $0 \le i < n \in \N$ par $\pi_n^i(x_0, . . . , x_{n−1}) = x_i$
+3. les fonctions de projection $\pi_n^i : \N^n \to \N$ définies pour $0 \le i \le n$ par $\pi_n^i(x_0, . . . , x_{n−1}) = x_i$
 
 On pose $\mathcal{C}_0$ la classe des fonctions de base.
 
@@ -35,7 +35,7 @@ $$
 f(x_0,...,x_{n-1}) = g(x_i)
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNTcxMzgzMywxMjgzNDc4NTUyLC0xMz
+eyJoaXN0b3J5IjpbLTg3MzY4OTcxNywxMjgzNDc4NTUyLC0xMz
 g2ODgzMzgxLC0zMTg1NjAyNTksMTIyMDU4MzMzOSwtMzU5NTEy
 ODA5XX0=
 -->
