@@ -3,7 +3,7 @@
 Sujet tombé à l'oral L3 d'INFO théorique d'Ulm en 2021
 Source : https://a3nm.net/work/exams/ens/exercices_info_ulm_2021.pdf
 
-## Fonctions Primitives Composable
+# Fonctions Primitives Composable
 
 
 On appelle fonctions de base les fonctions suivantes :
@@ -20,8 +20,11 @@ $$h(x_0, . . . , x_{k−1}) = f(g_0(x_0, . . . , x_{k−1}), . . . , g_{n−1}(x
  On dira que $h$ est la composé de $f$ par $g_0,...,g_{n-1}$, on notera $h = f\circ (g_0,...,g_{n-1})$
  
  Soit $\mathcal{C}^∞ = \bigcup_{s=0}^\infin \mathcal{C}_s$ la plus petite classe de fonctions contenant les fonctions de base, et close par l’opération de composition définie ci-dessus.
-TODO : recopier la suite...
+
+## Question 1
+Montrer que pour toute fonction $f:\N^2\to\N$  f  :  N2  →  N  dans  Cs, la fonction  g  :  N2  →  N  définie par  
+g(x, y) =  f  (y, x)  est dans  Cs+1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODY4ODMzODEsLTMxODU2MDI1OSwxMj
-IwNTgzMzM5LC0zNTk1MTI4MDldfQ==
+eyJoaXN0b3J5IjpbMTE3MzM5MzU5NiwtMTM4Njg4MzM4MSwtMz
+E4NTYwMjU5LDEyMjA1ODMzMzksLTM1OTUxMjgwOV19
 -->
