@@ -5,7 +5,6 @@ Source : https://a3nm.net/work/exams/ens/exercices_info_ulm_2021.pdf
 
 # Fonctions Primitives Composable
 
-
 On appelle fonctions de base les fonctions suivantes :
 1. la fonction constante $0$, notée $Z : \N \to \N$, et définie par $Z(n) = 0$
 2. la fonction successeur $S : \N \to \N$ , définie par $S(n) = n + 1$
@@ -36,7 +35,7 @@ $$
 f(x_0,...,x_{n-1}) = g(x_i)
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzg3MDc3OSwxMjgzNDc4NTUyLC0xMz
+eyJoaXN0b3J5IjpbMjAwNTcxMzgzMywxMjgzNDc4NTUyLC0xMz
 g2ODgzMzgxLC0zMTg1NjAyNTksMTIyMDU4MzMzOSwtMzU5NTEy
 ODA5XX0=
 -->
