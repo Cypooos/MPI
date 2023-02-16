@@ -16,11 +16,11 @@ Etant donné $\mathcal{C}_s$, soit $\mathcal{C}_{s+1}$ la classe qui contient le
 $$h(x_0, . . . , x_{k−1}) = f(g_0(x_0, . . . , x_{k−1}), . . . , g_{n−1}(x_0, . . . , x_{k−1}))$$
  appartient à $\mathcal{C}_{s+1}$.
  
- On dira que $h$ est la composé de $f$ par $g_0,...,g_{n-1}$, on nottera $h = $
+ On dira que $h$ est la composé de $f$ par $g_0,...,g_{n-1}$, on notera $h = f\$
  
  Soit $\mathcal{C}^∞ = \bigcup_{s=0}^\infin \mathcal{C}_s$ la plus petite classe de fonctions contenant les fonctions de base, et close par l’opération de **composition** définie ci-dessus.
 TODO : recopier la suite...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODU2MDI1OSwxMjIwNTgzMzM5LC0zNT
-k1MTI4MDldfQ==
+eyJoaXN0b3J5IjpbLTEyMzk2NDcwNjMsLTMxODU2MDI1OSwxMj
+IwNTgzMzM5LC0zNTk1MTI4MDldfQ==
 -->
