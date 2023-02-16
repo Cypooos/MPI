@@ -13,10 +13,8 @@ On appelle fonctions de base les fonctions suivantes :
 
 On pose $\mathcal{C}_0$ la classe des fonctions de base.
 
-Pour tout $f:\N^n\to \N\in\mathcal{C}_s$ et $g_1,...,g_n : \N^k \to\N \in \mathcal{C}_s$, on a $h = f\circ (g_1,...,g_n) \in\mathcal{C}_{s+1}$ définie par, pour tout $x_1,...,x_n\in\N$
-
-Etant donné $\mathcal{C}_s$, soit $\mathcal{C}_{s+1}$ la classe qui contient les fonctions de $\mathcal{C}_s$, et telle que pour tous $n, k \in \N$, pour toutes fonctions $g_0, . . . , g_{n−1} \in \mathcal{C}_s$ de type $\N^k → \N$ et toute fonction $f \in C_s$ de type $\N^n \to \N$, la fonction $h : \N^k \to \N$ définie par
-$$h(x_0, . . . , x_{k−1}) = f(g_0(x_0, . . . , x_{k−1}), . . . , g_{n−1}(x_0, . . . , x_{k−1}))$$
+Pour tout $f:\N^n\to \N\in\mathcal{C}_s$ et $g_1,...,g_n : \N^k \to\N \in \mathcal{C}_s$, on a $h = f\circ (g_1,...,g_n) \in\mathcal{C}_{s+1}$ définie par, pour tout $x_1,...,x_n\in\N$ : 
+$$h(x_1, . . . , x_{n}) = f(g_1(x_0, . . . , x_{k−1}), . . . , g_n(x_0, . . . , x_{k−1}))$$
 
  appartient à $\mathcal{C}_{s+1}$.
  
@@ -40,7 +38,7 @@ $$
 f(x_0,...,x_{n-1}) = g(x_i)
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzE3MTUxNiwxMjgzNDc4NTUyLC0xMz
+eyJoaXN0b3J5IjpbMjEzNDg0NDI3NywxMjgzNDc4NTUyLC0xMz
 g2ODgzMzgxLC0zMTg1NjAyNTksMTIyMDU4MzMzOSwtMzU5NTEy
 ODA5XX0=
 -->
