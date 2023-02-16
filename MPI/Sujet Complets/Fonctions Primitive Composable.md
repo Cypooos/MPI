@@ -26,8 +26,16 @@ Montrer que pour toute fonction $f:\N^2\to\N$ dans $\mathcal{C}_s$, la fonction 
 $$
 g(x,y) = f(y,x)
 $$
-est dans $$
+est dans $\mathcal{C}_{s+1}$
+
+## Question 2
+Montrez qu'elle est aussi dans $\mathcal{C}_{s}$
+
+## Question 3
+Montrer que pour toute fonction  f  ∈ Cs  de type  Nn  →  N, il existe un entier  0  ≤  i < n  
+et une fonction  g  ∈ Cs  de type  N  →  N  telle que pour tout  x0, . . . , xn−1,  
+f  (x0, . . . , xn−1) =  g(xi)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTI1Mzk0NiwtMTM4Njg4MzM4MSwtMz
+eyJoaXN0b3J5IjpbMTU0MjQ3NDQzNSwtMTM4Njg4MzM4MSwtMz
 E4NTYwMjU5LDEyMjA1ODMzMzksLTM1OTUxMjgwOV19
 -->
