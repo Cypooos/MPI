@@ -13,12 +13,10 @@ On appelle fonctions de base les fonctions suivantes :
 
 On pose $\mathcal{C}_0$ la classe des fonctions de base.
 
-Pour tout $f:\N^n\to \N\in\mathcal{C}_s$ et $g_1,...,g_n : \N^k \to\N \in \mathcal{C}_s$, on a $h = f\circ (g_1,...,g_n) \in\mathcal{C}_{s+1}$ définie par, pour tout $x_1,...,x_n\in\N$ : 
-$$h(x_1, . . . , x_{n}) = f(g_1(x_0, . . . , x_{k−1}), . . . , g_n(x_0, . . . , x_{k−1}))$$
+Pour tout $f:\N^n\to \N\in\mathcal{C}_s$ et $g_1,...,g_n : \N^k \to\N \in \mathcal{C}_s$, on a $h = f\circ (g_1,...,g_n) \in\mathcal{C}_{s+1}$ définie par, pour tout $x_1,...,x_k\in\N$ : 
+$$h(x_1, . . . , x_k) = f(g_1(x_1, . . . , x_k), . . . , g_n(x_1, . . . , x_k))$$
 
  appartient à $\mathcal{C}_{s+1}$.
- 
- On dira que $h$ est la composé de $f$ par $g_0,...,g_{n-1}$, on notera $h = f\circ (g_0,...,g_{n-1})$
  
  Soit $\mathcal{C}^∞ = \bigcup_{s=0}^\infin \mathcal{C}_s$ la plus petite classe de fonctions contenant les fonctions de base, et close par l’opération de composition définie ci-dessus.
 
@@ -38,7 +36,7 @@ $$
 f(x_0,...,x_{n-1}) = g(x_i)
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNDg0NDI3NywxMjgzNDc4NTUyLC0xMz
+eyJoaXN0b3J5IjpbMTQwMzg3MDc3OSwxMjgzNDc4NTUyLC0xMz
 g2ODgzMzgxLC0zMTg1NjAyNTksMTIyMDU4MzMzOSwtMzU5NTEy
 ODA5XX0=
 -->
