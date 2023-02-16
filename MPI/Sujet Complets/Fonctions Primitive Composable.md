@@ -22,9 +22,12 @@ $$h(x_0, . . . , x_{k−1}) = f(g_0(x_0, . . . , x_{k−1}), . . . , g_{n−1}(x
  Soit $\mathcal{C}^∞ = \bigcup_{s=0}^\infin \mathcal{C}_s$ la plus petite classe de fonctions contenant les fonctions de base, et close par l’opération de composition définie ci-dessus.
 
 ## Question 1
-Montrer que pour toute fonction $f:\N^2\to\N$  f  :  N2  →  N  dans  Cs, la fonction  g  :  N2  →  N  définie par  
-g(x, y) =  f  (y, x)  est dans  Cs+1.
+Montrer que pour toute fonction $f:\N^2\to\N$ dans $\mathcal{C}_s$, la fonction $g:\N^2\to\N$ définie par 
+$$
+g(x,y) = f(y,x)
+$$
+est dans $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzM5MzU5NiwtMTM4Njg4MzM4MSwtMz
+eyJoaXN0b3J5IjpbLTM0OTI1Mzk0NiwtMTM4Njg4MzM4MSwtMz
 E4NTYwMjU5LDEyMjA1ODMzMzksLTM1OTUxMjgwOV19
 -->
