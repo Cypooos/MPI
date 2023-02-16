@@ -32,10 +32,9 @@ est dans $\mathcal{C}_{s+1}$
 Montrez qu'elle est aussi dans $\mathcal{C}_{s}$
 
 ## Question 3
-Montrer que pour toute fonction  f  ∈ Cs  de type  Nn  →  N, il existe un entier  0  ≤  i < n  
-et une fonction  g  ∈ Cs  de type  N  →  N  telle que pour tout  x0, . . . , xn−1,  
+Montrer que pour toute fonction $f\in\mathcal{C}_s$ de type $\N^n\to\N$, il existe un entier $0\le i \le n$ et une fonction $g\in\mathcal{C}_s$ de type $\N\to\N$ telle que pour tout $x_0,...,x_{n-1}$, on a 
 f  (x0, . . . , xn−1) =  g(xi)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjQ3NDQzNSwtMTM4Njg4MzM4MSwtMz
-E4NTYwMjU5LDEyMjA1ODMzMzksLTM1OTUxMjgwOV19
+eyJoaXN0b3J5IjpbLTcxNzEzMTk2LC0xMzg2ODgzMzgxLC0zMT
+g1NjAyNTksMTIyMDU4MzMzOSwtMzU5NTEyODA5XX0=
 -->
