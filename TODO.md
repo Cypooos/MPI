@@ -7,8 +7,8 @@ def Y(f):
 
 Y(Y)
 ```
-https://fr.wikipedia.org/wiki/Algorithme_de_Kosaraju
+https://fr.wikipedia.org/wiki/Algorithme_de_Kos in withad:ad)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE3MTk1NjcsMTUwNzEyMDYwNCw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTEwMjkwMzk2MCwtMTYyMTcxOTU2NywxNT
+A3MTIwNjA0LDczMDk5ODExNl19
 -->
