@@ -89,23 +89,24 @@ int main() {
 46. Qu'est-ce qu'un graphe planaire ? **Démontrez la propriété d'Euler**
 47. On note $\sim$ la relation d'existance d'un chemin entre deux sommets. Montrez que cela définie bien une relation d'équivalence. Que représente les classes d'équivalence ?
 48. Montrez que $G=(S,A)$ est un arbre, ssi pour tout paires $a,b\in S$ il existe un unique chemin de $a$ à $b$ sans cycle
-49. Quelle est la structure unir et retrouver ? Donnez les optimisations de compression de chemin et de réunir à la plus grande racine. **La complexité amortie est $O(\alpha(n))$ ou $\alpha = \{x\mapsto A(x,x)\}^{-1}$ avec $A$ la fonction d'Ackermann**
-50. Recherche d'un arbre couvrant de poids minimal (Algorithme de Kruskal). Preuve de sa correction et terminaison. **Complexité en $O(\log^*(n))$, en pratique presque O(1)**
+49. Quelle est la structure unir et retrouver ? Donnez les optimisations de compression de chemin et de réunir à la plus grande racine. **La complexité amortie est $O(\alpha(n))$ où $\alpha = \{x\mapsto A(x,x)\}^{-1}$ avec $A$ la fonction d'Ackermann**
+50. Recherche d'un arbre couvrant de poids minimal (Algorithme de Kruskal). Preuve de sa correction et terminaison. **Complexité en $O(\log^*(n))$, en pratique O(1)**
 
 ## Logique
-1. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
-2. Écrire sous la forme d'arbre les formules logique $A \lrarr \lnot B$ et $A \land (B\lor \lnot C)$
-3. Donnez une bijection entre $\{V, F \}$ et $\N/2\N$. A quoi correspondent les opérateurs $\lnot$ et $\land$ ? En déduire $\lor$
-4. Exprimez $\lor$, $\rarr$ et $\lrarr$ avec $\lnot$ et $\land$
-5. Lois de Morgan.
-6. Pour chaque variable soulignée, indiquer si elle est libre et/ou liée. Quelle est la porté du $\forall y$ ?
+51. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
+52. Écrire sous la forme d'arbre les formules logique $A \lrarr \lnot B$ et $A \land (B\lor \lnot C)$
+53. Donnez une bijection entre $\{V, F \}$ et $\N/2\N$. A quoi correspondent les opérateurs $\lnot$ et $\land$ ? En déduire $\lor$
+54. Exprimez $\lor$, $\rarr$ et $\lrarr$ avec $\lnot$ et $\land$
+55. Lois de Morgan.
+56. Pour chaque variable soulignée, indiquer si elle est libre et/ou liée. Quelle est la porté du $\forall y$ ?
 $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(\underline y,u))$$
-7. Qu'est-ce qu'une valuation ? Un modèle ?
-8. Définition de l'équivalence entre deux formule ?
-9. Mettre sous forme normale conjonctive de taille 3 $C\lor B\lor A\lor (B \land \lnot C)$
-10. Mettre sous forme normale disjonctive de taille 3 $C\land B\land A\land (B \lor \lnot C)$
-11. Algorithme de Quine-Mc Cluskey pour réduire une formule logique
-12. 
+57. Qu'est-ce qu'une valuation ? Un modèle ?
+58. Définition de l'équivalence entre deux formule ?
+59. Mettre sous forme normale conjonctive de taille 3 $C\lor B\lor A\lor (B \land \lnot C)$
+60. Mettre sous forme normale disjonctive de taille 3 $C\land B\land A\land (B \lor \lnot C)$
+61. Algorithme de Quine-Mc Cluskey pour réduire une formule logique
+62. Déduction naturelle. Arbre de preuve.
+63. Règle d'inférence de $\lor$, $\land$, $\rarr$
 
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -134,7 +135,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzA1NDYxNiwtNDQzMzU5MjkzLDE3OT
+eyJoaXN0b3J5IjpbMTEwNTI3OTU1NywtNDQzMzU5MjkzLDE3OT
 YyMDc2NTAsLTIwNjcxOTkzNDAsNzg0NTQ2MTE4LC0zNTQyNjAw
 MTUsLTIzNDMwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04OD
 AzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
