@@ -10,8 +10,8 @@ Il manque encore à ce document:
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
 2. Qu'est ce-qu'un langage de programmation compilé ? Interprété ? **Compilé à la volé ?**
 3. Quelle est la différence entre un `signed` et un `unsigned` ? Comment sont encodé les nombre négatifs ?
-4. Comment sont encodé les flottants ? En sachant que un `float` a 8 bits d'exposants, combien de chiffre significatifs en base 10 peuvent-ils stoker ? 
-5. Déterminez que la fonction `getter` suivante termine :
+4. Comment sont encodé les flottants ? En sachant que un `float` a 8 bits d'exposants, combien de chiffre significatifs en base 10 peuvent-ils stoker ? Qu'est-ce que la mantisse ?
+5. Démontrez que la fonction `getter` suivante termine :
 ```ocaml
 let rec get m l = match l with
  | [] -> m
@@ -150,9 +150,9 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc5OTEzMjEsLTE5MDU0NjMwMDcsLT
-Q0MzM1OTI5MywxNzk2MjA3NjUwLC0yMDY3MTk5MzQwLDc4NDU0
-NjExOCwtMzU0MjYwMDE1LC0yMzQzMDM3OTYsNjY4ODcwNjUsMj
-AxMjI3NTg2MCwtODgwMzE0Nzk4LDgwNTE0ODY4NSwtMTg3NzEy
-MDEyOF19
+eyJoaXN0b3J5IjpbNTc5MTUxMTkzLC0xOTA1NDYzMDA3LC00ND
+MzNTkyOTMsMTc5NjIwNzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYx
+MTgsLTM1NDI2MDAxNSwtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMT
+IyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAx
+MjhdfQ==
 -->
