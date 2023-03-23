@@ -1,4 +1,4 @@
-En gras sont les question non officiellement au programme, mais qu'il est bon de connaitre.
+En gras sont les question non officiellement au programme (parfois explicitement hors programme), mais qu'il est bon de connaitre.
 ## Méthodes de programmations
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
 2. Qu'est ce-qu'un langage de programmation compilé ? Interprété ? **Compilé à la volé ?**
@@ -63,7 +63,7 @@ int main() {
 22. 
 23. Donnez une fonction de sérialisation 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjI5MjEwMDUsLTIzNDMwMzc5Niw2Nj
-g4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1
-LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbMTMzNzE0NjkyOSwtMjM0MzAzNzk2LDY2OD
+g3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUs
+LTE4NzcxMjAxMjhdfQ==
 -->
