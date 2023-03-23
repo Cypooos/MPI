@@ -56,7 +56,9 @@ int main() {
 15. Distinction entre structure de données mutable et immuable.
 16. Qu'est ce qu'un Constructeur ? Accesseur ? Transformateur ? **Destructeur ?**
 17. Donnez une structure de donnée abstraite représentant une hashmap (un dictionnaire).
+18. Qu'est-ce qu'une liste ? Une liste doublement chainé ? Donner une implémentation d'une liste doublement chainé en C stoquants des `int`. 
+19. Qu'est
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2OTQ2MzQ5NywyMDEyMjc1ODYwLC04OD
-AzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbNjExMzU3MDk3LDIwMTIyNzU4NjAsLTg4MD
+MxNDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
