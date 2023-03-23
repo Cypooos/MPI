@@ -4,7 +4,7 @@ En gras sont les questions non officiellement au programme (parfois explicitemen
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
 2. Qu'est ce-qu'un langage de programmation compilé ? Interprété ? **Compilé à la volé ?**
 3. Quelle est la différence entre un `signed` et un `unsigned` ? Comment sont encodé les nombre négatifs ?
-4. Comment sont encodé les flottants ? En sachant que un `int` (sur 2bits à 8 bits d'exposants, Combien de chiffre significatifs en base 10 peuvent t-il stoqués ? 
+4. Comment sont encodé les flottants ? En sachant que un `float` a 8 bits d'exposants, combien de chiffre significatifs en base 10 peuvent-ils stoker ? 
 5. Déterminez que la fonction `getter` suivante termine :
 ```ocaml
 let rec get m l = match l with
@@ -100,7 +100,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzM3OTY5NCwtMzU0MjYwMDE1LC0yMz
-QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
-LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbNzQ3NjYyODIzLC0zNTQyNjAwMTUsLTIzND
+MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
+ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
