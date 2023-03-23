@@ -20,10 +20,11 @@ Que fait-il ? Démontrer sa correction.
 8. Quel est le type de la fonction suivante :
 ```ocaml
 let a b c d = match b c [||] with
- | e with !e -> c+.1
- | 
+ | e with !e = d -> c+.1
+ | _ -> d
 ```
+9. Qu'est ce ce que la programmation défensive ? Pourquoi est-elle plus simple en ocaml que e
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjM4NDkwMTUsLTg4MDMxNDc5OCw4MD
-UxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbMjAxNjIxMDczOCwtODgwMzE0Nzk4LDgwNT
+E0ODY4NSwtMTg3NzEyMDEyOF19
 -->
