@@ -54,8 +54,9 @@ int main() {
 ```
 14. **Comment sont implémenté `true` et `false` en C ?**
 15. Distinction entre structure de données mutable et immuable.
-16. Qu'est ce qu'un constructeur ? D'accesseur ? Un destructeur ?
+16. Qu'est ce qu'un Constructeur ? Accesseur ? Transformateur ? **Destructeur ?**
+17. Donnez une structure de donnée abstraite représentant une hashmap (un dictionnaire).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTcxMjk0MSwyMDEyMjc1ODYwLC04OD
+eyJoaXN0b3J5IjpbMTQ2OTQ2MzQ5NywyMDEyMjc1ODYwLC04OD
 AzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
