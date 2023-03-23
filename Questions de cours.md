@@ -45,9 +45,10 @@ int q11(int* liste,int n,int k) {
 17. Différence entre un lien symbolique et physique ?
 18. Qu'est-ce qu'une instruction atomique ?
 19. Différence entre mutex et sémaphore. Notion de section critique.
-20. Donnez un exemple 
-21. Algorithme de Peterson pour une implémentation des mutex avec 2 threads.
-22. Algorithme de la Boulangerie de Lamport pour implémentation des mutex avec k threads.
+20. Donnez un exemple d'algorithme qui donnera une situation d'interblocage possiblement avec 2 thread.
+21. Quel est le problème du diner des philosophe ?
+22. Algorithme de Peterson pour une implémentation des mutex avec 2 threads.
+23. Algorithme de la Boulangerie de Lamport pour implémentation des mutex avec k threads.
 
 
 ## Structures de données
@@ -102,7 +103,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg3NDgyNjUzLC0zNTQyNjAwMTUsLTIzND
-MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
-ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbLTExMzIwNTAxMSwtMzU0MjYwMDE1LC0yMz
+QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
+LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
 -->
