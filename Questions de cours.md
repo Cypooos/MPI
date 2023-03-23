@@ -98,8 +98,9 @@ int main() {
 5. Lois de Morgan.
 6. Pour chaque variable soulignée, indiquer si elle est libre et/ou lié. Quelle est la porté du $\forall y$ ?
 $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(\underline y,u))$$
-7. Qu'est-ce qu'une valuation ? Donnez une valuation 
-8. Algorithme de Quine-Mc Cluskey
+7. Qu'est-ce qu'une valuation ?
+8. Mettre sous forme normale conjonctive de taille 3 $A\lor (B \land \lnot C)$  
+9. Algorithme de Quine-Mc Cluskey
 
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -123,7 +124,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDA1Mzc4NywtMzU0MjYwMDE1LC0yMz
+eyJoaXN0b3J5IjpbLTkwNTU2MzExNCwtMzU0MjYwMDE1LC0yMz
 QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
 LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
 -->
