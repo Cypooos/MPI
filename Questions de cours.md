@@ -64,11 +64,13 @@ int main() {
 22. Définir un arbre. Un arbre binaire. Sa hauteur et sa largeur. La hauteur d'un nœud. Donnez un type en C et en Ocaml.
 23. Définir un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité de la recherche d'élément ? Complexité de l'ajout d'un élément ? 
 24. Opération de rotation gauche et rotation droite. A quoi servent-elles ?
-25. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
+26. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
 > *La sérialisation est au programme. Il s'agit de transformer une structure de donné hiérarchique en une structure de donné séquentielle pour après, par exemple, la sauvegarder dans un fichier texte. On pourra considérer des tableaux comme structure de donné séquentielle*
 27. Donnez une fonction de sérialisation pour un graphe non orienté.
+28. "Arbre bicolore"
+29. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2ODg0NTU5LC0yMzQzMDM3OTYsNjY4OD
-cwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4LDgwNTE0ODY4NSwt
-MTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbLTMwNzE1MTM2MywtMjM0MzAzNzk2LDY2OD
+g3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUs
+LTE4NzcxMjAxMjhdfQ==
 -->
