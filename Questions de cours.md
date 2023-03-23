@@ -40,7 +40,7 @@ int q11(int* liste,int n,int k) {
 ## Récursivité et induction
 
 ## Structures de données
-. Qu'estce que l'allocation ? Citez les 3 lieux ou la mémoire peut être stoqué dans un programme. Ou sont stoqué `30`, `40` et `50` dans la mémoire au moment de l'appel à fct dans le programme suivant ?
+13. Qu’est ce que l'allocation ? Citez les 3 lieux ou la mémoire peut être stoqué dans un programme. Où sont stoqué `30`, `40` et `50` dans la mémoire au moment de l'appel à `fct` dans le programme suivant ? Ou est stoqué la *variable* `table` ? et son contenu ?
 ```c
 int fct(int a){return a*a;};
 const int set = 30;
@@ -52,7 +52,8 @@ int main() {
 	b[2] = fct(50);
 }
 ```
+14. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDE3NTY0MCwyMDEyMjc1ODYwLC04OD
+eyJoaXN0b3J5IjpbMTk1MzU1NTUxMiwyMDEyMjc1ODYwLC04OD
 AzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
