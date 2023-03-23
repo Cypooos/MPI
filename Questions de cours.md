@@ -10,7 +10,7 @@
 let rec get m l = match l with
  | [] -> m
  | e::q with e>=m -> get e l
- | e::q -> get m l ;;
+ | e::q -> get m l;;
 let getter = get min_int;;
 ```
 Que fait-il ? Démontrer sa correction.
@@ -23,8 +23,9 @@ let a b c d = match b c [||] with
  | e with !e = d -> c+.1
  | _ -> d
 ```
-9. Qu'est ce ce que la programmation défensive ? Pourquoi est-elle plus simple en ocaml que e
+9. Qu'est ce ce que la programmation défensive ? Pourquoi est-elle plus simple en ocaml que en python ?
+10. Faite de graphe de flot de contrôle du code de la fonction `getter` si dessus. Do
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjIxMDczOCwtODgwMzE0Nzk4LDgwNT
-E0ODY4NSwtMTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbLTIwMDM2OTQyNzgsLTg4MDMxNDc5OCw4MD
+UxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
