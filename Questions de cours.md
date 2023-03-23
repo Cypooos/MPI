@@ -102,7 +102,8 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 8. Définition de l'équivalence entre deux formule ?
 9. Mettre sous forme normale conjonctive de taille 3 $C\lor B\lor A\lor (B \land \lnot C)$
 10. Mettre sous forme normale disjonctive de taille 3 $C\land B\land A\land (B \lor \lnot C)$
-11. Algorithme de Quine-Mc Cluskey pour réduire une 
+11. Algorithme de Quine-Mc Cluskey pour réduire une formule logique
+12. 
 
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -130,7 +131,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzAyMjUwNywtMjA2NzE5OTM0MCw3OD
+eyJoaXN0b3J5IjpbMTc5NjIwNzY1MCwtMjA2NzE5OTM0MCw3OD
 Q1NDYxMTgsLTM1NDI2MDAxNSwtMjM0MzAzNzk2LDY2ODg3MDY1
 LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUsLTE4Nz
 cxMjAxMjhdfQ==
