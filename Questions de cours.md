@@ -17,8 +17,13 @@ Que fait-il ? Démontrer sa correction.
 
 6. Qu'est-ce que une correction partielle ? Parallèles avec problème décidable et semi-décidable ?
 7. Définition de la complexité ?
-8. Quel est le type de la 
+8. Quel est le type de la fonction suivante :
+```ocaml
+let a b c d = match b c [||] with
+ | e with !e -> c+.1
+ | 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNTk0NTkxNSwtODgwMzE0Nzk4LDgwNT
-E0ODY4NSwtMTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbLTIwMjM4NDkwMTUsLTg4MDMxNDc5OCw4MD
+UxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
