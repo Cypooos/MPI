@@ -122,14 +122,14 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 ## Classe de complexité
 1. Qu'est-ce qu'un problème de décision ? 
 2. Prouvez la non décidabilité du problème de l’arrêt.
-3. Donnez l'énoncé des problèmes suivants : $\text{SAT}$, $\text{n-SAT}$, $\text{MAX2SAT}$, $\text{k-COLOR}$,
-4. **Donnez l'énoncé des problèmes suivants : $\text{SAT}$, $\text{n-SAT}$, $\text{MAX2SAT}$, $\text{k-COLOR}$,**
+3. Donnez l'énoncé des problèmes suivants : $\text{SAT}$, $\text{n-SAT}$, $\text{MAX2SAT}$, $\text{k-COLOR}$
+4. **Donnez l'énoncé des problèmes suivants : $\text{CLIQUE}$, $\text{VERTEX-COVER$, $\text{HAMILOTINAN}$, $\text{k-COLOR}$**
 5. Classe $\text{P}$, Classe $\text{NP}$, **Classe $\text{EXPTIME}$**, **Classe $\text{EXPSPACE}$**
 6. Réduction de problèmes en temps polynomial.
 7. Montrez que $\text{SAT}\le_P\text{3-SAT}$
 8. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0NTQ2MTE4LC0zNTQyNjAwMTUsLTIzND
-MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
-ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbLTE1MjczNDA1LDc4NDU0NjExOCwtMzU0Mj
+YwMDE1LC0yMzQzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwt
+ODgwMzE0Nzk4LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
 -->
