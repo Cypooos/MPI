@@ -73,8 +73,12 @@ int main() {
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
 2. Différence entre un algorithme de Las Vegas et de Monte Carlos ?
 3. Qu'est-ce qu'un problème de décision ? 
+4. Algorithme de Boyer-Moore
+5. Algorithme de Rabin-Karp
+6. Algorithme de Huffman
+7. Algorithme Lempel-Ziv-Welch
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTk3MDgwNSwtMjM0MzAzNzk2LDY2OD
+eyJoaXN0b3J5IjpbLTM1NDI2MDAxNSwtMjM0MzAzNzk2LDY2OD
 g3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUs
 LTE4NzcxMjAxMjhdfQ==
 -->
