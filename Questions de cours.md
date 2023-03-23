@@ -70,9 +70,11 @@ int main() {
 28. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
 
 ## Algorithmique
-
+1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
+2. Différence entre un algorithme de Las Vegas et de Monte Carlos ?
+3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjA0Nzk0NywtMjM0MzAzNzk2LDY2OD
+eyJoaXN0b3J5IjpbMTY2NjA5NjE2OCwtMjM0MzAzNzk2LDY2OD
 g3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUs
 LTE4NzcxMjAxMjhdfQ==
 -->
