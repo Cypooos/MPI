@@ -36,8 +36,11 @@ int q11(int* liste,int n,int k) {
 }
 ```
 
-12. Donnez un jeu de test exaustif pour la condition `i*2`
+## Récursivité et induction
+
+## Structures de données
+. Qu'estce que l'allocation ? Citez les 3 lieux 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3MTI2NDkwLDIwMTIyNzU4NjAsLTg4MD
-MxNDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbMTc5MjQ3MjUwMCwyMDEyMjc1ODYwLC04OD
+AzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
