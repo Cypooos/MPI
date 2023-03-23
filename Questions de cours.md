@@ -106,8 +106,10 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 60. Mettre sous forme normale disjonctive de taille 3 $C\land B\land A\land (B \lor \lnot C)$
 61. Algorithme de Quine-Mc Cluskey pour réduire une formule logique
 62. Déduction naturelle. Arbre de preuve.
-63. Règle d'inférence de $\lor$, $\land$, $\rarr$ et $\lnot$, définition de $\lrarr$
-64. Règle d'inférences de $\forall$, $\exist$
+63. Règle d'inférence et de destruction de $\lor$, $\land$, $\rarr$ et $\lnot$, définition de $\lrarr$
+64. Règle d'inférences et de destruction de $\forall$, $\exist$
+65. Qu'est-ce qu'un axiome ?
+66. Le syllogisme barbara, le modus po
 
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -136,8 +138,9 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDU0NjMwMDcsLTQ0MzM1OTI5MywxNz
-k2MjA3NjUwLC0yMDY3MTk5MzQwLDc4NDU0NjExOCwtMzU0MjYw
-MDE1LC0yMzQzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtOD
-gwMzE0Nzk4LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbNjQxNDExNjkyLC0xOTA1NDYzMDA3LC00ND
+MzNTkyOTMsMTc5NjIwNzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYx
+MTgsLTM1NDI2MDAxNSwtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMT
+IyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAx
+MjhdfQ==
 -->
