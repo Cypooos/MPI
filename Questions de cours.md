@@ -95,7 +95,8 @@ int main() {
 2. Écrire sous la forme d'arbre les formules logique $A \land (B\lor \lnot C)$ et $\lrarr$
 3. Donnez une bijection entre $\{\bot, \top \}$ et $\N/2\N$. A quoi correspondent les opérateurs $\lnot$ et $\land$ ? En déduire $\lor$
 4. Loi de Morgan.
-5. $\forall x(\forall y\exist z,f(x,u) )\land (\exist f.f(y,u))$
+5. Pour chaque variable souligné, indiquer si elle est libre et/ou lié. Quelle est la porté du $\forall y$
+$$\forall x(\forall y\exist z,f(x,u) )\land (\exist f.f(y,u))$$
 
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -119,7 +120,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTgyNjQ4MywtMzU0MjYwMDE1LC0yMz
-QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
-LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbLTE0MzU3ODkzODgsLTM1NDI2MDAxNSwtMj
+M0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5
+OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
