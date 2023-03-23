@@ -84,7 +84,7 @@ int main() {
 41. Qu'est-ce qu'une matrice d’adjacence ?
 42. Soit $R$ une relation et $G=(S,A)$ le graphe associé. Traduire le fait que $R$ soit réflexive. Transitive. Totale. Une relation d'ordre.
 43. Qu'est-ce qu'un graphe planaire ? **Démontrez la propriété d'Euler**
-44. On note $~$
+44. On note $\sim$ la relation  
 45. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
 
 ## Algorithmique
@@ -109,7 +109,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2NjQzMzI5LC0zNTQyNjAwMTUsLTIzND
-MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
-ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbLTE2NDUyNjY5ODksLTM1NDI2MDAxNSwtMj
+M0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5
+OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
