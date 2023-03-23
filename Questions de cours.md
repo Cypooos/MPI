@@ -82,10 +82,11 @@ int main() {
 39. "Arbre bicolore" lol
 40. Définir un graphe. Un graphe orienté. Un graphe pondéré. Un graphe complet.
 41. Qu'est-ce qu'une matrice d’adjacence ?
-42. Soit $R$ une relation et $G=(S,A)$ le graphe associé. Traduire le fait que $R$ soit réflexive. Transitive. Totale. Une relation d'ordre.
-43. Qu'est-ce qu'un graphe planaire ? **Démontrez la propriété d'Euler**
-44. On note $\sim$ la relation  
-45. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
+42. Qu'est-ce qu'une composante fortement connexe ? Faiblement connexe ?
+43. Soit $R$ une relation et $G=(S,A)$ le graphe associé. Traduire le fait que $R$ soit réflexive. Transitive. Totale. Une relation d'ordre. Que représente une composante fortement connexe dans G ?
+44. Qu'est-ce qu'un graphe planaire ? **Démontrez la propriété d'Euler**
+45. On note $\sim$ la relation d'existance d'un chemin entre
+46. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
 
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -109,7 +110,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDUyNjY5ODksLTM1NDI2MDAxNSwtMj
+eyJoaXN0b3J5IjpbLTE4NDc2MTEwODYsLTM1NDI2MDAxNSwtMj
 M0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5
 OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
