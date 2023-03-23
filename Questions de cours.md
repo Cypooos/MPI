@@ -53,7 +53,7 @@ int main() {
 	b[2] = fct(50);
 }
 ```
-14. **Comment sont implémenté `true` et `false` en C ? Que fais `if (n` ?** 
+14. **Comment sont implémenté `true` et `false` en C ? Que fais `if (n)` avec `n` un nombre ?** 
 16. Distinction entre structure de données mutable et immuable.
 17. Qu'est ce qu'un Constructeur ? Accesseur ? Transformateur ? **Destructeur ?**
 18. Qu'est-ce qu'une structure de donnée abstraite ? Donnez une structure de donnée abstraite représentant une hashmap (un dictionnaire).
@@ -63,7 +63,7 @@ int main() {
 22. 
 23. Donnez une fonction de sérialisation 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDAzMjMzMzksLTIzNDMwMzc5Niw2Nj
+eyJoaXN0b3J5IjpbLTExNjI5MjEwMDUsLTIzNDMwMzc5Niw2Nj
 g4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1
 LC0xODc3MTIwMTI4XX0=
 -->
