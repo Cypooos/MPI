@@ -69,25 +69,26 @@ int main() {
 27. Qu'est ce qu'un Constructeur ? Accesseur ? Transformateur ? **Destructeur ?**
 28. Qu'est-ce qu'une structure de donnée abstraite ? Donnez une structure de donnée abstraite représentant une hashmap (un dictionnaire).
 29. Qu'est-ce qu'une liste ? Une liste doublement chainé ? Donner une implémentation d'une liste doublement chainé en C stoquants des `int`. 
-30. Donnez une implémentation possible de liste à l'aide de tableau grandissants en Ocaml.
-31. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
-32. **Donnez une structure de donnée permettant de stoquer des sous-ensembles de $[\![0;n]\!]$. Les opérations d'ajout et de retrait d'élément se feront en $O(1)$, l’initialisation en $O(n)$**
-33. Définir un arbre. Un arbre binaire. Sa hauteur et sa largeur. La hauteur d'un nœud. Une foret. Donnez un type en C et en Ocaml. 
-34. Nombre d'arbre possible avec $n$ sommets ?
-35. Définir un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité de la recherche d'élément ? Complexité de l'ajout d'un élément ? 
-36. Opération de rotation gauche et rotation droite. A quoi servent-elles ?
-37. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
-> *La sérialisation est au programme. Il s'agit de transformer une structure de donné hiérarchique en une structure de donné séquentielle pour après, par exemple, la sauvegarder dans un fichier texte. On pourra considérer des tableaux comme structure de donné séquentielle*
-38. Donnez une fonction de sérialisation pour un graphe non orienté.
-39. "Arbre bicolore" lol
-40. Définir un graphe. Un graphe orienté. Un graphe pondéré. Un graphe complet.
-41. Qu'est-ce qu'une matrice d’adjacence ?
-42. Qu'est-ce qu'une composante fortement connexe ? Faiblement connexe ?
-43. Soit $R$ une relation et $G=(S,A)$ le graphe associé. Traduire le fait que $R$ soit réflexive. Transitive. Totale. Une relation d'ordre. Que représente une composante fortement connexe dans G ?
-44. Qu'est-ce qu'un graphe planaire ? **Démontrez la propriété d'Euler**
-45. On note $\sim$ la relation d'existance d'un chemin entre deux sommets. Montrez que cela définie bien une relation d'équivalence. Que représente les classes d'équivalence ?
-46. Montrez que $G=(S,A)$ est un arbre, ssi pour tout paire $a,b\in S$ il existe un unique chemin de $a$ à $b$ ne passant que une fois par a et une fois
-47. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
+30. Qu'est-ce qu'une liste cyclique ? Algorithme du lièvre et de la tortue pour savoir si une liste est cyclique.
+31. Donnez une implémentation possible de liste à l'aide de tableau grandissants en Ocaml.
+32. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
+33. **Donnez une structure de donnée permettant de stoquer des sous-ensembles de $[\![0;n]\!]$. Les opérations d'ajout et de retrait d'élément se feront en $O(1)$, l’initialisation en $O(n)$**
+34. Définir un arbre. Un arbre binaire. Sa hauteur et sa largeur. La hauteur d'un nœud. Une foret. Donnez un type en C et en Ocaml. 
+35. Nombre d'arbre possible avec $n$ sommets ?
+36. Définir un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité de la recherche d'élément ? Complexité de l'ajout d'un élément ? 
+37. Opération de rotation gauche et rotation droite. A quoi servent-elles ?
+38. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
+> *La sérialisation est au programme. Il s'agit de transformer une structure de donné hiérarchique en une structure de donné séquentielle pour après, par exemple, la sauvegarder dans un fichier texte. On pourra considérer des tableaux comme structure de donné séquentielle.*
+39. Donnez une fonction de sérialisation pour un graphe non orienté.
+40. "Arbre bicolore" lol
+41. Définir un graphe. Un graphe orienté. Un graphe pondéré. Un graphe complet.
+42. Qu'est-ce qu'une matrice d’adjacence ?
+43. Qu'est-ce qu'une composante fortement connexe ? Faiblement connexe ?
+44. Soit $R$ une relation et $G=(S,A)$ le graphe associé. Traduire le fait que $R$ soit réflexive. Transitive. Totale. Une relation d'ordre. Que représente une composante fortement connexe dans G ?
+45. Qu'est-ce qu'un graphe planaire ? **Démontrez la propriété d'Euler**
+46. On note $\sim$ la relation d'existance d'un chemin entre deux sommets. Montrez que cela définie bien une relation d'équivalence. Que représente les classes d'équivalence ?
+47. Montrez que $G=(S,A)$ est un arbre, ssi pour tout paires $a,b\in S$ il existe un unique chemin de $a$ à $b$ sans cycle
+48. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
 
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -111,7 +112,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDA2NDg3NCwtMzU0MjYwMDE1LC0yMz
-QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
-LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbLTE0NjY4NjAzNTYsLTM1NDI2MDAxNSwtMj
+M0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5
+OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
