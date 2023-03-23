@@ -23,7 +23,7 @@ let a b c d = match b c [||] with
  | e with !e = d -> c+.1
  | _ -> d
 ```
-9. Qu'est ce ce que la programmation défensive ? Pourquoi est-elle plus simple en ocaml que en python ?
+9. Qu'est ce ce que la programmation défensive ? Pourquoi est-elle plus simple en Ocaml que en python ?
 10. Faites le graphe de flot de contrôle du code de la fonction `getter` si dessus.
 11. Faites le graphe de flot de contrôle de la fonction suivante. Donnez un jeu de test couvrant les sommets. Donnez un autre jeu de test couvrant les arêtes. Donnez un dernier jeu de test donnant des tests exhaustif des conditions.
 ```c
@@ -44,12 +44,14 @@ int q11(int* liste,int n,int k) {
 16. Qu'est-ce qu'un *inode* (nœuds d’index) dans un système de fichier ?
 17. Différence entre un lien symbolique et physique ?
 18. Qu'est-ce qu'une instruction atomique ?
-19. Algorithme de Peterson pour une implémentation des mutex avec 2 threads.
-20. Algorithme de la Boulangerie de Lamport pour implémentation des mutex avec k threads.
+19. Différence entre mutex et sémaphore. Notion de section critique.
+20. Donnez un exemple 
+21. Algorithme de Peterson pour une implémentation des mutex avec 2 threads.
+22. Algorithme de la Boulangerie de Lamport pour implémentation des mutex avec k threads.
 
 
 ## Structures de données
-13. Qu’est ce que l'allocation ? Citez les 3 lieux ou la mémoire peut être stoqué dans un programme. Où sont stoqué `30`, `40` et `50` dans la mémoire au moment de l'appel à `fct` dans le programme suivant ? Ou est stoqué la *variable* `table` ? et son contenu ?
+13. Qu’est ce que l'allocation ? Citez les 3 lieux ou la mémoire peut être stocké dans un programme. Où sont stocké `30`, `40` et `50` dans la mémoire au moment de l'appel à `fct` dans le programme suivant ? Ou est stocké la *variable* `table` ? et son contenu ?
 ```c
 int fct(int a){return a*a;};
 const int set = 30;
@@ -100,7 +102,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3NjYyODIzLC0zNTQyNjAwMTUsLTIzND
+eyJoaXN0b3J5IjpbNjg3NDgyNjUzLC0zNTQyNjAwMTUsLTIzND
 MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
 ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
