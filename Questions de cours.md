@@ -25,8 +25,14 @@ let a b c d = match b c [||] with
 ```
 9. Qu'est ce ce que la programmation défensive ? Pourquoi est-elle plus simple en ocaml que en python ?
 10. Faite de graphe de flot de contrôle du code de la fonction `getter` si dessus.
-11. Faite le graphe de flot de contrôle de la fonction suivante. Donnez un eu de test couvrant les sommets. Donnez un autre eu de test couvrant les arêtes
+11. Faite le graphe de flot de contrôle de la fonction suivante. Donnez un jeu de test couvrant les sommets. Donnez un autre jeu de test couvrant les arêtes. Donnez un dernier jeu de test donnant des test exaustif des conditions.
+```c
+
+int* q11(int* liste,n) {
+	if (liste
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODM0NDU1OSwtODgwMzE0Nzk4LDgwNT
+eyJoaXN0b3J5IjpbLTYwNTI4NzQ4NSwtODgwMzE0Nzk4LDgwNT
 E0ODY4NSwtMTg3NzEyMDEyOF19
 -->
