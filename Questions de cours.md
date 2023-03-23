@@ -91,8 +91,9 @@ int main() {
 48. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
 
 ## Logique
-1. Opérateurs $\lnot, \land, \lor, \rarr, \lrarr$
-2. Loi de morgan.
+1. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner sa table de vérité et son arité.
+2. Loi de morgans.
+3. Ecrire sous la forme d'arbre les formules logique $A \land (B\lor \lnot C)$
 
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -116,7 +117,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyOTY0NDQ2LC0zNTQyNjAwMTUsLTIzND
-MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
-ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbLTE0MzAzMzY4NjQsLTM1NDI2MDAxNSwtMj
+M0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5
+OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
