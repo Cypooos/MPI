@@ -62,11 +62,12 @@ int main() {
 20. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
 21. **Donnez une structure de donnée permettant de stoquer des sous-ensembles de $[\![0;n]\!]$. Les opérations d'ajout et de retrait d'élément se feront en $O(1)$, l’initialisation en $O(n)$**
 22. Définir un arbre. Un arbre binaire. Donnez un type en C et en Ocaml.
-23. Définir Un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité 
-24. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
-25. Donnez une fonction de sérialisation pour un graphe non orienté.
+23. Définir un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité de la recherche d'élément ? Complexité de l'ajout d'un élément ?
+24. Opération de rotation gauche et rotation droite. A quoi servent-elles ?
+25. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
+26. Donnez une fonction de sérialisation pour un graphe non orienté.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzI3ODY4NywtMjM0MzAzNzk2LDY2OD
+eyJoaXN0b3J5IjpbMTEzNzEyMDQzNiwtMjM0MzAzNzk2LDY2OD
 g3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUs
 LTE4NzcxMjAxMjhdfQ==
 -->
