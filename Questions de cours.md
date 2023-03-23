@@ -38,7 +38,7 @@ int q11(int* liste,int n,int k) {
 }
 ```
 12. **Qu'est-ce que l'assembleur ?**
-13. 
+13. Quels sont les différents droits modifiables sur un fichier / dossier ? (*`chmod`*)
 14. Qu'est-ce qu'un pipe ?
 15. A quoi correspondent les flux standard *stdin*, *stdout* et *sterr* ?
 16. Qu'est-ce qu'un *inode* (nœuds d’index) dans un système de fichier ?
@@ -97,7 +97,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTg5NTc5MywtMzU0MjYwMDE1LC0yMz
+eyJoaXN0b3J5IjpbLTM1MTU0Mzg4NywtMzU0MjYwMDE1LC0yMz
 QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
 LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
 -->
