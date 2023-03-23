@@ -1,3 +1,4 @@
+En gras sont les question non officiellement au programme, mais q
 ## Méthodes de programmations
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
 2. Qu'est ce-qu'un langage de programmation compilé ? Interprété ? **Compilé à la volé ?**
@@ -59,8 +60,10 @@ int main() {
 18. Qu'est-ce qu'une liste ? Une liste doublement chainé ? Donner une implémentation d'une liste doublement chainé en C stoquants des `int`. 
 19. Donnez une implémentation possible des listes à l'aide de tableau grandissants.
 20. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
+21. 
+22. Donnez une fonction de sérialisation 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2ODc3ODcxLC0yMzQzMDM3OTYsNjY4OD
-cwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4LDgwNTE0ODY4NSwt
-MTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbMTU5OTIxNTA3NiwtMjM0MzAzNzk2LDY2OD
+g3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUs
+LTE4NzcxMjAxMjhdfQ==
 -->
