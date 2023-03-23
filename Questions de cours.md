@@ -122,11 +122,12 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 ## Classe de complexité
 1. Qu'est-ce qu'un problème de décision ? 
 2. Prouvez la non décidabilité du problème de l’arrêt.
-3. Donnez l'énoncé des problèmes suivants : **SAT**, ***n*-SAT**, **2-SAT**, **MAX2SAT**, **k-COLOR**
+3. Donnez l'énoncé des problèmes suivants : SAT, *n*-SAT, 2-SAT MAX2SAT, *k*-COLOR
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
-5. Réduction de problèmes en temps polynomial. 
+5. Réduction de problèmes en temps polynomial.
+6. Montrez que $\le$SAT
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjQwMjY1NiwtMzU0MjYwMDE1LC0yMz
-QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
-LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbNzc3NzQ3MzUxLC0zNTQyNjAwMTUsLTIzND
+MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
+ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
