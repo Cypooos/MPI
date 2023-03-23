@@ -1,9 +1,10 @@
 Par Cyprien (@Cypooos) en MPI* à Fénelon Sainte Marie. Droit à toute sorte de publication et modification, mais gardez les crédits !
 En gras sont les questions non officiellement au programme (parfois explicitement hors programme), mais qu'il est bon de connaitre.
 
-Il manque encore :
+Il manque encore à ce document:
  - Languages
- - Ba
+ - Base de donnée
+ - Extras non nécessaire (qui sera entièrement en gras)
 
 ## Machines et implémentation
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
@@ -149,9 +150,9 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxOTEwNDc3LC0xOTA1NDYzMDA3LC00ND
-MzNTkyOTMsMTc5NjIwNzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYx
-MTgsLTM1NDI2MDAxNSwtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMT
-IyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAx
-MjhdfQ==
+eyJoaXN0b3J5IjpbLTE5Mjc5OTEzMjEsLTE5MDU0NjMwMDcsLT
+Q0MzM1OTI5MywxNzk2MjA3NjUwLC0yMDY3MTk5MzQwLDc4NDU0
+NjExOCwtMzU0MjYwMDE1LC0yMzQzMDM3OTYsNjY4ODcwNjUsMj
+AxMjI3NTg2MCwtODgwMzE0Nzk4LDgwNTE0ODY4NSwtMTg3NzEy
+MDEyOF19
 -->
