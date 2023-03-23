@@ -5,15 +5,17 @@
 2. Qu'est ce-qu'un langage de programmation compilé ? Interprété ? **Compilé à la volé ?**
 3. Quelle est la différence entre un `signed` et un `unsigned` ? Comment sont encodé les nombre négatifs ?
 4. Comment sont encodé les flottants ? En sachant que un `int` (sur 2bits à 8 bits d'exposants, Combien de chiffre significatifs en base 10 peuvent t-il stoqués ? 
-5. Déterminez que l'algorithme suivant termine :
+5. Déterminez que la fonction `getter` suivante termine :
 ```ocaml
-let rec get l m = match l with
+let rec get m l = match l with
  | [] -> m
- | e::q with e>=m -> get l e
- | e::q -> get l m 
+ | e::q with e>=m -> get e l
+ | e::q -> get m l ;;
+let getter = get min_int;;
 ```
-Que fait-il ? Le démontrez.
+Que fait-il ? Démontrer sa correction.
+6.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NzU2MDU4NywtODgwMzE0Nzk4LDgwNT
-E0ODY4NSwtMTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbLTE5NTkzNjA4OTcsLTg4MDMxNDc5OCw4MD
+UxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
