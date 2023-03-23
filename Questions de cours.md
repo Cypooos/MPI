@@ -73,14 +73,16 @@ int main() {
 31. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
 32. **Donnez une structure de donnée permettant de stoquer des sous-ensembles de $[\![0;n]\!]$. Les opérations d'ajout et de retrait d'élément se feront en $O(1)$, l’initialisation en $O(n)$**
 33. Définir un arbre. Un arbre binaire. Sa hauteur et sa largeur. La hauteur d'un nœud. Une foret. Donnez un type en C et en Ocaml. 
-34. Définir un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité de la recherche d'élément ? Complexité de l'ajout d'un élément ? 
-35. Opération de rotation gauche et rotation droite. A quoi servent-elles ?
-36. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
+34. Nombre d'arbre possible avec $n$ sommets ?
+35. Démontrez que $\text{A est un arbre} \ssi$
+36. Définir un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité de la recherche d'élément ? Complexité de l'ajout d'un élément ? 
+37. Opération de rotation gauche et rotation droite. A quoi servent-elles ?
+38. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
 > *La sérialisation est au programme. Il s'agit de transformer une structure de donné hiérarchique en une structure de donné séquentielle pour après, par exemple, la sauvegarder dans un fichier texte. On pourra considérer des tableaux comme structure de donné séquentielle*
-37. Donnez une fonction de sérialisation pour un graphe non orienté.
-38. "Arbre bicolore" lol
-39. 
-40. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
+39. Donnez une fonction de sérialisation pour un graphe non orienté.
+40. "Arbre bicolore" lol
+41. 
+42. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
 
 ##
 
@@ -106,7 +108,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzU2OTMyLC0zNTQyNjAwMTUsLTIzND
-MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
-ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbLTE1MzI4MjU1NTEsLTM1NDI2MDAxNSwtMj
+M0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5
+OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
