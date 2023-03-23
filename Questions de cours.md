@@ -1,6 +1,4 @@
-# Méthodes de programmations
-
-## Algo et Programmes
+## Méthodes de programmations
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
 2. Qu'est ce-qu'un langage de programmation compilé ? Interprété ? **Compilé à la volé ?**
 3. Quelle est la différence entre un `signed` et un `unsigned` ? Comment sont encodé les nombre négatifs ?
@@ -35,7 +33,9 @@ int q11(int* liste,int n,int k) {
 	return n;
 }
 ```
+
+12.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjI3NTg2MCwtODgwMzE0Nzk4LDgwNT
-E0ODY4NSwtMTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbLTUzNTA1MjE3LDIwMTIyNzU4NjAsLTg4MD
+MxNDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
