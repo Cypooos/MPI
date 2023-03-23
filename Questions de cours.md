@@ -83,13 +83,13 @@ int main() {
 40. "Arbre bicolore" lol
 41. Définir un graphe. Un graphe orienté. Un graphe pondéré. Un graphe complet.
 42. Qu'est-ce qu'une matrice d’adjacence ?
-43. **Si $A$ est une matrice d'adjacence, que représente $A^n_{i j}$ ?**
+43. **Si $A$ est une matrice d'adjacence, que représente $(A^n)_{i j}$ ?**
 44. Qu'est-ce qu'une composante fortement connexe ? Faiblement connexe ?
 45. Soit $R$ une relation et $G=(S,A)$ le graphe associé. Traduire le fait que $R$ soit réflexive. Transitive. Totale. Une relation d'ordre. Que représente une composante fortement connexe dans G ?
 46. Qu'est-ce qu'un graphe planaire ? **Démontrez la propriété d'Euler**
 47. On note $\sim$ la relation d'existance d'un chemin entre deux sommets. Montrez que cela définie bien une relation d'équivalence. Que représente les classes d'équivalence ?
 48. Montrez que $G=(S,A)$ est un arbre, ssi pour tout paires $a,b\in S$ il existe un unique chemin de $a$ à $b$ sans cycle
-49. Quelle est la structure unir et retrouver ? Donnez  Donnez le pseudo-code avec des forets.
+49. Quelle est la structure unir et retrouver ? Donnez des optimisations possible pour obtenir une complexité très avantageuse $O($.
 50. 
 51. Recherche d'un arbre couvrant de poids minimal (Algorithme de Kruskal). Preuve de sa correction et terminaison. **Complexité en $O(\log^*(n))$**
 
@@ -134,7 +134,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyODQ3MzM5LC00NDMzNTkyOTMsMTc5Nj
+eyJoaXN0b3J5IjpbNjYzODIyNDA2LC00NDMzNTkyOTMsMTc5Nj
 IwNzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYxMTgsLTM1NDI2MDAx
 NSwtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MD
 MxNDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
