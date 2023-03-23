@@ -78,7 +78,7 @@ int main() {
 36. Définir un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité de la recherche d'élément ? Complexité de l'ajout d'un élément ? 
 37. Opération de rotation gauche et rotation droite. A quoi servent-elles ?
 38. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
-> *La sérialisation est au programme. Il s'agit de transformer une structure de donné hiérarchique en une structure de donné séquentielle pour après, par exemple, la sauvegarder dans un fichier texte. On pourra considérer des tableaux comme structure de donné séquentielle.*
+> *La sérialisation est au programme. Il s'agit de transformer une structure de donné hiérarchique en une structure de donné séquentielle pour après, par exemple, la sauvegarder dans un fichier texte. On pourra considérer des tableaux comme structure de donné séquentielle. La fonction doit être bijective.*
 39. Donnez une fonction de sérialisation pour un graphe non orienté.
 40. "Arbre bicolore" lol
 41. Définir un graphe. Un graphe orienté. Un graphe pondéré. Un graphe complet.
@@ -112,7 +112,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjY4NjAzNTYsLTM1NDI2MDAxNSwtMj
-M0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5
-OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbMTczODgzOTEsLTM1NDI2MDAxNSwtMjM0Mz
+AzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4
+MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
