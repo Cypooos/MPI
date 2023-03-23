@@ -65,9 +65,10 @@ int main() {
 23. Définir un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité de la recherche d'élément ? Complexité de l'ajout d'un élément ?
 24. Opération de rotation gauche et rotation droite. A quoi servent-elles ?
 25. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
-26. Donnez une fonction de sérialisation pour un graphe non orienté.
+*La sérialisation est au programme. Il s'agit de transformer une structure de donné hiérarchique en une structure de donné séquencielle *
+27. Donnez une fonction de sérialisation pour un graphe non orienté.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzEyMDQzNiwtMjM0MzAzNzk2LDY2OD
-g3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUs
-LTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbLTEwOTg5ODQ0ODMsLTIzNDMwMzc5Niw2Nj
+g4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1
+LC0xODc3MTIwMTI4XX0=
 -->
