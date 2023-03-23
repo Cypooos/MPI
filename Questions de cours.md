@@ -38,7 +38,8 @@ int q11(int* liste,int n,int k) {
 }
 ```
 12. **Qu'est-ce que l'assembleur ?**
-13. Donnez 
+13. Qu'est-ce qu'un pipe ?
+14. A quoi correspondent *stdin*, *stdout* et *sterr* ?
 
 
 ## Structures de données
@@ -93,7 +94,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTkyNTM1MDAsLTM1NDI2MDAxNSwtMj
-M0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5
-OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbLTY3NjM0NjQzMiwtMzU0MjYwMDE1LC0yMz
+QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
+LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
 -->
