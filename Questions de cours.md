@@ -101,59 +101,59 @@ int main() {
 52. Recherche d'un arbre couvrant de poids minimal (Algorithme de Kruskal). Preuve de sa correction et terminaison. **Complexité en $O(\log^*(n))$, en pratique O(1)**
 
 ## Logique
-51. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
-52. Écrire sous la forme d'arbre les formules logique $A \lrarr \lnot B$ et $A \land (B\lor \lnot C)$
-53. Donnez une bijection entre $\{V, F \}$ et $\N/2\N$. A quoi correspondent les opérateurs $\lnot$ et $\land$ ? En déduire $\lor$
-54. Exprimez $\lor$, $\rarr$ et $\lrarr$ avec $\lnot$ et $\land$
-55. Lois de Morgan.
-56. Pour chaque variable soulignée, indiquer si elle est libre et/ou liée. Quelle est la porté du $\forall y$ ?
+53. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
+54. Écrire sous la forme d'arbre les formules logique $A \lrarr \lnot B$ et $A \land (B\lor \lnot C)$
+55. Donnez une bijection entre $\{V, F \}$ et $\N/2\N$. A quoi correspondent les opérateurs $\lnot$ et $\land$ ? En déduire $\lor$
+56. Exprimez $\lor$, $\rarr$ et $\lrarr$ avec $\lnot$ et $\land$
+57. Lois de Morgan.
+58. Pour chaque variable soulignée, indiquer si elle est libre et/ou liée. Quelle est la porté du $\forall y$ ?
 $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(\underline y,u))$$
-57. Qu'est-ce qu'une valuation ? Un modèle ?
-58. Définition de l'équivalence entre deux formule ?
-59. Mettre sous forme normale conjonctive de taille 3 $C\lor B\lor A\lor (B \land \lnot C)$
-60. Mettre sous forme normale disjonctive de taille 3 $C\land B\land A\land (B \lor \lnot C)$
-61. Algorithme de Quine-Mc Cluskey pour réduire une formule logique
-62. Déduction naturelle. Arbre de preuve.
-63. Règle d'introduction et d'élimination de $\lor$, $\land$, $\rarr$ et $\lnot$, définition de $\lrarr$
-64. Règle d'introduction et d'élimination de $\forall$, $\exist$
-65. Qu'est-ce qu'un axiome ?
-66. Le syllogisme barbara, le modus ponen.
-67. Quel règles faut-il ajouter à la logique minimale pour avoir la logique intuitionniste ?
-68. Citez 3 règles possible à ajouter à la logique intuitionniste pour obtenir la logique classique. Prouvez que elles sont équivalentes.
-69. Faire l'arbre de preuve de $(\lnot A\land \lnot B)\lrarr \lnot (A\lor B)$ en logique minimale
-70. Faire l'arbre de preuve de $\lnot(A\lrarr \lnot B)$ en logique intuitionniste
-71. Faire l'arbre de preuve de $\exist y.\forall x.P(x,y)\implies \forall x.\exist y.P(x,y)$ en logique classique où $P$ est une proposition d’arité 2.
-72. **Axiomes de l'égalité.** *(ce sont des schémas d'axiomes en soit mais chuuut)*
-73. **Axiomes de Peano.**
+59. Qu'est-ce qu'une valuation ? Un modèle ?
+60. Définition de l'équivalence entre deux formule ?
+61. Mettre sous forme normale conjonctive de taille 3 $C\lor B\lor A\lor (B \land \lnot C)$
+62. Mettre sous forme normale disjonctive de taille 3 $C\land B\land A\land (B \lor \lnot C)$
+63. Algorithme de Quine-Mc Cluskey pour réduire une formule logique
+64. Déduction naturelle. Arbre de preuve.
+65. Règle d'introduction et d'élimination de $\lor$, $\land$, $\rarr$ et $\lnot$, définition de $\lrarr$
+66. Règle d'introduction et d'élimination de $\forall$, $\exist$
+67. Qu'est-ce qu'un axiome ?
+68. Le syllogisme barbara, le modus ponen.
+69. Quel règles faut-il ajouter à la logique minimale pour avoir la logique intuitionniste ?
+70. Citez 3 règles possible à ajouter à la logique intuitionniste pour obtenir la logique classique. Prouvez que elles sont équivalentes.
+71. Faire l'arbre de preuve de $(\lnot A\land \lnot B)\lrarr \lnot (A\lor B)$ en logique minimale
+72. Faire l'arbre de preuve de $\lnot(A\lrarr \lnot B)$ en logique intuitionniste
+73. Faire l'arbre de preuve de $\exist y.\forall x.P(x,y)\implies \forall x.\exist y.P(x,y)$ en logique classique où $P$ est une proposition d’arité 2.
+74. **Axiomes de l'égalité.** *(ce sont des schémas d'axiomes en soit mais chuuut)*
+75. **Axiomes de Peano.**
 
 ## Algorithmique
-1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
-2. Différence entre un algorithme de Las Vegas et de Monte Carlos ?
-3. Qu'est-ce qu'un algorithme glouton ?
-4. Qu'est-ce que la mémoïsation ? Donnez une implémentation de la suite de Fibonacci mémoïsé. Quelle est la nouvelle complexité ?
-5. **Fonction d'Ackermann**
-6. Algorithme de Boyer-Moore
-7. Algorithme de Rabin-Karp
-8. Algorithme de Huffman
-9. Algorithme Lempel-Ziv-Welch
-10. Algorithme de Kosaraju de recherche de composante fortement connexe à l'aide de parcours du graphe.
-11. Algorithme de Dijkstra avec une file de priorité. Prononciation du nom.
-12. Algorithme de Floyd-Warshall.
-13. Recherche d’un arbre couvrant de poids minimum par l’algorithme de Kruskal.
+76. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
+77. Différence entre un algorithme de Las Vegas et de Monte Carlos ?
+78. Qu'est-ce qu'un algorithme glouton ?
+79. Qu'est-ce que la mémoïsation ? Donnez une implémentation de la suite de Fibonacci mémoïsé. Quelle est la nouvelle complexité ?
+80. **Fonction d'Ackermann**
+81. Algorithme de Boyer-Moore
+82. Algorithme de Rabin-Karp
+83. Algorithme de Huffman
+84. Algorithme Lempel-Ziv-Welch
+85. Algorithme de Kosaraju de recherche de composante fortement connexe à l'aide de parcours du graphe.
+86. Algorithme de Dijkstra avec une file de priorité. Prononciation du nom.
+87. Algorithme de Floyd-Warshall.
+88. Recherche d’un arbre couvrant de poids minimum par l’algorithme de Kruskal.
 
 
 ## Classe de complexité
-1. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
-2. Prouvez la non décidabilité du problème de l’arrêt.
-3. Donnez l'énoncé des problèmes suivants : $\text{SAT}$, $\text{n-SAT}$, $\text{MAX2SAT}$, $\text{k-COLOR}$
-4. **Donnez l'énoncé des problèmes suivants : $\text{CLIQUE}$, $\text{VERTEX-COVER}$, $\text{HAMILOTINAN}$, $\text{CIBLE-SAC-A-DOS}$**
-5. Classe $\text{P}$, Classe $\text{NP}$, **Classe $\text{EXPTIME}$**, **Classe $\text{EXPSPACE}$**
-8. Réduction de problèmes en temps polynomial.
-9. Montrez que $\text{SAT}\le_P\text{3-SAT}$
-6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
-10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
+89. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
+90. Prouvez la non décidabilité du problème de l’arrêt.
+91. Donnez l'énoncé des problèmes suivants : $\text{SAT}$, $\text{n-SAT}$, $\text{MAX2SAT}$, $\text{k-COLOR}$
+92. **Donnez l'énoncé des problèmes suivants : $\text{CLIQUE}$, $\text{VERTEX-COVER}$, $\text{HAMILOTINAN}$, $\text{CIBLE-SAC-A-DOS}$**
+93. Classe $\text{P}$, Classe $\text{NP}$, **Classe $\text{EXPTIME}$**, **Classe $\text{EXPSPACE}$**
+94. Réduction de problèmes en temps polynomial.
+95. Montrez que $\text{SAT}\le_P\text{3-SAT}$
+96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
+97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDUyNTYxNCwtMTkwNTQ2MzAwNywtND
+eyJoaXN0b3J5IjpbLTg5NDQ2MzU5NSwtMTkwNTQ2MzAwNywtND
 QzMzU5MjkzLDE3OTYyMDc2NTAsLTIwNjcxOTkzNDAsNzg0NTQ2
 MTE4LC0zNTQyNjAwMTUsLTIzNDMwMzc5Niw2Njg4NzA2NSwyMD
 EyMjc1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIw
