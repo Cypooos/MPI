@@ -1,5 +1,10 @@
 Par Cyprien (@Cypooos) en MPI* à Fénelon Sainte Marie. Droit à toute sorte de publication et modification, mais gardez les crédits !
 En gras sont les questions non officiellement au programme (parfois explicitement hors programme), mais qu'il est bon de connaitre.
+
+Il manque encore :
+ - Languages
+ - Ba
+
 ## Machines et implémentation
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
 2. Qu'est ce-qu'un langage de programmation compilé ? Interprété ? **Compilé à la volé ?**
@@ -81,7 +86,7 @@ int main() {
 > *La sérialisation est au programme. Il s'agit de transformer une structure de données hiérarchique en une structure de données séquentielle pour après, par exemple, la sauvegarder dans un fichier texte. On pourra considérer des tableaux comme structure de données séquentielle. La fonction doit être bijective.*
 39. Donnez une fonction de sérialisation pour un graphe non orienté.
 40. "Arbre bicolore" lol
-41. Définir un graphe. Un graphe orienté. Un graphe pondéré. Un graphe complet.
+41. Définir un graphe. Un graphe orienté. Un graphe pondéré. Un graphe complet. Une clique.
 42. Qu'est-ce qu'une matrice d’adjacence ?
 43. **Si $A$ est une matrice d'adjacence, que représente $(A^n)_{i j}$ ?**
 44. Qu'est-ce qu'une composante fortement connexe ? Faiblement connexe ?
@@ -144,7 +149,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc0NTIwMjEwLC0xOTA1NDYzMDA3LC00ND
+eyJoaXN0b3J5IjpbMjgxOTEwNDc3LC0xOTA1NDYzMDA3LC00ND
 MzNTkyOTMsMTc5NjIwNzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYx
 MTgsLTM1NDI2MDAxNSwtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMT
 IyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAx
