@@ -80,9 +80,10 @@ int main() {
 > *La sérialisation est au programme. Il s'agit de transformer une structure de donné hiérarchique en une structure de donné séquentielle pour après, par exemple, la sauvegarder dans un fichier texte. On pourra considérer des tableaux comme structure de donné séquentielle*
 38. Donnez une fonction de sérialisation pour un graphe non orienté.
 39. "Arbre bicolore" lol
-40. Définir un graphe. Un graphe orienté. Un graphe pondéré. Un graph 
+40. Définir un graphe. Un graphe orienté. Un graphe pondéré. Un graphe complet.
 41. Qu'est-ce qu'une matrice d’adjacence ?
-42. Si $R$ est une relation, quel est son graphe associé si $R$ est 
+42. Soit $R$ une relation et $G=(S,A)$ le graphe associé. Traduire le fait que $R$ soit réflexive. Transitive. Totale. Une relation d'ordre.
+43. M
 44. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
 
 ##
@@ -109,7 +110,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTk0ODM2NCwtMzU0MjYwMDE1LC0yMz
+eyJoaXN0b3J5IjpbLTQwMjM4MjQ1NCwtMzU0MjYwMDE1LC0yMz
 QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
 LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
 -->
