@@ -125,9 +125,9 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 3. Donnez l'énoncé des problèmes suivants : SAT, *n*-SAT, 2-SAT MAX2SAT, *k*-COLOR
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial.
-6. Montrez que $\le$SAT
+6. Montrez que $\text{SAT}\le_P\text{3-SAT}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3NzQ3MzUxLC0zNTQyNjAwMTUsLTIzND
-MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
-ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbLTEyNzc3MDE2MTgsLTM1NDI2MDAxNSwtMj
+M0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5
+OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
