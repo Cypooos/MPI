@@ -4,6 +4,7 @@ En gras sont les questions non officiellement au programme (parfois explicitemen
 Il manque encore à ce document:
  - Languages
  - Base de donnée
+ - Apprentissage automatique et jeux
  - Extras non nécessaire (qui sera entièrement en gras)
 
 ## Machines et implémentation
@@ -153,9 +154,9 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDQ2MzU5NSwtMTkwNTQ2MzAwNywtND
-QzMzU5MjkzLDE3OTYyMDc2NTAsLTIwNjcxOTkzNDAsNzg0NTQ2
-MTE4LC0zNTQyNjAwMTUsLTIzNDMwMzc5Niw2Njg4NzA2NSwyMD
-EyMjc1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIw
-MTI4XX0=
+eyJoaXN0b3J5IjpbLTIzNjY2Nzk0MCwtODk0NDYzNTk1LC0xOT
+A1NDYzMDA3LC00NDMzNTkyOTMsMTc5NjIwNzY1MCwtMjA2NzE5
+OTM0MCw3ODQ1NDYxMTgsLTM1NDI2MDAxNSwtMjM0MzAzNzk2LD
+Y2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2
+ODUsLTE4NzcxMjAxMjhdfQ==
 -->
