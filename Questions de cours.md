@@ -42,7 +42,10 @@ int q11(int* liste,int n,int k) {
 14. Qu'est-ce qu'un pipe ?
 15. A quoi correspondent les flux standard *stdin*, *stdout* et *sterr* ?
 16. Qu'est-ce qu'un *inode* (nœuds d’index) dans un système de fichier ?
-17. Différence entre un lien symbolique et physique ? 
+17. Différence entre un lien symbolique et physique ?
+18. Qu'est-ce qu'une instruction atomique ?
+19. Algorithme de Peterson pour une implémentation des mutex avec 2 threads.
+20. Algorithme de la boulangerie de Lamport pour implémentation des mutex 
 
 
 ## Structures de données
@@ -97,7 +100,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTU0Mzg4NywtMzU0MjYwMDE1LC0yMz
+eyJoaXN0b3J5IjpbMTgyNDI4NjI1OSwtMzU0MjYwMDE1LC0yMz
 QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
 LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
 -->
