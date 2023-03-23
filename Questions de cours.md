@@ -57,8 +57,9 @@ int main() {
 16. Qu'est ce qu'un Constructeur ? Accesseur ? Transformateur ? **Destructeur ?**
 17. Donnez une structure de donnée abstraite représentant une hashmap (un dictionnaire).
 18. Qu'est-ce qu'une liste ? Une liste doublement chainé ? Donner une implémentation d'une liste doublement chainé en C stoquants des `int`. 
-19. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amortie de `ajouter` et de `retirer` ? 
+19. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMz
-E0Nzk4LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbLTIzNDMwMzc5Niw2Njg4NzA2NSwyMDEyMj
+c1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIwMTI4
+XX0=
 -->
