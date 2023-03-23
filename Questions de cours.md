@@ -94,10 +94,11 @@ int main() {
 1. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
 2. Écrire sous la forme d'arbre les formules logique $A \lrarr \lnot B$ et $A \land (B\lor \lnot C)$
 3. Donnez une bijection entre $\{\bot, \top \}$ et $\N/2\N$. A quoi correspondent les opérateurs $\lnot$ et $\land$ ? En déduire $\lor$
-4. Lois de Morgans.
-5. Pour chaque variable soulignée, indiquer si elle est libre et/ou lié. Quelle est la porté du $\forall y$ ?
+4. Exprimez $\lor$, $\rarr$ et $\lrarr$ avec $\lnot$ et $\land$
+5. Lois de Morgan.
+6. Pour chaque variable soulignée, indiquer si elle est libre et/ou lié. Quelle est la porté du $\forall y$ ?
 $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(\underline y,u))$$
-6. Qu'est-ce q
+7. Qu'est-ce qu'une valuation ? Indiquer 
 
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -121,7 +122,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTMyODIxNywtMzU0MjYwMDE1LC0yMz
+eyJoaXN0b3J5IjpbMTQxNzgxNjgyNiwtMzU0MjYwMDE1LC0yMz
 QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
 LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
 -->
