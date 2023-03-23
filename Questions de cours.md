@@ -52,8 +52,10 @@ int main() {
 	b[2] = fct(50);
 }
 ```
-14. 
+14. **Comment sont implémenté `true` et `false` en C ?**
+15. Distinction entre structure de données mutable et immuable.
+16. Qu'est ce qu'un constructeur ? D'accesseur ? Un destructeur ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzU1NTUxMiwyMDEyMjc1ODYwLC04OD
+eyJoaXN0b3J5IjpbMTkzNTcxMjk0MSwyMDEyMjc1ODYwLC04OD
 AzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
