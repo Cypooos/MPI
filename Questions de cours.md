@@ -112,7 +112,8 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 66. Le syllogisme barbara, le modus ponen.
 67. Quel règles faut-il ajouter à la logique minimale pour avoir la logique intuitionniste ?
 68. Citez 3 règles possible à ajouter à la logique intuitionniste pour obtenir la logique classique. Prouvez que elles sont équivalentes.
-69. Faire l'arbre de preuve de $\lnot(A\lrarr \lnot B$
+69. Faire l'arbre de preuve de $\lnot(A\lrarr \lnot B)$ en logique intuitionniste
+70. Faire l'arbre de preuve de $\lnot(A \lor B)$ en logique intuitionniste
 
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -141,9 +142,9 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1NjE1NTI5LC0xOTA1NDYzMDA3LC00ND
-MzNTkyOTMsMTc5NjIwNzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYx
-MTgsLTM1NDI2MDAxNSwtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMT
-IyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAx
-MjhdfQ==
+eyJoaXN0b3J5IjpbLTUxNTY3NDUwMCwtMTkwNTQ2MzAwNywtND
+QzMzU5MjkzLDE3OTYyMDc2NTAsLTIwNjcxOTkzNDAsNzg0NTQ2
+MTE4LC0zNTQyNjAwMTUsLTIzNDMwMzc5Niw2Njg4NzA2NSwyMD
+EyMjc1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIw
+MTI4XX0=
 -->
