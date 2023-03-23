@@ -38,9 +38,11 @@ int q11(int* liste,int n,int k) {
 }
 ```
 12. **Qu'est-ce que l'assembleur ?**
-13. Qu'est-ce qu'un pipe ?
-14. A quoi correspondent les flux standard *stdin*, *stdout* et *sterr* ?
-15. Qu'est-ce qu'un *inode* (nœuds d’index) dans un système de fichier ? Un lien symbolique ? 
+13. 
+14. Qu'est-ce qu'un pipe ?
+15. A quoi correspondent les flux standard *stdin*, *stdout* et *sterr* ?
+16. Qu'est-ce qu'un *inode* (nœuds d’index) dans un système de fichier ?
+17. Différence entre un lien symbolique et physique ? 
 
 
 ## Structures de données
@@ -95,7 +97,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3NDgyNjA4LC0zNTQyNjAwMTUsLTIzND
-MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
-ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbMTA5MTg5NTc5MywtMzU0MjYwMDE1LC0yMz
+QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
+LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
 -->
