@@ -61,14 +61,14 @@ int main() {
 19. Donnez une implémentation possible de liste à l'aide de tableau grandissants en Ocaml.
 20. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
 21. **Donnez une structure de donnée permettant de stoquer des sous-ensembles de $[\![0;n]\!]$. Les opérations d'ajout et de retrait d'élément se feront en $O(1)$, l’initialisation en $O(n)$**
-22. Définir un arbre. Un arbre binaire. Donnez un type en C et en Ocaml. 
-23. Définir un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité de la recherche d'élément ? Complexité de l'ajout d'un élément ?
+22. Définir un arbre. Un arbre binaire. Sa hauteur et sa largeur. La hauteur d'un nœud. Donnez un type en C et en Ocaml.
+23. Définir un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité de la recherche d'élément ? Complexité de l'ajout d'un élément ? 
 24. Opération de rotation gauche et rotation droite. A quoi servent-elles ?
 25. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
 > *La sérialisation est au programme. Il s'agit de transformer une structure de donné hiérarchique en une structure de donné séquentielle pour après, par exemple, la sauvegarder dans un fichier texte. On pourra considérer des tableaux comme structure de donné séquentielle*
 27. Donnez une fonction de sérialisation pour un graphe non orienté.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NDYyNDg4MSwtMjM0MzAzNzk2LDY2OD
-g3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUs
-LTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbMjM2ODg0NTU5LC0yMzQzMDM3OTYsNjY4OD
+cwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4LDgwNTE0ODY4NSwt
+MTg3NzEyMDEyOF19
 -->
