@@ -114,7 +114,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 68. Citez 3 règles possible à ajouter à la logique intuitionniste pour obtenir la logique classique. Prouvez que elles sont équivalentes.
 69. Faire l'arbre de preuve de $(\lnot A\land \lnot B)\lrarr \lnot (A\lor B)$ en logique minimale
 70. Faire l'arbre de preuve de $\lnot(A\lrarr \lnot B)$ en logique intuitionniste
-71. Faire l'arbre de preuve de $\forall x$ en logique classique
+71. Faire l'arbre de preuve de $\exist x.\forall y.P(x,y)\implies\exist x.\forall y.P(x,y)$ en logique classique
 
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -143,7 +143,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4Njc2ODEzMCwtMTkwNTQ2MzAwNywtND
+eyJoaXN0b3J5IjpbLTE4MTIxMjIzNSwtMTkwNTQ2MzAwNywtND
 QzMzU5MjkzLDE3OTYyMDc2NTAsLTIwNjcxOTkzNDAsNzg0NTQ2
 MTE4LC0zNTQyNjAwMTUsLTIzNDMwMzc5Niw2Njg4NzA2NSwyMD
 EyMjc1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIw
