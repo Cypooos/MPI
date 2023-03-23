@@ -58,12 +58,13 @@ int main() {
 17. Qu'est ce qu'un Constructeur ? Accesseur ? Transformateur ? **Destructeur ?**
 18. Qu'est-ce qu'une structure de donnée abstraite ? Donnez une structure de donnée abstraite représentant une hashmap (un dictionnaire).
 19. Qu'est-ce qu'une liste ? Une liste doublement chainé ? Donner une implémentation d'une liste doublement chainé en C stoquants des `int`. 
-20. Donnez une implémentation possible des listes à l'aide de tableau grandissants.
+20. Donnez une implémentation possible de liste à l'aide de tableau grandissants en Ocaml.
 21. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
-22. 
-23. Donnez une fonction de sérialisation 
+22. Donnez une structure de donnée permetta
+23. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
+23. Donnez une fonction de sérialisation pour un graphe non orienté.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNTg4NDkwNCwtMjM0MzAzNzk2LDY2OD
+eyJoaXN0b3J5IjpbLTQwNzk5ODMwMywtMjM0MzAzNzk2LDY2OD
 g3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUs
 LTE4NzcxMjAxMjhdfQ==
 -->
