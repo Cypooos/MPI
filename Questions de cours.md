@@ -72,14 +72,16 @@ int main() {
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
 2. Différence entre un algorithme de Las Vegas et de Monte Carlos ?
-3. Algorithme de Boyer-Moore
-4. Algorithme de Rabin-Karp
-5. Algorithme de Huffman
-6. Algorithme Lempel-Ziv-Welch
-7. Algorithme de Kosaraju de recherche de composante fortement connexe à l'aide de parcours du graphe.
-8. Algorithme de Dijkstra avec une file de priorité. Prononciation du nom.
-9. Algorithme de Floyd-Warshall.
-10. Recherche d’un arbre couvrant de poids minimum par l’algorithme de Kruskal.
+3. Qu'est-ce qu'un algorithme glouton ?
+4. Qu'est-ce que la mémoîsation ? Donnez une implémentation de fibonachi mémoisé. Quele est la nouvelle complexité ?
+5. Algorithme de Boyer-Moore
+6. Algorithme de Rabin-Karp
+7. Algorithme de Huffman
+8. Algorithme Lempel-Ziv-Welch
+9. Algorithme de Kosaraju de recherche de composante fortement connexe à l'aide de parcours du graphe.
+10. Algorithme de Dijkstra avec une file de priorité. Prononciation du nom.
+11. Algorithme de Floyd-Warshall.
+12. Recherche d’un arbre couvrant de poids minimum par l’algorithme de Kruskal.
 
 
 ## Classe de complexité
@@ -87,7 +89,7 @@ int main() {
 2. Prouvez la non décidabilité du problème de l’arrêt.
 3. Donnez l'énoncé des problèmes suivants : SAT, 3-SAT, 2-SAT, MAX2SAT, k-COLOR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxNTQ5NzQ5LC0zNTQyNjAwMTUsLTIzND
-MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
-ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbLTExNTgyNzY3NDksLTM1NDI2MDAxNSwtMj
+M0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5
+OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
