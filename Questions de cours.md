@@ -1,4 +1,4 @@
-En gras sont les question non officiellement au programme, mais q
+En gras sont les question non officiellement au programme, mais qu'il est bon de connaitre.
 ## Méthodes de programmations
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
 2. Qu'est ce-qu'un langage de programmation compilé ? Interprété ? **Compilé à la volé ?**
@@ -53,17 +53,17 @@ int main() {
 	b[2] = fct(50);
 }
 ```
-14. **Comment sont implémenté `true` et `false` en C ?**
-15. Distinction entre structure de données mutable et immuable.
-16. Qu'est ce qu'un Constructeur ? Accesseur ? Transformateur ? **Destructeur ?**
-17. Qu'est-ce qu'une structure de donnée abstraite ? Donnez une structure de donnée abstraite représentant une hashmap (un dictionnaire).
-18. Qu'est-ce qu'une liste ? Une liste doublement chainé ? Donner une implémentation d'une liste doublement chainé en C stoquants des `int`. 
-19. Donnez une implémentation possible des listes à l'aide de tableau grandissants.
-20. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
-21. 
-22. Donnez une fonction de sérialisation 
+14. **Comment sont implémenté `true` et `false` en C ? Que fais `if (n` ?** 
+16. Distinction entre structure de données mutable et immuable.
+17. Qu'est ce qu'un Constructeur ? Accesseur ? Transformateur ? **Destructeur ?**
+18. Qu'est-ce qu'une structure de donnée abstraite ? Donnez une structure de donnée abstraite représentant une hashmap (un dictionnaire).
+19. Qu'est-ce qu'une liste ? Une liste doublement chainé ? Donner une implémentation d'une liste doublement chainé en C stoquants des `int`. 
+20. Donnez une implémentation possible des listes à l'aide de tableau grandissants.
+21. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
+22. 
+23. Donnez une fonction de sérialisation 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5OTIxNTA3NiwtMjM0MzAzNzk2LDY2OD
-g3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUs
-LTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbLTExNDAzMjMzMzksLTIzNDMwMzc5Niw2Nj
+g4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1
+LC0xODc3MTIwMTI4XX0=
 -->
