@@ -52,7 +52,7 @@ int q11(int* liste,int n,int k) {
 
 
 ## Structures de données
-13. Qu’est ce que l'allocation ? Citez les 3 lieux ou la mémoire peut être stocké dans un programme. Où sont stocké `30`, `40` et `50` dans la mémoire au moment de l'appel à `fct` dans le programme suivant ? Ou est stocké la *variable* `table` ? et son contenu ?
+24. Qu’est ce que l'allocation ? Citez les 3 lieux ou la mémoire peut être stocké dans un programme. Où sont stocké `30`, `40` et `50` dans la mémoire au moment de l'appel à `fct` dans le programme suivant ? Ou est stocké la *variable* `table` ? et son contenu ?
 ```c
 int fct(int a){return a*a;};
 const int set = 30;
@@ -64,22 +64,25 @@ int main() {
 	b[2] = fct(50);
 }
 ```
-14. **Comment sont implémenté `true` et `false` en C ? Que fais `if (n)` avec `n` un nombre ?** 
-15. Distinction entre structure de données mutable et immuable.
-16. Qu'est ce qu'un Constructeur ? Accesseur ? Transformateur ? **Destructeur ?**
-17. Qu'est-ce qu'une structure de donnée abstraite ? Donnez une structure de donnée abstraite représentant une hashmap (un dictionnaire).
-18. Qu'est-ce qu'une liste ? Une liste doublement chainé ? Donner une implémentation d'une liste doublement chainé en C stoquants des `int`. 
-19. Donnez une implémentation possible de liste à l'aide de tableau grandissants en Ocaml.
-20. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
-21. **Donnez une structure de donnée permettant de stoquer des sous-ensembles de $[\![0;n]\!]$. Les opérations d'ajout et de retrait d'élément se feront en $O(1)$, l’initialisation en $O(n)$**
-22. Définir un arbre. Un arbre binaire. Sa hauteur et sa largeur. La hauteur d'un nœud. Une foret. Donnez un type en C et en Ocaml. 
-23. Définir un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité de la recherche d'élément ? Complexité de l'ajout d'un élément ? 
-24. Opération de rotation gauche et rotation droite. A quoi servent-elles ?
-25. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
+25. **Comment sont implémenté `true` et `false` en C ? Que fais `if (n)` avec `n` un nombre ?** 
+26. Distinction entre structure de données mutable et immuable.
+27. Qu'est ce qu'un Constructeur ? Accesseur ? Transformateur ? **Destructeur ?**
+28. Qu'est-ce qu'une structure de donnée abstraite ? Donnez une structure de donnée abstraite représentant une hashmap (un dictionnaire).
+29. Qu'est-ce qu'une liste ? Une liste doublement chainé ? Donner une implémentation d'une liste doublement chainé en C stoquants des `int`. 
+30. Donnez une implémentation possible de liste à l'aide de tableau grandissants en Ocaml.
+31. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
+32. **Donnez une structure de donnée permettant de stoquer des sous-ensembles de $[\![0;n]\!]$. Les opérations d'ajout et de retrait d'élément se feront en $O(1)$, l’initialisation en $O(n)$**
+33. Définir un arbre. Un arbre binaire. Sa hauteur et sa largeur. La hauteur d'un nœud. Une foret. Donnez un type en C et en Ocaml. 
+34. Définir un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité de la recherche d'élément ? Complexité de l'ajout d'un élément ? 
+35. Opération de rotation gauche et rotation droite. A quoi servent-elles ?
+36. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
 > *La sérialisation est au programme. Il s'agit de transformer une structure de donné hiérarchique en une structure de donné séquentielle pour après, par exemple, la sauvegarder dans un fichier texte. On pourra considérer des tableaux comme structure de donné séquentielle*
-26. Donnez une fonction de sérialisation pour un graphe non orienté.
-27. "Arbre bicolore" lol
-28. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
+37. Donnez une fonction de sérialisation pour un graphe non orienté.
+38. "Arbre bicolore" lol
+39. 
+40. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
+
+##
 
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -103,7 +106,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzIwNTAxMSwtMzU0MjYwMDE1LC0yMz
-QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
-LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbLTM0NzU2OTMyLC0zNTQyNjAwMTUsLTIzND
+MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
+ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
