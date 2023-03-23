@@ -92,8 +92,9 @@ int main() {
 
 ## Logique
 1. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner sa table de vérité et son arité.
-2. Loi de morgans.
-3. Ecrire sous la forme d'arbre les formules logique $A \land (B\lor \lnot C)$
+2. Écrire sous la forme d'arbre les formules logique $A \land (B\lor \lnot C)$ et $\lrarr$
+3. Donnez une bijection entre $$ 
+4. Loi de morgans.
 
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -117,7 +118,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzAzMzY4NjQsLTM1NDI2MDAxNSwtMj
-M0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5
-OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbNzI1NDY5MTMzLC0zNTQyNjAwMTUsLTIzND
+MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
+ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
