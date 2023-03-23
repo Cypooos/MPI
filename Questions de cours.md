@@ -89,9 +89,10 @@ int main() {
 1. Qu'est-ce qu'un problème de décision ? 
 2. Prouvez la non décidabilité du problème de l’arrêt.
 3. Donnez l'énoncé des problèmes suivants : **SAT**, **3-SAT**, **2-SAT**, **MAX2SAT**, **k-COLOR**
-4. 
+4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
+5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0NjI1MzcsLTM1NDI2MDAxNSwtMjM0Mz
-AzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4
-MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbLTE0MDY3ODQ3NzksLTM1NDI2MDAxNSwtMj
+M0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5
+OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
