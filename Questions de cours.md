@@ -23,8 +23,8 @@ let a b c d = match b c [||] with
  | _ -> d
 ```
 9. Qu'est ce ce que la programmation défensive ? Pourquoi est-elle plus simple en ocaml que en python ?
-10. Faite de graphe de flot de contrôle du code de la fonction `getter` si dessus.
-11. Faite le graphe de flot de contrôle de la fonction suivante. Donnez un jeu de test couvrant les sommets. Donnez un autre jeu de test couvrant les arêtes. Donnez un dernier jeu de test donnant des test exhaustif des conditions.
+10. Faites le graphe de flot de contrôle du code de la fonction `getter` si dessus.
+11. Faites le graphe de flot de contrôle de la fonction suivante. Donnez un jeu de test couvrant les sommets. Donnez un autre jeu de test couvrant les arêtes. Donnez un dernier jeu de test donnant des tests exhaustif des conditions.
 ```c
 int q11(int* liste,int n,int k) {
 	if (liste==NULL){return 0;}
@@ -63,7 +63,7 @@ int main() {
 22. 
 23. Donnez une fonction de sérialisation 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzE0NjkyOSwtMjM0MzAzNzk2LDY2OD
+eyJoaXN0b3J5IjpbMjEzNTg4NDkwNCwtMjM0MzAzNzk2LDY2OD
 g3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUs
 LTE4NzcxMjAxMjhdfQ==
 -->
