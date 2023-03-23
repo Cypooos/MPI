@@ -38,6 +38,7 @@ int q11(int* liste,int n,int k) {
 }
 ```
 12. **Qu'est-ce que l'assembleur ?**
+13. Donnez 
 
 
 ## Structures de données
@@ -75,14 +76,14 @@ int main() {
 2. Différence entre un algorithme de Las Vegas et de Monte Carlos ?
 3. Qu'est-ce qu'un algorithme glouton ?
 4. Qu'est-ce que la mémoïsation ? Donnez une implémentation de la suite de Fibonacci mémoïsé. Quelle est la nouvelle complexité ?
-5. Algorithme de Boyer-Moore
-6. Algorithme de Rabin-Karp
-7. Algorithme de Huffman
-8. Algorithme Lempel-Ziv-Welch
-9. Algorithme de Kosaraju de recherche de composante fortement connexe à l'aide de parcours du graphe.
-10. Algorithme de Dijkstra avec une file de priorité. Prononciation du nom.
-11. Algorithme de Floyd-Warshall.
-12. Recherche d’un arbre couvrant de poids minimum par l’algorithme de Kruskal.
+6. Algorithme de Boyer-Moore
+7. Algorithme de Rabin-Karp
+8. Algorithme de Huffman
+9. Algorithme Lempel-Ziv-Welch
+10. Algorithme de Kosaraju de recherche de composante fortement connexe à l'aide de parcours du graphe.
+11. Algorithme de Dijkstra avec une file de priorité. Prononciation du nom.
+12. Algorithme de Floyd-Warshall.
+13. Recherche d’un arbre couvrant de poids minimum par l’algorithme de Kruskal.
 
 
 ## Classe de complexité
@@ -92,7 +93,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDY3ODQ3NzksLTM1NDI2MDAxNSwtMj
+eyJoaXN0b3J5IjpbLTE4NTkyNTM1MDAsLTM1NDI2MDAxNSwtMj
 M0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5
 OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
