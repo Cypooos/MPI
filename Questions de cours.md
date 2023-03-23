@@ -76,14 +76,17 @@ int main() {
 4. Algorithme de Rabin-Karp
 5. Algorithme de Huffman
 6. Algorithme Lempel-Ziv-Welch
+7. Algorithme de Dijkstra avec une file de priorité. Prononciation du nom.
+8. Algorithme de Floyd-Warshall.
+9. Recherche d’un arbre couvrant de poids minimum par l’algorithme de Kruskal.
 
 
 ## Classe de complexité
 1. Qu'est-ce qu'un problème de décision ? 
 2. Prouvez la non décidabilité du problème de l’arrêt.
-3. Donnez l'énoncé des problèmes suivants : MAX2SAT
+3. Donnez l'énoncé des problèmes suivants : SAT, 3-SAT, 2-SAT, MAX2SAT, k-COLOR, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2MzM0NDE1LC0zNTQyNjAwMTUsLTIzND
-MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
-ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbMTQ1NzIzNDksLTM1NDI2MDAxNSwtMjM0Mz
+AzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4
+MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
