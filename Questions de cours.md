@@ -39,8 +39,12 @@ int q11(int* liste,int n,int k) {
 ## Récursivité et induction
 
 ## Structures de données
-. Qu'estce que l'allocation ? Citez les 3 lieux 
+. Qu'estce que l'allocation ? Citez les 3 lieux ou la mémoire peut être stoqué dans un programme. Ou sont stoqué `a`, `b` et `c` dans le programme suivant ?
+```c
+int fct(int a){return a*a;};
+int main(
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MjQ3MjUwMCwyMDEyMjc1ODYwLC04OD
+eyJoaXN0b3J5IjpbMTcwOTQ1Mjc1MCwyMDEyMjc1ODYwLC04OD
 AzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
