@@ -1,3 +1,4 @@
+Par Cyprien (@Cypooos) en MPI* à Fénelon Sainte marie. Droit à toute sorte de publication et , mais gardez les crédits !
 En gras sont les question non officiellement au programme (parfois explicitement hors programme), mais qu'il est bon de connaitre.
 ## Machines et implémentation
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
@@ -73,7 +74,7 @@ int main() {
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
 2. Différence entre un algorithme de Las Vegas et de Monte Carlos ?
 3. Qu'est-ce qu'un algorithme glouton ?
-4. Qu'est-ce que la mémoîsation ? Donnez une implémentation de fibonachi mémoisé. Quele est la nouvelle complexité ?
+4. Qu'est-ce que la mémoïsation ? Donnez une implémentation de la suite de Fibonacci mémoïsé. Quelle est la nouvelle complexité ?
 5. Algorithme de Boyer-Moore
 6. Algorithme de Rabin-Karp
 7. Algorithme de Huffman
@@ -89,7 +90,7 @@ int main() {
 2. Prouvez la non décidabilité du problème de l’arrêt.
 3. Donnez l'énoncé des problèmes suivants : SAT, 3-SAT, 2-SAT, MAX2SAT, k-COLOR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTgyNzY3NDksLTM1NDI2MDAxNSwtMj
-M0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5
-OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbMjAwNzk4ODc4NywtMzU0MjYwMDE1LC0yMz
+QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
+LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
 -->
