@@ -83,24 +83,23 @@ int main() {
 40. Définir un graphe. Un graphe orienté. Un graphe pondéré. Un graphe complet.
 41. Qu'est-ce qu'une matrice d’adjacence ?
 42. Soit $R$ une relation et $G=(S,A)$ le graphe associé. Traduire le fait que $R$ soit réflexive. Transitive. Totale. Une relation d'ordre.
-43. M
-44. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
-
-##
+43. Qu'est-ce qu'un graphe planaire ? **Démontrez la propriété d'Euler**
+44. On note $~$
+45. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
 
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
 2. Différence entre un algorithme de Las Vegas et de Monte Carlos ?
 3. Qu'est-ce qu'un algorithme glouton ?
 4. Qu'est-ce que la mémoïsation ? Donnez une implémentation de la suite de Fibonacci mémoïsé. Quelle est la nouvelle complexité ?
-6. Algorithme de Boyer-Moore
-7. Algorithme de Rabin-Karp
-8. Algorithme de Huffman
-9. Algorithme Lempel-Ziv-Welch
-10. Algorithme de Kosaraju de recherche de composante fortement connexe à l'aide de parcours du graphe.
-11. Algorithme de Dijkstra avec une file de priorité. Prononciation du nom.
-12. Algorithme de Floyd-Warshall.
-13. Recherche d’un arbre couvrant de poids minimum par l’algorithme de Kruskal.
+5. Algorithme de Boyer-Moore
+6. Algorithme de Rabin-Karp
+7. Algorithme de Huffman
+8. Algorithme Lempel-Ziv-Welch
+9. Algorithme de Kosaraju de recherche de composante fortement connexe à l'aide de parcours du graphe.
+10. Algorithme de Dijkstra avec une file de priorité. Prononciation du nom.
+11. Algorithme de Floyd-Warshall.
+12. Recherche d’un arbre couvrant de poids minimum par l’algorithme de Kruskal.
 
 
 ## Classe de complexité
@@ -110,7 +109,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjM4MjQ1NCwtMzU0MjYwMDE1LC0yMz
-QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
-LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbNzA2NjQzMzI5LC0zNTQyNjAwMTUsLTIzND
+MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
+ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
