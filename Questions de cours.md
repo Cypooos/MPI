@@ -55,11 +55,12 @@ int main() {
 14. **Comment sont implémenté `true` et `false` en C ?**
 15. Distinction entre structure de données mutable et immuable.
 16. Qu'est ce qu'un Constructeur ? Accesseur ? Transformateur ? **Destructeur ?**
-17. Donnez une structure de donnée abstraite représentant une hashmap (un dictionnaire).
+17. Qu'est-ce qu'une structure de donnée abstraite ? Donnez une structure de donnée abstraite représentant une hashmap (un dictionnaire).
 18. Qu'est-ce qu'une liste ? Une liste doublement chainé ? Donner une implémentation d'une liste doublement chainé en C stoquants des `int`. 
-19. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
+19. Donnez une implémentation possible des listes à l'aide de tableau grandissants.
+20. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDMwMzc5Niw2Njg4NzA2NSwyMDEyMj
-c1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIwMTI4
-XX0=
+eyJoaXN0b3J5IjpbNzA2ODc3ODcxLC0yMzQzMDM3OTYsNjY4OD
+cwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4LDgwNTE0ODY4NSwt
+MTg3NzEyMDEyOF19
 -->
