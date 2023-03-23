@@ -93,7 +93,7 @@ int main() {
 ## Logique
 1. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner sa table de vérité et son arité.
 2. Écrire sous la forme d'arbre les formules logique $A \land (B\lor \lnot C)$ et $\lrarr$
-3. Donnez une bijection entre $$ 
+3. Donnez une bijection entre $\{\ \}$ et $\N/2\N$. A quoi correspondent les opérateurs $\lnot$, $\lor$ $$ 
 4. Loi de morgans.
 
 ## Algorithmique
@@ -118,7 +118,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1NDY5MTMzLC0zNTQyNjAwMTUsLTIzND
+eyJoaXN0b3J5IjpbODg1OTE3MjI4LC0zNTQyNjAwMTUsLTIzND
 MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
 ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
