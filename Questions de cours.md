@@ -89,7 +89,7 @@ int main() {
 46. Qu'est-ce qu'un graphe planaire ? **Démontrez la propriété d'Euler**
 47. On note $\sim$ la relation d'existance d'un chemin entre deux sommets. Montrez que cela définie bien une relation d'équivalence. Que représente les classes d'équivalence ?
 48. Montrez que $G=(S,A)$ est un arbre, ssi pour tout paires $a,b\in S$ il existe un unique chemin de $a$ à $b$ sans cycle
-49. Quelle est la structure unir et retrouver ? Donnez les optimisations de compression de chemin et de réunir à la plus grande racine. La complexité amortie est $O(\alpha(n))$ ou $\alpha = }$ 
+49. Quelle est la structure unir et retrouver ? Donnez les optimisations de compression de chemin et de réunir à la plus grande racine. **La complexité amortie est $O(\alpha(n))$ ou $\alpha = \{x\mapsto A(x,x)\}^{-1}$ avec $A$ la fonction d'Ackermann**
 50. 
 51. Recherche d'un arbre couvrant de poids minimal (Algorithme de Kruskal). Preuve de sa correction et terminaison. **Complexité en $O(\log^*(n))$**
 
@@ -135,8 +135,8 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTAxNTU1NywtNDQzMzU5MjkzLDE3OT
-YyMDc2NTAsLTIwNjcxOTkzNDAsNzg0NTQ2MTE4LC0zNTQyNjAw
-MTUsLTIzNDMwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04OD
-AzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbLTEzNjMzNjYyMzIsLTQ0MzM1OTI5MywxNz
+k2MjA3NjUwLC0yMDY3MTk5MzQwLDc4NDU0NjExOCwtMzU0MjYw
+MDE1LC0yMzQzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtOD
+gwMzE0Nzk4LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
 -->
