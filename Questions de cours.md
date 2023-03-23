@@ -99,6 +99,7 @@ int main() {
 6. Pour chaque variable soulignée, indiquer si elle est libre et/ou lié. Quelle est la porté du $\forall y$ ?
 $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(\underline y,u))$$
 7. Qu'est-ce qu'une valuation ? Donnez une valuation 
+8. Algorithme de Quine-Mc Cluskey
 
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -118,11 +119,11 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 ## Classe de complexité
 1. Qu'est-ce qu'un problème de décision ? 
 2. Prouvez la non décidabilité du problème de l’arrêt.
-3. Donnez l'énoncé des problèmes suivants : **SAT**, **3-SAT**, **2-SAT**, **MAX2SAT**, **k-COLOR**
+3. Donnez l'énoncé des problèmes suivants : **SAT**, ***n*-SAT**, **2-SAT**, **MAX2SAT**, **k-COLOR**
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTA5NjYyOTIsLTM1NDI2MDAxNSwtMj
-M0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5
-OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbLTI2MDA1Mzc4NywtMzU0MjYwMDE1LC0yMz
+QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
+LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
 -->
