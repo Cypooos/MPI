@@ -85,8 +85,9 @@ int main() {
 42. Qu'est-ce qu'une composante fortement connexe ? Faiblement connexe ?
 43. Soit $R$ une relation et $G=(S,A)$ le graphe associé. Traduire le fait que $R$ soit réflexive. Transitive. Totale. Une relation d'ordre. Que représente une composante fortement connexe dans G ?
 44. Qu'est-ce qu'un graphe planaire ? **Démontrez la propriété d'Euler**
-45. On note $\sim$ la relation d'existance d'un chemin entre
-46. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
+45. On note $\sim$ la relation d'existance d'un chemin entre deux sommets. Montrez que cela définie bien une relat Montrez que :
+$$\text{G=(S,A) est un arbre} \iff \forall a,b\in S,$$
+47. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
 
 ## Algorithmique
 1. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -110,7 +111,7 @@ int main() {
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDc2MTEwODYsLTM1NDI2MDAxNSwtMj
-M0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5
-OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbMTIxMTg0NjY1MSwtMzU0MjYwMDE1LC0yMz
+QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
+LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
 -->
