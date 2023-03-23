@@ -60,11 +60,11 @@ int main() {
 19. Qu'est-ce qu'une liste ? Une liste doublement chainé ? Donner une implémentation d'une liste doublement chainé en C stoquants des `int`. 
 20. Donnez une implémentation possible de liste à l'aide de tableau grandissants en Ocaml.
 21. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
-22. Donnez une structure de donnée permetta
+22. Donnez une structure de donnée permettant de stoquer des sous-ensembles de $[\![0;n]\!]$. Les opérations d'ajout et de retrait d'élément se feront en $O(1)$, l’initialisation en $O(n)$
 23. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
 23. Donnez une fonction de sérialisation pour un graphe non orienté.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzk5ODMwMywtMjM0MzAzNzk2LDY2OD
-g3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUs
-LTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbLTIwODc4MjgxNDEsLTIzNDMwMzc5Niw2Nj
+g4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1
+LC0xODc3MTIwMTI4XX0=
 -->
