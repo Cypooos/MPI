@@ -1,5 +1,5 @@
-Par Cyprien (@Cypooos) en MPI* à Fénelon Sainte marie. Droit à toute sorte de publication et , mais gardez les crédits !
-En gras sont les question non officiellement au programme (parfois explicitement hors programme), mais qu'il est bon de connaitre.
+Par Cyprien (@Cypooos) en MPI* à Fénelon Sainte Marie. Droit à toute sorte de publication et modification, mais gardez les crédits !
+En gras sont les questions non officiellement au programme (parfois explicitement hors programme), mais qu'il est bon de connaitre.
 ## Machines et implémentation
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
 2. Qu'est ce-qu'un langage de programmation compilé ? Interprété ? **Compilé à la volé ?**
@@ -67,7 +67,7 @@ int main() {
 25. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
 > *La sérialisation est au programme. Il s'agit de transformer une structure de donné hiérarchique en une structure de donné séquentielle pour après, par exemple, la sauvegarder dans un fichier texte. On pourra considérer des tableaux comme structure de donné séquentielle*
 26. Donnez une fonction de sérialisation pour un graphe non orienté.
-27. "Arbre bicolore"
+27. "Arbre bicolore" lol
 28. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
 
 ## Algorithmique
@@ -88,9 +88,10 @@ int main() {
 ## Classe de complexité
 1. Qu'est-ce qu'un problème de décision ? 
 2. Prouvez la non décidabilité du problème de l’arrêt.
-3. Donnez l'énoncé des problèmes suivants : SAT, 3-SAT, 2-SAT, MAX2SAT, k-COLOR
+3. Donnez l'énoncé des problèmes suivants : **SAT**, **3-SAT**, **2-SAT**, **MAX2SAT**, **k-COLOR**
+4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzk4ODc4NywtMzU0MjYwMDE1LC0yMz
-QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
-LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbOTA0NjI1MzcsLTM1NDI2MDAxNSwtMjM0Mz
+AzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4
+MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
