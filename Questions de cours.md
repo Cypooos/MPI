@@ -98,7 +98,7 @@ int main() {
 5. Lois de Morgan.
 6. Pour chaque variable soulignée, indiquer si elle est libre et/ou lié. Quelle est la porté du $\forall y$ ?
 $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(\underline y,u))$$
-7. Qu'est-ce qu'une valuation ?
+7. Qu'est-ce qu'une valuation ? Un modèle ?
 8. Définition de l'équivalence entre deux formule ?
 9. Mettre sous forme normale conjonctive de taille 3 $C\lor B\lor A\lor (B \land \lnot C)$
 10. Mettre sous forme normale disjonctive de taille 3 $C\land B\land A\land (B \lor \lnot C)$
@@ -130,7 +130,8 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjcxOTkzNDAsNzg0NTQ2MTE4LC0zNT
-QyNjAwMTUsLTIzNDMwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYw
-LC04ODAzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbMTY1NDMwNjgzMSwtMjA2NzE5OTM0MCw3OD
+Q1NDYxMTgsLTM1NDI2MDAxNSwtMjM0MzAzNzk2LDY2ODg3MDY1
+LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUsLTE4Nz
+cxMjAxMjhdfQ==
 -->
