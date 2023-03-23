@@ -85,8 +85,9 @@ int main() {
 42. Qu'est-ce qu'une composante fortement connexe ? Faiblement connexe ?
 43. Soit $R$ une relation et $G=(S,A)$ le graphe associé. Traduire le fait que $R$ soit réflexive. Transitive. Totale. Une relation d'ordre. Que représente une composante fortement connexe dans G ?
 44. Qu'est-ce qu'un graphe planaire ? **Démontrez la propriété d'Euler**
-45. On note $\sim$ la relation d'existance d'un chemin entre deux sommets. Montrez que cela définie bien une relat Montrez que :
-$$\text{G=(S,A) est un arbre} \iff \forall a,b\in S,$$
+45. On note $\sim$ la relation d'existance d'un chemin entre deux sommets. Montrez que cela définie bien une relation d'équivalence.
+46. Montrez que :
+$$\text{G=(S,A) est un arbre} \iff \forall a,b\in S, \exist ! \text{chemin (C_i} $
 47. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
 
 ## Algorithmique
@@ -111,7 +112,7 @@ $$\text{G=(S,A) est un arbre} \iff \forall a,b\in S,$$
 4. Classe P, Classe NP, **Classe EXPTIME**, **Classe EXPSPACE**
 5. Réduction de problèmes en temps polynomial. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTg0NjY1MSwtMzU0MjYwMDE1LC0yMz
+eyJoaXN0b3J5IjpbMTM2NDA4MjM3NiwtMzU0MjYwMDE1LC0yMz
 QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
 LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
 -->
