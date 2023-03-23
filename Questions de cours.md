@@ -120,7 +120,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 
 
 ## Classe de complexité
-1. Qu'est-ce qu'un problème de décision ? 
+1. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
 2. Prouvez la non décidabilité du problème de l’arrêt.
 3. Donnez l'énoncé des problèmes suivants : $\text{SAT}$, $\text{n-SAT}$, $\text{MAX2SAT}$, $\text{k-COLOR}$
 4. **Donnez l'énoncé des problèmes suivants : $\text{CLIQUE}$, $\text{VERTEX-COVER}$, $\text{HAMILOTINAN}$, $\text{CIBLE-SAC-A-DOS}$**
@@ -130,7 +130,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjYyNTkzNSw3ODQ1NDYxMTgsLTM1ND
-I2MDAxNSwtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAs
-LTg4MDMxNDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbLTIwNjcxOTkzNDAsNzg0NTQ2MTE4LC0zNT
+QyNjAwMTUsLTIzNDMwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYw
+LC04ODAzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
