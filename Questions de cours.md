@@ -80,9 +80,10 @@ int main() {
 
 ## Classe de complexité
 1. Qu'est-ce qu'un problème de décision ? 
-2. Prouvez la non décidabilité du problè
+2. Prouvez la non décidabilité du problème de l’arrêt.
+3. Donnez l'énoncé des problèmes suivants : MAX2SAT
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0Mjc2ODc3LC0zNTQyNjAwMTUsLTIzND
+eyJoaXN0b3J5IjpbMjM2MzM0NDE1LC0zNTQyNjAwMTUsLTIzND
 MwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgs
 ODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
