@@ -96,7 +96,7 @@ int main() {
 3. Donnez une bijection entre $\{V, F \}$ et $\N/2\N$. A quoi correspondent les opérateurs $\lnot$ et $\land$ ? En déduire $\lor$
 4. Exprimez $\lor$, $\rarr$ et $\lrarr$ avec $\lnot$ et $\land$
 5. Lois de Morgan.
-6. Pour chaque variable soulignée, indiquer si elle est libre et/ou lié. Quelle est la porté du $\forall y$ ?
+6. Pour chaque variable soulignée, indiquer si elle est libre et/ou liée. Quelle est la porté du $\forall y$ ?
 $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(\underline y,u))$$
 7. Qu'est-ce qu'une valuation ? Un modèle ?
 8. Définition de l'équivalence entre deux formule ?
@@ -131,8 +131,8 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjIwNzY1MCwtMjA2NzE5OTM0MCw3OD
-Q1NDYxMTgsLTM1NDI2MDAxNSwtMjM0MzAzNzk2LDY2ODg3MDY1
-LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUsLTE4Nz
-cxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbLTE3MTQ5NzY4MjUsMTc5NjIwNzY1MCwtMj
+A2NzE5OTM0MCw3ODQ1NDYxMTgsLTM1NDI2MDAxNSwtMjM0MzAz
+Nzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MD
+UxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
