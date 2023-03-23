@@ -78,7 +78,7 @@ int main() {
 36. Définir un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité de la recherche d'élément ? Complexité de l'ajout d'un élément ? 
 37. Opération de rotation gauche et rotation droite. A quoi servent-elles ?
 38. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
-> *La sérialisation est au programme. Il s'agit de transformer une structure de donné hiérarchique en une structure de donné séquentielle pour après, par exemple, la sauvegarder dans un fichier texte. On pourra considérer des tableaux comme structure de donné séquentielle. La fonction doit être bijective.*
+> *La sérialisation est au programme. Il s'agit de transformer une structure de données hiérarchique en une structure de données séquentielle pour après, par exemple, la sauvegarder dans un fichier texte. On pourra considérer des tableaux comme structure de données séquentielle. La fonction doit être bijective.*
 39. Donnez une fonction de sérialisation pour un graphe non orienté.
 40. "Arbre bicolore" lol
 41. Définir un graphe. Un graphe orienté. Un graphe pondéré. Un graphe complet.
@@ -144,9 +144,9 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODM2Mjk4MCwtMTkwNTQ2MzAwNywtND
-QzMzU5MjkzLDE3OTYyMDc2NTAsLTIwNjcxOTkzNDAsNzg0NTQ2
-MTE4LC0zNTQyNjAwMTUsLTIzNDMwMzc5Niw2Njg4NzA2NSwyMD
-EyMjc1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIw
-MTI4XX0=
+eyJoaXN0b3J5IjpbOTc0NTIwMjEwLC0xOTA1NDYzMDA3LC00ND
+MzNTkyOTMsMTc5NjIwNzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYx
+MTgsLTM1NDI2MDAxNSwtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMT
+IyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAx
+MjhdfQ==
 -->
