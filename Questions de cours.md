@@ -14,8 +14,11 @@ let rec get m l = match l with
 let getter = get min_int;;
 ```
 Que fait-il ? Démontrer sa correction.
-6.
+
+6. Qu'est-ce que une correction partielle ? Parallèles avec problème décidable et semi-décidable ?
+7. Définition de la complexité ?
+8. Quel est le type de la 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTkzNjA4OTcsLTg4MDMxNDc5OCw4MD
-UxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbMTAxNTk0NTkxNSwtODgwMzE0Nzk4LDgwNT
+E0ODY4NSwtMTg3NzEyMDEyOF19
 -->
