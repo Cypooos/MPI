@@ -89,8 +89,9 @@ int main() {
 46. Qu'est-ce qu'un graphe planaire ? **Démontrez la propriété d'Euler**
 47. On note $\sim$ la relation d'existance d'un chemin entre deux sommets. Montrez que cela définie bien une relation d'équivalence. Que représente les classes d'équivalence ?
 48. Montrez que $G=(S,A)$ est un arbre, ssi pour tout paires $a,b\in S$ il existe un unique chemin de $a$ à $b$ sans cycle
-49. Recherche d'un arbre couvrant de poids minimal (Algorithme de Kruskal). Preuve de sa correction et terminaison. **Complexité en $O(\log^*(n))$**
-50. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
+49. Quelle est la structure unir et retrouver ? Donnez  Donnez le pseudo-code avec des forets.
+50. 
+51. Recherche d'un arbre couvrant de poids minimal (Algorithme de Kruskal). Preuve de sa correction et terminaison. **Complexité en $O(\log^*(n))$**
 
 ## Logique
 1. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
@@ -133,8 +134,8 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzM1OTI5MywxNzk2MjA3NjUwLC0yMD
-Y3MTk5MzQwLDc4NDU0NjExOCwtMzU0MjYwMDE1LC0yMzQzMDM3
-OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4LDgwNT
-E0ODY4NSwtMTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbMzUyODQ3MzM5LC00NDMzNTkyOTMsMTc5Nj
+IwNzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYxMTgsLTM1NDI2MDAx
+NSwtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MD
+MxNDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
