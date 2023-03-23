@@ -54,17 +54,19 @@ int main() {
 }
 ```
 14. **Comment sont implémenté `true` et `false` en C ? Que fais `if (n)` avec `n` un nombre ?** 
-16. Distinction entre structure de données mutable et immuable.
-17. Qu'est ce qu'un Constructeur ? Accesseur ? Transformateur ? **Destructeur ?**
-18. Qu'est-ce qu'une structure de donnée abstraite ? Donnez une structure de donnée abstraite représentant une hashmap (un dictionnaire).
-19. Qu'est-ce qu'une liste ? Une liste doublement chainé ? Donner une implémentation d'une liste doublement chainé en C stoquants des `int`. 
-20. Donnez une implémentation possible de liste à l'aide de tableau grandissants en Ocaml.
-21. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
-22. Donnez une structure de donnée permettant de stoquer des sous-ensembles de $[\![0;n]\!]$. Les opérations d'ajout et de retrait d'élément se feront en $O(1)$, l’initialisation en $O(n)$
-23. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
-23. Donnez une fonction de sérialisation pour un graphe non orienté.
+15. Distinction entre structure de données mutable et immuable.
+16. Qu'est ce qu'un Constructeur ? Accesseur ? Transformateur ? **Destructeur ?**
+17. Qu'est-ce qu'une structure de donnée abstraite ? Donnez une structure de donnée abstraite représentant une hashmap (un dictionnaire).
+18. Qu'est-ce qu'une liste ? Une liste doublement chainé ? Donner une implémentation d'une liste doublement chainé en C stoquants des `int`. 
+19. Donnez une implémentation possible de liste à l'aide de tableau grandissants en Ocaml.
+20. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
+21. **Donnez une structure de donnée permettant de stoquer des sous-ensembles de $[\![0;n]\!]$. Les opérations d'ajout et de retrait d'élément se feront en $O(1)$, l’initialisation en $O(n)$**
+22. Définir un arbre. Un arbre binaire. Donnez un type en C et en Ocaml.
+23. Définir Un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité 
+24. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
+25. Donnez une fonction de sérialisation pour un graphe non orienté.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODc4MjgxNDEsLTIzNDMwMzc5Niw2Nj
-g4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1
-LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbMjAwNzI3ODY4NywtMjM0MzAzNzk2LDY2OD
+g3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUs
+LTE4NzcxMjAxMjhdfQ==
 -->
