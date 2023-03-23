@@ -123,12 +123,12 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 1. Qu'est-ce qu'un problème de décision ? 
 2. Prouvez la non décidabilité du problème de l’arrêt.
 3. Donnez l'énoncé des problèmes suivants : SAT, *n*-SAT, 2-SAT MAX2SAT, *k*-COLOR
-4. Classe $\text{P}$, Classe $\text{NP}$, **Classe EXPTIME**, **Classe EXPSPACE**
+4. Classe $\text{P}$, Classe $\text{NP}$, **Classe $\text{EXPTIME}$**, **Classe $\text{EXPSPACE}$**
 5. Réduction de problèmes en temps polynomial.
 6. Montrez que $\text{SAT}\le_P\text{3-SAT}$
 6. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMzA4MDI3NiwtMzU0MjYwMDE1LC0yMz
+eyJoaXN0b3J5IjpbLTE1OTE1MTU4NCwtMzU0MjYwMDE1LC0yMz
 QzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0Nzk4
 LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
 -->
