@@ -27,15 +27,17 @@ let a b c d = match b c [||] with
 ```c
 int q11(int* liste,int n,int k) {
 	if (liste==NULL){return 0;}
+	printf("Starting...\n");
 	for (int i=0;i<n;i++) {
+		printf("Doing i=%d\n",i);
 		if (liste[i] >= k && i-k>0) {return i;}
 	}
 	return n;
 }
 ```
 
-12.
+12. Donnez un jeu de test exaustif pour la condition `i*2`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNTA1MjE3LDIwMTIyNzU4NjAsLTg4MD
+eyJoaXN0b3J5IjpbNjk3MTI2NDkwLDIwMTIyNzU4NjAsLTg4MD
 MxNDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
