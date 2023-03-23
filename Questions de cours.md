@@ -80,23 +80,25 @@ int main() {
 32. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
 33. **Donnez une structure de donnée permettant de stoquer des sous-ensembles de $[\![0;n]\!]$. Les opérations d'ajout et de retrait d'élément se feront en $O(1)$, l’initialisation en $O(n)$**
 34. Définir un arbre. Un arbre binaire. Sa hauteur et sa largeur. La hauteur d'un nœud. Une foret. Donnez un type en C et en Ocaml. 
-35. Nombre d'arbre binaire possible avec $n$ sommets ?
-36. Définir un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité de la recherche d'élément ? Complexité de l'ajout d'un élément ? 
-37. Opération de rotation gauche et rotation droite. A quoi servent-elles ?
-38. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
+35. **Nombre d'arbre possible avec $n$ sommets ?** 
+36. **Nombre d'arbre binaire possible avec $n$ sommets ?** 
+37. Définir un arbre binaire de recherche. Donnez une implémentation en C et en Ocaml. Complexité de la recherche d'élément ? Complexité de l'ajout d'un élément ? 
+38. Opération de rotation gauche et rotation droite. A quoi servent-elles ?
+39. Donnez une fonction de sérialisation pour un arbre binaire de recherche.
 > *La sérialisation est au programme. Il s'agit de transformer une structure de données hiérarchique en une structure de données séquentielle pour après, par exemple, la sauvegarder dans un fichier texte. On pourra considérer des tableaux comme structure de données séquentielle. La fonction doit être bijective.*
-39. Donnez une fonction de sérialisation pour un graphe non orienté.
-40. "Arbre bicolore" lol
-41. Définir un graphe. Un graphe orienté. Un graphe pondéré. Un graphe complet. Une clique.
-42. Qu'est-ce qu'une matrice d’adjacence ?
-43. **Si $A$ est une matrice d'adjacence, que représente $(A^n)_{i j}$ ?**
-44. Qu'est-ce qu'une composante fortement connexe ? Faiblement connexe ?
-45. Soit $R$ une relation et $G=(S,A)$ le graphe associé. Traduire le fait que $R$ soit réflexive. Transitive. Totale. Une relation d'ordre. Que représente une composante fortement connexe dans G ?
-46. Qu'est-ce qu'un graphe planaire ? **Démontrez la propriété d'Euler**
-47. On note $\sim$ la relation d'existance d'un chemin entre deux sommets. Montrez que cela définie bien une relation d'équivalence. Que représente les classes d'équivalence ?
-48. Montrez que $G=(S,A)$ est un arbre, ssi pour tout paires $a,b\in S$ il existe un unique chemin de $a$ à $b$ sans cycle
-49. Quelle est la structure unir et retrouver ? Donnez les optimisations de compression de chemin et de réunir à la plus grande racine. **La complexité amortie est $O(\alpha(n))$ où $\alpha = \{x\mapsto A(x,x)\}^{-1}$ avec $A$ la fonction d'Ackermann**
-50. Recherche d'un arbre couvrant de poids minimal (Algorithme de Kruskal). Preuve de sa correction et terminaison. **Complexité en $O(\log^*(n))$, en pratique O(1)**
+40. Donnez une fonction de sérialisation pour un graphe non orienté.
+41. "Arbre bicolore" lol
+42. Définir un graphe. Un graphe orienté. Un graphe pondéré. Un graphe complet. Une clique.
+43. Qu'est-ce qu'une matrice d’adjacence ?
+44. **Si $A$ est une matrice d'adjacence, que représente $(A^n)_{i j}$ ?**
+45. Qu'est-ce qu'une composante fortement connexe ? Faiblement connexe ?
+46. Soit $R$ une relation et $G=(S,A)$ le graphe associé. Traduire le fait que $R$ soit réflexive. Transitive. Totale. Une relation d'ordre. Que représente une composante fortement connexe dans G ?
+47. Qu'est-ce qu'un graphe planaire ? **Démontrez la propriété d'Euler**
+48. On note $\sim$ la relation d'existance d'un chemin entre deux sommets. Montrez que cela définie bien une relation d'équivalence. Que représente les classes d'équivalence ?
+49. Montrez que $G=(S,A)$ est un arbre, ssi pour tout paires $a,b\in S$ il existe un unique chemin de $a$ à $b$ sans cycle
+50. Montrez que $$
+51. Quelle est la structure unir et retrouver ? Donnez les optimisations de compression de chemin et de réunir à la plus grande racine. **La complexité amortie est $O(\alpha(n))$ où $\alpha = \{x\mapsto A(x,x)\}^{-1}$ avec $A$ la fonction d'Ackermann**
+52. Recherche d'un arbre couvrant de poids minimal (Algorithme de Kruskal). Preuve de sa correction et terminaison. **Complexité en $O(\log^*(n))$, en pratique O(1)**
 
 ## Logique
 51. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
@@ -150,7 +152,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 6. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 10. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTQwNzI3MywtMTkwNTQ2MzAwNywtND
+eyJoaXN0b3J5IjpbMTE4OTA3Nzc3NywtMTkwNTQ2MzAwNywtND
 QzMzU5MjkzLDE3OTYyMDc2NTAsLTIwNjcxOTkzNDAsNzg0NTQ2
 MTE4LC0zNTQyNjAwMTUsLTIzNDMwMzc5Niw2Njg4NzA2NSwyMD
 EyMjc1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIw
