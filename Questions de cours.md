@@ -1,5 +1,5 @@
 En gras sont les question non officiellement au programme (parfois explicitement hors programme), mais qu'il est bon de connaitre.
-## Méthodes de programmations
+## Machines et implémentation
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
 2. Qu'est ce-qu'un langage de programmation compilé ? Interprété ? **Compilé à la volé ?**
 3. Quelle est la différence entre un `signed` et un `unsigned` ? Comment sont encodé les nombre négatifs ?
@@ -38,7 +38,6 @@ int q11(int* liste,int n,int k) {
 ```
 12. **Qu'est-ce que l'assembleur ?**
 
-## Récursivité et induction
 
 ## Structures de données
 13. Qu’est ce que l'allocation ? Citez les 3 lieux ou la mémoire peut être stoqué dans un programme. Où sont stoqué `30`, `40` et `50` dans la mémoire au moment de l'appel à `fct` dans le programme suivant ? Ou est stoqué la *variable* `table` ? et son contenu ?
@@ -70,9 +69,10 @@ int main() {
 27. "Arbre bicolore"
 28. Quelle est la structure unir et retrouver ? Donnez le pseudo-code avec des forets.
 
-## Al
+## Algorithmique
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTEwMTI4MiwtMjM0MzAzNzk2LDY2OD
+eyJoaXN0b3J5IjpbMjAxNjA0Nzk0NywtMjM0MzAzNzk2LDY2OD
 g3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OCw4MDUxNDg2ODUs
 LTE4NzcxMjAxMjhdfQ==
 -->
