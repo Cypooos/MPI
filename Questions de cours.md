@@ -2,9 +2,8 @@ Par Cyprien (@Cypooos) en MPI* à Fénelon Sainte Marie. Droit à toute sorte de
 En gras sont les questions non officiellement au programme (parfois explicitement hors programme), mais qu'il est bon de connaitre.
 
 Il manque encore à ce document:
- - Languages
+ - Grammaire
  - Base de donnée
- - Apprentissage automatique et jeux
  - Extras non nécessaire (qui sera entièrement en gras)
 
 ## Machines et implémentation
@@ -52,7 +51,7 @@ int q11(int* liste,int n,int k) {
 17. Différence entre un lien symbolique et physique ?
 18. Qu'est-ce qu'une instruction atomique ?
 19. Différence entre mutex et sémaphore. Notion de section critique.
-20. Donnez un exemple d'algorithme qui donnera une situation d'interblocage possiblement avec 2 thread.
+20. Donnez un exemple d'algorithme qui donnera une situation d'interblocage possiblement avec 2 threads.
 21. Quel est le problème du diner des philosophe ?
 22. Algorithme de Peterson pour une implémentation des mutex avec 2 threads.
 23. Algorithme de la Boulangerie de Lamport pour implémentation des mutex avec k threads.
@@ -194,11 +193,11 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 129. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 130. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwNjY3NzE1LDQxODEwMjY5NywxODE5OT
-YwODM3LC0xMzc5MTU2MDU4LC0xNDQyMDk3MTMzLDQ2ODczNjI5
-NywyMTAxNDE5NzE3LDE3NDQ5MzQwNDAsMTA3MTQwMTk0OSwtMT
-Y2NTM0ODY3OCwxODY3OTEzNzEsLTEwMDU0ODgwODUsLTIzNjY2
-Nzk0MCwtODk0NDYzNTk1LC0xOTA1NDYzMDA3LC00NDMzNTkyOT
-MsMTc5NjIwNzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYxMTgsLTM1
-NDI2MDAxNV19
+eyJoaXN0b3J5IjpbNjIwNDI0MTA1LDUxMDY2NzcxNSw0MTgxMD
+I2OTcsMTgxOTk2MDgzNywtMTM3OTE1NjA1OCwtMTQ0MjA5NzEz
+Myw0Njg3MzYyOTcsMjEwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNz
+E0MDE5NDksLTE2NjUzNDg2NzgsMTg2NzkxMzcxLC0xMDA1NDg4
+MDg1LC0yMzY2Njc5NDAsLTg5NDQ2MzU5NSwtMTkwNTQ2MzAwNy
+wtNDQzMzU5MjkzLDE3OTYyMDc2NTAsLTIwNjcxOTkzNDAsNzg0
+NTQ2MTE4XX0=
 -->
