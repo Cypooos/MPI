@@ -166,7 +166,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 86. Algorithme de Dijkstra avec une file de priorité. Prononciation du nom.
 87. Algorithme de Floyd-Warshall.
 88. Recherche d’un arbre couvrant de poids minimum par l’algorithme de Kruskal.
-89. Tri à bulle. Tri par insertion. Tris fusion. Tri par tas.
+89. Tri à bulle. Tri par insertion. Tris fusion. Tri par tas. Tri rapide *(quicksort)*.
 
 ## Apprentissage automatique et jeux
 89. Différences entre IA, Apprentissage supervisé, Apprentissage non supervisé.
@@ -193,11 +193,11 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Mjg0NTI0NCwtMTQ0MjA5NzEzMyw0Nj
-g3MzYyOTcsMjEwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNzE0MDE5
-NDksLTE2NjUzNDg2NzgsMTg2NzkxMzcxLC0xMDA1NDg4MDg1LC
-0yMzY2Njc5NDAsLTg5NDQ2MzU5NSwtMTkwNTQ2MzAwNywtNDQz
-MzU5MjkzLDE3OTYyMDc2NTAsLTIwNjcxOTkzNDAsNzg0NTQ2MT
-E4LC0zNTQyNjAwMTUsLTIzNDMwMzc5Niw2Njg4NzA2NSwyMDEy
-Mjc1ODYwXX0=
+eyJoaXN0b3J5IjpbLTEzNzkxNTYwNTgsLTE0NDIwOTcxMzMsND
+Y4NzM2Mjk3LDIxMDE0MTk3MTcsMTc0NDkzNDA0MCwxMDcxNDAx
+OTQ5LC0xNjY1MzQ4Njc4LDE4Njc5MTM3MSwtMTAwNTQ4ODA4NS
+wtMjM2NjY3OTQwLC04OTQ0NjM1OTUsLTE5MDU0NjMwMDcsLTQ0
+MzM1OTI5MywxNzk2MjA3NjUwLC0yMDY3MTk5MzQwLDc4NDU0Nj
+ExOCwtMzU0MjYwMDE1LC0yMzQzMDM3OTYsNjY4ODcwNjUsMjAx
+MjI3NTg2MF19
 -->
