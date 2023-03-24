@@ -127,11 +127,12 @@ $L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ o�
 74. Définir une dérivation. Dérivation immédiate.
 75. **Donnez la transformation pour obtenir un automate à partir d'une grammaire régulière à droite.**
 76. Donnez des grammaires qui engendre $L_1$ et $L_2$.
-77. Définir l’ambiguïté d'une grammaire. Un language ### inhéremment ambigus
-78. Donnez une grammaire non ambigüe représentant les formules logiques. Pareillement pour les mots de Dyck.
-79. Rappelez le problème du *sinon pendant*.
-80. **Faire le diagramme de la hiérarchie de Chomsky**
-81. Démontrez que $x \rArr^* uv$ ssi $\exist a.\exist b.\ (x=ab\land a\rArr^* u \land b\rArr^* v)$
+77. Définir l’ambiguïté d'une grammaire. **Un langage inhéremment ambigüe.**
+78. Démontrez que $L=\{a^{\ell }b^mc^}\mid m=\ell \ {\text{ou}}\ m=n\}$
+79. Donnez une grammaire non ambigüe représentant les formules logiques. Pareillement pour les mots de Dyck.
+80. Rappelez le problème du *sinon pendant*.
+81. **Faire le diagramme de la hiérarchie de Chomsky**
+82. Démontrez que $x \rArr^* uv$ ssi $\exist a.\exist b.\ (x=ab\land a\rArr^* u \land b\rArr^* v)$
 
 ## Logique
 73. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
@@ -203,7 +204,7 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzI3NTU3NCwtMTc0NDcxNTQwNiw1MT
+eyJoaXN0b3J5IjpbMTc2OTg0ODE0NiwtMTc0NDcxNTQwNiw1MT
 A2Njc3MTUsNDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNzkxNTYw
 NTgsLTE0NDIwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3MTcsMT
 c0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LDE4Njc5
