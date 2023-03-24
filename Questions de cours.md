@@ -110,7 +110,7 @@ int main() {
 58. Définition d'un automate déterministe. Automate émondé. État accessible et co-accessible. $L(A)$ le language reconnu par l'automate.
 59. Différences avec un automate non déterministe ? $\varepsilon$-transition et 
 60. **Qu'est-ce qu'une fonction de transition généralisé ?**
-61. Donnez des automates déterministes sur $\Sigma=\{a,b\}$ reconnaissant $L_1 = \{a^{2n} : n\in\N\}$ et $L_2$ les mots comprenant un nombre pair de $a$ et  
+61. Donnez des automates déterministes sur $\Sigma=\{a,b\}$ reconnaissant $L_1 = \{a^{2n} : n\in\N\}$ et $L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ 
 62. **DIFFICILE : Donnez un automate déterministe reconnaissant les mots binaires qui sont des multiples de 3 écrit en base 2.**
 63. Donnez la méthode pour obtenir l'automate reconnaissant le langage associé à une regexp. Donnez un automate déterministe reconnaissant le langage associé à $(a|b)^*c$
 64.  
@@ -180,7 +180,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDMxNTc3LDQ2ODczNjI5NywyMTAxND
+eyJoaXN0b3J5IjpbNjMxMDgwODg4LDQ2ODczNjI5NywyMTAxND
 E5NzE3LDE3NDQ5MzQwNDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3
 OCwxODY3OTEzNzEsLTEwMDU0ODgwODUsLTIzNjY2Nzk0MCwtOD
 k0NDYzNTk1LC0xOTA1NDYzMDA3LC00NDMzNTkyOTMsMTc5NjIw
