@@ -9,8 +9,15 @@ let a1 b c d = match b c [||] with
 ```ocaml
 let a2 b c d = b.(!c.(d)).[!c.(d)];;
 ``` 
+
 ```ocaml
 let a3 b c = (b c) c (!c);;
+```
+```ocaml
+let a4 b c d e = 1+match b c d with
+ | 
+ | f -> f e
+ |
 ```
 
 
@@ -21,6 +28,6 @@ val a2 : string array -> int array ref -> int -> char = <fun>
 val a3 : ('a ref -> 'a ref -> 'a -> 'b) -> 'a ref -> 'b = <fun>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTkyMzU0NTQsMTIyMTIyMzg3NiwtMT
-AwMzQwOTQ2Ml19
+eyJoaXN0b3J5IjpbMTQ4NjY1MTAxMywtMjExOTIzNTQ1NCwxMj
+IxMjIzODc2LC0xMDAzNDA5NDYyXX0=
 -->
