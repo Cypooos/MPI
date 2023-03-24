@@ -27,7 +27,7 @@ Que fait-il ? Démontrer sa correction.
 8. Quel est le type de la fonction suivante :
 ```ocaml
 let a b c d = match b c [||] with
- | e with !e = d -> c+.1
+ | e when !e = d -> c+.1.
  | _ -> d
 ```
 9. Qu'est ce ce que la programmation défensive ? Pourquoi est-elle plus simple en Ocaml que en python ?
@@ -194,11 +194,11 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 129. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 130. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTk2MDgzNywtMTM3OTE1NjA1OCwtMT
-Q0MjA5NzEzMyw0Njg3MzYyOTcsMjEwMTQxOTcxNywxNzQ0OTM0
-MDQwLDEwNzE0MDE5NDksLTE2NjUzNDg2NzgsMTg2NzkxMzcxLC
-0xMDA1NDg4MDg1LC0yMzY2Njc5NDAsLTg5NDQ2MzU5NSwtMTkw
-NTQ2MzAwNywtNDQzMzU5MjkzLDE3OTYyMDc2NTAsLTIwNjcxOT
-kzNDAsNzg0NTQ2MTE4LC0zNTQyNjAwMTUsLTIzNDMwMzc5Niw2
-Njg4NzA2NV19
+eyJoaXN0b3J5IjpbNDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNz
+kxNTYwNTgsLTE0NDIwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3
+MTcsMTc0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LD
+E4Njc5MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC04OTQ0
+NjM1OTUsLTE5MDU0NjMwMDcsLTQ0MzM1OTI5MywxNzk2MjA3Nj
+UwLC0yMDY3MTk5MzQwLDc4NDU0NjExOCwtMzU0MjYwMDE1LC0y
+MzQzMDM3OTZdfQ==
 -->
