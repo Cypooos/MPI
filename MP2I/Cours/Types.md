@@ -21,7 +21,6 @@ let a5 b c d e = let d' = d in match b c with
  | d -> (match d with 
 		 | e when e<c -> 0
 		 | _ -> d')
- | d -> e;;
 ```
 
 
@@ -35,6 +34,6 @@ val a4 :
   int -> (('a -> int) -> bool ref) -> 'a -> bool = <fun>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzE5ODkwNTUsLTEwOTQ0NDQxNjIsLT
+eyJoaXN0b3J5IjpbLTEzNjAzMjYyNDMsLTEwOTQ0NDQxNjIsLT
 IxMTkyMzU0NTQsMTIyMTIyMzg3NiwtMTAwMzQwOTQ2Ml19
 -->
