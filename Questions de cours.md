@@ -144,12 +144,12 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 66. Règle d'introduction et d'élimination de $\forall$, $\exist$
 67. Qu'est-ce qu'un axiome ?
 68. Le syllogisme barbara, le modus ponen.
-69. Quel règles faut-il ajouter à la logique minimale pour avoir la logique intuitionniste ?
-70. Citez 3 règles possible à ajouter à la logique intuitionniste pour obtenir la logique classique. Prouvez que elles sont équivalentes.
-71. Faire l'arbre de preuve de $(\lnot A\land \lnot B)\lrarr \lnot (A\lor B)$ en logique minimale
-72. Faire l'arbre de preuve de $\lnot(A\lrarr \lnot B)$ en logique intuitionniste
+69. **Quelle règle faut-il ajouter à la logique minimale pour avoir la logique intuitionniste ?**
+70. **Citez 3 règles possible à ajouter à la logique intuitionniste pour obtenir la logique classique. Prouvez que elles sont équivalentes.**
+71. **Faire l'arbre de preuve de $(\lnot A\land \lnot B)\lrarr \lnot (A\lor B)$ en logique minimale.**
+72. **Faire l'arbre de preuve de $\lnot(A\lrarr \lnot B)$ en logique intuitionniste.**
 73. Faire l'arbre de preuve de $\exist y.\forall x.P(x,y)\implies \forall x.\exist y.P(x,y)$ en logique classique où $P$ est une proposition d’arité 2.
-74. **Axiomes de l'égalité.** *(ce sont des schémas d'axiomes en soit mais chuuut)*
+74. **Axiomes de l'égalité.**
 75. **Axiomes de Peano.**
 
 ## Algorithmique
@@ -192,11 +192,11 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDIwOTcxMzMsNDY4NzM2Mjk3LDIxMD
-E0MTk3MTcsMTc0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4
-Njc4LDE4Njc5MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC
-04OTQ0NjM1OTUsLTE5MDU0NjMwMDcsLTQ0MzM1OTI5MywxNzk2
-MjA3NjUwLC0yMDY3MTk5MzQwLDc4NDU0NjExOCwtMzU0MjYwMD
-E1LC0yMzQzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgw
-MzE0Nzk4XX0=
+eyJoaXN0b3J5IjpbLTEwODgxNjkxNzcsLTE0NDIwOTcxMzMsND
+Y4NzM2Mjk3LDIxMDE0MTk3MTcsMTc0NDkzNDA0MCwxMDcxNDAx
+OTQ5LC0xNjY1MzQ4Njc4LDE4Njc5MTM3MSwtMTAwNTQ4ODA4NS
+wtMjM2NjY3OTQwLC04OTQ0NjM1OTUsLTE5MDU0NjMwMDcsLTQ0
+MzM1OTI5MywxNzk2MjA3NjUwLC0yMDY3MTk5MzQwLDc4NDU0Nj
+ExOCwtMzU0MjYwMDE1LC0yMzQzMDM3OTYsNjY4ODcwNjUsMjAx
+MjI3NTg2MF19
 -->
