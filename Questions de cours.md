@@ -150,7 +150,8 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 93. Arbre k-dimensionnel. Insertion, et recherche des k plus proches voisins dans un arbre k-dimensionnel.
 94. Définissez l'entropie de Shannon. Donnez le pseudo code de ID3.
 95. Matrice de confusion. Que représente la trace d'une matrice de confusion ?
-96. Graphe biparti d'un jeu à deux joueurs
+96. Graphe biparti d'un jeu à deux joueurs. 
+97. Algorithme A
 
 ## Classe de complexité
 89. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
@@ -163,11 +164,10 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQyMjg4MDAsMTA3MTQwMTk0OSwtMT
-Y2NTM0ODY3OCwxODY3OTEzNzEsLTEwMDU0ODgwODUsLTIzNjY2
-Nzk0MCwtODk0NDYzNTk1LC0xOTA1NDYzMDA3LC00NDMzNTkyOT
-MsMTc5NjIwNzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYxMTgsLTM1
-NDI2MDAxNSwtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4Nj
-AsLTg4MDMxNDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
-
+eyJoaXN0b3J5IjpbLTM2MjczMDI1MSwxMDcxNDAxOTQ5LC0xNj
+Y1MzQ4Njc4LDE4Njc5MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3
+OTQwLC04OTQ0NjM1OTUsLTE5MDU0NjMwMDcsLTQ0MzM1OTI5My
+wxNzk2MjA3NjUwLC0yMDY3MTk5MzQwLDc4NDU0NjExOCwtMzU0
+MjYwMDE1LC0yMzQzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MC
+wtODgwMzE0Nzk4LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
 -->
