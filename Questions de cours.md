@@ -4,7 +4,7 @@ En gras sont les questions non officiellement au programme (parfois explicitemen
 Il manque encore à ce document:
  - Grammaire
  - Base de donnée
- - Extras non nécessaire (qui sera entièrement en gras)
+ - Extras plus théorique
 
 ## Machines et implémentation
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
@@ -191,9 +191,12 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 127. Réduction de problèmes en temps polynomial.
 128. Montrez que $\text{SAT}\le_P\text{3-SAT}$
 129. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
-130. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$ 
+130. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
+
+
+> *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwNDI0MTA1LDUxMDY2NzcxNSw0MTgxMD
+eyJoaXN0b3J5IjpbNzQ5NjU2MjAwLDUxMDY2NzcxNSw0MTgxMD
 I2OTcsMTgxOTk2MDgzNywtMTM3OTE1NjA1OCwtMTQ0MjA5NzEz
 Myw0Njg3MzYyOTcsMjEwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNz
 E0MDE5NDksLTE2NjUzNDg2NzgsMTg2NzkxMzcxLC0xMDA1NDg4
