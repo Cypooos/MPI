@@ -123,13 +123,14 @@ $L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ o�
 69. Théorème de Kleene.
 70. Lemme de l'étoile. L’utiliser pour démontrer que $L_4=\{a^nb^n : n\in\N\}$ n'est pas régulier.
 71. **Opération quotient gauche. Si $L$ régulier, $K^{-1}L$ aussi.**
-72. **Mots de Dycks. Les mots de Dyck ne sont pas rationnel. Nombre de mots de Dycks de $2n$ lettres**
+72. **Mots de Dyck. Les mots de Dyck ne sont pas rationnel. Nombre de mots de Dyck de $2n$ lettres**
 73. Définir une grammaire. Une grammaire non contextuelle. **Une grammaire contextuelle. Une grammaire régulière.**
 74. **Donnez la transformation pour obtenir un automate à partir d'une grammaire régulière à droite.**
 75. Donnez des grammaires qui engendre $L_1$ et $L_2$.
-77. Définir l’ambiguïté d'une grammaire. Donnez une grammaire non ambigüe représentant les formules logiques.
-78. Rappelez le problème du *sinon pendant*.
-79. **Faire le diagramme de la hiérarchie de Chomsky**
+76. Définir l’ambiguïté d'une grammaire.
+77. Donnez une grammaire non ambigüe représentant les formules logiques. Pareillement pour les mots de Dyck.
+79. Rappelez le problème du *sinon pendant*.
+80. **Faire le diagramme de la hiérarchie de Chomsky**
 
 A continuer avec les grammaires...
 ## Logique
@@ -202,11 +203,11 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwMDY1NjAyLC0xNzQ0NzE1NDA2LDUxMD
-Y2NzcxNSw0MTgxMDI2OTcsMTgxOTk2MDgzNywtMTM3OTE1NjA1
-OCwtMTQ0MjA5NzEzMyw0Njg3MzYyOTcsMjEwMTQxOTcxNywxNz
-Q0OTM0MDQwLDEwNzE0MDE5NDksLTE2NjUzNDg2NzgsMTg2Nzkx
-MzcxLC0xMDA1NDg4MDg1LC0yMzY2Njc5NDAsLTg5NDQ2MzU5NS
-wtMTkwNTQ2MzAwNywtNDQzMzU5MjkzLDE3OTYyMDc2NTAsLTIw
-NjcxOTkzNDBdfQ==
+eyJoaXN0b3J5IjpbLTc3NDk1NjU5OSwtMTc0NDcxNTQwNiw1MT
+A2Njc3MTUsNDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNzkxNTYw
+NTgsLTE0NDIwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3MTcsMT
+c0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LDE4Njc5
+MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC04OTQ0NjM1OT
+UsLTE5MDU0NjMwMDcsLTQ0MzM1OTI5MywxNzk2MjA3NjUwLC0y
+MDY3MTk5MzQwXX0=
 -->
