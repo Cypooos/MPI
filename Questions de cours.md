@@ -116,10 +116,10 @@ $L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ o�
 **DIFFICILE : les mots binaires qui sont des multiples de 3 écrit en base 2**
 62. Notion de langage local, d'expression régulière linéaire.
 63. Donnez la méthode de Glush-kov (ou algorithme de Berry-Sethi) pour obtenir l'automate reconnaissant le langage associé à un regexp.
-64. Donnez l'automate de 
+64. Donnez l'automate de Glush-kov associé à $((a|b).(b|ca))^*a$
 65. **Expliquez la méthode de Thompson permettant de faire la même chose.**
 66. Donnez une méthode pour déterminiser un automate non déterministe.
-67. Déterminisez 
+67. Déterminisez l'automate de la question 64
 68. Donnez un automate déterministe reconnaissant le langage associé à $(a|b)^*c$
 69. Théorème de Kleene. Sens retour de ce théorème en utillisant .
 70. Lemme de l'étoile.
@@ -189,11 +189,11 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDc4MTU3NTYsNDY4NzM2Mjk3LDIxMD
-E0MTk3MTcsMTc0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4
-Njc4LDE4Njc5MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC
-04OTQ0NjM1OTUsLTE5MDU0NjMwMDcsLTQ0MzM1OTI5MywxNzk2
-MjA3NjUwLC0yMDY3MTk5MzQwLDc4NDU0NjExOCwtMzU0MjYwMD
-E1LC0yMzQzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgw
-MzE0Nzk4XX0=
+eyJoaXN0b3J5IjpbNDI4MzY3NTgzLDQ2ODczNjI5NywyMTAxND
+E5NzE3LDE3NDQ5MzQwNDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3
+OCwxODY3OTEzNzEsLTEwMDU0ODgwODUsLTIzNjY2Nzk0MCwtOD
+k0NDYzNTk1LC0xOTA1NDYzMDA3LC00NDMzNTkyOTMsMTc5NjIw
+NzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYxMTgsLTM1NDI2MDAxNS
+wtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMx
+NDc5OF19
 -->
