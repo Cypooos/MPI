@@ -109,9 +109,9 @@ int main() {
 59. Différences avec un automate non déterministe ? $\varepsilon$-transition et 
 60. **Qu'est-ce qu'une fonction de transition généralisé ?**
 61. Donnez des automates déterministes sur $\Sigma=\{a,b\}$ reconnaissant
-$L_1 = \{a^{2n} : n\in\N\}$
+$L_1 = \{a^{2n} \mid n\in\N\}$
 $L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ où $|\omega|_a$ est le nombre de $a$ dans $\omega$
-**DIFFICILE : les mots binaires qui sont des multiples de 3 écrit en base 2**
+**DIFFICILE : $L_3$, les mots binaires qui sont des multiples de 3 écrit en base 2**
 62. Notion de langage local, d'expression régulière linéaire.
 63. Donnez la méthode de Glush-kov (ou algorithme de Berry-Sethi) pour obtenir l'automate reconnaissant le langage associé à un regexp.
 64. Donnez l'automate de Glush-kov associé à $((a|b).(bb|ca))^*.a$
@@ -128,7 +128,7 @@ $L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ o�
 75. **Donnez la transformation pour obtenir un automate à partir d'une grammaire régulière à droite.**
 76. Donnez des grammaires qui engendre $L_1$ et $L_2$.
 77. Définir l’ambiguïté d'une grammaire. **Un langage inhéremment ambigüe.**
-78. Démontrez que $L=\{a^{\ell }b^mc^}\mid m=\ell \ {\text{ou}}\ m=n\}$
+78. Démontrez que $L_5=\{a^{\ell }b^mc^n\mid m=\ell \ {\text{ou}}\ m=n\}$ est algébrique et **inhéremment ambigüe.**
 79. Donnez une grammaire non ambigüe représentant les formules logiques. Pareillement pour les mots de Dyck.
 80. Rappelez le problème du *sinon pendant*.
 81. **Faire le diagramme de la hiérarchie de Chomsky**
@@ -204,7 +204,7 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTg0ODE0NiwtMTc0NDcxNTQwNiw1MT
+eyJoaXN0b3J5IjpbMjE0NDY2OTc1NCwtMTc0NDcxNTQwNiw1MT
 A2Njc3MTUsNDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNzkxNTYw
 NTgsLTE0NDIwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3MTcsMT
 c0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LDE4Njc5
