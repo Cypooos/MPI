@@ -133,7 +133,7 @@ A continuer avec les grammaires...
 76. Exprimez $\lor$, $\rarr$ et $\lrarr$ avec $\lnot$ et $\land$
 77. Lois de Morgan.
 78. Pour chaque variable soulignée, indiquer si elle est libre et/ou liée. Quelle est la porté du $\forall y$ ?
-$$\forall x((\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(\underline y,u))$$
+$$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline f(\underline y,u)])$$
 79. Qu'est-ce qu'une valuation ? Un modèle ?
 80. Définition de l'équivalence entre deux formule ?
 81. Mettre sous forme normale conjonctive de taille 3 $C\lor B\lor A\lor (B \land \lnot C)$
@@ -150,7 +150,7 @@ $$\forall x((\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f
 92. **Faire l'arbre de preuve de $\lnot(A\lrarr \lnot A)$ en logique intuitionniste.**
 93. Faire l'arbre de preuve de $\exist y.\forall x.P(x,y)\implies \forall x.\exist y.P(x,y)$ en logique classique où $P$ est une proposition d’arité 2.
 94. **Axiomes de l'égalité.**
-95. **Axiomes de Peano.**
+95. **Axiomes de Peano / Construction de N**
 
 ## Algorithmique
 96. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -196,7 +196,7 @@ $$\forall x((\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4NTcxOTE1LDUxMDY2NzcxNSw0MTgxMD
+eyJoaXN0b3J5IjpbLTUxNzQyNDExLDUxMDY2NzcxNSw0MTgxMD
 I2OTcsMTgxOTk2MDgzNywtMTM3OTE1NjA1OCwtMTQ0MjA5NzEz
 Myw0Njg3MzYyOTcsMjEwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNz
 E0MDE5NDksLTE2NjUzNDg2NzgsMTg2NzkxMzcxLC0xMDA1NDg4
