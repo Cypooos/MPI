@@ -149,6 +149,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 92. Algorithmes des k plus proches voisins avec une distance.
 93. Arbre k-dimensionnel. Insertion, et recherche des k plus proches voisins dans un arbre k-dimensionnel.
 94. Définissez l'entropie de Shannon. Donnez le pseudo code de ID3.
+95. Matrice de confusion. Que représente la trace d'une matrice de confusion ?
 
 ## Classe de complexité
 89. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
@@ -161,10 +162,10 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTQwMTk0OSwtMTY2NTM0ODY3OCwxOD
-Y3OTEzNzEsLTEwMDU0ODgwODUsLTIzNjY2Nzk0MCwtODk0NDYz
-NTk1LC0xOTA1NDYzMDA3LC00NDMzNTkyOTMsMTc5NjIwNzY1MC
-wtMjA2NzE5OTM0MCw3ODQ1NDYxMTgsLTM1NDI2MDAxNSwtMjM0
-MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OC
-w4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbMzcwODU2NjM1LDEwNzE0MDE5NDksLTE2Nj
+UzNDg2NzgsMTg2NzkxMzcxLC0xMDA1NDg4MDg1LC0yMzY2Njc5
+NDAsLTg5NDQ2MzU5NSwtMTkwNTQ2MzAwNywtNDQzMzU5MjkzLD
+E3OTYyMDc2NTAsLTIwNjcxOTkzNDAsNzg0NTQ2MTE4LC0zNTQy
+NjAwMTUsLTIzNDMwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC
+04ODAzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
