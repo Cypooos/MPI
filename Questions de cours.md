@@ -107,7 +107,8 @@ int main() {
 55. Opérations sur les langages. Concaténation, union, étoile de Kleen.
 56. Définition inductive d'un langage régulier.
 57. Définition inductive d'une expression régulière.
-58. Définition d'un automate déterministe. Automate émondé. $L(A)$ le language reconnu par l'automa
+58. Définition d'un automate déterministe. Automate émondé. $L(A)$ le language reconnu par l'automate.
+59. Donnez des automates déterministe reconnaissant les langages qui correspondent au regexp $(a|b)^*c$ et $$ 
 ## Logique
 53. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
 54. Écrire sous la forme d'arbre les formules logique $A \lrarr \lnot B$ et $A \land (B\lor \lnot C)$
@@ -174,7 +175,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTE5ODA0NSwyMTAxNDE5NzE3LDE3ND
+eyJoaXN0b3J5IjpbMTg0MjIzNjg5NiwyMTAxNDE5NzE3LDE3ND
 Q5MzQwNDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3OCwxODY3OTEz
 NzEsLTEwMDU0ODgwODUsLTIzNjY2Nzk0MCwtODk0NDYzNTk1LC
 0xOTA1NDYzMDA3LC00NDMzNTkyOTMsMTc5NjIwNzY1MCwtMjA2
