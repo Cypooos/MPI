@@ -150,7 +150,7 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 92. **Faire l'arbre de preuve de $\lnot(A\lrarr \lnot A)$ en logique intuitionniste.**
 93. Faire l'arbre de preuve de $\exist y.\forall x.P(x,y)\implies \forall x.\exist y.P(x,y)$ en logique classique où $P$ est une proposition d’arité 2.
 94. **Axiomes de l'égalité.**
-95. **Axiomes de Peano / Construction de N**
+95. **Axiomes de Peano.**
 
 ## Algorithmique
 96. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
@@ -196,7 +196,7 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzQyNDExLDUxMDY2NzcxNSw0MTgxMD
+eyJoaXN0b3J5IjpbLTUyMDIwMTM0LDUxMDY2NzcxNSw0MTgxMD
 I2OTcsMTgxOTk2MDgzNywtMTM3OTE1NjA1OCwtMTQ0MjA5NzEz
 Myw0Njg3MzYyOTcsMjEwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNz
 E0MDE5NDksLTE2NjUzNDg2NzgsMTg2NzkxMzcxLC0xMDA1NDg4
