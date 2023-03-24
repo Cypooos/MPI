@@ -17,10 +17,7 @@ let a4 b c d e = 1<match b c d with
   | f -> f e;;
 ```
 ```ocaml
-let a5 b c d e = let d' = d in match b c with
- | d -> (match d with 
-		 | e when e<c -> 0
-		 | _ -> d')
+let a5 b c d e = match 
 ```
 
 
@@ -34,6 +31,6 @@ val a4 :
   int -> (('a -> int) -> bool ref) -> 'a -> bool = <fun>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjAzMjYyNDMsLTEwOTQ0NDQxNjIsLT
-IxMTkyMzU0NTQsMTIyMTIyMzg3NiwtMTAwMzQwOTQ2Ml19
+eyJoaXN0b3J5IjpbMTk2MzUzMDQ4LC0xMDk0NDQ0MTYyLC0yMT
+E5MjM1NDU0LDEyMjEyMjM4NzYsLTEwMDM0MDk0NjJdfQ==
 -->
