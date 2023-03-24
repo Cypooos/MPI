@@ -15,8 +15,12 @@ let a3 b c = (b c) c (!c);;
 
 
 SOLUTIONS
-
+```ocaml
+val a1 : (float -> 'a array -> float ref) -> float -> float -> float = <fun>  
+val a2 : string array -> int array ref -> int -> char = <fun>  
+val a3 : ('a ref -> 'a ref -> 'a -> 'b) -> 'a ref -> 'b = <fun>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDEyMjQ4OCwxMjIxMjIzODc2LC0xMD
-AzNDA5NDYyXX0=
+eyJoaXN0b3J5IjpbLTIxMTkyMzU0NTQsMTIyMTIyMzg3NiwtMT
+AwMzQwOTQ2Ml19
 -->
