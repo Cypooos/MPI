@@ -119,7 +119,8 @@ $L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ o�
 64. **Expliquez la méthode de Thompson permettant de faire la même chose.**
 65. Donnez une méthode pour déterminiser un automate non déterministe.
 66. Donnez un automate déterministe reconnaissant le langage associé à $(a|b)^*c$
-67. 
+67. Théorème de Kleene. Sens retour de ce théorème en utillisant .
+68. Lemme de l'étoile
 ## Logique
 53. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
 54. Écrire sous la forme d'arbre les formules logique $A \lrarr \lnot B$ et $A \land (B\lor \lnot C)$
@@ -186,11 +187,11 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3OTc3MDA0Myw0Njg3MzYyOTcsMjEwMT
-QxOTcxNywxNzQ0OTM0MDQwLDEwNzE0MDE5NDksLTE2NjUzNDg2
-NzgsMTg2NzkxMzcxLC0xMDA1NDg4MDg1LC0yMzY2Njc5NDAsLT
-g5NDQ2MzU5NSwtMTkwNTQ2MzAwNywtNDQzMzU5MjkzLDE3OTYy
-MDc2NTAsLTIwNjcxOTkzNDAsNzg0NTQ2MTE4LC0zNTQyNjAwMT
-UsLTIzNDMwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAz
-MTQ3OThdfQ==
+eyJoaXN0b3J5IjpbOTE4MTY3MzU1LDQ2ODczNjI5NywyMTAxND
+E5NzE3LDE3NDQ5MzQwNDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3
+OCwxODY3OTEzNzEsLTEwMDU0ODgwODUsLTIzNjY2Nzk0MCwtOD
+k0NDYzNTk1LC0xOTA1NDYzMDA3LC00NDMzNTkyOTMsMTc5NjIw
+NzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYxMTgsLTM1NDI2MDAxNS
+wtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMx
+NDc5OF19
 -->
