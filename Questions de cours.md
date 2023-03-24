@@ -153,7 +153,8 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. Graphe biparti d'un jeu à deux joueurs. 
 97. Preuve de l'existance d'une stratégie gagnante pour un jeu sans état finaux de match nul. Algorithme min-max.
 98. Élagage alpha-bêta. Déterminez si il existe une stratégie gagnante pour le morpion.
-99. Qu'est-ce qu’une heuristique ? Algorithme A*
+99. Qu'est-ce qu’une heuristique ? Une heuristique admissible ?
+100. Algorithme A*
 
 ## Classe de complexité
 89. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
@@ -166,10 +167,11 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNj
-Y1MzQ4Njc4LDE4Njc5MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3
-OTQwLC04OTQ0NjM1OTUsLTE5MDU0NjMwMDcsLTQ0MzM1OTI5My
-wxNzk2MjA3NjUwLC0yMDY3MTk5MzQwLDc4NDU0NjExOCwtMzU0
-MjYwMDE1LC0yMzQzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MC
-wtODgwMzE0Nzk4LDgwNTE0ODY4NSwtMTg3NzEyMDEyOF19
+eyJoaXN0b3J5IjpbMjEwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNz
+E0MDE5NDksLTE2NjUzNDg2NzgsMTg2NzkxMzcxLC0xMDA1NDg4
+MDg1LC0yMzY2Njc5NDAsLTg5NDQ2MzU5NSwtMTkwNTQ2MzAwNy
+wtNDQzMzU5MjkzLDE3OTYyMDc2NTAsLTIwNjcxOTkzNDAsNzg0
+NTQ2MTE4LC0zNTQyNjAwMTUsLTIzNDMwMzc5Niw2Njg4NzA2NS
+wyMDEyMjc1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1LC0xODc3
+MTIwMTI4XX0=
 -->
