@@ -185,7 +185,7 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 115. Définissez l'entropie de Shannon. Donnez le pseudo code de ID3.
 116. Matrice de confusion. Que représente la trace d'une matrice de confusion ?
 117. Graphe biparti d'un jeu à deux joueurs. 
-118. Preuve de l'existance d'une stratégie gagnante pour un jeu sans état finaux de match nul. Algorithme min-max.
+118. Preuve de l'existence d'une stratégie gagnante pour un jeu sans état finaux de match nul. Algorithme min-max.
 119. Élagage alpha-bêta. Déterminez si il existe une stratégie gagnante pour le morpion.
 120. Qu'est-ce qu’une heuristique ? Une heuristique admissible ?
 121. Algorithme A*
@@ -204,7 +204,7 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTAzMzE5MSwtMTc0NDcxNTQwNiw1MT
+eyJoaXN0b3J5IjpbLTYwMDI1NzUxNSwtMTc0NDcxNTQwNiw1MT
 A2Njc3MTUsNDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNzkxNTYw
 NTgsLTE0NDIwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3MTcsMT
 c0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LDE4Njc5
