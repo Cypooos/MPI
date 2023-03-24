@@ -115,10 +115,10 @@ $L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ o�
 **DIFFICILE : les mots binaires qui sont des multiples de 3 écrit en base 2**
 62. Notion de langage local, d'expression régulière linéaire.
 63. Donnez la méthode de Glush-kov (ou algorithme de Berry-Sethi) pour obtenir l'automate reconnaissant le langage associé à un regexp.
-64. Donnez l'automate de Glush-kov associé à $((a|b).(bb|ca))^*a$
+64. Donnez l'automate de Glush-kov associé à $((a|b).(bb|ca))^*.a$
 65. **Expliquez la méthode de Thompson permettant de faire la même chose.**
 66. Donnez une méthode pour déterminiser un automate non déterministe.
-67. Déterminisez l'automate de la question 64
+67. Déterminisez l'automate de la question 64.
 68. Donnez un automate déterministe reconnaissant le langage associé à $(a|b)^*c$
 69. Théorème de Kleene.
 70. Lemme de l'étoile. L’utiliser pour démontrer que $L_4=\{a^nb^n : n\in\N\}$ n'est pas régulier.
@@ -196,11 +196,11 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDIwMTM0LDUxMDY2NzcxNSw0MTgxMD
-I2OTcsMTgxOTk2MDgzNywtMTM3OTE1NjA1OCwtMTQ0MjA5NzEz
-Myw0Njg3MzYyOTcsMjEwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNz
-E0MDE5NDksLTE2NjUzNDg2NzgsMTg2NzkxMzcxLC0xMDA1NDg4
-MDg1LC0yMzY2Njc5NDAsLTg5NDQ2MzU5NSwtMTkwNTQ2MzAwNy
-wtNDQzMzU5MjkzLDE3OTYyMDc2NTAsLTIwNjcxOTkzNDAsNzg0
-NTQ2MTE4XX0=
+eyJoaXN0b3J5IjpbLTE3NDQ3MTU0MDYsNTEwNjY3NzE1LDQxOD
+EwMjY5NywxODE5OTYwODM3LC0xMzc5MTU2MDU4LC0xNDQyMDk3
+MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3LDE3NDQ5MzQwNDAsMT
+A3MTQwMTk0OSwtMTY2NTM0ODY3OCwxODY3OTEzNzEsLTEwMDU0
+ODgwODUsLTIzNjY2Nzk0MCwtODk0NDYzNTk1LC0xOTA1NDYzMD
+A3LC00NDMzNTkyOTMsMTc5NjIwNzY1MCwtMjA2NzE5OTM0MCw3
+ODQ1NDYxMThdfQ==
 -->
