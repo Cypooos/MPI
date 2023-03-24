@@ -101,6 +101,8 @@ int main() {
 51. Quelle est la structure unir et retrouver ? Donnez les optimisations de compression de chemin et de réunir à la plus grande racine. **La complexité amortie est $O(\alpha(n))$ où $\alpha = \{x\mapsto A(x,x)\}^{-1}$ avec $A$ la fonction d'Ackermann**
 52. Recherche d'un arbre couvrant de poids minimal (Algorithme de Kruskal). Preuve de sa correction et terminaison. **Complexité en $O(\log^*(n))$, en pratique O(1)**
 
+## Languages formels
+
 ## Logique
 53. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
 54. Écrire sous la forme d'arbre les formules logique $A \lrarr \lnot B$ et $A \land (B\lor \lnot C)$
@@ -167,11 +169,11 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNz
-E0MDE5NDksLTE2NjUzNDg2NzgsMTg2NzkxMzcxLC0xMDA1NDg4
-MDg1LC0yMzY2Njc5NDAsLTg5NDQ2MzU5NSwtMTkwNTQ2MzAwNy
-wtNDQzMzU5MjkzLDE3OTYyMDc2NTAsLTIwNjcxOTkzNDAsNzg0
-NTQ2MTE4LC0zNTQyNjAwMTUsLTIzNDMwMzc5Niw2Njg4NzA2NS
-wyMDEyMjc1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1LC0xODc3
-MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbLTIxMDgzMjAwNjYsMjEwMTQxOTcxNywxNz
+Q0OTM0MDQwLDEwNzE0MDE5NDksLTE2NjUzNDg2NzgsMTg2Nzkx
+MzcxLC0xMDA1NDg4MDg1LC0yMzY2Njc5NDAsLTg5NDQ2MzU5NS
+wtMTkwNTQ2MzAwNywtNDQzMzU5MjkzLDE3OTYyMDc2NTAsLTIw
+NjcxOTkzNDAsNzg0NTQ2MTE4LC0zNTQyNjAwMTUsLTIzNDMwMz
+c5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgsODA1
+MTQ4Njg1XX0=
 -->
