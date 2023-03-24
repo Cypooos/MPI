@@ -14,8 +14,8 @@ Il manque encore à ce document:
 ```ocaml
 let rec get m l = match l with
  | [] -> m
- | e::q with e>=m -> get e l
- | e::q -> get m l;;
+ | e::q when e>=m -> get e q
+ | e::q -> get m q;;
 let getter = get min_int;;
 ```
 Que fait-il ? Démontrer sa correction.
@@ -204,11 +204,11 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODUxNDIyNDUsLTE3NDQ3MTU0MDYsNT
-EwNjY3NzE1LDQxODEwMjY5NywxODE5OTYwODM3LC0xMzc5MTU2
-MDU4LC0xNDQyMDk3MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3LD
-E3NDQ5MzQwNDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3OCwxODY3
-OTEzNzEsLTEwMDU0ODgwODUsLTIzNjY2Nzk0MCwtODk0NDYzNT
-k1LC0xOTA1NDYzMDA3LC00NDMzNTkyOTMsMTc5NjIwNzY1MCwt
-MjA2NzE5OTM0MF19
+eyJoaXN0b3J5IjpbLTc5OTAzMzE5MSwtMTc0NDcxNTQwNiw1MT
+A2Njc3MTUsNDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNzkxNTYw
+NTgsLTE0NDIwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3MTcsMT
+c0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LDE4Njc5
+MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC04OTQ0NjM1OT
+UsLTE5MDU0NjMwMDcsLTQ0MzM1OTI5MywxNzk2MjA3NjUwLC0y
+MDY3MTk5MzQwXX0=
 -->
