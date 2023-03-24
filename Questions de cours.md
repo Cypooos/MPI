@@ -103,12 +103,12 @@ int main() {
 
 ## Langages formels
 53. Définition d'un alphabet, mot, langage.
-54. Définition de préfixe, suffixe, facteur. Mot miroir.
+54. Définition de préfixe, suffixe, facteur. **Mot miroir.**
 55. Opérations sur les langages. Concaténation, union, étoile de Kleen.
 56. Définition inductive d'un langage régulier.
 57. Définition inductive d'une expression régulière.
-58. Définition d'un automate déterministe. Automate émondé. $L(A)$ le language reconnu par l'automate.
-59. Donnez des automates reconnaisants $L_1 = \{a^{2n} : n\in\N\}$ et $L_2 = \{a^{2n} : n\in\N\}$ 
+58. Définition d'un automate déterministe. Automate émondé. État accessible et co-accessible. $L(A)$ le language reconnu par l'automate.
+59. Donnez des automates reconnaisant $L_1 = \{a^{2n} : n\in\N\}$ et $L_2 = \{a^{2n} : n\in\N\}$ 
 60. Donnez la méthode pour obtenir l'automate reconnaissant le langage associé à une regexp. Donnez un automate déterministe reconnaissant le langage associé à $(a|b)^*c$
 61.  
 ## Logique
@@ -177,7 +177,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzgwMDI1MywyMTAxNDE5NzE3LDE3ND
+eyJoaXN0b3J5IjpbLTY1NjgwMDgzOCwyMTAxNDE5NzE3LDE3ND
 Q5MzQwNDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3OCwxODY3OTEz
 NzEsLTEwMDU0ODgwODUsLTIzNjY2Nzk0MCwtODk0NDYzNTk1LC
 0xOTA1NDYzMDA3LC00NDMzNTkyOTMsMTc5NjIwNzY1MCwtMjA2
