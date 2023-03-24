@@ -114,7 +114,7 @@ int main() {
 $L_1 = \{a^{2n} : n\in\N\}$
 $L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ où $|\omega|_a$ est le nombre de $a$ dans $\omega$
 **DIFFICILE : les mots binaires qui sont des multiples de 3 écrit en base 2**
-64. Donnez la méthode de Glush-kov (ou alg pour obtenir l'automate reconnaissant le langage associé à un regexp. Donnez un automate déterministe reconnaissant le langage associé à $(a|b)^*c$
+64. Donnez la méthode de Glush-kov (ou algorithme de Berry-Sethi) pour obtenir l'automate reconnaissant le langage associé à un regexp. Donnez un automate déterministe reconnaissant le langage associé à $(a|b)^*c$
 65.  
 ## Logique
 53. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
@@ -182,11 +182,11 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjk5MTkyODEsNDY4NzM2Mjk3LDIxMD
-E0MTk3MTcsMTc0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4
-Njc4LDE4Njc5MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC
-04OTQ0NjM1OTUsLTE5MDU0NjMwMDcsLTQ0MzM1OTI5MywxNzk2
-MjA3NjUwLC0yMDY3MTk5MzQwLDc4NDU0NjExOCwtMzU0MjYwMD
-E1LC0yMzQzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgw
-MzE0Nzk4XX0=
+eyJoaXN0b3J5IjpbMTg3NDY4NzY0MSw0Njg3MzYyOTcsMjEwMT
+QxOTcxNywxNzQ0OTM0MDQwLDEwNzE0MDE5NDksLTE2NjUzNDg2
+NzgsMTg2NzkxMzcxLC0xMDA1NDg4MDg1LC0yMzY2Njc5NDAsLT
+g5NDQ2MzU5NSwtMTkwNTQ2MzAwNywtNDQzMzU5MjkzLDE3OTYy
+MDc2NTAsLTIwNjcxOTkzNDAsNzg0NTQ2MTE4LC0zNTQyNjAwMT
+UsLTIzNDMwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAz
+MTQ3OThdfQ==
 -->
