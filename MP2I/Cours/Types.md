@@ -14,10 +14,9 @@ let a2 b c d = b.(!c.(d)).[!c.(d)];;
 let a3 b c = (b c) c (!c);;
 ```
 ```ocaml
-let a4 b c d e = 1+match b c d with
- | 
- | f -> f e
- |
+let a4 b c d e = 1+match b c !d with
+ | f when f c = [||] -> c
+ | f -> f e;;
 ```
 
 
@@ -28,6 +27,6 @@ val a2 : string array -> int array ref -> int -> char = <fun>
 val a3 : ('a ref -> 'a ref -> 'a -> 'b) -> 'a ref -> 'b = <fun>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjY1MTAxMywtMjExOTIzNTQ1NCwxMj
-IxMjIzODc2LC0xMDAzNDA5NDYyXX0=
+eyJoaXN0b3J5IjpbLTEwOTQ0NDQxNjIsLTIxMTkyMzU0NTQsMT
+IyMTIyMzg3NiwtMTAwMzQwOTQ2Ml19
 -->
