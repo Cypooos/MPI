@@ -89,7 +89,7 @@ int main() {
 > *La sérialisation est au programme. Il s'agit de transformer une structure de données hiérarchique en une structure de données séquentielle pour après, par exemple, la sauvegarder dans un fichier texte. On pourra considérer des tableaux comme structure de données séquentielle. La fonction doit être bijective.*
 40. Donnez une fonction de sérialisation pour un graphe non orienté.
 41. "Arbre bicolore" lol
-42. Définir un graphe. Un graphe orienté. Un graphe pondéré. Un graphe complet. Une clique.
+42. Définir un graphe. Un graphe orienté. Un graphe pondéré. Un graphe complet. Une clique. Un graphe biparti.
 43. Qu'est-ce qu'une matrice d’adjacence ?
 44. **Si $A$ est une matrice d'adjacence, que représente $(A^n)_{i j}$ ?**
 45. Qu'est-ce qu'une composante fortement connexe ? Faiblement connexe ?
@@ -150,6 +150,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 93. Arbre k-dimensionnel. Insertion, et recherche des k plus proches voisins dans un arbre k-dimensionnel.
 94. Définissez l'entropie de Shannon. Donnez le pseudo code de ID3.
 95. Matrice de confusion. Que représente la trace d'une matrice de confusion ?
+96. Graphe biparti d'un jeu à deux joueurs
 
 ## Classe de complexité
 89. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
@@ -162,10 +163,11 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwODU2NjM1LDEwNzE0MDE5NDksLTE2Nj
-UzNDg2NzgsMTg2NzkxMzcxLC0xMDA1NDg4MDg1LC0yMzY2Njc5
-NDAsLTg5NDQ2MzU5NSwtMTkwNTQ2MzAwNywtNDQzMzU5MjkzLD
-E3OTYyMDc2NTAsLTIwNjcxOTkzNDAsNzg0NTQ2MTE4LC0zNTQy
-NjAwMTUsLTIzNDMwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC
-04ODAzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbLTE3MTQyMjg4MDAsMTA3MTQwMTk0OSwtMT
+Y2NTM0ODY3OCwxODY3OTEzNzEsLTEwMDU0ODgwODUsLTIzNjY2
+Nzk0MCwtODk0NDYzNTk1LC0xOTA1NDYzMDA3LC00NDMzNTkyOT
+MsMTc5NjIwNzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYxMTgsLTM1
+NDI2MDAxNSwtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4Nj
+AsLTg4MDMxNDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
+
 -->
