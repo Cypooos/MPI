@@ -110,7 +110,7 @@ int main() {
 58. Définition d'un automate déterministe. Automate émondé. État accessible et co-accessible. $L(A)$ le language reconnu par l'automate.
 59. Différences avec un automate non déterministe ? $\varepsilon$-transition et 
 60. **Qu'est-ce qu'une fonction de transition généralisé ?**
-61. Donnez des automates déterministes sur $\Sigma=\{a,b\}$ reconnaissant $L_1 = \{a^{2n} : n\in\N\}$ et $L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ 
+61. Donnez des automates déterministes sur $\Sigma=\{a,b\}$ reconnaissant $L_1 = \{a^{2n} : n\in\N\}$ et $L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ où $|\omega|_a$ est le nombre de $a$ dans $\omega$
 62. **DIFFICILE : Donnez un automate déterministe reconnaissant les mots binaires qui sont des multiples de 3 écrit en base 2.**
 63. Donnez la méthode pour obtenir l'automate reconnaissant le langage associé à une regexp. Donnez un automate déterministe reconnaissant le langage associé à $(a|b)^*c$
 64.  
@@ -180,11 +180,11 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxMDgwODg4LDQ2ODczNjI5NywyMTAxND
-E5NzE3LDE3NDQ5MzQwNDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3
-OCwxODY3OTEzNzEsLTEwMDU0ODgwODUsLTIzNjY2Nzk0MCwtOD
-k0NDYzNTk1LC0xOTA1NDYzMDA3LC00NDMzNTkyOTMsMTc5NjIw
-NzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYxMTgsLTM1NDI2MDAxNS
-wtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMx
-NDc5OF19
+eyJoaXN0b3J5IjpbLTE4NzEwNDc2NDAsNDY4NzM2Mjk3LDIxMD
+E0MTk3MTcsMTc0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4
+Njc4LDE4Njc5MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC
+04OTQ0NjM1OTUsLTE5MDU0NjMwMDcsLTQ0MzM1OTI5MywxNzk2
+MjA3NjUwLC0yMDY3MTk5MzQwLDc4NDU0NjExOCwtMzU0MjYwMD
+E1LC0yMzQzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgw
+MzE0Nzk4XX0=
 -->
