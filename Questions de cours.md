@@ -124,6 +124,8 @@ $L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ o�
 70. Lemme de l'étoile. L’utiliser pour démontrer que $L_4=\{a^nb^n : n\in\N\}$ n'est pas régulier.
 71. **Opération quotient gauche. Si $L$ régulier, $K^{-1}L$ aussi.**
 72. **Mots de Dycks. Les mots de Dyck ne sont pas rationnel. Nombre de mots de Dycks de $2n$ lettres**
+73. Définir une grammaire. Une grammaire non contextuelle. **Une grammaire contextuelle.**
+74. Faire le diagramme de la hiérarchie de Chomsky
 
 A continuer avec les grammaires...
 ## Logique
@@ -196,11 +198,11 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ3MTU0MDYsNTEwNjY3NzE1LDQxOD
-EwMjY5NywxODE5OTYwODM3LC0xMzc5MTU2MDU4LC0xNDQyMDk3
-MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3LDE3NDQ5MzQwNDAsMT
-A3MTQwMTk0OSwtMTY2NTM0ODY3OCwxODY3OTEzNzEsLTEwMDU0
-ODgwODUsLTIzNjY2Nzk0MCwtODk0NDYzNTk1LC0xOTA1NDYzMD
-A3LC00NDMzNTkyOTMsMTc5NjIwNzY1MCwtMjA2NzE5OTM0MCw3
-ODQ1NDYxMThdfQ==
+eyJoaXN0b3J5IjpbLTE3NjA4NDMxMzAsLTE3NDQ3MTU0MDYsNT
+EwNjY3NzE1LDQxODEwMjY5NywxODE5OTYwODM3LC0xMzc5MTU2
+MDU4LC0xNDQyMDk3MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3LD
+E3NDQ5MzQwNDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3OCwxODY3
+OTEzNzEsLTEwMDU0ODgwODUsLTIzNjY2Nzk0MCwtODk0NDYzNT
+k1LC0xOTA1NDYzMDA3LC00NDMzNTkyOTMsMTc5NjIwNzY1MCwt
+MjA2NzE5OTM0MF19
 -->
