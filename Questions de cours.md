@@ -144,9 +144,11 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 
 ## Apprentissage automatique et jeux
 89. Différences entre IA, Apprentissage supervisé, Apprentissage non supervisé.
-90. Algorithmes des k plus proches voisins.
-91. Arbre k-dimensionnel. Insertion, et recherche des k plus proches voisins dans un arbre k-dimensionnel.
-92. Définissez l'entropie de Shannon. Donnez 
+90. Définition d'un arbre de décision
+91. Notion de distance. De pseudo-distance. Distance de Levenshtein sur les chaine de charactères
+92. Algorithmes des k plus proches voisins avec une distance.
+93. Arbre k-dimensionnel. Insertion, et recherche des k plus proches voisins dans un arbre k-dimensionnel.
+94. Définissez l'entropie de Shannon. Donnez le pseudo code de ID3.
 
 ## Classe de complexité
 89. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
@@ -159,10 +161,10 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjUzNDg2NzgsMTg2NzkxMzcxLC0xMD
-A1NDg4MDg1LC0yMzY2Njc5NDAsLTg5NDQ2MzU5NSwtMTkwNTQ2
-MzAwNywtNDQzMzU5MjkzLDE3OTYyMDc2NTAsLTIwNjcxOTkzND
-AsNzg0NTQ2MTE4LC0zNTQyNjAwMTUsLTIzNDMwMzc5Niw2Njg4
-NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1LC
-0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbLTE0Njk1NTEwOTIsLTE2NjUzNDg2NzgsMT
+g2NzkxMzcxLC0xMDA1NDg4MDg1LC0yMzY2Njc5NDAsLTg5NDQ2
+MzU5NSwtMTkwNTQ2MzAwNywtNDQzMzU5MjkzLDE3OTYyMDc2NT
+AsLTIwNjcxOTkzNDAsNzg0NTQ2MTE4LC0zNTQyNjAwMTUsLTIz
+NDMwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OT
+gsODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
