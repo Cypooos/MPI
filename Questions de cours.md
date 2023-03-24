@@ -145,7 +145,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 ## Apprentissage automatique et jeux
 89. Différences entre IA, Apprentissage supervisé, Apprentissage non supervisé.
 90. Définition d'un arbre de décision
-91. Notion de distance. De pseudo-distance. Distance de Levenshtein sur les chaine de charactères
+91. Notion de distance. De pseudo-distance. **Distance de Levenshtein sur les chaines de charactères**
 92. Algorithmes des k plus proches voisins avec une distance.
 93. Arbre k-dimensionnel. Insertion, et recherche des k plus proches voisins dans un arbre k-dimensionnel.
 94. Définissez l'entropie de Shannon. Donnez le pseudo code de ID3.
@@ -161,10 +161,10 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njk1NTEwOTIsLTE2NjUzNDg2NzgsMT
-g2NzkxMzcxLC0xMDA1NDg4MDg1LC0yMzY2Njc5NDAsLTg5NDQ2
-MzU5NSwtMTkwNTQ2MzAwNywtNDQzMzU5MjkzLDE3OTYyMDc2NT
-AsLTIwNjcxOTkzNDAsNzg0NTQ2MTE4LC0zNTQyNjAwMTUsLTIz
-NDMwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3OT
-gsODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
+eyJoaXN0b3J5IjpbMTA3MTQwMTk0OSwtMTY2NTM0ODY3OCwxOD
+Y3OTEzNzEsLTEwMDU0ODgwODUsLTIzNjY2Nzk0MCwtODk0NDYz
+NTk1LC0xOTA1NDYzMDA3LC00NDMzNTkyOTMsMTc5NjIwNzY1MC
+wtMjA2NzE5OTM0MCw3ODQ1NDYxMTgsLTM1NDI2MDAxNSwtMjM0
+MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMxNDc5OC
+w4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
 -->
