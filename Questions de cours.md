@@ -145,7 +145,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 ## Apprentissage automatique et jeux
 89. Différences entre IA, Apprentissage supervisé, Apprentissage non supervisé.
 90. Algorithmes des k plus proches voisins.
-91. Définissez l'entropie de shannon.
+91. Définissez l'entropie de shannon. Donnez 
 
 ## Classe de complexité
 89. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
@@ -158,9 +158,10 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDU0ODgwODUsLTIzNjY2Nzk0MCwtOD
-k0NDYzNTk1LC0xOTA1NDYzMDA3LC00NDMzNTkyOTMsMTc5NjIw
-NzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYxMTgsLTM1NDI2MDAxNS
-wtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMx
-NDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbMTg2NzkxMzcxLC0xMDA1NDg4MDg1LC0yMz
+Y2Njc5NDAsLTg5NDQ2MzU5NSwtMTkwNTQ2MzAwNywtNDQzMzU5
+MjkzLDE3OTYyMDc2NTAsLTIwNjcxOTkzNDAsNzg0NTQ2MTE4LC
+0zNTQyNjAwMTUsLTIzNDMwMzc5Niw2Njg4NzA2NSwyMDEyMjc1
+ODYwLC04ODAzMTQ3OTgsODA1MTQ4Njg1LC0xODc3MTIwMTI4XX
+0=
 -->
