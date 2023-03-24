@@ -124,7 +124,7 @@ $L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ o�
 69. Théorème de Kleene.
 70. Lemme de l'étoile. L’utiliser pour démontrer que $L_4=\{a^nb^n : n\in\N\}$ n'est pas régulier.
 71. **Opération quotient gauche. Si $L$ régulier, $K^{-1}L$ aussi.**
-72. Mots de Dicks. Les mots de Dicks ne sont pas rationnel.
+72. **Mots de Dicks. Les mots de Dicks ne sont pas rationnel. Nombre de mot de Dycks de $n$ lettres**
 ## Logique
 53. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
 54. Écrire sous la forme d'arbre les formules logique $A \lrarr \lnot B$ et $A \land (B\lor \lnot C)$
@@ -191,11 +191,11 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1NDEyOTIsNDY4NzM2Mjk3LDIxMDE0MT
-k3MTcsMTc0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4
-LDE4Njc5MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC04OT
-Q0NjM1OTUsLTE5MDU0NjMwMDcsLTQ0MzM1OTI5MywxNzk2MjA3
-NjUwLC0yMDY3MTk5MzQwLDc4NDU0NjExOCwtMzU0MjYwMDE1LC
-0yMzQzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgwMzE0
-Nzk4XX0=
+eyJoaXN0b3J5IjpbODc4OTU1OSw0Njg3MzYyOTcsMjEwMTQxOT
+cxNywxNzQ0OTM0MDQwLDEwNzE0MDE5NDksLTE2NjUzNDg2Nzgs
+MTg2NzkxMzcxLC0xMDA1NDg4MDg1LC0yMzY2Njc5NDAsLTg5ND
+Q2MzU5NSwtMTkwNTQ2MzAwNywtNDQzMzU5MjkzLDE3OTYyMDc2
+NTAsLTIwNjcxOTkzNDAsNzg0NTQ2MTE4LC0zNTQyNjAwMTUsLT
+IzNDMwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3
+OThdfQ==
 -->
