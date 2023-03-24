@@ -16,6 +16,12 @@ let a4 b c d e = 1<match b c d with
   | f when !(d f) -> c
   | f -> f e;;
 ```
+```ocaml
+let a5 b c d = match b c with
+ | d -> match d with 
+		 | b c -> 0
+		 | 
+```
 
 
 SOLUTIONS
@@ -28,6 +34,6 @@ val a4 :
   int -> (('a -> int) -> bool ref) -> 'a -> bool = <fun>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2Mzc2MTkxLC0xMDk0NDQ0MTYyLC0yMT
-E5MjM1NDU0LDEyMjEyMjM4NzYsLTEwMDM0MDk0NjJdfQ==
+eyJoaXN0b3J5IjpbMTM5NjIxNDcyMiwtMTA5NDQ0NDE2MiwtMj
+ExOTIzNTQ1NCwxMjIxMjIzODc2LC0xMDAzNDA5NDYyXX0=
 -->
