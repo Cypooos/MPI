@@ -110,7 +110,7 @@ int main() {
 60. **Qu'est-ce qu'une fonction de transition généralisé ?**
 61. Donnez des automates déterministes sur $\Sigma=\{a,b\}$ reconnaissant
 $L_1 = \{a^{2n} \mid n\in\N\}$
-$L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ où $|\omega|_a$ est le nombre de $a$ dans $\omega$
+$L_2 = \{\omega\in\Sigma^* : |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ où $|\omega|_a$ est le nombre de $a$ dans $\omega$
 **DIFFICILE : $L_3$, les mots binaires qui sont des multiples de 3 écrit en base 2**
 62. Notion de langage local, d'expression régulière linéaire.
 63. Donnez la méthode de Glush-kov (ou algorithme de Berry-Sethi) pour obtenir l'automate reconnaissant le langage associé à un regexp.
@@ -204,11 +204,11 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NDY2OTc1NCwtMTc0NDcxNTQwNiw1MT
-A2Njc3MTUsNDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNzkxNTYw
-NTgsLTE0NDIwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3MTcsMT
-c0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LDE4Njc5
-MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC04OTQ0NjM1OT
-UsLTE5MDU0NjMwMDcsLTQ0MzM1OTI5MywxNzk2MjA3NjUwLC0y
-MDY3MTk5MzQwXX0=
+eyJoaXN0b3J5IjpbLTExODUxNDIyNDUsLTE3NDQ3MTU0MDYsNT
+EwNjY3NzE1LDQxODEwMjY5NywxODE5OTYwODM3LC0xMzc5MTU2
+MDU4LC0xNDQyMDk3MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3LD
+E3NDQ5MzQwNDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3OCwxODY3
+OTEzNzEsLTEwMDU0ODgwODUsLTIzNjY2Nzk0MCwtODk0NDYzNT
+k1LC0xOTA1NDYzMDA3LC00NDMzNTkyOTMsMTc5NjIwNzY1MCwt
+MjA2NzE5OTM0MF19
 -->
