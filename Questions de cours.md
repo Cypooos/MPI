@@ -142,7 +142,8 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 87. Algorithme de Floyd-Warshall.
 88. Recherche d’un arbre couvrant de poids minimum par l’algorithme de Kruskal.
 
-## 
+## Apprentissage automatique et jeux
+89. 
 
 ## Classe de complexité
 89. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
@@ -155,9 +156,9 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTY5NDE1OTYsLTIzNjY2Nzk0MCwtOD
-k0NDYzNTk1LC0xOTA1NDYzMDA3LC00NDMzNTkyOTMsMTc5NjIw
-NzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYxMTgsLTM1NDI2MDAxNS
-wtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMx
-NDc5OCw4MDUxNDg2ODUsLTE4NzcxMjAxMjhdfQ==
+eyJoaXN0b3J5IjpbNTM1OTE4NzQ5LC0yMzY2Njc5NDAsLTg5ND
+Q2MzU5NSwtMTkwNTQ2MzAwNywtNDQzMzU5MjkzLDE3OTYyMDc2
+NTAsLTIwNjcxOTkzNDAsNzg0NTQ2MTE4LC0zNTQyNjAwMTUsLT
+IzNDMwMzc5Niw2Njg4NzA2NSwyMDEyMjc1ODYwLC04ODAzMTQ3
+OTgsODA1MTQ4Njg1LC0xODc3MTIwMTI4XX0=
 -->
