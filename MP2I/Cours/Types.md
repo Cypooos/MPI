@@ -1,4 +1,4 @@
-## Types?
+## Types ?
 Donnez la signature des fonctions suivante :
 ```ocaml
 let a1 b c d = b.(!c.(d)).[!c.(d)];;
@@ -17,8 +17,6 @@ let a4 b c d e = 1<match b c d with
   | f -> f e;;
 ```
 
-
-
 SOLUTIONS
 ```ocaml
 val a1 : string array -> int array ref -> int -> char = <fun>  
@@ -29,6 +27,6 @@ val a4 :
   int -> (('a -> int) -> bool ref) -> 'a -> bool = <fun>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM3MDA4MTksLTEwOTQ0NDQxNjIsLT
-IxMTkyMzU0NTQsMTIyMTIyMzg3NiwtMTAwMzQwOTQ2Ml19
+eyJoaXN0b3J5IjpbLTcxMjU3NDA5LC0xMDk0NDQ0MTYyLC0yMT
+E5MjM1NDU0LDEyMjEyMjM4NzYsLTEwMDM0MDk0NjJdfQ==
 -->
