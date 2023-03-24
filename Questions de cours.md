@@ -151,8 +151,9 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 94. Définissez l'entropie de Shannon. Donnez le pseudo code de ID3.
 95. Matrice de confusion. Que représente la trace d'une matrice de confusion ?
 96. Graphe biparti d'un jeu à deux joueurs. 
-97. Preuve de l'existance d'une stratégie gagnante pour un jeu sans état finaux de match nul.
-98. Qu'est-ce qu’une heuristique ? Algorithme A*
+97. Preuve de l'existance d'une stratégie gagnante pour un jeu sans état finaux de match nul. Algorithme min-max.
+98. Élagage alpha-bêta. Déterminez si il existe une stratégie gagnante pour le morpion.
+99. Qu'est-ce qu’une heuristique ? Algorithme A*
 
 ## Classe de complexité
 89. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
@@ -165,7 +166,7 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3ODMxMDU3MywxMDcxNDAxOTQ5LC0xNj
+eyJoaXN0b3J5IjpbMTc0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNj
 Y1MzQ4Njc4LDE4Njc5MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3
 OTQwLC04OTQ0NjM1OTUsLTE5MDU0NjMwMDcsLTQ0MzM1OTI5My
 wxNzk2MjA3NjUwLC0yMDY3MTk5MzQwLDc4NDU0NjExOCwtMzU0
