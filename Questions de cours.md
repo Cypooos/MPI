@@ -126,7 +126,8 @@ $L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ o�
 72. **Mots de Dycks. Les mots de Dyck ne sont pas rationnel. Nombre de mots de Dycks de $2n$ lettres**
 73. Définir une grammaire. Une grammaire non contextuelle. **Une grammaire contextuelle.**
 74. CNS sur une grammaire non contextuelle pour qu'elle engendre un langage algébrique.
-75. Définir l'ambiguité d'une grammaire. Donnez une grammaire non ambigue représentant les formules logiques.
+75. Définir l’ambiguïté d'une grammaire. Donnez une grammaire non ambigüe représentant les formules logiques.
+76. Rappelez le problème du *sinon pendant*.
 77. **Faire le diagramme de la hiérarchie de Chomsky**
 
 A continuer avec les grammaires...
@@ -200,11 +201,11 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDczMTg4OCwtMTc0NDcxNTQwNiw1MT
-A2Njc3MTUsNDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNzkxNTYw
-NTgsLTE0NDIwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3MTcsMT
-c0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LDE4Njc5
-MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC04OTQ0NjM1OT
-UsLTE5MDU0NjMwMDcsLTQ0MzM1OTI5MywxNzk2MjA3NjUwLC0y
-MDY3MTk5MzQwXX0=
+eyJoaXN0b3J5IjpbNTA0NzA0ODU1LC0xNzQ0NzE1NDA2LDUxMD
+Y2NzcxNSw0MTgxMDI2OTcsMTgxOTk2MDgzNywtMTM3OTE1NjA1
+OCwtMTQ0MjA5NzEzMyw0Njg3MzYyOTcsMjEwMTQxOTcxNywxNz
+Q0OTM0MDQwLDEwNzE0MDE5NDksLTE2NjUzNDg2NzgsMTg2Nzkx
+MzcxLC0xMDA1NDg4MDg1LC0yMzY2Njc5NDAsLTg5NDQ2MzU5NS
+wtMTkwNTQ2MzAwNywtNDQzMzU5MjkzLDE3OTYyMDc2NTAsLTIw
+NjcxOTkzNDBdfQ==
 -->
