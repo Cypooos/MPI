@@ -135,80 +135,80 @@ $L_2 = \{\omega\in\Sigma^* : |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ o�
 82. Démontrez que $x \rArr^* uv$ ssi $\exist a.\exist b.\ (x=ab\land a\rArr^* u \land b\rArr^* v)$
 
 ## Logique
-73. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
-74. Écrire sous la forme d'arbre les formules logique $A \lrarr \lnot B$ et $A \land (B\lor \lnot C)$
-75. Donnez une bijection entre $\{V, F \}$ et $\N/2\N$. A quoi correspondent les opérateurs $\lnot$ et $\land$ ? En déduire $\lor$
-76. Exprimez $\lor$, $\rarr$ et $\lrarr$ avec $\lnot$ et $\land$
-77. Lois de Morgan.
-78. Pour chaque variable soulignée, indiquer si elle est libre et/ou liée. Quelle est la porté du $\forall y$ ?
+83. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
+84. Écrire sous la forme d'arbre les formules logique $A \lrarr \lnot B$ et $A \land (B\lor \lnot C)$
+85. Donnez une bijection entre $\{V, F \}$ et $\N/2\N$. A quoi correspondent les opérateurs $\lnot$ et $\land$ ? En déduire $\lor$
+86. Exprimez $\lor$, $\rarr$ et $\lrarr$ avec $\lnot$ et $\land$
+87. Lois de Morgan.
+88. Pour chaque variable soulignée, indiquer si elle est libre et/ou liée. Quelle est la porté du $\forall y$ ?
 $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline f(\underline y,u)])$$
-79. Qu'est-ce qu'une valuation ? Un modèle ?
-80. Définition de l'équivalence entre deux formule ?
-81. Mettre sous forme normale conjonctive de taille 3 $C\lor B\lor A\lor (B \land \lnot C)$
-82. Mettre sous forme normale disjonctive de taille 3 $C\land B\land A\land (B \lor \lnot C)$
-83. Algorithme de Quine-Mc Cluskey pour réduire une formule logique
-84. Déduction naturelle. Arbre de preuve.
-85. Règle d'introduction et d'élimination de $\lor$, $\land$, $\rarr$ et $\lnot$, définition de $\lrarr$
-86. Règle d'introduction et d'élimination de $\forall$, $\exist$
-87. Qu'est-ce qu'un axiome ?
-88. Le syllogisme barbara, le modus ponen.
-89. **Quelle règle faut-il ajouter à la logique minimale pour avoir la logique intuitionniste ?**
-90. **Citez 3 règles possible à ajouter à la logique intuitionniste pour obtenir la logique classique. Prouvez qu'elles sont équivalentes.**
-91. **Faire l'arbre de preuve de $(\lnot A\land \lnot B)\lrarr \lnot (A\lor B)$ en logique minimale.**
-92. **Faire l'arbre de preuve de $\lnot(A\lrarr \lnot A)$ en logique intuitionniste.**
-93. Faire l'arbre de preuve de $\exist y.\forall x.P(x,y)\implies \forall x.\exist y.P(x,y)$ en logique classique où $P$ est une proposition d’arité 2.
-94. **Axiomes de l'égalité.**
-95. **Axiomes de Peano.**
+89. Qu'est-ce qu'une valuation ? Un modèle ?
+90. Définition de l'équivalence entre deux formule ?
+91. Mettre sous forme normale conjonctive de taille 3 $C\lor B\lor A\lor (B \land \lnot C)$
+92. Mettre sous forme normale disjonctive de taille 3 $C\land B\land A\land (B \lor \lnot C)$
+93. Algorithme de Quine-Mc Cluskey pour réduire une formule logique
+94. Déduction naturelle. Arbre de preuve.
+95. Règle d'introduction et d'élimination de $\lor$, $\land$, $\rarr$ et $\lnot$, définition de $\lrarr$
+96. Règle d'introduction et d'élimination de $\forall$, $\exist$
+97. Qu'est-ce qu'un axiome ?
+98. Le syllogisme barbara, le modus ponen.
+99. **Quelle règle faut-il ajouter à la logique minimale pour avoir la logique intuitionniste ?**
+100. **Citez 3 règles possible à ajouter à la logique intuitionniste pour obtenir la logique classique. Prouvez qu'elles sont équivalentes.**
+101. **Faire l'arbre de preuve de $(\lnot A\land \lnot B)\lrarr \lnot (A\lor B)$ en logique minimale.**
+102. **Faire l'arbre de preuve de $\lnot(A\lrarr \lnot A)$ en logique intuitionniste.**
+103. Faire l'arbre de preuve de $\exist y.\forall x.P(x,y)\implies \forall x.\exist y.P(x,y)$ en logique classique où $P$ est une proposition d’arité 2.
+104. **Axiomes de l'égalité.**
+105. **Axiomes de Peano.** 
 
 ## Algorithmique
-96. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
-97. Différence entre un algorithme de Las Vegas et de Monte Carlos ?
-98. Qu'est-ce qu'un algorithme glouton ? Diviser pour régner ?
-99. Qu'est-ce que la mémoïsation ? Donnez une implémentation de la suite de Fibonacci mémoïsé. Quelle est la nouvelle complexité ?
-100. **Fonction d'Ackermann**
-101. Algorithme de Boyer-Moore
-102. Algorithme de Rabin-Karp
-103. Algorithme de Huffman
-104. Algorithme Lempel-Ziv-Welch
-105. Algorithme de Kosaraju de recherche de composante fortement connexe à l'aide de parcours du graphe.
-106. Algorithme de Dijkstra avec une file de priorité. Prononciation du nom.
-107. Algorithme de Floyd-Warshall.
-108. Recherche d’un arbre couvrant de poids minimum par l’algorithme de Kruskal.
-109. Tri à bulle. Tri par insertion. Tris fusion. Tri par tas. Tri rapide *(quicksort)*. 
+106. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
+107. Différence entre un algorithme de Las Vegas et de Monte Carlos ?
+108. Qu'est-ce qu'un algorithme glouton ? Diviser pour régner ?
+109. Qu'est-ce que la mémoïsation ? Donnez une implémentation de la suite de Fibonacci mémoïsé. Quelle est la nouvelle complexité ?
+110. **Fonction d'Ackermann**
+111. Algorithme de Boyer-Moore
+112. Algorithme de Rabin-Karp
+113. Algorithme de Huffman
+114. Algorithme Lempel-Ziv-Welch
+115. Algorithme de Kosaraju de recherche de composante fortement connexe à l'aide de parcours du graphe.
+116. Algorithme de Dijkstra avec une file de priorité. Prononciation du nom.
+117. Algorithme de Floyd-Warshall.
+118. Recherche d’un arbre couvrant de poids minimum par l’algorithme de Kruskal.
+119. Tri à bulle. Tri par insertion. Tris fusion. Tri par tas. Tri rapide *(quicksort)*. 
 
 ## Apprentissage automatique et jeux
-110. Différences entre IA, Apprentissage supervisé, Apprentissage non supervisé.
-111. Définition d'un arbre de décision
-112. Notion de distance. De pseudo-distance. **Distance de Levenshtein sur les chaines de charactères**
-113. Algorithmes des k plus proches voisins avec une distance.
-114. Arbre k-dimensionnel. Insertion, et recherche des k plus proches voisins dans un arbre k-dimensionnel.
-115. Définissez l'entropie de Shannon. Donnez le pseudo code de ID3.
-116. Matrice de confusion. Que représente la trace d'une matrice de confusion ?
-117. Graphe biparti d'un jeu à deux joueurs. 
-118. Preuve de l'existence d'une stratégie gagnante pour un jeu sans état finaux de match nul. Algorithme min-max.
-119. Élagage alpha-bêta. Déterminez si il existe une stratégie gagnante pour le morpion.
-120. Qu'est-ce qu’une heuristique ? Une heuristique admissible ?
-121. Algorithme A*
+120. Différences entre IA, Apprentissage supervisé, Apprentissage non supervisé.
+121. Définition d'un arbre de décision
+122. Notion de distance. De pseudo-distance. **Distance de Levenshtein sur les chaines de charactères**
+123. Algorithmes des k plus proches voisins avec une distance.
+124. Arbre k-dimensionnel. Insertion, et recherche des k plus proches voisins dans un arbre k-dimensionnel.
+125. Définissez l'entropie de Shannon. Donnez le pseudo code de ID3.
+126. Matrice de confusion. Que représente la trace d'une matrice de confusion ?
+127. Graphe biparti d'un jeu à deux joueurs. 
+128. Preuve de l'existence d'une stratégie gagnante pour un jeu sans état finaux de match nul. Algorithme min-max.
+129. Élagage alpha-bêta. Déterminez si il existe une stratégie gagnante pour le morpion.
+130. Qu'est-ce qu’une heuristique ? Une heuristique admissible ?
+131. Algorithme A*
 
 ## Classe de complexité
-122. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
-123. Prouvez la non décidabilité du problème de l’arrêt.
-124. Donnez l'énoncé des problèmes suivants : $\text{SAT}$, $\text{n-SAT}$, $\text{MAX2SAT}$, $\text{k-COLOR}$
-125. **Donnez l'énoncé des problèmes suivants : $\text{CLIQUE}$, $\text{VERTEX-COVER}$, $\text{HAMILOTINAN}$, $\text{CIBLE-SAC-A-DOS}$**
-126. Classe $\text{P}$, Classe $\text{NP}$, **Classe $\text{EXPTIME}$**, **Classe $\text{EXPSPACE}$**
-127. Réduction de problèmes en temps polynomial.
-128. Montrez que $\text{SAT}\le_P\text{3-SAT}$
-129. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
-130. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
+132. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
+133. Prouvez la non décidabilité du problème de l’arrêt.
+134. Donnez l'énoncé des problèmes suivants : $\text{SAT}$, $\text{n-SAT}$, $\text{MAX2SAT}$, $\text{k-COLOR}$
+135. **Donnez l'énoncé des problèmes suivants : $\text{CLIQUE}$, $\text{VERTEX-COVER}$, $\text{HAMILOTINAN}$, $\text{CIBLE-SAC-A-DOS}$**
+136. Classe $\text{P}$, Classe $\text{NP}$, **Classe $\text{EXPTIME}$**, **Classe $\text{EXPSPACE}$**
+137. Réduction de problèmes en temps polynomial.
+138. Montrez que $\text{SAT}\le_P\text{3-SAT}$
+139. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
+140. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMDI1NzUxNSwtMTc0NDcxNTQwNiw1MT
-A2Njc3MTUsNDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNzkxNTYw
-NTgsLTE0NDIwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3MTcsMT
-c0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LDE4Njc5
-MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC04OTQ0NjM1OT
-UsLTE5MDU0NjMwMDcsLTQ0MzM1OTI5MywxNzk2MjA3NjUwLC0y
-MDY3MTk5MzQwXX0=
+eyJoaXN0b3J5IjpbLTIxMzYxNjg5OSwtNjAwMjU3NTE1LC0xNz
+Q0NzE1NDA2LDUxMDY2NzcxNSw0MTgxMDI2OTcsMTgxOTk2MDgz
+NywtMTM3OTE1NjA1OCwtMTQ0MjA5NzEzMyw0Njg3MzYyOTcsMj
+EwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNzE0MDE5NDksLTE2NjUz
+NDg2NzgsMTg2NzkxMzcxLC0xMDA1NDg4MDg1LC0yMzY2Njc5ND
+AsLTg5NDQ2MzU5NSwtMTkwNTQ2MzAwNywtNDQzMzU5MjkzLDE3
+OTYyMDc2NTBdfQ==
 -->
