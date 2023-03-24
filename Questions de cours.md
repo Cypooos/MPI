@@ -2,7 +2,6 @@ Par Cyprien (@Cypooos) en MPI* à Fénelon Sainte Marie. Droit à toute sorte de
 En gras sont les questions non officiellement au programme (parfois explicitement hors programme), mais qu'il est bon de connaitre.
 
 Il manque encore à ce document:
- - Grammaire
  - Base de donnée
  - Extras plus théorique
 
@@ -129,10 +128,10 @@ $L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ o�
 75. Donnez des grammaires qui engendre $L_1$ et $L_2$.
 76. Définir l’ambiguïté d'une grammaire.
 77. Donnez une grammaire non ambigüe représentant les formules logiques. Pareillement pour les mots de Dyck.
-79. Rappelez le problème du *sinon pendant*.
-80. **Faire le diagramme de la hiérarchie de Chomsky**
+78. Rappelez le problème du *sinon pendant*.
+79. **Faire le diagramme de la hiérarchie de Chomsky**
+80. Démontrez que $ab \implies$
 
-A continuer avec les grammaires...
 ## Logique
 73. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
 74. Écrire sous la forme d'arbre les formules logique $A \lrarr \lnot B$ et $A \land (B\lor \lnot C)$
@@ -203,11 +202,11 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDk1NjU5OSwtMTc0NDcxNTQwNiw1MT
-A2Njc3MTUsNDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNzkxNTYw
-NTgsLTE0NDIwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3MTcsMT
-c0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LDE4Njc5
-MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC04OTQ0NjM1OT
-UsLTE5MDU0NjMwMDcsLTQ0MzM1OTI5MywxNzk2MjA3NjUwLC0y
-MDY3MTk5MzQwXX0=
+eyJoaXN0b3J5IjpbOTY3MjE4MTU2LC0xNzQ0NzE1NDA2LDUxMD
+Y2NzcxNSw0MTgxMDI2OTcsMTgxOTk2MDgzNywtMTM3OTE1NjA1
+OCwtMTQ0MjA5NzEzMyw0Njg3MzYyOTcsMjEwMTQxOTcxNywxNz
+Q0OTM0MDQwLDEwNzE0MDE5NDksLTE2NjUzNDg2NzgsMTg2Nzkx
+MzcxLC0xMDA1NDg4MDg1LC0yMzY2Njc5NDAsLTg5NDQ2MzU5NS
+wtMTkwNTQ2MzAwNywtNDQzMzU5MjkzLDE3OTYyMDc2NTAsLTIw
+NjcxOTkzNDBdfQ==
 -->
