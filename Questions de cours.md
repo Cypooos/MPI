@@ -121,8 +121,8 @@ $L_2 = \{\omega\in\Sigma^* ; |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ o�
 66. Donnez une méthode pour déterminiser un automate non déterministe.
 67. Déterminisez l'automate de la question 64
 68. Donnez un automate déterministe reconnaissant le langage associé à $(a|b)^*c$
-69. Théorème de Kleene. Sens retour de ce théorème en utilisant .
-70. Lemme de l'étoile.
+69. Théorème de Kleene.
+70. Lemme de l'étoile. L’utiliser pour démontrer que $L_4=\{a^nb^n : n\in\N\}$ n'est pas régulier.
 ## Logique
 53. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
 54. Écrire sous la forme d'arbre les formules logique $A \lrarr \lnot B$ et $A \land (B\lor \lnot C)$
@@ -189,11 +189,11 @@ $$\forall x(\forall y\exist z,\underline f(x,u) )\land (\exist f.\ \underline f(
 96. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 97. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDE3NTQ3OTQsNDY4NzM2Mjk3LDIxMD
-E0MTk3MTcsMTc0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4
-Njc4LDE4Njc5MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC
-04OTQ0NjM1OTUsLTE5MDU0NjMwMDcsLTQ0MzM1OTI5MywxNzk2
-MjA3NjUwLC0yMDY3MTk5MzQwLDc4NDU0NjExOCwtMzU0MjYwMD
-E1LC0yMzQzMDM3OTYsNjY4ODcwNjUsMjAxMjI3NTg2MCwtODgw
-MzE0Nzk4XX0=
+eyJoaXN0b3J5IjpbNDg4NjU0ODY2LDQ2ODczNjI5NywyMTAxND
+E5NzE3LDE3NDQ5MzQwNDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3
+OCwxODY3OTEzNzEsLTEwMDU0ODgwODUsLTIzNjY2Nzk0MCwtOD
+k0NDYzNTk1LC0xOTA1NDYzMDA3LC00NDMzNTkyOTMsMTc5NjIw
+NzY1MCwtMjA2NzE5OTM0MCw3ODQ1NDYxMTgsLTM1NDI2MDAxNS
+wtMjM0MzAzNzk2LDY2ODg3MDY1LDIwMTIyNzU4NjAsLTg4MDMx
+NDc5OF19
 -->
