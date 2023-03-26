@@ -1,9 +1,9 @@
 Par Cyprien (@Cypooos) en MPI* à Fénelon Sainte Marie. Droit à toute sorte de publication et modification, mais gardez les crédits !
-En gras sont les questions non officiellement au programme (parfois explicitement hors programme), mais qu'il est bon de connaitre.
+En **gras** sont les questions non officiellement au programme (parfois explicitement hors programme), mais qu'il est bon de connaitre.
 
 Il manque encore à ce document:
  - Bien refaire "base de donnée"
- - Extras plus théorique : Classes de fonctions, récursivité, machine de turing....
+ - Extras (hors programme) plus théorique : Classes de fonctions, récursivité, machine de turing....
 
 ## Machines et implémentation
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
@@ -218,11 +218,11 @@ On pose pour cette partie le schéma suivant :
 
 > *Version 0.3 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY2Mjg5MTk5LDQ0Mzg5NzY3MSw0MjE1ND
-U4MCwtMjEzNjE2ODk5LC02MDAyNTc1MTUsLTE3NDQ3MTU0MDYs
-NTEwNjY3NzE1LDQxODEwMjY5NywxODE5OTYwODM3LC0xMzc5MT
-U2MDU4LC0xNDQyMDk3MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3
-LDE3NDQ5MzQwNDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3OCwxOD
-Y3OTEzNzEsLTEwMDU0ODgwODUsLTIzNjY2Nzk0MCwtODk0NDYz
-NTk1XX0=
+eyJoaXN0b3J5IjpbLTE3MjQxMDA4MTIsNDQzODk3NjcxLDQyMT
+U0NTgwLC0yMTM2MTY4OTksLTYwMDI1NzUxNSwtMTc0NDcxNTQw
+Niw1MTA2Njc3MTUsNDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNz
+kxNTYwNTgsLTE0NDIwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3
+MTcsMTc0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LD
+E4Njc5MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC04OTQ0
+NjM1OTVdfQ==
 -->
