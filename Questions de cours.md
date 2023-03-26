@@ -103,36 +103,37 @@ int main() {
 53. Définition d'un alphabet, mot, langage.
 54. Définition de préfixe, suffixe, facteur. **Mot miroir.**
 55. Opérations sur les langages. Concaténation, Union, étoile de Kleen.
-56. Définition inductive d'un langage régulier.
-57. Définition inductive d'une expression régulière.
-58. Définition d'un automate déterministe. Automate émondé. État accessible et co-accessible. $L(A)$ le langage reconnu par l'automate.
-59. Différences avec un automate non déterministe ? $\varepsilon$-transition et 
-60. **Qu'est-ce qu'une fonction de transition généralisé ?**
-61. Donnez des automates déterministes sur $\Sigma=\{a,b\}$ reconnaissant
+56. Si $a,b\in\Sigma^*$ tel que $ab=ba$, alors $\exist\ \omega\in\Sigma^* \mid$
+57. Définition inductive d'un langage régulier.
+58. Définition inductive d'une expression régulière.
+59. Définition d'un automate déterministe. Automate émondé. État accessible et co-accessible. $L(A)$ le langage reconnu par l'automate.
+60. Différences avec un automate non déterministe ? $\varepsilon$-transition et 
+61. **Qu'est-ce qu'une fonction de transition généralisé ?**
+62. Donnez des automates déterministes sur $\Sigma=\{a,b\}$ reconnaissant
 $L_1 = \{a^{2n} \mid n\in\N\}$
 $L_2 = \{\omega\in\Sigma^* : |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ où $|\omega|_a$ est le nombre de $a$ dans $\omega$
 **DIFFICILE : $L_3$, les mots binaires qui sont des multiples de 3 écrit en base 2**
-62. Notion de langage local, d'expression régulière linéaire.
-63. Donnez la méthode de Glush-kov (ou algorithme de Berry-Sethi) pour obtenir l'automate reconnaissant le langage associé à un regexp.
-64. Donnez l'automate de Glush-kov associé à $((a|b).(bb|ca))^*.a$
-65. **Expliquez la méthode de Thompson permettant de faire la même chose.**
-66. Donnez une méthode pour déterminiser un automate non déterministe.
-67. Déterminisez l'automate de la question 64.
-68. Donnez un automate déterministe reconnaissant le langage associé à $(a|b)^*c$
-69. Théorème de Kleene.
-70. Lemme de l'étoile. L’utiliser pour démontrer que $L_4=\{a^nb^n : n\in\N\}$ n'est pas régulier.
-71. **Opération quotient gauche. Si $L$ régulier, $K^{-1}L$ aussi.**
-72. **Mots de Dyck. Les mots de Dyck ne sont pas rationnel. Nombre de mots de Dyck de $2n$ lettres**
-73. Définir une grammaire. Une grammaire non contextuelle. **Une grammaire contextuelle. Une grammaire régulière.**
-74. Définir une dérivation. Dérivation immédiate.
-75. **Donnez la transformation pour obtenir un automate à partir d'une grammaire régulière à droite.**
-76. Donnez des grammaires qui engendre $L_1$ et $L_2$.
-77. Définir l’ambiguïté d'une grammaire. **Un langage inhéremment ambigüe.**
-78. Démontrez que $L_5=\{a^{\ell }b^mc^n\mid m=\ell \ {\text{ou}}\ m=n\}$ est algébrique et **inhéremment ambigüe.**
-79. Donnez une grammaire non ambigüe représentant les formules logiques. Pareillement pour les mots de Dyck.
-80. Rappelez le problème du *sinon pendant*.
-81. **Faire le diagramme de la hiérarchie de Chomsky**
-82. Démontrez que $x \rArr^* uv$ ssi $\exist a.\exist b.\ (x=ab\land a\rArr^* u \land b\rArr^* v)$
+63. Notion de langage local, d'expression régulière linéaire.
+64. Donnez la méthode de Glush-kov (ou algorithme de Berry-Sethi) pour obtenir l'automate reconnaissant le langage associé à un regexp.
+65. Donnez l'automate de Glush-kov associé à $((a|b).(bb|ca))^*.a$
+66. **Expliquez la méthode de Thompson permettant de faire la même chose.**
+67. Donnez une méthode pour déterminiser un automate non déterministe.
+68. Déterminisez l'automate de la question 64.
+69. Donnez un automate déterministe reconnaissant le langage associé à $(a|b)^*c$
+70. Théorème de Kleene.
+71. Lemme de l'étoile. L’utiliser pour démontrer que $L_4=\{a^nb^n : n\in\N\}$ n'est pas régulier.
+72. **Opération quotient gauche. Si $L$ régulier, $K^{-1}L$ aussi.**
+73. **Mots de Dyck. Les mots de Dyck ne sont pas rationnel. Nombre de mots de Dyck de $2n$ lettres**
+74. Définir une grammaire. Une grammaire non contextuelle. **Une grammaire contextuelle. Une grammaire régulière.**
+75. Définir une dérivation. Dérivation immédiate.
+76. **Donnez la transformation pour obtenir un automate à partir d'une grammaire régulière à droite.**
+77. Donnez des grammaires qui engendre $L_1$ et $L_2$.
+78. Définir l’ambiguïté d'une grammaire. **Un langage inhéremment ambigüe.**
+79. Démontrez que $L_5=\{a^{\ell }b^mc^n\mid m=\ell \ {\text{ou}}\ m=n\}$ est algébrique et **inhéremment ambigüe.**
+80. Donnez une grammaire non ambigüe représentant les formules logiques. Pareillement pour les mots de Dyck.
+81. Rappelez le problème du *sinon pendant*.
+82. **Faire le diagramme de la hiérarchie de Chomsky**
+83. Démontrez que $x \rArr^* uv$ ssi $\exist a.\exist b.\ (x=ab\land a\rArr^* u \land b\rArr^* v)$
 
 ## Logique
 83. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
@@ -217,11 +218,11 @@ On pose pour cette partie le schéma suivant :
 
 > *Version 0.3 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzODk3NjcxLDQyMTU0NTgwLC0yMTM2MT
-Y4OTksLTYwMDI1NzUxNSwtMTc0NDcxNTQwNiw1MTA2Njc3MTUs
-NDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNzkxNTYwNTgsLTE0ND
-IwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3MTcsMTc0NDkzNDA0
-MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LDE4Njc5MTM3MSwtMT
-AwNTQ4ODA4NSwtMjM2NjY3OTQwLC04OTQ0NjM1OTUsLTE5MDU0
-NjMwMDddfQ==
+eyJoaXN0b3J5IjpbLTEwODEyNTMyNTksNDQzODk3NjcxLDQyMT
+U0NTgwLC0yMTM2MTY4OTksLTYwMDI1NzUxNSwtMTc0NDcxNTQw
+Niw1MTA2Njc3MTUsNDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNz
+kxNTYwNTgsLTE0NDIwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3
+MTcsMTc0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LD
+E4Njc5MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC04OTQ0
+NjM1OTVdfQ==
 -->
