@@ -9,7 +9,7 @@ Il manque encore à ce document:
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
 2. Qu'est ce-qu'un langage de programmation compilé ? Interprété ? **Compilé à la volé ?**
 3. Quelle est la différence entre un `signed` et un `unsigned` ? Comment sont encodé les nombre négatifs ?
-4. Comment sont encodé les flottants ? En sachant que un `float` a 8 bits d'exposants, combien de chiffre significatifs en base 10 peuvent-ils stoker ? Qu'est-ce que la mantisse ?
+4. Comment sont encodé les flottants ? Qu'est-ce que la mantisse ? En sachant que un `float` (encodé sur 32a 8 bits d'exposants, combien de chiffre significatifs en base 10 peuvent-ils stoker ?
 5. Démontrez que la fonction `getter` suivante termine :
 ```ocaml
 let rec get m l = match l with
@@ -20,8 +20,8 @@ let getter = get min_int;;
 ```
 Que fait-il ? Démontrer sa correction.
 
-6. Qu'est-ce que une correction partielle ? Parallèles avec problème décidable et semi-décidable ?
-7. Définition de la complexité ? Donnez l'équation de récurrence complexité sur la version naïve du calcul de Fibonacci et en déduire sa complexité.
+6. Qu'est-ce que une correction partielle ? **Parallèles avec problème décidable et semi-décidable.**
+7. Définition de la complexité ? Donnez l'équation de récurrence des appels récursif sur la version naïve du calcul de Fibonacci et en déduire sa complexité. Pareillement pour 
 8. Quel est le type de la fonction suivante :
 ```ocaml
 let a b c d = match b c [||] with
@@ -217,7 +217,7 @@ On pose pour cette partie le schéma suivant :
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzQ5MzYwNyw0MjE1NDU4MCwtMjEzNj
+eyJoaXN0b3J5IjpbLTY5OTI4ODIzMSw0MjE1NDU4MCwtMjEzNj
 E2ODk5LC02MDAyNTc1MTUsLTE3NDQ3MTU0MDYsNTEwNjY3NzE1
 LDQxODEwMjY5NywxODE5OTYwODM3LC0xMzc5MTU2MDU4LC0xND
 QyMDk3MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3LDE3NDQ5MzQw
