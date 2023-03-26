@@ -3,7 +3,7 @@ En gras sont les questions non officiellement au programme (parfois explicitemen
 
 Il manque encore à ce document:
  - Bien refaire "base de donnée"
- - Extras plus théorique : Classes de fonctions, récursit
+ - Extras plus théorique : Classes de fonctions, récursivité, machine de turing....
 
 ## Machines et implémentation
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
@@ -217,11 +217,11 @@ On pose pour cette partie le schéma suivant :
 
 > *Version 0.3 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzcxODMwNDAsNDIxNTQ1ODAsLTIxMz
-YxNjg5OSwtNjAwMjU3NTE1LC0xNzQ0NzE1NDA2LDUxMDY2Nzcx
-NSw0MTgxMDI2OTcsMTgxOTk2MDgzNywtMTM3OTE1NjA1OCwtMT
-Q0MjA5NzEzMyw0Njg3MzYyOTcsMjEwMTQxOTcxNywxNzQ0OTM0
-MDQwLDEwNzE0MDE5NDksLTE2NjUzNDg2NzgsMTg2NzkxMzcxLC
-0xMDA1NDg4MDg1LC0yMzY2Njc5NDAsLTg5NDQ2MzU5NSwtMTkw
-NTQ2MzAwN119
+eyJoaXN0b3J5IjpbNDQzODk3NjcxLDQyMTU0NTgwLC0yMTM2MT
+Y4OTksLTYwMDI1NzUxNSwtMTc0NDcxNTQwNiw1MTA2Njc3MTUs
+NDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNzkxNTYwNTgsLTE0ND
+IwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3MTcsMTc0NDkzNDA0
+MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LDE4Njc5MTM3MSwtMT
+AwNTQ4ODA4NSwtMjM2NjY3OTQwLC04OTQ0NjM1OTUsLTE5MDU0
+NjMwMDddfQ==
 -->
