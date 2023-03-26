@@ -180,7 +180,7 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 ## Apprentissage automatique et jeux
 121. Différences entre IA, Apprentissage supervisé, Apprentissage non supervisé.
 122. Définition d'un arbre de décision
-123. Notion de distance. De pseudo-distance. **Distance de Levenshtein sur les chaines de charactères**
+123. Notion de distance. De pseudo-distance. **Distance de Levenshtein sur les chaines de charactères.**
 124. Algorithmes des k plus proches voisins avec une distance.
 125. Arbre k-dimensionnel. Insertion, et recherche des k plus proches voisins dans un arbre k-dimensionnel.
 126. Définissez l'entropie de Shannon. Donnez le pseudo code de ID3.
@@ -218,11 +218,11 @@ On pose pour cette partie le schéma suivant :
 
 > *Version 0.3 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjQxMDA4MTIsNDQzODk3NjcxLDQyMT
-U0NTgwLC0yMTM2MTY4OTksLTYwMDI1NzUxNSwtMTc0NDcxNTQw
-Niw1MTA2Njc3MTUsNDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNz
-kxNTYwNTgsLTE0NDIwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3
-MTcsMTc0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LD
-E4Njc5MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC04OTQ0
-NjM1OTVdfQ==
+eyJoaXN0b3J5IjpbLTE0MTg1MjI2MjYsLTE3MjQxMDA4MTIsND
+QzODk3NjcxLDQyMTU0NTgwLC0yMTM2MTY4OTksLTYwMDI1NzUx
+NSwtMTc0NDcxNTQwNiw1MTA2Njc3MTUsNDE4MTAyNjk3LDE4MT
+k5NjA4MzcsLTEzNzkxNTYwNTgsLTE0NDIwOTcxMzMsNDY4NzM2
+Mjk3LDIxMDE0MTk3MTcsMTc0NDkzNDA0MCwxMDcxNDAxOTQ5LC
+0xNjY1MzQ4Njc4LDE4Njc5MTM3MSwtMTAwNTQ4ODA4NSwtMjM2
+NjY3OTQwXX0=
 -->
