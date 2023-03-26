@@ -103,7 +103,7 @@ int main() {
 53. Définition d'un alphabet, mot, langage.
 54. Définition de préfixe, suffixe, facteur. **Mot miroir.**
 55. Opérations sur les langages. Concaténation, Union, étoile de Kleen.
-56. Si $a,b\in\Sigma^*$ tel que $ab=ba$, alors $\exist\ \omega\in\Sigma^* \mid$
+56. Si $a,b\in\Sigma^*$ tel que $ab=ba$, alors $\exist\ \omega\in\Sigma^* \mid a,b\in\{\omega^n;n\in\N\}$
 57. Définition inductive d'un langage régulier.
 58. Définition inductive d'une expression régulière.
 59. Définition d'un automate déterministe. Automate émondé. État accessible et co-accessible. $L(A)$ le langage reconnu par l'automate.
@@ -136,60 +136,60 @@ $L_2 = \{\omega\in\Sigma^* : |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ o�
 83. Démontrez que $x \rArr^* uv$ ssi $\exist a.\exist b.\ (x=ab\land a\rArr^* u \land b\rArr^* v)$
 
 ## Logique
-83. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
-84. Écrire sous la forme d'arbre les formules logique $A \lrarr \lnot B$ et $A \land (B\lor \lnot C)$
-85. Donnez une bijection entre $\{V, F \}$ et $\N/2\N$. A quoi correspondent les opérateurs $\lnot$ et $\land$ ? En déduire $\lor$
-86. Exprimez $\lor$, $\rarr$ et $\lrarr$ avec $\lnot$ et $\land$
-87. Lois de Morgan.
-88. Pour chaque variable soulignée, indiquer si elle est libre et/ou liée. Quelle est la porté du $\forall y$ ?
+84. Pour chaque opérateur $\lnot, \land, \lor, \rarr, \lrarr$, donner son arité et sa table de vérité.
+85. Écrire sous la forme d'arbre les formules logique $A \lrarr \lnot B$ et $A \land (B\lor \lnot C)$
+86. Donnez une bijection entre $\{V, F \}$ et $\N/2\N$. A quoi correspondent les opérateurs $\lnot$ et $\land$ ? En déduire $\lor$
+87. Exprimez $\lor$, $\rarr$ et $\lrarr$ avec $\lnot$ et $\land$
+88. Lois de Morgan.
+89. Pour chaque variable soulignée, indiquer si elle est libre et/ou liée. Quelle est la porté du $\forall y$ ?
 $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline f(\underline y,u)])$$
-89. Qu'est-ce qu'une valuation ? Un modèle ?
-90. Définition de l'équivalence entre deux formule ?
-91. Mettre sous forme normale conjonctive de taille 3 $C\lor B\lor A\lor (B \land \lnot C)$
-92. Mettre sous forme normale disjonctive de taille 3 $C\land B\land A\land (B \lor \lnot C)$
-93. Algorithme de Quine-Mc Cluskey pour réduire une formule logique
-94. Déduction naturelle. Arbre de preuve.
-95. Règle d'introduction et d'élimination de $\lor$, $\land$, $\rarr$ et $\lnot$, définition de $\lrarr$
-96. Règle d'introduction et d'élimination de $\forall$, $\exist$
-97. Qu'est-ce qu'un axiome ?
-98. Le syllogisme barbara, le modus ponen.
-99. **Quelle règle faut-il ajouter à la logique minimale pour avoir la logique intuitionniste ?**
-100. **Citez 3 règles possible à ajouter à la logique intuitionniste pour obtenir la logique classique. Prouvez qu'elles sont équivalentes.**
-101. **Faire l'arbre de preuve de $(\lnot A\land \lnot B)\lrarr \lnot (A\lor B)$ en logique minimale.**
-102. **Faire l'arbre de preuve de $\lnot(A\lrarr \lnot A)$ en logique intuitionniste.**
-103. Faire l'arbre de preuve de $\exist y.\forall x.P(x,y)\implies \forall x.\exist y.P(x,y)$ en logique classique où $P$ est une proposition d’arité 2.
-104. **Axiomes de l'égalité.**
-105. **Axiomes de Peano.** 
+90. Qu'est-ce qu'une valuation ? Un modèle ?
+91. Définition de l'équivalence entre deux formule ?
+92. Mettre sous forme normale conjonctive de taille 3 $C\lor B\lor A\lor (B \land \lnot C)$
+93. Mettre sous forme normale disjonctive de taille 3 $C\land B\land A\land (B \lor \lnot C)$
+94. Algorithme de Quine-Mc Cluskey pour réduire une formule logique
+95. Déduction naturelle. Arbre de preuve.
+96. Règle d'introduction et d'élimination de $\lor$, $\land$, $\rarr$ et $\lnot$, définition de $\lrarr$
+97. Règle d'introduction et d'élimination de $\forall$, $\exist$
+98. Qu'est-ce qu'un axiome ?
+99. Le syllogisme barbara, le modus ponen.
+100. Quelle règle faut-il ajouter à la logique minimale pour avoir la logique intuitionniste ?
+101. Citez 3 règles possible à ajouter à la logique intuitionniste pour obtenir la logique classique. Prouvez qu'elles sont équivalentes.
+102. Faire l'arbre de preuve de $(\lnot A\land \lnot B)\lrarr \lnot (A\lor B)$ en logique minimale.
+103. Faire l'arbre de preuve de $\lnot(A\lrarr \lnot A)$ en logique intuitionniste.
+104. Faire l'arbre de preuve de $\exist y.\forall x.P(x,y)\implies \forall x.\exist y.P(x,y)$ en logique classique où $P$ est une proposition d’arité 2.
+105. **Axiomes de l'égalité.**
+106. **Axiomes de Peano.** 
 
 ## Algorithmique
-106. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
-107. Différence entre un algorithme de Las Vegas et de Monte Carlos ?
-108. Qu'est-ce qu'un algorithme glouton ? Diviser pour régner ?
-109. Qu'est-ce que la mémoïsation ? Donnez une implémentation de la suite de Fibonacci mémoïsé. Quelle est la nouvelle complexité ?
-110. **Fonction d'Ackermann**
-111. Algorithme de Boyer-Moore
-112. Algorithme de Rabin-Karp
-113. Algorithme de Huffman
-114. Algorithme Lempel-Ziv-Welch
-115. Algorithme de Kosaraju de recherche de composante fortement connexe à l'aide de parcours du graphe.
-116. Algorithme de Dijkstra avec une file de priorité. Prononciation du nom.
-117. Algorithme de Floyd-Warshall.
-118. Recherche d’un arbre couvrant de poids minimum par l’algorithme de Kruskal.
-119. Tri à bulle. Tri par insertion. Tris fusion. Tri par tas. Tri rapide *(quicksort)*. 
+107. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
+108. Différence entre un algorithme de Las Vegas et de Monte Carlos ?
+109. Qu'est-ce qu'un algorithme glouton ? Diviser pour régner ?
+110. Qu'est-ce que la mémoïsation ? Donnez une implémentation de la suite de Fibonacci mémoïsé. Quelle est la nouvelle complexité ?
+111. **Fonction d'Ackermann**
+112. Algorithme de Boyer-Moore
+113. Algorithme de Rabin-Karp
+114. Algorithme de Huffman
+115. Algorithme Lempel-Ziv-Welch
+116. Algorithme de Kosaraju de recherche de composante fortement connexe à l'aide de parcours du graphe.
+117. Algorithme de Dijkstra avec une file de priorité. Prononciation du nom.
+118. Algorithme de Floyd-Warshall.
+119. Recherche d’un arbre couvrant de poids minimum par l’algorithme de Kruskal.
+120. Tri à bulle. Tri par insertion. Tris fusion. Tri par tas. Tri rapide *(quicksort)*. 
 
 ## Apprentissage automatique et jeux
-120. Différences entre IA, Apprentissage supervisé, Apprentissage non supervisé.
-121. Définition d'un arbre de décision
-122. Notion de distance. De pseudo-distance. **Distance de Levenshtein sur les chaines de charactères**
-123. Algorithmes des k plus proches voisins avec une distance.
-124. Arbre k-dimensionnel. Insertion, et recherche des k plus proches voisins dans un arbre k-dimensionnel.
-125. Définissez l'entropie de Shannon. Donnez le pseudo code de ID3.
-126. Matrice de confusion. Que représente la trace d'une matrice de confusion ?
-127. Graphe biparti d'un jeu à deux joueurs. 
-128. Preuve de l'existence d'une stratégie gagnante pour un jeu sans état finaux de match nul. Algorithme min-max.
-129. Élagage alpha-bêta. Déterminez si il existe une stratégie gagnante pour le morpion.
-130. Qu'est-ce qu’une heuristique ? Une heuristique admissible ?
-131. Algorithme A*
+121. Différences entre IA, Apprentissage supervisé, Apprentissage non supervisé.
+122. Définition d'un arbre de décision
+123. Notion de distance. De pseudo-distance. **Distance de Levenshtein sur les chaines de charactères**
+124. Algorithmes des k plus proches voisins avec une distance.
+125. Arbre k-dimensionnel. Insertion, et recherche des k plus proches voisins dans un arbre k-dimensionnel.
+126. Définissez l'entropie de Shannon. Donnez le pseudo code de ID3.
+127. Matrice de confusion. Que représente la trace d'une matrice de confusion ?
+128. Graphe biparti d'un jeu à deux joueurs. 
+129. Preuve de l'existence d'une stratégie gagnante pour un jeu sans état finaux de match nul. Algorithme min-max.
+130. Élagage alpha-bêta. Déterminez si il existe une stratégie gagnante pour le morpion.
+131. Qu'est-ce qu’une heuristique ? Une heuristique admissible ?
+132. Algorithme A*
 
 ## Classe de complexité
 132. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
@@ -218,11 +218,11 @@ On pose pour cette partie le schéma suivant :
 
 > *Version 0.3 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODEyNTMyNTksNDQzODk3NjcxLDQyMT
-U0NTgwLC0yMTM2MTY4OTksLTYwMDI1NzUxNSwtMTc0NDcxNTQw
-Niw1MTA2Njc3MTUsNDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNz
-kxNTYwNTgsLTE0NDIwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3
-MTcsMTc0NDkzNDA0MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LD
-E4Njc5MTM3MSwtMTAwNTQ4ODA4NSwtMjM2NjY3OTQwLC04OTQ0
-NjM1OTVdfQ==
+eyJoaXN0b3J5IjpbOTU1MzU5MTY1LDQ0Mzg5NzY3MSw0MjE1ND
+U4MCwtMjEzNjE2ODk5LC02MDAyNTc1MTUsLTE3NDQ3MTU0MDYs
+NTEwNjY3NzE1LDQxODEwMjY5NywxODE5OTYwODM3LC0xMzc5MT
+U2MDU4LC0xNDQyMDk3MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3
+LDE3NDQ5MzQwNDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3OCwxOD
+Y3OTEzNzEsLTEwMDU0ODgwODUsLTIzNjY2Nzk0MCwtODk0NDYz
+NTk1XX0=
 -->
