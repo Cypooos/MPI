@@ -192,15 +192,15 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 132. Algorithme A*
 
 ## Classe de complexité
-132. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
-133. Prouvez la non décidabilité du problème de l’arrêt.
-134. Donnez l'énoncé des problèmes suivants : $\text{SAT}$, $\text{n-SAT}$, $\text{MAX2SAT}$, $\text{k-COLOR}$
-135. **Donnez l'énoncé des problèmes suivants : $\text{CLIQUE}$, $\text{VERTEX-COVER}$, $\text{HAMILOTINAN}$, $\text{CIBLE-SAC-A-DOS}$**
-136. Classe $\text{P}$, Classe $\text{NP}$, **Classe $\text{EXPTIME}$**, **Classe $\text{EXPSPACE}$**
-137. Réduction de problèmes en temps polynomial.
-138. Montrez que $\text{SAT}\le_P\text{3-SAT}$
-139. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
-140. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
+133. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
+134. Prouvez la non décidabilité du problème de l’arrêt.
+135. Donnez l'énoncé des problèmes suivants : $\text{SAT}$, $\text{n-SAT}$, $\text{MAX2SAT}$, $\text{k-COLOR}$
+136. **Donnez l'énoncé des problèmes suivants : $\text{CLIQUE}$, $\text{VERTEX-COVER}$, $\text{HAMILOTINAN}$, $\text{CIBLE-SAC-A-DOS}$**
+137. Classe $\text{P}$, Classe $\text{NP}$, **Classe $\text{EXPTIME}$**, **Classe $\text{EXPSPACE}$**
+138. Réduction de problèmes en temps polynomial.
+139. Montrez que $\text{SAT}\le_P\text{3-SAT}$
+140. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
+141. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 
 ## Base de données
 > Cette partie est fébrile.
@@ -209,16 +209,16 @@ On pose pour cette partie le schéma suivant :
 - USERS : `nom:char[20]` `prenom:char[20]` `email:char[40]` `est_admin:binary`
 - COMMANDES : `date:int` `article_id:int` `adresse:varchar[100]`
 - ARTICLES : `id:int` `nom:char[50]` `contact_email:char[50]`
-141. Démontrez que une association $*-*$ peut être transformer en deux associations $1-*$ 
-142. Donnez le type d'association entre USERS et COMMANDES. Entre COMMANDES et ARTICLES.
-143. Donnez des clefs primaire possible pour USERS. Il y a t'il des clefs étrangères ?
-144. Affichez tout les utilisateurs qui ont mis en vente un article.
-145. Affichez le nombre de fois que un utilisateur à acheter le produit d'un administrateur.
-146. Différence entre `WHERE` et `HAVING` ? Donnez un exemple de requêtes qui donne des résultats différents, l'une utilisant `WHERE` et l'autre `HAVING`
+142. Démontrez que une association $*-*$ peut être transformer en deux associations $1-*$ 
+143. Donnez le type d'association entre USERS et COMMANDES. Entre COMMANDES et ARTICLES.
+144. Donnez des clefs primaire possible pour USERS. Il y a t'il des clefs étrangères ?
+145. Affichez tout les utilisateurs qui ont mis en vente un article.
+146. Affichez le nombre de fois que un utilisateur à acheter le produit d'un administrateur.
+147. Différence entre `WHERE` et `HAVING` ? Donnez un exemple de requêtes qui donne des résultats différents, l'une utilisant `WHERE` et l'autre `HAVING`
 
 > *Version 0.3 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1MzU5MTY1LDQ0Mzg5NzY3MSw0MjE1ND
+eyJoaXN0b3J5IjpbMjY2Mjg5MTk5LDQ0Mzg5NzY3MSw0MjE1ND
 U4MCwtMjEzNjE2ODk5LC02MDAyNTc1MTUsLTE3NDQ3MTU0MDYs
 NTEwNjY3NzE1LDQxODEwMjY5NywxODE5OTYwODM3LC0xMzc5MT
 U2MDU4LC0xNDQyMDk3MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3
