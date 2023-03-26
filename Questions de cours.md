@@ -2,8 +2,8 @@ Par Cyprien (@Cypooos) en MPI* à Fénelon Sainte Marie. Droit à toute sorte de
 En gras sont les questions non officiellement au programme (parfois explicitement hors programme), mais qu'il est bon de connaitre.
 
 Il manque encore à ce document:
- - Base de donnée
- - Extras plus théorique
+ - Bien refaire "base de donnée"
+ - Extras plus théorique : Classes de fonctions, récursit
 
 ## Machines et implémentation
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
@@ -213,15 +213,15 @@ On pose pour cette partie le schéma suivant :
 143. Donnez des clefs primaire possible pour USERS. Il y a t'il des clefs étrangères ?
 144. Affichez tout les utilisateurs qui ont mis en vente un article.
 145. Affichez le nombre de fois que un utilisateur à acheter le produit d'un administrateur.
-146. Différence entre `WHERE` et `HAVING` ? Donnez un exemple de requêtes qui sont différentes avec 
+146. Différence entre `WHERE` et `HAVING` ? Donnez un exemple de requêtes qui donne des résultats différents, l'une utilisant `WHERE` et l'autre `HAVING`
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyNTMxNzU4LDQyMTU0NTgwLC0yMTM2MT
-Y4OTksLTYwMDI1NzUxNSwtMTc0NDcxNTQwNiw1MTA2Njc3MTUs
-NDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNzkxNTYwNTgsLTE0ND
-IwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3MTcsMTc0NDkzNDA0
-MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LDE4Njc5MTM3MSwtMT
-AwNTQ4ODA4NSwtMjM2NjY3OTQwLC04OTQ0NjM1OTUsLTE5MDU0
-NjMwMDddfQ==
+eyJoaXN0b3J5IjpbMTI2MDQ4NDExNyw0MjE1NDU4MCwtMjEzNj
+E2ODk5LC02MDAyNTc1MTUsLTE3NDQ3MTU0MDYsNTEwNjY3NzE1
+LDQxODEwMjY5NywxODE5OTYwODM3LC0xMzc5MTU2MDU4LC0xND
+QyMDk3MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3LDE3NDQ5MzQw
+NDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3OCwxODY3OTEzNzEsLT
+EwMDU0ODgwODUsLTIzNjY2Nzk0MCwtODk0NDYzNTk1LC0xOTA1
+NDYzMDA3XX0=
 -->
