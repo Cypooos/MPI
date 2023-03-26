@@ -203,7 +203,8 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 
 ## Base de donnée
 On pose pour cette partie le schéma suivant :
-- Client: `nom:char[`
+- Client: `nom:char[20]` `prenom:char[20]` `email:char[40]` `admin:bool`
+- Commandes : `date:int` ``art
 141. Démontrez que une association $*-*$ peut être transformer en deux associations $1-*$ 
 142. On pose ce schéma de base de donnée :
 
@@ -211,11 +212,11 @@ On pose pour cette partie le schéma suivant :
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyMjY5MzgxLDQyMTU0NTgwLC0yMTM2MT
-Y4OTksLTYwMDI1NzUxNSwtMTc0NDcxNTQwNiw1MTA2Njc3MTUs
-NDE4MTAyNjk3LDE4MTk5NjA4MzcsLTEzNzkxNTYwNTgsLTE0ND
-IwOTcxMzMsNDY4NzM2Mjk3LDIxMDE0MTk3MTcsMTc0NDkzNDA0
-MCwxMDcxNDAxOTQ5LC0xNjY1MzQ4Njc4LDE4Njc5MTM3MSwtMT
-AwNTQ4ODA4NSwtMjM2NjY3OTQwLC04OTQ0NjM1OTUsLTE5MDU0
-NjMwMDddfQ==
+eyJoaXN0b3J5IjpbLTU2NTM1ODc5OCw0MjE1NDU4MCwtMjEzNj
+E2ODk5LC02MDAyNTc1MTUsLTE3NDQ3MTU0MDYsNTEwNjY3NzE1
+LDQxODEwMjY5NywxODE5OTYwODM3LC0xMzc5MTU2MDU4LC0xND
+QyMDk3MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3LDE3NDQ5MzQw
+NDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3OCwxODY3OTEzNzEsLT
+EwMDU0ODgwODUsLTIzNjY2Nzk0MCwtODk0NDYzNTk1LC0xOTA1
+NDYzMDA3XX0=
 -->
