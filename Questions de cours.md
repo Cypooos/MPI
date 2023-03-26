@@ -201,14 +201,17 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 139. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 140. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 
+## Base de donnée
+141. Démontrez que une association $*-*$ peut être transformer en deux associations $1-*$ 
+142. On pose 
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzYxNjg5OSwtNjAwMjU3NTE1LC0xNz
-Q0NzE1NDA2LDUxMDY2NzcxNSw0MTgxMDI2OTcsMTgxOTk2MDgz
-NywtMTM3OTE1NjA1OCwtMTQ0MjA5NzEzMyw0Njg3MzYyOTcsMj
-EwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNzE0MDE5NDksLTE2NjUz
-NDg2NzgsMTg2NzkxMzcxLC0xMDA1NDg4MDg1LC0yMzY2Njc5ND
-AsLTg5NDQ2MzU5NSwtMTkwNTQ2MzAwNywtNDQzMzU5MjkzLDE3
-OTYyMDc2NTBdfQ==
+eyJoaXN0b3J5IjpbLTk0MjY4ODc5LC0yMTM2MTY4OTksLTYwMD
+I1NzUxNSwtMTc0NDcxNTQwNiw1MTA2Njc3MTUsNDE4MTAyNjk3
+LDE4MTk5NjA4MzcsLTEzNzkxNTYwNTgsLTE0NDIwOTcxMzMsND
+Y4NzM2Mjk3LDIxMDE0MTk3MTcsMTc0NDkzNDA0MCwxMDcxNDAx
+OTQ5LC0xNjY1MzQ4Njc4LDE4Njc5MTM3MSwtMTAwNTQ4ODA4NS
+wtMjM2NjY3OTQwLC04OTQ0NjM1OTUsLTE5MDU0NjMwMDcsLTQ0
+MzM1OTI5M119
 -->
