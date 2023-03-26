@@ -203,24 +203,23 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 
 ## Base de donnée
 On pose pour cette partie le schéma suivant :
-- Users : `nom:char[20]` `prenom:char[20]` `email:char[40]` `est_admin:binary`
-- Commandes : `date:int` `article_id:int` `adresse:varchar[100]`
-- Articles : `id:int` `nom:char[50]` `contact_email:char[50]`
+- USERS : `nom:char[20]` `prenom:char[20]` `email:char[40]` `est_admin:binary`
+- COMMANDES : `date:int` `article_id:int` `adresse:varchar[100]`
+- ARTICLES : `id:int` `nom:char[50]` `contact_email:char[50]`
 141. Démontrez que une association $*-*$ peut être transformer en deux associations $1-*$ 
-142. Donnez le type d'association entre USER et COMMANDES. Entre COMMANDES et ARTICLES
-143. Donnez des clefs primaire possible pour Users.
-144. Affichez tout les utilisateurs qui ont mis en vente un article 
-145. Affichez le nombre de commandes 
-
+142. Donnez le type d'association entre USERS et COMMANDES. Entre COMMANDES et ARTICLES.
+143. Donnez des clefs primaire possible pour USERS. Il y a t'il des clefs étrangères ?
+144. Affichez tout les utilisateurs qui ont mis en vente un article.
+145. Affichez le nombre de fois que un utilisateur à acheter le produit d'un administrateur.
 146. Différence entre `WHERE` et `HAVING` ? 
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQ5MjI0MDIsNDIxNTQ1ODAsLTIxMz
-YxNjg5OSwtNjAwMjU3NTE1LC0xNzQ0NzE1NDA2LDUxMDY2Nzcx
-NSw0MTgxMDI2OTcsMTgxOTk2MDgzNywtMTM3OTE1NjA1OCwtMT
-Q0MjA5NzEzMyw0Njg3MzYyOTcsMjEwMTQxOTcxNywxNzQ0OTM0
-MDQwLDEwNzE0MDE5NDksLTE2NjUzNDg2NzgsMTg2NzkxMzcxLC
-0xMDA1NDg4MDg1LC0yMzY2Njc5NDAsLTg5NDQ2MzU5NSwtMTkw
-NTQ2MzAwN119
+eyJoaXN0b3J5IjpbLTYyNDk1NDIzNCw0MjE1NDU4MCwtMjEzNj
+E2ODk5LC02MDAyNTc1MTUsLTE3NDQ3MTU0MDYsNTEwNjY3NzE1
+LDQxODEwMjY5NywxODE5OTYwODM3LC0xMzc5MTU2MDU4LC0xND
+QyMDk3MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3LDE3NDQ5MzQw
+NDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3OCwxODY3OTEzNzEsLT
+EwMDU0ODgwODUsLTIzNjY2Nzk0MCwtODk0NDYzNTk1LC0xOTA1
+NDYzMDA3XX0=
 -->
