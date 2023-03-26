@@ -21,7 +21,7 @@ let getter = get min_int;;
 Que fait-il ? Démontrer sa correction.
 
 6. Qu'est-ce que une correction partielle ? **Parallèles avec problème décidable et semi-décidable.**
-7. Définition de la complexité ? Donnez l'équation de récurrence des appels récursif sur la version naïve du calcul de Fibonacci et en déduire sa complexité. Pareillement pour le tri fusion.
+7. Définition de la complexité ? Donnez l'équation de récurrence des appels récursif du tri fusion et en déduire sa complexité.
 8. Quel est le type de la fonction suivante :
 ```ocaml
 let a b c d = match b c [||] with
@@ -215,13 +215,13 @@ On pose pour cette partie le schéma suivant :
 145. Affichez le nombre de fois que un utilisateur à acheter le produit d'un administrateur.
 146. Différence entre `WHERE` et `HAVING` ? Donnez un exemple de requêtes qui donne des résultats différents, l'une utilisant `WHERE` et l'autre `HAVING`
 
-> *Version 0.2 (beta), par @Cypooos*
+> *Version 0.3 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NzY4MzAzMyw0MjE1NDU4MCwtMjEzNj
-E2ODk5LC02MDAyNTc1MTUsLTE3NDQ3MTU0MDYsNTEwNjY3NzE1
-LDQxODEwMjY5NywxODE5OTYwODM3LC0xMzc5MTU2MDU4LC0xND
-QyMDk3MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3LDE3NDQ5MzQw
-NDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3OCwxODY3OTEzNzEsLT
-EwMDU0ODgwODUsLTIzNjY2Nzk0MCwtODk0NDYzNTk1LC0xOTA1
-NDYzMDA3XX0=
+eyJoaXN0b3J5IjpbLTEwNzcxODMwNDAsNDIxNTQ1ODAsLTIxMz
+YxNjg5OSwtNjAwMjU3NTE1LC0xNzQ0NzE1NDA2LDUxMDY2Nzcx
+NSw0MTgxMDI2OTcsMTgxOTk2MDgzNywtMTM3OTE1NjA1OCwtMT
+Q0MjA5NzEzMyw0Njg3MzYyOTcsMjEwMTQxOTcxNywxNzQ0OTM0
+MDQwLDEwNzE0MDE5NDksLTE2NjUzNDg2NzgsMTg2NzkxMzcxLC
+0xMDA1NDg4MDg1LC0yMzY2Njc5NDAsLTg5NDQ2MzU5NSwtMTkw
+NTQ2MzAwN119
 -->
