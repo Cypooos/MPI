@@ -203,15 +203,17 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 
 ## Base de donnée
 141. Démontrez que une association $*-*$ peut être transformer en deux associations $1-*$ 
-142. On pose 
+142. On pose ce schéma de base de donnée :
+ - `Client: nom
+144. Différence entre `WHERE` et `HAVING` ? 
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MjY4ODc5LC0yMTM2MTY4OTksLTYwMD
-I1NzUxNSwtMTc0NDcxNTQwNiw1MTA2Njc3MTUsNDE4MTAyNjk3
-LDE4MTk5NjA4MzcsLTEzNzkxNTYwNTgsLTE0NDIwOTcxMzMsND
-Y4NzM2Mjk3LDIxMDE0MTk3MTcsMTc0NDkzNDA0MCwxMDcxNDAx
-OTQ5LC0xNjY1MzQ4Njc4LDE4Njc5MTM3MSwtMTAwNTQ4ODA4NS
-wtMjM2NjY3OTQwLC04OTQ0NjM1OTUsLTE5MDU0NjMwMDcsLTQ0
-MzM1OTI5M119
+eyJoaXN0b3J5IjpbNDIxNTQ1ODAsLTIxMzYxNjg5OSwtNjAwMj
+U3NTE1LC0xNzQ0NzE1NDA2LDUxMDY2NzcxNSw0MTgxMDI2OTcs
+MTgxOTk2MDgzNywtMTM3OTE1NjA1OCwtMTQ0MjA5NzEzMyw0Nj
+g3MzYyOTcsMjEwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNzE0MDE5
+NDksLTE2NjUzNDg2NzgsMTg2NzkxMzcxLC0xMDA1NDg4MDg1LC
+0yMzY2Njc5NDAsLTg5NDQ2MzU5NSwtMTkwNTQ2MzAwNywtNDQz
+MzU5MjkzXX0=
 -->
