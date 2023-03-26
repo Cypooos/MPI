@@ -21,7 +21,7 @@ let getter = get min_int;;
 Que fait-il ? Démontrer sa correction.
 
 6. Qu'est-ce que une correction partielle ? **Parallèles avec problème décidable et semi-décidable.**
-7. Définition de la complexité ? Donnez l'équation de récurrence des appels récursif sur la version naïve du calcul de Fibonacci et en déduire sa complexité. Pareillement pour 
+7. Définition de la complexité ? Donnez l'équation de récurrence des appels récursif sur la version naïve du calcul de Fibonacci et en déduire sa complexité. Pareillement pour le tri fusion.
 8. Quel est le type de la fonction suivante :
 ```ocaml
 let a b c d = match b c [||] with
@@ -217,7 +217,7 @@ On pose pour cette partie le schéma suivant :
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTI4ODIzMSw0MjE1NDU4MCwtMjEzNj
+eyJoaXN0b3J5IjpbLTQ5NzY4MzAzMyw0MjE1NDU4MCwtMjEzNj
 E2ODk5LC02MDAyNTc1MTUsLTE3NDQ3MTU0MDYsNTEwNjY3NzE1
 LDQxODEwMjY5NywxODE5OTYwODM3LC0xMzc5MTU2MDU4LC0xND
 QyMDk3MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3LDE3NDQ5MzQw
