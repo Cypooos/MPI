@@ -203,8 +203,8 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 
 ## Base de donnée
 On pose pour cette partie le schéma suivant :
-- Client: `nom:char[20]` `prenom:char[20]` `email:char[40]` `admin:bool`
-- Commandes : `date:int` ``art
+- Client: `nom:char[20]` `prenom:char[20]` `email:char[40]` `est_admin:binary`
+- Commandes : `date:int` `article_id:int` ``
 141. Démontrez que une association $*-*$ peut être transformer en deux associations $1-*$ 
 142. On pose ce schéma de base de donnée :
 
@@ -212,7 +212,7 @@ On pose pour cette partie le schéma suivant :
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTM1ODc5OCw0MjE1NDU4MCwtMjEzNj
+eyJoaXN0b3J5IjpbMTQwMzQ0MDMwMCw0MjE1NDU4MCwtMjEzNj
 E2ODk5LC02MDAyNTc1MTUsLTE3NDQ3MTU0MDYsNTEwNjY3NzE1
 LDQxODEwMjY5NywxODE5OTYwODM3LC0xMzc5MTU2MDU4LC0xND
 QyMDk3MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3LDE3NDQ5MzQw
