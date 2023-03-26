@@ -204,15 +204,16 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 ## Base de donnée
 On pose pour cette partie le schéma suivant :
 - User: `nom:char[20]` `prenom:char[20]` `email:char[40]` `est_admin:binary`
-- Commandes : `date:int` `article_id:int` ``
+- Commandes : `date:int` `article_id:int` `adresse:varchar[100]`
+- Article : `id:int` `nom:char[50]` `contact_email`
 141. Démontrez que une association $*-*$ peut être transformer en deux associations $1-*$ 
-142. Donnez le type d'association entre USER et COMMANDES. Entre 
+142. Donnez le type d'association entre USER et COMMANDES. Entre COMMANDES et ARTICLES
 
 144. Différence entre `WHERE` et `HAVING` ? 
 
 > *Version 0.2 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ1NTk2MDcsNDIxNTQ1ODAsLTIxMz
+eyJoaXN0b3J5IjpbLTEzMjg5NTkzMDAsNDIxNTQ1ODAsLTIxMz
 YxNjg5OSwtNjAwMjU3NTE1LC0xNzQ0NzE1NDA2LDUxMDY2Nzcx
 NSw0MTgxMDI2OTcsMTgxOTk2MDgzNywtMTM3OTE1NjA1OCwtMT
 Q0MjA5NzEzMyw0Njg3MzYyOTcsMjEwMTQxOTcxNywxNzQ0OTM0
