@@ -14,8 +14,17 @@ struct chainon_s
 	int val;
 	chainon *prec;
 	chainon *suiv;
-}
+};
+
+struct liste_s
+{
+	chainon *premier;
+	chainon *dernier;
+};
+typedef struct liste_s liste;
 ```
+1. A quoi servent les `typedef` ?
+2. Définir et initialiser une variable globale `lg` représentant une liste chainé vide
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQ2MzQ3ODldfQ==
+eyJoaXN0b3J5IjpbLTE3MTQ0OTQ5MzJdfQ==
 -->
