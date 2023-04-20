@@ -1,4 +1,4 @@
-
+MP2I distance cours
 # Y Combinator in Python
 
 ```py
@@ -28,6 +28,6 @@ On cherche à calculer $T$ tel que $T[i] = g(f(i))$ ou la fonction $f$ n'est év
 Proposer une méthode avec des mutex et sémaphore. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODEwODk3MDQsMTEwMjkwMzk2MCwtMT
-YyMTcxOTU2NywxNTA3MTIwNjA0LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTkxNzI0NDA2MywxMTAyOTAzOTYwLC0xNj
+IxNzE5NTY3LDE1MDcxMjA2MDQsNzMwOTk4MTE2XX0=
 -->
