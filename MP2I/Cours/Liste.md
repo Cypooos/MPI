@@ -24,7 +24,9 @@ struct liste_s
 typedef struct liste_s liste;
 ```
 1. A quoi servent les `typedef` ?
-2. Définir et initialiser une variable globale `lg` représentant une liste chainé vide
+2. Définir et initialiser une variable globale `lg` représentant une liste chainé initialement vide.
+3. Programmez `bool est_vide()` renvoyant `true` is `lg` est vide et `false` sinon.
+4. Programmez `void pushL(int)` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQ0OTQ5MzJdfQ==
+eyJoaXN0b3J5IjpbLTEwNDkxMTg0ODhdfQ==
 -->
