@@ -22,7 +22,10 @@ On souhaite rajouter sur chaque sommet un entier positifs.
 Si deux sommets `F(x)` et `F(y)` ont la même hauteur, alors `F(x)` est à gauche de `F(y)` si et seulement si x<y.
 On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\_,x_n]\!]$ obtenue par parcours gauche-droite de l'arbre.
 
-5.  Proposez un 
+5.  Proposez un TODO
+
+
+## Arbre 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MDg2MzM3NV19
+eyJoaXN0b3J5IjpbLTEwMDc0ODgwOTEsMTk3MDg2MzM3NV19
 -->
