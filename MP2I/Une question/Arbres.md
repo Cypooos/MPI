@@ -10,8 +10,11 @@ Un arbre _t_ est dit *canonique* si pour toute feuille A plus proche de la racin
 
 Un arbre canonique peut-être uniquement dénoté par un tableau qui à chaque hauteur associe son nombre de sommets.
 
-1. Donnez les arbres canonique des tableaux $[\![0;0;3;2]\!]$, $[\![0;1;1;1;1;2]\!]$, $[\![0;0;3;2]\!]$
-2. Donnez une fonction `canonical : int`
+1. Donnez les arbres canonique des tableaux $[\![0;2]\!]$, $[\![0;0;3;2]\!]$, $[\![0;1;1;1;1;2]\!]$
+2. Donnez une fonction `val canonical : int array -> tree` qui à un tableau associe son arbre canonique
+
+## Arbre canonique, suite
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjYxODI0NV19
+eyJoaXN0b3J5IjpbLTE1NjQ4NDQwMDBdfQ==
 -->
