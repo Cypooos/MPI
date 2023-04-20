@@ -15,12 +15,12 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 3. Démontrez que le tableau d'un arbre canonique non trivial doit se terminer avec un 2
 
 ## Arbre canonique, suite
-On souhaite rajouter sur chaque sommet un couple d'entier positifs.
+On souhaite rajouter sur chaque sommet un entier positifs.
 3. Modifier la définition de `tree` pour effectuer ce changement.
 
-Si deux sommets $s_1,s_2$ ont la même hauteur, alors $s_1$ est à gauche de $s$
+Si deux sommets `F(x)` et `F(y)` ont la même hauteur, alors $s_1$ est à gauche de $s_2$ si et seulement si 
 
 5.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTg3MDUwM119
+eyJoaXN0b3J5IjpbMTAxMDUyNTUxNV19
 -->
