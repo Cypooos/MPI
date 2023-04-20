@@ -6,9 +6,9 @@ On définie une structure d'arbre :
 ```ocaml
 type tree = F of int | N of tree * tree;;
 ``` 
-On définie la relation $\prec_t$ par, soit $a,b\in \mathcal{S}$ deux sommets :
-$$a\prec b \iff $$
-Un arbre _t_ est dit *canonique* si pour toute feuille 
+Un arbre _t_ est dit *canonique* si :
+ - Tout les sommets à la même hauteur sont trié de gauche à droite dans l'ordre croissant 
+ - Si un sommet 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA0MDY5MTNdfQ==
+eyJoaXN0b3J5IjpbLTk2MzQxNTkyNl19
 -->
