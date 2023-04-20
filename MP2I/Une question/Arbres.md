@@ -18,9 +18,9 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 On souhaite rajouter sur chaque sommet un entier positifs.
 3. Modifier la définition de `tree` pour effectuer ce changement.
 
-Si deux sommets `F(x)` et `F(y)` ont la même hauteur, alors $s_1$ est à gauche de $s_2$ si et seulement si 
+Si deux sommets `F(x)` et `F(y)` ont la même hauteur, alors `F(x)` est à gauche de `F(y)` si et seulement si x<y
 
-5.  
+5.  Proposez un 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDUyNTUxNV19
+eyJoaXN0b3J5IjpbMjA4MTMyNzE5XX0=
 -->
