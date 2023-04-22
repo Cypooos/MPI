@@ -93,8 +93,11 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n)(C_m) \to^* C_{\m
 
 ## Condition sur les entiers de Church
 9. Donnez $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
-10. Donnez $\text{eq}$ une expression tel que $\text{eq}$
+10. Donnez $\text{eq}$ une expression tel que :
+    * $\text{eq}(C_n)(C_m) \to^* \top$ si $n=m$
+    * $\text{eq}(C_n)(C_m) \to^* \bot$ si $n\neq m$
 
+11. Donnez 
 ## Partie II
 ## Soustraction
 
@@ -108,7 +111,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzU2NDY1MSwtMTgxNTE1Nzc2NiwtMT
+eyJoaXN0b3J5IjpbMTU4OTIxNDgyMSwtMTgxNTE1Nzc2NiwtMT
 M4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4
 NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0Nj
 YxMl19
