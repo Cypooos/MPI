@@ -88,7 +88,8 @@ On appelle $C_n$ l'*entier de Church* associé à $n$
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
 
 ## Condition sur les entiers de Church
-8. Donnez $\text{}$
+8. Donnez $\text{eq}$ une expression tel que:
+   1. $\text{eq}(C_n)(C_m) = \top$ si $n=m$
 
 ## Partie II
 ## Soustraction
@@ -103,7 +104,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTYzNjEyLC0xMzg3MTc1NzgyLC0xNT
+eyJoaXN0b3J5IjpbODU3MzQxODE1LC0xMzg3MTc1NzgyLC0xNT
 gyODk2NjU5LC0xNjg3NTQyOTkyLC0xOTg1Mjc2NTA5LDIwMTk4
 MzcwNTksNDgyODAyNzM5LC0yMDg4NzQ2NjEyXX0=
 -->
