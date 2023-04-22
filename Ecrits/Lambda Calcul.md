@@ -70,7 +70,7 @@ On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1)(f_2))$
 
 3. Montrez que, soit $b\in B$ et $e,e'\in E$, on a $\text{if}(b)(e)(e') \to^* e \iff b = \top$
 4. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
-4. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
+4. Définir une expression $\text{and}$ tel que, soit $b,b'\$ $\text{and}(\top)(\top) \to^* \bot$ 
 
 ## Entiers de Church
 
@@ -106,8 +106,8 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODcxNzI1MDYsLTE4MTUxNTc3NjYsLT
-EzODcxNzU3ODIsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5
-ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3ND
-Y2MTJdfQ==
+eyJoaXN0b3J5IjpbLTUzODU0MjI5NSwtMTgxNTE1Nzc2NiwtMT
+M4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4
+NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0Nj
+YxMl19
 -->
