@@ -47,7 +47,7 @@ Informellement, $e[x\larr y]$ est $e$ dans laquelle on a remplacé toute les occ
 On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$
 
 On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression $â=$ "$e[x\larr e']$". 
-On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$, avec $A'$ est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
+On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant. 
 Si il existe au plus qu'un seul calcul de $A$ possible, on dit que $A$ est unitaire.
@@ -112,7 +112,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTQyMTMwOSwtMTgxNTE1Nzc2NiwtMT
+eyJoaXN0b3J5IjpbMTYwMTc1MjUzMywtMTgxNTE1Nzc2NiwtMT
 M4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4
 NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0Nj
 YxMl19
