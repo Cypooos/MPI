@@ -54,12 +54,12 @@ On définie les expressions suivantes :
 
 ## Entiers de Church
 
-Pour tout $n\in\N$, on pose $C_n = f,x\mapsto f(f(...(f(x))...))$ avec $n$ occurences de $f$
+Pour tout $n\in\N$,  avec $n$ occurences de $f$
 On a donc:
- - $C_0 = f,x\mapsto x$
- - $C_1 = f,x\mapsto f(x)$
- - $C_2 = f,x\mapsto f(f(x))$
- - ...
+ - $C_0 = [f,x\mapsto x]$
+ - $C_1 = [f,x\mapsto f(x)]$
+ - $C_2 = [f,x\mapsto f(f(x))]$
+ - $C_n = [f,x\mapsto f(f(...(f(x))...))]$ avec $n$ répétition de 
 
 On appelle $C_n$ l'*entier de Church* associé à $n$
 
@@ -67,12 +67,12 @@ On appelle $C_n$ l'*entier de Church* associé à $n$
 5. Définir une expression $\text{add}$ tel que $\text{add}(C_n)(C_m) \to^* C_{n+m}$
 6. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n)(C_m) \to^* C_{n\times m}$
 
-On utillisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition 
+On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
 
 ## Opérateur Point-fixe
 
 7.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzc3NzMyMzMsMjAxOTgzNzA1OSw0OD
-I4MDI3MzksLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNjcwMDI0Njg2LDIwMTk4MzcwNTksNDgyOD
+AyNzM5LC0yMDg4NzQ2NjEyXX0=
 -->
