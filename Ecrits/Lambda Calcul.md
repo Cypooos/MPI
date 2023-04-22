@@ -116,10 +116,6 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 On dit que $\text{fix}$ est un opérateur point-fixe si, pour tout $f\in E$, on a :
 $$\text{fix}(f) \to f(\text{fix}(f))$$
 
-15. Supposons que $$, alors il existe $e\in E$ tel que $f(e)\to^* e$
-
-On appelle $e$ un point fixe de $f$
-
 17. Montrez que $\text{fix}(f)$ n'est pas unitaire.
 18. (*) Donnez une expression $\Theta$ point-fixe. 
 
@@ -135,11 +131,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 ## Généralisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NzE0NjU2MiwxNjQ0NTk4NTU4LC0xOT
-I1ODExNzYsLTE3NTY3NzAwMTUsLTE2MjYwNTgwNTMsLTE5NDk3
-NDY0MzYsLTkyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwtMjEzNzI3NT
-A0NSwxMDMwODEzOTUwLDY2MTQxMTQ0NCwtMTk5MTM1ODA1NSwt
-MTgxNTE1Nzc2NiwtMTM4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMT
-Y4NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5ODM3MDU5LDQ4Mjgw
-MjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTQzNTM1MzI4MywxMTU3MTQ2NTYyLDE2ND
+Q1OTg1NTgsLTE5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYyNjA1
+ODA1MywtMTk0OTc0NjQzNiwtOTI1NDgyMDY2LC0xNDc3ODIxMz
+Q5LC0yMTM3Mjc1MDQ1LDEwMzA4MTM5NTAsNjYxNDExNDQ0LC0x
+OTkxMzU4MDU1LC0xODE1MTU3NzY2LC0xMzg3MTc1NzgyLC0xNT
+gyODk2NjU5LC0xNjg3NTQyOTkyLC0xOTg1Mjc2NTA5LDIwMTk4
+MzcwNTksNDgyODAyNzM5XX0=
 -->
