@@ -1,6 +1,6 @@
 # Etude du Lambda Calcul
 
-Ce sujet est EXTREMEMENT difficille, et balaye les chapitres suivants :
+Ce sujet est **EXTREMEMENT** difficile, et balaye les chapitres de Grammaire, Logique, Langages, Automates.
 
 Ce sujet introduit la théorie derrière les langages fonctionnel : le lambda calcul.
 La partie I propose une introduction généralisé,
@@ -8,7 +8,8 @@ La partie II porte sur de la logique, et typé des expressions
 La partie III s'intéresse au règles de grammaire de la logique combinatoire
 La dernière partie s'intéresse à la notion de confluence, et fait introduire des graphes.
 
-En gras sont indiqué les questions très très difficiles.
+En gras sont indiqué les questions encore plus difficiles que les autres.
+On pourra 
 
 # Définitions
 
@@ -80,7 +81,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 7. Montrez que si $\text{fix}(f)$ admet un calcul normalisant, alors il existe $e\in E$ tel que $f(e)\to^* e$
 8. **En s'inspirant de $\Delta$, donnez une expression point-fixe.** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE2ODAxMDM0LC0xNjg3NTQyOTkyLC0xOT
-g1Mjc2NTA5LDIwMTk4MzcwNTksNDgyODAyNzM5LC0yMDg4NzQ2
-NjEyXX0=
+eyJoaXN0b3J5IjpbLTExMTk1OTI3MjksLTE2ODc1NDI5OTIsLT
+E5ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3
+NDY2MTJdfQ==
 -->
