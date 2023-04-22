@@ -51,7 +51,7 @@ On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression
 On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant. 
-Si il existe au plus qu'un seul calcul de $A$ possible, on dit que $A$ est unitaire.
+Si il existe au plus qu'un seul calcul normalisant de $A$ possible, on dit que $A$ est unitaire.
 
 On définie les expressions suivantes :
  - $I = (x\mapsto x)$
@@ -105,10 +105,10 @@ $$D = (x,y,z \mapsto z(x,y))$$
 
 qui représente un couple $(x,y)$
 
-1. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$
-2. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1}))$
-3. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$
-4. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$
+11. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$
+12. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1}))$
+13. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$
+14. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ 
 
 # Partie III
 Le but de cette partie est de pouvoir faire des fonctions récursives.
@@ -117,16 +117,16 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 On dit que $\text{fix}$ est un opérateur point-fixe si, soit $f\in E$, on a :
 $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
-7. Montrez que si $\text{fix}(f)$ admet un calcul normalisant, alors il existe $e\in E$ tel que $f(e)\to^* e$
-8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
-9. Montrez que une $\Theta(A)$ ne peux pas être normalisant et unitaire 
+1. Montrez que si $\text{fix}(f)$ admet un calcul normalisant, alors il existe $e\in E$ tel que $f(e)\to^* e$
+8. Montrez que une $\Theta(A)$ ne peux pas être unitaire 
+9. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe. 
 
 ## Récursivité
 9.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzc4MjEzNDksLTIxMzcyNzUwNDUsMT
-AzMDgxMzk1MCw2NjE0MTE0NDQsLTE5OTEzNTgwNTUsLTE4MTUx
-NTc3NjYsLTEzODcxNzU3ODIsLTE1ODI4OTY2NTksLTE2ODc1ND
-I5OTIsLTE5ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4MDI3Mzks
-LTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTg4ODMyNTM2OCwtMTQ3NzgyMTM0OSwtMj
+EzNzI3NTA0NSwxMDMwODEzOTUwLDY2MTQxMTQ0NCwtMTk5MTM1
+ODA1NSwtMTgxNTE1Nzc2NiwtMTM4NzE3NTc4MiwtMTU4Mjg5Nj
+Y1OSwtMTY4NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5ODM3MDU5
+LDQ4MjgwMjczOSwtMjA4ODc0NjYxMl19
 -->
