@@ -111,7 +111,7 @@ qui représente un couple $(x,y)$
 
 # Partie III
 Le but de cette partie est de pouvoir faire des fonctions récursives.
-## L'Opérateur Point-fixe
+## L'opérateur Point-fixe
 
 On dit que $\text{fix}$ est un opérateur point-fixe si, pour tout $f\in E$, on a :
 $$\text{fix}(f) \to^* f(\text{fix}(f))$$
@@ -123,7 +123,7 @@ On apelle $e$ un point fixe de $f$
 17. Montrez que une $\Theta(A)$ ne peux pas être unitaire.
 18. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe. 
 
-## Factorielle
+## La fonction récursive factorielle
 On définie :
 $$
 \text{fact\_rec} = (f,x\mapsto \text{if0}(x)(C_1)(\text{mul}(x)(f(\text{sub}(x,1)))))
@@ -136,7 +136,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 ## Généralisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzgzMTI4MTUsLTkyNTQ4MjA2NiwtMT
+eyJoaXN0b3J5IjpbLTE5NDk3NDY0MzYsLTkyNTQ4MjA2NiwtMT
 Q3NzgyMTM0OSwtMjEzNzI3NTA0NSwxMDMwODEzOTUwLDY2MTQx
 MTQ0NCwtMTk5MTM1ODA1NSwtMTgxNTE1Nzc2NiwtMTM4NzE3NT
 c4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4NTI3NjUw
