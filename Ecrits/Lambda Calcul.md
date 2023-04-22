@@ -21,15 +21,13 @@ On définie une *expression* inductivement :
 
 L'on se permettra l'utilisation de parenthèses pour indiquer de l'ordre des opérations. On note $E$ l'ensemble des expressions.
 
-Soient $e\in E$ et $x,y\in E\times E$, on définie l'opération de substitution $e[x\larr y]$ inductivement :
+Soient $e\in E$ et $x,y\in V\times E$, on définie l'opération de substitution $e[x\larr y]$ inductivement :
  - $x[x\larr y] := y$
  
   - $u[x\larr y] := u$ pour $u\in V\setminus \{x\}$
   - $e(e')[x\larr y] := e[x\larr y]\Big(e'[x\larr y]\Big)$
   - $(x\mapsto e)[x\larr y] := x\mapsto e$
   - $(u\mapsto e)[x\larr y] := u\mapsto e[x\larr y]$ pour $u\in V\setminus \{x\}$
-
-Si plusieurs règles s'appliquent, on prend la première de cette liste.
 
 Informellement, l'on remplace toute les occurrences libre de $x$ par $y$ dans $e$. On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$
 
@@ -43,6 +41,6 @@ On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$ éval
 Soit $V$ un ensemble de variables. 
 On définie une instruction de lambda cal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTM2MzgyMTUsMjAxOTgzNzA1OSw0OD
-I4MDI3MzksLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTIzMDM2NDQ2MiwyMDE5ODM3MDU5LDQ4Mj
+gwMjczOSwtMjA4ODc0NjYxMl19
 -->
