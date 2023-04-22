@@ -101,9 +101,9 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\ma
 L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
 ## Couples 
 On définie :
-$$D = (x,y,z \mapsto z(x)(y))$$
+$$D = (x,y,z \mapsto z(x,y))$$
 
-1. Montrez que $D(e,e',\top) \to^* e$ et  $D(e)(e')(\bot) \to^* e'$
+1. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$
 2. 
 
 
@@ -119,7 +119,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTU4MzMxMzMsMTAzMDgxMzk1MCw2Nj
+eyJoaXN0b3J5IjpbLTIwOTU2MzcxMjQsMTAzMDgxMzk1MCw2Nj
 E0MTE0NDQsLTE5OTEzNTgwNTUsLTE4MTUxNTc3NjYsLTEzODcx
 NzU3ODIsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5ODUyNz
 Y1MDksMjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJd
