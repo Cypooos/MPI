@@ -17,16 +17,11 @@ Soit $V=\{x,y,z,t,u,v,...\}$ un ensemble dénombrable de *variables*.
 On définie une *expression* inductivement :
  - "$x$" est une expression pour tout $x\in V$
  - "$e_1(e_2)$" est une expression pour tout $e_1,e_2$ deux expressions
- - "$\lambda x.e$" est une expression pour tout $x\in V$ et $e$ une expression
+ - "$x\mapsto e$" est une expression pour tout $x\in V$ et $e$ une expression
 
-On note $E$ l'ensemble des expressions.
+L'on se permettra l'utilisation de parenthèses pour indiquer de l'ordre des opérations. On note $E$ l'ensemble des expressions.
 
 Soient $e\in E$ et $v_1,v_2\in V$, on définie l'opération de substitution $e[v_1\larr v_2]$ inductivement :
- - $v_1[v_1\larr v_2] := v_2$
- - $v[v_1\larr v_2] := v$ pour $v\neq v_1$ une variable
- - $e_1(e_2)[v_1\larr v_2] := e_1[v_1\larr v_2](e_2[v_1\larr v_2])$
- - $(\lambda x.e)[v_1\larr v_2] := \lambda x.(e[v_1\larr v_2])$ si $x\neq v_1$
- - $(\lambda x.e)[v_1\larr v_2] := \lambda x.(e[v_1\larr v_2])$ si $x\neq v_1$
 
 Informellement, l'on remplace toute les occurences de $v_1$ par $v_2$
 
@@ -39,6 +34,6 @@ On ce permettera l'utillisation de parenthèses pour mieux comprendre
 Soit $V$ un ensemble de variables. 
 On définie une instruction de lambda cal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzNTgwMjg3LDIwMTk4MzcwNTksNDgyOD
+eyJoaXN0b3J5IjpbNjc4NDczOTEwLDIwMTk4MzcwNTksNDgyOD
 AyNzM5LC0yMDg4NzQ2NjEyXX0=
 -->
