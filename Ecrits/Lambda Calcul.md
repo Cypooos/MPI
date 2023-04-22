@@ -33,14 +33,15 @@ Informellement, l'on remplace toute les occurrences libre de $x$ par $y$ dans $e
 
 On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression $â=$ "$e[x\larr e']$". On note alors $a\to a'$.
 
-On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$ évaluable, et que $A' = A$
+On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$. $A'$ est $A$ ou l'on a remplacé $a$ par son évaluation.
+
+On définie les expressions suivantes :
+ - $I = $
 
 ## Préliminaire
 
-
-Soit $V$ un ensemble de variables. 
-On définie une instruction de lambda cal
+1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMDM2NDQ2MiwyMDE5ODM3MDU5LDQ4Mj
-gwMjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNzg5MDAxMDY2LDIwMTk4MzcwNTksNDgyOD
+AyNzM5LC0yMDg4NzQ2NjEyXX0=
 -->
