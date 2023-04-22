@@ -122,12 +122,12 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
 ## Petit exemple
 On pose les expressions :
-$$M = f,n\mapsto (\text{if0}(n)(C_$$
+$$M = f,n\mapsto (\text{if0}(n)(\top)(\text{not}f($$
 18. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3MDkzODQzLC05MjU0ODIwNjYsLTE0Nz
-c4MjEzNDksLTIxMzcyNzUwNDUsMTAzMDgxMzk1MCw2NjE0MTE0
-NDQsLTE5OTEzNTgwNTUsLTE4MTUxNTc3NjYsLTEzODcxNzU3OD
-IsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5ODUyNzY1MDks
-MjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTU5MTczNTA5NSwtOTI1NDgyMDY2LC0xND
+c3ODIxMzQ5LC0yMTM3Mjc1MDQ1LDEwMzA4MTM5NTAsNjYxNDEx
+NDQ0LC0xOTkxMzU4MDU1LC0xODE1MTU3NzY2LC0xMzg3MTc1Nz
+gyLC0xNTgyODk2NjU5LC0xNjg3NTQyOTkyLC0xOTg1Mjc2NTA5
+LDIwMTk4MzcwNTksNDgyODAyNzM5LC0yMDg4NzQ2NjEyXX0=
 -->
