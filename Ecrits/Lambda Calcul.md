@@ -117,7 +117,7 @@ On dit que $\text{fix}$ est un opérateur point-fixe si, pour tout $f\in E$, on 
 $$\text{fix}(f) \to f(\text{fix}(f))$$
 
 17. Montrez que $\text{fix}(f)$ n'est pas unitaire.
-18. Montrez que si $\text{fix}(f)\to^* e$
+18. Montrez que si $\text{fix}(f)\to^* e$, il existe $n\in$
 19. (*) Donnez une expression $\Theta$ point-fixe. 
 
 ## La fonction récursive factorielle
@@ -131,11 +131,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 ## Généralisation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTIzNjE4MjgsMTE1NzE0NjU2MiwxNj
-Q0NTk4NTU4LC0xOTI1ODExNzYsLTE3NTY3NzAwMTUsLTE2MjYw
-NTgwNTMsLTE5NDk3NDY0MzYsLTkyNTQ4MjA2NiwtMTQ3NzgyMT
-M0OSwtMjEzNzI3NTA0NSwxMDMwODEzOTUwLDY2MTQxMTQ0NCwt
-MTk5MTM1ODA1NSwtMTgxNTE1Nzc2NiwtMTM4NzE3NTc4MiwtMT
-U4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5
-ODM3MDU5LDQ4MjgwMjczOV19
+eyJoaXN0b3J5IjpbLTEzMjE1NDg3MzgsLTEzMTIzNjE4MjgsMT
+E1NzE0NjU2MiwxNjQ0NTk4NTU4LC0xOTI1ODExNzYsLTE3NTY3
+NzAwMTUsLTE2MjYwNTgwNTMsLTE5NDk3NDY0MzYsLTkyNTQ4Mj
+A2NiwtMTQ3NzgyMTM0OSwtMjEzNzI3NTA0NSwxMDMwODEzOTUw
+LDY2MTQxMTQ0NCwtMTk5MTM1ODA1NSwtMTgxNTE1Nzc2NiwtMT
+M4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4
+NTI3NjUwOSwyMDE5ODM3MDU5XX0=
 -->
