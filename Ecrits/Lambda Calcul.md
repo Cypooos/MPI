@@ -121,13 +121,13 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 17. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe. 
 
 ## Petit exemple
-On étudie l'expression :
-$$M= x\mapsto$$
+On pose les expressions :
+$$M = f,n\mapsto (\text{if0}(n)(C_$$
 18. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzIxNTUzNTEsLTkyNTQ4MjA2NiwtMT
-Q3NzgyMTM0OSwtMjEzNzI3NTA0NSwxMDMwODEzOTUwLDY2MTQx
-MTQ0NCwtMTk5MTM1ODA1NSwtMTgxNTE1Nzc2NiwtMTM4NzE3NT
-c4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4NTI3NjUw
-OSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjc3MDkzODQzLC05MjU0ODIwNjYsLTE0Nz
+c4MjEzNDksLTIxMzcyNzUwNDUsMTAzMDgxMzk1MCw2NjE0MTE0
+NDQsLTE5OTEzNTgwNTUsLTE4MTUxNTc3NjYsLTEzODcxNzU3OD
+IsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5ODUyNzY1MDks
+MjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
