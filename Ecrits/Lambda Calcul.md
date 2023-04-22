@@ -121,7 +121,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 On appelle $e$ un point fixe de $f$
 
 17. Montrez que $\text{fix}(f)$ n'est pas unitaire.
-18. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe. 
+18. (*) Donnez une expression $\Theta$ point-fixe. 
 
 ## La fonction récursive factorielle
 On définie :
@@ -135,11 +135,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 ## Généralisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDU5ODU1OCwtMTkyNTgxMTc2LC0xNz
-U2NzcwMDE1LC0xNjI2MDU4MDUzLC0xOTQ5NzQ2NDM2LC05MjU0
-ODIwNjYsLTE0Nzc4MjEzNDksLTIxMzcyNzUwNDUsMTAzMDgxMz
-k1MCw2NjE0MTE0NDQsLTE5OTEzNTgwNTUsLTE4MTUxNTc3NjYs
-LTEzODcxNzU3ODIsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLT
-E5ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3
-NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTcwNjk4NzA2MiwxNjQ0NTk4NTU4LC0xOT
+I1ODExNzYsLTE3NTY3NzAwMTUsLTE2MjYwNTgwNTMsLTE5NDk3
+NDY0MzYsLTkyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwtMjEzNzI3NT
+A0NSwxMDMwODEzOTUwLDY2MTQxMTQ0NCwtMTk5MTM1ODA1NSwt
+MTgxNTE1Nzc2NiwtMTM4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMT
+Y4NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5ODM3MDU5LDQ4Mjgw
+MjczOSwtMjA4ODc0NjYxMl19
 -->
