@@ -45,9 +45,10 @@ On définie les expressions suivantes :
 
 ## Préliminaire
 
-1. Montrez que l'expression $$
-2. Montrez que l'expression $\Delta(\Delta)$ ne 
+1. Donnez un calcul de $, 
+2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul.
+3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NjQ1ODg5NCwyMDE5ODM3MDU5LDQ4Mj
-gwMjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNjQ3NTI4MTUwLDIwMTk4MzcwNTksNDgyOD
+AyNzM5LC0yMDg4NzQ2NjEyXX0=
 -->
