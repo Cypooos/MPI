@@ -123,12 +123,12 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 ## Petit exemple
 On pose l'expression :
 $$M = f,n\mapsto (\text{if0}(n)(\top)(\text{not}(f(\text{sub}(x,1)))))$$
-18. Montrez que $M(C_0) \to^*\Tau$ et $M($
-19. Existe t'il un 
+18. Montrez que $M(M,C_0) \to^*\top$. Quel est le problème avec $M(M,C_n)$ pour $n>0$ ?
+19. On aimerai que $M$ soit récursive, soit que à chaque appel de $
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyNDUxMDgsLTkyNTQ4MjA2NiwtMTQ3Nz
-gyMTM0OSwtMjEzNzI3NTA0NSwxMDMwODEzOTUwLDY2MTQxMTQ0
-NCwtMTk5MTM1ODA1NSwtMTgxNTE1Nzc2NiwtMTM4NzE3NTc4Mi
-wtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4NTI3NjUwOSwy
-MDE5ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjQwMDM4NDExLC05MjU0ODIwNjYsLTE0Nz
+c4MjEzNDksLTIxMzcyNzUwNDUsMTAzMDgxMzk1MCw2NjE0MTE0
+NDQsLTE5OTEzNTgwNTUsLTE4MTUxNTc3NjYsLTEzODcxNzU3OD
+IsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5ODUyNzY1MDks
+MjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
