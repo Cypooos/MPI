@@ -116,11 +116,11 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 On dit que $\text{fix}$ est un opérateur point-fixe si, pour tout $f\in E$, on a :
 $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
-15. Montrez que si il n'existe que un $e$ tel que $\text{fix}(f)\to^n e$ et $\text{fix}(f)\to^n e$ est unitaire, alors il existe $e\in E$ tel que $f(e)\to^* e$
+15. Supposons que $$, alors il existe $e\in E$ tel que $f(e)\to^* e$
 
 On appelle $e$ un point fixe de $f$
 
-17. Donnez $f$ tel que $\text{fix}(f)$ est unitaire. Quel est son point fixe ?
+17. Montrez que $\text{fix}(f)$ n'est pas unitaire.
 18. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe. 
 
 ## La fonction récursive factorielle
@@ -135,11 +135,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 ## Généralisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzNTc2NDk3LC0xOTI1ODExNzYsLTE3NT
-Y3NzAwMTUsLTE2MjYwNTgwNTMsLTE5NDk3NDY0MzYsLTkyNTQ4
-MjA2NiwtMTQ3NzgyMTM0OSwtMjEzNzI3NTA0NSwxMDMwODEzOT
-UwLDY2MTQxMTQ0NCwtMTk5MTM1ODA1NSwtMTgxNTE1Nzc2Niwt
-MTM4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMT
-k4NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbMTY0NDU5ODU1OCwtMTkyNTgxMTc2LC0xNz
+U2NzcwMDE1LC0xNjI2MDU4MDUzLC0xOTQ5NzQ2NDM2LC05MjU0
+ODIwNjYsLTE0Nzc4MjEzNDksLTIxMzcyNzUwNDUsMTAzMDgxMz
+k1MCw2NjE0MTE0NDQsLTE5OTEzNTgwNTUsLTE4MTUxNTc3NjYs
+LTEzODcxNzU3ODIsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLT
+E5ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3
+NDY2MTJdfQ==
 -->
