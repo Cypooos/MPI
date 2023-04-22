@@ -35,7 +35,7 @@ On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression
 
 On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$. $A'$ est $A$ ou l'on a remplacé $a$ par son évaluation.
 
-On appelle un calcul de $A$ une série
+On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$ avec $A_n$ non dérivable.
 
 On définie les expressions suivantes :
  - $I = (x\mapsto x)$
@@ -44,8 +44,8 @@ On définie les expressions suivantes :
 
 ## Préliminaire
 
-1. 
+1. Montrez que l'expression 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDA5OTk5NSwyMDE5ODM3MDU5LDQ4Mj
+eyJoaXN0b3J5IjpbMTc2Mjc2OTI1NywyMDE5ODM3MDU5LDQ4Mj
 gwMjczOSwtMjA4ODc0NjYxMl19
 -->
