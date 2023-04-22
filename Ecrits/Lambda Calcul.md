@@ -3,9 +3,10 @@
 Ce sujet est **EXTREMEMENT** difficile, et balaye les chapitres de Grammaire, Logique, Langages, Automates.
 
 Ce sujet introduit la théorie derrière les langages fonctionnel : le lambda calcul.
-La partie I propose une introduction généralisé,
-La partie II porte sur de la logique, et typé des expressions
-La partie III s'intéresse au règles de grammaire de la logique combinatoire
+La partie I propose une introduction généralisé, et propose une implémentation d'objets simple
+La partie II s'intéresse à l
+La partie II porte sur de la logique, des expressions typées
+La partie III s'intéresse au règles de grammaire et à la logique combinatoire
 La dernière partie s'intéresse à la notion de confluence, et fait introduire des graphes.
 
 En gras sont indiqué les questions encore plus difficiles que les autres.
@@ -82,7 +83,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. **En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.**
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLT
-E5ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3
-NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE2NzE3MzA3MzcsLTE1ODI4OTY2NTksLT
+E2ODc1NDI5OTIsLTE5ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4
+MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
