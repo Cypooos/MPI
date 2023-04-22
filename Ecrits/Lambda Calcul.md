@@ -1,5 +1,7 @@
 # Etude du Lambda Calcul
 
+Ce sujet est EXTREMEMENT difficille, et balaye les chapitres suivants :
+
 Ce sujet introduit la théorie derrière les langages fonctionnel : le lambda calcul.
 La partie I propose une introduction généralisé,
 La partie II porte sur de la logique, et typé des expressions
@@ -76,9 +78,9 @@ On dit que $\text{fix}$ est un opérateur point-fixe si, soit $f\in E$, on a :
 $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
 7. Montrez que si $\text{fix}(f)$ admet un calcul normalisant, alors il existe $e\in E$ tel que $f(e)\to^* e$
-8. Donnez 
+8. **En s'inspirant de $\Delta$, donnez une expression point-fixe.** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTYxNTIzOCwtMTY4NzU0Mjk5MiwtMT
-k4NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbMzE2ODAxMDM0LC0xNjg3NTQyOTkyLC0xOT
+g1Mjc2NTA5LDIwMTk4MzcwNTksNDgyODAyNzM5LC0yMDg4NzQ2
+NjEyXX0=
 -->
