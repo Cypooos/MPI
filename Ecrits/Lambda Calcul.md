@@ -16,9 +16,12 @@ On appelle *langage* un sous-ensemble de mots.
 Soit $V=\{x,y,z,t,u,v,...\}$ un ensemble dénombrable de *variables*.
 On définie une *expression* inductivement :
  - "$x$" est une expression pour tout $x\in V$
- - "$e_1\ e_2$" est une expression pour tout $e_1,e_2$ deux expressions
+ - "$e_1(e_2)$" est une expression pour tout $e_1,e_2$ deux expressions
  - "$\lambda x.e$" est une expression pour tout $x\in V$ et $e$ une expression
 
+On note $E$ l'ensemble des expressions.
+
+Soit $e,e'\in E$, on écrit $e\to e'$ si
 On ce permettera l'utillisation de parenthèses pour mieux comprendre
 
 ## Préliminaire
@@ -27,6 +30,6 @@ On ce permettera l'utillisation de parenthèses pour mieux comprendre
 Soit $V$ un ensemble de variables. 
 On définie une instruction de lambda cal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1MDQ0MTExLDQ4MjgwMjczOSwtMjA4OD
-c0NjYxMl19
+eyJoaXN0b3J5IjpbMjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwOD
+g3NDY2MTJdfQ==
 -->
