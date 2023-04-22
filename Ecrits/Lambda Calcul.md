@@ -55,11 +55,14 @@ On définie les expressions suivantes :
 ## Entiers de Church
 
 Pour tout $n\in\N$, on pose $C_n = f,x\mapsto f(f(...(f(x))...))$ avec $n$ occurences de $f$
-On a donc $C_0 = f,x\mapsto x$
+On a donc:
+ - $C_0 = f,x\mapsto x$
+ - $C_1 = f,x\mapsto f(x)$
+ - $C_2 = f,x\mapsto f(f(x))$
 3. $n=0 \iff C_n = K$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzg2NjgxNTUsMjAxOTgzNzA1OSw0OD
-I4MDI3MzksLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbODc3NTI3MzE2LDIwMTk4MzcwNTksNDgyOD
+AyNzM5LC0yMDg4NzQ2NjEyXX0=
 -->
