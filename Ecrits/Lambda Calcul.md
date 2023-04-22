@@ -66,7 +66,7 @@ On s'intéresse maintenant à la création de différents objets de base.
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
 On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1)(f_2))$
 
-3. Montrez que $\text{if$
+3. Montrez que, soit $b\in B$ et $e,e'$une expression, $\text{if}(b)(e)(e') \to^* e$ si et seulement si $b = \top$
 
 ## Entiers de Church
 
@@ -94,7 +94,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MzIxOTk4MSwtMTU4Mjg5NjY1OSwtMT
+eyJoaXN0b3J5IjpbLTc4NTk0MTcyMywtMTU4Mjg5NjY1OSwtMT
 Y4NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5ODM3MDU5LDQ4Mjgw
 MjczOSwtMjA4ODc0NjYxMl19
 -->
