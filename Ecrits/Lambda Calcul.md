@@ -126,11 +126,15 @@ $$
 \text{fact\_rec} = (f,x\mapsto \text{if0}(x)(C_1)(\text{mul}(x)(f(\text{sub}(x,1)))))
 $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
+
 18. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
+
+## Généralisation
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMzQ2MzQ5NSwtOTI1NDgyMDY2LC0xND
-c3ODIxMzQ5LC0yMTM3Mjc1MDQ1LDEwMzA4MTM5NTAsNjYxNDEx
-NDQ0LC0xOTkxMzU4MDU1LC0xODE1MTU3NzY2LC0xMzg3MTc1Nz
-gyLC0xNTgyODk2NjU5LC0xNjg3NTQyOTkyLC0xOTg1Mjc2NTA5
-LDIwMTk4MzcwNTksNDgyODAyNzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbODI3NzQzMjk4LC05MjU0ODIwNjYsLTE0Nz
+c4MjEzNDksLTIxMzcyNzUwNDUsMTAzMDgxMzk1MCw2NjE0MTE0
+NDQsLTE5OTEzNTgwNTUsLTE4MTUxNTc3NjYsLTEzODcxNzU3OD
+IsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5ODUyNzY1MDks
+MjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
