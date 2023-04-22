@@ -116,9 +116,9 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 On dit que $\text{fix}$ est un opérateur point-fixe si, pour tout $f\in E$, on a :
 $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
-15. Montrez que si $\text{fix}(f)$ admet un calcul normalisant, alors il existe $e\in E$ tel que $f(e)\to^* e$ ???
+15. Montrez que si $\text{fix}(f)$ est unitaire, alors il existe $e\in E$ tel que $f(e)\to^* e$
 
-On apelle $e$ un point fixe de $f$
+On appelle alors $e$ un point fixe de $\text{fix}(f)$
 
 17. Montrez que une $\Theta(A)$ ne peux pas être unitaire.
 18. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe. 
@@ -131,15 +131,16 @@ $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 18. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
-19. Quel est un point fixe de $\text{fact\_rec}$ ?
+19. Montrez que $\text{fact}(C_n)$ est unaire.
+20. Quel est un point fixe de $\text{fact}(C_n)$ ?
 
 ## Généralisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjYwNTgwNTMsLTE5NDk3NDY0MzYsLT
-kyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwtMjEzNzI3NTA0NSwxMDMw
-ODEzOTUwLDY2MTQxMTQ0NCwtMTk5MTM1ODA1NSwtMTgxNTE1Nz
-c2NiwtMTM4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5
-MiwtMTk4NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEyOTA0OTgxNjEsLTE2MjYwNTgwNTMsLT
+E5NDk3NDY0MzYsLTkyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwtMjEz
+NzI3NTA0NSwxMDMwODEzOTUwLDY2MTQxMTQ0NCwtMTk5MTM1OD
+A1NSwtMTgxNTE1Nzc2NiwtMTM4NzE3NTc4MiwtMTU4Mjg5NjY1
+OSwtMTY4NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5ODM3MDU5LD
+Q4MjgwMjczOSwtMjA4ODc0NjYxMl19
 -->
