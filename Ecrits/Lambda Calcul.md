@@ -70,11 +70,11 @@ On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'ad
 
 ## Opérateur Point-fixe
 
-On dit que $\text{fix}$ est un opérateur point-fixe si, soit $e\in E$, on a :
-$$\text{$$
+On dit que $\text{fix}$ est un opérateur point-fixe si, soit $f\in E$, on a :
+$$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
-7.
+7. Montrez que s'il existe $e\in E$ tel que $f e\to^* e$, alors 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDM5MDY1MDEsMjAxOTgzNzA1OSw0OD
-I4MDI3MzksLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTc2MjY4OTMwNCwyMDE5ODM3MDU5LDQ4Mj
+gwMjczOSwtMjA4ODc0NjYxMl19
 -->
