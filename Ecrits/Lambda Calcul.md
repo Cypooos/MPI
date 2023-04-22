@@ -29,7 +29,7 @@ Soient $e\in E$ et $x,y\in V$, on définie l'opération de substitution $e[x\lar
   - $(x\mapsto e)[x\larr y] := x\mapsto e$
   - $(u\mapsto e)[x\larr y] := u\mapsto e[x\larr y]$ pour $u\in V\setminus \{x\}$
 
-Informellement, l'on remplace toute les occurrences libre de $x$ par $y$ dans $e$. On dit que $x$ est libre dans $e$ si 
+Informellement, l'on remplace toute les occurrences libre de $x$ par $y$ dans $e$. On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$
 
 Soit $e,e'\in E$, on écrit $e\to e'$ si
 On ce permettera l'utillisation de parenthèses pour mieux comprendre
@@ -40,6 +40,6 @@ On ce permettera l'utillisation de parenthèses pour mieux comprendre
 Soit $V$ un ensemble de variables. 
 On définie une instruction de lambda cal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Nzg1OTI4MCwyMDE5ODM3MDU5LDQ4Mj
-gwMjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTg1NjM0ODQ4LDIwMTk4MzcwNTksNDgyOD
+AyNzM5LC0yMDg4NzQ2NjEyXX0=
 -->
