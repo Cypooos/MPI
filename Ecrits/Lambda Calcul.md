@@ -87,9 +87,13 @@ On appelle $C_n$ l'*entier de Church* associé à $n$
 
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
 
+## Condition sur les entiers de Church
+8. Donnez $\text{}$
+
+## Partie II
 ## Soustraction
 
-# Partie II
+# Partie III
 ## L'Opérateur Point-fixe
 
 On dit que $\text{fix}$ est un opérateur point-fixe si, soit $f\in E$, on a :
@@ -99,7 +103,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDg2NDc5OCwtMTM4NzE3NTc4MiwtMT
-U4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5
-ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTE3OTYzNjEyLC0xMzg3MTc1NzgyLC0xNT
+gyODk2NjU5LC0xNjg3NTQyOTkyLC0xOTg1Mjc2NTA5LDIwMTk4
+MzcwNTksNDgyODAyNzM5LC0yMDg4NzQ2NjEyXX0=
 -->
