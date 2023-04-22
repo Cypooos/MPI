@@ -122,10 +122,11 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
 ## Petit exemple
 On pose les expressions :
-$$M = f,n\mapsto (\text{if0}(n)(\top)(\text{not}f($$
+$$M &= f,n\mapsto (\text{if0}(n)(\top)(\text{not}(f(\text{sub}(x,1)))))\\
+M' = \Theta(M)$$
 18. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTczNTA5NSwtOTI1NDgyMDY2LC0xND
+eyJoaXN0b3J5IjpbMTE4MTczMDU1OSwtOTI1NDgyMDY2LC0xND
 c3ODIxMzQ5LC0yMTM3Mjc1MDQ1LDEwMzA4MTM5NTAsNjYxNDEx
 NDQ0LC0xOTkxMzU4MDU1LC0xODE1MTU3NzY2LC0xMzg3MTc1Nz
 gyLC0xNTgyODk2NjU5LC0xNjg3NTQyOTkyLC0xOTg1Mjc2NTA5
