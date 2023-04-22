@@ -88,9 +88,7 @@ On appelle $C_n$ l'*entier de Church* associé à $n$
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
 
 ## Condition sur les entiers de Church
-8. Donnez $\text{eq}$ une expression tel que:
-   i. $\text{eq}(C_n)(C_m) = \top$ si $n=m$
-   ii. $\text{eq}(C_n)(C_m) = \bot$ si $n\neq m$
+8. Donnez $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ si $$
 
 ## Partie II
 ## Soustraction
@@ -105,7 +103,8 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTUxNTc3NjYsLTEzODcxNzU3ODIsLT
-E1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5ODUyNzY1MDksMjAx
-OTgzNzA1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTUzNzExNDkwMiwtMTgxNTE1Nzc2NiwtMT
+M4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4
+NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0Nj
+YxMl19
 -->
