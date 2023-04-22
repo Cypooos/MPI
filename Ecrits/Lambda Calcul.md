@@ -99,10 +99,10 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n)(C_m) \to^* C_{\m
 # Partie II
 L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
 ## Couples 
-On définie, pour $n,m\in\N$ :
-$$D(n,m) = x\mapsto (x(C_n)(C_m))$$
+On définie :
+$$D = (x,y,z \mapsto z(x)(y))$$
 
-1. Montrez que $D(n,m)(\top) \to^* C_n$ et  $D(n,m)(\bot) \to^* C_m$
+1. Montrez que $D(C_n,C_m)(\top) \to^* C_n$ et  $D(n,m)(\bot) \to^* C_m$
 2. Donnez $\text{couple}$ tel que $\text{couple}(C_n)(C_m) \to^* D(n,m)$
 
 
@@ -118,8 +118,9 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDgxMzk1MCw2NjE0MTE0NDQsLTE5OT
-EzNTgwNTUsLTE4MTUxNTc3NjYsLTEzODcxNzU3ODIsLTE1ODI4
-OTY2NTksLTE2ODc1NDI5OTIsLTE5ODUyNzY1MDksMjAxOTgzNz
-A1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEzMzYyNDExODEsMTAzMDgxMzk1MCw2Nj
+E0MTE0NDQsLTE5OTEzNTgwNTUsLTE4MTUxNTc3NjYsLTEzODcx
+NzU3ODIsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5ODUyNz
+Y1MDksMjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJd
+fQ==
 -->
