@@ -93,10 +93,12 @@ On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'ad
 On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ a été écrite ; l'écrire est l'objet de la partie II.
 
 ## Condition sur les entiers de Church
-9. Définir$\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
+9. Définir $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
 10. Définir $\text{eq}$ une expression tel que :
     * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
     * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
+
+On peut maintenant écrire des progra
 # Partie II
 L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
 On définie :
@@ -107,10 +109,7 @@ qui représente un couple $(x,y)$
 1. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$
 2. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1}))$
 3. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$
-4. Définir $\text{sub}$ telle que telle $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$
-
-
-## Soustraction
+4. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$
 
 # Partie III
 ## L'Opérateur Point-fixe
@@ -122,7 +121,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzU2NjQ4NzIsLTIxMzcyNzUwNDUsMT
+eyJoaXN0b3J5IjpbLTE2NTkwNDg1MTcsLTIxMzcyNzUwNDUsMT
 AzMDgxMzk1MCw2NjE0MTE0NDQsLTE5OTEzNTgwNTUsLTE4MTUx
 NTc3NjYsLTEzODcxNzU3ODIsLTE1ODI4OTY2NTksLTE2ODc1ND
 I5OTIsLTE5ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4MDI3Mzks
