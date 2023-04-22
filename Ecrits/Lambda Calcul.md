@@ -38,7 +38,7 @@ On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$
 On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression $â=$ "$e[x\larr e']$". 
 On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$, ou $A'$ est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
-On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul 
+On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant. 
 Si il existe au plus qu'un seul calcul de $A$ possible, on dit que $A$ est unitaire.
 
 On définie les expressions suivantes :
@@ -50,7 +50,7 @@ On définie les expressions suivantes :
 
 ## Préliminaires
 1. Donnez un calcul de $K(K)(I)$, de $I(I)$, de $K(I)(\Delta)$
-2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul.
+2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
 
 ## Entiers de Church
 
@@ -63,11 +63,11 @@ On a donc:
 
 On appelle $C_n$ l'*entier de Church* associé à $n$
 
-4. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to C_{n+1}$
-5. Définir une expression $\text{add}$ tel que $$
+4. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to^* C_{n+1}$
+5. Définir une expression $\text{add}$ tel que $\text{add}(C_n)(C_m) \to^* C$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2NjMwNzc5LDIwMTk4MzcwNTksNDgyOD
-AyNzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTg5NTcwNTUxMCwyMDE5ODM3MDU5LDQ4Mj
+gwMjczOSwtMjA4ODc0NjYxMl19
 -->
