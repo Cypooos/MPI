@@ -105,7 +105,8 @@ $$D = (x,y,z \mapsto z(x,y))$$
 
 1. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$
 2. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1}))$
-3. (*) Définir $\text{decr}$ telle que $\text{}$
+3. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$
+4. Définir 
 
 
 ## Soustraction
@@ -120,7 +121,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjcxMTgzNywtMjEzNzI3NTA0NSwxMD
+eyJoaXN0b3J5IjpbLTMxMDk5OTI3MSwtMjEzNzI3NTA0NSwxMD
 MwODEzOTUwLDY2MTQxMTQ0NCwtMTk5MTM1ODA1NSwtMTgxNTE1
 Nzc2NiwtMTM4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mj
 k5MiwtMTk4NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwt
