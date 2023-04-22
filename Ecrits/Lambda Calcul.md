@@ -67,10 +67,12 @@ On appelle $C_n$ l'*entier de Church* associé à $n$
 5. Définir une expression $\text{add}$ tel que $\text{add}(C_n)(C_m) \to^* C_{n+m}$
 6. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n)(C_m) \to^* C_{n\times m}$
 
-## Op
+On utillisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition 
 
+## Opérateur Point-fixe
 
+7.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTA2NTgwOTYsMjAxOTgzNzA1OSw0OD
+eyJoaXN0b3J5IjpbLTE0Mzc3NzMyMzMsMjAxOTgzNzA1OSw0OD
 I4MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
