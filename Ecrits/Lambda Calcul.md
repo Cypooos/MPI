@@ -73,8 +73,8 @@ On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'ad
 On dit que $\text{fix}$ est un opérateur point-fixe si, soit $f\in E$, on a :
 $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
-7. Montrez que s'il existe $e\in E$ tel que $f e\to^* e$, alors 
+7. Montrez que si $\text{fix}(f)$ admet une forme normalisante$e\in E$ tel que $f e\to^* e$, alors 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjY4OTMwNCwyMDE5ODM3MDU5LDQ4Mj
-gwMjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE5ODUyNzY1MDksMjAxOTgzNzA1OSw0OD
+I4MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
