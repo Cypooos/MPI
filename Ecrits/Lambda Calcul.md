@@ -96,9 +96,10 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n)(C_m) \to^* C_{\m
 10. Donnez $\text{eq}$ une expression tel que :
     * $\text{eq}(C_n)(C_m) \to^* \top$ si $n=m$
     * $\text{eq}(C_n)(C_m) \to^* \bot$ si $n\neq m$
+# Partie II
+L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
+## Couples 
 
-11. Donnez 
-## Partie II
 ## Soustraction
 
 # Partie III
@@ -111,8 +112,8 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTIxNDgyMSwtMTgxNTE1Nzc2NiwtMT
-M4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4
-NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0Nj
-YxMl19
+eyJoaXN0b3J5IjpbMjgyMDIwOTYxLC0xODE1MTU3NzY2LC0xMz
+g3MTc1NzgyLC0xNTgyODk2NjU5LC0xNjg3NTQyOTkyLC0xOTg1
+Mjc2NTA5LDIwMTk4MzcwNTksNDgyODAyNzM5LC0yMDg4NzQ2Nj
+EyXX0=
 -->
