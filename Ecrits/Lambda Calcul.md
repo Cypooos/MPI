@@ -41,15 +41,15 @@ Si il existe au plus qu'un seul calcul de $A$ possible, on dit que $A$ est unita
 
 On définie les expressions suivantes :
  - $I = (x\mapsto x)$
- - $K =  (y\mapsto (x\mapsto y))$
+ - $K =  (y\mapsto (x\mapsto y)) = (y,x\mapsto y)$
  - $\Delta = (x\mapsto x(x))$
 
-## Préliminaire
+## Préliminaires
 
 1. Donnez un calcul de $K(K)(I)$, de $I(I)$, de $K(I)(\Delta)$
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul.
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODM4ODQ1MSwyMDE5ODM3MDU5LDQ4Mj
-gwMjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjU4MzUwNTI2LDIwMTk4MzcwNTksNDgyOD
+AyNzM5LC0yMDg4NzQ2NjEyXX0=
 -->
