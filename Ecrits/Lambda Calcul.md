@@ -9,7 +9,8 @@ La dernière partie s'intéresse à la notion de confluence, et fait introduire 
 ## Définitions
 
 Soit $\Sigma$ un ensemble de *symboles*. On dis que $\omega=\omega_1...\omega_n$ est un *mot* s'il est une suite finie de lettre.
- Pour $\omega$ un mot, on note $|\omega|$ sa longueur et $|\omega|_\alpha$
+ Pour $\omega$ un mot, on note $|\omega|$ sa longueur et pour $\alpha\in\Sigma$, on note $|\omega|_\alpha$ le nombre d'occurrences de $\alpha$ dans $\omega$.
+ Soit $n\in\N$, on note $\Sigma^n$ l'ensemble des mots à $n$ lettres. On note $\Sigma^* = \Cup$
 
 ## Préliminaire
 
@@ -17,6 +18,5 @@ Soit $\Sigma$ un ensemble de *symboles*. On dis que $\omega=\omega_1...\omega_n$
 Soit $V$ un ensemble de variables. 
 On définie une instruction de lambda cal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjkyNDM4MDcsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbMTk1MzM5Mzg3NCwtMjA4ODc0NjYxMl19
 -->
