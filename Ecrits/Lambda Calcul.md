@@ -119,14 +119,14 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
 7. Montrez que si $\text{fix}(f)$ admet un calcul normalisant, alors il existe $e\in E$ tel que $f(e)\to^* e$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
-9. Montrez que 
+9. Montrez que une $\Theta(A)$ ne peux pas être normalisant et unitaire 
 
 ## Récursivité
 9.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTk3OTg3LC0yMTM3Mjc1MDQ1LDEwMz
-A4MTM5NTAsNjYxNDExNDQ0LC0xOTkxMzU4MDU1LC0xODE1MTU3
-NzY2LC0xMzg3MTc1NzgyLC0xNTgyODk2NjU5LC0xNjg3NTQyOT
-kyLC0xOTg1Mjc2NTA5LDIwMTk4MzcwNTksNDgyODAyNzM5LC0y
-MDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE0Nzc4MjEzNDksLTIxMzcyNzUwNDUsMT
+AzMDgxMzk1MCw2NjE0MTE0NDQsLTE5OTEzNTgwNTUsLTE4MTUx
+NTc3NjYsLTEzODcxNzU3ODIsLTE1ODI4OTY2NTksLTE2ODc1ND
+I5OTIsLTE5ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4MDI3Mzks
+LTIwODg3NDY2MTJdfQ==
 -->
