@@ -120,12 +120,14 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 16. Montrez que une $\Theta(A)$ ne peux pas être unitaire.
 17. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe. 
 
-## Récursivité
+## Petit exemple
+On étudie l'expression :
+$$M= x\mapsto$$
 18. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwtMj
-EzNzI3NTA0NSwxMDMwODEzOTUwLDY2MTQxMTQ0NCwtMTk5MTM1
-ODA1NSwtMTgxNTE1Nzc2NiwtMTM4NzE3NTc4MiwtMTU4Mjg5Nj
-Y1OSwtMTY4NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5ODM3MDU5
-LDQ4MjgwMjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE2MzIxNTUzNTEsLTkyNTQ4MjA2NiwtMT
+Q3NzgyMTM0OSwtMjEzNzI3NTA0NSwxMDMwODEzOTUwLDY2MTQx
+MTQ0NCwtMTk5MTM1ODA1NSwtMTgxNTE1Nzc2NiwtMTM4NzE3NT
+c4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4NTI3NjUw
+OSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0NjYxMl19
 -->
