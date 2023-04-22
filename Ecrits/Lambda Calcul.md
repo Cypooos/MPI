@@ -21,6 +21,8 @@ On définie une *expression* inductivement :
 
 L'on se permettra l'utilisation de parenthèses pour indiquer de l'ordre des opérations. On note $E$ l'ensemble des expressions.
 
+On pourra noter $x_1,x_2,...,x_n\mapsto e$ pour dénoté
+
 Soient $e\in E$ et $x,y\in V\times E$, on définie l'opération de substitution $e[x\larr y]$ inductivement :
  - $x[x\larr y] := y$
  
@@ -45,10 +47,10 @@ On définie les expressions suivantes :
 
 ## Préliminaire
 
-1. Donnez un calcul de $, 
+1. Donnez un calcul de $K(K)(I)$, de $I(I)$, de $K(I)(\Delta)$
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul.
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3NTI4MTUwLDIwMTk4MzcwNTksNDgyOD
-AyNzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTY4ODM2MjU4OCwyMDE5ODM3MDU5LDQ4Mj
+gwMjczOSwtMjA4ODc0NjYxMl19
 -->
