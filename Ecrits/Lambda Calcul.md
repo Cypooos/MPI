@@ -8,6 +8,8 @@ La dernière partie s'intéresse à la notion de confluence, et fait introduire 
 
 ## Définitions
 
+Soit $\Sigma$ un ensemble de *symboles*. On dis que $\omega=\omega_1...\omega_n$ est un *mot* s'il est une suite finie de lettre.
+ Pour $\omega$ un mot, on note $|\omega|$ sa longueur et $|\omega|_\alpha$
 
 ## Préliminaire
 
@@ -15,5 +17,6 @@ La dernière partie s'intéresse à la notion de confluence, et fait introduire 
 Soit $V$ un ensemble de variables. 
 On définie une instruction de lambda cal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Mjg4Mjc0NSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE1MjkyNDM4MDcsLTIwODg3NDY2MTJdfQ
+==
 -->
