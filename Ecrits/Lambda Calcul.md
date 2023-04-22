@@ -93,8 +93,8 @@ On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'ad
 On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ a été écrite ; l'écrire est l'objet de la partie II.
 
 ## Condition sur les entiers de Church
-9. Donnez $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
-10. Donnez $\text{eq}$ une expression tel que :
+9. Définir$\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
+10. Définir $\text{eq}$ une expression tel que :
     * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
     * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
 # Partie II
@@ -104,7 +104,7 @@ On définie :
 $$D = (x,y,z \mapsto z(x,y))$$
 
 1. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$
-2. 
+2. Définir $A$ une expression telle que $A(D(C_n,C_{n+1}))$
 
 
 ## Soustraction
@@ -119,9 +119,9 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzcyNzUwNDUsMTAzMDgxMzk1MCw2Nj
-E0MTE0NDQsLTE5OTEzNTgwNTUsLTE4MTUxNTc3NjYsLTEzODcx
-NzU3ODIsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5ODUyNz
-Y1MDksMjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJd
-fQ==
+eyJoaXN0b3J5IjpbLTI4NjY4MTYzLC0yMTM3Mjc1MDQ1LDEwMz
+A4MTM5NTAsNjYxNDExNDQ0LC0xOTkxMzU4MDU1LC0xODE1MTU3
+NzY2LC0xMzg3MTc1NzgyLC0xNTgyODk2NjU5LC0xNjg3NTQyOT
+kyLC0xOTg1Mjc2NTA5LDIwMTk4MzcwNTksNDgyODAyNzM5LC0y
+MDg4NzQ2NjEyXX0=
 -->
