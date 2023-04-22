@@ -13,11 +13,15 @@ Soit $\Sigma$ un ensemble de *lettres*. On dis que $\omega=\omega_1...\omega_n$ 
  Soit $n\in\N$, on note $\Sigma^n$ l'ensemble des mots de $\Sigma$ à $n$ lettres. On note $\Sigma^* = \cup_{n\in\N}\Sigma^n$
 On appelle *langage* un sous-ensemble de mots.
 
+Soit $V$ un ensemble de *variables* que l'on 
+On définie une expression
+
 ## Préliminaire
 
 
 Soit $V$ un ensemble de variables. 
 On définie une instruction de lambda cal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyODAyNzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTEyOTY5MzM3MTAsNDgyODAyNzM5LC0yMD
+g4NzQ2NjEyXX0=
 -->
