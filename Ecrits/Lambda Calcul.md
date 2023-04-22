@@ -121,14 +121,14 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 17. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe. 
 
 ## Petit exemple
-On pose les expressions :
-$$M &= f,n\mapsto (\text{if0}(n)(\top)(\text{not}(f(\text{sub}(x,1)))))\\
-M' = \Theta(M)$$
-18. 
+On pose l'expression :
+$$M = f,n\mapsto (\text{if0}(n)(\top)(\text{not}(f(\text{sub}(x,1)))))$$
+18. Montrez que $M(C_0) \to^*\Tau$ et $M($
+19. Existe t'il un 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTczMDU1OSwtOTI1NDgyMDY2LC0xND
-c3ODIxMzQ5LC0yMTM3Mjc1MDQ1LDEwMzA4MTM5NTAsNjYxNDEx
-NDQ0LC0xOTkxMzU4MDU1LC0xODE1MTU3NzY2LC0xMzg3MTc1Nz
-gyLC0xNTgyODk2NjU5LC0xNjg3NTQyOTkyLC0xOTg1Mjc2NTA5
-LDIwMTk4MzcwNTksNDgyODAyNzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNzAyNDUxMDgsLTkyNTQ4MjA2NiwtMTQ3Nz
+gyMTM0OSwtMjEzNzI3NTA0NSwxMDMwODEzOTUwLDY2MTQxMTQ0
+NCwtMTk5MTM1ODA1NSwtMTgxNTE1Nzc2NiwtMTM4NzE3NTc4Mi
+wtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4NTI3NjUwOSwy
+MDE5ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0NjYxMl19
 -->
