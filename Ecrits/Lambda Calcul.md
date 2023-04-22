@@ -31,7 +31,7 @@ Soient $e\in E$ et $x,y\in V\times E$, on définie l'opération de substitution 
 
 Informellement, l'on remplace toute les occurrences libre de $x$ par $y$ dans $e$. On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$
 
-On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression $a'=$ "$e[x\larr e']$". On note alors $a\to a'$
+On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression $a'=$ "$e[x\larr e']$". On note alors $a\to a'$. On dit que 
 
 ## Préliminaire
 
@@ -39,6 +39,6 @@ On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression
 Soit $V$ un ensemble de variables. 
 On définie une instruction de lambda cal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2MDY0NjcsMjAxOTgzNzA1OSw0ODI4MD
-I3MzksLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbOTgwMjkxMjM2LDIwMTk4MzcwNTksNDgyOD
+AyNzM5LC0yMDg4NzQ2NjEyXX0=
 -->
