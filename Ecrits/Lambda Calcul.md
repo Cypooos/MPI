@@ -99,14 +99,15 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\ma
     * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
 # Partie II
 L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
-## Couples 
 On définie :
 $$D = (x,y,z \mapsto z(x,y))$$
+
+qui représente un couple $(x,y)$
 
 1. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$
 2. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1}))$
 3. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$
-4. Définir 
+4. Définir $\text{sub}$ telle que telle $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$
 
 
 ## Soustraction
@@ -121,9 +122,9 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMDk5OTI3MSwtMjEzNzI3NTA0NSwxMD
-MwODEzOTUwLDY2MTQxMTQ0NCwtMTk5MTM1ODA1NSwtMTgxNTE1
-Nzc2NiwtMTM4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mj
-k5MiwtMTk4NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwt
-MjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTExNzU2NjQ4NzIsLTIxMzcyNzUwNDUsMT
+AzMDgxMzk1MCw2NjE0MTE0NDQsLTE5OTEzNTgwNTUsLTE4MTUx
+NTc3NjYsLTEzODcxNzU3ODIsLTE1ODI4OTY2NTksLTE2ODc1ND
+I5OTIsLTE5ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4MDI3Mzks
+LTIwODg3NDY2MTJdfQ==
 -->
