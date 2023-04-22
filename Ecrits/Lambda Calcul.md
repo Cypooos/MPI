@@ -131,16 +131,15 @@ $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 18. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
-19. Montrez que $\text{fact}(C_n)$ est unaire.
-20. Quel est un point fixe de $\text{fact}(C_n)$ ?
+19. Montrez que $\text{fact}$ est unitaire.
 
 ## Généralisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA0OTgxNjEsLTE2MjYwNTgwNTMsLT
-E5NDk3NDY0MzYsLTkyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwtMjEz
-NzI3NTA0NSwxMDMwODEzOTUwLDY2MTQxMTQ0NCwtMTk5MTM1OD
-A1NSwtMTgxNTE1Nzc2NiwtMTM4NzE3NTc4MiwtMTU4Mjg5NjY1
-OSwtMTY4NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5ODM3MDU5LD
-Q4MjgwMjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTI5MDI3MTM2NSwtMTYyNjA1ODA1MywtMT
+k0OTc0NjQzNiwtOTI1NDgyMDY2LC0xNDc3ODIxMzQ5LC0yMTM3
+Mjc1MDQ1LDEwMzA4MTM5NTAsNjYxNDExNDQ0LC0xOTkxMzU4MD
+U1LC0xODE1MTU3NzY2LC0xMzg3MTc1NzgyLC0xNTgyODk2NjU5
+LC0xNjg3NTQyOTkyLC0xOTg1Mjc2NTA5LDIwMTk4MzcwNTksND
+gyODAyNzM5LC0yMDg4NzQ2NjEyXX0=
 -->
