@@ -54,10 +54,12 @@ On définie les expressions suivantes :
 
 ## Entiers de Church
 
-Pour tout $n\in\N$, on pose $C_n = (f,x\mapsto f(f(...$
+Pour tout $n\in\N$, on pose $C_n = f,x\mapsto f(f(...(f(x))...))$ avec $n$ occurences de $f$
+On a donc $C_0 = f,x\mapsto x$
+3. $n=0 \iff C_n = K$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MDkzMzEzLDIwMTk4MzcwNTksNDgyOD
-AyNzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE3Nzg2NjgxNTUsMjAxOTgzNzA1OSw0OD
+I4MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
