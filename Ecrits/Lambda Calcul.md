@@ -90,20 +90,20 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 8. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$
 
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
-On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n)(C_m) \to^* C_{\max\{n-m;0\}}$ a été écrite ; l'écrire est l'objet de la partie II.
+On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ a été écrite ; l'écrire est l'objet de la partie II.
 
 ## Condition sur les entiers de Church
 9. Donnez $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
 10. Donnez $\text{eq}$ une expression tel que :
-    * $\text{eq}(C_n)(C_m) \to^* \top$ si $n=m$
-    * $\text{eq}(C_n)(C_m) \to^* \bot$ si $n\neq m$
+    * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
+    * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
 # Partie II
 L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
 ## Couples 
 On définie :
 $$D = (x,y,z \mapsto z(x)(y))$$
 
-1. Montrez que $D(e)(e')(\top) \to^* e$ et  $D(e)(e')(\bot) \to^* e'$
+1. Montrez que $D(e,e',\top) \to^* e$ et  $D(e)(e')(\bot) \to^* e'$
 2. 
 
 
@@ -119,9 +119,9 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY3NjQ0MTUwLDEwMzA4MTM5NTAsNjYxND
-ExNDQ0LC0xOTkxMzU4MDU1LC0xODE1MTU3NzY2LC0xMzg3MTc1
-NzgyLC0xNTgyODk2NjU5LC0xNjg3NTQyOTkyLC0xOTg1Mjc2NT
-A5LDIwMTk4MzcwNTksNDgyODAyNzM5LC0yMDg4NzQ2NjEyXX0=
-
+eyJoaXN0b3J5IjpbLTEwNTU4MzMxMzMsMTAzMDgxMzk1MCw2Nj
+E0MTE0NDQsLTE5OTEzNTgwNTUsLTE4MTUxNTc3NjYsLTEzODcx
+NzU3ODIsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5ODUyNz
+Y1MDksMjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJd
+fQ==
 -->
