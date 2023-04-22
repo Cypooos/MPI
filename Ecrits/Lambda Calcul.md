@@ -121,7 +121,7 @@ $$\text{fix}(f) \to f(\text{fix}(f))$$
 
 On appelle $e$ un point fixe de $f$
 
-20. Donnez $f$
+20. Donnez $f\in E$ qui admet un point fixe
 21. (*) Donnez une expression $\Theta$ point-fixe.
 
 ## La fonction récursive factorielle
@@ -135,11 +135,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 ## Généralisation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjAxODA3OCwtMjczNjQ4NDk3LC0xMz
-EyMzYxODI4LDExNTcxNDY1NjIsMTY0NDU5ODU1OCwtMTkyNTgx
-MTc2LC0xNzU2NzcwMDE1LC0xNjI2MDU4MDUzLC0xOTQ5NzQ2ND
-M2LC05MjU0ODIwNjYsLTE0Nzc4MjEzNDksLTIxMzcyNzUwNDUs
-MTAzMDgxMzk1MCw2NjE0MTE0NDQsLTE5OTEzNTgwNTUsLTE4MT
-UxNTc3NjYsLTEzODcxNzU3ODIsLTE1ODI4OTY2NTksLTE2ODc1
-NDI5OTIsLTE5ODUyNzY1MDldfQ==
+eyJoaXN0b3J5IjpbLTExMTk0MDcxOTMsLTI3MzY0ODQ5NywtMT
+MxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLTE5MjU4
+MTE3NiwtMTc1Njc3MDAxNSwtMTYyNjA1ODA1MywtMTk0OTc0Nj
+QzNiwtOTI1NDgyMDY2LC0xNDc3ODIxMzQ5LC0yMTM3Mjc1MDQ1
+LDEwMzA4MTM5NTAsNjYxNDExNDQ0LC0xOTkxMzU4MDU1LC0xOD
+E1MTU3NzY2LC0xMzg3MTc1NzgyLC0xNTgyODk2NjU5LC0xNjg3
+NTQyOTkyLC0xOTg1Mjc2NTA5XX0=
 -->
