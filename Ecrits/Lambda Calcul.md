@@ -33,7 +33,7 @@ On définie une *expression* inductivement :
 L'on se permettra l'utilisation de parenthèses pour indiquer de l'ordre des opérations. On note $E$ l'ensemble des expressions.
 
 On pourra noter $x_1,x_2,...,x_n\mapsto e$ pour dénoter $x_1\mapsto (x_2\mapsto(...(x_n\mapsto e)...))$
-
+On pourra aussi noter $e(x_1)(x_2)...(x_n)$ comme $e(x_1,x_2,...,x_n)$
 
 Soient $e\in E$ et $x,y\in V\times E$, on définie l'opération de substitution $e[x\larr y]$ inductivement :
  - $x[x\larr y] := y$
@@ -61,19 +61,19 @@ On définie les expressions suivantes :
 # Partie 1
 
 ## Préliminaires
-1. Donnez un calcul normalisant de $K(K)(I)$, de $I(I)$, de $K(I)(\Delta)$
+1. Donnez un calcul normalisant de $K(K,I)$, de $I(I)$, de $K(I,\Delta)$
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
 
 On s'intéresse maintenant à la création de différents objets de base.
 ## Booléens
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
-On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1)(f_2))$
+On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 
-3. Montrez que, soit $b\in B$ et $e,e'\in E$, on a $\text{if}(b)(e)(e') \to^* e \iff b = \top$
+3. Montrez que, soit $b\in B$ et $e,e'\in E$, on a $\text{if}(b,e,e') \to^* e \iff b = \top$
 4. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
 5. Définir une expression $\text{and}$ tel que, soit $b,b'\in B$, on ai:
-   * $\text{and}(b)(b') \to^* \top$  si $b=b'=\top$
-   * $\text{and}(b)(b') \to^* \bot$  sinon
+   * $\text{and}(b,b') \to^* \top$  si $b=b'=\top$
+   * $\text{and}(b,b') \to^* \bot$  sinon
 
 ## Entiers de Church
 
@@ -86,8 +86,8 @@ Pour tout $n\in\N$, on pose :
 On appelle $C_n$ l'*entier de Church* associé à $n$.
 
 6. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to^* C_{n+1}$
-7. Définir une expression $\text{add}$ tel que $\text{add}(C_n)(C_m) \to^* C_{n+m}$
-8. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n)(C_m) \to^* C_{n\times m}$
+7. Définir une expression $\text{add}$ tel que $\text{add}(C_n,C_m) \to^* C_{n+m}$
+8. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$
 
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
 On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n)(C_m) \to^* C_{\max\{n-m;0\}}$ a été écrite ; l'écrire est l'objet de la partie II.
@@ -119,9 +119,9 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4MzIxNzUsMTAzMDgxMzk1MCw2NjE0MT
-E0NDQsLTE5OTEzNTgwNTUsLTE4MTUxNTc3NjYsLTEzODcxNzU3
-ODIsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5ODUyNzY1MD
-ksMjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNDY3NjQ0MTUwLDEwMzA4MTM5NTAsNjYxND
+ExNDQ0LC0xOTkxMzU4MDU1LC0xODE1MTU3NzY2LC0xMzg3MTc1
+NzgyLC0xNTgyODk2NjU5LC0xNjg3NTQyOTkyLC0xOTg1Mjc2NT
+A5LDIwMTk4MzcwNTksNDgyODAyNzM5LC0yMDg4NzQ2NjEyXX0=
 
 -->
