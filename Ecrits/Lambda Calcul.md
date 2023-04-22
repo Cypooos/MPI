@@ -64,10 +64,13 @@ On a donc:
 On appelle $C_n$ l'*entier de Church* associé à $n$
 
 4. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to^* C_{n+1}$
-5. Définir une expression $\text{add}$ tel que $\text{add}(C_n)(C_m) \to^* C$
+5. Définir une expression $\text{add}$ tel que $\text{add}(C_n)(C_m) \to^* C_{n+m}$
+6. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n)(C_m) \to^* C_{n\times m}$
+
+## Op
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTcwNTUxMCwyMDE5ODM3MDU5LDQ4Mj
-gwMjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEyMTA2NTgwOTYsMjAxOTgzNzA1OSw0OD
+I4MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
