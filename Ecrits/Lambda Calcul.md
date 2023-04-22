@@ -9,7 +9,7 @@ La partie III s'intéresse au règles de grammaire de la logique combinatoire
 La dernière partie s'intéresse à la notion de confluence, et fait introduire des graphes.
 
 En gras sont indiqué les questions encore plus difficiles que les autres.
-On pourra 
+On pourra admettre une question pour passer à la suite.
 
 # Définitions
 
@@ -79,9 +79,10 @@ On dit que $\text{fix}$ est un opérateur point-fixe si, soit $f\in E$, on a :
 $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
 7. Montrez que si $\text{fix}(f)$ admet un calcul normalisant, alors il existe $e\in E$ tel que $f(e)\to^* e$
-8. **En s'inspirant de $\Delta$, donnez une expression point-fixe.** 
+8. **En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.**
+10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTk1OTI3MjksLTE2ODc1NDI5OTIsLT
+eyJoaXN0b3J5IjpbLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLT
 E5ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3
 NDY2MTJdfQ==
 -->
