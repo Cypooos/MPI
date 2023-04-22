@@ -99,7 +99,10 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n)(C_m) \to^* C_{\m
 # Partie II
 L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
 ## Couples 
-On définie, pour 
+On définie, pour $n,m\in\N$ :
+$$D(n,m) = x\mapsto (x(C_n)(C_m))$$
+
+
 
 
 ## Soustraction
@@ -114,7 +117,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MzUyMDUxMiwtMTk5MTM1ODA1NSwtMT
+eyJoaXN0b3J5IjpbLTczNzE5OTYyOSwtMTk5MTM1ODA1NSwtMT
 gxNTE1Nzc2NiwtMTM4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4
 NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMj
 czOSwtMjA4ODc0NjYxMl19
