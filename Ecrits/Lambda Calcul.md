@@ -98,7 +98,6 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\ma
     * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
     * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
 
-On peut maintenant écrire des progra
 # Partie II
 L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
 On définie :
@@ -112,6 +111,7 @@ qui représente un couple $(x,y)$
 4. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$
 
 # Partie III
+Le but de cette partie est de pouvoir faire des fonctions récursives.
 ## L'Opérateur Point-fixe
 
 On dit que $\text{fix}$ est un opérateur point-fixe si, soit $f\in E$, on a :
@@ -119,11 +119,14 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
 7. Montrez que si $\text{fix}(f)$ admet un calcul normalisant, alors il existe $e\in E$ tel que $f(e)\to^* e$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
-10. Montrez que 
+9. Montrez que 
+
+## Récursivité
+9.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTkwNDg1MTcsLTIxMzcyNzUwNDUsMT
-AzMDgxMzk1MCw2NjE0MTE0NDQsLTE5OTEzNTgwNTUsLTE4MTUx
-NTc3NjYsLTEzODcxNzU3ODIsLTE1ODI4OTY2NTksLTE2ODc1ND
-I5OTIsLTE5ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4MDI3Mzks
-LTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTY0NTk3OTg3LC0yMTM3Mjc1MDQ1LDEwMz
+A4MTM5NTAsNjYxNDExNDQ0LC0xOTkxMzU4MDU1LC0xODE1MTU3
+NzY2LC0xMzg3MTc1NzgyLC0xNTgyODk2NjU5LC0xNjg3NTQyOT
+kyLC0xOTg1Mjc2NTA5LDIwMTk4MzcwNTksNDgyODAyNzM5LC0y
+MDg4NzQ2NjEyXX0=
 -->
