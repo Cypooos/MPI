@@ -67,7 +67,7 @@ On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\b
 On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1)(f_2))$
 
 3. Montrez que, soit $b\in B$ et $e,e'\in E$, on a $\text{if}(b)(e)(e') \to^* e \iff b = \top$
-4. Définir une expression $\text{not}$ tel que $b=\top \iff \text{not}(b) \to^*$
+4. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
 
 ## Entiers de Church
 
@@ -80,7 +80,7 @@ Pour tout $n\in\N$, on pose :
 On appelle $C_n$ l'*entier de Church* associé à $n$
 
 4. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to^* C_{n+1}$
-5. Définir une expression $\text{add}$ tel que $\text{add}(C_n)(C_m) \to^* C_{n+m}$
+5. (*) Définir une expression $\text{add}$ tel que $\text{add}(C_n)(C_m) \to^* C_{n+m}$
 6. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n)(C_m) \to^* C_{n\times m}$
 
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
@@ -95,7 +95,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjIyMDcxMywtMTU4Mjg5NjY1OSwtMT
-Y4NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5ODM3MDU5LDQ4Mjgw
-MjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEzODcxNzU3ODIsLTE1ODI4OTY2NTksLT
+E2ODc1NDI5OTIsLTE5ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4
+MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
