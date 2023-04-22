@@ -34,6 +34,7 @@ L'on se permettra l'utilisation de parenthèses pour indiquer de l'ordre des op�
 
 On pourra noter $x_1,x_2,...,x_n\mapsto e$ pour dénoter $x_1\mapsto (x_2\mapsto(...(x_n\mapsto e)...))$
 
+
 Soient $e\in E$ et $x,y\in V\times E$, on définie l'opération de substitution $e[x\larr y]$ inductivement :
  - $x[x\larr y] := y$
  
@@ -102,8 +103,8 @@ L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
 On définie :
 $$D = (x,y,z \mapsto z(x)(y))$$
 
-1. Montrez que $D(C_n,C_m)(\top) \to^* C_n$ et  $D(n,m)(\bot) \to^* C_m$
-2. Donnez $\text{couple}$ tel que $\text{couple}(C_n)(C_m) \to^* D(n,m)$
+1. Montrez que $D(e)(e')(\top) \to^* e$ et  $D(e)(e')(\bot) \to^* e'$
+2. 
 
 
 ## Soustraction
@@ -118,9 +119,9 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzYyNDExODEsMTAzMDgxMzk1MCw2Nj
-E0MTE0NDQsLTE5OTEzNTgwNTUsLTE4MTUxNTc3NjYsLTEzODcx
-NzU3ODIsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5ODUyNz
-Y1MDksMjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJd
-fQ==
+eyJoaXN0b3J5IjpbMzg4MzIxNzUsMTAzMDgxMzk1MCw2NjE0MT
+E0NDQsLTE5OTEzNTgwNTUsLTE4MTUxNTc3NjYsLTEzODcxNzU3
+ODIsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5ODUyNzY1MD
+ksMjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJdfQ==
+
 -->
