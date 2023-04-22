@@ -36,7 +36,7 @@ On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression
 On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$. $A'$ est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$ avec $A_n$ sous forme normale.
-Si il existe au plus un
+Si il existe au plus qu'un calcul de $A$ possible, on dit que $A$ est unitaire.
 
 On définie les expressions suivantes :
  - $I = (x\mapsto x)$
@@ -45,8 +45,9 @@ On définie les expressions suivantes :
 
 ## Préliminaire
 
-1. Montrez que l'expression 
+1. Montrez que l'expression $$
+2. Montrez que l'expression $\Delta(\Delta)$ ne 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzg4MTY3OCwyMDE5ODM3MDU5LDQ4Mj
+eyJoaXN0b3J5IjpbMTc4NjQ1ODg5NCwyMDE5ODM3MDU5LDQ4Mj
 gwMjczOSwtMjA4ODc0NjYxMl19
 -->
