@@ -4,11 +4,12 @@ Ce sujet est **EXTREMEMENT** difficile, et balaye les chapitres de Grammaire, Lo
 
 Ce sujet introduit la théorie derrière les langages fonctionnel : le lambda calcul.
 La partie I propose une introduction généralisé, et propose une implémentation d'objets simple
-La partie II s'intéresse à l
-La partie II porte sur de la logique, des expressions typées
-La partie III s'intéresse au règles de grammaire et à la logique combinatoire
-La dernière partie s'intéresse à la notion de confluence, et fait introduire des graphes.
+La partie II s'intéresse à l'opérateur point fixe et au expressions récursives
+La partie III porte sur de la logique, des expressions typées
+La partie IV s'intéresse au règles de grammaire et à la logique combinatoire
+La partie V partie s'intéresse à la notion de confluence, et fait introduire des graphes.
 
+Toutes les parties sont dépendante de la partie 1, mais sont indépendantes entre elles.
 En gras sont indiqué les questions encore plus difficiles que les autres.
 On pourra admettre une question pour passer à la suite.
 
@@ -74,16 +75,17 @@ On appelle $C_n$ l'*entier de Church* associé à $n$
 
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
 
-## Opérateur Point-fixe
+# Partie II
+## L'Opérateur Point-fixe
 
 On dit que $\text{fix}$ est un opérateur point-fixe si, soit $f\in E$, on a :
 $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
 7. Montrez que si $\text{fix}(f)$ admet un calcul normalisant, alors il existe $e\in E$ tel que $f(e)\to^* e$
-8. **En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.**
+8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE3MzA3MzcsLTE1ODI4OTY2NTksLT
-E2ODc1NDI5OTIsLTE5ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4
-MDI3MzksLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMzU1MzczNzEwLC0xNTgyODk2NjU5LC0xNj
+g3NTQyOTkyLC0xOTg1Mjc2NTA5LDIwMTk4MzcwNTksNDgyODAy
+NzM5LC0yMDg4NzQ2NjEyXX0=
 -->
