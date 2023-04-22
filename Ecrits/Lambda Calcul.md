@@ -36,12 +36,13 @@ On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression
 On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$. $A'$ est $A$ ou l'on a remplacé $a$ par son évaluation.
 
 On définie les expressions suivantes :
- - $I = $
+ - $I = (x\mapsto x)$
+ - $K =  (y\mapsto (x\mapsto y))$
 
 ## Préliminaire
 
-1.
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5MDAxMDY2LDIwMTk4MzcwNTksNDgyOD
-AyNzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE1NTk3NTA4OTQsMjAxOTgzNzA1OSw0OD
+I4MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
