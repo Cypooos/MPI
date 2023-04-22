@@ -22,8 +22,10 @@ On définie une *expression* inductivement :
 On note $E$ l'ensemble des expressions.
 
 Soient $e\in E$ et $v_1,v_2\in V$, on définie l'opération de substitution $e[v_1\larr v_2]$ inductivement :
- - $v_1[v_1\larr v_2] = v_2$
- - $v[v_1\larr v_2] = v_2$ pour 
+ - $v[v_1\larr v_2] = v_2$ pour $v=v_1$
+ - $v[v_1\larr v_2] = v$ pour $v\neq v_1$
+ - $e_1(e_2)[v_1\larr v_2] = e_1[v_1\larr v_2](e_2[v_1\larr v_2])$
+ - $e_1(e_2)[v_1\larr v_2] = e_1[v_1\larr v_2](e_2[v_1\larr v_2])$
 
 Soit $e,e'\in E$, on écrit $e\to e'$ si
 On ce permettera l'utillisation de parenthèses pour mieux comprendre
@@ -34,6 +36,6 @@ On ce permettera l'utillisation de parenthèses pour mieux comprendre
 Soit $V$ un ensemble de variables. 
 On définie une instruction de lambda cal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDczNTkyMTIsMjAxOTgzNzA1OSw0OD
+eyJoaXN0b3J5IjpbLTEzMjI3MDY3NjgsMjAxOTgzNzA1OSw0OD
 I4MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
