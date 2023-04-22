@@ -70,6 +70,7 @@ On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1)(f_2))$
 
 3. Montrez que, soit $b\in B$ et $e,e'\in E$, on a $\text{if}(b)(e)(e') \to^* e \iff b = \top$
 4. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
+4. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
 
 ## Entiers de Church
 
@@ -86,11 +87,11 @@ On appelle $C_n$ l'*entier de Church* associé à $n$
 7. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n)(C_m) \to^* C_{n\times m}$
 
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
-On suppose l'opréation $\text{sub}$
+On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n)(C_m) \to^* C_{\max\{n-m;0\}}$ a été écrite.
 
 ## Condition sur les entiers de Church
 8. Donnez $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$
-9. Donnez 
+9. Donnez $\text{$
 
 ## Partie II
 ## Soustraction
@@ -105,8 +106,8 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODQyNjQ1MCwtMTgxNTE1Nzc2NiwtMT
-M4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4
-NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0Nj
-YxMl19
+eyJoaXN0b3J5IjpbLTIwODcxNzI1MDYsLTE4MTUxNTc3NjYsLT
+EzODcxNzU3ODIsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5
+ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3ND
+Y2MTJdfQ==
 -->
