@@ -116,7 +116,7 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 On dit que $\text{fix}$ est un opérateur point-fixe si, pour tout $f\in E$, on a :
 $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
-15. Montrez que si $\text{fix}(f)$ admet un calcul normalisant, alors il existe $e\in E$ tel que $f(e)\to^* e$ ???,
+15. Montrez que si $\text{fix}(f)$ admet un calcul normalisant, alors il existe $e\in E$ tel que $f(e)\to^* e$ ???
 
 On apelle $e$ un point fixe de $f$
 
@@ -136,10 +136,10 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 ## Généralisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTY3NzQyOSwtMTk0OTc0NjQzNiwtOT
-I1NDgyMDY2LC0xNDc3ODIxMzQ5LC0yMTM3Mjc1MDQ1LDEwMzA4
-MTM5NTAsNjYxNDExNDQ0LC0xOTkxMzU4MDU1LC0xODE1MTU3Nz
-Y2LC0xMzg3MTc1NzgyLC0xNTgyODk2NjU5LC0xNjg3NTQyOTky
-LC0xOTg1Mjc2NTA5LDIwMTk4MzcwNTksNDgyODAyNzM5LC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE2MjYwNTgwNTMsLTE5NDk3NDY0MzYsLT
+kyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwtMjEzNzI3NTA0NSwxMDMw
+ODEzOTUwLDY2MTQxMTQ0NCwtMTk5MTM1ODA1NSwtMTgxNTE1Nz
+c2NiwtMTM4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5
+MiwtMTk4NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwtMj
+A4ODc0NjYxMl19
 -->
