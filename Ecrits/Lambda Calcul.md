@@ -54,12 +54,11 @@ On définie les expressions suivantes :
 
 ## Entiers de Church
 
-Pour tout $n\in\N$,  avec $n$ occurences de $f$
-On a donc:
+Pour tout $n\in\N$, on pose :
  - $C_0 = [f,x\mapsto x]$
  - $C_1 = [f,x\mapsto f(x)]$
  - $C_2 = [f,x\mapsto f(f(x))]$
- - $C_n = [f,x\mapsto f(f(...(f(x))...))]$ avec $n$ répétition de 
+ - $C_n = [f,x\mapsto f(f(...(f(x))...))]$ avec $n$ répétitions de $f$ imbriqué
 
 On appelle $C_n$ l'*entier de Church* associé à $n$
 
@@ -71,8 +70,11 @@ On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'ad
 
 ## Opérateur Point-fixe
 
+On dit que $\text{fix}$ est un opérateur point-fixe si, soit $e\in E$, on a :
+$$\text{$$
+
 7.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwMDI0Njg2LDIwMTk4MzcwNTksNDgyOD
-AyNzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE3MDM5MDY1MDEsMjAxOTgzNzA1OSw0OD
+I4MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
