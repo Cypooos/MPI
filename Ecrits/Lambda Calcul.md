@@ -117,8 +117,11 @@ On dit que $\text{fix}$ est un opérateur point-fixe si, pour tout $f\in E$, on 
 $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
 15. Montrez que si $\text{fix}(f)$ admet un calcul normalisant, alors il existe $e\in E$ tel que $f(e)\to^* e$
-16. Montrez que une $\Theta(A)$ ne peux pas être unitaire.
-17. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe. 
+
+On apelle $e$ un point fixe de $f$
+
+17. Montrez que une $\Theta(A)$ ne peux pas être unitaire.
+18. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe. 
 
 ## Factorielle
 On définie :
@@ -128,13 +131,14 @@ $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 18. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
+19. Quel est un point fixe de $\text{fact\_rec}$ ?
 
 ## Généralisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3NzQzMjk4LC05MjU0ODIwNjYsLTE0Nz
-c4MjEzNDksLTIxMzcyNzUwNDUsMTAzMDgxMzk1MCw2NjE0MTE0
-NDQsLTE5OTEzNTgwNTUsLTE4MTUxNTc3NjYsLTEzODcxNzU3OD
-IsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5ODUyNzY1MDks
-MjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE2MzgzMTI4MTUsLTkyNTQ4MjA2NiwtMT
+Q3NzgyMTM0OSwtMjEzNzI3NTA0NSwxMDMwODEzOTUwLDY2MTQx
+MTQ0NCwtMTk5MTM1ODA1NSwtMTgxNTE1Nzc2NiwtMTM4NzE3NT
+c4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4NTI3NjUw
+OSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0NjYxMl19
 -->
