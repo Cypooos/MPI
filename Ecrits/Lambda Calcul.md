@@ -12,8 +12,8 @@ La partie V partie s'intéresse à la notion de confluence, et fait introduire d
 
 Toutes les parties sont dépendante de la partie 1, mais sont indépendantes entre elles.
 
-Les questions plus difficile sont préambulé d'une étoile.
-On pourra admettre une question pour passer à la suite.
+Les questions plus difficile sont préambulées d'une étoile (*).
+On pourra admettre une question pour passer à la suivante.
 
 # Définitions
 
@@ -61,6 +61,8 @@ On définie les expressions suivantes :
 1. Donnez un calcul de $K(K)(I)$, de $I(I)$, de $K(I)(\Delta)$
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
 
+## 
+
 ## Entiers de Church
 
 Pour tout $n\in\N$, on pose :
@@ -84,10 +86,10 @@ On dit que $\text{fix}$ est un opérateur point-fixe si, soit $f\in E$, on a :
 $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
 7. Montrez que si $\text{fix}(f)$ admet un calcul normalisant, alors il existe $e\in E$ tel que $f(e)\to^* e$
-8. * En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
+8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyNzUxMDQ2LC0xNTgyODk2NjU5LC0xNj
-g3NTQyOTkyLC0xOTg1Mjc2NTA5LDIwMTk4MzcwNTksNDgyODAy
-NzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTEzMTAzOTYwMzksLTE1ODI4OTY2NTksLT
+E2ODc1NDI5OTIsLTE5ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4
+MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
