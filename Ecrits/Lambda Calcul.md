@@ -38,7 +38,7 @@ On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$
 On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression $â=$ "$e[x\larr e']$". 
 On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$, ou $A'$ est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
-On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$ avec $A_n$ sous forme normale.
+On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. Si $A_n$ est sous forme normale, on appelle
 Si il existe au plus qu'un seul calcul de $A$ possible, on dit que $A$ est unitaire.
 
 On définie les expressions suivantes :
@@ -64,10 +64,10 @@ On a donc:
 On appelle $C_n$ l'*entier de Church* associé à $n$
 
 4. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to C_{n+1}$
-5. Définir une expression $\text$
+5. Définir une expression $\text{add}$ tel que $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTkyNTQ5OTEsMjAxOTgzNzA1OSw0OD
+eyJoaXN0b3J5IjpbLTE0Mzc5Nzg2ODMsMjAxOTgzNzA1OSw0OD
 I4MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
