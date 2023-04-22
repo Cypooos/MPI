@@ -86,9 +86,11 @@ On appelle $C_n$ l'*entier de Church* associé à $n$
 7. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n)(C_m) \to^* C_{n\times m}$
 
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
+On suppose l'opréation $\text{sub}$
 
 ## Condition sur les entiers de Church
-8. Donnez $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ si $$
+8. Donnez $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$
+9. Donnez 
 
 ## Partie II
 ## Soustraction
@@ -103,7 +105,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzExNDkwMiwtMTgxNTE1Nzc2NiwtMT
+eyJoaXN0b3J5IjpbLTgzODQyNjQ1MCwtMTgxNTE1Nzc2NiwtMT
 M4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4
 NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0Nj
 YxMl19
