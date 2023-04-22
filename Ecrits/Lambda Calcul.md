@@ -33,12 +33,11 @@ Soient $e\in E$ et $x,y\in V\times E$, on définie l'opération de substitution 
 
 Informellement, l'on remplace toute les occurrences libre de $x$ par $y$ dans $e$. On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$
 
-On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression $â=$ "$e[x\larr e']$". On note alors $a\to a'$.
-
-On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$. $A'$ est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
+On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression $â=$ "$e[x\larr e']$". 
+On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$, ou $A'$ est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$ avec $A_n$ sous forme normale.
-Si il existe au plus qu'un calcul de $A$ possible, on dit que $A$ est unitaire.
+Si il existe au plus qu'un seul calcul de $A$ possible, on dit que $A$ est unitaire.
 
 On définie les expressions suivantes :
  - $I = (x\mapsto x)$
@@ -51,6 +50,6 @@ On définie les expressions suivantes :
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul.
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODI0MDUyNCwyMDE5ODM3MDU5LDQ4Mj
+eyJoaXN0b3J5IjpbLTMyODM4ODQ1MSwyMDE5ODM3MDU5LDQ4Mj
 gwMjczOSwtMjA4ODc0NjYxMl19
 -->
