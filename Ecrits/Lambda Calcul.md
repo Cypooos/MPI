@@ -102,7 +102,8 @@ L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
 On définie, pour $n,m\in\N$ :
 $$D(n,m) = x\mapsto (x(C_n)(C_m))$$
 
-
+1. Montrez que $D(n,m)(\top) \to^* C_n$ et  $D(n,m)(\bot) \to^* C_m$
+2. Donnez $\text{couple}$ tel que 
 
 
 ## Soustraction
@@ -117,7 +118,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzE5OTYyOSwtMTk5MTM1ODA1NSwtMT
+eyJoaXN0b3J5IjpbMTgzNjEwMDkzMywtMTk5MTM1ODA1NSwtMT
 gxNTE1Nzc2NiwtMTM4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4
 NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMj
 czOSwtMjA4ODc0NjYxMl19
