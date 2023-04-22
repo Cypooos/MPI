@@ -114,7 +114,7 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 ## L'opérateur Point-fixe
 
 On dit que $\text{fix}$ est un opérateur point-fixe si, pour tout $f\in E$, on a :
-$$\text{fix}(f) \to^* f(\text{fix}(f))$$
+$$\text{fix}(f) \to f(\text{fix}(f))$$
 
 15. Supposons que $$, alors il existe $e\in E$ tel que $f(e)\to^* e$
 
@@ -135,7 +135,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 ## Généralisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjk4NzA2MiwxNjQ0NTk4NTU4LC0xOT
+eyJoaXN0b3J5IjpbMTE1NzE0NjU2MiwxNjQ0NTk4NTU4LC0xOT
 I1ODExNzYsLTE3NTY3NzAwMTUsLTE2MjYwNTgwNTMsLTE5NDk3
 NDY0MzYsLTkyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwtMjEzNzI3NT
 A0NSwxMDMwODEzOTUwLDY2MTQxMTQ0NCwtMTk5MTM1ODA1NSwt
