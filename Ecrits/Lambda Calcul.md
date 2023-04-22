@@ -21,7 +21,7 @@ On définie une *expression* inductivement :
 
 L'on se permettra l'utilisation de parenthèses pour indiquer de l'ordre des opérations. On note $E$ l'ensemble des expressions.
 
-On pourra noter $x_1,x_2,...,x_n\mapsto e$ pour dénoté
+On pourra noter $x_1,x_2,...,x_n\mapsto e$ pour dénoter $x_1\mapsto (x_2\mapsto(...(x_n\mapsto e)...))$
 
 Soient $e\in E$ et $x,y\in V\times E$, on définie l'opération de substitution $e[x\larr y]$ inductivement :
  - $x[x\larr y] := y$
@@ -51,6 +51,6 @@ On définie les expressions suivantes :
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul.
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4ODM2MjU4OCwyMDE5ODM3MDU5LDQ4Mj
+eyJoaXN0b3J5IjpbLTY3ODI0MDUyNCwyMDE5ODM3MDU5LDQ4Mj
 gwMjczOSwtMjA4ODc0NjYxMl19
 -->
