@@ -6,7 +6,7 @@ La partie II porte sur de la logique, et typé des expressions
 La partie III s'intéresse au règles de grammaire de la logique combinatoire
 La dernière partie s'intéresse à la notion de confluence, et fait introduire des graphes.
 
-## Définitions
+# Définitions
 
 Soit $\Sigma$ un ensemble de *lettres*. On dis que $\omega=\omega_1...\omega_n$ est un *mot* s'il est une suite finie de lettre. On note $\varepsilon$ le mot vide.
  Pour $\omega$ un mot, on note $|\omega|$ sa longueur et pour $\alpha\in\Sigma$, on note $|\omega|_\alpha$ le nombre d'occurrences de $\alpha$ dans $\omega$.
@@ -31,7 +31,9 @@ Soient $e\in E$ et $x,y\in V\times E$, on définie l'opération de substitution 
   - $(x\mapsto e)[x\larr y] := x\mapsto e$
   - $(u\mapsto e)[x\larr y] := u\mapsto e[x\larr y]$ pour $u\in V\setminus \{x\}$
 
-Informellement, $e[x\larr y]$ est $e$ dans laquelle on a remplacé toute les occurences libre de $x$ par  On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$
+Informellement, $e[x\larr y]$ est $e$ dans laquelle on a remplacé toute les occurrences libre de $x$ par $y$.
+
+On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$
 
 On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression $â=$ "$e[x\larr e']$". 
 On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$, ou $A'$ est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
@@ -44,12 +46,16 @@ On définie les expressions suivantes :
  - $K =  (y\mapsto (x\mapsto y)) = (y,x\mapsto y)$
  - $\Delta = (x\mapsto x(x))$
 
-## Préliminaires
+# Partie 1
 
+## Préliminaires
 1. Donnez un calcul de $K(K)(I)$, de $I(I)$, de $K(I)(\Delta)$
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul.
-3. 
+
+## Entier de churchs
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTA1MDc5OSwyMDE5ODM3MDU5LDQ4Mj
+eyJoaXN0b3J5IjpbMTQxNzU4ODc2OSwyMDE5ODM3MDU5LDQ4Mj
 gwMjczOSwtMjA4ODc0NjYxMl19
 -->
