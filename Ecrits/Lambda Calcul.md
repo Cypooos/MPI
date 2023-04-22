@@ -15,7 +15,9 @@ On appelle *langage* un sous-ensemble de mots.
 
 Soit $V$ un ensemble de *variables*.
 On définie une expression inductivement :
- - *$x$* est une expression pour tout $x\ik$
+ - "$x$" est une expression pour tout $x\in V$
+ - "$e_1(e_2)$" est une expression po
+ - $x\in V$
 
 ## Préliminaire
 
@@ -23,6 +25,6 @@ On définie une expression inductivement :
 Soit $V$ un ensemble de variables. 
 On définie une instruction de lambda cal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5MDE5NjI1LDQ4MjgwMjczOSwtMjA4OD
-c0NjYxMl19
+eyJoaXN0b3J5IjpbLTE3MzMwNTY2MDgsNDgyODAyNzM5LC0yMD
+g4NzQ2NjEyXX0=
 -->
