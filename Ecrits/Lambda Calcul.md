@@ -5,10 +5,11 @@ Ce sujet est difficile, et balaye les chapitres de Grammaire, Logique, Langages,
 Ce sujet introduit la théorie derrière les langages fonctionnel : le lambda calcul.
 
 La partie I propose une introduction généralisé, et propose une implémentation d'objets de base.
-La partie II s'intéresse à l'opérateur point fixe et au expressions récursives.
-La partie III porte sur de la logique, des expressions typées.
-La partie IV s'intéresse au règles de grammaire et à la logique combinatoire.
-La partie V partie s'intéresse à la notion de confluence, et fait introduire des graphes.
+La partie II propose une implémentation de la soustraction.
+La partie III s'intéresse à l'opérateur point fixe et au expressions récursives.
+La partie IV porte sur de la logique, des expressions typées.
+La partie V s'intéresse au règles de grammaire et à la logique combinatoire.
+La partie VI partie s'intéresse à la notion de confluence, et fait introduire des graphes.
 
 Toutes les parties sont dépendante de la partie 1, mais sont indépendantes entre elles.
 
@@ -85,6 +86,8 @@ On appelle $C_n$ l'*entier de Church* associé à $n$
 
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
 
+## Soustraction
+
 # Partie II
 ## L'Opérateur Point-fixe
 
@@ -95,7 +98,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjUyMDU4LC0xMzg3MTc1NzgyLC0xNT
-gyODk2NjU5LC0xNjg3NTQyOTkyLC0xOTg1Mjc2NTA5LDIwMTk4
-MzcwNTksNDgyODAyNzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTY5OTM4MzcyOSwtMTM4NzE3NTc4MiwtMT
+U4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5
+ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0NjYxMl19
 -->
