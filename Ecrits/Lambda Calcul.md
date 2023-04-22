@@ -121,7 +121,7 @@ $$\text{fix}(f) \to f(\text{fix}(f))$$
 
 On appelle $e$ un point fixe de $f$
 
-20. Donnez un point fixe de 
+20. Donnez un point fixe de $\Delta$
 21. (*) Donnez une expression $\Theta$ point-fixe.
 
 ## La fonction récursive factorielle
@@ -135,7 +135,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 ## Généralisation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDQxMzgyMiwtMjczNjQ4NDk3LC0xMz
+eyJoaXN0b3J5IjpbMTQ0NjM0MjU4NiwtMjczNjQ4NDk3LC0xMz
 EyMzYxODI4LDExNTcxNDY1NjIsMTY0NDU5ODU1OCwtMTkyNTgx
 MTc2LC0xNzU2NzcwMDE1LC0xNjI2MDU4MDUzLC0xOTQ5NzQ2ND
 M2LC05MjU0ODIwNjYsLTE0Nzc4MjEzNDksLTIxMzcyNzUwNDUs
