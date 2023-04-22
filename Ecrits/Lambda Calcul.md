@@ -1,7 +1,7 @@
 # Etude du Lambda Calcul
 
 Ce sujet est difficile et long, et balaye les chapitres de Grammaire, Logique, Langages, Automates.
-Il est fait pour durer environ 6h-7h; voyez-le comme un long DM plus qu'un devoir.
+Il est fait pour durer environ 6h; voyez-le comme un long DM plus qu'un devoir.
 
 Ce sujet introduit la théorie derrière les langages fonctionnel : le lambda calcul.
 
@@ -10,7 +10,7 @@ La partie II propose une implémentation de la soustraction.
 La partie III s'intéresse à l'opérateur point fixe et au expressions récursives.
 La partie IV porte sur de la logique, des expressions typées.
 La partie V s'intéresse au règles de grammaire et à la logique combinatoire.
-La partie VI partie s'intéresse à la notion de confluence, et fait introduire des graphes.
+La partie VI s'intéresse à la notion de confluence, et fait introduire des graphes.
 
 Toutes les parties sont dépendante de la partie 1, mais sont indépendantes entre elles.
 
@@ -119,7 +119,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTU2MzcxMjQsMTAzMDgxMzk1MCw2Nj
+eyJoaXN0b3J5IjpbLTIxMzcyNzUwNDUsMTAzMDgxMzk1MCw2Nj
 E0MTE0NDQsLTE5OTEzNTgwNTUsLTE4MTUxNTc3NjYsLTEzODcx
 NzU3ODIsLTE1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5ODUyNz
 Y1MDksMjAxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJd
