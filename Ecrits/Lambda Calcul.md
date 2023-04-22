@@ -6,6 +6,8 @@ La partie II porte sur de la logique, et typé des expressions
 La partie III s'intéresse au règles de grammaire de la logique combinatoire
 La dernière partie s'intéresse à la notion de confluence, et fait introduire des graphes.
 
+En gras sont indiqué les questions très très difficiles.
+
 # Définitions
 
 Soit $\Sigma$ un ensemble de *lettres*. On dis que $\omega=\omega_1...\omega_n$ est un *mot* s'il est une suite finie de lettre. On note $\varepsilon$ le mot vide.
@@ -74,7 +76,9 @@ On dit que $\text{fix}$ est un opérateur point-fixe si, soit $f\in E$, on a :
 $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
 7. Montrez que si $\text{fix}(f)$ admet un calcul normalisant, alors il existe $e\in E$ tel que $f(e)\to^* e$
+8. Donnez 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODc1NDI5OTIsLTE5ODUyNzY1MDksMj
-AxOTgzNzA1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIwMTYxNTIzOCwtMTY4NzU0Mjk5MiwtMT
+k4NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0
+NjYxMl19
 -->
