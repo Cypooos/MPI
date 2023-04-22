@@ -1,10 +1,11 @@
 # Etude du Lambda Calcul
 
-Ce sujet est difficile, et balaye les chapitres de Grammaire, Logique, Langages, Automates.
+Ce sujet est difficile et long, et balaye les chapitres de Grammaire, Logique, Langages, Automates.
+Il est fait pour durer environ 6h.
 
 Ce sujet introduit la théorie derrière les langages fonctionnel : le lambda calcul.
 
-La partie I propose une introduction généralisé, et propose une implémentation d'objets de base.
+La partie I propose une implémentation d'objets de base.
 La partie II propose une implémentation de la soustraction.
 La partie III s'intéresse à l'opérateur point fixe et au expressions récursives.
 La partie IV porte sur de la logique, des expressions typées.
@@ -98,7 +99,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTM4MzcyOSwtMTM4NzE3NTc4MiwtMT
+eyJoaXN0b3J5IjpbMTg0MDg2NDc5OCwtMTM4NzE3NTc4MiwtMT
 U4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5
 ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0NjYxMl19
 -->
