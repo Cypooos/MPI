@@ -13,11 +13,12 @@ Soit $\Sigma$ un ensemble de *lettres*. On dis que $\omega=\omega_1...\omega_n$ 
  Soit $n\in\N$, on note $\Sigma^n$ l'ensemble des mots de $\Sigma$ à $n$ lettres. On note $\Sigma^* = \cup_{n\in\N}\Sigma^n$
 On appelle *langage* un sous-ensemble de mots.
 
-Soit $V$ un ensemble de *variables*.
-On définie une expression inductivement :
+Soit $V=\{x,$ un ensemble de *variables*.
+On définie une *expression* inductivement :
  - "$x$" est une expression pour tout $x\in V$
- - "$e_1(e_2)$" est une expression po
- - $x\in V$
+ - "$e_1(e_2)$" est une expression pour tout $e_1,e_2$ deux expressions
+ - "$\lambda x.e$" est une expression pour tout $x\in V$ et $e$ une expression
+
 
 ## Préliminaire
 
@@ -25,6 +26,6 @@ On définie une expression inductivement :
 Soit $V$ un ensemble de variables. 
 On définie une instruction de lambda cal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzMwNTY2MDgsNDgyODAyNzM5LC0yMD
+eyJoaXN0b3J5IjpbLTIwNjY5NDY0NTcsNDgyODAyNzM5LC0yMD
 g4NzQ2NjEyXX0=
 -->
