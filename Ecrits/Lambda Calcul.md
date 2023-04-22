@@ -116,7 +116,7 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 On dit que $\text{fix}$ est un opérateur point-fixe si, pour tout $f\in E$, on a :
 $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
-15. Montrez que si $\text{fix}(f)$ est unitaire, alors il existe $e\in E$ tel que $f(e)\to^* e$
+15. Montrez que si il n'existe que un $e$ tel que $\text{fix}(f)\to^n e$ et $\text{fix}(f)\to^n e$ est unitaire, alors il existe $e\in E$ tel que $f(e)\to^* e$
 
 On appelle $e$ un point fixe de $f$
 
@@ -135,10 +135,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 ## Généralisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMT
-YyNjA1ODA1MywtMTk0OTc0NjQzNiwtOTI1NDgyMDY2LC0xNDc3
-ODIxMzQ5LC0yMTM3Mjc1MDQ1LDEwMzA4MTM5NTAsNjYxNDExND
-Q0LC0xOTkxMzU4MDU1LC0xODE1MTU3NzY2LC0xMzg3MTc1Nzgy
-LC0xNTgyODk2NjU5LC0xNjg3NTQyOTkyLC0xOTg1Mjc2NTA5LD
-IwMTk4MzcwNTksNDgyODAyNzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNzAzNTc2NDk3LC0xOTI1ODExNzYsLTE3NT
+Y3NzAwMTUsLTE2MjYwNTgwNTMsLTE5NDk3NDY0MzYsLTkyNTQ4
+MjA2NiwtMTQ3NzgyMTM0OSwtMjEzNzI3NTA0NSwxMDMwODEzOT
+UwLDY2MTQxMTQ0NCwtMTk5MTM1ODA1NSwtMTgxNTE1Nzc2Niwt
+MTM4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMT
+k4NTI3NjUwOSwyMDE5ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0
+NjYxMl19
 -->
