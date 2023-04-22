@@ -58,7 +58,7 @@ On définie les expressions suivantes :
 # Partie 1
 
 ## Préliminaires
-1. Donnez un calcul de $K(K)(I)$, de $I(I)$, de $K(I)(\Delta)$
+1. Donnez un calcul normalisant de $K(K)(I)$, de $I(I)$, de $K(I)(\Delta)$
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
 
 On s'intéresse maintenant à la création de différents objets de base.
@@ -79,9 +79,9 @@ Pour tout $n\in\N$, on pose :
 
 On appelle $C_n$ l'*entier de Church* associé à $n$
 
-4. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to^* C_{n+1}$
-5. Définir une expression $\text{add}$ tel que $\text{add}(C_n)(C_m) \to^* C_{n+m}$
-6. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n)(C_m) \to^* C_{n\times m}$
+5. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to^* C_{n+1}$
+6. Définir une expression $\text{add}$ tel que $\text{add}(C_n)(C_m) \to^* C_{n+m}$
+7. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n)(C_m) \to^* C_{n\times m}$
 
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
 
@@ -95,7 +95,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMjYxMjAzMSwtMTM4NzE3NTc4MiwtMT
-U4Mjg5NjY1OSwtMTY4NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5
-ODM3MDU5LDQ4MjgwMjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTY0NjUyMDU4LC0xMzg3MTc1NzgyLC0xNT
+gyODk2NjU5LC0xNjg3NTQyOTkyLC0xOTg1Mjc2NTA5LDIwMTk4
+MzcwNTksNDgyODAyNzM5LC0yMDg4NzQ2NjEyXX0=
 -->
