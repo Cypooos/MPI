@@ -98,15 +98,10 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n)(C_m) \to^* C_{\m
     * $\text{eq}(C_n)(C_m) \to^* \bot$ si $n\neq m$
 # Partie II
 L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
-## Couples 
-On définie, pour $n,m\in\N$ :
-$$D(n,m) = x\mapsto (x(C_n)(C_m))$$
-
-1. Montrez que $D(n,m)(\top) \to^* C_n$ et  $D(n,m)(\bot) \to^* C_m$
-2. Donnez $\text{couple}$ tel que $\text{couple}(C_n)(C_m) \to^* D(n,m)$
 
 ## Listes
-
+On pose
+$$L=$$
 3. Donnez 
 
 ## Soustraction
@@ -121,8 +116,8 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTA0MDYzNjMsLTE5OTEzNTgwNTUsLT
-E4MTUxNTc3NjYsLTEzODcxNzU3ODIsLTE1ODI4OTY2NTksLTE2
-ODc1NDI5OTIsLTE5ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4MD
-I3MzksLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNjYxNDExNDQ0LC0xOTkxMzU4MDU1LC0xOD
+E1MTU3NzY2LC0xMzg3MTc1NzgyLC0xNTgyODk2NjU5LC0xNjg3
+NTQyOTkyLC0xOTg1Mjc2NTA5LDIwMTk4MzcwNTksNDgyODAyNz
+M5LC0yMDg4NzQ2NjEyXX0=
 -->
