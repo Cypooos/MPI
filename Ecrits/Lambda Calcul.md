@@ -63,10 +63,11 @@ On a donc:
 
 On appelle $C_n$ l'*entier de Church* associé à $n$
 
-3. Définir une expression $\text{su}$ tel que $\text{plus}(C_n)\to C_{n+1}$
+4. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to C_{n+1}$
+5. Définir une expression $\text$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE0NTA2NjY1LDIwMTk4MzcwNTksNDgyOD
-AyNzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE2OTkyNTQ5OTEsMjAxOTgzNzA1OSw0OD
+I4MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
