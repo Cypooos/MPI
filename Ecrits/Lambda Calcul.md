@@ -89,7 +89,8 @@ On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'ad
 
 ## Condition sur les entiers de Church
 8. Donnez $\text{eq}$ une expression tel que:
-   1. $\text{eq}(C_n)(C_m) = \top$ si $n=m$
+   i. $\text{eq}(C_n)(C_m) = \top$ si $n=m$
+   ii. $\text{eq}(C_n)(C_m) = \bot$ si $n\neq m$
 
 ## Partie II
 ## Soustraction
@@ -104,7 +105,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3MzQxODE1LC0xMzg3MTc1NzgyLC0xNT
-gyODk2NjU5LC0xNjg3NTQyOTkyLC0xOTg1Mjc2NTA5LDIwMTk4
-MzcwNTksNDgyODAyNzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE4MTUxNTc3NjYsLTEzODcxNzU3ODIsLT
+E1ODI4OTY2NTksLTE2ODc1NDI5OTIsLTE5ODUyNzY1MDksMjAx
+OTgzNzA1OSw0ODI4MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
