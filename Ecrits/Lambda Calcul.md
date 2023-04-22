@@ -35,7 +35,7 @@ On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression
 
 On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$. $A'$ est $A$ ou l'on a remplacé $a$ par son évaluation.
 
-On appelle calcul 
+On appelle un calcul de $A$ 
 
 On définie les expressions suivantes :
  - $I = (x\mapsto x)$
@@ -46,6 +46,6 @@ On définie les expressions suivantes :
 
 1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzMzEyMTA2LDIwMTk4MzcwNTksNDgyOD
-AyNzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTU2ODI1MzQ5MSwyMDE5ODM3MDU5LDQ4Mj
+gwMjczOSwtMjA4ODc0NjYxMl19
 -->
