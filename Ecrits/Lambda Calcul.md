@@ -51,6 +51,7 @@ On définie les expressions suivantes :
 ## Préliminaires
 1. Donnez un calcul de $K(K)(I)$, de $I(I)$, de $K(I)(\Delta)$
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul.
+3. 
 
 ## Entiers de Church
 
@@ -59,10 +60,14 @@ On a donc:
  - $C_0 = f,x\mapsto x$
  - $C_1 = f,x\mapsto f(x)$
  - $C_2 = f,x\mapsto f(f(x))$
+ - ...
+
+On appelle $C_n$ l'*entier de Church* associé à $n$
+
 3. $n=0 \iff C_n = K$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3NTI3MzE2LDIwMTk4MzcwNTksNDgyOD
-AyNzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE1NjM1Njg1NjksMjAxOTgzNzA1OSw0OD
+I4MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
