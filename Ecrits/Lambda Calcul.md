@@ -64,6 +64,9 @@ On définie les expressions suivantes :
 On s'intéresse maintenant à la création de différents objets de base.
 ## Booléens
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$
+On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1)(f_2))$
+
+3. Montrez que $\text{$
 
 ## Entiers de Church
 
@@ -91,7 +94,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 8. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe.
 10. Montrez que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjM0Mjg0MiwtMTU4Mjg5NjY1OSwtMT
-Y4NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5ODM3MDU5LDQ4Mjgw
-MjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEwNDcwOTMwNzUsLTE1ODI4OTY2NTksLT
+E2ODc1NDI5OTIsLTE5ODUyNzY1MDksMjAxOTgzNzA1OSw0ODI4
+MDI3MzksLTIwODg3NDY2MTJdfQ==
 -->
