@@ -1,7 +1,6 @@
 # Etude du Lambda Calcul
 
 Ce sujet est difficile et long, et balaye les chapitres de Grammaire, Logique, Langages, Automates.
-Il est fait pour durer environ 6h; voyez-le comme un long DM plus qu'un devoir.
 
 Ce sujet introduit la théorie derrière les langages fonctionnel : le lambda calcul.
 
@@ -114,17 +113,17 @@ qui représente un couple $(x,y)$
 Le but de cette partie est de pouvoir faire des fonctions récursives.
 ## L'Opérateur Point-fixe
 
-On dit que $\text{fix}$ est un opérateur point-fixe si, soit $f\in E$, on a :
+On dit que $\text{fix}$ est un opérateur point-fixe si, pour tout $f\in E$, on a :
 $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
-1. Montrez que si $\text{fix}(f)$ admet un calcul normalisant, alors il existe $e\in E$ tel que $f(e)\to^* e$
-8. Montrez que une $\Theta(A)$ ne peux pas être unitaire 
-9. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe. 
+15. Montrez que si $\text{fix}(f)$ admet un calcul normalisant, alors il existe $e\in E$ tel que $f(e)\to^* e$
+16. Montrez que une $\Theta(A)$ ne peux pas être unitaire.
+17. (*) En s'inspirant de $\Delta$, donnez une expression $\Theta$ point-fixe. 
 
 ## Récursivité
-9.
+18. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODMyNTM2OCwtMTQ3NzgyMTM0OSwtMj
+eyJoaXN0b3J5IjpbLTkyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwtMj
 EzNzI3NTA0NSwxMDMwODEzOTUwLDY2MTQxMTQ0NCwtMTk5MTM1
 ODA1NSwtMTgxNTE1Nzc2NiwtMTM4NzE3NTc4MiwtMTU4Mjg5Nj
 Y1OSwtMTY4NzU0Mjk5MiwtMTk4NTI3NjUwOSwyMDE5ODM3MDU5
