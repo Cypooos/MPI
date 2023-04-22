@@ -31,7 +31,7 @@ Soient $e\in E$ et $x,y\in V\times E$, on définie l'opération de substitution 
   - $(x\mapsto e)[x\larr y] := x\mapsto e$
   - $(u\mapsto e)[x\larr y] := u\mapsto e[x\larr y]$ pour $u\in V\setminus \{x\}$
 
-Informellement, l'on remplace toute les occurrences libre de $x$ par $y$ dans $e$. On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$
+Informellement, $e[x\larr y]$ est $e$ dans laquelle on a remplacé toute les occurences libre de $x$ par  On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$
 
 On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression $â=$ "$e[x\larr e']$". 
 On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$, ou $A'$ est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
@@ -50,6 +50,6 @@ On définie les expressions suivantes :
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul.
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4MzUwNTI2LDIwMTk4MzcwNTksNDgyOD
-AyNzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTk3OTA1MDc5OSwyMDE5ODM3MDU5LDQ4Mj
+gwMjczOSwtMjA4ODc0NjYxMl19
 -->
