@@ -121,7 +121,7 @@ $$\text{fix}(f) \to f(\text{fix}(f))$$
 
 On appelle $e$ un point fixe de $f$
 
-20. Donnez $f\in E$ qui admet un point fixe
+20. Donnez $f\in E$ tel que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
 21. (*) Donnez une expression $\Theta$ point-fixe.
 
 ## La fonction récursive factorielle
@@ -135,11 +135,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 ## Généralisation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTk0MDcxOTMsLTI3MzY0ODQ5NywtMT
-MxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLTE5MjU4
-MTE3NiwtMTc1Njc3MDAxNSwtMTYyNjA1ODA1MywtMTk0OTc0Nj
-QzNiwtOTI1NDgyMDY2LC0xNDc3ODIxMzQ5LC0yMTM3Mjc1MDQ1
-LDEwMzA4MTM5NTAsNjYxNDExNDQ0LC0xOTkxMzU4MDU1LC0xOD
-E1MTU3NzY2LC0xMzg3MTc1NzgyLC0xNTgyODk2NjU5LC0xNjg3
-NTQyOTkyLC0xOTg1Mjc2NTA5XX0=
+eyJoaXN0b3J5IjpbMTI2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMT
+IzNjE4MjgsMTE1NzE0NjU2MiwxNjQ0NTk4NTU4LC0xOTI1ODEx
+NzYsLTE3NTY3NzAwMTUsLTE2MjYwNTgwNTMsLTE5NDk3NDY0Mz
+YsLTkyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwtMjEzNzI3NTA0NSwx
+MDMwODEzOTUwLDY2MTQxMTQ0NCwtMTk5MTM1ODA1NSwtMTgxNT
+E1Nzc2NiwtMTM4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0
+Mjk5MiwtMTk4NTI3NjUwOV19
 -->
