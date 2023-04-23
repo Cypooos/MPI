@@ -127,10 +127,10 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que F sera appelé constamment avec $F$ comme premier argument.
 
-20. Montrez que, soit $x\in E$,
+20. Montrez que, $\forall x\in E$,
 $$\text{fix}(f)(x) \to^* \alpha \implies\exist n_0,\ \underbrace{f(f(...(f)...))}_{n_0\text{ fois}}(x)\to^*\alpha$$
 
-On notera le plus petit $n_0$ le nombre d'appel récursif.
+On notera le plus petit $n_0$ le *nombre d'appel récursif*.
 
 ## La fonction récursive factorielle
 On définie :
@@ -141,11 +141,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 19. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MD
-E2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5NDAx
-NiwxNTc5ODE1NTY1LDEyNjY5MzQzNiwtMjczNjQ4NDk3LC0xMz
-EyMzYxODI4LDExNTcxNDY1NjIsMTY0NDU5ODU1OCwtMTkyNTgx
-MTc2LC0xNzU2NzcwMDE1LC0xNjI2MDU4MDUzLC0xOTQ5NzQ2ND
-M2LC05MjU0ODIwNjYsLTE0Nzc4MjEzNDksLTIxMzcyNzUwNDUs
-MTAzMDgxMzk1MF19
+eyJoaXN0b3J5IjpbLTEyNTQ0MDk4NjAsLTg5MjczNTAzOSwtMj
+QzMzYwMDMzLDM3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0
+NDAsLTk1MzQ5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQzNiwtMj
+czNjQ4NDk3LC0xMzEyMzYxODI4LDExNTcxNDY1NjIsMTY0NDU5
+ODU1OCwtMTkyNTgxMTc2LC0xNzU2NzcwMDE1LC0xNjI2MDU4MD
+UzLC0xOTQ5NzQ2NDM2LC05MjU0ODIwNjYsLTE0Nzc4MjEzNDks
+LTIxMzcyNzUwNDVdfQ==
 -->
