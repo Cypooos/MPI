@@ -124,12 +124,12 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 18. (*) Donnez une expression $\Theta$ point-fixe.
 
 ## Récursivité
-On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que F sera appelé constamment avec $F$ comme premier argument.
+On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument.
 
 19. Montrez que, $\forall x\in E$,
 $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
 
-On notera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
+Si $$n notera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
 
 ## Quelques exemples
 On définie :
@@ -198,11 +198,11 @@ On essaye de montrer que toute les expressions bien typé sont unitaire et sans 
 29. Montrez que si $e$ est unitaire sans variable libre, alors il est typé.
 30. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NzUyMjI5OSw5NTgxMzIyNjEsMTM5OT
-U4MzI3OCwyMDYyNzkxMzA0LDEyMDY3ODYwNiwxMDU1NjEyNzI5
-LDEzOTk3NzY3NzYsMzQ5MDM0MzMzLDEyMDE0MTE5NDYsMjAzND
-IwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgzMDY1LC04OTI3MzUw
-MzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLTU4MzIzNzc3MCwxNT
-k5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0
-MzZdfQ==
+eyJoaXN0b3J5IjpbLTEyMDM3ODY5MTgsMTI4NzUyMjI5OSw5NT
+gxMzIyNjEsMTM5OTU4MzI3OCwyMDYyNzkxMzA0LDEyMDY3ODYw
+NiwxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0MzMzLDEyMD
+E0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgz
+MDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLT
+U4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgx
+NTU2NV19
 -->
