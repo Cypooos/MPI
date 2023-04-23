@@ -185,16 +185,16 @@ On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 
 Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
 
-24. Donnez un arbre de dérivation donnant un typ généralisé de $\{\top, \bot\}$
-25. Donnez un arbre de dérivation donnant un type généralisé de $\{C_n\ |\ n\in\N\}$
+24. Donnez $t$ un type généralisé de $\{\top, \bot\}$
+25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
 ## Les expressions typée sont unitaire
 On essaye de montrer que toute les expressions bien typé sont unitaire.
-28. Montrez que si $e$ est typé, alors $e$ est unitaire.
+28. M
 29. Montrez que si $e$ est unitaire, alors il est typé.
 30. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzExMjEyNSwyMDYyNzkxMzA0LDEyMD
+eyJoaXN0b3J5IjpbLTM4MDg4MjIxNywyMDYyNzkxMzA0LDEyMD
 Y3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0MzMz
 LDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMz
 UxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4
