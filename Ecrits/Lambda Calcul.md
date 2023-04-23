@@ -136,13 +136,14 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 ## Généralisation
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que F sera appelé constamment avec $F$ comme premier argument.
 
-20. 
+20. Montrez que, soit $x\in E$,
+$$\text{fix}($$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC05NT
-M0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5
-NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLT
-E5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYyNjA1ODA1MywtMTk0
-OTc0NjQzNiwtOTI1NDgyMDY2LC0xNDc3ODIxMzQ5LC0yMTM3Mj
-c1MDQ1LDEwMzA4MTM5NTAsNjYxNDExNDQ0LC0xOTkxMzU4MDU1
-LC0xODE1MTU3NzY2XX0=
+eyJoaXN0b3J5IjpbOTI5NTMxMTc1LC01ODMyMzc3NzAsMTU5OT
+YyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMTI2NjkzNDM2
+LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0NjU2MiwxNj
+Q0NTk4NTU4LC0xOTI1ODExNzYsLTE3NTY3NzAwMTUsLTE2MjYw
+NTgwNTMsLTE5NDk3NDY0MzYsLTkyNTQ4MjA2NiwtMTQ3NzgyMT
+M0OSwtMjEzNzI3NTA0NSwxMDMwODEzOTUwLDY2MTQxMTQ0NCwt
+MTk5MTM1ODA1NV19
 -->
