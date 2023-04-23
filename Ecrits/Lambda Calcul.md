@@ -174,19 +174,20 @@ On dit que $t$ est un typage de $x$ si $\empty \vdash x:t$
 
 Par exemple, ce qui suit est un arbre de dérivation montrant que $\tau\to\tau$ est un typage de $I$ :
 $$
-\cfrac{}{\cfrac{(x,t) \vdash x: t}{\empty \vdash x\mapsto x : \tau\to \tau}}\tiny\text{(ax)}\\
+\cfrac{}{\cfrac{(x,t) \vdash x: t}{\empty \vdash x\mapsto x : \tau\to \tau}\tiny\text{(ab)}}\tiny\text{(ax)}\\
 $$
 
 ## Sous-partie 1
 On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 
 22. Donnez un arbre de dérivation donnant un typage de $C_0$, $C_1$ et $C_2$
+23. Donnez $t$ un type qui soit un typage de 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2NTg4NTA3LDM0OTAzNDMzMywxMjAxND
-ExOTQ2LDIwMzQyMDU2NTMsLTQyNTI3OTk4MywtMTM1MTg4MzA2
-NSwtODkyNzM1MDM5LC0yNDMzNjAwMzMsMzcwMTYyODg1LC01OD
-MyMzc3NzAsMTU5OTYyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1
-NjUsMTI2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMT
-E1NzE0NjU2MiwxNjQ0NTk4NTU4LC0xOTI1ODExNzYsLTE3NTY3
-NzAwMTVdfQ==
+eyJoaXN0b3J5IjpbMTM4NTk1NDM0MiwzNDkwMzQzMzMsMTIwMT
+QxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLTEzNTE4ODMw
+NjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2Mjg4NSwtNT
+gzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5NDAxNiwxNTc5ODE1
+NTY1LDEyNjY5MzQzNiwtMjczNjQ4NDk3LC0xMzEyMzYxODI4LD
+ExNTcxNDY1NjIsMTY0NDU5ODU1OCwtMTkyNTgxMTc2LC0xNzU2
+NzcwMDE1XX0=
 -->
