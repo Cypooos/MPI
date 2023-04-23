@@ -29,7 +29,7 @@ On définie une *expression* inductivement :
  - "$e_1(e_2)$" est une expression pour tout $e_1,e_2$ deux expressions
  - "$x\mapsto e$" est une expression pour tout $x\in V$ et $e$ une expression
 
-L'on se permettra l'utilisation de parenthèses pour indiquer de l'ordre des opérations. On note $E$ l'ensemble des expressions.
+L'on se permettra l'utilisation de parenthèses pour indiquer de l'ordre des opérations. On note $E$ l'ensemble des expressions. Si $a$ est une expression présente dans $A$, une autre expression, on note cela $a\in A$.
 
 On pourra noter $x_1,x_2,...,x_n\mapsto e$ pour dénoter $x_1\mapsto (x_2\mapsto(...(x_n\mapsto e)...))$
 On pourra aussi noter $e(x_1)(x_2)...(x_n)$ comme $e(x_1,x_2,...,x_n)$
@@ -46,8 +46,8 @@ Informellement, $e[x\larr y]$ est $e$ dans laquelle on a remplacé toute les occ
 
 On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$
 
-On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression $â=$ "$e[x\larr e']$". 
-On appelle *dérivation* $A\to A'$si il existe dans $A$ une expression $a$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
+On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression $â=$ "$e[x\larr e']$".
+On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant. 
 Si il existe au plus qu'un seul calcul normalisant de $A$ possible, on dit que $A$ est unitaire.
@@ -137,11 +137,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 ## Généralisation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3Mz
-Y0ODQ5NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1
-NTgsLTE5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYyNjA1ODA1My
-wtMTk0OTc0NjQzNiwtOTI1NDgyMDY2LC0xNDc3ODIxMzQ5LC0y
-MTM3Mjc1MDQ1LDEwMzA4MTM5NTAsNjYxNDExNDQ0LC0xOTkxMz
-U4MDU1LC0xODE1MTU3NzY2LC0xMzg3MTc1NzgyLC0xNTgyODk2
-NjU5LC0xNjg3NTQyOTkyXX0=
+eyJoaXN0b3J5IjpbLTEzMzAxMTgwMDAsMTU3OTgxNTU2NSwxMj
+Y2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2MTgyOCwxMTU3MTQ2
+NTYyLDE2NDQ1OTg1NTgsLTE5MjU4MTE3NiwtMTc1Njc3MDAxNS
+wtMTYyNjA1ODA1MywtMTk0OTc0NjQzNiwtOTI1NDgyMDY2LC0x
+NDc3ODIxMzQ5LC0yMTM3Mjc1MDQ1LDEwMzA4MTM5NTAsNjYxND
+ExNDQ0LC0xOTkxMzU4MDU1LC0xODE1MTU3NzY2LC0xMzg3MTc1
+NzgyLC0xNTgyODk2NjU5XX0=
 -->
