@@ -187,13 +187,12 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 
 24. Donnez $t$ un type généralisé de $\{\top, \bot\}$
 25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
-26. Soit $a:t \in E$
 27. Montrez que $\Delta(\Delta)$ n'est pas typé.
 
-## 
-On essaye de mon
+## Forme normalisante des 
+On essaye de montrer que toute les expressions bien typé sont unitaire.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTE4OTM0OCwxMzk5Nzc2Nzc2LDM0OT
+eyJoaXN0b3J5IjpbMTA1NTYxMjcyOSwxMzk5Nzc2Nzc2LDM0OT
 AzNDMzMywxMjAxNDExOTQ2LDIwMzQyMDU2NTMsLTQyNTI3OTk4
 MywtMTM1MTg4MzA2NSwtODkyNzM1MDM5LC0yNDMzNjAwMzMsMz
 cwMTYyODg1LC01ODMyMzc3NzAsMTU5OTYyMTQ0MCwtOTUzNDk0
