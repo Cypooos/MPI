@@ -137,14 +137,14 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que F sera appelé constamment avec $F$ comme premier argument.
 
 20. Montrez que, soit $x\in E$,
-$$\text{fix}(f)(x) \to^* \alpha \iff \exist n_0,\ \forall n\ge n_0, f^n(x)\to^*\alpha$$
+$$\text{fix}(f)(x) \to^* \alpha \iff \exist n_0,\ \forall n\ge n_0, f(f(...(f(x)\to^*\alpha$$
 On notera le plus petit $n_0$ le nombre 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxNDYwMzQsLTU4MzIzNzc3MCwxNTk5Nj
-IxNDQwLC05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYs
-LTI3MzY0ODQ5NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2ND
-Q1OTg1NTgsLTE5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYyNjA1
-ODA1MywtMTk0OTc0NjQzNiwtOTI1NDgyMDY2LC0xNDc3ODIxMz
-Q5LC0yMTM3Mjc1MDQ1LDEwMzA4MTM5NTAsNjYxNDExNDQ0LC0x
-OTkxMzU4MDU1XX0=
+eyJoaXN0b3J5IjpbLTEyODQyNzk2OCwtNTgzMjM3NzcwLDE1OT
+k2MjE0NDAsLTk1MzQ5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQz
+NiwtMjczNjQ4NDk3LC0xMzEyMzYxODI4LDExNTcxNDY1NjIsMT
+Y0NDU5ODU1OCwtMTkyNTgxMTc2LC0xNzU2NzcwMDE1LC0xNjI2
+MDU4MDUzLC0xOTQ5NzQ2NDM2LC05MjU0ODIwNjYsLTE0Nzc4Mj
+EzNDksLTIxMzcyNzUwNDUsMTAzMDgxMzk1MCw2NjE0MTE0NDQs
+LTE5OTEzNTgwNTVdfQ==
 -->
