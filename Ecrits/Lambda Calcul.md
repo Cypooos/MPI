@@ -187,16 +187,16 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 
 24. Donnez $t$ un type généralisé de $\{\top, \bot\}$
 25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
-27. Montrez que $\Delta(\Delta)$ n'est pas typé.
+27. Montrez que $\Delta$ n'est pas typé.
 
 ## Forme normalisante des 
 On essaye de montrer que toute les expressions bien typé sont unitaire.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTYxMjcyOSwxMzk5Nzc2Nzc2LDM0OT
-AzNDMzMywxMjAxNDExOTQ2LDIwMzQyMDU2NTMsLTQyNTI3OTk4
-MywtMTM1MTg4MzA2NSwtODkyNzM1MDM5LC0yNDMzNjAwMzMsMz
-cwMTYyODg1LC01ODMyMzc3NzAsMTU5OTYyMTQ0MCwtOTUzNDk0
-MDE2LDE1Nzk4MTU1NjUsMTI2NjkzNDM2LC0yNzM2NDg0OTcsLT
-EzMTIzNjE4MjgsMTE1NzE0NjU2MiwxNjQ0NTk4NTU4LC0xOTI1
-ODExNzZdfQ==
+eyJoaXN0b3J5IjpbMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OT
+c3Njc3NiwzNDkwMzQzMzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUz
+LC00MjUyNzk5ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMj
+QzMzYwMDMzLDM3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0
+NDAsLTk1MzQ5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQzNiwtMj
+czNjQ4NDk3LC0xMzEyMzYxODI4LDExNTcxNDY1NjIsMTY0NDU5
+ODU1OF19
 -->
