@@ -128,7 +128,7 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que F sera appelé constamment avec $F$ comme premier argument.
 
 20. Montrez que, soit $x\in E$,
-$$\text{fix}(f)(x) \to^* \alpha \imp\exist n_0,\ \underbrace{f(f(...(f)...))}_{n_0\text{ fois}}(x)\to^*\alpha$$
+$$\text{fix}(f)(x) \to^* \alpha \implies\exist n_0,\ \underbrace{f(f(...(f)...))}_{n_0\text{ fois}}(x)\to^*\alpha$$
 
 On notera le plus petit $n_0$ le nombre d'appel récursif.
 
@@ -141,7 +141,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 19. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NTQ0OTkwOCwtMjQzMzYwMDMzLDM3MD
+eyJoaXN0b3J5IjpbLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MD
 E2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5NDAx
 NiwxNTc5ODE1NTY1LDEyNjY5MzQzNiwtMjczNjQ4NDk3LC0xMz
 EyMzYxODI4LDExNTcxNDY1NjIsMTY0NDU5ODU1OCwtMTkyNTgx
