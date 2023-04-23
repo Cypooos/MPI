@@ -153,13 +153,13 @@ Un contexte de type, dénoté par $\Gamma$, est un sous-ensemble de $X\times T$
 Un jugement de type est un triplet $\Gamma \vdash x: t$ tel que on ai les règles d'inférences suivantes :
 
 $$
-\frac{}{(x,t) \vdash x: t}\text{(ax)}\\
+\frac{}{(x,t) \vdash x: t}\tiny\text{(ax)}\\
 $$
 $$
-\frac{\Gamma \vdash x: t, \Gamma \vdash x: t,}{\empty \vdash x: t}\text{(ax)}
+\frac{\Gamma \vdash x: \tau_1 \to \tau_2,\qquad \Gamma \vdash x: t,}{\empty \vdash x: t}\tiny\text{(ax)}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjY4NzkzNywtNDI1Mjc5OTgzLC0xMz
+eyJoaXN0b3J5IjpbLTI1NjA1ODQ3OSwtNDI1Mjc5OTgzLC0xMz
 UxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4
 ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMT
 U3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2
