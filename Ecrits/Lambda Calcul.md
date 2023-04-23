@@ -177,7 +177,7 @@ $$
 $$
  On n'hésitera pas a ajouter des parenthèses pour ce faire comprendre : par défaut, les flèches sont une opération de droite à gauche, ainsi, $\tau\to\tau\to\tau = \tau\to(\tau\to\tau)$
 
-## Sous-partie 1
+## Introduction
 On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 
 22. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
@@ -185,14 +185,15 @@ On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
 
 24. Donnez $t$ un type généralisé de $\{\top, \bot\}$
-24. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
-26. Montrez que $$
+25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
+26. Soit 
+27. Montrez que $\Delta(\Delta)$ n'est pas typé
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2NDcxODIzLDEzOTk3NzY3NzYsMzQ5MD
-M0MzMzLDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgz
-LC0xMzUxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNz
-AxNjI4ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQw
-MTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMT
-MxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLTE5MjU4
-MTE3Nl19
+eyJoaXN0b3J5IjpbMTM4ODY1MTc5OSwxMzk5Nzc2Nzc2LDM0OT
+AzNDMzMywxMjAxNDExOTQ2LDIwMzQyMDU2NTMsLTQyNTI3OTk4
+MywtMTM1MTg4MzA2NSwtODkyNzM1MDM5LC0yNDMzNjAwMzMsMz
+cwMTYyODg1LC01ODMyMzc3NzAsMTU5OTYyMTQ0MCwtOTUzNDk0
+MDE2LDE1Nzk4MTU1NjUsMTI2NjkzNDM2LC0yNzM2NDg0OTcsLT
+EzMTIzNjE4MjgsMTE1NzE0NjU2MiwxNjQ0NTk4NTU4LC0xOTI1
+ODExNzZdfQ==
 -->
