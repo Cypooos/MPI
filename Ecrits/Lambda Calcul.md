@@ -175,16 +175,17 @@ Par exemple, ce qui suit est un arbre de dérivation montrant que $\tau\to\tau$ 
 $$
 \cfrac{}{\cfrac{(x,t) \vdash x: t}{\empty \vdash x\mapsto x : \tau\to \tau}\tiny\text{(ab)}}\tiny\text{(ax)}\\
 $$
- On n'hésitera pas a ajouter des parenthèses pour ce faire comprendre : par défaut, les flèches $\tau\to\tau\to\tau = \tau\to(\tau\to\tau)$
+ On n'hésitera pas a ajouter des parenthèses pour ce faire comprendre : par défaut, les flèches sont une opération de droite à gauche, ainsi, $\tau\to\tau\to\tau = \tau\to(\tau\to\tau)$
 
 ## Sous-partie 1
 On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 
-22. Donnez un arbre de dérivation donnant un typage de $C_0$, $C_1$ et $C_2$
+22. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
 23. Donnez $t$ un type qui soit un typage de $C_n$ pour tout $n\in\N^*$
-24. Montrez que $$
+24. Donnez $t$ un type 
+25. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjg3ODcyNjQsMzQ5MDM0MzMzLDEyMD
+eyJoaXN0b3J5IjpbLTIwMjE3Mjk3MjUsMzQ5MDM0MzMzLDEyMD
 E0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgz
 MDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLT
 U4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgx
