@@ -144,7 +144,9 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 # Partie IV
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que chaque expression bien typé soit unitaire.
 On pose $\hat{T} = \{\tau_1,\tau_2,...,\tau_n\}$ un ensemble de types par défaut.
-Pour chaque type $\tau_i\in\hat{T}$ par défaut, on pose $T_i$ un ensemble non vide de
+Pour chaque type $\tau_i\in\hat{T}$ par défaut, on pose $T_i$ un ensemble non vide d'expressions.
+Par exemple, si on ajoute le type $\text{Bool}$, on posera $T_i = \{ \text{true},\text{false},\}$
+
 On pose $T$ tel que $\hat{T} \sub T$ et pour tout $\tau,\tau'\in T$, on a $\tau\to\tau'\in \hat{T}$
 
 Un contexte de type $\Gamma$ est un sous-ensemble de $X\times T$
@@ -154,7 +156,7 @@ $$
 \frac{}{\Gamma \vdash x: t}\text{(ax)}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDc3MzkwOCwtNDI1Mjc5OTgzLC0xMz
+eyJoaXN0b3J5IjpbMTg5ODgzNTIwMCwtNDI1Mjc5OTgzLC0xMz
 UxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4
 ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMT
 U3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2
