@@ -147,9 +147,13 @@ On pose $\hat{T} = \{\tau_1,\tau_2,\tau_3,...\}$ un ensemble de types par défau
 On pose $T$ tel que $\hat{T} \sub T$ et pour tout $\tau,\tau'\in T$, on a $\tau\to\tau'\in \hat{T}$
 
 Un contexte de type $\Gamma$ est un sous-ensemble de $X\times T$
-Un jugement de type est un triplet $\Gamma \$
+Un jugement de type est un triplet $\Gamma \vdash x: t$ tel que on est les règles d'inférences suivantes :
+
+$$
+\infer{C}
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0Mjk3MDIxOSwtMTM1MTg4MzA2NSwtOD
+eyJoaXN0b3J5IjpbLTQyNTI3OTk4MywtMTM1MTg4MzA2NSwtOD
 kyNzM1MDM5LC0yNDMzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3
 NzAsMTU5OTYyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMT
 I2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0
