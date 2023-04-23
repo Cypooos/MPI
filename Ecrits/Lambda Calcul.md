@@ -36,7 +36,6 @@ On pourra aussi noter $e(x_1)(x_2)...(x_n)$ comme $e(x_1,x_2,...,x_n)$
 
 Soient $e\in E$ et $x,y\in V\times E$, on définie l'opération de substitution $e[x\larr y]$ inductivement :
  - $x[x\larr y] := y$
- 
   - $u[x\larr y] := u$ pour $u\in V\setminus \{x\}$
   - $e(e')[x\larr y] := e[x\larr y]\Big(e'[x\larr y]\Big)$
   - $(x\mapsto e)[x\larr y] := x\mapsto e$
@@ -128,9 +127,9 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que F sera appelé constamment avec $F$ comme premier argument.
 
 20. Montrez que, $\forall x\in E$,
-$$\text{fix}(f)(x) \to^* \alpha \implies\exist n_0,\ \underbrace{f(f(...(f)...))}_{n_0\text{ fois}}(x)\to^*\alpha$$
+$$\text{fix}(f)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{f(f(...(f)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
 
-On notera le plus petit $n_0$ le *nombre d'appel récursif*.
+On notera le plus petit $n_r$ le *nombre d'appel récursif*.
 
 ## Quelques exemples
 On définie :
@@ -140,9 +139,11 @@ $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 19. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
-20. Donnez $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_0 = O(\ln m)$
+20. Donnez un expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\ln m)$
+
+# Partie IV
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2ODc2MDM1LC04OTI3MzUwMzksLTI0Mz
+eyJoaXN0b3J5IjpbNzg0OTU0ODc3LC04OTI3MzUwMzksLTI0Mz
 M2MDAzMywzNzAxNjI4ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQw
 LC05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3Mz
 Y0ODQ5NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1
