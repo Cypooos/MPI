@@ -155,12 +155,15 @@ Un jugement de type est un triplet $\Gamma \vdash x: t$ tel que on ai les règle
 $$
 \frac{}{(x,t) \vdash x: t}\text{(ax)}\\
 $$
+$$
+\frac{\Gamma \vdash x: t, \Gamma \vdash x: t,}{\empty \vdash x: t}\text{(ax)}
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyMjY4NzY3LC00MjUyNzk5ODMsLTEzNT
-E4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2Mjg4
-NSwtNTgzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5NDAxNiwxNT
-c5ODE1NTY1LDEyNjY5MzQzNiwtMjczNjQ4NDk3LC0xMzEyMzYx
-ODI4LDExNTcxNDY1NjIsMTY0NDU5ODU1OCwtMTkyNTgxMTc2LC
-0xNzU2NzcwMDE1LC0xNjI2MDU4MDUzLC0xOTQ5NzQ2NDM2LC05
-MjU0ODIwNjZdfQ==
+eyJoaXN0b3J5IjpbMTAyMjY4NzkzNywtNDI1Mjc5OTgzLC0xMz
+UxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4
+ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMT
+U3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2
+MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLTE5MjU4MTE3Ni
+wtMTc1Njc3MDAxNSwtMTYyNjA1ODA1MywtMTk0OTc0NjQzNiwt
+OTI1NDgyMDY2XX0=
 -->
