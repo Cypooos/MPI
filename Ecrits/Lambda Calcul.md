@@ -117,10 +117,10 @@ On dit que $\text{fix}$ est un opérateur point-fixe si, pour tout $f\in E$, on 
 $$\text{fix}(f) \to f(\text{fix}(f))$$
 
 17. Montrez que $\text{fix}(f)$ n'est pas unitaire.
-18. Montrez que si $\exist!e\in E,\ \text{fix}(f)\to^* e$, alors $f(e)=e$
 19. Montrez que si $\text{fix}(f)\to^* e$, alors $\exist a\in E,\ f\to^* K(a)$
 
-On appelle $e$ un point fixe de $f$
+On appellera donc ce $a$ une valeur d'initialisation.
+On appellera $e$ un point fixe de $f$
 
 20. Donnez $f\in E$ tel que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
 21. (*) Donnez une expression $\Theta$ point-fixe.
@@ -136,11 +136,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 ## Généralisation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxMjM0OTU4LDEyNjY5MzQzNiwtMjczNj
-Q4NDk3LC0xMzEyMzYxODI4LDExNTcxNDY1NjIsMTY0NDU5ODU1
-OCwtMTkyNTgxMTc2LC0xNzU2NzcwMDE1LC0xNjI2MDU4MDUzLC
-0xOTQ5NzQ2NDM2LC05MjU0ODIwNjYsLTE0Nzc4MjEzNDksLTIx
-MzcyNzUwNDUsMTAzMDgxMzk1MCw2NjE0MTE0NDQsLTE5OTEzNT
-gwNTUsLTE4MTUxNTc3NjYsLTEzODcxNzU3ODIsLTE1ODI4OTY2
-NTksLTE2ODc1NDI5OTJdfQ==
+eyJoaXN0b3J5IjpbLTM2MTkwMDYyMiwxMjY2OTM0MzYsLTI3Mz
+Y0ODQ5NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1
+NTgsLTE5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYyNjA1ODA1My
+wtMTk0OTc0NjQzNiwtOTI1NDgyMDY2LC0xNDc3ODIxMzQ5LC0y
+MTM3Mjc1MDQ1LDEwMzA4MTM5NTAsNjYxNDExNDQ0LC0xOTkxMz
+U4MDU1LC0xODE1MTU3NzY2LC0xMzg3MTc1NzgyLC0xNTgyODk2
+NjU5LC0xNjg3NTQyOTkyXX0=
 -->
