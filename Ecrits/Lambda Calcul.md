@@ -171,7 +171,7 @@ $$
 $$
 
 On dit que $t$ est un typage de $x$ si $\empty \vdash x:t$
-
+On n'éhsitera pas a ajou
 Par exemple, ce qui suit est un arbre de dérivation montrant que $\tau\to\tau$ est un typage de $I$ :
 $$
 \cfrac{}{\cfrac{(x,t) \vdash x: t}{\empty \vdash x\mapsto x : \tau\to \tau}\tiny\text{(ab)}}\tiny\text{(ax)}\\
@@ -184,11 +184,11 @@ On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 23. Donnez $t$ un type qui soit un typage de $C_n$ pour tout $n\in\N^*$
 24. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4Njc3MzYsMzQ5MDM0MzMzLDEyMDE0MT
-E5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgzMDY1
-LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLTU4Mz
-IzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgxNTU2
-NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2MTgyOCwxMT
-U3MTQ2NTYyLDE2NDQ1OTg1NTgsLTE5MjU4MTE3NiwtMTc1Njc3
-MDAxNV19
+eyJoaXN0b3J5IjpbNDE5MjA4ODg1LDM0OTAzNDMzMywxMjAxND
+ExOTQ2LDIwMzQyMDU2NTMsLTQyNTI3OTk4MywtMTM1MTg4MzA2
+NSwtODkyNzM1MDM5LC0yNDMzNjAwMzMsMzcwMTYyODg1LC01OD
+MyMzc3NzAsMTU5OTYyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1
+NjUsMTI2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMT
+E1NzE0NjU2MiwxNjQ0NTk4NTU4LC0xOTI1ODExNzYsLTE3NTY3
+NzAwMTVdfQ==
 -->
