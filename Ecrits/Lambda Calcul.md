@@ -146,7 +146,8 @@ Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des r�
 On pose $\hat{T}$ un ensemble non vide de types par défaut.
 Pour chaque type $\tau\in\hat{T}$ par défaut, on pose $E_{\tau}$ un ensemble non vide d'expressions par défault.
 Par exemple, si on ajoute le type $\text{Bool}$, on posera $E_{\text{Bool}} = \{ \text{true},\text{false}\}$
-De même, si on ajoute le type $\text{Int}$, on posera $E_{\text{$
+De même, si on ajoute le type $\text{Nat}$, on posera $E_{\text{Nat}} = \{ 0_E,1_E,2_E,3_E, ... \}$
+
 On pose $T$ tel que $\hat{T} \sub T$ et pour tout $\tau,\tau'\in T$, on a $\tau\to\tau'\in \hat{T}$
 
 Un contexte de type, dénoté par $\Gamma$, est un sous-ensemble de $X\times T$
@@ -169,11 +170,11 @@ $$
 \frac{\Gamma\ \cup \{(x,t)\} \vdash x': t'}{\empty \vdash f(x): \tau_2 \vdash : \tau_1}\tiny\text{(ab)}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjEzODEyNiwxMjAxNDExOTQ2LDIwMz
-QyMDU2NTMsLTQyNTI3OTk4MywtMTM1MTg4MzA2NSwtODkyNzM1
-MDM5LC0yNDMzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3NzAsMT
-U5OTYyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMTI2Njkz
-NDM2LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0NjU2Mi
-wxNjQ0NTk4NTU4LC0xOTI1ODExNzYsLTE3NTY3NzAwMTUsLTE2
-MjYwNTgwNTNdfQ==
+eyJoaXN0b3J5IjpbODM4MzA5MDM4LDEyMDE0MTE5NDYsMjAzND
+IwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgzMDY1LC04OTI3MzUw
+MzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLTU4MzIzNzc3MCwxNT
+k5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0
+MzYsLTI3MzY0ODQ5NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLD
+E2NDQ1OTg1NTgsLTE5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYy
+NjA1ODA1M119
 -->
