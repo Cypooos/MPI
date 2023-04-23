@@ -155,7 +155,7 @@ Un jugement de type est un triplet $\Gamma \vdash x: t$ tel que on ai les règle
 
 Défaut, pour $t\in \hat{T}$ et $x\in E_t$ :
 $$
-\frac{}{\Gamma\vdash x: t}\tiny\text{(def)}\\
+\frac{}{\Gamma \vdash x: t}\tiny\text{(def)}\\
 $$
 Axiome :
 $$
@@ -169,12 +169,14 @@ Abstraction :
 $$
 \frac{\Gamma\ \cup \{(x,t)\} \vdash x': t'}{\Gamma\ \vdash x\mapsto x': t\to t'}\tiny\text{(ab)}
 $$
+
+22. Donnez un arbre de dérivation de $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzAyMTQwNywxMjAxNDExOTQ2LDIwMz
-QyMDU2NTMsLTQyNTI3OTk4MywtMTM1MTg4MzA2NSwtODkyNzM1
-MDM5LC0yNDMzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3NzAsMT
-U5OTYyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMTI2Njkz
-NDM2LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0NjU2Mi
-wxNjQ0NTk4NTU4LC0xOTI1ODExNzYsLTE3NTY3NzAwMTUsLTE2
-MjYwNTgwNTNdfQ==
+eyJoaXN0b3J5IjpbMzQ5MDM0MzMzLDEyMDE0MTE5NDYsMjAzND
+IwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgzMDY1LC04OTI3MzUw
+MzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLTU4MzIzNzc3MCwxNT
+k5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0
+MzYsLTI3MzY0ODQ5NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLD
+E2NDQ1OTg1NTgsLTE5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYy
+NjA1ODA1M119
 -->
