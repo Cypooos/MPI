@@ -127,7 +127,7 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que F sera appelé constamment avec $F$ comme premier argument.
 
 20. Montrez que, $\forall x\in E$,
-$$\text{fix}(f)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{f(f(...(f)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
+$$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
 
 On notera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
 
@@ -144,11 +144,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 # Partie IV
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjExNTc2OSwtODkyNzM1MDM5LC0yND
-MzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3NzAsMTU5OTYyMTQ0
-MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMTI2NjkzNDM2LC0yNz
-M2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0NjU2MiwxNjQ0NTk4
-NTU4LC0xOTI1ODExNzYsLTE3NTY3NzAwMTUsLTE2MjYwNTgwNT
-MsLTE5NDk3NDY0MzYsLTkyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwt
-MjEzNzI3NTA0NV19
+eyJoaXN0b3J5IjpbLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMj
+QzMzYwMDMzLDM3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0
+NDAsLTk1MzQ5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQzNiwtMj
+czNjQ4NDk3LC0xMzEyMzYxODI4LDExNTcxNDY1NjIsMTY0NDU5
+ODU1OCwtMTkyNTgxMTc2LC0xNzU2NzcwMDE1LC0xNjI2MDU4MD
+UzLC0xOTQ5NzQ2NDM2LC05MjU0ODIwNjYsLTE0Nzc4MjEzNDks
+LTIxMzcyNzUwNDVdfQ==
 -->
