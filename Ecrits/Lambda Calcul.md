@@ -142,13 +142,14 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 20. Donnez un expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\ln m)$
 
 # Partie IV
-Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que 
+Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que chaque expression bien typé soit unitaire.
+On pose T un e
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMj
-QzMzYwMDMzLDM3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0
-NDAsLTk1MzQ5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQzNiwtMj
-czNjQ4NDk3LC0xMzEyMzYxODI4LDExNTcxNDY1NjIsMTY0NDU5
-ODU1OCwtMTkyNTgxMTc2LC0xNzU2NzcwMDE1LC0xNjI2MDU4MD
-UzLC0xOTQ5NzQ2NDM2LC05MjU0ODIwNjYsLTE0Nzc4MjEzNDks
-LTIxMzcyNzUwNDVdfQ==
+eyJoaXN0b3J5IjpbMTE4NDI5NDY2NCwtMTM1MTg4MzA2NSwtOD
+kyNzM1MDM5LC0yNDMzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3
+NzAsMTU5OTYyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMT
+I2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0
+NjU2MiwxNjQ0NTk4NTU4LC0xOTI1ODExNzYsLTE3NTY3NzAwMT
+UsLTE2MjYwNTgwNTMsLTE5NDk3NDY0MzYsLTkyNTQ4MjA2Niwt
+MTQ3NzgyMTM0OV19
 -->
