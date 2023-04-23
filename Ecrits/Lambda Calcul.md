@@ -29,11 +29,11 @@ On définie une *expression* inductivement :
  - "$e_1(e_2)$" est une expression pour tout $e_1,e_2$ deux expressions
  - "$x\mapsto e$" est une expression pour tout $x\in V$ et $e$ une expression
 
-L'on se permettra l'utilisation de parenthèses pour indiquer de l'ordre des opérations. On note $E$ l'ensemble des expressions. Si $a$ est une expression présente dans $A$, une autre expression, on note cela $a\in A$.
+On utilisera des parenthèses pour indiquer de l'ordre des opérations. On note $E$ l'ensemble des expressions. Si $a$ est une expression présente dans $A$, une autre expression, on note cela $a\in A$.
 
 On pourra noter $x_1,x_2,...,x_n\mapsto e$ pour dénoter $x_1\mapsto (x_2\mapsto(...(x_n\mapsto e)...))$
-On pourra aussi noter $e(x_1)(x_2)...(x_n)$ comme $e(x_1,x_2,...,x_n)$
-
+On pourra noter $e(x_1,x_2,...,x_n)$ pour dénoter $e(x_1)(x_2)...(x_n)$
+ 
 Soient $e\in E$ et $x,y\in V\times E$, on définie l'opération de substitution $e[x\larr y]$ inductivement :
  - $x[x\larr y] := y$
   - $u[x\larr y] := u$ pour $u\in V\setminus \{x\}$
@@ -198,11 +198,11 @@ On essaye de montrer que toute les expressions bien typé sont unitaire et sans 
 29. Montrez que si $e$ est unitaire sans variable libre, alors il est typé.
 30. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDE1NzM2OTAsMTM5OTU4MzI3OCwyMD
-YyNzkxMzA0LDEyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3
-NzYsMzQ5MDM0MzMzLDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtND
-I1Mjc5OTgzLC0xMzUxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2
-MDAzMywzNzAxNjI4ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC
-05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0
-ODQ5N119
+eyJoaXN0b3J5IjpbMTM5NTQ4NDUzNSwxMzk5NTgzMjc4LDIwNj
+I3OTEzMDQsMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3
+NiwzNDkwMzQzMzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00Mj
+UyNzk5ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYw
+MDMzLDM3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0NDAsLT
+k1MzQ5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQzNiwtMjczNjQ4
+NDk3XX0=
 -->
