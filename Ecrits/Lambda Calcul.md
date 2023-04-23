@@ -182,14 +182,13 @@ On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 
 22. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
 
-Soit $K\sube E$. Si $t$ est un type tel que $\forall e\in $
+Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
 
-24. Donnez $t$ un type qui soit, pour tout $n\in\N^*$, un typage de $C_n$
-
+24. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 25. Donnez $t$ un type 
 26. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjUzNzczMywzNDkwMzQzMzMsMTIwMT
+eyJoaXN0b3J5IjpbMTM5OTc3Njc3NiwzNDkwMzQzMzMsMTIwMT
 QxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLTEzNTE4ODMw
 NjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2Mjg4NSwtNT
 gzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5NDAxNiwxNTc5ODE1
