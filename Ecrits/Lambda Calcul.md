@@ -134,13 +134,14 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 18. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 
 ## Généralisation
-On considère ici $F$ de la forme $F=(f,x\mapsto e)$, avec 
+On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que F sera appelé constamment avec $F$ comme premier argument.
+20.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk5MjI2MzUyLDE1OTk2MjE0NDAsLTk1Mz
-Q5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQzNiwtMjczNjQ4NDk3
-LC0xMzEyMzYxODI4LDExNTcxNDY1NjIsMTY0NDU5ODU1OCwtMT
-kyNTgxMTc2LC0xNzU2NzcwMDE1LC0xNjI2MDU4MDUzLC0xOTQ5
-NzQ2NDM2LC05MjU0ODIwNjYsLTE0Nzc4MjEzNDksLTIxMzcyNz
-UwNDUsMTAzMDgxMzk1MCw2NjE0MTE0NDQsLTE5OTEzNTgwNTUs
-LTE4MTUxNTc3NjZdfQ==
+eyJoaXN0b3J5IjpbLTYyNDI2ODQ3NiwxNTk5NjIxNDQwLC05NT
+M0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5
+NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLT
+E5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYyNjA1ODA1MywtMTk0
+OTc0NjQzNiwtOTI1NDgyMDY2LC0xNDc3ODIxMzQ5LC0yMTM3Mj
+c1MDQ1LDEwMzA4MTM5NTAsNjYxNDExNDQ0LC0xOTkxMzU4MDU1
+LC0xODE1MTU3NzY2XX0=
 -->
