@@ -132,7 +132,7 @@ $$\text{fix}(f)(x) \to^* \alpha \implies\exist n_0,\ \underbrace{f(f(...(f)...))
 
 On notera le plus petit $n_0$ le *nombre d'appel récursif*.
 
-## La fonction récursive factorielle
+## Quelques exemples
 On définie :
 $$
 \text{fact\_rec} = (f,x\mapsto \text{if0}(x)(C_1)(\text{mul}(x)(f(\text{sub}(x,1)))))
@@ -140,12 +140,13 @@ $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 19. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
+20. Donnez $\text{fibo}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQ0MDk4NjAsLTg5MjczNTAzOSwtMj
-QzMzYwMDMzLDM3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0
-NDAsLTk1MzQ5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQzNiwtMj
-czNjQ4NDk3LC0xMzEyMzYxODI4LDExNTcxNDY1NjIsMTY0NDU5
-ODU1OCwtMTkyNTgxMTc2LC0xNzU2NzcwMDE1LC0xNjI2MDU4MD
-UzLC0xOTQ5NzQ2NDM2LC05MjU0ODIwNjYsLTE0Nzc4MjEzNDks
-LTIxMzcyNzUwNDVdfQ==
+eyJoaXN0b3J5IjpbOTM3ODkwMzMyLC04OTI3MzUwMzksLTI0Mz
+M2MDAzMywzNzAxNjI4ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQw
+LC05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3Mz
+Y0ODQ5NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1
+NTgsLTE5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYyNjA1ODA1My
+wtMTk0OTc0NjQzNiwtOTI1NDgyMDY2LC0xNDc3ODIxMzQ5LC0y
+MTM3Mjc1MDQ1XX0=
 -->
