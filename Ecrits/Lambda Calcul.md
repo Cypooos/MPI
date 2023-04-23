@@ -144,7 +144,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 # Partie IV
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que chaque expression bien typé soit unitaire.
 On pose $\hat{T}$ un ensemble non vide de types par défaut.
-Pour chaque type $\tau\in\hat{T}$ par défaut, on pose $E_{\tau}$ un ensemble non vide d'expressions par défault.
+Pour chaque type $\tau\in\hat{T}$ par défaut, on pose $E_{\tau}$ un ensemble d'expressions par défaut.
 Par exemple, si on ajoute le type $\text{Bool}$, on posera $E_{\text{Bool}} = \{ \text{true},\text{false}\}$
 De même, si on ajoute le type $\text{Nat}$, on posera $E_{\text{Nat}} = \{ 0_E,1_E,2_E,3_E, ... \}$
 
@@ -170,15 +170,16 @@ $$
 \frac{\Gamma\ \cup \{(x,t)\} \vdash x': t'}{\Gamma\ \vdash x\mapsto x': t\to t'}\tiny\text{(ab)}
 $$
 
-## 
+## Sous-partie 1
+On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 
 22. Donnez un arbre de dérivation de $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU2MDk3NTg3LDM0OTAzNDMzMywxMjAxND
-ExOTQ2LDIwMzQyMDU2NTMsLTQyNTI3OTk4MywtMTM1MTg4MzA2
-NSwtODkyNzM1MDM5LC0yNDMzNjAwMzMsMzcwMTYyODg1LC01OD
-MyMzc3NzAsMTU5OTYyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1
-NjUsMTI2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMT
-E1NzE0NjU2MiwxNjQ0NTk4NTU4LC0xOTI1ODExNzYsLTE3NTY3
-NzAwMTVdfQ==
+eyJoaXN0b3J5IjpbMTQ4MDczMTAxMiwzNDkwMzQzMzMsMTIwMT
+QxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLTEzNTE4ODMw
+NjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2Mjg4NSwtNT
+gzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5NDAxNiwxNTc5ODE1
+NTY1LDEyNjY5MzQzNiwtMjczNjQ4NDk3LC0xMzEyMzYxODI4LD
+ExNTcxNDY1NjIsMTY0NDU5ODU1OCwtMTkyNTgxMTc2LC0xNzU2
+NzcwMDE1XX0=
 -->
