@@ -140,13 +140,13 @@ $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 19. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
-20. Donnez $\text{pow}$ tel que $\text{pow}(C_n,C_m) \to^* C_{n^m}$ en 
+20. Donnez $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_0 = O(\ln m)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDQ4NDE2NiwtODkyNzM1MDM5LC0yND
-MzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3NzAsMTU5OTYyMTQ0
-MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMTI2NjkzNDM2LC0yNz
-M2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0NjU2MiwxNjQ0NTk4
-NTU4LC0xOTI1ODExNzYsLTE3NTY3NzAwMTUsLTE2MjYwNTgwNT
-MsLTE5NDk3NDY0MzYsLTkyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwt
-MjEzNzI3NTA0NV19
+eyJoaXN0b3J5IjpbNzE2ODc2MDM1LC04OTI3MzUwMzksLTI0Mz
+M2MDAzMywzNzAxNjI4ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQw
+LC05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3Mz
+Y0ODQ5NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1
+NTgsLTE5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYyNjA1ODA1My
+wtMTk0OTc0NjQzNiwtOTI1NDgyMDY2LC0xNDc3ODIxMzQ5LC0y
+MTM3Mjc1MDQ1XX0=
 -->
