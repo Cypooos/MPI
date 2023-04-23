@@ -174,7 +174,7 @@ On dit que $t$ est un typage de $x$ si $\empty \vdash x:t$
 
 Par exemple, ce qui suit est un arbre de dérivation montrant que $\tau\to\tau$ est un typage de $I$ :
 $$
-\frac{}{\frac{(x,t) \vdash x: t}\tiny\text{(ax)}\\
+\cfrac{}{\cfrac{(x,t) \vdash x: t}{\empty \vdash x\mapsto x : \tau\to \tau}}\tiny\text{(ax)}\\
 $$
 
 ## Sous-partie 1
@@ -182,7 +182,7 @@ On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 
 22. Donnez un arbre de dérivation donnant un typage de $C_0$, $C_1$ et $C_2$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMzE3NDgyLDM0OTAzNDMzMywxMjAxND
+eyJoaXN0b3J5IjpbOTg2NTg4NTA3LDM0OTAzNDMzMywxMjAxND
 ExOTQ2LDIwMzQyMDU2NTMsLTQyNTI3OTk4MywtMTM1MTg4MzA2
 NSwtODkyNzM1MDM5LC0yNDMzNjAwMzMsMzcwMTYyODg1LC01OD
 MyMzc3NzAsMTU5OTYyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1
