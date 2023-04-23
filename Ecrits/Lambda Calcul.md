@@ -170,18 +170,18 @@ $$
 \frac{\Gamma\ \cup \{(x,t)\} \vdash x': t'}{\Gamma\ \vdash x\mapsto x': t\to t'}\tiny\text{(ab)}
 $$
 
-On dit que $t$ est le type de $x$ si $\emp$
+On dit que $t$ est un typage de $x$ si $\empty \vdash x:t$
 
 ## Sous-partie 1
 On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 
-22. Donnez un arbre de dérivation de $C_0$
+22. Donnez un arbre de dérivation donnant un typage de $C_0$, $C_1$ et $C_2$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTIxNDk2MSwzNDkwMzQzMzMsMTIwMT
-QxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLTEzNTE4ODMw
-NjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2Mjg4NSwtNT
-gzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5NDAxNiwxNTc5ODE1
-NTY1LDEyNjY5MzQzNiwtMjczNjQ4NDk3LC0xMzEyMzYxODI4LD
-ExNTcxNDY1NjIsMTY0NDU5ODU1OCwtMTkyNTgxMTc2LC0xNzU2
-NzcwMDE1XX0=
+eyJoaXN0b3J5IjpbLTE1Njc3MTQ5NDUsMzQ5MDM0MzMzLDEyMD
+E0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgz
+MDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLT
+U4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgx
+NTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2MTgyOC
+wxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLTE5MjU4MTE3NiwtMTc1
+Njc3MDAxNV19
 -->
