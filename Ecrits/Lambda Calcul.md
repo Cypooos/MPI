@@ -88,7 +88,7 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 8. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$
 
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
-On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ a été écrite ; l'écrire est l'objet de la partie II.
+On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m\ ;\ 0\}}$ a été écrite ; l'écrire est l'objet de la partie II.
 
 ## Condition sur les entiers de Church
 9. Définir $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
@@ -198,11 +198,11 @@ On essaye de montrer que toute les expressions bien typé sont unitaire et sans 
 29. Montrez que si $e$ est unitaire sans variable libre, alors il est typé.
 30. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4MTMyMjYxLDk1ODEzMjI2MSwxMzk5NT
-gzMjc4LDIwNjI3OTEzMDQsMTIwNjc4NjA2LDEwNTU2MTI3Mjks
-MTM5OTc3Njc3NiwzNDkwMzQzMzMsMTIwMTQxMTk0NiwyMDM0Mj
-A1NjUzLC00MjUyNzk5ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAz
-OSwtMjQzMzYwMDMzLDM3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OT
-k2MjE0NDAsLTk1MzQ5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQz
-Nl19
+eyJoaXN0b3J5IjpbMTI4NzUyMjI5OSw5NTgxMzIyNjEsMTM5OT
+U4MzI3OCwyMDYyNzkxMzA0LDEyMDY3ODYwNiwxMDU1NjEyNzI5
+LDEzOTk3NzY3NzYsMzQ5MDM0MzMzLDEyMDE0MTE5NDYsMjAzND
+IwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgzMDY1LC04OTI3MzUw
+MzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLTU4MzIzNzc3MCwxNT
+k5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0
+MzZdfQ==
 -->
