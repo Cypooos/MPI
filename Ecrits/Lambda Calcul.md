@@ -123,7 +123,7 @@ On appellera donc ce $a$ une valeur d'initialisation.
 On appellera $e$ un point fixe de $f$ si $e=f(e)$
 
 20. Montrez que si $\exist!e\in E,\ \text{fix}(f)\to^* e$, alors $f$ admet un point fixe.
-20. Donnez $f\in E$ tel que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
+20. Donnez une valeur d'initialisation de 
 21. (*) Donnez une expression $\Theta$ point-fixe.
 
 ## La fonction récursive factorielle
@@ -137,11 +137,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 ## Généralisation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzc0Njk1MzcsMTI2NjkzNDM2LC0yNz
-M2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0NjU2MiwxNjQ0NTk4
-NTU4LC0xOTI1ODExNzYsLTE3NTY3NzAwMTUsLTE2MjYwNTgwNT
-MsLTE5NDk3NDY0MzYsLTkyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwt
-MjEzNzI3NTA0NSwxMDMwODEzOTUwLDY2MTQxMTQ0NCwtMTk5MT
-M1ODA1NSwtMTgxNTE1Nzc2NiwtMTM4NzE3NTc4MiwtMTU4Mjg5
-NjY1OSwtMTY4NzU0Mjk5Ml19
+eyJoaXN0b3J5IjpbMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3Mz
+Y0ODQ5NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1
+NTgsLTE5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYyNjA1ODA1My
+wtMTk0OTc0NjQzNiwtOTI1NDgyMDY2LC0xNDc3ODIxMzQ5LC0y
+MTM3Mjc1MDQ1LDEwMzA4MTM5NTAsNjYxNDExNDQ0LC0xOTkxMz
+U4MDU1LC0xODE1MTU3NzY2LC0xMzg3MTc1NzgyLC0xNTgyODk2
+NjU5LC0xNjg3NTQyOTkyXX0=
 -->
