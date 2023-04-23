@@ -128,7 +128,7 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que F sera appelé constamment avec $F$ comme premier argument.
 
 20. Montrez que, soit $x\in E$,
-$$\text{fix}(f)(x) \to^* \alpha \iff \exist n_0,\ \forall n\ge n_0, \underbrace{f(f(...(f)...))}_{n\text{ fois}}(x)\to^*\alpha$$
+$$\text{fix}(f)(x) \to^* \alpha \iff \exist n_0,\ \underbrace{f(f(...(f)...))}_{n_0\text{ fois}}(x)\to^*\alpha$$
 
 On notera le plus petit $n_0$ le nombre d'appel récursif.
 
@@ -141,11 +141,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 19. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwMTYyODg1LC01ODMyMzc3NzAsMTU5OT
-YyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMTI2NjkzNDM2
-LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0NjU2MiwxNj
-Q0NTk4NTU4LC0xOTI1ODExNzYsLTE3NTY3NzAwMTUsLTE2MjYw
-NTgwNTMsLTE5NDk3NDY0MzYsLTkyNTQ4MjA2NiwtMTQ3NzgyMT
-M0OSwtMjEzNzI3NTA0NSwxMDMwODEzOTUwLDY2MTQxMTQ0NCwt
-MTk5MTM1ODA1NV19
+eyJoaXN0b3J5IjpbLTI0MzM2MDAzMywzNzAxNjI4ODUsLTU4Mz
+IzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgxNTU2
+NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2MTgyOCwxMT
+U3MTQ2NTYyLDE2NDQ1OTg1NTgsLTE5MjU4MTE3NiwtMTc1Njc3
+MDAxNSwtMTYyNjA1ODA1MywtMTk0OTc0NjQzNiwtOTI1NDgyMD
+Y2LC0xNDc3ODIxMzQ5LC0yMTM3Mjc1MDQ1LDEwMzA4MTM5NTAs
+NjYxNDExNDQ0XX0=
 -->
