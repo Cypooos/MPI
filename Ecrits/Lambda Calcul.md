@@ -179,7 +179,7 @@ $$
 On notera $e:t$ pour dire qu'une expression $e$ à un typage $t$.
 Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 
-## Typage généralisé
+## Typage d'expression
 On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 
 22. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
@@ -189,20 +189,20 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 24. Donnez $t$ un type généralisé de $\{\top, \bot\}$
 25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
-## Les expressions typée sont unitaire
+## Caractérisation des expressions typées
 On essaye de montrer que toute les expressions bien typé sont unitaire et sans variable libre.
 
 26. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre
 27. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et $t'\in t$.
 28. Montrez que le type d'une expression est invariant par dérivation.
-29. Montrez que si $e$ est unitaire, alors il est typé.
+29. Montrez que si $e$ est unitaire sans variable libre, alors il est typé.
 30. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDgxOTc2MSwxMzk5NTgzMjc4LDIwNj
-I3OTEzMDQsMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3
-NiwzNDkwMzQzMzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00Mj
-UyNzk5ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYw
-MDMzLDM3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0NDAsLT
-k1MzQ5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQzNiwtMjczNjQ4
-NDk3XX0=
+eyJoaXN0b3J5IjpbLTIxMjM5MzU4ODYsMTM5OTU4MzI3OCwyMD
+YyNzkxMzA0LDEyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3
+NzYsMzQ5MDM0MzMzLDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtND
+I1Mjc5OTgzLC0xMzUxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2
+MDAzMywzNzAxNjI4ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC
+05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0
+ODQ5N119
 -->
