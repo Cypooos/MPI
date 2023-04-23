@@ -170,12 +170,14 @@ $$
 \frac{\Gamma\ \cup \{(x,t)\} \vdash x': t'}{\Gamma\ \vdash x\mapsto x': t\to t'}\tiny\text{(ab)}
 $$
 
+On dit que $t$ est le type de $x$ si $\emp$
+
 ## Sous-partie 1
 On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 
-22. Donnez un arbre de dérivation de $$
+22. Donnez un arbre de dérivation de $C_0$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDczMTAxMiwzNDkwMzQzMzMsMTIwMT
+eyJoaXN0b3J5IjpbLTk5MTIxNDk2MSwzNDkwMzQzMzMsMTIwMT
 QxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLTEzNTE4ODMw
 NjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2Mjg4NSwtNT
 gzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5NDAxNiwxNTc5ODE1
