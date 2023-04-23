@@ -157,7 +157,7 @@ Défaut, pour $t\in \hat{T}$ et $x\in E_t$ :
 $$
 \frac{}{\Gamma \vdash x: t}\tiny\text{(def)}\\
 $$
-Axiome :
+Axiome, pour $($ :
 $$
 \frac{}{(x,t) \vdash x: t}\tiny\text{(ax)}\\
 $$
@@ -183,11 +183,11 @@ On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 22. Donnez un arbre de dérivation donnant un typage de $C_0$, $C_1$ et $C_2$
 23. Donnez $t$ un type qui soit un typage de 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTk1NDM0MiwzNDkwMzQzMzMsMTIwMT
-QxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLTEzNTE4ODMw
-NjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2Mjg4NSwtNT
-gzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5NDAxNiwxNTc5ODE1
-NTY1LDEyNjY5MzQzNiwtMjczNjQ4NDk3LC0xMzEyMzYxODI4LD
-ExNTcxNDY1NjIsMTY0NDU5ODU1OCwtMTkyNTgxMTc2LC0xNzU2
-NzcwMDE1XX0=
+eyJoaXN0b3J5IjpbLTE1MTY3NTcwNjYsMzQ5MDM0MzMzLDEyMD
+E0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgz
+MDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLT
+U4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgx
+NTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2MTgyOC
+wxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLTE5MjU4MTE3NiwtMTc1
+Njc3MDAxNV19
 -->
