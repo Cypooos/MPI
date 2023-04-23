@@ -117,12 +117,12 @@ On dit que $\text{fix}$ est un opérateur point-fixe si, pour tout $f\in E$, on 
 $$\text{fix}(f) \to f(\text{fix}(f))$$
 
 17. Montrez que $\text{fix}(f)$ n'est pas unitaire.
-19. Montrez que si $\text{fix}(f)\to^* e$, alors $\exist a\in E,\ f\to^* K(a)$
+19. Montrez que si $\text{fix}(f)\to^* e$, alors $\exist a\in E,\ f\to^* K(a)$ (TODO: bien revérifier)
 
 On appellera donc ce $a$ une valeur d'initialisation.
 On appellera $e$ un point fixe de $f$ si $e=f(e)$
 
-20. Montrez que si $\exist!e\in E,\ \text{fix}(f)\to^* e$, alors $f$ admet 
+20. Montrez que si $\exist!e\in E,\ \text{fix}(f)\to^* e$, alors $f$ admet un point fixe.
 20. Donnez $f\in E$ tel que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
 21. (*) Donnez une expression $\Theta$ point-fixe.
 
@@ -137,7 +137,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 ## Généralisation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTUyODUxMjgsMTI2NjkzNDM2LC0yNz
+eyJoaXN0b3J5IjpbLTEyNzc0Njk1MzcsMTI2NjkzNDM2LC0yNz
 M2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0NjU2MiwxNjQ0NTk4
 NTU4LC0xOTI1ODExNzYsLTE3NTY3NzAwMTUsLTE2MjYwNTgwNT
 MsLTE5NDk3NDY0MzYsLTkyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwt
