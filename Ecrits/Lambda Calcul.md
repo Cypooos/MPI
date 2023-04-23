@@ -144,7 +144,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 # Partie IV
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que chaque expression bien typé soit unitaire.
 On pose $\hat{T}$ un ensemble non vide de types par défaut.
-Pour chaque type $\tau\in\hat{T}$ par défaut, on pose $E_{\tau}$ un ensemble d'expressions par défaut.
+Pour chaque type $\tau\in\hat{T}$ par défaut, on pose $E_{\tau}$ un ensemble d'expressions normale par défaut.
 Par exemple, si on ajoute le type $\text{Bool}$, on posera $E_{\text{Bool}} = \{ \text{true},\text{false}\}$
 De même, si on ajoute le type $\text{Nat}$, on posera $E_{\text{Nat}} = \{ 0_E,1_E,2_E,3_E, ... \}$
 
@@ -194,11 +194,11 @@ On essaye de montrer que toute les expressions bien typé sont unitaire.
 29. Montrez que si $e$ est unitaire, alors il est typé.
 30. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5NTY2NTM4LDEyMDY3ODYwNiwxMDU1Nj
-EyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0MzMzLDEyMDE0MTE5NDYs
-MjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgzMDY1LC04OT
-I3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLTU4MzIzNzc3
-MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMj
-Y2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2MTgyOCwxMTU3MTQ2
-NTYyXX0=
+eyJoaXN0b3J5IjpbMjA2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NT
+YxMjcyOSwxMzk5Nzc2Nzc2LDM0OTAzNDMzMywxMjAxNDExOTQ2
+LDIwMzQyMDU2NTMsLTQyNTI3OTk4MywtMTM1MTg4MzA2NSwtOD
+kyNzM1MDM5LC0yNDMzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3
+NzAsMTU5OTYyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMT
+I2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0
+NjU2Ml19
 -->
