@@ -117,14 +117,12 @@ On dit que $\text{fix}$ est un opérateur point-fixe si, pour tout $f\in E$, on 
 $$\text{fix}(f) \to f(\text{fix}(f))$$
 
 17. Montrez que $\text{fix}(f)$ n'est pas unitaire.
-19. Montrez que si $\text{fix}(f)\to^* e$, alors $\exist a\in E, \ f\to^* K(a)$
 
-On appellera donc ce $a$ une valeur d'initialisation.
 On appellera $e$ un point fixe de $f$ si $e=f(e)$
 
-20. Montrez que si $\exist!e\in E,\ \text{fix}(f)\to^* e$, alors $f$ admet un point fixe.
-20. Donnez une valeur d'initialisation de 
-21. (*) Donnez une expression $\Theta$ point-fixe.
+18. Montrez que si $\exist!e\in E,\ \text{fix}(f)\to^* e$, alors $f$ admet un point fixe.
+19. Donnez
+20. (*) Donnez une expression $\Theta$ point-fixe.
 
 ## La fonction récursive factorielle
 On définie :
@@ -137,11 +135,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 ## Généralisation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5OTYyMTQ0MCwtOTUzNDk0MDE2LDE1Nz
-k4MTU1NjUsMTI2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMTIzNjE4
-MjgsMTE1NzE0NjU2MiwxNjQ0NTk4NTU4LC0xOTI1ODExNzYsLT
-E3NTY3NzAwMTUsLTE2MjYwNTgwNTMsLTE5NDk3NDY0MzYsLTky
-NTQ4MjA2NiwtMTQ3NzgyMTM0OSwtMjEzNzI3NTA0NSwxMDMwOD
-EzOTUwLDY2MTQxMTQ0NCwtMTk5MTM1ODA1NSwtMTgxNTE1Nzc2
-NiwtMTM4NzE3NTc4Ml19
+eyJoaXN0b3J5IjpbLTQ5MTk1NTY0NywxNTk5NjIxNDQwLC05NT
+M0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5
+NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLT
+E5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYyNjA1ODA1MywtMTk0
+OTc0NjQzNiwtOTI1NDgyMDY2LC0xNDc3ODIxMzQ5LC0yMTM3Mj
+c1MDQ1LDEwMzA4MTM5NTAsNjYxNDExNDQ0LC0xOTkxMzU4MDU1
+LC0xODE1MTU3NzY2XX0=
 -->
