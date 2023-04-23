@@ -162,18 +162,18 @@ $$
 $$
 Evaluation :
 $$
-\frac{\Gamma \vdash f: \tau_1 \to \tau_2,\qquad \Gamma \vdash x: \tau_1,}{\Gamma \vdash f(x): \tau_2}\tiny\text{(ev)}
+\frac{\Gamma \vdash f: \tau_1 \to \tau_2,\qquad \Gamma \vdash x: \tau_1}{\Gamma \vdash f(x): \tau_2}\tiny\text{(ev)}
 $$
 Abstraction :
 $$
-\frac{\Gamma \vdash f: \tau_1 \to \tau_2,\qquad \Gamma \vdash x: \tau_1,}{\empty \vdash f(x): \tau_2}\tiny\text{(ab)}
+\frac{\Gamma\ \cup \{(x,t)\} \vdash x': t'}{\empty \vdash f(x): \tau_2 \vdash : \tau_1}\tiny\text{(ab)}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzU2NDU0MDUsLTQyNTI3OTk4MywtMT
-M1MTg4MzA2NSwtODkyNzM1MDM5LC0yNDMzNjAwMzMsMzcwMTYy
-ODg1LC01ODMyMzc3NzAsMTU5OTYyMTQ0MCwtOTUzNDk0MDE2LD
-E1Nzk4MTU1NjUsMTI2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMTIz
-NjE4MjgsMTE1NzE0NjU2MiwxNjQ0NTk4NTU4LC0xOTI1ODExNz
-YsLTE3NTY3NzAwMTUsLTE2MjYwNTgwNTMsLTE5NDk3NDY0MzYs
-LTkyNTQ4MjA2Nl19
+eyJoaXN0b3J5IjpbMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMz
+UxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4
+ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMT
+U3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2
+MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLTE5MjU4MTE3Ni
+wtMTc1Njc3MDAxNSwtMTYyNjA1ODA1MywtMTk0OTc0NjQzNiwt
+OTI1NDgyMDY2XX0=
 -->
