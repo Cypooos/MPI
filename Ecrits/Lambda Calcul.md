@@ -176,6 +176,7 @@ $$
 \cfrac{}{\cfrac{(x,t) \vdash x: t}{\empty \vdash x\mapsto x : \tau\to \tau}\tiny\text{(ab)}}\tiny\text{(ax)}\\
 $$
  On n'hésitera pas a ajouter des parenthèses pour ce faire comprendre : par défaut, les flèches sont une opération de droite à gauche, ainsi, $\tau\to\tau\to\tau = \tau\to(\tau\to\tau)$
+On notera $e:t$ pour dire qu'une expression $e$ à un typage $t$.
 
 ## Introduction
 On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
@@ -186,10 +187,13 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 
 24. Donnez $t$ un type généralisé de $\{\top, \bot\}$
 25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
-26. Soit 
-27. Montrez que $\Delta(\Delta)$ n'est pas typé
+26. Soit $a:t \in E$
+27. Montrez que $\Delta(\Delta)$ n'est pas typé.
+
+## 
+On essaye de mon
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4ODY1MTc5OSwxMzk5Nzc2Nzc2LDM0OT
+eyJoaXN0b3J5IjpbLTgxNTE4OTM0OCwxMzk5Nzc2Nzc2LDM0OT
 AzNDMzMywxMjAxNDExOTQ2LDIwMzQyMDU2NTMsLTQyNTI3OTk4
 MywtMTM1MTg4MzA2NSwtODkyNzM1MDM5LC0yNDMzNjAwMzMsMz
 cwMTYyODg1LC01ODMyMzc3NzAsMTU5OTYyMTQ0MCwtOTUzNDk0
