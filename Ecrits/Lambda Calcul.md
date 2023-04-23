@@ -124,6 +124,14 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 17. Donnez une expression $f$ telle que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
 18. (*) Donnez une expression $\Theta$ point-fixe.
 
+## Récursivité
+On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que F sera appelé constamment avec $F$ comme premier argument.
+
+20. Montrez que, soit $x\in E$,
+$$\text{fix}(f)(x) \to^* \alpha \iff \exist n_0,\ \forall n\ge n_0, \underbrace{f(f(...(f)...))}_{n\text{ fois}}(x)\to^*\alpha$$
+
+On notera le plus petit $n_0$ le nombre d'appel récursif.
+
 ## La fonction récursive factorielle
 On définie :
 $$
@@ -132,20 +140,12 @@ $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 19. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
-
-## Généralisation
-On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que F sera appelé constamment avec $F$ comme premier argument.
-
-20. Montrez que, soit $x\in E$,
-$$\text{fix}(f)(x) \to^* \alpha \iff \exist n_0,\ \forall n\ge n_0, \underbrace{f(f(...(f)...))}_{n\text{ fois}}(x)\to^*\alpha$$
-
-On notera le plus petit $n_0$ le nombre d'appel récursif.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDI5OTc2NywtNTgzMjM3NzcwLDE1OT
-k2MjE0NDAsLTk1MzQ5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQz
-NiwtMjczNjQ4NDk3LC0xMzEyMzYxODI4LDExNTcxNDY1NjIsMT
-Y0NDU5ODU1OCwtMTkyNTgxMTc2LC0xNzU2NzcwMDE1LC0xNjI2
-MDU4MDUzLC0xOTQ5NzQ2NDM2LC05MjU0ODIwNjYsLTE0Nzc4Mj
-EzNDksLTIxMzcyNzUwNDUsMTAzMDgxMzk1MCw2NjE0MTE0NDQs
-LTE5OTEzNTgwNTVdfQ==
+eyJoaXN0b3J5IjpbMzcwMTYyODg1LC01ODMyMzc3NzAsMTU5OT
+YyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMTI2NjkzNDM2
+LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0NjU2MiwxNj
+Q0NTk4NTU4LC0xOTI1ODExNzYsLTE3NTY3NzAwMTUsLTE2MjYw
+NTgwNTMsLTE5NDk3NDY0MzYsLTkyNTQ4MjA2NiwtMTQ3NzgyMT
+M0OSwtMjEzNzI3NTA0NSwxMDMwODEzOTUwLDY2MTQxMTQ0NCwt
+MTk5MTM1ODA1NV19
 -->
