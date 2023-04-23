@@ -143,13 +143,15 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 # Partie IV
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que chaque expression bien typé soit unitaire.
+On pose $\hat{T} = {$ un ensemble de type par défaut
 On pose $T$ un ensemble de type définie inductivement:
  - $\tau\in T$ est appelé *type de base*
  - Pour chaque $\tau_1, \tau_2 \in T$, alors $\tau_1 \to\tau_2 \in T$
 
-On définie un jugement de type comme une paire $(x,t)$
+Un contexte de type $\Gamma$ est un sous-ensemble de $X\times T$
+On définie 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDk4NDQ0NiwtMTM1MTg4MzA2NSwtOD
+eyJoaXN0b3J5IjpbLTk1MDM5ODQxMSwtMTM1MTg4MzA2NSwtOD
 kyNzM1MDM5LC0yNDMzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3
 NzAsMTU5OTYyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMT
 I2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0
