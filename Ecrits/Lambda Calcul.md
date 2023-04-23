@@ -56,7 +56,7 @@ On définie les expressions suivantes :
  - $K =  (y\mapsto (x\mapsto y)) = (y,x\mapsto y)$
  - $\Delta = (x\mapsto x(x))$
 
-# Partie 1
+# Partie I
 
 ## Préliminaires
 1. Donnez un calcul normalisant de $K(K,I)$, de $I(I)$, de $K(I,\Delta)$
@@ -198,11 +198,11 @@ On essaye de montrer que toute les expressions bien typé sont unitaire et sans 
 29. Montrez que si $e$ est unitaire sans variable libre, alors il est typé.
 30. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjM5MzU4ODYsMTM5OTU4MzI3OCwyMD
-YyNzkxMzA0LDEyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3
-NzYsMzQ5MDM0MzMzLDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtND
-I1Mjc5OTgzLC0xMzUxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2
-MDAzMywzNzAxNjI4ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC
-05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0
-ODQ5N119
+eyJoaXN0b3J5IjpbLTg5NjcwNTY1NCwxMzk5NTgzMjc4LDIwNj
+I3OTEzMDQsMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3
+NiwzNDkwMzQzMzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00Mj
+UyNzk5ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYw
+MDMzLDM3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0NDAsLT
+k1MzQ5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQzNiwtMjczNjQ4
+NDk3XX0=
 -->
