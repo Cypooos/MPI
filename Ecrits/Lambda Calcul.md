@@ -116,13 +116,13 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 On dit que $\text{fix}$ est un opérateur point-fixe si, pour tout $f\in E$, on a :
 $$\text{fix}(f) \to f(\text{fix}(f))$$
 
-17. Montrez que $\text{fix}(f)$ n'est pas unitaire.
+15. Montrez que $\text{fix}(f)$ n'est pas unitaire.
 
 On appellera $e$ un point fixe de $f$ si $e=f(e)$
 
-18. Montrez que si $\exist!e\in E,\ \text{fix}(f)\to^* e$, alors $f$ admet un point fixe.
-19. Donnez une expression $f$ telle que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
-20. (*) Donnez une expression $\Theta$ point-fixe.
+16. Montrez que si $\exist!e\in E,\ \text{fix}(f)\to^* e$, alors $f$ admet un point fixe.
+17. Donnez une expression $f$ telle que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
+18. (*) Donnez une expression $\Theta$ point-fixe.
 
 ## La fonction récursive factorielle
 On définie :
@@ -131,13 +131,14 @@ $$
 $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
-18. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
+19. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 
 ## Généralisation
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que F sera appelé constamment avec $F$ comme premier argument.
-20.
+
+20. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDI2ODQ3NiwxNTk5NjIxNDQwLC05NT
+eyJoaXN0b3J5IjpbLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC05NT
 M0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5
 NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLT
 E5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYyNjA1ODA1MywtMTk0
