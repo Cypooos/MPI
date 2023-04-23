@@ -188,15 +188,17 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 24. Donnez $t$ un type généralisé de $\{\top, \bot\}$
 25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
-## Les expression typée
+## Les expressions typée sont unitaire
 On essaye de montrer que toute les expressions bien typé sont unitaire.
-27. Montrez que $\Delta$ ne possède pas de typage.
+28. Montrez que si $e$ est typé, alors $e$ est unitaire.
+29. Montrez que si $e$ est unitaire, alors il est typé.
+30. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDM4NTU1NSwxMjA2Nzg2MDYsMTA1NT
-YxMjcyOSwxMzk5Nzc2Nzc2LDM0OTAzNDMzMywxMjAxNDExOTQ2
-LDIwMzQyMDU2NTMsLTQyNTI3OTk4MywtMTM1MTg4MzA2NSwtOD
-kyNzM1MDM5LC0yNDMzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3
-NzAsMTU5OTYyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMT
-I2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0
-NjU2Ml19
+eyJoaXN0b3J5IjpbNjI5NTY2NTM4LDEyMDY3ODYwNiwxMDU1Nj
+EyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0MzMzLDEyMDE0MTE5NDYs
+MjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgzMDY1LC04OT
+I3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLTU4MzIzNzc3
+MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMj
+Y2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2MTgyOCwxMTU3MTQ2
+NTYyXX0=
 -->
