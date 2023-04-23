@@ -144,15 +144,16 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 # Partie IV
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que chaque expression bien typé soit unitaire.
 On pose $\hat{T} = \{\tau_1,\tau_2,\tau_3,...\}$ un ensemble de types par défaut.
-On pose $T$ tel que $\hat{T} \sub T$ et pour tout $\tau,\tau'\in \hat{T}, \$
+On pose $T$ tel que $\hat{T} \sub T$ et pour tout $\tau,\tau'\in T$, on a $\tau\to\tau'\in \hat{T}$
+
 Un contexte de type $\Gamma$ est un sous-ensemble de $X\times T$
-On définie 
+Un jugement de type est un triplet $\Gamma \$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzg2OTEwNjAsLTEzNTE4ODMwNjUsLT
-g5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2Mjg4NSwtNTgzMjM3
-NzcwLDE1OTk2MjE0NDAsLTk1MzQ5NDAxNiwxNTc5ODE1NTY1LD
-EyNjY5MzQzNiwtMjczNjQ4NDk3LC0xMzEyMzYxODI4LDExNTcx
-NDY1NjIsMTY0NDU5ODU1OCwtMTkyNTgxMTc2LC0xNzU2NzcwMD
-E1LC0xNjI2MDU4MDUzLC0xOTQ5NzQ2NDM2LC05MjU0ODIwNjYs
-LTE0Nzc4MjEzNDldfQ==
+eyJoaXN0b3J5IjpbMjE0Mjk3MDIxOSwtMTM1MTg4MzA2NSwtOD
+kyNzM1MDM5LC0yNDMzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3
+NzAsMTU5OTYyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMT
+I2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0
+NjU2MiwxNjQ0NTk4NTU4LC0xOTI1ODExNzYsLTE3NTY3NzAwMT
+UsLTE2MjYwNTgwNTMsLTE5NDk3NDY0MzYsLTkyNTQ4MjA2Niwt
+MTQ3NzgyMTM0OV19
 -->
