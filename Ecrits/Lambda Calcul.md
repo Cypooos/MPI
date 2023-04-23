@@ -118,6 +118,7 @@ $$\text{fix}(f) \to f(\text{fix}(f))$$
 
 17. Montrez que $\text{fix}(f)$ n'est pas unitaire.
 18. Montrez que si $\exist!e\in E,\ \text{fix}(f)\to^* e$, alors $f(e)=e$
+19. Montrez que si $\text{fix}(f)\to^* e$, alors $\exist a\in E,\ f\to^* K(a)$
 
 On appelle $e$ un point fixe de $f$
 
@@ -135,11 +136,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 ## Généralisation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMT
-IzNjE4MjgsMTE1NzE0NjU2MiwxNjQ0NTk4NTU4LC0xOTI1ODEx
-NzYsLTE3NTY3NzAwMTUsLTE2MjYwNTgwNTMsLTE5NDk3NDY0Mz
-YsLTkyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwtMjEzNzI3NTA0NSwx
-MDMwODEzOTUwLDY2MTQxMTQ0NCwtMTk5MTM1ODA1NSwtMTgxNT
-E1Nzc2NiwtMTM4NzE3NTc4MiwtMTU4Mjg5NjY1OSwtMTY4NzU0
-Mjk5MiwtMTk4NTI3NjUwOV19
+eyJoaXN0b3J5IjpbNTgxMjM0OTU4LDEyNjY5MzQzNiwtMjczNj
+Q4NDk3LC0xMzEyMzYxODI4LDExNTcxNDY1NjIsMTY0NDU5ODU1
+OCwtMTkyNTgxMTc2LC0xNzU2NzcwMDE1LC0xNjI2MDU4MDUzLC
+0xOTQ5NzQ2NDM2LC05MjU0ODIwNjYsLTE0Nzc4MjEzNDksLTIx
+MzcyNzUwNDUsMTAzMDgxMzk1MCw2NjE0MTE0NDQsLTE5OTEzNT
+gwNTUsLTE4MTUxNTc3NjYsLTEzODcxNzU3ODIsLTE1ODI4OTY2
+NTksLTE2ODc1NDI5OTJdfQ==
 -->
