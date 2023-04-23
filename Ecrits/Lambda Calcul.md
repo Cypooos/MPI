@@ -184,15 +184,15 @@ On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 
 Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
 
+24. Donnez $t$ un type généralisé de $\{\top, \bot\}$
 24. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
-25. Donnez $t$ un type 
 26. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTc3Njc3NiwzNDkwMzQzMzMsMTIwMT
-QxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLTEzNTE4ODMw
-NjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2Mjg4NSwtNT
-gzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5NDAxNiwxNTc5ODE1
-NTY1LDEyNjY5MzQzNiwtMjczNjQ4NDk3LC0xMzEyMzYxODI4LD
-ExNTcxNDY1NjIsMTY0NDU5ODU1OCwtMTkyNTgxMTc2LC0xNzU2
-NzcwMDE1XX0=
+eyJoaXN0b3J5IjpbNjY2NDcxODIzLDEzOTk3NzY3NzYsMzQ5MD
+M0MzMzLDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgz
+LC0xMzUxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNz
+AxNjI4ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQw
+MTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMT
+MxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLTE5MjU4
+MTE3Nl19
 -->
