@@ -170,12 +170,12 @@ $$
 \frac{\Gamma\ \cup \{(x,t)\} \vdash x': t'}{\Gamma\ \vdash x\mapsto x': t\to t'}\tiny\text{(ab)}
 $$
 
-On dit que $t$ est un typage de $x$ si $\empty \vdash x:t$
-On n'éhsitera pas a ajou
+On dit que $t$ est un typage de $x$ si $\empty \vdash x:t$.
 Par exemple, ce qui suit est un arbre de dérivation montrant que $\tau\to\tau$ est un typage de $I$ :
 $$
 \cfrac{}{\cfrac{(x,t) \vdash x: t}{\empty \vdash x\mapsto x : \tau\to \tau}\tiny\text{(ab)}}\tiny\text{(ax)}\\
 $$
+ On n'hésitera pas a ajouter des parenthèses pour ce faire comprendre : par défaut, les flèches $\tau\to\tau\to\tau = \tau\to(\tau\to\tau)$
 
 ## Sous-partie 1
 On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
@@ -184,11 +184,11 @@ On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 23. Donnez $t$ un type qui soit un typage de $C_n$ pour tout $n\in\N^*$
 24. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5MjA4ODg1LDM0OTAzNDMzMywxMjAxND
-ExOTQ2LDIwMzQyMDU2NTMsLTQyNTI3OTk4MywtMTM1MTg4MzA2
-NSwtODkyNzM1MDM5LC0yNDMzNjAwMzMsMzcwMTYyODg1LC01OD
-MyMzc3NzAsMTU5OTYyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1
-NjUsMTI2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMT
-E1NzE0NjU2MiwxNjQ0NTk4NTU4LC0xOTI1ODExNzYsLTE3NTY3
-NzAwMTVdfQ==
+eyJoaXN0b3J5IjpbLTEwMjg3ODcyNjQsMzQ5MDM0MzMzLDEyMD
+E0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgz
+MDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLT
+U4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgx
+NTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2MTgyOC
+wxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLTE5MjU4MTE3NiwtMTc1
+Njc3MDAxNV19
 -->
