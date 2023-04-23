@@ -6,7 +6,7 @@ Ce sujet introduit la théorie derrière les langages fonctionnel : le lambda ca
 
 La partie I propose une implémentation d'objets de base.
 La partie II propose une implémentation de la soustraction.
-La partie III s'intéresse à l'opérateur point fixe et au expressions récursives.
+La partie III s'intéresse à l'opérateur point fixe et au expressions récursives. Elle est plus théorique.
 La partie IV porte sur de la logique, des expressions typées.
 La partie V s'intéresse au règles de grammaire et à la logique combinatoire.
 La partie VI s'intéresse à la notion de confluence, et fait introduire des graphes.
@@ -129,7 +129,7 @@ On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'
 20. Montrez que, $\forall x\in E$,
 $$\text{fix}(f)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{f(f(...(f)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
 
-On notera le plus petit $n_r$ le *nombre d'appel récursif*.
+On notera le plus petit $n_r$ le *nombre d'appels récursif*.
 
 ## Quelques exemples
 On définie :
@@ -144,11 +144,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 # Partie IV
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5NzUzMTYxLC04OTI3MzUwMzksLTI0Mz
-M2MDAzMywzNzAxNjI4ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQw
-LC05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3Mz
-Y0ODQ5NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1
-NTgsLTE5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYyNjA1ODA1My
-wtMTk0OTc0NjQzNiwtOTI1NDgyMDY2LC0xNDc3ODIxMzQ5LC0y
-MTM3Mjc1MDQ1XX0=
+eyJoaXN0b3J5IjpbLTI2MTg3NDQ5MiwtODkyNzM1MDM5LC0yND
+MzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3NzAsMTU5OTYyMTQ0
+MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMTI2NjkzNDM2LC0yNz
+M2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0NjU2MiwxNjQ0NTk4
+NTU4LC0xOTI1ODExNzYsLTE3NTY3NzAwMTUsLTE2MjYwNTgwNT
+MsLTE5NDk3NDY0MzYsLTkyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwt
+MjEzNzI3NTA0NV19
 -->
