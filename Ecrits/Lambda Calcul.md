@@ -149,14 +149,14 @@ Par exemple, si on ajoute le type $\text{Bool}$, on posera $E_{\text{Bool}} = \{
 
 On pose $T$ tel que $\hat{T} \sub T$ et pour tout $\tau,\tau'\in T$, on a $\tau\to\tau'\in \hat{T}$
 
-Un contexte de type $\Gamma$ est un sous-ensemble de $X\times T$
+Un contexte de type, dénoté par $\Gamma$, est un sous-ensemble de $X\times T$
 Un jugement de type est un triplet $\Gamma \vdash x: t$ tel que on ai les règles d'inférences suivantes :
 
 $$
-\frac{}{\Gamma \vdash x: t}\text{(ax)}
+\frac{}{(x,t) \vdash x: t}\text{(ax)}\\
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3NzU1NjQ3LC00MjUyNzk5ODMsLTEzNT
+eyJoaXN0b3J5IjpbNTMyMjY4NzY3LC00MjUyNzk5ODMsLTEzNT
 E4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2Mjg4
 NSwtNTgzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5NDAxNiwxNT
 c5ODE1NTY1LDEyNjY5MzQzNiwtMjczNjQ4NDk3LC0xMzEyMzYx
