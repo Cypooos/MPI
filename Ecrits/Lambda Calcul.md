@@ -4,10 +4,10 @@ Ce sujet est difficile et long, et balaye les chapitres de Grammaire, Logique, L
 
 Ce sujet introduit la théorie derrière les langages fonctionnel : le lambda calcul.
 
-La partie I propose une implémentation d'objets de base.
+La partie I propose une implémentation d'objets classique.
 La partie II propose une implémentation de la soustraction.
-La partie III s'intéresse à l'opérateur point fixe et au expressions récursives. Elle est plus théorique.
-La partie IV porte sur de la logique, des expressions typées.
+La partie III s'intéresse à la récursivité, elle est plus théorique.
+La partie IV porte sur des expressions typées.
 La partie V s'intéresse au règles de grammaire et à la logique combinatoire.
 La partie VI s'intéresse à la notion de confluence, et fait introduire des graphes.
 
@@ -21,7 +21,7 @@ On pourra admettre une question pour passer à la suivante.
 Soit $\Sigma$ un ensemble de *lettres*. On dis que $\omega=\omega_1...\omega_n$ est un *mot* s'il est une suite finie de lettre. On note $\varepsilon$ le mot vide.
  Pour $\omega$ un mot, on note $|\omega|$ sa longueur et pour $\alpha\in\Sigma$, on note $|\omega|_\alpha$ le nombre d'occurrences de $\alpha$ dans $\omega$.
  Soit $n\in\N$, on note $\Sigma^n$ l'ensemble des mots de $\Sigma$ à $n$ lettres. On note $\Sigma^* = \cup_{n\in\N}\Sigma^n$
-On appelle *langage* un sous-ensemble de mots.
+On appelle *langage* un ensemble de mots.
 
 Soit $V=\{x,y,z,t,u,v,...\}$ un ensemble dénombrable de *variables*.
 On définie une *expression* inductivement :
@@ -198,11 +198,11 @@ On essaye de montrer que toute les expressions bien typé sont unitaire et sans 
 29. Montrez que si $e$ est unitaire sans variable libre, alors il est typé.
 30. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODM5NjYwMiwxMzk5NTgzMjc4LDIwNj
-I3OTEzMDQsMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3
-NiwzNDkwMzQzMzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00Mj
-UyNzk5ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYw
-MDMzLDM3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0NDAsLT
-k1MzQ5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQzNiwtMjczNjQ4
-NDk3XX0=
+eyJoaXN0b3J5IjpbLTE5NDE1NzM2OTAsMTM5OTU4MzI3OCwyMD
+YyNzkxMzA0LDEyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3
+NzYsMzQ5MDM0MzMzLDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtND
+I1Mjc5OTgzLC0xMzUxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2
+MDAzMywzNzAxNjI4ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC
+05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0
+ODQ5N119
 -->
