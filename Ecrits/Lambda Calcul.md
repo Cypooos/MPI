@@ -103,7 +103,7 @@ $$D = (x,y,z \mapsto z(x,y))$$
 
 qui représente un couple $(x,y)$
 
-11. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$
+11. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$. $\top$ et $\bot$ permettent alors d'indexer le couple
 12. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1}))$
 13. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$
 14. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ 
@@ -142,12 +142,13 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 20. Donnez un expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\ln m)$
 
 # Partie IV
+Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0OTU0ODc3LC04OTI3MzUwMzksLTI0Mz
-M2MDAzMywzNzAxNjI4ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQw
-LC05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3Mz
-Y0ODQ5NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1
-NTgsLTE5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYyNjA1ODA1My
-wtMTk0OTc0NjQzNiwtOTI1NDgyMDY2LC0xNDc3ODIxMzQ5LC0y
-MTM3Mjc1MDQ1XX0=
+eyJoaXN0b3J5IjpbLTU0MjgxNjUwMiwtODkyNzM1MDM5LC0yND
+MzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3NzAsMTU5OTYyMTQ0
+MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMTI2NjkzNDM2LC0yNz
+M2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0NjU2MiwxNjQ0NTk4
+NTU4LC0xOTI1ODExNzYsLTE3NTY3NzAwMTUsLTE2MjYwNTgwNT
+MsLTE5NDk3NDY0MzYsLTkyNTQ4MjA2NiwtMTQ3NzgyMTM0OSwt
+MjEzNzI3NTA0NV19
 -->
