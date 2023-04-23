@@ -190,12 +190,12 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 
 ## Les expressions typée sont unitaire
 On essaye de montrer que toute les expressions bien typé sont unitaire.
-26. Montrez que $e:t$
+26. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et 
 28. Montrez que le type d'une expression est invariant par dérivation
 29. Montrez que si $e$ est unitaire, alors il est typé.
 30. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDEzOTUzNSwyMDYyNzkxMzA0LDEyMD
+eyJoaXN0b3J5IjpbMTAxOTExODEyMiwyMDYyNzkxMzA0LDEyMD
 Y3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0MzMz
 LDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMz
 UxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4
