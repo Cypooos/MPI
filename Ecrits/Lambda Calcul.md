@@ -144,7 +144,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 # Partie IV
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que chaque expression bien typé soit unitaire.
 On pose $\hat{T}$ un ensemble non vide de types par défaut.
-Pour chaque type $\tau\in\hat{T}$ par défaut, on pose $E_{\tau}$ un ensemble non vide d'expressions.
+Pour chaque type $\tau\in\hat{T}$ par défaut, on pose $E_{\tau}$ un ensemble non vide d'expressions par défault.
 Par exemple, si on ajoute le type $\text{Bool}$, on posera $E_{\text{Bool}} = \{ \text{true},\text{false}\}$
 
 On pose $T$ tel que $\hat{T} \sub T$ et pour tout $\tau,\tau'\in T$, on a $\tau\to\tau'\in \hat{T}$
@@ -152,24 +152,24 @@ On pose $T$ tel que $\hat{T} \sub T$ et pour tout $\tau,\tau'\in T$, on a $\tau\
 Un contexte de type, dénoté par $\Gamma$, est un sous-ensemble de $X\times T$
 Un jugement de type est un triplet $\Gamma \vdash x: t$ tel que on ai les règles d'inférences suivantes :
 
-Défaut, pour $t\in \hat{T}$ et $x\in E_t$
+Défaut, pour $t\in \hat{T}$ et $x\in E_t$ :
 $$
 \frac{}{\empty \vdash x: t}\tiny\text{(def)}\\
 $$
 Axiome :
 $$
-\frac{}{\empty \vdash x: t}\tiny\text{(ax)}\\
+\frac{}{(x,t) \vdash x: t}\tiny\text{(ax)}\\
 $$
-Evaluation:
+Evaluation :
 $$
-\frac{\Gamma \vdash f: \tau_1 \to \tau_2,\qquad \Gamma \vdash x: \tau_1,}{\empty \vdash f(x): \tau_2}\tiny\text{(ev)}
+\frac{\Gamma \vdash f: \tau_1 \to \tau_2,\qquad \Gamma \vdash x: \tau_1,}{\Gamma \vdash f(x): \tau_2}\tiny\text{(ev)}
 $$
 Abstraction :
 $$
 \frac{\Gamma \vdash f: \tau_1 \to \tau_2,\qquad \Gamma \vdash x: \tau_1,}{\empty \vdash f(x): \tau_2}\tiny\text{(ab)}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDM4MDYwODUsLTQyNTI3OTk4MywtMT
+eyJoaXN0b3J5IjpbLTIxMzU2NDU0MDUsLTQyNTI3OTk4MywtMT
 M1MTg4MzA2NSwtODkyNzM1MDM5LC0yNDMzNjAwMzMsMzcwMTYy
 ODg1LC01ODMyMzc3NzAsMTU5OTYyMTQ0MCwtOTUzNDk0MDE2LD
 E1Nzk4MTU1NjUsMTI2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMTIz
