@@ -181,15 +181,19 @@ $$
 On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 
 22. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
-23. Donnez $t$ un type qui soit un typage de $C_n$ pour tout $n\in\N^*$
-24. Donnez $t$ un type 
-25. Montrez que $$
+
+Soit $K\sube E$. Si $t$ est un type tel que $\forall e\in $
+
+24. Donnez $t$ un type qui soit, pour tout $n\in\N^*$, un typage de $C_n$
+
+25. Donnez $t$ un type 
+26. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjE3Mjk3MjUsMzQ5MDM0MzMzLDEyMD
-E0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgz
-MDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLT
-U4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgx
-NTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2MTgyOC
-wxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLTE5MjU4MTE3NiwtMTc1
-Njc3MDAxNV19
+eyJoaXN0b3J5IjpbLTQyMjUzNzczMywzNDkwMzQzMzMsMTIwMT
+QxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLTEzNTE4ODMw
+NjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2Mjg4NSwtNT
+gzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5NDAxNiwxNTc5ODE1
+NTY1LDEyNjY5MzQzNiwtMjczNjQ4NDk3LC0xMzEyMzYxODI4LD
+ExNTcxNDY1NjIsMTY0NDU5ODU1OCwtMTkyNTgxMTc2LC0xNzU2
+NzcwMDE1XX0=
 -->
