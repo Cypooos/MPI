@@ -178,7 +178,7 @@ $$
  On n'hésitera pas a ajouter des parenthèses pour ce faire comprendre : par défaut, les flèches sont une opération de droite à gauche, ainsi, $\tau\to\tau\to\tau = \tau\to(\tau\to\tau)$
 On notera $e:t$ pour dire qu'une expression $e$ à un typage $t$.
 
-## Introduction
+## Typage généralisé
 On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 
 22. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
@@ -187,16 +187,16 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 
 24. Donnez $t$ un type généralisé de $\{\top, \bot\}$
 25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
-27. Montrez que $\Delta$ n'est pas typé.
 
-## Forme normalisante des 
+## Les expression typée
 On essaye de montrer que toute les expressions bien typé sont unitaire.
+27. Montrez que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OT
-c3Njc3NiwzNDkwMzQzMzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUz
-LC00MjUyNzk5ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMj
-QzMzYwMDMzLDM3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0
-NDAsLTk1MzQ5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQzNiwtMj
-czNjQ4NDk3LC0xMzEyMzYxODI4LDExNTcxNDY1NjIsMTY0NDU5
-ODU1OF19
+eyJoaXN0b3J5IjpbLTQxNDM4NTU1NSwxMjA2Nzg2MDYsMTA1NT
+YxMjcyOSwxMzk5Nzc2Nzc2LDM0OTAzNDMzMywxMjAxNDExOTQ2
+LDIwMzQyMDU2NTMsLTQyNTI3OTk4MywtMTM1MTg4MzA2NSwtOD
+kyNzM1MDM5LC0yNDMzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3
+NzAsMTU5OTYyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMT
+I2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0
+NjU2Ml19
 -->
