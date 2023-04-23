@@ -181,13 +181,14 @@ $$
 On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 
 22. Donnez un arbre de dérivation donnant un typage de $C_0$, $C_1$ et $C_2$
-23. Donnez $t$ un type qui soit un typage de 
+23. Donnez $t$ un type qui soit un typage de $C_n$ pour tout $n\in\N^*$
+24. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTgxODY1OSwzNDkwMzQzMzMsMTIwMT
-QxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLTEzNTE4ODMw
-NjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2Mjg4NSwtNT
-gzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5NDAxNiwxNTc5ODE1
-NTY1LDEyNjY5MzQzNiwtMjczNjQ4NDk3LC0xMzEyMzYxODI4LD
-ExNTcxNDY1NjIsMTY0NDU5ODU1OCwtMTkyNTgxMTc2LC0xNzU2
-NzcwMDE1XX0=
+eyJoaXN0b3J5IjpbODk4Njc3MzYsMzQ5MDM0MzMzLDEyMDE0MT
+E5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgzMDY1
+LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLTU4Mz
+IzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgxNTU2
+NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2MTgyOCwxMT
+U3MTQ2NTYyLDE2NDQ1OTg1NTgsLTE5MjU4MTE3NiwtMTc1Njc3
+MDAxNV19
 -->
