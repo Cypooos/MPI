@@ -190,15 +190,16 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 
 ## Les expressions typée sont unitaire
 On essaye de montrer que toute les expressions bien typé sont unitaire.
+26. Montrez que $e:t$
 28. Montrez que le type d'une expression est invariant par dérivation
 29. Montrez que si $e$ est unitaire, alors il est typé.
 30. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3NTExNTY4LDIwNjI3OTEzMDQsMTIwNj
-c4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3NiwzNDkwMzQzMzMs
-MTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLTEzNT
-E4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2Mjg4
-NSwtNTgzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5NDAxNiwxNT
-c5ODE1NTY1LDEyNjY5MzQzNiwtMjczNjQ4NDk3LC0xMzEyMzYx
-ODI4XX0=
+eyJoaXN0b3J5IjpbMjA3MDEzOTUzNSwyMDYyNzkxMzA0LDEyMD
+Y3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0MzMz
+LDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMz
+UxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4
+ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMT
+U3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2
+MTgyOF19
 -->
