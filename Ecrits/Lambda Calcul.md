@@ -129,7 +129,7 @@ On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'
 20. Montrez que, $\forall x\in E$,
 $$\text{fix}(f)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{f(f(...(f)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
 
-On notera le plus petit $n_r$ le *nombre d'appels récursif*.
+On notera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
 
 ## Quelques exemples
 On définie :
@@ -144,7 +144,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 # Partie IV
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTg3NDQ5MiwtODkyNzM1MDM5LC0yND
+eyJoaXN0b3J5IjpbLTk2MjExNTc2OSwtODkyNzM1MDM5LC0yND
 MzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3NzAsMTU5OTYyMTQ0
 MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMTI2NjkzNDM2LC0yNz
 M2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0NjU2MiwxNjQ0NTk4
