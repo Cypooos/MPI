@@ -45,7 +45,7 @@ Informellement, $e[x\larr y]$ est $e$ dans laquelle on a remplacé toute les occ
 
 On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$
 
-On appelle *évaluation* de l'expression $a =$ "$(x\mapsto e)(e')$" l'expression $â=$ "$e[x\larr e']$".
+On appelle *évaluation* de l'expression $a =(x\mapsto e)(e')$ l'expression $â=e[x\larr e']$.
 On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant. 
@@ -198,11 +198,11 @@ On essaye de montrer que toute les expressions bien typé sont unitaire et sans 
 29. Montrez que si $e$ est unitaire sans variable libre, alors il est typé.
 30. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTQ4NDUzNSwxMzk5NTgzMjc4LDIwNj
-I3OTEzMDQsMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3
-NiwzNDkwMzQzMzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00Mj
-UyNzk5ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYw
-MDMzLDM3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0NDAsLT
-k1MzQ5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQzNiwtMjczNjQ4
-NDk3XX0=
+eyJoaXN0b3J5IjpbOTU4MTMyMjYxLDEzOTk1ODMyNzgsMjA2Mj
+c5MTMwNCwxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMzk5Nzc2Nzc2
+LDM0OTAzNDMzMywxMjAxNDExOTQ2LDIwMzQyMDU2NTMsLTQyNT
+I3OTk4MywtMTM1MTg4MzA2NSwtODkyNzM1MDM5LC0yNDMzNjAw
+MzMsMzcwMTYyODg1LC01ODMyMzc3NzAsMTU5OTYyMTQ0MCwtOT
+UzNDk0MDE2LDE1Nzk4MTU1NjUsMTI2NjkzNDM2LC0yNzM2NDg0
+OTddfQ==
 -->
