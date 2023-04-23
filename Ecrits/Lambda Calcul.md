@@ -121,7 +121,7 @@ $$\text{fix}(f) \to f(\text{fix}(f))$$
 On appellera $e$ un point fixe de $f$ si $e=f(e)$
 
 18. Montrez que si $\exist!e\in E,\ \text{fix}(f)\to^* e$, alors $f$ admet un point fixe.
-19. Donnez
+19. Donnez une expression $f$ telle que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
 20. (*) Donnez une expression $\Theta$ point-fixe.
 
 ## La fonction récursive factorielle
@@ -134,12 +134,13 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 18. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 
 ## Généralisation
+On considère ici $F$ de la forme $F=(f,x\mapsto e)$, avec 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTk1NTY0NywxNTk5NjIxNDQwLC05NT
-M0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5
-NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLT
-E5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYyNjA1ODA1MywtMTk0
-OTc0NjQzNiwtOTI1NDgyMDY2LC0xNDc3ODIxMzQ5LC0yMTM3Mj
-c1MDQ1LDEwMzA4MTM5NTAsNjYxNDExNDQ0LC0xOTkxMzU4MDU1
-LC0xODE1MTU3NzY2XX0=
+eyJoaXN0b3J5IjpbODk5MjI2MzUyLDE1OTk2MjE0NDAsLTk1Mz
+Q5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQzNiwtMjczNjQ4NDk3
+LC0xMzEyMzYxODI4LDExNTcxNDY1NjIsMTY0NDU5ODU1OCwtMT
+kyNTgxMTc2LC0xNzU2NzcwMDE1LC0xNjI2MDU4MDUzLC0xOTQ5
+NzQ2NDM2LC05MjU0ODIwNjYsLTE0Nzc4MjEzNDksLTIxMzcyNz
+UwNDUsMTAzMDgxMzk1MCw2NjE0MTE0NDQsLTE5OTEzNTgwNTUs
+LTE4MTUxNTc3NjZdfQ==
 -->
