@@ -152,18 +152,20 @@ On pose $T$ tel que $\hat{T} \sub T$ et pour tout $\tau,\tau'\in T$, on a $\tau\
 Un contexte de type, dénoté par $\Gamma$, est un sous-ensemble de $X\times T$
 Un jugement de type est un triplet $\Gamma \vdash x: t$ tel que on ai les règles d'inférences suivantes :
 
+Axiome, pour $t\in$
 $$
-\frac{}{(x,t) \vdash x: t}\tiny\text{(ax)}\\
+\frac{}{\empty \vdash x: t}\tiny\text{(ax)}\\
 $$
+Evaluation:
 $$
-\frac{\Gamma \vdash x: \tau_1 \to \tau_2,\qquad \Gamma \vdash x: t,}{\empty \vdash x: t}\tiny\text{(ax)}
+\frac{\Gamma \vdash f: \tau_1 \to \tau_2,\qquad \Gamma \vdash x: \tau_1,}{\empty \vdash f(x): \tau_2}\tiny\text{(ev)}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NjA1ODQ3OSwtNDI1Mjc5OTgzLC0xMz
-UxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4
-ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMT
-U3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2
-MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLTE5MjU4MTE3Ni
-wtMTc1Njc3MDAxNSwtMTYyNjA1ODA1MywtMTk0OTc0NjQzNiwt
-OTI1NDgyMDY2XX0=
+eyJoaXN0b3J5IjpbNTQ1NTkxNDg1LC00MjUyNzk5ODMsLTEzNT
+E4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2Mjg4
+NSwtNTgzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5NDAxNiwxNT
+c5ODE1NTY1LDEyNjY5MzQzNiwtMjczNjQ4NDk3LC0xMzEyMzYx
+ODI4LDExNTcxNDY1NjIsMTY0NDU5ODU1OCwtMTkyNTgxMTc2LC
+0xNzU2NzcwMDE1LC0xNjI2MDU4MDUzLC0xOTQ5NzQ2NDM2LC05
+MjU0ODIwNjZdfQ==
 -->
