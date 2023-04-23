@@ -80,7 +80,7 @@ Pour tout $n\in\N$, on pose :
  - $C_0 = [f,x\mapsto x]$
  - $C_1 = [f,x\mapsto f(x)]$
  - $C_2 = [f,x\mapsto f(f(x))]$
- - $C_n = [f,x\mapsto f(f(...(f(x))...))]$ avec $n$ répétitions de $f$ imbriqué
+ - $C_n = [f,x\mapsto f^n(x)]$ avec $f^n$ représentant $n$ répétitions de $f$ imbriqué
 
 On appelle $C_n$ l'*entier de Church* associé à $n$.
 
@@ -137,13 +137,13 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que F sera appelé constamment avec $F$ comme premier argument.
 
 20. Montrez que, soit $x\in E$,
-$$\text{fix}(f)(x) \to^* \alpha \iff \exist n_0,\ \forall n\ge n_0, f$$
+$$\text{fix}(f)(x) \to^* \alpha \iff \exist n_0,\ \forall n\ge n_0, f^n(x)\to^*\alpha$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjkxMDMxMDQsLTU4MzIzNzc3MCwxNT
-k5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgxNTU2NSwxMjY2OTM0
-MzYsLTI3MzY0ODQ5NywtMTMxMjM2MTgyOCwxMTU3MTQ2NTYyLD
-E2NDQ1OTg1NTgsLTE5MjU4MTE3NiwtMTc1Njc3MDAxNSwtMTYy
-NjA1ODA1MywtMTk0OTc0NjQzNiwtOTI1NDgyMDY2LC0xNDc3OD
-IxMzQ5LC0yMTM3Mjc1MDQ1LDEwMzA4MTM5NTAsNjYxNDExNDQ0
-LC0xOTkxMzU4MDU1XX0=
+eyJoaXN0b3J5IjpbMzA5ODc4MzM0LC01ODMyMzc3NzAsMTU5OT
+YyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1NjUsMTI2NjkzNDM2
+LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMTE1NzE0NjU2MiwxNj
+Q0NTk4NTU4LC0xOTI1ODExNzYsLTE3NTY3NzAwMTUsLTE2MjYw
+NTgwNTMsLTE5NDk3NDY0MzYsLTkyNTQ4MjA2NiwtMTQ3NzgyMT
+M0OSwtMjEzNzI3NTA0NSwxMDMwODEzOTUwLDY2MTQxMTQ0NCwt
+MTk5MTM1ODA1NV19
 -->
