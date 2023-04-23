@@ -172,16 +172,21 @@ $$
 
 On dit que $t$ est un typage de $x$ si $\empty \vdash x:t$
 
+Par exemple, ce qui suit est un arbre de dérivation montrant que $\tau\to\tau$ est un typage de $I$ :
+$$
+\frac{}{\frac{(x,t) \vdash x: t}\tiny\text{(ax)}\\
+$$
+
 ## Sous-partie 1
 On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 
 22. Donnez un arbre de dérivation donnant un typage de $C_0$, $C_1$ et $C_2$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njc3MTQ5NDUsMzQ5MDM0MzMzLDEyMD
-E0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgz
-MDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLT
-U4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgx
-NTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2MTgyOC
-wxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLTE5MjU4MTE3NiwtMTc1
-Njc3MDAxNV19
+eyJoaXN0b3J5IjpbMzkzMzE3NDgyLDM0OTAzNDMzMywxMjAxND
+ExOTQ2LDIwMzQyMDU2NTMsLTQyNTI3OTk4MywtMTM1MTg4MzA2
+NSwtODkyNzM1MDM5LC0yNDMzNjAwMzMsMzcwMTYyODg1LC01OD
+MyMzc3NzAsMTU5OTYyMTQ0MCwtOTUzNDk0MDE2LDE1Nzk4MTU1
+NjUsMTI2NjkzNDM2LC0yNzM2NDg0OTcsLTEzMTIzNjE4MjgsMT
+E1NzE0NjU2MiwxNjQ0NTk4NTU4LC0xOTI1ODExNzYsLTE3NTY3
+NzAwMTVdfQ==
 -->
