@@ -56,7 +56,7 @@ On définie les expressions suivantes :
  - $K =  (y\mapsto (x\mapsto y)) = (y,x\mapsto y)$
  - $\Delta = (x\mapsto x(x))$
 
-# Partie I
+# Partie I: Objets classiques
 
 ## Préliminaires
 1. Donnez un calcul normalisant de $K(K,I)$, de $I(I)$, de $K(I,\Delta)$
@@ -96,7 +96,7 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\ma
     * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
     * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
 
-# Partie II
+# Partie II: Soustraction
 L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
 On définie :
 $$D = (x,y,z \mapsto z(x,y))$$
@@ -108,7 +108,7 @@ qui représente un couple $(x,y)$
 13. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$
 14. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ 
 
-# Partie III
+# Partie III: Récursivité
 Le but de cette partie est de pouvoir faire des fonctions récursives.
 ## L'opérateur Point-fixe
 
@@ -141,7 +141,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 20. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 21. Donnez un expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\ln m)$
 
-# Partie IV
+# Partie IV: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que chaque expression bien typé soit unitaire.
 On pose $\hat{T}$ un ensemble non vide de types par défaut.
 Pour chaque type $\tau\in\hat{T}$ par défaut, on pose $E_{\tau}$ un ensemble d'expressions normale par défaut.
@@ -198,7 +198,7 @@ On essaye de montrer que toute les expressions bien typé sont unitaire et sans 
 29. Montrez que si $e$ est unitaire sans variable libre, alors il est typé.
 30. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NjcwNTY1NCwxMzk5NTgzMjc4LDIwNj
+eyJoaXN0b3J5IjpbLTE4ODM5NjYwMiwxMzk5NTgzMjc4LDIwNj
 I3OTEzMDQsMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3
 NiwzNDkwMzQzMzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00Mj
 UyNzk5ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYw
