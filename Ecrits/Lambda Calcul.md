@@ -177,7 +177,7 @@ $$
 $$
  On n'hésitera pas a ajouter des parenthèses pour ce faire comprendre : par défaut, les flèches sont une opération de droite à gauche, ainsi, $\tau\to\tau\to\tau = \tau\to(\tau\to\tau)$
 On notera $e:t$ pour dire qu'une expression $e$ à un typage $t$.
-$t\in t'$ pour dire que le type $t$ apparait  
+Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 
 ## Typage généralisé
 On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
@@ -191,12 +191,12 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 
 ## Les expressions typée sont unitaire
 On essaye de montrer que toute les expressions bien typé sont unitaire.
-26. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé, alors $t'\in t$
-28. Montrez que le type d'une expression est invariant par dérivation
+26. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et $t'\in t$.
+28. Montrez que le type d'une expression est invariant par dérivation.
 29. Montrez que si $e$ est unitaire, alors il est typé.
 30. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTU0MDIwOCwyMDYyNzkxMzA0LDEyMD
+eyJoaXN0b3J5IjpbMTM5OTU4MzI3OCwyMDYyNzkxMzA0LDEyMD
 Y3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0MzMz
 LDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMz
 UxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4
