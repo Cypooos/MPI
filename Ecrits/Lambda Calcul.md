@@ -126,7 +126,7 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que F sera appelé constamment avec $F$ comme premier argument.
 
-20. Montrez que, $\forall x\in E$,
+19. Montrez que, $\forall x\in E$,
 $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
 
 On notera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
@@ -138,8 +138,8 @@ $$
 $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
-19. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
-20. Donnez un expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\ln m)$
+20. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
+21. Donnez un expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\ln m)$
 
 # Partie IV
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que chaque expression bien typé soit unitaire.
@@ -169,11 +169,11 @@ $$
 \frac{\Gamma\ \cup \{(x,t)\} \vdash x': t'}{\empty \vdash f(x): \tau_2 \vdash : \tau_1}\tiny\text{(ab)}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMz
-UxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4
-ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMT
-U3OTgxNTU2NSwxMjY2OTM0MzYsLTI3MzY0ODQ5NywtMTMxMjM2
-MTgyOCwxMTU3MTQ2NTYyLDE2NDQ1OTg1NTgsLTE5MjU4MTE3Ni
-wtMTc1Njc3MDAxNSwtMTYyNjA1ODA1MywtMTk0OTc0NjQzNiwt
-OTI1NDgyMDY2XX0=
+eyJoaXN0b3J5IjpbMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00Mj
+UyNzk5ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYw
+MDMzLDM3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0NDAsLT
+k1MzQ5NDAxNiwxNTc5ODE1NTY1LDEyNjY5MzQzNiwtMjczNjQ4
+NDk3LC0xMzEyMzYxODI4LDExNTcxNDY1NjIsMTY0NDU5ODU1OC
+wtMTkyNTgxMTc2LC0xNzU2NzcwMDE1LC0xNjI2MDU4MDUzLC0x
+OTQ5NzQ2NDM2XX0=
 -->
