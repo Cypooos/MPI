@@ -183,7 +183,6 @@ On notera $e:t$ pour dire qu'une expression $e$ à un typage $t$.
 Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 
 ## Typage d'expression
-On suppose dans cette sous-partie que $\hat{T} = \{\tau\}$ et $E_\tau = \empty$
 
 22. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
 
@@ -202,7 +201,7 @@ On essaye de montrer que toute les expressions bien typé sont unitaire et sans 
 29. Montrez que si $e$ est unitaire sans variable libre, alors il est typé. (????)
 31. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjUzNzIzMzUsLTEzMjEwNzIzNTMsMT
+eyJoaXN0b3J5IjpbLTE4MjA3NDcxNjAsLTEzMjEwNzIzNTMsMT
 I4NzUyMjI5OSw5NTgxMzIyNjEsMTM5OTU4MzI3OCwyMDYyNzkx
 MzA0LDEyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMz
 Q5MDM0MzMzLDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5
