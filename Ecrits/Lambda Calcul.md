@@ -197,13 +197,14 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 31. En étendant $\phi$, donnez $\varphi : T\to E$ injective 
 32. Soit $e:t$. Montrez que $e\to^* \phi(t)$ ???
-33. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
-34. En déduire que $\Delta$ ne possède pas de typage.
+33. Montrez que si $e$ est typé 
+34. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
+35. En déduire que $\Delta$ ne possède pas de typage.
 
 ## Trouver la borne unitaire
 35. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODY5NzA2MCwxNTIyNzU4NDM2LDEwMD
+eyJoaXN0b3J5IjpbMTE2MDg4NDU4NSwxNTIyNzU4NDM2LDEwMD
 k1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcy
 MzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLDEzOTk1ODMyNzgsMj
 A2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMzk5Nzc2
