@@ -50,7 +50,7 @@ On appelle *évaluation* de l'expression $a =(x\mapsto e)(e')$ l'expression $â=
 On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^n A_n$ ou $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant. 
-Si il existe un unique couple $(n,e)\in\N\times E$ tel que $A\to^n e$, on dit que $A$ est unitaire.
+Si il existe un unique couple $e\in\N\times E$ tel que $A\to^n e$, on dit que $A$ est unitaire.
 
 On définie les expressions suivantes :
  - $I = (x\mapsto x)$
@@ -189,15 +189,15 @@ On essaye de montrer que toute les expressions typé sont unitaire et sans varia
 27. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et $t'\in t$.
 28. Montrez que le type d'une expression est invariant par dérivation.
 29. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre.
-30. Montrez que si $f$ est sous forme normale, alors il existe $\Gamma,t$ tel que toute variable libre de $f$ est dans $\Gamma$
+30. Montrez que si $f$ est sous forme normale, alors il existe $\Gamma,t$ tel que toute variable libre de $f$ est dans un couple de $\Gamma$ et $\Gamma \vdash f:t$
 31. Montrez que si $e$ est unitaire sans variable libre, alors il est bien typé.
 32. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODIyODI0OSwxMDA5NTYxNzIyLDEwMD
-k1NjE3MjIsLTYxMjk2NDgxNywtMTMyMTA3MjM1MywxMjg3NTIy
-Mjk5LDk1ODEzMjI2MSwxMzk5NTgzMjc4LDIwNjI3OTEzMDQsMT
-IwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3NiwzNDkwMzQz
-MzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLT
-EzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2
-Mjg4NV19
+eyJoaXN0b3J5IjpbLTExMTgxODc0MTYsMTAwOTU2MTcyMiwxMD
+A5NTYxNzIyLC02MTI5NjQ4MTcsLTEzMjEwNzIzNTMsMTI4NzUy
+MjI5OSw5NTgxMzIyNjEsMTM5OTU4MzI3OCwyMDYyNzkxMzA0LD
+EyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0
+MzMzLDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC
+0xMzUxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAx
+NjI4ODVdfQ==
 -->
