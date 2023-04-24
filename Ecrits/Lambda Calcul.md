@@ -154,7 +154,6 @@ Axiome, pour $(x,t) \in \Gamma$ :
 $$
 \frac{}{\Gamma \vdash x: t}\tiny\text{(ax)}\\
 $$
-Généralisation : 
 
 Evaluation :
 $$
@@ -193,11 +192,11 @@ On essaye de montrer que toute les expressions typé sont unitaire et sans varia
 30. Montrez que si $e$ est unitaire sans variable libre, alors il est bien typé.
 33. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzg3NTE0MDgsMTAwOTU2MTcyMiwxMD
-A5NTYxNzIyLC02MTI5NjQ4MTcsLTEzMjEwNzIzNTMsMTI4NzUy
-MjI5OSw5NTgxMzIyNjEsMTM5OTU4MzI3OCwyMDYyNzkxMzA0LD
-EyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0
-MzMzLDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC
-0xMzUxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAx
-NjI4ODVdfQ==
+eyJoaXN0b3J5IjpbLTM5OTg5NjUzNywxMDA5NTYxNzIyLDEwMD
+k1NjE3MjIsLTYxMjk2NDgxNywtMTMyMTA3MjM1MywxMjg3NTIy
+Mjk5LDk1ODEzMjI2MSwxMzk5NTgzMjc4LDIwNjI3OTEzMDQsMT
+IwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3NiwzNDkwMzQz
+MzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLT
+EzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2
+Mjg4NV19
 -->
