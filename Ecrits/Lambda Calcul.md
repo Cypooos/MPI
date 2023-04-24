@@ -193,20 +193,20 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
 ## Caractérisation des expressions typées
-On essaye de montrer que toute les expressions bien typé sont unitaire et sans variable libre.
+On essaye de montrer que toute les expressions typé sont unitaire et sans variable libre.
 
-26. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre ???
 27. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et $t'\in t$.
 28. Montrez que le type d'une expression est invariant par dérivation.
+29. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre ???
 30. Montrez que si $e$ est typé, alors il est unitaire et sans variable libre. (????)
-29. Montrez que si $e$ est unitaire sans variable libre, alors il est typé. (????)
-31. En déduire que $\Delta$ ne possède pas de typage.
+31. Montrez que si $e$ est unitaire sans variable libre, alors il est typé. (????)
+32. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzYwOTk4ODQsLTEzMjEwNzIzNTMsMT
-I4NzUyMjI5OSw5NTgxMzIyNjEsMTM5OTU4MzI3OCwyMDYyNzkx
-MzA0LDEyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMz
-Q5MDM0MzMzLDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5
-OTgzLC0xMzUxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMy
-wzNzAxNjI4ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0
-OTQwMTZdfQ==
+eyJoaXN0b3J5IjpbLTYxMjk2NDgxNywtMTMyMTA3MjM1MywxMj
+g3NTIyMjk5LDk1ODEzMjI2MSwxMzk5NTgzMjc4LDIwNjI3OTEz
+MDQsMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3NiwzND
+kwMzQzMzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5
+ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLD
+M3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5
+NDAxNl19
 -->
