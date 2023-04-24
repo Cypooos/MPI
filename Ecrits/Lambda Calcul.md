@@ -193,11 +193,16 @@ On essaye de montrer que toute les expressions unitaire et sans variable libre s
 31. Montrez que si $e$ est unitaire sans variable libre, alors il est bien typé.
 
 ## Réciproque
-On pose $\Phi : T\$
+On pose $$
+\begin{align*}
+  \varphi \colon T &\to E\\
+  &\mapsto T_\phi.
+\end{align*}
+$$
 33. Montrez la réciproque ??? 
 34. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjgwMjIxOSwxNTIyNzU4NDM2LDEwMD
+eyJoaXN0b3J5IjpbMTI1ODcxNzA2MSwxNTIyNzU4NDM2LDEwMD
 k1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcy
 MzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLDEzOTk1ODMyNzgsMj
 A2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMzk5Nzc2
