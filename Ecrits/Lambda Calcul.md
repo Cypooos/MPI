@@ -176,12 +176,9 @@ $$
 On dit que $t$ est un typage de $x$ si $\empty \vdash x:t$.
 Par exemple, ce qui suit est un arbre de dérivation montrant que $\tau\to\tau$ est un typage de $I$ :
 $$
-\cfrac{}{\cfrac{(x,t) \vdash x: t}{\empty \vdash x\mapsto x : \tau\to \tau}\tiny\text{(ab)}}\tiny\text{(ax)}\\
+\cfrac{}{\cfrac{(x,\tau) \vdash x: \tau}{\empty \vdash x\mapsto x : \tau\to \tau}\tiny\text{(ab)}}\tiny\text{(ax)}\\
 $$
 
-$$
-\cfrac{}{\cfrac{(x,t) \vdash x: t}{\empty \vdash x\mapsto x : \tau\to \tau}\tiny\text{(ab)}}\tiny\text{(ax)}\\
-$$
  On n'hésitera pas a ajouter des parenthèses pour ce faire comprendre : par défaut, les flèches sont une opération de droite à gauche, ainsi, $\tau\to\tau\to\tau = \tau\to(\tau\to\tau)$
 On notera $e:t$ pour dire qu'une expression $e$ à un typage $t$.
 Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
@@ -205,7 +202,7 @@ On essaye de montrer que toute les expressions bien typé sont unitaire et sans 
 29. Montrez que si $e$ est unitaire sans variable libre, alors il est typé. (????)
 31. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQ0ODAxMDksLTEzMjEwNzIzNTMsMT
+eyJoaXN0b3J5IjpbLTIwNzYwOTk4ODQsLTEzMjEwNzIzNTMsMT
 I4NzUyMjI5OSw5NTgxMzIyNjEsMTM5OTU4MzI3OCwyMDYyNzkx
 MzA0LDEyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMz
 Q5MDM0MzMzLDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5
