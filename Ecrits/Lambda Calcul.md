@@ -50,7 +50,7 @@ On appelle *évaluation* de l'expression $a =(x\mapsto e)(e')$ l'expression $â=
 On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^n A_n$ ou $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant. 
-Si il existe un unique couple $(n_0,e)\in\N\times E$ tel que tout calcul de $A$ soit de la forme $A\to^{n<n_0} e$, on dit que $A$ est unitaire.
+Si il existe un unique $e\in E$ tel que $A\to^n e$ avec $n$ borné, on dit que $A$ est unitaire.
 
 On définie les expressions suivantes :
  - $I = (x\mapsto x)$
@@ -193,11 +193,11 @@ On essaye de montrer que toute les expressions typé sont unitaire et sans varia
 31. Montrez que si $e$ est unitaire sans variable libre, alors il est bien typé.
 32. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTI2Njg5NywxNTIyNzU4NDM2LDEwMD
-k1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcy
-MzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLDEzOTk1ODMyNzgsMj
-A2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMzk5Nzc2
-Nzc2LDM0OTAzNDMzMywxMjAxNDExOTQ2LDIwMzQyMDU2NTMsLT
-QyNTI3OTk4MywtMTM1MTg4MzA2NSwtODkyNzM1MDM5LC0yNDMz
-NjAwMzNdfQ==
+eyJoaXN0b3J5IjpbLTE5OTgzNjYzNDEsMTUyMjc1ODQzNiwxMD
+A5NTYxNzIyLDEwMDk1NjE3MjIsLTYxMjk2NDgxNywtMTMyMTA3
+MjM1MywxMjg3NTIyMjk5LDk1ODEzMjI2MSwxMzk5NTgzMjc4LD
+IwNjI3OTEzMDQsMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3
+Njc3NiwzNDkwMzQzMzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC
+00MjUyNzk5ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQz
+MzYwMDMzXX0=
 -->
