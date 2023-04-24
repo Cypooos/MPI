@@ -187,16 +187,16 @@ On essaye de montrer que toute les expressions typé sont unitaire et sans varia
 
 27. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et $t'\in t$.
 28. Montrez que le type d'une expression est invariant par dérivation.
-29. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre ???
+29. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre.
 30. Montrez que si $e$ est typé, alors il est unitaire et sans variable libre. (????)
 31. Montrez que si $e$ est unitaire sans variable libre, alors il est typé. (????)
 32. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTU2MTcyMiwxMDA5NTYxNzIyLC02MT
-I5NjQ4MTcsLTEzMjEwNzIzNTMsMTI4NzUyMjI5OSw5NTgxMzIy
-NjEsMTM5OTU4MzI3OCwyMDYyNzkxMzA0LDEyMDY3ODYwNiwxMD
-U1NjEyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0MzMzLDEyMDE0MTE5
-NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgzMDY1LC
-04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLTU4MzIz
-Nzc3MF19
+eyJoaXN0b3J5IjpbMTQ1ODExMzM4NSwxMDA5NTYxNzIyLDEwMD
+k1NjE3MjIsLTYxMjk2NDgxNywtMTMyMTA3MjM1MywxMjg3NTIy
+Mjk5LDk1ODEzMjI2MSwxMzk5NTgzMjc4LDIwNjI3OTEzMDQsMT
+IwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3NiwzNDkwMzQz
+MzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLT
+EzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2
+Mjg4NV19
 -->
