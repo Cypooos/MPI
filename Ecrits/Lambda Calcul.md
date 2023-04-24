@@ -150,15 +150,16 @@ Par exemple, si on ajoute le type $\text{Bool}$, on posera $E_{\text{Bool}} = \{
 De même, si on ajoute le type $\text{Nat}$, on posera $E_{\text{Nat}} = \{ 0_E,1_E,2_E,3_E, ... \}$
 On pose $T$ tel que $\hat{T} \sub T$ et pour tout $\tau,\tau'\in T$, on a $\tau\to\tau'\in \hat{T}$
 
-On pose $T$ tel que $\tau \in T$ et pour tout $\tau,\tau'\in T$, on a $\tau\to\tau'\in \hat{T}$
+On pose $T$ tel que $\tau \in T$ et pour tout $\tau,\tau'\in T$, on a $\tau\to\tau'\in T$
 
 Un contexte de type, dénoté par $\Gamma$, est un sous-ensemble de $X\times T$
 Un jugement de type est un triplet $\Gamma \vdash x: t$ tel que on ai les règles d'inférences suivantes :
 
-Défaut, pour $t\in \hat{T}$ et $x\in E_t$ :
+> Défaut, pour $t\in \hat{T}$ et $x\in E_t$ :
 $$
 \frac{}{\Gamma \vdash x: t}\tiny\text{(def)}\\
 $$
+
 Axiome, pour $(x,t) \in \Gamma$ :
 $$
 \frac{}{\Gamma \vdash x: t}\tiny\text{(ax)}\\
@@ -201,11 +202,11 @@ On essaye de montrer que toute les expressions bien typé sont unitaire et sans 
 29. Montrez que si $e$ est unitaire sans variable libre, alors il est typé. (????)
 31. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDI0MjE4NiwtMTMyMTA3MjM1MywxMj
-g3NTIyMjk5LDk1ODEzMjI2MSwxMzk5NTgzMjc4LDIwNjI3OTEz
-MDQsMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3NiwzND
-kwMzQzMzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5
-ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLD
-M3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5
-NDAxNl19
+eyJoaXN0b3J5IjpbLTE4MjUzNzIzMzUsLTEzMjEwNzIzNTMsMT
+I4NzUyMjI5OSw5NTgxMzIyNjEsMTM5OTU4MzI3OCwyMDYyNzkx
+MzA0LDEyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMz
+Q5MDM0MzMzLDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5
+OTgzLC0xMzUxODgzMDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMy
+wzNzAxNjI4ODUsLTU4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0
+OTQwMTZdfQ==
 -->
