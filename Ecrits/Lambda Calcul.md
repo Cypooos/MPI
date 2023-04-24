@@ -143,7 +143,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 21. Donnez une expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$
 
 # Partie IV: Types
-Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que chaque expression bien typé soit unitaire.
+Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire et sans variable libre.
 
 On pose $T$ tel que $\{\tau,\tau_1,\tau_2,...\} \sub T$ et pour tout $t,t'\in T$, on a $(t\to t')\in T$
 
@@ -186,23 +186,24 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 ## Caractérisation des expressions unitaire et sans variable libre
 On essaye de montrer que toute les expressions unitaire et sans variable libre sont typé.
 
-27. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et $t'\in t$.
-28. Montrez que le type d'une expression est invariant par dérivation.
-29. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre.
-30. Montrez que si $f$ est sous forme normale, alors il existe $\Gamma,t$ tel que toute variable libre de $f$ est dans un couple de $\Gamma$ et $\Gamma \vdash f:t$
-31. Montrez que si $e$ est unitaire sans variable libre, alors il est bien typé.
+26. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et $t'\in t$.
+27. Montrez que le type d'une expression est invariant par dérivation.
+28. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre.
+29. Montrez que si $f$ est sous forme normale, alors il existe $\Gamma,t$ tel que toute variable libre de $f$ est dans un couple de $\Gamma$ et $\Gamma \vdash f:t$
+30. Montrez que si $e$ est unitaire sans variable libre, alors il est bien typé.
 
 ## Réciproque
 On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
-33. En étendant $\phi$, donnez $\varphi : T\to E$ injective 
-34. Soit $e:t$. Montrez que $e\to^* \phi(t)$ ???
-35. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
-36. En déduire que $\Delta$ ne possède pas de typage.
+
+31. En étendant $\phi$, donnez $\varphi : T\to E$ injective 
+32. Soit $e:t$. Montrez que $e\to^* \phi(t)$ ???
+33. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
+34. En déduire que $\Delta$ ne possède pas de typage.
 
 ## Trouver la borne unitaire
-
+35. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTYwNjU1MywxNTIyNzU4NDM2LDEwMD
+eyJoaXN0b3J5IjpbMTUyODY5NzA2MCwxNTIyNzU4NDM2LDEwMD
 k1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcy
 MzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLDEzOTk1ODMyNzgsMj
 A2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMzk5Nzc2
