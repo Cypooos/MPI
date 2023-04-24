@@ -50,7 +50,7 @@ On appelle *évaluation* de l'expression $a =(x\mapsto e)(e')$ l'expression $â=
 On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^n A_n$ ou $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant. 
-Si il existe au plus qu'un seul calcul normalisant de $A$ possible, on dit que $A$ est unitaire.
+Si il existe un unique couple $(n,e)\in\N\times E$ tel que $A\to^n e$, on dit que $A$ est unit
 
 On définie les expressions suivantes :
  - $I = (x\mapsto x)$
@@ -192,7 +192,7 @@ On essaye de montrer que toute les expressions typé sont unitaire et sans varia
 31. Montrez que si $e$ est unitaire sans variable libre, alors il est typé. (????)
 32. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTQ0NjM1NSwxMDA5NTYxNzIyLDEwMD
+eyJoaXN0b3J5IjpbMTMzODA1MzEwMSwxMDA5NTYxNzIyLDEwMD
 k1NjE3MjIsLTYxMjk2NDgxNywtMTMyMTA3MjM1MywxMjg3NTIy
 Mjk5LDk1ODEzMjI2MSwxMzk5NTgzMjc4LDIwNjI3OTEzMDQsMT
 IwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3NiwzNDkwMzQz
