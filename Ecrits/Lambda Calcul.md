@@ -195,13 +195,14 @@ On essaye de montrer que toute les expressions unitaire et sans variable libre s
 ## Réciproque
 On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 33. En étendant $\phi$, donnez $\varphi : T\to E$ injective 
-34. Soit $e:t$. Montrez que $e\to^* \phi$
-35. En déduire que $\Delta$ ne possède pas de typage.
+34. Soit $e:t$. Montrez que $e\to^* \phi(t)$ ???
+35. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
+36. En déduire que $\Delta$ ne possède pas de typage.
 
 ## Trouver la borne unitaire
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjM1ODgyOSwxNTIyNzU4NDM2LDEwMD
+eyJoaXN0b3J5IjpbMTIyOTYwNjU1MywxNTIyNzU4NDM2LDEwMD
 k1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcy
 MzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLDEzOTk1ODMyNzgsMj
 A2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMzk5Nzc2
