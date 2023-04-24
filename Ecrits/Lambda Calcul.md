@@ -183,19 +183,21 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 24. Donnez $t$ un type généralisé de $\{\top, \bot\}$
 25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
-## Caractérisation des expressions typées
-On essaye de montrer que toute les expressions typé sont unitaire et sans variable libre.
+## Caractérisation des expressions unitaire et sans variable libre
+On essaye de montrer que toute les expressions unitaire et sans variable libre sont typé.
 
-### $e:t$ est typé $\implies$
 27. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et $t'\in t$.
 28. Montrez que le type d'une expression est invariant par dérivation.
 29. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre.
 30. Montrez que si $f$ est sous forme normale, alors il existe $\Gamma,t$ tel que toute variable libre de $f$ est dans un couple de $\Gamma$ et $\Gamma \vdash f:t$
 31. Montrez que si $e$ est unitaire sans variable libre, alors il est bien typé.
-32. Montrez la réciproque ??? 
-33. En déduire que $\Delta$ ne possède pas de typage.
+
+## Réciproque
+On pose $\Phi : T\$
+33. Montrez la réciproque ??? 
+34. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODIzNjQ3NSwxNTIyNzU4NDM2LDEwMD
+eyJoaXN0b3J5IjpbMTQ1NjgwMjIxOSwxNTIyNzU4NDM2LDEwMD
 k1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcy
 MzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLDEzOTk1ODMyNzgsMj
 A2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMzk5Nzc2
