@@ -42,6 +42,7 @@ Soient $e\in E$ et $x,y\in V\times E$, on définie l'opération de substitution 
   - $(u\mapsto e)[x\larr y] := u\mapsto e[x\larr y]$ pour $u\in V\setminus \{x\}$
 
 Informellement, $e[x\larr y]$ est $e$ dans laquelle on a remplacé toute les occurrences libre de $x$ par $y$.
+Ici,o identifie $x\mapsto e$ et $(z\mapsto e[z \larr x])$. Deux lambda-termes qui ne diffèrent que par un renommage (sans capture) de leurs variables liées sont dits _α-convertibles_. L'α-conversion est une [relation d'équivalence](https://fr.wikipedia.org/wiki/Relation_d%27%C3%A9quivalence "Relation d'équivalence") entre lambda-termes.
 
 On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$
 
@@ -202,11 +203,11 @@ On essaye de montrer que toute les expressions typé sont unitaire et sans varia
 31. Montrez que si $e$ est unitaire sans variable libre, alors il est typé. (????)
 32. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjk2NDgxNywtMTMyMTA3MjM1MywxMj
-g3NTIyMjk5LDk1ODEzMjI2MSwxMzk5NTgzMjc4LDIwNjI3OTEz
-MDQsMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3NiwzND
-kwMzQzMzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5
-ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLD
-M3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5
-NDAxNl19
+eyJoaXN0b3J5IjpbMTY0ODc2NDY4MCwtNjEyOTY0ODE3LC0xMz
+IxMDcyMzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLDEzOTk1ODMy
+NzgsMjA2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMz
+k5Nzc2Nzc2LDM0OTAzNDMzMywxMjAxNDExOTQ2LDIwMzQyMDU2
+NTMsLTQyNTI3OTk4MywtMTM1MTg4MzA2NSwtODkyNzM1MDM5LC
+0yNDMzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3NzAsMTU5OTYy
+MTQ0MF19
 -->
