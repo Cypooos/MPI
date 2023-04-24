@@ -145,7 +145,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 # Partie IV: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que chaque expression bien typé soit unitaire.
 
-On pose $T$ tel que $\{\tau,\tau_1,\tau_2,...\} \sub T$ et pour tout $t,t'\in T$, on a $t\to t'\in T$
+On pose $T$ tel que $\{\tau,\tau_1,\tau_2,...\} \sub T$ et pour tout $t,t'\in T$, on a $(t\to t')\in T$
 
 Un contexte de type, dénoté par $\Gamma$, est un sous-ensemble de $X\times T$
 Un jugement de type est un triplet $\Gamma \vdash x: t$ tel que on ai les règles d'inférences suivantes :
@@ -192,7 +192,7 @@ On essaye de montrer que toute les expressions typé sont unitaire et sans varia
 31. Montrez que si $e$ est unitaire sans variable libre, alors il est typé. (????)
 32. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTExMjA2NSwtNjEyOTY0ODE3LC0xMz
+eyJoaXN0b3J5IjpbMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMz
 IxMDcyMzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLDEzOTk1ODMy
 NzgsMjA2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMz
 k5Nzc2Nzc2LDM0OTAzNDMzMywxMjAxNDExOTQ2LDIwMzQyMDU2
