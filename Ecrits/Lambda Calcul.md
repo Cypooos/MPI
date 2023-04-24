@@ -188,12 +188,10 @@ On essaye de montrer que toute les expressions typé sont unitaire et sans varia
 27. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et $t'\in t$.
 28. Montrez que le type d'une expression est invariant par dérivation.
 29. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre.
-30. Montrez que si 
-31. Montrez que si $e$ est typé, alors il est unitaire et sans variable libre. (????)
-32. Montrez que si $e$ est unitaire sans variable libre, alors il est typé. (????)
+30. Montrez que si $e$ est unitaire sans variable libre, alors il est bien typé.
 33. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDAzNDgzOTgsMTAwOTU2MTcyMiwxMD
+eyJoaXN0b3J5IjpbLTEwMjE3ODA4NDMsMTAwOTU2MTcyMiwxMD
 A5NTYxNzIyLC02MTI5NjQ4MTcsLTEzMjEwNzIzNTMsMTI4NzUy
 MjI5OSw5NTgxMzIyNjEsMTM5OTU4MzI3OCwyMDYyNzkxMzA0LD
 EyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0
