@@ -186,18 +186,20 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 ## Caractérisation des expressions typées
 On essaye de montrer que toute les expressions typé sont unitaire et sans variable libre.
 
+### $e:t$ est typé $\implies$
 27. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et $t'\in t$.
 28. Montrez que le type d'une expression est invariant par dérivation.
 29. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre.
 30. Montrez que si $f$ est sous forme normale, alors il existe $\Gamma,t$ tel que toute variable libre de $f$ est dans un couple de $\Gamma$ et $\Gamma \vdash f:t$
 31. Montrez que si $e$ est unitaire sans variable libre, alors il est bien typé.
-32. En déduire que $\Delta$ ne possède pas de typage.
+32. Montrez la réciproque ??? 
+33. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjkzNDUyOTAsMTUyMjc1ODQzNiwxMD
-A5NTYxNzIyLDEwMDk1NjE3MjIsLTYxMjk2NDgxNywtMTMyMTA3
-MjM1MywxMjg3NTIyMjk5LDk1ODEzMjI2MSwxMzk5NTgzMjc4LD
-IwNjI3OTEzMDQsMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3
-Njc3NiwzNDkwMzQzMzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC
-00MjUyNzk5ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQz
-MzYwMDMzXX0=
+eyJoaXN0b3J5IjpbMTM2ODIzNjQ3NSwxNTIyNzU4NDM2LDEwMD
+k1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcy
+MzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLDEzOTk1ODMyNzgsMj
+A2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMzk5Nzc2
+Nzc2LDM0OTAzNDMzMywxMjAxNDExOTQ2LDIwMzQyMDU2NTMsLT
+QyNTI3OTk4MywtMTM1MTg4MzA2NSwtODkyNzM1MDM5LC0yNDMz
+NjAwMzNdfQ==
 -->
