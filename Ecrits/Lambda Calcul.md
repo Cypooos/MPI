@@ -42,7 +42,7 @@ Soient $e\in E$ et $x,y\in V\times E$, on définie l'opération de substitution 
   - $(u\mapsto e)[x\larr y] := u\mapsto e[x\larr y]$ pour $u\in V\setminus \{x\}$
 
 Informellement, $e[x\larr y]$ est $e$ dans laquelle on a remplacé toute les occurrences libre de $x$ par $y$.
-Dans ce sujet, pour $x,z\inV$on identifiera $x\mapsto e$ et $z\mapsto (e[x \larr z])$ : un renommage d'une variable ne change pas fondamentalement l'expression.
+Dans ce sujet, pour $x,y\in V$, on identifiera $x\mapsto e$ et $y\mapsto (e[x \larr y])$ : un renommage d'une variable ne change pas fondamentalement l'expression.
 
 On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$
 
@@ -145,21 +145,10 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 # Partie IV: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que chaque expression bien typé soit unitaire.
 
-> On pose $\hat{T}$ un ensemble non vide de types par défaut.
-Pour chaque type $\tau\in\hat{T}$ par défaut, on pose $E_{\tau}$ un ensemble d'expressions normale par défaut.
-Par exemple, si on ajoute le type $\text{Bool}$, on posera $E_{\text{Bool}} = \{ \text{true},\text{false}\}$
-De même, si on ajoute le type $\text{Nat}$, on posera $E_{\text{Nat}} = \{ 0_E,1_E,2_E,3_E, ... \}$
-On pose $T$ tel que $\hat{T} \sub T$ et pour tout $\tau,\tau'\in T$, on a $\tau\to\tau'\in \hat{T}$
-
 On pose $T$ tel que $\{\tau,\tau_1,\tau_2,...\} \sub T$ et pour tout $t,t'\in T$, on a $t\to t'\in T$
 
 Un contexte de type, dénoté par $\Gamma$, est un sous-ensemble de $X\times T$
 Un jugement de type est un triplet $\Gamma \vdash x: t$ tel que on ai les règles d'inférences suivantes :
-
-> Défaut, pour $t\in \hat{T}$ et $x\in E_t$ :
-$$
-\frac{}{\Gamma \vdash x: t}\tiny\text{(def)}\\
-$$
 
 Axiome, pour $(x,t) \in \Gamma$ :
 $$
@@ -203,11 +192,11 @@ On essaye de montrer que toute les expressions typé sont unitaire et sans varia
 31. Montrez que si $e$ est unitaire sans variable libre, alors il est typé. (????)
 32. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4OTcyNDIsLTYxMjk2NDgxNywtMTMyMT
-A3MjM1MywxMjg3NTIyMjk5LDk1ODEzMjI2MSwxMzk5NTgzMjc4
-LDIwNjI3OTEzMDQsMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OT
-c3Njc3NiwzNDkwMzQzMzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUz
-LC00MjUyNzk5ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMj
-QzMzYwMDMzLDM3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0
-NDBdfQ==
+eyJoaXN0b3J5IjpbMTQ5NTExMjA2NSwtNjEyOTY0ODE3LC0xMz
+IxMDcyMzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLDEzOTk1ODMy
+NzgsMjA2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMz
+k5Nzc2Nzc2LDM0OTAzNDMzMywxMjAxNDExOTQ2LDIwMzQyMDU2
+NTMsLTQyNTI3OTk4MywtMTM1MTg4MzA2NSwtODkyNzM1MDM5LC
+0yNDMzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3NzAsMTU5OTYy
+MTQ0MF19
 -->
