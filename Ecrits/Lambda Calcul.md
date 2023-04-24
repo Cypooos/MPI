@@ -154,6 +154,8 @@ Axiome, pour $(x,t) \in \Gamma$ :
 $$
 \frac{}{\Gamma \vdash x: t}\tiny\text{(ax)}\\
 $$
+Généralisation : 
+
 Evaluation :
 $$
 \frac{\Gamma \vdash f: t\to t',\qquad \Gamma \vdash x: t}{\Gamma \vdash f(x): t'}\tiny\text{(ev)}
@@ -191,7 +193,7 @@ On essaye de montrer que toute les expressions typé sont unitaire et sans varia
 30. Montrez que si $e$ est unitaire sans variable libre, alors il est bien typé.
 33. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjE3ODA4NDMsMTAwOTU2MTcyMiwxMD
+eyJoaXN0b3J5IjpbLTExNzg3NTE0MDgsMTAwOTU2MTcyMiwxMD
 A5NTYxNzIyLC02MTI5NjQ4MTcsLTEzMjEwNzIzNTMsMTI4NzUy
 MjI5OSw5NTgxMzIyNjEsMTM5OTU4MzI3OCwyMDYyNzkxMzA0LD
 EyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0
