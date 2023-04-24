@@ -122,7 +122,7 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 
 16. Montrez que si $\exist!e\in E,\ \text{fix}(f)\to^* e$, alors $f$ admet un point fixe.
 17. Donnez une expression $f$ telle que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
-18. (*) Donnez une expression $\Theta$ point-fixe.
+18. (*) Donnez une expression $\Theta$ qui est un opérateur point-fixe.
 
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument.
@@ -193,7 +193,7 @@ On essaye de montrer que toute les expressions typé sont unitaire et sans varia
 31. Montrez que si $e$ est unitaire sans variable libre, alors il est bien typé.
 32. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTgzNjYzNDEsMTUyMjc1ODQzNiwxMD
+eyJoaXN0b3J5IjpbLTE3MjkzNDUyOTAsMTUyMjc1ODQzNiwxMD
 A5NTYxNzIyLDEwMDk1NjE3MjIsLTYxMjk2NDgxNywtMTMyMTA3
 MjM1MywxMjg3NTIyMjk5LDk1ODEzMjI2MSwxMzk5NTgzMjc4LD
 IwNjI3OTEzMDQsMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3
