@@ -173,7 +173,7 @@ $$
 On notera $e:t$ pour dire qu'une expression $e$ à un typage $t$.
 Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 
-## Typage d'expression
+## Typage d e groupe d'expressions
 
 22. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
 
@@ -192,11 +192,11 @@ On essaye de montrer que toute les expressions typé sont unitaire et sans varia
 31. Montrez que si $e$ est unitaire sans variable libre, alors il est typé. (????)
 32. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODExMzM4NSwxMDA5NTYxNzIyLDEwMD
-k1NjE3MjIsLTYxMjk2NDgxNywtMTMyMTA3MjM1MywxMjg3NTIy
-Mjk5LDk1ODEzMjI2MSwxMzk5NTgzMjc4LDIwNjI3OTEzMDQsMT
-IwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3NiwzNDkwMzQz
-MzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLT
-EzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2
-Mjg4NV19
+eyJoaXN0b3J5IjpbMTM3MjI4NjIzLDEwMDk1NjE3MjIsMTAwOT
+U2MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcyMzUzLDEyODc1MjIy
+OTksOTU4MTMyMjYxLDEzOTk1ODMyNzgsMjA2Mjc5MTMwNCwxMj
+A2Nzg2MDYsMTA1NTYxMjcyOSwxMzk5Nzc2Nzc2LDM0OTAzNDMz
+MywxMjAxNDExOTQ2LDIwMzQyMDU2NTMsLTQyNTI3OTk4MywtMT
+M1MTg4MzA2NSwtODkyNzM1MDM5LC0yNDMzNjAwMzMsMzcwMTYy
+ODg1XX0=
 -->
