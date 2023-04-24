@@ -174,7 +174,7 @@ $$
 On notera $e:t$ pour dire qu'une expression $e$ à un typage $t$.
 Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 
-## Typage d e groupe d'expressions
+## Typage de groupe d'expressions
 
 22. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
 
@@ -189,10 +189,11 @@ On essaye de montrer que toute les expressions typé sont unitaire et sans varia
 27. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et $t'\in t$.
 28. Montrez que le type d'une expression est invariant par dérivation.
 29. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre.
-30. Montrez que si $e$ est unitaire sans variable libre, alors il est bien typé.
-33. En déduire que $\Delta$ ne possède pas de typage.
+30. Montrez que si $f$ est sous forme normale, alors il existe $\Gamma,t$ tel que toute variable libre de $f$ est dans $\Gamma$
+31. Montrez que si $e$ est unitaire sans variable libre, alors il est bien typé.
+32. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTg5NjUzNywxMDA5NTYxNzIyLDEwMD
+eyJoaXN0b3J5IjpbMjAyODIyODI0OSwxMDA5NTYxNzIyLDEwMD
 k1NjE3MjIsLTYxMjk2NDgxNywtMTMyMTA3MjM1MywxMjg3NTIy
 Mjk5LDk1ODEzMjI2MSwxMzk5NTgzMjc4LDIwNjI3OTEzMDQsMT
 IwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3NiwzNDkwMzQz
