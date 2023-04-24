@@ -160,7 +160,7 @@ $$
 $$
 Abstraction :
 $$
-\frac{\Gamma\ \cup \{(x,t)\} \vdash x': t'}{\Gamma\ \vdash x\mapsto x': t\to t'}\tiny\text{(ab)}
+\frac{\Gamma\vdash x': t'}{\Gamma\setminus\{ (x,t)\}\ \vdash x\mapsto x': t\to t'}\tiny\text{(ab)}
 $$
 
 On dit que $t$ est un typage de $x$ si $\empty \vdash x:t$.
@@ -192,11 +192,11 @@ On essaye de montrer que toute les expressions typé sont unitaire et sans varia
 31. Montrez que si $e$ est unitaire sans variable libre, alors il est typé. (????)
 32. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMz
-IxMDcyMzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLDEzOTk1ODMy
-NzgsMjA2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMz
-k5Nzc2Nzc2LDM0OTAzNDMzMywxMjAxNDExOTQ2LDIwMzQyMDU2
-NTMsLTQyNTI3OTk4MywtMTM1MTg4MzA2NSwtODkyNzM1MDM5LC
-0yNDMzNjAwMzMsMzcwMTYyODg1LC01ODMyMzc3NzAsMTU5OTYy
-MTQ0MF19
+eyJoaXN0b3J5IjpbODQ4NDMxNzMwLDEwMDk1NjE3MjIsLTYxMj
+k2NDgxNywtMTMyMTA3MjM1MywxMjg3NTIyMjk5LDk1ODEzMjI2
+MSwxMzk5NTgzMjc4LDIwNjI3OTEzMDQsMTIwNjc4NjA2LDEwNT
+U2MTI3MjksMTM5OTc3Njc3NiwzNDkwMzQzMzMsMTIwMTQxMTk0
+NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLTEzNTE4ODMwNjUsLT
+g5MjczNTAzOSwtMjQzMzYwMDMzLDM3MDE2Mjg4NSwtNTgzMjM3
+NzcwXX0=
 -->
