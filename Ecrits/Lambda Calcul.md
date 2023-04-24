@@ -143,13 +143,14 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 # Partie IV: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que chaque expression bien typé soit unitaire.
-((
-On pose $\hat{T}$ un ensemble non vide de types par défaut.
+
+> On pose $\hat{T}$ un ensemble non vide de types par défaut.
 Pour chaque type $\tau\in\hat{T}$ par défaut, on pose $E_{\tau}$ un ensemble d'expressions normale par défaut.
 Par exemple, si on ajoute le type $\text{Bool}$, on posera $E_{\text{Bool}} = \{ \text{true},\text{false}\}$
 De même, si on ajoute le type $\text{Nat}$, on posera $E_{\text{Nat}} = \{ 0_E,1_E,2_E,3_E, ... \}$
-))
 On pose $T$ tel que $\hat{T} \sub T$ et pour tout $\tau,\tau'\in T$, on a $\tau\to\tau'\in \hat{T}$
+
+On pose $T$ tel que $\tau \in T$ et pour tout $\tau,\tau'\in T$, on a $\tau\to\tau'\in \hat{T}$
 
 Un contexte de type, dénoté par $\Gamma$, est un sous-ensemble de $X\times T$
 Un jugement de type est un triplet $\Gamma \vdash x: t$ tel que on ai les règles d'inférences suivantes :
@@ -193,18 +194,18 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 ## Caractérisation des expressions typées
 On essaye de montrer que toute les expressions bien typé sont unitaire et sans variable libre.
 
-26. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre
+26. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre ???
 27. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et $t'\in t$.
 28. Montrez que le type d'une expression est invariant par dérivation.
 30. Montrez que si $e$ est typé, alors il est unitaire et sans variable libre. (????)
 29. Montrez que si $e$ est unitaire sans variable libre, alors il est typé. (????)
 31. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjEwNzIzNTMsMTI4NzUyMjI5OSw5NT
-gxMzIyNjEsMTM5OTU4MzI3OCwyMDYyNzkxMzA0LDEyMDY3ODYw
-NiwxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0MzMzLDEyMD
-E0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMzUxODgz
-MDY1LC04OTI3MzUwMzksLTI0MzM2MDAzMywzNzAxNjI4ODUsLT
-U4MzIzNzc3MCwxNTk5NjIxNDQwLC05NTM0OTQwMTYsMTU3OTgx
-NTU2NV19
+eyJoaXN0b3J5IjpbMTk2NDI0MjE4NiwtMTMyMTA3MjM1MywxMj
+g3NTIyMjk5LDk1ODEzMjI2MSwxMzk5NTgzMjc4LDIwNjI3OTEz
+MDQsMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3NiwzND
+kwMzQzMzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5
+ODMsLTEzNTE4ODMwNjUsLTg5MjczNTAzOSwtMjQzMzYwMDMzLD
+M3MDE2Mjg4NSwtNTgzMjM3NzcwLDE1OTk2MjE0NDAsLTk1MzQ5
+NDAxNl19
 -->
