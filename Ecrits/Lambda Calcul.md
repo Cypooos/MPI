@@ -150,7 +150,7 @@ Par exemple, si on ajoute le type $\text{Bool}$, on posera $E_{\text{Bool}} = \{
 De même, si on ajoute le type $\text{Nat}$, on posera $E_{\text{Nat}} = \{ 0_E,1_E,2_E,3_E, ... \}$
 On pose $T$ tel que $\hat{T} \sub T$ et pour tout $\tau,\tau'\in T$, on a $\tau\to\tau'\in \hat{T}$
 
-On pose $T$ tel que $\tau \in T$ et pour tout $\tau,\tau'\in T$, on a $\tau\to\tau'\in T$
+On pose $T$ tel que $\{\tau,\tau_1,\tau_2,...\} \sub T$ et pour tout $\tau,\tau'\in T$, on a $\tau\to\tau'\in T$
 
 Un contexte de type, dénoté par $\Gamma$, est un sous-ensemble de $X\times T$
 Un jugement de type est un triplet $\Gamma \vdash x: t$ tel que on ai les règles d'inférences suivantes :
@@ -166,7 +166,7 @@ $$
 $$
 Evaluation :
 $$
-\frac{\Gamma \vdash f: \tau_1 \to \tau_2,\qquad \Gamma \vdash x: \tau_1}{\Gamma \vdash f(x): \tau_2}\tiny\text{(ev)}
+\frac{\Gamma \vdash f: \tau \to \tau',\qquad \Gamma \vdash x: \tau_1}{\Gamma \vdash f(x): \tau_2}\tiny\text{(ev)}
 $$
 Abstraction :
 $$
@@ -205,7 +205,7 @@ On essaye de montrer que toute les expressions bien typé sont unitaire et sans 
 29. Montrez que si $e$ est unitaire sans variable libre, alors il est typé. (????)
 31. En déduire que $\Delta$ ne possède pas de typage.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MjA5Njc4OSwtMTMyMTA3MjM1MywxMj
+eyJoaXN0b3J5IjpbMjAzNzU1MjA2MywtMTMyMTA3MjM1MywxMj
 g3NTIyMjk5LDk1ODEzMjI2MSwxMzk5NTgzMjc4LDIwNjI3OTEz
 MDQsMTIwNjc4NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3NiwzND
 kwMzQzMzMsMTIwMTQxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5
