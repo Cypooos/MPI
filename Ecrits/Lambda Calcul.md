@@ -68,7 +68,7 @@ On s'intéresse maintenant à la création de différents objets de base.
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
 On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 
-3. Montrez que, soit $b\in B$ et $e,e'\in E$, on a $\text{if}(b,e,e') \to^* e \iff b = \top$
+3. Montrez que, soit $e,e'\in E$, on a $\text{if}(\top,e,e') \to^* e$ et $\text{if}(\bot,e,e') \to^* e'$ 
 4. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
 5. Définir une expression $\text{and}$ tel que, soit $b,b'\in B$, on ai:
    * $\text{and}(b,b') \to^* \top$  si $b=b'=\top$
@@ -207,11 +207,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 ## Trouver la borne unitaire
 35. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDYwMzI4LC0xODM5NjQwNzM0LDExNj
-A4ODQ1ODUsMTUyMjc1ODQzNiwxMDA5NTYxNzIyLDEwMDk1NjE3
-MjIsLTYxMjk2NDgxNywtMTMyMTA3MjM1MywxMjg3NTIyMjk5LD
-k1ODEzMjI2MSwxMzk5NTgzMjc4LDIwNjI3OTEzMDQsMTIwNjc4
-NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3NiwzNDkwMzQzMzMsMT
-IwMTQxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLTEzNTE4
-ODMwNjVdfQ==
+eyJoaXN0b3J5IjpbLTE4MzE4MDIxNjcsLTE4Mzk2NDA3MzQsMT
+E2MDg4NDU4NSwxNTIyNzU4NDM2LDEwMDk1NjE3MjIsMTAwOTU2
+MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcyMzUzLDEyODc1MjIyOT
+ksOTU4MTMyMjYxLDEzOTk1ODMyNzgsMjA2Mjc5MTMwNCwxMjA2
+Nzg2MDYsMTA1NTYxMjcyOSwxMzk5Nzc2Nzc2LDM0OTAzNDMzMy
+wxMjAxNDExOTQ2LDIwMzQyMDU2NTMsLTQyNTI3OTk4MywtMTM1
+MTg4MzA2NV19
 -->
