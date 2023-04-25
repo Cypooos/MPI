@@ -50,7 +50,7 @@ On appelle *évaluation* de l'expression $a =(x\mapsto e)(e')$ l'expression $â=
 On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^n A_n$ ou $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant. 
-Si il existe un unique $e\in E$ tel que $A\to^n e$ avec $n$ borné, on dit que $A$ est unitaire.
+Si il existe un unique $e\in E$ sous forme normale tel que $A\to^n e$ avec $n$ borné, on dit que $A$ est unitaire.
 
 On définie les expressions suivantes :
  - $I = (x\mapsto x)$
@@ -207,11 +207,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 ## Trouver la borne unitaire
 35. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTI5NzIyNywtMTgzOTY0MDczNCwxMT
-YwODg0NTg1LDE1MjI3NTg0MzYsMTAwOTU2MTcyMiwxMDA5NTYx
-NzIyLC02MTI5NjQ4MTcsLTEzMjEwNzIzNTMsMTI4NzUyMjI5OS
-w5NTgxMzIyNjEsMTM5OTU4MzI3OCwyMDYyNzkxMzA0LDEyMDY3
-ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0MzMzLD
-EyMDE0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMzUx
-ODgzMDY1XX0=
+eyJoaXN0b3J5IjpbLTEyNDYwMzI4LC0xODM5NjQwNzM0LDExNj
+A4ODQ1ODUsMTUyMjc1ODQzNiwxMDA5NTYxNzIyLDEwMDk1NjE3
+MjIsLTYxMjk2NDgxNywtMTMyMTA3MjM1MywxMjg3NTIyMjk5LD
+k1ODEzMjI2MSwxMzk5NTgzMjc4LDIwNjI3OTEzMDQsMTIwNjc4
+NjA2LDEwNTU2MTI3MjksMTM5OTc3Njc3NiwzNDkwMzQzMzMsMT
+IwMTQxMTk0NiwyMDM0MjA1NjUzLC00MjUyNzk5ODMsLTEzNTE4
+ODMwNjVdfQ==
 -->
