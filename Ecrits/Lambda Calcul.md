@@ -17,16 +17,16 @@ Seul la question 31 est tiroir à la question 32 et 33.
 
 Les questions plus difficile sont préambulées d'une étoile (*).
 On pourra admettre une question pour passer à la suivante.
-Il n'est pas fait pou
+Il n'est pas fait pour être réalisé en 4h ; il sera difficile même en le faisant en 6 heures.
 
 # Définitions
 
-Soit $\Sigma$ un ensemble de *lettres*. On dis que $\omega=\omega_1...\omega_n$ est un *mot* s'il est une suite finie de lettre. On note $\varepsilon$ le mot vide.
+> Soit $\Sigma$ un ensemble de *lettres*. On dis que $\omega=\omega_1...\omega_n$ est un *mot* s'il est une suite finie de lettre. On note $\varepsilon$ le mot vide.
  Pour $\omega$ un mot, on note $|\omega|$ sa longueur et pour $\alpha\in\Sigma$, on note $|\omega|_\alpha$ le nombre d'occurrences de $\alpha$ dans $\omega$.
  Soit $n\in\N$, on note $\Sigma^n$ l'ensemble des mots de $\Sigma$ à $n$ lettres. On note $\Sigma^* = \cup_{n\in\N}\Sigma^n$
 On appelle *langage* un ensemble de mots.
 
-Soit $V=\{x,y,z,t,u,v,...\}$ un ensemble dénombrable de *variables*.
+Soit $V=\{x,y,z,t,u,v,...\}$ un ensemble dénombrable infinie de *variables*.
 On définie une *expression* inductivement :
  - "$x$" est une expression pour tout $x\in V$
  - "$e_1(e_2)$" est une expression pour tout $e_1,e_2$ deux expressions
@@ -213,7 +213,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 # Partie V
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDUyMzQ3NywxNjYxNTE3ODcsNjIzND
+eyJoaXN0b3J5IjpbLTE1MjQwOTA4NiwxNjYxNTE3ODcsNjIzND
 AxMTI4LC05NDQwNDAxNjMsLTU4OTA3MDk3OCwtMTgzMTgwMjE2
 NywtMTgzOTY0MDczNCwxMTYwODg0NTg1LDE1MjI3NTg0MzYsMT
 AwOTU2MTcyMiwxMDA5NTYxNzIyLC02MTI5NjQ4MTcsLTEzMjEw
