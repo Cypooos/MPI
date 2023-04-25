@@ -106,7 +106,7 @@ qui représente un couple $(x,y)$
 
 11. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$.
 12. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1}))$
-13. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$
+13. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
 14. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ 
 
 # Partie III: Récursivité
@@ -143,7 +143,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 21. Donnez une expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$
 
 # Partie IV: Types
-Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire et sans variable libre.
+Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
 
 On pose $T$ tel que $\{\tau,\tau_1,\tau_2,...\} \sub T$ et pour tout $t,t'\in T$, on a $(t\to t')\in T$
 
@@ -207,11 +207,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 ## Trouver la borne unitaire
 35. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzE4MDIxNjcsLTE4Mzk2NDA3MzQsMT
-E2MDg4NDU4NSwxNTIyNzU4NDM2LDEwMDk1NjE3MjIsMTAwOTU2
-MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcyMzUzLDEyODc1MjIyOT
-ksOTU4MTMyMjYxLDEzOTk1ODMyNzgsMjA2Mjc5MTMwNCwxMjA2
-Nzg2MDYsMTA1NTYxMjcyOSwxMzk5Nzc2Nzc2LDM0OTAzNDMzMy
-wxMjAxNDExOTQ2LDIwMzQyMDU2NTMsLTQyNTI3OTk4MywtMTM1
-MTg4MzA2NV19
+eyJoaXN0b3J5IjpbLTU4OTA3MDk3OCwtMTgzMTgwMjE2NywtMT
+gzOTY0MDczNCwxMTYwODg0NTg1LDE1MjI3NTg0MzYsMTAwOTU2
+MTcyMiwxMDA5NTYxNzIyLC02MTI5NjQ4MTcsLTEzMjEwNzIzNT
+MsMTI4NzUyMjI5OSw5NTgxMzIyNjEsMTM5OTU4MzI3OCwyMDYy
+NzkxMzA0LDEyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3Nz
+YsMzQ5MDM0MzMzLDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtNDI1
+Mjc5OTgzXX0=
 -->
