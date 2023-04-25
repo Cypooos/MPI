@@ -208,18 +208,18 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 33. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
 34. En déduire que $\Delta$ ne possède pas de typage.
 
-En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonction 
+En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même une fonction qui à $C_n$ associe $C_{2^n}$ comme on a pu voir dans la partie III.
 
 # Partie V
 Je n'introduit pas les définitions d'une grammaire ; C.F. votre cours.
 
 35. Définir une grammaire hors contexte engendrant $E$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTU2ODM5NSw2Nzk4MTMxODIsLTUwNj
-U3NTQ0NiwxNjYxNTE3ODcsNjIzNDAxMTI4LC05NDQwNDAxNjMs
-LTU4OTA3MDk3OCwtMTgzMTgwMjE2NywtMTgzOTY0MDczNCwxMT
-YwODg0NTg1LDE1MjI3NTg0MzYsMTAwOTU2MTcyMiwxMDA5NTYx
-NzIyLC02MTI5NjQ4MTcsLTEzMjEwNzIzNTMsMTI4NzUyMjI5OS
-w5NTgxMzIyNjEsMTM5OTU4MzI3OCwyMDYyNzkxMzA0LDEyMDY3
-ODYwNl19
+eyJoaXN0b3J5IjpbLTE5MjMxMjgyMjMsNjc5ODEzMTgyLC01MD
+Y1NzU0NDYsMTY2MTUxNzg3LDYyMzQwMTEyOCwtOTQ0MDQwMTYz
+LC01ODkwNzA5NzgsLTE4MzE4MDIxNjcsLTE4Mzk2NDA3MzQsMT
+E2MDg4NDU4NSwxNTIyNzU4NDM2LDEwMDk1NjE3MjIsMTAwOTU2
+MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcyMzUzLDEyODc1MjIyOT
+ksOTU4MTMyMjYxLDEzOTk1ODMyNzgsMjA2Mjc5MTMwNCwxMjA2
+Nzg2MDZdfQ==
 -->
