@@ -51,7 +51,7 @@ On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qu
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^n A_n$ ou $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant.
 On admet le _Théorème de Church-Rosser_ dans toute les parties sauf la V: si $A$ est normalisable, alors sa forme normale est unique.
-Si il existe un $e\in E$ sous forme normale tel que $A\to^n e$ avec $n$ borné, on dit que $A$ est fortement normalisable.
+Si il existe un $e\in E$ sous forme normale tel que $A\to^n e$ avec $n$ borné, on dit que $A$ est unitaire. *(Rem: Dans la littérature, le terme de "fortement normalisable" est plutôt employé.)*
 
 On définie les expressions suivantes :
  - $I = (x\mapsto x)$
@@ -209,11 +209,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 ## Trouver la borne unitaire
 35. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzkxMDM5MiwtOTQ0MDQwMTYzLC01OD
-kwNzA5NzgsLTE4MzE4MDIxNjcsLTE4Mzk2NDA3MzQsMTE2MDg4
-NDU4NSwxNTIyNzU4NDM2LDEwMDk1NjE3MjIsMTAwOTU2MTcyMi
-wtNjEyOTY0ODE3LC0xMzIxMDcyMzUzLDEyODc1MjIyOTksOTU4
-MTMyMjYxLDEzOTk1ODMyNzgsMjA2Mjc5MTMwNCwxMjA2Nzg2MD
-YsMTA1NTYxMjcyOSwxMzk5Nzc2Nzc2LDM0OTAzNDMzMywxMjAx
-NDExOTQ2XX0=
+eyJoaXN0b3J5IjpbLTE2NzU3MjE2NDksLTk0NDA0MDE2MywtNT
+g5MDcwOTc4LC0xODMxODAyMTY3LC0xODM5NjQwNzM0LDExNjA4
+ODQ1ODUsMTUyMjc1ODQzNiwxMDA5NTYxNzIyLDEwMDk1NjE3Mj
+IsLTYxMjk2NDgxNywtMTMyMTA3MjM1MywxMjg3NTIyMjk5LDk1
+ODEzMjI2MSwxMzk5NTgzMjc4LDIwNjI3OTEzMDQsMTIwNjc4Nj
+A2LDEwNTU2MTI3MjksMTM5OTc3Njc3NiwzNDkwMzQzMzMsMTIw
+MTQxMTk0Nl19
 -->
