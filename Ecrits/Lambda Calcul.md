@@ -188,8 +188,7 @@ On essaye de montrer que toute les expressions unitaire et sans variable libre s
 
 26. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et $t'\in t$.
 27. Montrez que le type d'une expression est invariant par dérivation.
-28. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre.
-29. Montrez que si $f$ est sous forme normale, alors il existe $\Gamma,t$ tel que toute variable libre de $f$ est dans un couple de $\Gamma$ et $\Gamma \vdash f:t$
+29. Montrez que si $f$ est sous forme normale, alors il existe $\Gamma,t$ tel que toute variable de $\Gamma$ est une variable libre de $f$ et $\Gamma \vdash f:t$
 30. Montrez que si $e$ est unitaire sans variable libre, alors il est bien typé.
 
 ## Réciproque
@@ -198,17 +197,18 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 31. En étendant $\phi$, donnez $\varphi : T\to E$ injective 
 32. Soit $e:t$. Montrez que $e\to^* \phi(t)$ ???
 33. Montrez que si $e$ est typé 
+28. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre.
 34. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
 35. En déduire que $\Delta$ ne possède pas de typage.
 
 ## Trouver la borne unitaire
 35. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDg4NDU4NSwxNTIyNzU4NDM2LDEwMD
-k1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcy
-MzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLDEzOTk1ODMyNzgsMj
-A2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMzk5Nzc2
-Nzc2LDM0OTAzNDMzMywxMjAxNDExOTQ2LDIwMzQyMDU2NTMsLT
-QyNTI3OTk4MywtMTM1MTg4MzA2NSwtODkyNzM1MDM5LC0yNDMz
-NjAwMzNdfQ==
+eyJoaXN0b3J5IjpbLTE4Mzk2NDA3MzQsMTE2MDg4NDU4NSwxNT
+IyNzU4NDM2LDEwMDk1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0
+ODE3LC0xMzIxMDcyMzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLD
+EzOTk1ODMyNzgsMjA2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYx
+MjcyOSwxMzk5Nzc2Nzc2LDM0OTAzNDMzMywxMjAxNDExOTQ2LD
+IwMzQyMDU2NTMsLTQyNTI3OTk4MywtMTM1MTg4MzA2NSwtODky
+NzM1MDM5XX0=
 -->
