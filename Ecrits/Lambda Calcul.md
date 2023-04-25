@@ -186,8 +186,8 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 24. Donnez $t$ un type généralisé de $\{\top, \bot\}$
 25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
-## Caractérisation des expressions unitaire et sans variable libre
-On essaye de montrer que toute les expressions unitaire et sans variable libre sont typé.
+## Caractérisation des expressions unitaire
+On essaye de montrer que toute les expressions unitaire sont tel que $\Gamma \vdash e:t$.
 
 26. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et $t'\in t$.
 27. Montrez que le type d'une expression est invariant par dérivation.
@@ -207,11 +207,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 ## Trouver la borne unitaire
 35. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTA3MDk3OCwtMTgzMTgwMjE2NywtMT
-gzOTY0MDczNCwxMTYwODg0NTg1LDE1MjI3NTg0MzYsMTAwOTU2
-MTcyMiwxMDA5NTYxNzIyLC02MTI5NjQ4MTcsLTEzMjEwNzIzNT
-MsMTI4NzUyMjI5OSw5NTgxMzIyNjEsMTM5OTU4MzI3OCwyMDYy
-NzkxMzA0LDEyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3Nz
-YsMzQ5MDM0MzMzLDEyMDE0MTE5NDYsMjAzNDIwNTY1MywtNDI1
-Mjc5OTgzXX0=
+eyJoaXN0b3J5IjpbLTEzNzgxMDA5NjAsLTU4OTA3MDk3OCwtMT
+gzMTgwMjE2NywtMTgzOTY0MDczNCwxMTYwODg0NTg1LDE1MjI3
+NTg0MzYsMTAwOTU2MTcyMiwxMDA5NTYxNzIyLC02MTI5NjQ4MT
+csLTEzMjEwNzIzNTMsMTI4NzUyMjI5OSw5NTgxMzIyNjEsMTM5
+OTU4MzI3OCwyMDYyNzkxMzA0LDEyMDY3ODYwNiwxMDU1NjEyNz
+I5LDEzOTk3NzY3NzYsMzQ5MDM0MzMzLDEyMDE0MTE5NDYsMjAz
+NDIwNTY1M119
 -->
