@@ -154,7 +154,10 @@ Axiome, pour $(x,t) \in \Gamma$ :
 $$
 \frac{}{\Gamma \vdash x: t}\tiny\text{(ax)}\\
 $$
-
+Généralisation :
+$$
+\frac{\Gamma \vdash x: t}{\Gamma\cup\Gamma' \vdash x: t}\tiny\text{(gen)}\\
+$$
 Evaluation :
 $$
 \frac{\Gamma \vdash f: t\to t',\qquad \Gamma \vdash x: t}{\Gamma \vdash f(x): t'}\tiny\text{(ev)}
@@ -204,11 +207,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 ## Trouver la borne unitaire
 35. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzk2NDA3MzQsMTE2MDg4NDU4NSwxNT
-IyNzU4NDM2LDEwMDk1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0
-ODE3LC0xMzIxMDcyMzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLD
-EzOTk1ODMyNzgsMjA2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYx
-MjcyOSwxMzk5Nzc2Nzc2LDM0OTAzNDMzMywxMjAxNDExOTQ2LD
-IwMzQyMDU2NTMsLTQyNTI3OTk4MywtMTM1MTg4MzA2NSwtODky
-NzM1MDM5XX0=
+eyJoaXN0b3J5IjpbLTYzOTI5NzIyNywtMTgzOTY0MDczNCwxMT
+YwODg0NTg1LDE1MjI3NTg0MzYsMTAwOTU2MTcyMiwxMDA5NTYx
+NzIyLC02MTI5NjQ4MTcsLTEzMjEwNzIzNTMsMTI4NzUyMjI5OS
+w5NTgxMzIyNjEsMTM5OTU4MzI3OCwyMDYyNzkxMzA0LDEyMDY3
+ODYwNiwxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0MzMzLD
+EyMDE0MTE5NDYsMjAzNDIwNTY1MywtNDI1Mjc5OTgzLC0xMzUx
+ODgzMDY1XX0=
 -->
