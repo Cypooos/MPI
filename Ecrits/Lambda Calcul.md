@@ -209,14 +209,14 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 34. En déduire que $\Delta$ ne possède pas de typage.
 
 En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même la fonction $\text{pow}$ comme on a pu le voir dans la partie III.
-Le compromis pris par ocaml est de forcer l'existence de $$
+Le compromis pris par ocaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vrai" signature est `val fct : fix -> `
 
 # Partie V
 Je n'introduit pas les définitions d'une grammaire ; C.F. votre cours.
 
 35. Définir une grammaire hors contexte engendrant $E$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1NDA5NDQ5LDY3OTgxMzE4MiwtNTA2NT
+eyJoaXN0b3J5IjpbNTU0Nzc1NjA2LDY3OTgxMzE4MiwtNTA2NT
 c1NDQ2LDE2NjE1MTc4Nyw2MjM0MDExMjgsLTk0NDA0MDE2Mywt
 NTg5MDcwOTc4LC0xODMxODAyMTY3LC0xODM5NjQwNzM0LDExNj
 A4ODQ1ODUsMTUyMjc1ODQzNiwxMDA5NTYxNzIyLDEwMDk1NjE3
