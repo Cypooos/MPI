@@ -214,16 +214,17 @@ REM: Le compromis pris par ocaml est de forcer l'existence d'un opérateur point
 
 # Partie V
 Je n'introduit pas les définitions d'une grammaire ; C.F. votre cours.
+Ici, l'on suppose $V = \{$ fini, comme cela on peut créer les règles $\hat{V}\to v_1|...|v_n$
 
 35. Définir une grammaire hors contexte engendrant $E$
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 37. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMjAzMzA2OCwtMTg3OTM2NzU5NCw2Nz
-k4MTMxODIsLTUwNjU3NTQ0NiwxNjYxNTE3ODcsNjIzNDAxMTI4
-LC05NDQwNDAxNjMsLTU4OTA3MDk3OCwtMTgzMTgwMjE2NywtMT
-gzOTY0MDczNCwxMTYwODg0NTg1LDE1MjI3NTg0MzYsMTAwOTU2
-MTcyMiwxMDA5NTYxNzIyLC02MTI5NjQ4MTcsLTEzMjEwNzIzNT
-MsMTI4NzUyMjI5OSw5NTgxMzIyNjEsMTM5OTU4MzI3OCwyMDYy
-NzkxMzA0XX0=
+eyJoaXN0b3J5IjpbMjY0OTQ4NjQwLDE1MTIwMzMwNjgsLTE4Nz
+kzNjc1OTQsNjc5ODEzMTgyLC01MDY1NzU0NDYsMTY2MTUxNzg3
+LDYyMzQwMTEyOCwtOTQ0MDQwMTYzLC01ODkwNzA5NzgsLTE4Mz
+E4MDIxNjcsLTE4Mzk2NDA3MzQsMTE2MDg4NDU4NSwxNTIyNzU4
+NDM2LDEwMDk1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC
+0xMzIxMDcyMzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLDEzOTk1
+ODMyNzhdfQ==
 -->
