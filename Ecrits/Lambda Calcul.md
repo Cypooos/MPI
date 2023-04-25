@@ -210,18 +210,19 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 REM: En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même la fonction $\text{pow}$ comme on a pu le voir dans la partie III.
 
-REM: Le compromis pris par ocaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> SIGNATURE`, mais ce premier argument n'est ni affiché, ni vérifié. Ocaml a aussi des types par défaut tel que `int`, `string`, `bool` etc... Ocaml pousse aussi à de la logique du second ordre 
+REM: Le compromis pris par ocaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> SIGNATURE`, mais ce premier argument n'est ni affiché, ni vérifié. Ocaml a aussi des types par défaut tel que `Tnt`, `string`, `bool` etc...
 
 # Partie V
 Je n'introduit pas les définitions d'une grammaire ; C.F. votre cours.
 
 35. Définir une grammaire hors contexte engendrant $E$
+36. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjI3NTEyOSw2Nzk4MTMxODIsLTUwNj
-U3NTQ0NiwxNjYxNTE3ODcsNjIzNDAxMTI4LC05NDQwNDAxNjMs
-LTU4OTA3MDk3OCwtMTgzMTgwMjE2NywtMTgzOTY0MDczNCwxMT
-YwODg0NTg1LDE1MjI3NTg0MzYsMTAwOTU2MTcyMiwxMDA5NTYx
-NzIyLC02MTI5NjQ4MTcsLTEzMjEwNzIzNTMsMTI4NzUyMjI5OS
-w5NTgxMzIyNjEsMTM5OTU4MzI3OCwyMDYyNzkxMzA0LDEyMDY3
-ODYwNl19
+eyJoaXN0b3J5IjpbLTE4NzkzNjc1OTQsNjc5ODEzMTgyLC01MD
+Y1NzU0NDYsMTY2MTUxNzg3LDYyMzQwMTEyOCwtOTQ0MDQwMTYz
+LC01ODkwNzA5NzgsLTE4MzE4MDIxNjcsLTE4Mzk2NDA3MzQsMT
+E2MDg4NDU4NSwxNTIyNzU4NDM2LDEwMDk1NjE3MjIsMTAwOTU2
+MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcyMzUzLDEyODc1MjIyOT
+ksOTU4MTMyMjYxLDEzOTk1ODMyNzgsMjA2Mjc5MTMwNCwxMjA2
+Nzg2MDZdfQ==
 -->
