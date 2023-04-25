@@ -200,7 +200,7 @@ On essaye de montrer que toute les expressions unitaire sont tel que $\Gamma \vd
 On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 31. En étendant $\phi$, donnez $\varphi : T\to E$ injective 
-32. Soit $e:t$. Montrez que $e\to^* \phi(t)$ ???
+32. Soit $\Gamma\vdash e:t$. Montrez que $e\to^* \phi(t)$ ???
 33. Montrez que si $e$ est typé 
 28. Montrez que si $e:t$ est typé, alors il n'a pas de variable libre.
 34. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
@@ -209,11 +209,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 ## Trouver la borne unitaire
 35. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzU3MjE2NDksLTk0NDA0MDE2MywtNT
-g5MDcwOTc4LC0xODMxODAyMTY3LC0xODM5NjQwNzM0LDExNjA4
-ODQ1ODUsMTUyMjc1ODQzNiwxMDA5NTYxNzIyLDEwMDk1NjE3Mj
-IsLTYxMjk2NDgxNywtMTMyMTA3MjM1MywxMjg3NTIyMjk5LDk1
-ODEzMjI2MSwxMzk5NTgzMjc4LDIwNjI3OTEzMDQsMTIwNjc4Nj
-A2LDEwNTU2MTI3MjksMTM5OTc3Njc3NiwzNDkwMzQzMzMsMTIw
-MTQxMTk0Nl19
+eyJoaXN0b3J5IjpbNjIzNDAxMTI4LC05NDQwNDAxNjMsLTU4OT
+A3MDk3OCwtMTgzMTgwMjE2NywtMTgzOTY0MDczNCwxMTYwODg0
+NTg1LDE1MjI3NTg0MzYsMTAwOTU2MTcyMiwxMDA5NTYxNzIyLC
+02MTI5NjQ4MTcsLTEzMjEwNzIzNTMsMTI4NzUyMjI5OSw5NTgx
+MzIyNjEsMTM5OTU4MzI3OCwyMDYyNzkxMzA0LDEyMDY3ODYwNi
+wxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0MzMzLDEyMDE0
+MTE5NDZdfQ==
 -->
