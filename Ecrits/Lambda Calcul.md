@@ -1,6 +1,6 @@
 # Etude du Lambda Calcul
 
-Ce sujet est difficile et long, et balaye les chapitres de Grammaire, Logique, Langages, Automates.
+Ce sujet est difficile et long, et balaye les chapitres de Logique, Grammaire, Graphes.
 
 Ce sujet introduit la théorie derrière les langages fonctionnel : le lambda calcul.
 
@@ -8,13 +8,16 @@ La partie I propose une implémentation d'objets classique.
 La partie II propose une implémentation de la soustraction.
 La partie III s'intéresse à la récursivité, elle est plus théorique.
 La partie IV porte sur des expressions typées.
-La partie V s'intéresse au règles de grammaire et à la logique combinatoire.
+La partie V s'intéresse au règles de grammaire générant des expressions.
 La partie VI à pour but de démontrer le _Théorème de Church-Rosser_ en utilisant des graphes.
 
 Toutes les parties sont dépendante de la partie 1, mais sont indépendantes entre elles.
 
+Seul la question 31 est tiroir à la question 32 et 33.
+
 Les questions plus difficile sont préambulées d'une étoile (*).
 On pourra admettre une question pour passer à la suivante.
+Il n'est pas fait pou
 
 # Définitions
 
@@ -210,11 +213,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 # Partie V
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTUxNzg3LDYyMzQwMTEyOCwtOTQ0MD
-QwMTYzLC01ODkwNzA5NzgsLTE4MzE4MDIxNjcsLTE4Mzk2NDA3
-MzQsMTE2MDg4NDU4NSwxNTIyNzU4NDM2LDEwMDk1NjE3MjIsMT
-AwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcyMzUzLDEyODc1
-MjIyOTksOTU4MTMyMjYxLDEzOTk1ODMyNzgsMjA2Mjc5MTMwNC
-wxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMzk5Nzc2Nzc2LDM0OTAz
-NDMzM119
+eyJoaXN0b3J5IjpbLTI0MDUyMzQ3NywxNjYxNTE3ODcsNjIzND
+AxMTI4LC05NDQwNDAxNjMsLTU4OTA3MDk3OCwtMTgzMTgwMjE2
+NywtMTgzOTY0MDczNCwxMTYwODg0NTg1LDE1MjI3NTg0MzYsMT
+AwOTU2MTcyMiwxMDA5NTYxNzIyLC02MTI5NjQ4MTcsLTEzMjEw
+NzIzNTMsMTI4NzUyMjI5OSw5NTgxMzIyNjEsMTM5OTU4MzI3OC
+wyMDYyNzkxMzA0LDEyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3
+NzY3NzZdfQ==
 -->
