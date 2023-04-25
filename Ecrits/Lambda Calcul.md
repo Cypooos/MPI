@@ -49,8 +49,9 @@ On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$
 On appelle *évaluation* de l'expression $a =(x\mapsto e)(e')$ l'expression $â=e[x\larr e']$.
 On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
-On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^n A_n$ ou $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant. 
-Si il existe un unique $e\in E$ sous forme normale tel que $A\to^n e$ avec $n$ borné, on dit que $A$ est unitaire.
+On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^n A_n$ ou $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant.
+On admet le _Théorème de Church-Rosser_ dans toute les partie sauf la V: si $A$ est normalisable, alors sa forme normale est unique.
+Si il existe un $e\in E$ sous forme normale tel que $A\to^n e$ avec $n$ borné, on dit que $A$ est unitaire.
 
 On définie les expressions suivantes :
  - $I = (x\mapsto x)$
@@ -208,11 +209,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 ## Trouver la borne unitaire
 35. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NDA0MDE2MywtNTg5MDcwOTc4LC0xOD
-MxODAyMTY3LC0xODM5NjQwNzM0LDExNjA4ODQ1ODUsMTUyMjc1
-ODQzNiwxMDA5NTYxNzIyLDEwMDk1NjE3MjIsLTYxMjk2NDgxNy
-wtMTMyMTA3MjM1MywxMjg3NTIyMjk5LDk1ODEzMjI2MSwxMzk5
-NTgzMjc4LDIwNjI3OTEzMDQsMTIwNjc4NjA2LDEwNTU2MTI3Mj
-ksMTM5OTc3Njc3NiwzNDkwMzQzMzMsMTIwMTQxMTk0NiwyMDM0
-MjA1NjUzXX0=
+eyJoaXN0b3J5IjpbMTQ2NzgxMzc3MSwtOTQ0MDQwMTYzLC01OD
+kwNzA5NzgsLTE4MzE4MDIxNjcsLTE4Mzk2NDA3MzQsMTE2MDg4
+NDU4NSwxNTIyNzU4NDM2LDEwMDk1NjE3MjIsMTAwOTU2MTcyMi
+wtNjEyOTY0ODE3LC0xMzIxMDcyMzUzLDEyODc1MjIyOTksOTU4
+MTMyMjYxLDEzOTk1ODMyNzgsMjA2Mjc5MTMwNCwxMjA2Nzg2MD
+YsMTA1NTYxMjcyOSwxMzk5Nzc2Nzc2LDM0OTAzNDMzMywxMjAx
+NDExOTQ2XX0=
 -->
