@@ -192,7 +192,7 @@ On essaye de montrer que toute les expressions unitaire sont tel que $\Gamma \vd
 26. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et $t'\in t$.
 27. Montrez que le type d'une expression est invariant par dérivation.
 29. Montrez que si $f$ est sous forme normale, alors il existe $\Gamma,t$ tel que toute variable de $\Gamma$ est une variable libre de $f$ et $\Gamma \vdash f:t$
-30. Montrez que si $e$ est unitaire sans variable libre, alors il est bien typé.
+30. Montrez que si $e$ est unitaire, alors il existe $\Gamma,t$ tel que $\Gamma \vdash e:t$
 
 ## Réciproque
 On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
@@ -207,7 +207,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 ## Trouver la borne unitaire
 35. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzgxMDA5NjAsLTU4OTA3MDk3OCwtMT
+eyJoaXN0b3J5IjpbLTE5ODQ4NDY2OTIsLTU4OTA3MDk3OCwtMT
 gzMTgwMjE2NywtMTgzOTY0MDczNCwxMTYwODg0NTg1LDE1MjI3
 NTg0MzYsMTAwOTU2MTcyMiwxMDA5NTYxNzIyLC02MTI5NjQ4MT
 csLTEzMjEwNzIzNTMsMTI4NzUyMjI5OSw5NTgxMzIyNjEsMTM5
