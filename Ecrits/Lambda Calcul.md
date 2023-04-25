@@ -13,7 +13,7 @@ La partie VI à pour but de démontrer le _Théorème de Church-Rosser_ en utili
 
 Toutes les parties sont dépendante de la partie 1, mais sont indépendantes entre elles.
 
-Seul la question 31 est tiroir à la question 32 et 33.
+Seul la question 31 est tiroir à la question 32.
 
 Les questions plus difficile sont préambulées d'une étoile (*).
 On pourra admettre une question pour passer à la suivante.
@@ -204,19 +204,19 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 31. En étendant $\phi$, donnez $\varphi : T\to E$ injective 
 32. Soit $\Gamma\vdash e:t$. Montrez que $e\to^* \phi(t)$ et $e$ unitaire.
-> Je pense avoir fait une erreur quand je l'ai faite, mais je ne sais pas d'où elle viens. Je regarderai avec vos propositions :D
-36. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
-37. En déduire que $\Delta$ ne possède pas de typage.
+> Je pense avoir fait une erreur quand je l'ai faite, mais je ne sais pas d'où elle viens. Je regarderai avec vos propositions. Ne passez pas trop de temps dessus si elle vous semble impossible.
+33. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
+34. En déduire que $\Delta$ ne possède pas de typage.
 
-## Trouver la borne unitaire (partie que je créerai plus tard)
 
 # Partie V
+Je n'introduit pas les différentes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NDI4NDUwOCwtNTA2NTc1NDQ2LDE2Nj
-E1MTc4Nyw2MjM0MDExMjgsLTk0NDA0MDE2MywtNTg5MDcwOTc4
-LC0xODMxODAyMTY3LC0xODM5NjQwNzM0LDExNjA4ODQ1ODUsMT
-UyMjc1ODQzNiwxMDA5NTYxNzIyLDEwMDk1NjE3MjIsLTYxMjk2
-NDgxNywtMTMyMTA3MjM1MywxMjg3NTIyMjk5LDk1ODEzMjI2MS
-wxMzk5NTgzMjc4LDIwNjI3OTEzMDQsMTIwNjc4NjA2LDEwNTU2
-MTI3MjldfQ==
+eyJoaXN0b3J5IjpbNjc5ODEzMTgyLC01MDY1NzU0NDYsMTY2MT
+UxNzg3LDYyMzQwMTEyOCwtOTQ0MDQwMTYzLC01ODkwNzA5Nzgs
+LTE4MzE4MDIxNjcsLTE4Mzk2NDA3MzQsMTE2MDg4NDU4NSwxNT
+IyNzU4NDM2LDEwMDk1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0
+ODE3LC0xMzIxMDcyMzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLD
+EzOTk1ODMyNzgsMjA2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYx
+MjcyOV19
 -->
