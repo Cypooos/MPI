@@ -50,8 +50,8 @@ On appelle *évaluation* de l'expression $a =(x\mapsto e)(e')$ l'expression $â=
 On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^n A_n$ ou $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant.
-On admet le _Théorème de Church-Rosser_ dans toute les partie sauf la V: si $A$ est normalisable, alors sa forme normale est unique.
-Si il existe un $e\in E$ sous forme normale tel que $A\to^n e$ avec $n$ borné, on dit que $A$ est unitaire.
+On admet le _Théorème de Church-Rosser_ dans toute les parties sauf la V: si $A$ est normalisable, alors sa forme normale est unique.
+Si il existe un $e\in E$ sous forme normale tel que $A\to^n e$ avec $n$ borné, on dit que $A$ est fortement normalisable.
 
 On définie les expressions suivantes :
  - $I = (x\mapsto x)$
@@ -209,7 +209,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 ## Trouver la borne unitaire
 35. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzgxMzc3MSwtOTQ0MDQwMTYzLC01OD
+eyJoaXN0b3J5IjpbMTIwMzkxMDM5MiwtOTQ0MDQwMTYzLC01OD
 kwNzA5NzgsLTE4MzE4MDIxNjcsLTE4Mzk2NDA3MzQsMTE2MDg4
 NDU4NSwxNTIyNzU4NDM2LDEwMDk1NjE3MjIsMTAwOTU2MTcyMi
 wtNjEyOTY0ODE3LC0xMzIxMDcyMzUzLDEyODc1MjIyOTksOTU4
