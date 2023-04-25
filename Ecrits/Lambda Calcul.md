@@ -149,7 +149,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 # Partie IV: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
 
-On pose $T$ tel que $\{\tau,\tau_1,\tau_2,...\} \sub T$ et pour tout $t,t'\in T$, on a $(t\to t')\in T$
+On pose $T$ tel que $\{\tau,\tau_1,\tau_2,...\} \sub T$ et pour tout $t,t'\in T$, on a $(t\to t')\in T$. On appelle $\{\tau,\tau_1,\tau_2,...\}$ les types par défaults
 
 Un contexte de type, dénoté par $\Gamma$, est un sous-ensemble de $X\times T$
 Un jugement de type est un triplet $\Gamma \vdash x: t$ tel que on ai les règles d'inférences suivantes :
@@ -188,7 +188,7 @@ Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
 
 24. Donnez $t$ un type généralisé de $\{\top, \bot\}$
-25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
+25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$. Existe-t-il un type généralisé de $\{ C_0\}$ utilisant plus de 
 
 ## Caractérisation des expressions unitaire
 On essaye de montrer que toute les expressions unitaire sont tel que $\Gamma \vdash e:t$.
@@ -213,11 +213,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 # Partie V
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQwOTA4NiwxNjYxNTE3ODcsNjIzND
-AxMTI4LC05NDQwNDAxNjMsLTU4OTA3MDk3OCwtMTgzMTgwMjE2
-NywtMTgzOTY0MDczNCwxMTYwODg0NTg1LDE1MjI3NTg0MzYsMT
-AwOTU2MTcyMiwxMDA5NTYxNzIyLC02MTI5NjQ4MTcsLTEzMjEw
-NzIzNTMsMTI4NzUyMjI5OSw5NTgxMzIyNjEsMTM5OTU4MzI3OC
-wyMDYyNzkxMzA0LDEyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3
-NzY3NzZdfQ==
+eyJoaXN0b3J5IjpbLTE1ODgzMTAxMDMsMTY2MTUxNzg3LDYyMz
+QwMTEyOCwtOTQ0MDQwMTYzLC01ODkwNzA5NzgsLTE4MzE4MDIx
+NjcsLTE4Mzk2NDA3MzQsMTE2MDg4NDU4NSwxNTIyNzU4NDM2LD
+EwMDk1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMzIx
+MDcyMzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLDEzOTk1ODMyNz
+gsMjA2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMzk5
+Nzc2Nzc2XX0=
 -->
