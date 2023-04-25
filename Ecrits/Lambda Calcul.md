@@ -9,7 +9,7 @@ La partie II propose une implémentation de la soustraction.
 La partie III s'intéresse à la récursivité, elle est plus théorique.
 La partie IV porte sur des expressions typées.
 La partie V s'intéresse au règles de grammaire et à la logique combinatoire.
-La partie VI s'intéresse à la notion de confluence, et fait introduire des graphes.
+La partie VI .
 
 Toutes les parties sont dépendante de la partie 1, mais sont indépendantes entre elles.
 
@@ -206,14 +206,15 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 34. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
 35. En déduire que $\Delta$ ne possède pas de typage.
 
-## Trouver la borne unitaire
-35. 
+## Trouver la borne unitaire (partie que je créerai plus tard)
+
+# Partie V
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIzNDAxMTI4LC05NDQwNDAxNjMsLTU4OT
-A3MDk3OCwtMTgzMTgwMjE2NywtMTgzOTY0MDczNCwxMTYwODg0
-NTg1LDE1MjI3NTg0MzYsMTAwOTU2MTcyMiwxMDA5NTYxNzIyLC
-02MTI5NjQ4MTcsLTEzMjEwNzIzNTMsMTI4NzUyMjI5OSw5NTgx
-MzIyNjEsMTM5OTU4MzI3OCwyMDYyNzkxMzA0LDEyMDY3ODYwNi
-wxMDU1NjEyNzI5LDEzOTk3NzY3NzYsMzQ5MDM0MzMzLDEyMDE0
-MTE5NDZdfQ==
+eyJoaXN0b3J5IjpbNzQ5NzI2ODY5LDYyMzQwMTEyOCwtOTQ0MD
+QwMTYzLC01ODkwNzA5NzgsLTE4MzE4MDIxNjcsLTE4Mzk2NDA3
+MzQsMTE2MDg4NDU4NSwxNTIyNzU4NDM2LDEwMDk1NjE3MjIsMT
+AwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcyMzUzLDEyODc1
+MjIyOTksOTU4MTMyMjYxLDEzOTk1ODMyNzgsMjA2Mjc5MTMwNC
+wxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMzk5Nzc2Nzc2LDM0OTAz
+NDMzM119
 -->
