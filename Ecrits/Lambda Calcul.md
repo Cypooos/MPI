@@ -208,19 +208,20 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 33. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
 34. En déduire que $\Delta$ ne possède pas de typage.
 
-En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même la fonction $\text{pow}$ comme on a pu le voir dans la partie III.
-Le compromis pris par ocaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vrai" signature est `val fct : fix -> `
+REM: En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même la fonction $\text{pow}$ comme on a pu le voir dans la partie III.
+
+REM: Le compromis pris par ocaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> SIGNATURE`, mais ce premier argument n'est ni affiché, ni vérifié.
 
 # Partie V
 Je n'introduit pas les définitions d'une grammaire ; C.F. votre cours.
 
 35. Définir une grammaire hors contexte engendrant $E$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0Nzc1NjA2LDY3OTgxMzE4MiwtNTA2NT
-c1NDQ2LDE2NjE1MTc4Nyw2MjM0MDExMjgsLTk0NDA0MDE2Mywt
-NTg5MDcwOTc4LC0xODMxODAyMTY3LC0xODM5NjQwNzM0LDExNj
-A4ODQ1ODUsMTUyMjc1ODQzNiwxMDA5NTYxNzIyLDEwMDk1NjE3
-MjIsLTYxMjk2NDgxNywtMTMyMTA3MjM1MywxMjg3NTIyMjk5LD
-k1ODEzMjI2MSwxMzk5NTgzMjc4LDIwNjI3OTEzMDQsMTIwNjc4
-NjA2XX0=
+eyJoaXN0b3J5IjpbLTE3MTI2MTc1MTMsNjc5ODEzMTgyLC01MD
+Y1NzU0NDYsMTY2MTUxNzg3LDYyMzQwMTEyOCwtOTQ0MDQwMTYz
+LC01ODkwNzA5NzgsLTE4MzE4MDIxNjcsLTE4Mzk2NDA3MzQsMT
+E2MDg4NDU4NSwxNTIyNzU4NDM2LDEwMDk1NjE3MjIsMTAwOTU2
+MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcyMzUzLDEyODc1MjIyOT
+ksOTU4MTMyMjYxLDEzOTk1ODMyNzgsMjA2Mjc5MTMwNCwxMjA2
+Nzg2MDZdfQ==
 -->
