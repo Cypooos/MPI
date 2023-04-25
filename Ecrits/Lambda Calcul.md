@@ -9,7 +9,7 @@ La partie II propose une implémentation de la soustraction.
 La partie III s'intéresse à la récursivité, elle est plus théorique.
 La partie IV porte sur des expressions typées.
 La partie V s'intéresse au règles de grammaire et à la logique combinatoire.
-La partie VI .
+La partie VI à pour but de démontrer le _Théorème de Church-Rosser_ en utilisant des graphes.
 
 Toutes les parties sont dépendante de la partie 1, mais sont indépendantes entre elles.
 
@@ -210,7 +210,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 # Partie V
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5NzI2ODY5LDYyMzQwMTEyOCwtOTQ0MD
+eyJoaXN0b3J5IjpbMTY2MTUxNzg3LDYyMzQwMTEyOCwtOTQ0MD
 QwMTYzLC01ODkwNzA5NzgsLTE4MzE4MDIxNjcsLTE4Mzk2NDA3
 MzQsMTE2MDg4NDU4NSwxNTIyNzU4NDM2LDEwMDk1NjE3MjIsMT
 AwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcyMzUzLDEyODc1
