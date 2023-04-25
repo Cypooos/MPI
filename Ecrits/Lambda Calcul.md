@@ -149,10 +149,10 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 # Partie IV: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
 
-On pose $T$ tel que $\{\tau,\tau_1,\tau_2,...\} \sub T$ et pour tout $t,t'\in T$, on a $(t\to t')\in T$. On appelle $\{\tau,\tau_1,\tau_2,...\}$ les types par défaults
+On pose $T$ tel que $\{\tau,\tau_1,\tau_2,...\} \sub T$ et pour tout $t,t'\in T$, on a $(t\to t')\in T$. On appelle $\tau,\tau_1,\tau_2,...$ les *types par défault*.
 
-Un contexte de type, dénoté par $\Gamma$, est un sous-ensemble de $X\times T$
-Un jugement de type est un triplet $\Gamma \vdash x: t$ tel que on ai les règles d'inférences suivantes :
+Un *contexte de type*, dénoté par $\Gamma$, est un sous-ensemble de $X\times T$
+Un *jugement de type* est un triplet $\Gamma \vdash x: t$ tel que on ai les règles d'inférences suivantes :
 
 Axiome, pour $(x,t) \in \Gamma$ :
 $$
@@ -171,7 +171,7 @@ $$
 \frac{\Gamma\ \cup \{(x,t)\} \vdash x': t'}{\Gamma\ \vdash x\mapsto x': t\to t'}\tiny\text{(ab)}
 $$
 
-On dit que $t$ est un typage de $x$ si $\empty \vdash x:t$.
+On dit que $t$ est un *typage* de $x$ si $\empty \vdash x:t$.
 Par exemple, ce qui suit est un arbre de dérivation montrant que $\tau\to\tau$ est un typage de $I$ :
 $$
 \cfrac{}{\cfrac{(x,\tau) \vdash x: \tau}{\empty \vdash x\mapsto x : \tau\to \tau}\tiny\text{(ab)}}\tiny\text{(ax)}\\
@@ -213,11 +213,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 # Partie V
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODgzMTAxMDMsMTY2MTUxNzg3LDYyMz
-QwMTEyOCwtOTQ0MDQwMTYzLC01ODkwNzA5NzgsLTE4MzE4MDIx
-NjcsLTE4Mzk2NDA3MzQsMTE2MDg4NDU4NSwxNTIyNzU4NDM2LD
-EwMDk1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMzIx
-MDcyMzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLDEzOTk1ODMyNz
-gsMjA2Mjc5MTMwNCwxMjA2Nzg2MDYsMTA1NTYxMjcyOSwxMzk5
-Nzc2Nzc2XX0=
+eyJoaXN0b3J5IjpbLTUwNjU3NTQ0NiwxNjYxNTE3ODcsNjIzND
+AxMTI4LC05NDQwNDAxNjMsLTU4OTA3MDk3OCwtMTgzMTgwMjE2
+NywtMTgzOTY0MDczNCwxMTYwODg0NTg1LDE1MjI3NTg0MzYsMT
+AwOTU2MTcyMiwxMDA5NTYxNzIyLC02MTI5NjQ4MTcsLTEzMjEw
+NzIzNTMsMTI4NzUyMjI5OSw5NTgxMzIyNjEsMTM5OTU4MzI3OC
+wyMDYyNzkxMzA0LDEyMDY3ODYwNiwxMDU1NjEyNzI5LDEzOTk3
+NzY3NzZdfQ==
 -->
