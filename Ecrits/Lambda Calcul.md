@@ -205,13 +205,13 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 31. En étendant $\phi$, donnez $\varphi : T\to E$ injective 
 32. Soit $\Gamma\vdash e:t$. Montrez que $e\to^* \phi(t)$ et $e$ unitaire.
-> Je pense avoir fait une erreur quand je l'ai faite, mais je ne sais pas d'où elle viens. Je regarderai avec vos propositions. Ne passez pas trop de temps dessus si elle vous semble impossible.
+> Je pense avoir fait une erreur quand j'ai écrit la correction, mais je ne sais pas d'où elle viens. Je regarderai avec vos propositions. Ne passez pas trop de temps dessus si elle vous semble impossible.
 33. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
 34. En déduire que $\Delta$ ne possède pas de typage.
 
 REM: En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même la fonction $\text{pow}$ comme on a pu le voir dans la partie III.
 
-REM: Le compromis pris par ocaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> SIGNATURE`, mais ce premier argument n'est ni affiché, ni vérifié. Ocaml a aussi des types par défaut tel que `Tnt`, `string`, `bool` etc...
+REM: Le compromis pris par ocaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> SIGNATURE`, mais ce premier argument n'est ni affiché, ni vérifié. Ocaml a aussi des types par défaut $\t$ tel que `int`, `string`, `bool` etc...
 
 # Partie V
 Je n'introduit pas les définitions d'une grammaire ; C.F. votre cours.
@@ -221,11 +221,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer les règ
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 37. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTczMDc0MDIsLTEwMzk1MTc0OTMsLT
-E3NzkwNzk0OTksODgyMTQ1NDM0LDE1MTIwMzMwNjgsLTE4Nzkz
-Njc1OTQsNjc5ODEzMTgyLC01MDY1NzU0NDYsMTY2MTUxNzg3LD
-YyMzQwMTEyOCwtOTQ0MDQwMTYzLC01ODkwNzA5NzgsLTE4MzE4
-MDIxNjcsLTE4Mzk2NDA3MzQsMTE2MDg4NDU4NSwxNTIyNzU4ND
-M2LDEwMDk1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC0x
-MzIxMDcyMzUzXX0=
+eyJoaXN0b3J5IjpbODExNzY3OTMzLC0xNDk3MzA3NDAyLC0xMD
+M5NTE3NDkzLC0xNzc5MDc5NDk5LDg4MjE0NTQzNCwxNTEyMDMz
+MDY4LC0xODc5MzY3NTk0LDY3OTgxMzE4MiwtNTA2NTc1NDQ2LD
+E2NjE1MTc4Nyw2MjM0MDExMjgsLTk0NDA0MDE2MywtNTg5MDcw
+OTc4LC0xODMxODAyMTY3LC0xODM5NjQwNzM0LDExNjA4ODQ1OD
+UsMTUyMjc1ODQzNiwxMDA5NTYxNzIyLDEwMDk1NjE3MjIsLTYx
+Mjk2NDgxN119
 -->
