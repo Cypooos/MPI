@@ -46,7 +46,7 @@ Soient $e\in E$ et $x,y\in V\times E$, on définie l'opération de substitution 
   - $(u\mapsto e)[x\larr y] := u\mapsto e[x\larr y]$ pour $u\in V\setminus \{x\}$
 
 Informellement, $e[x\larr y]$ est $e$ dans laquelle on a remplacé toute les occurrences libre de $x$ par $y$.
-Dans ce sujet, pour $x,y\in V$, on identifiera $x\mapsto e$ et $y\mapsto (e[x \larr y])$ : un renommage d'une variable ne change pas fondamentalement l'expression.
+Dans ce sujet, pour $x,y\in V$, si $y\not\in e$ on identifiera $e$ et $e[x \larr y]$ : un renommage d'une variable ne change pas fondamentalement l'expression.
 
 On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$
 
@@ -221,11 +221,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer les règ
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 37. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzkwNzk0OTksODgyMTQ1NDM0LDE1MT
-IwMzMwNjgsLTE4NzkzNjc1OTQsNjc5ODEzMTgyLC01MDY1NzU0
-NDYsMTY2MTUxNzg3LDYyMzQwMTEyOCwtOTQ0MDQwMTYzLC01OD
-kwNzA5NzgsLTE4MzE4MDIxNjcsLTE4Mzk2NDA3MzQsMTE2MDg4
-NDU4NSwxNTIyNzU4NDM2LDEwMDk1NjE3MjIsMTAwOTU2MTcyMi
-wtNjEyOTY0ODE3LC0xMzIxMDcyMzUzLDEyODc1MjIyOTksOTU4
-MTMyMjYxXX0=
+eyJoaXN0b3J5IjpbLTEwMzk1MTc0OTMsLTE3NzkwNzk0OTksOD
+gyMTQ1NDM0LDE1MTIwMzMwNjgsLTE4NzkzNjc1OTQsNjc5ODEz
+MTgyLC01MDY1NzU0NDYsMTY2MTUxNzg3LDYyMzQwMTEyOCwtOT
+Q0MDQwMTYzLC01ODkwNzA5NzgsLTE4MzE4MDIxNjcsLTE4Mzk2
+NDA3MzQsMTE2MDg4NDU4NSwxNTIyNzU4NDM2LDEwMDk1NjE3Mj
+IsMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcyMzUzLDEy
+ODc1MjIyOTldfQ==
 -->
