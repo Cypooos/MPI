@@ -28,7 +28,7 @@ Il n'est pas fait pour être réalisé en 4h ; il sera difficile même en le fai
 On appelle *langage* un ensemble de mots.
 
 Soit $V=\{x,y,z,t,u,v,...\}$ un ensemble dénombrable infinie de *variables*.
-On définie une *expression* inductivement :
+On définit une *expression* inductivement :
  - "$x$" est une expression pour tout $x\in V$
  - "$e_1(e_2)$" est une expression pour tout $e_1,e_2$ deux expressions
  - "$x\mapsto e$" est une expression pour tout $x\in V$ et $e$ une expression
@@ -38,7 +38,7 @@ On utilisera des parenthèses pour indiquer de l'ordre des opérations. On note 
 On pourra noter $x_1,x_2,...,x_n\mapsto e$ pour dénoter $x_1\mapsto (x_2\mapsto(...(x_n\mapsto e)...))$
 On pourra noter $e(x_1,x_2,...,x_n)$ pour dénoter $e(x_1)(x_2)...(x_n)$
  
-Soient $e\in E$ et $x,y\in V\times E$, on définie l'opération de substitution $e[x\larr y]$ inductivement :
+Soient $e\in E$ et $x,y\in V\times E$, on définit l'opération de substitution $e[x\larr y]$ inductivement :
  - $x[x\larr y] := y$
   - $u[x\larr y] := u$ pour $u\in V\setminus \{x\}$
   - $e(e')[x\larr y] := e[x\larr y]\Big(e'[x\larr y]\Big)$
@@ -220,11 +220,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1Nzk1ODkyLDE5MTU0NTkxMTcsLTE0OT
-czMDc0MDIsLTEwMzk1MTc0OTMsLTE3NzkwNzk0OTksODgyMTQ1
-NDM0LDE1MTIwMzMwNjgsLTE4NzkzNjc1OTQsNjc5ODEzMTgyLC
-01MDY1NzU0NDYsMTY2MTUxNzg3LDYyMzQwMTEyOCwtOTQ0MDQw
-MTYzLC01ODkwNzA5NzgsLTE4MzE4MDIxNjcsLTE4Mzk2NDA3Mz
-QsMTE2MDg4NDU4NSwxNTIyNzU4NDM2LDEwMDk1NjE3MjIsMTAw
-OTU2MTcyMl19
+eyJoaXN0b3J5IjpbMTkyNTkzOTczMiwxOTE1NDU5MTE3LC0xND
+k3MzA3NDAyLC0xMDM5NTE3NDkzLC0xNzc5MDc5NDk5LDg4MjE0
+NTQzNCwxNTEyMDMzMDY4LC0xODc5MzY3NTk0LDY3OTgxMzE4Mi
+wtNTA2NTc1NDQ2LDE2NjE1MTc4Nyw2MjM0MDExMjgsLTk0NDA0
+MDE2MywtNTg5MDcwOTc4LC0xODMxODAyMTY3LC0xODM5NjQwNz
+M0LDExNjA4ODQ1ODUsMTUyMjc1ODQzNiwxMDA5NTYxNzIyLDEw
+MDk1NjE3MjJdfQ==
 -->
