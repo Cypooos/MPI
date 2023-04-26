@@ -54,7 +54,7 @@ On appelle *évaluation* de l'expression $a =(x\mapsto e)(e')$ l'expression $â=
 On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^n A_n$ ou $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant.
-On admet le _Théorème de Church-Rosser_ dans toute les parties sauf la V: si $A$ est normalisable, alors sa forme normale est unique.
+On admet le _Théorème de Church-Rosser_ dans toute les parties sauf la VI: si $A$ est normalisable, alors sa forme normale est unique.
 Si il existe un $e\in E$ sous forme normale tel que $A\to^n e$ avec $n$ borné, on dit que $A$ est unitaire. *(Rem: Dans la littérature, le terme de "fortement normalisable" est plutôt employé.)*
 
 On définie les expressions suivantes :
@@ -221,11 +221,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer les règ
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 37. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzk1MTc0OTMsLTE3NzkwNzk0OTksOD
-gyMTQ1NDM0LDE1MTIwMzMwNjgsLTE4NzkzNjc1OTQsNjc5ODEz
-MTgyLC01MDY1NzU0NDYsMTY2MTUxNzg3LDYyMzQwMTEyOCwtOT
-Q0MDQwMTYzLC01ODkwNzA5NzgsLTE4MzE4MDIxNjcsLTE4Mzk2
-NDA3MzQsMTE2MDg4NDU4NSwxNTIyNzU4NDM2LDEwMDk1NjE3Mj
-IsMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC0xMzIxMDcyMzUzLDEy
-ODc1MjIyOTldfQ==
+eyJoaXN0b3J5IjpbLTE0OTczMDc0MDIsLTEwMzk1MTc0OTMsLT
+E3NzkwNzk0OTksODgyMTQ1NDM0LDE1MTIwMzMwNjgsLTE4Nzkz
+Njc1OTQsNjc5ODEzMTgyLC01MDY1NzU0NDYsMTY2MTUxNzg3LD
+YyMzQwMTEyOCwtOTQ0MDQwMTYzLC01ODkwNzA5NzgsLTE4MzE4
+MDIxNjcsLTE4Mzk2NDA3MzQsMTE2MDg4NDU4NSwxNTIyNzU4ND
+M2LDEwMDk1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC0x
+MzIxMDcyMzUzXX0=
 -->
