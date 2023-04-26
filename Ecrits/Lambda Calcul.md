@@ -8,8 +8,9 @@ La partie I propose une implémentation d'objets classique.
 La partie II propose une implémentation de la soustraction.
 La partie III s'intéresse à la récursivité, elle est plus théorique.
 La partie IV porte sur des expressions typées.
-La partie V s'intéresse au règles de grammaire générant des expressions.
+>La partie V s'intéresse à la création de grammaires générant des expressions.
 La partie VI à pour but de démontrer le _Théorème de Church-Rosser_ en utilisant des graphes.
+Elles sont en cours d'écriture.
 
 Toutes les parties sont dépendante de la partie 1, mais sont indépendantes entre elles.
 
@@ -21,10 +22,6 @@ Il n'est pas fait pour être réalisé en 4h ; il sera difficile même en le fai
 
 # Définitions
 
-> Soit $\Sigma$ un ensemble de *lettres*. On dis que $\omega=\omega_1...\omega_n$ est un *mot* s'il est une suite finie de lettre. On note $\varepsilon$ le mot vide.
- Pour $\omega$ un mot, on note $|\omega|$ sa longueur et pour $\alpha\in\Sigma$, on note $|\omega|_\alpha$ le nombre d'occurrences de $\alpha$ dans $\omega$.
- Soit $n\in\N$, on note $\Sigma^n$ l'ensemble des mots de $\Sigma$ à $n$ lettres. On note $\Sigma^* = \cup_{n\in\N}\Sigma^n$
-On appelle *langage* un ensemble de mots.
 
 Soit $V=\{x,y,z,t,u,v,...\}$ un ensemble dénombrable infinie de *variables*.
 On définie une *expression* inductivement :
@@ -220,11 +217,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer les règ
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 37. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyMTQ1NDM0LDE1MTIwMzMwNjgsLTE4Nz
-kzNjc1OTQsNjc5ODEzMTgyLC01MDY1NzU0NDYsMTY2MTUxNzg3
-LDYyMzQwMTEyOCwtOTQ0MDQwMTYzLC01ODkwNzA5NzgsLTE4Mz
-E4MDIxNjcsLTE4Mzk2NDA3MzQsMTE2MDg4NDU4NSwxNTIyNzU4
-NDM2LDEwMDk1NjE3MjIsMTAwOTU2MTcyMiwtNjEyOTY0ODE3LC
-0xMzIxMDcyMzUzLDEyODc1MjIyOTksOTU4MTMyMjYxLDEzOTk1
-ODMyNzhdfQ==
+eyJoaXN0b3J5IjpbLTk4MjcxNjE1OSw4ODIxNDU0MzQsMTUxMj
+AzMzA2OCwtMTg3OTM2NzU5NCw2Nzk4MTMxODIsLTUwNjU3NTQ0
+NiwxNjYxNTE3ODcsNjIzNDAxMTI4LC05NDQwNDAxNjMsLTU4OT
+A3MDk3OCwtMTgzMTgwMjE2NywtMTgzOTY0MDczNCwxMTYwODg0
+NTg1LDE1MjI3NTg0MzYsMTAwOTU2MTcyMiwxMDA5NTYxNzIyLC
+02MTI5NjQ4MTcsLTEzMjEwNzIzNTMsMTI4NzUyMjI5OSw5NTgx
+MzIyNjFdfQ==
 -->
