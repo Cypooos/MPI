@@ -218,13 +218,13 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 35. Définir une grammaire hors contexte engendrant $E$
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
-> To continue. Cett
+> To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzc0NTkyNjIsLTE0OTczMDc0MDIsLT
-EwMzk1MTc0OTMsLTE3NzkwNzk0OTksODgyMTQ1NDM0LDE1MTIw
-MzMwNjgsLTE4NzkzNjc1OTQsNjc5ODEzMTgyLC01MDY1NzU0ND
-YsMTY2MTUxNzg3LDYyMzQwMTEyOCwtOTQ0MDQwMTYzLC01ODkw
-NzA5NzgsLTE4MzE4MDIxNjcsLTE4Mzk2NDA3MzQsMTE2MDg4ND
-U4NSwxNTIyNzU4NDM2LDEwMDk1NjE3MjIsMTAwOTU2MTcyMiwt
-NjEyOTY0ODE3XX0=
+eyJoaXN0b3J5IjpbMTkxNTQ1OTExNywtMTQ5NzMwNzQwMiwtMT
+AzOTUxNzQ5MywtMTc3OTA3OTQ5OSw4ODIxNDU0MzQsMTUxMjAz
+MzA2OCwtMTg3OTM2NzU5NCw2Nzk4MTMxODIsLTUwNjU3NTQ0Ni
+wxNjYxNTE3ODcsNjIzNDAxMTI4LC05NDQwNDAxNjMsLTU4OTA3
+MDk3OCwtMTgzMTgwMjE2NywtMTgzOTY0MDczNCwxMTYwODg0NT
+g1LDE1MjI3NTg0MzYsMTAwOTU2MTcyMiwxMDA5NTYxNzIyLC02
+MTI5NjQ4MTddfQ==
 -->
