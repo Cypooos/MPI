@@ -57,7 +57,7 @@ On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \
 On admet le _Théorème de Church-Rosser_ dans toute les parties sauf la VI: si $A$ est normalisable, alors sa forme normale est unique.
 Si il existe un $e\in E$ sous forme normale tel que $A\to^n e$ avec $n$ borné, on dit que $A$ est unitaire. *(Rem: Dans la littérature, le terme de "fortement normalisable" est plutôt employé.)*
 
-On définie les expressions suivantes :
+On définit les expressions suivantes :
  - $I = (x\mapsto x)$
  - $K =  (y\mapsto (x\mapsto y)) = (y,x\mapsto y)$
  - $\Delta = (x\mapsto x(x))$
@@ -104,7 +104,7 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\ma
 
 # Partie II: Soustraction
 L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
-On définie :
+On définit :
 $$D = (x,y,z \mapsto z(x,y))$$
 
 qui représente un couple $(x,y)$
@@ -138,7 +138,7 @@ $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
 
 ## Quelques exemples
-On définie :
+On définit :
 $$
 \text{fact\_rec} = (f,x\mapsto \text{if0}(x)(C_1)(\text{mul}(x,f(\text{sub}(x,1)))))
 $$
@@ -152,7 +152,7 @@ Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des r�
 
 On pose $T$ tel que $\{\tau,\tau_1,\tau_2,...\} \sub T$ et pour tout $t,t'\in T$, on a $(t\to t')\in T$. On appelle $\tau,\tau_1,\tau_2,...$ les *types par défault*.
 
-Un *contexte de type*, dénoté par $\Gamma$, est un sous-ensemble de $X\times T$
+Un *contexte de type*, dénoté par $\Gamma$, est un sous-ensemble de $X\times T$.
 Un *jugement de type* est un triplet $\Gamma \vdash x: t$ tel que on ai les règles d'inférences suivantes :
 
 Axiome, pour $(x,t) \in \Gamma$ :
@@ -189,7 +189,7 @@ Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
 
 24. Donnez $t$ un type généralisé de $\{\top, \bot\}$
-25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$. Existe-t-il un type généralisé de $\{ C_0\}$ utilisant plus de 
+25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
 ## Caractérisation des expressions unitaire
 On essaye de montrer que toute les expressions unitaire sont tel que $\Gamma \vdash e:t$.
@@ -220,11 +220,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTQ1OTExNywtMTQ5NzMwNzQwMiwtMT
-AzOTUxNzQ5MywtMTc3OTA3OTQ5OSw4ODIxNDU0MzQsMTUxMjAz
-MzA2OCwtMTg3OTM2NzU5NCw2Nzk4MTMxODIsLTUwNjU3NTQ0Ni
-wxNjYxNTE3ODcsNjIzNDAxMTI4LC05NDQwNDAxNjMsLTU4OTA3
-MDk3OCwtMTgzMTgwMjE2NywtMTgzOTY0MDczNCwxMTYwODg0NT
-g1LDE1MjI3NTg0MzYsMTAwOTU2MTcyMiwxMDA5NTYxNzIyLC02
-MTI5NjQ4MTddfQ==
+eyJoaXN0b3J5IjpbODQ1Nzk1ODkyLDE5MTU0NTkxMTcsLTE0OT
+czMDc0MDIsLTEwMzk1MTc0OTMsLTE3NzkwNzk0OTksODgyMTQ1
+NDM0LDE1MTIwMzMwNjgsLTE4NzkzNjc1OTQsNjc5ODEzMTgyLC
+01MDY1NzU0NDYsMTY2MTUxNzg3LDYyMzQwMTEyOCwtOTQ0MDQw
+MTYzLC01ODkwNzA5NzgsLTE4MzE4MDIxNjcsLTE4Mzk2NDA3Mz
+QsMTE2MDg4NDU4NSwxNTIyNzU4NDM2LDEwMDk1NjE3MjIsMTAw
+OTU2MTcyMl19
 -->
