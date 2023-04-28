@@ -175,8 +175,8 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\ma
 ## Condition sur les entiers de Church
 9. Définir $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
  > On pose $\text{eq\_0} = (C\mapsto C(K(\bot),\top))$, et on a :
- > pour $C_0$: $\text{eq\_0}(C_0) \to C(K(\bot),\top)\to \top$
- >
+ >  - pour $C_0$ : $\text{eq\_0}(C_0) \to C(K(\bot),\top)\to \top$
+ >  - soit $n\in\N^*$ : $\text{eq\_0}(C_0) \to C(K(\bot),\top)\to \top$
  
 10. Définir $\text{eq}$ une expression tel que :
     * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
@@ -300,6 +300,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5OTQ0NTg0NSwtMTg3NTg1MjMxOCwtND
+eyJoaXN0b3J5IjpbMTIwODE5NDU4OSwtMTg3NTg1MjMxOCwtND
 E1MTU5NzEwXX0=
 -->
