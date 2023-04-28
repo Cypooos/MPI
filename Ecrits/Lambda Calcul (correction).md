@@ -211,6 +211,9 @@ qui représente un couple $(x,y)$
 > On a alors : $A(D(e,C_n))\to D\Big(D(e,C_n)(\bot),\text{succ}(D(e,C_n)(\bot))\Big)\to^2 D\Big(C_n,\text{succ}(C_n)\Big)\to D(C_n,C_{n+1})$
 
 13. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
+
+On pose $\text{decr} = (C\mapsto C(A,D(C_0,C_0))$
+
 14. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ 
 
 # Partie III: Récursivité
@@ -319,6 +322,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4Nz
-U4NTIzMTgsLTQxNTE1OTcxMF19
+eyJoaXN0b3J5IjpbMTk0ODQ2OTczNiw0ODk5NTkzNzksMTMyOD
+IzODQ3MCwtMTg3NTg1MjMxOCwtNDE1MTU5NzEwXX0=
 -->
