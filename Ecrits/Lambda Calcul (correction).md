@@ -224,8 +224,8 @@ qui représente un couple $(x,y)$
 > Donc $\text{decr}(C_n) \to^* D(C_{\max(n-1;0)},C_n)(\top)\to^*C_{\max(n-1;0)}$
 14. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ 
 
-> On pose $\text{sub} = (C,C'\mapsto C(\text{decr},C_m))$
-> On a $\text{sub}$
+> On pose $\text{sub} = (C,C'\mapsto C(\text{decr},C'))$
+> Et on a bien $\text{sub}(C_n,C_m) \to^2C_n(\text{decr},C_m)$
 
 # Partie III: Récursivité
 Le but de cette partie est de pouvoir faire des fonctions récursives.
@@ -333,7 +333,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyNzQ0MzcxLC0xMDczNDE2MDE5LDQ4OT
-k1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3
-MTBdfQ==
+eyJoaXN0b3J5IjpbLTE4OTk1MTE0MTEsLTEwNzM0MTYwMTksND
+g5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1
+OTcxMF19
 -->
