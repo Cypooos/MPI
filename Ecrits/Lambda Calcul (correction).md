@@ -157,7 +157,7 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 7. Définir une expression $\text{add}$ tel que $\text{add}(C_n,C_m) \to^* C_{n+m}$
 
 > On pose $\text{add} = (C,C' \mapsto C(\text{succ},C'))$
-> On a : $\text{add}(C_n,C_m) \to^2 C_n(\text{succ},C_m)$
+> On a : $\text{add}(C_n,C_m) \to^2 C_n(\text{succ},C_m)= $
 >
 > NB: $\text{add} = (C,C',f,x\mapsto C(f,C'(f,x)))$ marche aussi.
 
@@ -294,6 +294,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzkzOTE5NSwtMTg3NTg1MjMxOCwtND
+eyJoaXN0b3J5IjpbMTQ4OTQ2MTM3NCwtMTg3NTg1MjMxOCwtND
 E1MTU5NzEwXX0=
 -->
