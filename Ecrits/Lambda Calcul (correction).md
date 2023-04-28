@@ -74,14 +74,17 @@ On définit les expressions suivantes :
 3. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
 
 > On a que $\Delta(\Delta)\to\Delta(\Delta)$, qui est la seule dérivation possible.
-> On suppose par l'absurde que $\Delta(\Delta)\to^ne$ avec e sous forme normale. Alors on a $\Delta(\Delta)\to e_1\to e_2\to ...\to e$, et par récurrence, on a $e_i = \Delta(\Delta)$
+> On suppose par l'absurde que $\Delta(\Delta)\to^ne$ avec e sous forme normale. Alors on a $\Delta(\Delta)\to e_1\to e_2\to ...\to e$, et par récurrence, on a $e_i = \Delta(\Delta)$, donc $e=\Delta(\Delta)$, qui n'est pas sous forme normale, c'est absurde.
 
 On s'intéresse maintenant à la création de différents objets de base.
 ## Booléens
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
 On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 
-3. Montrez que, soit $e,e'\in E$, on a $\text{if}(\top,e,e') \to^* e$ et $\text{if}(\bot,e,e') \to^* e'$ 
+3. Montrez que, soit $e,e'\in E$, on a $\text{if}(\top,e,e') \to^* e$ et $\text{if}(\bot,e,e') \to^* e'$
+
+> $$\begin{aligned*}\text{if}(\top,e,e')=\text{if}(\top)(e)(e')$$
+
 4. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
 5. Définir une expression $\text{and}$ tel que, soit $b,b'\in B$, on ai:
    * $\text{and}(b,b') \to^* \top$  si $b=b'=\top$
@@ -228,5 +231,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1MTc4Mzc5XX0=
+eyJoaXN0b3J5IjpbMjA5NDYzNzU3XX0=
 -->
