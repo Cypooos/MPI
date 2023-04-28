@@ -117,7 +117,14 @@ $$\begin{align*}\text{if}(\bot,e,e')&=(b,f_1,f_2\mapsto b(f_1,f_2))(\bot)(e)(e')
 > On pose $\text{and} = (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)$, et on a :
 $$\begin{align*}
 \text{and}(\top,\top) &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\top,\top) \\
-&\to \text{if}(\top,\text{if}(\top,\top,\bot),\bot) \\
+&\to^2 \text{if}(\top,\text{if}(\top,\top,\bot),\bot) \\
+&\to^* \text{if}(\top,\top,\bot) \\
+&\to^* \top
+\end{align*}$$
+>  Et si $b=\bot$
+$$\begin{align*}
+\text{and}(\bot,\top) &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\top,\top) \\
+&\to^2 \text{if}(\top,\text{if}(\top,\top,\bot),\bot) \\
 &\to^* \text{if}(\top,\top,\bot) \\
 &\to^* \top
 \end{align*}$$
@@ -265,5 +272,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwNzMzMjI0XX0=
+eyJoaXN0b3J5IjpbLTIwMDY1NjY3NDBdfQ==
 -->
