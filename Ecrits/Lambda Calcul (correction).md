@@ -74,7 +74,7 @@ On définit les expressions suivantes :
 3. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
 
 > On a que $\Delta(\Delta)\to\Delta(\Delta)$, qui est la seule dérivation possible.
-> On suppose par l'absurde que $\Delta(\Delta)\to^ne_n$ avec e sous forme normale. Alors on a $\Delta(\Delta)\to e_1\to e_2\to ...\to e_n$, et par récurrence, on a $e_i = \Delta(\Delta)$, donc $e=\Delta(\Delta)$, qui n'est pas sous forme normale, c'est absurde.
+> On suppose par l'absurde que $\Delta(\Delta)\to^ne_n$ avec e sous forme normale. Alors on a $\Delta(\Delta)\to e_1\to e_2\to ...\to e_n$, et par récurrence, on a $e_i = \Delta(\Delta)$, donc $e_n =\Delta(\Delta)$ est sous forme normale, or $\Delta(\Delta)\to\Delta(\Delta)$, donc il existe une dérivation, c'est absurde.
 
 On s'intéresse maintenant à la création de différents objets de base.
 ## Booléens
@@ -148,7 +148,7 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 
 6. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to^* C_{n+1}$
 
-> 
+> On pose $\text{succ}$
 
 7. Définir une expression $\text{add}$ tel que $\text{add}(C_n,C_m) \to^* C_{n+m}$
 9. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$
@@ -280,5 +280,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODI0NDAzOTddfQ==
+eyJoaXN0b3J5IjpbNzkyODM1NzYxXX0=
 -->
