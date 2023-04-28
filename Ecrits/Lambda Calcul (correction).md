@@ -206,9 +206,9 @@ qui représente un couple $(x,y)$
 > On a : $D(e,e')(\top)\to \top(e,e')= (x,y\mapsto x)(e,e') \to^2 e$
 > Et aussi : $D(e,e')(\bot)\to \bot(e,e')= (x,y\mapsto y)(e,e') \to^2 e'$
 
-12. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1}))$
+12. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1})$
 > On pose $A = (d\mapsto D\Big(d(\bot),\text{succ}(d(\bot))\Big))$
-> On a alors : $A(D(e,C_n))\to D\Big(D(e,C_n)(\bot),\text{succ}(D(e,C_n)(\bot))\Big)\to^2 D\Big(C_n,\text{succ}(C_n)\Big)$
+> On a alors : $A(D(e,C_n))\to D\Big(D(e,C_n)(\bot),\text{succ}(D(e,C_n)(\bot))\Big)\to^2 D\Big(C_n,\text{succ}(C_n)\Big)\to D(C_n,C_{n+1})$
 
 13. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
 14. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ 
@@ -319,6 +319,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwNjQxMTM4LDEzMjgyMzg0NzAsLTE4Nz
+eyJoaXN0b3J5IjpbNDg5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4Nz
 U4NTIzMTgsLTQxNTE1OTcxMF19
 -->
