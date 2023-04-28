@@ -265,7 +265,7 @@ On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'
 $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
 
 > On le fait par récurrence. On pose pour $n>1$ :$$P_n : «\ \forall x \in E, \text{fix}(F)(x) \to^n \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha\ »$$
-> - Initialisation : Supposons que $\text{fix}(F)(x)\to^2 \alpha$. Alors forcément $\text{fix}(F)(x)\to$
+> - Initialisation : Soit $x\in E$. Supposons que $\text{fix}(F)(x)\to^2 \alpha$. Alors forcément $\text{fix}(F) \to f(\text{fix}(F))\to \alpha$. Donc $f = x\m$
 
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
@@ -353,7 +353,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNz
-M0MTYwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIz
-MTgsLTQxNTE1OTcxMF19
+eyJoaXN0b3J5IjpbMjU2MDY3NTQzLC03ODkzMDk0MTgsNzMyMD
+k1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcw
+LC0xODc1ODUyMzE4LC00MTUxNTk3MTBdfQ==
 -->
