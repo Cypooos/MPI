@@ -225,7 +225,7 @@ qui représente un couple $(x,y)$
 14. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ 
 
 > On pose $\text{sub} = (C,C'\mapsto C(\text{decr},C'))$
-> Et on a bien $\text{sub}(C_n,C_m) \to^2C_n(\text{decr},C_m)$
+> Et on a bien $\text{sub}(C_n,C_m) \to^2C_n(\text{decr},C_m)\to^2\text{decr}^n(C_m)\to^*C_{\max\{n-m;0\}}$
 
 # Partie III: Récursivité
 Le but de cette partie est de pouvoir faire des fonctions récursives.
@@ -235,6 +235,8 @@ On dit que $\text{fix}$ est un opérateur point-fixe si, pour tout $f\in E$, on 
 $$\text{fix}(f) \to f(\text{fix}(f))$$
 
 15. Montrez que $\text{fix}(f)$ n'est pas unitaire.
+
+> On suppose $\text{fix}(f)$ unitaire par
 
 On appellera $e$ un point fixe de $f$ si $e=f(e)$
 
@@ -333,7 +335,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTk1MTE0MTEsLTEwNzM0MTYwMTksND
-g5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1
-OTcxMF19
+eyJoaXN0b3J5IjpbMTM5NDI2NTM4LC0xMDczNDE2MDE5LDQ4OT
+k1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3
+MTBdfQ==
 -->
