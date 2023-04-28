@@ -148,9 +148,9 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 
 6. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to^* C_{n+1}$
 
-> On pose $\text{succ} = (C_n,f,x\mapsto C_n(f,f(x)))$
->
-> NB: $\text{succ} = (C_n,f,x\mapsto f(C_n(f,x)))$ marche aussi: On aurai $\text{succ}(C_n) = (f,x\mapsto f(C_n(f,x))) \to $ qui n'est pas un entier
+> On pose $\text{succ} = (C_n,f,x\mapsto C_n(f,f(x)))$. On a ainsi:
+> $$
+> NB: $\text{succ} = (C_n,f,x\mapsto f(C_n(f,x)))$ marche aussi: On aurai $\text{succ}(C_n) = (f,x\mapsto f(C_n(f,x))) \to (f,x\mapsto f(f^n(x))) = C_{n+1}$
 
 7. Définir une expression $\text{add}$ tel que $\text{add}(C_n,C_m) \to^* C_{n+m}$
 9. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$
@@ -282,5 +282,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDY5OTgwOTFdfQ==
+eyJoaXN0b3J5IjpbNjA2NjA3NDQ1XX0=
 -->
