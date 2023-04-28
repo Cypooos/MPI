@@ -255,7 +255,7 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 
 > Bravo si vous l'avez réussie ! Vraiment pas facile.
 > On peut donner $\Theta = (f\mapsto\Big((x\mapsto f(x(x)))(x\mapsto f(x(x)))\Big))$
-> Il y a aussi $\Theta = (x,y\mapsto (y (x(x,y))))(x,y\mapsto (y (x(x,y)))).$
+> Il est noté par un $$
 
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument.
@@ -348,7 +348,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzI2MDExNDksNzMyMDk1MjYxLC0xMD
-czNDE2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUy
-MzE4LC00MTUxNTk3MTBdfQ==
+eyJoaXN0b3J5IjpbMTE3ODEwMjkxNyw3MzIwOTUyNjEsLTEwNz
+M0MTYwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIz
+MTgsLTQxNTE1OTcxMF19
 -->
