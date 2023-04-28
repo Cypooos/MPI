@@ -254,7 +254,7 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 19. (*) Donnez une expression $\Theta$ qui est un opérateur point-fixe.
 
 > Bravo si vous l'avez réussie ! Vraiment pas facile.
-> On peut donner $\Theta = (f\mapsto\Big((x\mapsto f(x,x))(x\mapsto f(x,x)))\Big))$
+> On peut donner $\Theta = (f\mapsto\Big((x\mapsto f(x(x)))(x\mapsto f(x(x)))\Big))$
 
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument.
@@ -347,7 +347,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OT
-k1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3
-MTBdfQ==
+eyJoaXN0b3J5IjpbLTEyNjMwMTMwOTAsNzMyMDk1MjYxLC0xMD
+czNDE2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUy
+MzE4LC00MTUxNTk3MTBdfQ==
 -->
