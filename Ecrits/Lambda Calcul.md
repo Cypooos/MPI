@@ -118,7 +118,7 @@ qui représente un couple $(x,y)$
 Le but de cette partie est de pouvoir faire des fonctions récursives.
 ## L'opérateur Point-fixe
 
-On dit que $\text{fix}$ est un opérateur point-fixe si, pour tout $f\in E$, on a :
+On dit que $\text{fix}$ est un opérateur point-fixe si il est sous forme normale et que, pour tout $f\in E$, on a :
 $$\text{fix}(f) \to f(\text{fix}(f))$$
 
 15. Montrez que $\text{fix}(f)$ n'est pas unitaire.
@@ -220,11 +220,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NjY2MjksMTkyNTkzOTczMiwxOTE1ND
-U5MTE3LC0xNDk3MzA3NDAyLC0xMDM5NTE3NDkzLC0xNzc5MDc5
-NDk5LDg4MjE0NTQzNCwxNTEyMDMzMDY4LC0xODc5MzY3NTk0LD
-Y3OTgxMzE4MiwtNTA2NTc1NDQ2LDE2NjE1MTc4Nyw2MjM0MDEx
-MjgsLTk0NDA0MDE2MywtNTg5MDcwOTc4LC0xODMxODAyMTY3LC
-0xODM5NjQwNzM0LDExNjA4ODQ1ODUsMTUyMjc1ODQzNiwxMDA5
-NTYxNzIyXX0=
+eyJoaXN0b3J5IjpbLTM1NDU3MTg1NywxOTI1OTM5NzMyLDE5MT
+U0NTkxMTcsLTE0OTczMDc0MDIsLTEwMzk1MTc0OTMsLTE3Nzkw
+Nzk0OTksODgyMTQ1NDM0LDE1MTIwMzMwNjgsLTE4NzkzNjc1OT
+QsNjc5ODEzMTgyLC01MDY1NzU0NDYsMTY2MTUxNzg3LDYyMzQw
+MTEyOCwtOTQ0MDQwMTYzLC01ODkwNzA5NzgsLTE4MzE4MDIxNj
+csLTE4Mzk2NDA3MzQsMTE2MDg4NDU4NSwxNTIyNzU4NDM2LDEw
+MDk1NjE3MjJdfQ==
 -->
