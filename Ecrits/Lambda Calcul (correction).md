@@ -222,8 +222,9 @@ qui représente un couple $(x,y)$
 > - hérédité : on a $A^{n+1}(D(C_0,C_0)) \to^* A(A^n(D(C_0,C_0))) \to^*A(D(C_{\max(n-1;0)},C_n))\to^* D(C_{\max(n;0)},C_{n+1})$
 > 
 > Donc $\text{decr}(C_n) \to^* D(C_{\max(n-1;0)},C_n)(\top)\to^*C_{\max(n-1;0)}$
-> Ce qui conclu la preuve
 14. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ 
+
+> On pose $\text{sub} = (C,C'\mapsto$
 
 # Partie III: Récursivité
 Le but de cette partie est de pouvoir faire des fonctions récursives.
@@ -331,7 +332,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDIzNTU3NywtMTA3MzQxNjAxOSw0OD
-k5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMxOCwtNDE1MTU5
-NzEwXX0=
+eyJoaXN0b3J5IjpbLTE1MzE5NTgzNTksLTEwNzM0MTYwMTksND
+g5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1
+OTcxMF19
 -->
