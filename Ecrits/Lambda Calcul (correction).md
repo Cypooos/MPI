@@ -114,7 +114,9 @@ $$\begin{align*}\text{if}(\bot,e,e')&=(b,f_1,f_2\mapsto b(f_1,f_2))(\bot)(e)(e')
    * $\text{and}(b,b') \to^* \top$  si $b=b'=\top$
    * $\text{and}(b,b') \to^* \bot$  sinon
 
-> On pose $\text{and} = (x,y\mapsto \text{if}(x,\text{if}(y,)$
+> On pose $\text{and} = (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)$, et on a :
+>  $$\begin{align*}\text{and}(\top,\top) = (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\top,\top)\end{align*}$$
+>  
 > NB: $\text{and} = (x,y\mapsto x(y(\top,\bot),\bot))$ fonctionne aussi
 
 ## Entiers de Church
@@ -258,5 +260,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTkwOTU3MThdfQ==
+eyJoaXN0b3J5IjpbLTEyOTczNzQyOTldfQ==
 -->
