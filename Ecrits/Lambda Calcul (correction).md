@@ -245,7 +245,8 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 > On écrit $\text{fix}(f)\to^n e$. Mais on a aussi: $\text{fix}(f)\to f(\text{fix}(f))\to^* f(e)$ qui est un calcul normalisant. Donc $\text{fix}(f) \to^* f(e)$. Par l'unicité de la forme normale de $\text{fix}(f)$ (hypothèse de l'énoncé), $f(e)=e$
 
 18. Donnez une expression $f$ telle que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
-> On peut donner K(I).
+> On peut donner $K(I)$. En effet, on montre que
+> $\text{fix}(K(I)) \to K(I,\text{fix}(K(I)))$
 19. (*) Donnez une expression $\Theta$ qui est un opérateur point-fixe.
 
 ## Récursivité
@@ -339,7 +340,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjM3OTU1NSwtMTA3MzQxNjAxOSw0OD
-k5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMxOCwtNDE1MTU5
-NzEwXX0=
+eyJoaXN0b3J5IjpbMzMwNDIxOTQ3LC0xMDczNDE2MDE5LDQ4OT
+k1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3
+MTBdfQ==
 -->
