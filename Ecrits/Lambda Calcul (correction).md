@@ -120,13 +120,17 @@ $$\begin{align*}
 &\to^2 \text{if}(\top,\text{if}(\top,\top,\bot),\bot) \\
 &\to^* \text{if}(\top,\top,\bot) \\
 &\to^* \top
-\end{align*}$$
->  Et si $b=\bot$
+\end{align*}$$Si $b=\bot$ :
 $$\begin{align*}
-\text{and}(\bot,\top) &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\top,\top) \\
-&\to^2 \text{if}(\top,\text{if}(\top,\top,\bot),\bot) \\
-&\to^* \text{if}(\top,\top,\bot) \\
-&\to^* \top
+\text{and}(\bot,\top) &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\bot,\top) \\
+&\to^2 \text{if}(\bot,\text{if}(\top,\top,\bot),\bot) \\
+&\to^* \bot
+\end{align*}
+$$Si $b'=\bot$ :
+$$\begin{align*}
+\text{and}(\bot,\top) &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\bot,\top) \\
+&\to^2 \text{if}(\bot,\text{if}(\top,\top,\bot),\bot) \\
+&\to^* \bot
 \end{align*}$$
 >  
 > NB: $\text{and} = (x,y\mapsto x(y(\top,\bot),\bot))$ fonctionne aussi
@@ -272,5 +276,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDY1NjY3NDBdfQ==
+eyJoaXN0b3J5IjpbLTE5Mzg2Njk5NjVdfQ==
 -->
