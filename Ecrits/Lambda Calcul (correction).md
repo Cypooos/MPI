@@ -157,14 +157,14 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 7. Définir une expression $\text{add}$ tel que $\text{add}(C_n,C_m) \to^* C_{n+m}$
 
 > On pose $\text{add} = (C,C' \mapsto C(\text{succ},C'))$
-> On a : $\text{add}(C_n,C_m) \to^2 C_n(\text{succ},C_m)= $
->
+> On a : $\text{add}(C_n,C_m) \to^2 C_n(\text{succ},C_m)\to^2 \text{succ}^n(C_m) \to^* C_{m+n}$
+> 
 > NB: $\text{add} = (C,C',f,x\mapsto C(f,C'(f,x)))$ marche aussi.
 
 8. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$
 
 > On pose $\text{mul} = (C,C'\mapsto C(\text{add}(C'),C_0))$ 
-> TODO: verif
+> On a :
 
 
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
@@ -294,6 +294,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTQ2MTM3NCwtMTg3NTg1MjMxOCwtND
+eyJoaXN0b3J5IjpbMTk0NDI3MTUwOCwtMTg3NTg1MjMxOCwtND
 E1MTU5NzEwXX0=
 -->
