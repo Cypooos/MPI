@@ -247,11 +247,14 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 18. Donnez une expression $f$ telle que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
 > Soit $e\in E$. On peut donner $K(e)$.
 > En effet, on a pour $n>0$, que de $(K(I))^n\text{fix}(K(e))$, les seuls dérivations possibles sont $e$ ou $(K(I))^{n+1}\text{fix}(K(e))$.
-> 
-> Alors on a bien que pour tout calcul $\text{fix}(K(e)) \to^n a$, on a $\text{fix}(K(e)) \to K(e)(\text{fix}(K(e)))\to ... \to (K(e))^{n-1}(\text{fix}(K(e)))\to e$ la seule possibilité de longueur $n$
+> Alors on a bien que pour tout calcul $\text{fix}(K(e)) \to^n a$, 
+> $\text{fix}(K(e)) \to K(e)(\text{fix}(K(e)))\to ... \to (K(e))^{n-1}(\text{fix}(K(e)))\to e$ la seule possibilité de longueur $n$
 > 
 > Le point fixe ici est $e$: $K(e)(e) = e$
 19. (*) Donnez une expression $\Theta$ qui est un opérateur point-fixe.
+
+> Bravo si vous l'avez réussie ! Vraiment pas facile.
+> On peut donner $\Theta = (x\mapsto x()$
 
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument.
@@ -344,7 +347,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NzU5NzY3MywtMTA3MzQxNjAxOSw0OD
+eyJoaXN0b3J5IjpbLTQ3NTIxMDAwMSwtMTA3MzQxNjAxOSw0OD
 k5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMxOCwtNDE1MTU5
 NzEwXX0=
 -->
