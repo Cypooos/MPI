@@ -122,13 +122,13 @@ $$\begin{align*}
 &\to^* \top
 \end{align*}$$Si $b=\bot$ :
 $$\begin{align*}
-\text{and}(\bot,\top) &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\bot,\top) \\
-&\to^2 \text{if}(\bot,\text{if}(\top,\top,\bot),\bot) \\
+\text{and}(\bot,b') &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\bot,\top) \\
+&\to^2 \text{if}(\bot,\text{if}(b',\top,\bot),\bot) \\
 &\to^* \bot
 \end{align*}
-$$Si $b'=\bot$ :
+$$Sinon si $b'=\bot$ (et donc $b=\top$) :
 $$\begin{align*}
-\text{and}(\bot,\top) &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\bot,\top) \\
+\text{and}(\top,\bot) &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\bot,\top) \\
 &\to^2 \text{if}(\bot,\text{if}(\top,\top,\bot),\bot) \\
 &\to^* \bot
 \end{align*}$$
@@ -276,5 +276,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzg2Njk5NjVdfQ==
+eyJoaXN0b3J5IjpbOTk0MjA0MzY2XX0=
 -->
