@@ -108,7 +108,7 @@ $$\begin{align*}\text{if}(\bot,e,e')&=(b,f_1,f_2\mapsto b(f_1,f_2))(\bot)(e)(e')
 >  - $\text{not}(\top) = (x\mapsto \text{if}(x,\bot,\top))(\top)\to \text{if}(\top,\bot,\top) \to^*\bot$
 >  - $\text{not}(\bot) = (x\mapsto \text{if}(x,\bot,\top))(\top)\to \text{if}(\bot,\bot,\top) \to^*\top$
 > 
-> NB: $\text{not} = (x\mapsto x(\bot,\top))$ fonctionne aussi
+> NB: $\text{not} = (x\mapsto x(\bot,\top))$ fonctionne aussi.
 
 6. Définir une expression $\text{and}$ tel que, soit $b,b'\in B$, on ai:
    * $\text{and}(b,b') \to^* \top$  si $b=b'=\top$
@@ -134,7 +134,7 @@ $$\begin{align*}
 &\to^* \bot
 \end{align*}$$
 >  
-> NB: $\text{and} = (x,y\mapsto x(y(\top,\bot),\bot))$ fonctionne aussi. directement évaluer un booléen par $e,e'$ est ce que fais $\text{if}$
+> NB: $\text{and} = (x,y\mapsto x(y(\top,\bot),\bot))$ fonctionne aussi. Directement évalué un booléen par $e,e'$ est ce que fais $\text{if}$, on l'a juste directement simplifié
 
 ## Entiers de Church
 
@@ -156,7 +156,7 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 
 7. Définir une expression $\text{add}$ tel que $\text{add}(C_n,C_m) \to^* C_{n+m}$
 
-> On pose $\text{add} = (f,x\mapsto$ 
+> On pose $\text{add} = (C,f,x\mapsto $ 
 
 8. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$
 
@@ -287,5 +287,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTE4MTYwXX0=
+eyJoaXN0b3J5IjpbLTk1MDk4NzQxM119
 -->
