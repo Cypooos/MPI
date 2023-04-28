@@ -245,7 +245,9 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 > On écrit $\text{fix}(f)\to^n e$. Mais on a aussi: $\text{fix}(f)\to f(\text{fix}(f))\to^* f(e)$ qui est un calcul normalisant. Donc $\text{fix}(f) \to^* f(e)$. Par l'unicité de la forme normale de $\text{fix}(f)$ (hypothèse de l'énoncé), $f(e)=e$
 
 18. Donnez une expression $f$ telle que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
-> Soit $e\in E$. On peut donner $K(e)$. En effet, on montre que de $(K(I))^n\text{fix}(K(e))$, les seuls dérivations possibles sont $e$ ou $(K(I))^{n+1}\text{fix}(K(e))$
+> Soit $e\in E$. On peut donner $K(e)$. En effet, on montre que de $(K(I))^n\text{fix}(K(e))$, les seuls dérivations possibles sont $e$ ou $(K(I))^{n+1}\text{fix}(K(e))$ :
+>  - initialisation:
+> Alors on a bien que pour tout calcul $\text{fix}(K(e)) \to^n$, on a $\text{fix}(K(e)) \to \text{fix}(K(e))$, 
 > Le point fixe ici est $e$: $K(e)(e) = e$
 19. (*) Donnez une expression $\Theta$ qui est un opérateur point-fixe.
 
@@ -340,7 +342,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjYxMjMyMywtMTA3MzQxNjAxOSw0OD
-k5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMxOCwtNDE1MTU5
-NzEwXX0=
+eyJoaXN0b3J5IjpbLTExNDc2NzY2NjMsLTEwNzM0MTYwMTksND
+g5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1
+OTcxMF19
 -->
