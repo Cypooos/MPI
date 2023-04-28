@@ -69,6 +69,7 @@ On définit les expressions suivantes :
 
 >On a $K(K,I)=K(K)(I)=(y\mapsto (x\mapsto y))(K)(I)\to (x\mapsto K)(I)\to K$, et $K$ est bien sous forme normale.
 > On a $I(I)=(x\mapsto x)(I)\to I$, et $I$ est bien sous forme normale.
+> On a $K(I,\Delta)=K(I)(\Delta)=(y\mapsto (x\mapsto y))(I)(\Delta)\to(x\mapsto I)(\Delta)\to$, et $I$ est bien sous forme normale.
 
 3. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
 
@@ -224,5 +225,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTYyMzE0XX0=
+eyJoaXN0b3J5IjpbMTg3NzYxMDQ4OF19
 -->
