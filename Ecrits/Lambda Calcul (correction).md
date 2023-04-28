@@ -214,7 +214,8 @@ qui représente un couple $(x,y)$
 
 > On pose $\text{decr} = (C\mapsto C(A,D(C_0,C_0))(\top))$
 > L'idée est que pour $n>0$, $A^n(D(C_0,C_0)) = D(C_{n-1},C_n)$, et que en prenant la première composante, on aura $C_{n-1}$.
-> On a aisci
+> On a ainsi :
+$$\text{decr}(C_n) \to C_n(A,D(C_0,C_0))(\top)\to^2 A^n(D(C_0,C_0))(\top$$
 
 14. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ 
 
@@ -324,6 +325,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODExODg1OSw0ODk5NTkzNzksMTMyOD
+eyJoaXN0b3J5IjpbLTg2MTYyNzM5MSw0ODk5NTkzNzksMTMyOD
 IzODQ3MCwtMTg3NTg1MjMxOCwtNDE1MTU5NzEwXX0=
 -->
