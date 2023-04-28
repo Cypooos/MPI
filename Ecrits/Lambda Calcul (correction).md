@@ -161,7 +161,7 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 
 8. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$
 
-> On pose $\text{mul} = (C,C',f,x\mapsto C(\text{add}(C'),x)$ 
+> On pose $\text{mul} = (C,C'\mapsto C(\text{add}(C'),C_0))$ 
 > TODO: verif
 
 
@@ -292,5 +292,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDMwMTA5N119
+eyJoaXN0b3J5IjpbLTQxNTE1OTcxMF19
 -->
