@@ -208,12 +208,12 @@ qui représente un couple $(x,y)$
 
 12. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1})$
 > On pose $A = (d\mapsto D\Big(d(\bot),\text{succ}(d(\bot))\Big))$
-> On a alors : $A(D(e,C_n))\to D\Big(D(e,C_n)(\bot),\text{succ}(D(e,C_n)(\bot))\Big)\to^6 D\Big(C_n,\text{succ}(C_n)\Big)\to^* D(C_n,C_{n+1})$
+> On a alors : $A(D(e,C_n))\to D\Big(D(e,C_n)(\bot),\text{succ}(D(e,C_n)(\bot))\Big)\to^* D\Big(C_n,\text{succ}(C_n)\Big)\to^* D(C_n,C_{n+1})$
 
 13. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
 
 > On pose $\text{decr} = (C\mapsto C(A,D(C_0,C_0))(\top))$
-> L'idée que comme A passe de (n-1,n) à (n,n+1), en répétant n fois A, on a une fonction qui à (0,0) associe (n-1,
+> L'idée que comme A passe de (x,n) à (n,n+1), en répétant n fois A, on a une fonction qui à (0,0) associe (n-1,n). En récupérant la première composante, on pourra avoir n-1
 > On a ainsi :
 $$\text{decr}(C_n) \to C_n(A,D(C_0,C_0))(\top)\to^2 A^n(D(C_0,C_0))(\top)\to^* D(C_{n-1},C_n)(\top)\to^*$$
 
@@ -325,7 +325,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTQ4MzI0OSwtMTA3MzQxNjAxOSw0OD
-k5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMxOCwtNDE1MTU5
-NzEwXX0=
+eyJoaXN0b3J5IjpbLTE4MDg0MTMzMjMsLTEwNzM0MTYwMTksND
+g5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1
+OTcxMF19
 -->
