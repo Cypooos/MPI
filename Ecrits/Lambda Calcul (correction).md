@@ -94,13 +94,11 @@ $$\begin{align*}\text{if}(\top,e,e')&=\text{if}(\top)(e)(e') \\
 &\to e\\
 \end{align*}$$
 > De même :
-$$\begin{align*}\text{if}(\bot,e,e')&=\text{if}(\top)(e)(e')\\
-&\to (f_1,f_2\mapsto \top(f_1,f_2))(e)(e')\\
-&\to (f_2\mapsto \top(e,f_2))(e')\\
-&\to\top(e,e')\\
-&= (x,y\mapsto x)(e,e')\\
-&\to (y\mapsto e)(e')\\
-&\to e\\
+$$\begin{align*}\text{if}(\bot,e,e')&=(b,f_1,f_2\mapsto b(f_1,f_2))(\bot)(e)(e')\\
+&\to^3\bot(e,e')\\
+&= (x,y\mapsto y)(e,e')\\
+&\to (y\mapsto y)(e')\\
+&\to e'\\
 \end{align*}$$
 
 
@@ -250,5 +248,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTgwMTA0N119
+eyJoaXN0b3J5IjpbODU2NjE1NDUxXX0=
 -->
