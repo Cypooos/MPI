@@ -212,7 +212,7 @@ qui représente un couple $(x,y)$
 
 13. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
 
-On pose $\text{decr} = (C\mapsto C(A,D(C_0,C_0))$
+> On pose $\text{decr} = (C\mapsto C(A,D(C_0,C_0))(\top))$ L'idée est que $A^n(D(C_0,C_0)) = D(C_{n-1},C_n)$, et 
 
 14. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ 
 
@@ -322,6 +322,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODQ2OTczNiw0ODk5NTkzNzksMTMyOD
+eyJoaXN0b3J5IjpbMTA3MDUzNzU5NCw0ODk5NTkzNzksMTMyOD
 IzODQ3MCwtMTg3NTg1MjMxOCwtNDE1MTU5NzEwXX0=
 -->
