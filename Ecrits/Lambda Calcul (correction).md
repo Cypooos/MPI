@@ -126,14 +126,15 @@ $$\begin{align*}
 &\to^2 \text{if}(\bot,\text{if}(b',\top,\bot),\bot) \\
 &\to^* \bot
 \end{align*}
-$$Sinon si $b'=\bot$ (et donc $b=\top$) :
+$$Sinon si $b'=\bot$ et $b=\top$ (ce qui conclu tout les cas) :
 $$\begin{align*}
-\text{and}(\top,\bot) &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\bot,\top) \\
-&\to^2 \text{if}(\bot,\text{if}(\top,\top,\bot),\bot) \\
+\text{and}(\top,\bot) &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\top,\bot) \\
+&\to^2 \text{if}(\top,\text{if}(\bot,\top,\bot),\bot) \\
+&\to^* \text{if}(\top,\bot,\bot) \\
 &\to^* \bot
 \end{align*}$$
 >  
-> NB: $\text{and} = (x,y\mapsto x(y(\top,\bot),\bot))$ fonctionne aussi
+> NB: $\text{and} = (x,y\mapsto x(y(\top,\bot),\bot))$ fonctionne aussi. directement évaluer un booléen par $e,e'$ est ce que fais $\te$
 
 ## Entiers de Church
 
@@ -276,5 +277,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0MjA0MzY2XX0=
+eyJoaXN0b3J5IjpbLTE3NDMwODE0N119
 -->
