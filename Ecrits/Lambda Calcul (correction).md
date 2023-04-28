@@ -236,7 +236,7 @@ $$\text{fix}(f) \to f(\text{fix}(f))$$
 
 15. Montrez que $\text{fix}(f)$ n'est pas unitaire.
 
-> On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $$
+> On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées)). On a alors $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+1$, absurde.
 
 On appellera $e$ un point fixe de $f$ si $e=f(e)$
 
@@ -335,7 +335,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTUxNTUyMzksLTEwNzM0MTYwMTksND
+eyJoaXN0b3J5IjpbLTE4NjY1NTEyNDgsLTEwNzM0MTYwMTksND
 g5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1
 OTcxMF19
 -->
