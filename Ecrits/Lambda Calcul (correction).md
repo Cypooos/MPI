@@ -182,7 +182,8 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\ma
     * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
     * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
 
-> On pose $\text{eq} = (C,C'\mapsto \text{eq\_0}(\text{sub}(C,C')))$
+> On pose $\text{eq} = (C,C'\mapsto \text{and}\Big(\text{eq\_0}(\text{sub}(C,C')),\text{eq\_0}(\text{sub}(C',C))\Big))$
+> Et on a $$
 
 # Partie II: Soustraction
 L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
@@ -302,6 +303,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODA5NTgyNzQsLTE4NzU4NTIzMTgsLT
-QxNTE1OTcxMF19
+eyJoaXN0b3J5IjpbNjA1OTYzOTE2LC0xODc1ODUyMzE4LC00MT
+UxNTk3MTBdfQ==
 -->
