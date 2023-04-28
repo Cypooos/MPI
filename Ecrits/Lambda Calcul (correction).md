@@ -169,7 +169,6 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 >  - Initialisation: On a $(\text{add}(C_m))^0(C_0) = C_0= C_{n\times m}$
 >  - Hérédité: On a $(\text{add}(C_m))^{n+1}(C_0)=\text{add}(C_m)((\text{add}(C_m))^n(C_0)) \to^*\text{add}(C_m)(C_{n\times m}) \to ^* C_{m+n\times m} = C_{(n+1)\times m}$
 
-
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
 On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m\ ;\ 0\}}$ a été écrite ; l'écrire est l'objet de la partie II.
 
@@ -297,6 +296,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjUzMTczNjUsLTE4NzU4NTIzMTgsLT
+eyJoaXN0b3J5IjpbLTE0NjgyNzE5NDMsLTE4NzU4NTIzMTgsLT
 QxNTE1OTcxMF19
 -->
