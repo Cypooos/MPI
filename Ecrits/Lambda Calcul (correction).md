@@ -203,7 +203,7 @@ $$D = (x,y,z \mapsto z(x,y))$$
 qui représente un couple $(x,y)$
 
 11. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$.
->
+> On a : $D(e,e')(\top)\to \top(e,e')= (x,y\mapsto x)(e$
 
 12. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1}))$
 13. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
@@ -315,6 +315,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDM4MzU3MSwxMzI4MjM4NDcwLC0xOD
-c1ODUyMzE4LC00MTUxNTk3MTBdfQ==
+eyJoaXN0b3J5IjpbLTEzNzE1MTQ1OTMsMTMyODIzODQ3MCwtMT
+g3NTg1MjMxOCwtNDE1MTU5NzEwXX0=
 -->
