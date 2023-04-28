@@ -191,7 +191,8 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\ma
 > $$\begin{align*}\text{eq}(C_n,C_m)&\to^* \text{and}\Big(\text{eq\_0}(\text{sub}(C_n,C_m)),\text{eq\_0}(\text{sub}(C_n,C_m))\Big)
 \\&\to^*\text{and}\Big(\text{eq\_0}(C_0),\text{eq\_0}(C_{m-n})\Big)
 \\&\to^* \text{and}(\top,\bot) \\&\to \bot\end{align*}$$
-> Et réc
+> Et pareillement si $m<n$
+> NB: Il ne faut pas oublier le $\text{and}$ ! Il est important, car $\text{sub}(C_n,C_m)$ ne marche que pour des $n>m$
  
 
 # Partie II: Soustraction
@@ -202,6 +203,8 @@ $$D = (x,y,z \mapsto z(x,y))$$
 qui représente un couple $(x,y)$
 
 11. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$.
+>
+
 12. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1}))$
 13. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
 14. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ 
@@ -312,6 +315,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjgyNTUwOSwxMzI4MjM4NDcwLC0xOD
+eyJoaXN0b3J5IjpbLTUzNDM4MzU3MSwxMzI4MjM4NDcwLC0xOD
 c1ODUyMzE4LC00MTUxNTk3MTBdfQ==
 -->
