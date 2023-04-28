@@ -164,7 +164,8 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 8. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$
 
 > On pose $\text{mul} = (C,C'\mapsto C(\text{add}(C'),C_0))$ 
-> On a : $\text{mul}(C_n,C_m) \to^2 C_n(\text{add}(C_m),C_0)$
+> On a : $\text{mul}(C_n,C_m) \to^2 C_n(\text{add}(C_m),C_0)\to^2 (\text{add}(C_m))^n(C_0)$
+> Et on a que $(\text{add}(C_m))^n(C_0)$
 
 
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
@@ -294,6 +295,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDk5NDM3MzMsLTE4NzU4NTIzMTgsLT
-QxNTE1OTcxMF19
+eyJoaXN0b3J5IjpbLTc5NzIwMTYwNiwtMTg3NTg1MjMxOCwtND
+E1MTU5NzEwXX0=
 -->
