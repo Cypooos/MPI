@@ -110,7 +110,7 @@ $$D = (x,y,z \mapsto z(x,y))$$
 qui représente un couple $(x,y)$
 
 11. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$.
-12. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1}))$
+12. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1})$
 13. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
 14. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ 
 
@@ -220,11 +220,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTkzOTczMiwxOTE1NDU5MTE3LC0xND
-k3MzA3NDAyLC0xMDM5NTE3NDkzLC0xNzc5MDc5NDk5LDg4MjE0
-NTQzNCwxNTEyMDMzMDY4LC0xODc5MzY3NTk0LDY3OTgxMzE4Mi
-wtNTA2NTc1NDQ2LDE2NjE1MTc4Nyw2MjM0MDExMjgsLTk0NDA0
-MDE2MywtNTg5MDcwOTc4LC0xODMxODAyMTY3LC0xODM5NjQwNz
-M0LDExNjA4ODQ1ODUsMTUyMjc1ODQzNiwxMDA5NTYxNzIyLDEw
-MDk1NjE3MjJdfQ==
+eyJoaXN0b3J5IjpbMTk2NjY2MjksMTkyNTkzOTczMiwxOTE1ND
+U5MTE3LC0xNDk3MzA3NDAyLC0xMDM5NTE3NDkzLC0xNzc5MDc5
+NDk5LDg4MjE0NTQzNCwxNTEyMDMzMDY4LC0xODc5MzY3NTk0LD
+Y3OTgxMzE4MiwtNTA2NTc1NDQ2LDE2NjE1MTc4Nyw2MjM0MDEx
+MjgsLTk0NDA0MDE2MywtNTg5MDcwOTc4LC0xODMxODAyMTY3LC
+0xODM5NjQwNzM0LDExNjA4ODQ1ODUsMTUyMjc1ODQzNiwxMDA5
+NTYxNzIyXX0=
 -->
