@@ -185,7 +185,9 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\ma
 > On pose $\text{eq} = (C,C'\mapsto \text{and}\Big(\text{eq\_0}(\text{sub}(C,C')),\text{eq\_0}(\text{sub}(C',C))\Big))$
 > Soit $n\in\N$, on a
 > $$\begin{align*}\text{eq}(C_n,C_n)&\to^* \text{and}\Big(\text{eq\_0}(\text{sub}(C_n,C_n)),\text{eq\_0}(\text{sub}(C_n,C_n))\Big) \\&\to^*\text{and}\Big(\text{eq\_0}(C_0),\text{eq\_0}(C_0)\Big) \\&\to^* \text{and}(\top,\top) \\&\to \top\end{align*}$$
-> Soit $n<m$, on a :
+> Soit $n\not=m$, on a :
+> $$\begin{align*}\text{eq}(C_n,C_m)&\to^* \text{and}\Big(\text{eq\_0}(\text{sub}(C_n,C_n)),\text{eq\_0}(\text{sub}(C_n,C_n))\Big) \\&\to^*\text{and}\Big(\text{eq\_0}(C_0),\text{eq\_0}(C_0)\Big) \\&\to^* \text{and}(\top,\top) \\&\to \top\end{align*}$$
+> NB: On ne peut pas  le faire dans l'autre sens : 
 
 # Partie II: Soustraction
 L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
@@ -305,6 +307,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2NDUyMTA5LC0xODc1ODUyMzE4LC00MT
-UxNTk3MTBdfQ==
+eyJoaXN0b3J5IjpbLTE0NjAzNDE3OTcsLTE4NzU4NTIzMTgsLT
+QxNTE1OTcxMF19
 -->
