@@ -253,15 +253,18 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 > Le point fixe ici est $e$: $K(e)(e) = e$
 19. (*) Donnez une expression $\Theta$ qui est un opérateur point-fixe.
 
-> Bravo si vous l'avez réussie ! Vraiment pas facile.
+> Bravo si vous l'avez réussie ! Vraiment, vraiment, vraiment pas facile.
 > On peut donner $\Theta = (f\mapsto\Big((x\mapsto f(x(x)))(x\mapsto f(x(x)))\Big))$
-> Il est noté par un $$
+> Il est noté par un $Y$ dans la littérature (The Y combinator).
+> Je ne l'aurai jamais trouvé par moi-même.
 
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument.
 
 19. Montrez que, $\forall x\in E$,
 $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
+
+> On le fait par récurrence. On pose $P_n : ""$
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
 
@@ -348,7 +351,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODEwMjkxNyw3MzIwOTUyNjEsLTEwNz
-M0MTYwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIz
-MTgsLTQxNTE1OTcxMF19
+eyJoaXN0b3J5IjpbLTI2MjQyNTc2LDczMjA5NTI2MSwtMTA3Mz
+QxNjAxOSw0ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMx
+OCwtNDE1MTU5NzEwXX0=
 -->
