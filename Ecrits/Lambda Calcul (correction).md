@@ -83,14 +83,26 @@ On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 
 3. Montrez que, soit $e,e'\in E$, on a $\text{if}(\top,e,e') \to^* e$ et $\text{if}(\bot,e,e') \to^* e'$
 
->
+>On a:
 $$\begin{align*}\text{if}(\top,e,e')&=\text{if}(\top)(e)(e') \\
 &= (b,f_1,f_2\mapsto b(f_1,f_2))(\top)(e)(e')\\
 &\to (f_1,f_2\mapsto \top(f_1,f_2))(e)(e')\\
 &\to (f_2\mapsto \top(e,f_2))(e')\\
 &\to\top(e,e')\\
-&= \top(e,e')\\
+&= (x,y\mapsto x)(e,e')\\
+&\to (y\mapsto e)(e')\\
+&\to e\\
 \end{align*}$$
+> De même :
+$$\begin{align*}\text{if}(\bot,e,e')&=\text{if}(\top)(e)(e')\\
+&\to (f_1,f_2\mapsto \top(f_1,f_2))(e)(e')\\
+&\to (f_2\mapsto \top(e,f_2))(e')\\
+&\to\top(e,e')\\
+&= (x,y\mapsto x)(e,e')\\
+&\to (y\mapsto e)(e')\\
+&\to e\\
+\end{align*}$$
+
 
 4. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
 5. Définir une expression $\text{and}$ tel que, soit $b,b'\in B$, on ai:
@@ -238,5 +250,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzODU0NjM3N119
+eyJoaXN0b3J5IjpbMTYzNTgwMTA0N119
 -->
