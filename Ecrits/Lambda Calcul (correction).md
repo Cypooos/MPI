@@ -247,7 +247,9 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 18. Donnez une expression $f$ telle que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
 > Soit $e\in E$. On peut donner $K(e)$. En effet, on montre que de $(K(I))^n\text{fix}(K(e))$, les seuls dérivations possibles sont $e$ ou $(K(I))^{n+1}\text{fix}(K(e))$ :
 >  - initialisation:
-> Alors on a bien que pour tout calcul $\text{fix}(K(e)) \to^n$, on a $\text{fix}(K(e)) \to \text{fix}(K(e))$, 
+> 
+> Alors on a bien que pour tout calcul $\text{fix}(K(e)) \to^n a$, on a $\text{fix}(K(e)) \to K(e)(\text{fix}(K(e)))\to ... \to (K(e))^{n-1}(\text{fix}(K(e)))\to e=a$ la seule possibilité de longueur $n$
+> 
 > Le point fixe ici est $e$: $K(e)(e) = e$
 19. (*) Donnez une expression $\Theta$ qui est un opérateur point-fixe.
 
@@ -342,7 +344,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDc2NzY2NjMsLTEwNzM0MTYwMTksND
+eyJoaXN0b3J5IjpbLTIwNjI1ODI4NDcsLTEwNzM0MTYwMTksND
 g5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1
 OTcxMF19
 -->
