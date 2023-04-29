@@ -269,7 +269,7 @@ $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))
 $\text{fix}(F)(x) \to F(\text{fix}(F),x)\to^2 \alpha$. Donc $F = (a,b\mapsto \alpha)$. Donc $F(F)(x)\to\alpha$
 > - heredité : Supposons $P_{<n}$, et supposons que $\text{fix}(F)(x) \to^{n} \alpha$.
 > On a alors $\text{fix}(F)(x)\to F(\text{fix}(F),x) \to F[f\larr\text{fix}(F)](x)$
-> Pour la $i$ème apparition de $\text{fix}(F)$ dans f, on a que il existe $n_r^i$ tel que 
+> Pour la $i$ème apparition de $f$ dans $F$ que l'on note $f_i$, on a que $F[f_i\larr\text{fix}(F)](x) $
 
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
@@ -357,7 +357,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDY1NDQyNCwyMDM5Mzk5NzczLDc3Mz
+eyJoaXN0b3J5IjpbLTU3OTQ5MjcxMCwyMDM5Mzk5NzczLDc3Mz
 Q4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3MzQxNjAx
 OSw0ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMxOCwtND
 E1MTU5NzEwXX0=
