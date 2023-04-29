@@ -242,7 +242,7 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 
 16. Montrez que si $\exist!e\in E,\ \text{fix}(f)\to^* e$, alors $f$ admet un point fixe.
 
-> On écrit $\text{fix}(f)\to^n e$. Mais on a aussi: $\text{fix}(f)\to f(\text{fix}(f))\to^* f(e)$ qui est un calcul normalisant. Donc $\text{fix}(f) \to^* f(e)$. Par l'unicité de la forme normale de $\text{fix}(f)$ (hypothèse de l'énoncé), $f(e)=e$
+> On écrit $\text{fix}(f)\to^n e$. Mais on a aussi: $\text{fix}(f)\to f(\text{fix}(f))\to^* f(e)$ qui est un calcul normalisant. Par l'unicité de la forme normale de $\text{fix}(f)$ (hypothèse de l'énoncé), $f(e)=e$
 
 18. Donnez une expression $f$ telle que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
 > Soit $e\in E$. On peut donner $K(e)$.
@@ -356,8 +356,8 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzU2OTczNiwyMDM5Mzk5NzczLDc3Mz
-Q4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3MzQxNjAx
-OSw0ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMxOCwtND
-E1MTU5NzEwXX0=
+eyJoaXN0b3J5IjpbLTE5ODEzMDIwNzIsMjAzOTM5OTc3Myw3Nz
+M0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MTYw
+MTksNDg5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLT
+QxNTE1OTcxMF19
 -->
