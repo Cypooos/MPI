@@ -270,7 +270,7 @@ $\text{fix}(F)(x) \to F(\text{fix}(F),x)\to^2 \alpha$. Donc $F = (a,b\mapsto \al
 > - heredité : Supposons $P_{<n}$, et supposons que $\text{fix}(F)(x) \to^{n} \alpha$.
 > On a alors $\text{fix}(F)(x)\to F(\text{fix}(F),x) \to F[f\larr\text{fix}(F)](x)$
 > Pour la $i$ème apparition de $f$ dans $F$ que l'on note $f_i$, on a que $F[f_i\larr\text{fix}(F)](x) \to^m e$ un calcul normalisant en $m<n$ étapes. On utilise donc notre hypothèse de récurrence forte pour $m$, et on a que il existe $n_r^i$ tel que $F[f_i\larr F^{n_r^i}(F)(x) \to^* e$
-> On pose alors $n_r = \max_{i\in\N}(n_r^i)+1$, et on a que $\underbrace{F(F(...(F)...))}_{n_r\text{ fois}} \to F[f_0\larr\text{fix}(F)](x)$
+> On pose alors $n_r = \max_{i\in\N}(n_r^i)+1$, et on a que $F^{n_r}(F)(x) \to F[f_0\larr\text{fix}(F)](x)$
 
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
@@ -358,8 +358,8 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNjc0NjQwMSwyMDM5Mzk5NzczLDc3Mz
-Q4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3MzQxNjAx
-OSw0ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMxOCwtND
-E1MTU5NzEwXX0=
+eyJoaXN0b3J5IjpbMzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczND
+g4MDc4LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5
+LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MT
+UxNTk3MTBdfQ==
 -->
