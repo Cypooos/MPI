@@ -262,7 +262,7 @@ On appellera $e$ un point fixe de $f$ si $e=f(e)$
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument.
 
 19. Montrez que, $\forall x\in E$,
-$$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
+$$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x) = F^{n_r-1}(F)(x\to^*\alpha$$
 
 > On le fait par récurrence forte. On pose pour $n>2$ :$$P_n : «\ \forall x \in E, \text{fix}(F)(x) \to^n \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha\ »$$
 > - Initialisation : Soit $x\in E$. Supposons que $\text{fix}(F)(x)\to^3 \alpha$. Alors forcément 
@@ -270,7 +270,7 @@ $\text{fix}(F)(x) \to F(\text{fix}(F),x)\to^2 \alpha$. Donc $F = (a,b\mapsto \al
 > - heredité : Supposons $P_{<n}$, et supposons que $\text{fix}(F)(x) \to^{n} \alpha$.
 > On a alors $\text{fix}(F)(x)\to F(\text{fix}(F),x) \to F[f\larr\text{fix}(F)](x)$
 > Pour la $i$ème apparition de $f$ dans $F$ que l'on note $f_i$, on a que $F[f_i\larr\text{fix}(F)](x) \to^m e$ un calcul normalisant en $m<n$ étapes. On utilise donc notre hypothèse de récurrence forte pour $m$, et on a que il existe $n_r^i$ tel que $F[f_i\larr \underbrace{F(F(...(F)...))}_{n_r^i\text{ fois}}](x) \to^* e$
-> On pose alors $n_r = \max_{i\in\N}(n_r^i)+1$, et on a que $\underbrace{F(F(...(F)...))}_{n_r^i\text{ fois}$
+> On pose alors $n_r = \max_{i\in\N}(n_r^i)+1$, et on a que $\underbrace{F(F(...(F)...))}_{n_r\text{ fois}} \to F[f_0\larr\text{fix}(F)](x)$
 
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
@@ -358,7 +358,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk3NDM5NDE3LDIwMzkzOTk3NzMsNzczND
+eyJoaXN0b3J5IjpbOTA3NTc4NjQzLDIwMzkzOTk3NzMsNzczND
 g4MDc4LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5
 LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MT
 UxNTk3MTBdfQ==
