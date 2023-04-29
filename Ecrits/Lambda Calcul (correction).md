@@ -266,7 +266,8 @@ $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))
 
 > On le fait par récurrence. On pose pour $n>1$ :$$P_n : «\ \forall x \in E, \text{fix}(F)(x) \to^n \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha\ »$$
 > - Initialisation : Soit $x\in E$. Supposons que $\text{fix}(F)(x)\to^2 \alpha$. Alors forcément $\text{fix}(F) \to F(\text{fix}(F))\to \alpha$. Donc $F = K(\alpha)$. Donc $F(x)\to\alpha$
-> - heredité : Supposons $P_n$, et supposons $$
+> - heredité : Supposons $P_n$, et supposons que $\text{fix}(F)(x) \to^{n+1} \alpha$.
+> 
 
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
@@ -354,7 +355,8 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OT
-MwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OTU5Mzc5
-LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcxMF19
+eyJoaXN0b3J5IjpbODMxNjc4MzAzLDIwMzkzOTk3NzMsNzczND
+g4MDc4LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5
+LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MT
+UxNTk3MTBdfQ==
 -->
