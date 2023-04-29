@@ -264,9 +264,9 @@ On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'
 19. Montrez que, $\forall x\in E$,
 $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
 
-> On le fait par récurrence. On pose pour $n>1$ :$$P_n : «\ \forall x \in E, \text{fix}(F)(x) \to^n \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha\ »$$
-> - Initialisation : Soit $x\in E$. Supposons que $\text{fix}(F)(x)\to^2 \alpha$. Alors forcément 
-$\text{fix}(F)(x \to F(\text{fix}(F))\to \alpha$. Donc $F = K(\alpha)$. Donc $F(x)\to\alpha$
+> On le fait par récurrence. On pose pour $n>2$ :$$P_n : «\ \forall x \in E, \text{fix}(F)(x) \to^n \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha\ »$$
+> - Initialisation : Soit $x\in E$. Supposons que $\text{fix}(F)(x)\to^3 \alpha$. Alors forcément 
+$\text{fix}(F)(x) \to F(\text{fix}(F),x)\to^2 \alpha$. Donc $F = K(K(\alpha))$. Donc $F(F)(x)\to\alpha$
 > - heredité : Supposons $P_n$, et supposons que $\text{fix}(F)(x) \to^{n+1} \alpha$.
 > On a alors $\text{fix}(F)(x)\to F(\text{fix}(F),x) \to^{n} \alpha$
 
@@ -356,8 +356,8 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwNjAxOTEyLDIwMzkzOTk3NzMsNzczND
-g4MDc4LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5
-LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MT
-UxNTk3MTBdfQ==
+eyJoaXN0b3J5IjpbMTM3OTI3ODUxOCwyMDM5Mzk5NzczLDc3Mz
+Q4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3MzQxNjAx
+OSw0ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMxOCwtND
+E1MTU5NzEwXX0=
 -->
