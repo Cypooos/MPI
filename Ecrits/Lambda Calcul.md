@@ -128,13 +128,13 @@ On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
 16. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
 17. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
-18. (*) Donnez une expression $\Theta = (x\mapsto e)$ tel que $\Theta(f) \to^* f(e[x\larr f])$
+18. (*) Donnez une expression $\Theta = (x\mapsto e)$ tel que $\Theta(f) \to^* f(e[x\larr \Theta(f)])$
 
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
 
-19. Montrez que, $\forall x\in E$,
-$$\text{fix}(F)(x) \to^* \alpha \text{ un calcul normalisateur}\implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
+19. Montrez que, pour tout $\alpha$ sous forme normale, $\forall x\in E$,
+$$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
 
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
@@ -225,7 +225,7 @@ On définie une grammaire contextuelle représentant le lambda calcul :
 On pose $$
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzcxMTc3NywxNTY3MzU1MDIxLC0yMj
+eyJoaXN0b3J5IjpbLTUzMDYzMTQ5NSwxNTY3MzU1MDIxLC0yMj
 k5OTM4MzYsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3Nzg1MDYz
 NCwtMzU2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwtOTMwMT
 czMDI3LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczODg3MDY3
