@@ -136,7 +136,8 @@ On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'
 19. Montrez que, $\forall x\in E$,
 $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
 
-Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
+
+Avec $\alpha$ qui est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
 
 ## Quelques exemples
 On définit :
@@ -221,11 +222,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1NDA2NjUyLC0xNzc4NTA2MzQsLTM1Nj
-c0ODY0LDY5NDk5NTUyNCwzMjAyOTA0MDEsLTkzMDE3MzAyNywt
-MTE1NTk1MTE2MywxNDI0MTUzNzg4LDE3Mzg4NzA2NzQsLTM1ND
-U3MTg1NywxOTI1OTM5NzMyLDE5MTU0NTkxMTcsLTE0OTczMDc0
-MDIsLTEwMzk1MTc0OTMsLTE3NzkwNzk0OTksODgyMTQ1NDM0LD
-E1MTIwMzMwNjgsLTE4NzkzNjc1OTQsNjc5ODEzMTgyLC01MDY1
-NzU0NDZdfQ==
+eyJoaXN0b3J5IjpbNzM0MjEyMzM2LDQ4NTQwNjY1MiwtMTc3OD
+UwNjM0LC0zNTY3NDg2NCw2OTQ5OTU1MjQsMzIwMjkwNDAxLC05
+MzAxNzMwMjcsLTExNTU5NTExNjMsMTQyNDE1Mzc4OCwxNzM4OD
+cwNjc0LC0zNTQ1NzE4NTcsMTkyNTkzOTczMiwxOTE1NDU5MTE3
+LC0xNDk3MzA3NDAyLC0xMDM5NTE3NDkzLC0xNzc5MDc5NDk5LD
+g4MjE0NTQzNCwxNTEyMDMzMDY4LC0xODc5MzY3NTk0LDY3OTgx
+MzE4Ml19
 -->
