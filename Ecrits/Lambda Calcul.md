@@ -131,10 +131,10 @@ On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 18. (*) Donnez une expression $\Theta = (x\mapsto e)$ tel que $\Theta(f) \to^* f(e[x\larr f])$
 
 ## Récursivité
-On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument.
+On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
 
 19. Montrez que, $\forall x\in E$,
-$$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
+$$\text{fix}(F)(x) \to^* \alpha \text{ un calcul normalisateur}\implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
 
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
@@ -225,11 +225,11 @@ On définie une grammaire contextuelle représentant le lambda calcul :
 On pose $$
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NzM1NTAyMSwtMjI5OTkzODM2LDExMj
-IwMTU2ODcsNDg1NDA2NjUyLC0xNzc4NTA2MzQsLTM1Njc0ODY0
-LDY5NDk5NTUyNCwzMjAyOTA0MDEsLTkzMDE3MzAyNywtMTE1NT
-k1MTE2MywxNDI0MTUzNzg4LDE3Mzg4NzA2NzQsLTM1NDU3MTg1
-NywxOTI1OTM5NzMyLDE5MTU0NTkxMTcsLTE0OTczMDc0MDIsLT
-EwMzk1MTc0OTMsLTE3NzkwNzk0OTksODgyMTQ1NDM0LDE1MTIw
-MzMwNjhdfQ==
+eyJoaXN0b3J5IjpbMTczNzcxMTc3NywxNTY3MzU1MDIxLC0yMj
+k5OTM4MzYsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3Nzg1MDYz
+NCwtMzU2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwtOTMwMT
+czMDI3LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczODg3MDY3
+NCwtMzU0NTcxODU3LDE5MjU5Mzk3MzIsMTkxNTQ1OTExNywtMT
+Q5NzMwNzQwMiwtMTAzOTUxNzQ5MywtMTc3OTA3OTQ5OSw4ODIx
+NDU0MzRdfQ==
 -->
