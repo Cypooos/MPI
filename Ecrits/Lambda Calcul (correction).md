@@ -293,7 +293,7 @@ Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre 
 ## Quelques exemples
 On définit :
 $$
-\text{fact\_rec} = (f,x\mapsto \text{if0}(x)(C_1)(\text{mul}(x,f(\text{sub}(x,1)))))
+\text{fact\_rec} = (f,x\mapsto \text{if\_0}(x)(C_1)(\text{mul}(x,f(\text{sub}(x,1)))))
 $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
@@ -304,7 +304,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 > heredité : On suppose que $\text{fact}(C_n) \to^* C_{n!}$. On a alors
 >  $$
 \begin{align*}
-\text{fact}(C_{n+1}) &\to^*  \text{if0}(C_{n+1})(C_1)(\text{mul}(C_{n+1},\text{fact}(\text{sub}(C_{n+1},1)))) \\
+\text{fact}(C_{n+1}) &\to^*  \text{if\_0}(C_{n+1})(C_1)(\text{mul}(C_{n+1},\text{fact}(\text{sub}(C_{n+1},1)))) \\
 &\to^* \text{mul}(C_{n+1},\text{fact}(\text{sub}(C_{n+1},1))) \\
 &\to^* \text{mul}(C_{n+1},\text{fact}(C_{n})) \\
 &\to^* \text{mul}(C_{n+1},C_{n!}) \\
@@ -395,9 +395,9 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTAxMTk1MywzOTMwNzk1MTcsMTEyMD
-YxNzI1MCw3ODM1NzE4OSw2OTIxNjM0MywtMTc3ODY2OTM3MCwz
-MTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OTMwOT
-QxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OTU5Mzc5LDEz
-MjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcxMF19
+eyJoaXN0b3J5IjpbLTExMzUzNzg5NzUsMzkzMDc5NTE3LDExMj
+A2MTcyNTAsNzgzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAs
+MzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMD
+k0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwx
+MzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3MTBdfQ==
 -->
