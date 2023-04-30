@@ -313,7 +313,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 $$
 
 21. Donnez une expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$ *(On posera ici que $0^0 = 1$)*
-
+> On pose $\text{is\_even} = (C\mapsto C$
 > On pose $\text{pow\_rec} = (f,x,y\mapsto \text{if\_0}(y)(C_1)(\text{mul})$
 
 # Partie IV: Types
@@ -392,9 +392,9 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMDk2OTM0MSw2OTIxNjM0MywtMTc3OD
-Y2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgs
-LTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OT
-U5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcx
-MF19
+eyJoaXN0b3J5IjpbMTc5NjY2MzI2LDY5MjE2MzQzLC0xNzc4Nj
+Y5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5NzczLDc3MzQ4ODA3OCwt
+Nzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3MzQxNjAxOSw0ODk5NT
+kzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMxOCwtNDE1MTU5NzEw
+XX0=
 -->
