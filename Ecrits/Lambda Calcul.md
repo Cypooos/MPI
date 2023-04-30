@@ -56,7 +56,7 @@ On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qu
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^n A_n$ ou $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant.
 On admet le _Théorème de Church-Rosser_ dans toute les parties sauf la VI: si $A$ est normalisable, alors sa forme normale est unique.
 
-Si tout les calculs normalisant à partir de $A$ dont le longueure inférieur à $n\in\N$, on dit que $A$ est unitaire. *(Rem: Dans la littérature, le terme de "fortement normalisable" est plutôt employé.)*
+Si tout les calculs normalisant à partir de $A$ sont de longueurs inférieur à un $n$ fixé, on dit que $A$ est unitaire. *(Rem: Dans la littérature, le terme de "fortement normalisable" est plutôt employé.)*
 
 On définit les expressions suivantes :
  - $I = (x\mapsto x)$
@@ -127,7 +127,7 @@ $$\text{fix}(f) \to f(\text{fix}(f))$$
 On appellera $e$ un point fixe de $f$ si $e=f(e)$
 
 16. Montrez que si $\text{fix}(f)$ admet une forme normale, alors $f$ admet un point fixe.
-17. Donnez une expression $f$ telle qu'elle admette une forme normale. Quel est son point fixe ?
+17. Donnez une expression $f$ telle que $\text{fix}(f)$$ admette une forme normale. Quel est son point fixe ?
 18. (*) Donnez une expression $\Theta$ qui est un opérateur point-fixe.
 
 ## Récursivité
@@ -221,7 +221,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzgzNDMyLC0zNTQ1NzE4NTcsMTkyNT
+eyJoaXN0b3J5IjpbMzA1MTYxODk2LC0zNTQ1NzE4NTcsMTkyNT
 kzOTczMiwxOTE1NDU5MTE3LC0xNDk3MzA3NDAyLC0xMDM5NTE3
 NDkzLC0xNzc5MDc5NDk5LDg4MjE0NTQzNCwxNTEyMDMzMDY4LC
 0xODc5MzY3NTk0LDY3OTgxMzE4MiwtNTA2NTc1NDQ2LDE2NjE1
