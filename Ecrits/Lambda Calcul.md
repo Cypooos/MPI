@@ -128,7 +128,7 @@ On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
 16. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
 17. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
-18. (*) Donnez une expression $\Theta$ qui est un opérateur point-fixe.
+18. (*) Donnez une expression $\Theta$ tel que $\Theta(f) \to^* f(\Theta[x\larr f])$
 
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument.
@@ -221,11 +221,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1Njc0ODY0LDY5NDk5NTUyNCwzMjAyOT
-A0MDEsLTkzMDE3MzAyNywtMTE1NTk1MTE2MywxNDI0MTUzNzg4
-LDE3Mzg4NzA2NzQsLTM1NDU3MTg1NywxOTI1OTM5NzMyLDE5MT
-U0NTkxMTcsLTE0OTczMDc0MDIsLTEwMzk1MTc0OTMsLTE3Nzkw
-Nzk0OTksODgyMTQ1NDM0LDE1MTIwMzMwNjgsLTE4NzkzNjc1OT
-QsNjc5ODEzMTgyLC01MDY1NzU0NDYsMTY2MTUxNzg3LDYyMzQw
-MTEyOF19
+eyJoaXN0b3J5IjpbLTE3Nzg1MDYzNCwtMzU2NzQ4NjQsNjk0OT
+k1NTI0LDMyMDI5MDQwMSwtOTMwMTczMDI3LC0xMTU1OTUxMTYz
+LDE0MjQxNTM3ODgsMTczODg3MDY3NCwtMzU0NTcxODU3LDE5Mj
+U5Mzk3MzIsMTkxNTQ1OTExNywtMTQ5NzMwNzQwMiwtMTAzOTUx
+NzQ5MywtMTc3OTA3OTQ5OSw4ODIxNDU0MzQsMTUxMjAzMzA2OC
+wtMTg3OTM2NzU5NCw2Nzk4MTMxODIsLTUwNjU3NTQ0NiwxNjYx
+NTE3ODddfQ==
 -->
