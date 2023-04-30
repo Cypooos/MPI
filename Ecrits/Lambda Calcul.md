@@ -223,15 +223,18 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 On définie une grammaire contextuelle représentant le lambda calcul :
 On différencie ici les parenthèse d'évaluation que l'on représentera avec des crochets $[]$ et les parenthèse d'abstraction $(x\mapsto e)$
-On pose les règles suivan
+On pose les règles suivantes :
+ - $)[\ \to X$
+ - $v_i X\to X v_i$
+ - $[[ X\to X v_i$
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjAzMDA5MCwxNTY3MzU1MDIxLC0yMj
-k5OTM4MzYsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3Nzg1MDYz
-NCwtMzU2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwtOTMwMT
-czMDI3LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczODg3MDY3
-NCwtMzU0NTcxODU3LDE5MjU5Mzk3MzIsMTkxNTQ1OTExNywtMT
-Q5NzMwNzQwMiwtMTAzOTUxNzQ5MywtMTc3OTA3OTQ5OSw4ODIx
-NDU0MzRdfQ==
+eyJoaXN0b3J5IjpbLTE0Nzk1NTk2NjIsMTU2NzM1NTAyMSwtMj
+I5OTkzODM2LDExMjIwMTU2ODcsNDg1NDA2NjUyLC0xNzc4NTA2
+MzQsLTM1Njc0ODY0LDY5NDk5NTUyNCwzMjAyOTA0MDEsLTkzMD
+E3MzAyNywtMTE1NTk1MTE2MywxNDI0MTUzNzg4LDE3Mzg4NzA2
+NzQsLTM1NDU3MTg1NywxOTI1OTM5NzMyLDE5MTU0NTkxMTcsLT
+E0OTczMDc0MDIsLTEwMzk1MTc0OTMsLTE3NzkwNzk0OTksODgy
+MTQ1NDM0XX0=
 -->
