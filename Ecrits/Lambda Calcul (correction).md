@@ -393,13 +393,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 35. Définir une grammaire hors contexte engendrant $E$
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 
-## 
-37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzYzNzQ5MzcsMzkzMDc5NTE3LDExMj
-A2MTcyNTAsNzgzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAs
-MzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMD
-k0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwx
-MzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3MTBdfQ==
+eyJoaXN0b3J5IjpbMTQ1MTAxMTk1MywzOTMwNzk1MTcsMTEyMD
+YxNzI1MCw3ODM1NzE4OSw2OTIxNjM0MywtMTc3ODY2OTM3MCwz
+MTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OTMwOT
+QxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OTU5Mzc5LDEz
+MjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcxMF19
 -->
