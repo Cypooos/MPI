@@ -238,11 +238,10 @@ $$\text{fix}(f) \to f(\text{fix}(f))$$
 
 > On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées). On a alors $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+1$, absurde.
 
-On appellera $e$ un point fixe de $f$ si $e=f(e)$
+On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
-16. Montrez que si $\exist!e\in E,\ \text{fix}(f)\to^* e$, alors $f$ admet un point fixe.
-
-> On écrit $\text{fix}(f)\to^n e$. Mais on a aussi: $\text{fix}(f)\to f(\text{fix}(f))\to^* f(e)$ qui est un calcul normalisant. Par l'unicité de la forme normale de $\text{fix}(f)$ (hypothèse de l'énoncé), $f(e)=e$
+16. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
+> On écrit $\text{fix}(f)\to^n e$. Mais on a aussi: $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e)$ qui est un calcul normalisant par hypothèse. Par l'unicité de la forme normale de $\text{fix}(f)$, $f(e)=e$
 
 18. Donnez une expression $f$ telle que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
 > Soit $e\in E$. On peut donner $K(e)$.
@@ -358,8 +357,8 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIwMz
-kzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMDk1MjYx
-LC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0xOD
-c1ODUyMzE4LC00MTUxNTk3MTBdfQ==
+eyJoaXN0b3J5IjpbLTE0Mzg1NTQ1MjYsLTE3Nzg2NjkzNzAsMz
+E0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0
+MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMz
+I4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3MTBdfQ==
 -->
