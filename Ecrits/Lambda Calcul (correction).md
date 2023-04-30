@@ -300,11 +300,14 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 20. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 
 > On le montre par récurrence: 
-> Initialisation: On a $\text{fact}(C_0)\to \text{if0}(C_0)(C_1)(\text{mul}(C_0,\text{fact}(\text{sub}(x,1)))) \to^*C_1$
+> Initialisation: On a $\text{fact}(C_0)\to \text{if0}(C_0)(C_1)(\text{mul}(C_0,\text{fact}(\text{sub}(C_0,1)))) \to^*C_1$
 > heredité : On suppose que $\text{fact}(C_n) \to^* C_{n!}$. On a alors
 >  $$
 \begin{align*}
-\text{fact}(C_{n+1}) &\to^*  \text{if0}(C_{n+1})(C_1)(\text{mul}(C_0,\text{fact}(\text{sub}(x,1))))
+\text{fact}(C_{n+1}) &\to^*  \text{if0}(C_{n+1})(C_1)(\text{mul}(C_{n+1},\text{fact}(\text{sub}((C_{n+1},1)))) \\
+&\to^* \text{mul}(C_{n+1},\text{fact}(\text{sub}((C_{n+1},1))) \\
+&\to^*C_{
+\end{align*}
 $$
 
 21. Donnez une expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$
@@ -385,7 +388,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzMyMzQ4NTQsNjkyMTYzNDMsLTE3Nz
+eyJoaXN0b3J5IjpbLTExMTMyMTcwOTgsNjkyMTYzNDMsLTE3Nz
 g2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4
 LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OT
 k1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3
