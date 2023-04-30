@@ -56,7 +56,7 @@ On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qu
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^n A_n$ ou $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant.
 On admet le _Théorème de Church-Rosser_ dans toute les parties sauf la VI: si $A$ est normalisable, alors sa forme normale est unique.
 
-Si tout les calculs normalisant à partir de $A$ donne le même $e\in E$, on dit que $A$ est unitaire. *(Rem: Dans la littérature, le terme de "fortement normalisable" est plutôt employé.)*
+Si tout les calculs normalisant à partir de $A$ dont le longueure inférieur à $n\in\N$, on dit que $A$ est unitaire. *(Rem: Dans la littérature, le terme de "fortement normalisable" est plutôt employé.)*
 
 On définit les expressions suivantes :
  - $I = (x\mapsto x)$
@@ -221,11 +221,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzgxMzU0ODcsLTM1NDU3MTg1NywxOT
-I1OTM5NzMyLDE5MTU0NTkxMTcsLTE0OTczMDc0MDIsLTEwMzk1
-MTc0OTMsLTE3NzkwNzk0OTksODgyMTQ1NDM0LDE1MTIwMzMwNj
-gsLTE4NzkzNjc1OTQsNjc5ODEzMTgyLC01MDY1NzU0NDYsMTY2
-MTUxNzg3LDYyMzQwMTEyOCwtOTQ0MDQwMTYzLC01ODkwNzA5Nz
-gsLTE4MzE4MDIxNjcsLTE4Mzk2NDA3MzQsMTE2MDg4NDU4NSwx
-NTIyNzU4NDM2XX0=
+eyJoaXN0b3J5IjpbMTMzMDkxMjc2MCwtMzU0NTcxODU3LDE5Mj
+U5Mzk3MzIsMTkxNTQ1OTExNywtMTQ5NzMwNzQwMiwtMTAzOTUx
+NzQ5MywtMTc3OTA3OTQ5OSw4ODIxNDU0MzQsMTUxMjAzMzA2OC
+wtMTg3OTM2NzU5NCw2Nzk4MTMxODIsLTUwNjU3NTQ0NiwxNjYx
+NTE3ODcsNjIzNDAxMTI4LC05NDQwNDAxNjMsLTU4OTA3MDk3OC
+wtMTgzMTgwMjE2NywtMTgzOTY0MDczNCwxMTYwODg0NTg1LDE1
+MjI3NTg0MzZdfQ==
 -->
