@@ -304,9 +304,11 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 > heredité : On suppose que $\text{fact}(C_n) \to^* C_{n!}$. On a alors
 >  $$
 \begin{align*}
-\text{fact}(C_{n+1}) &\to^*  \text{if0}(C_{n+1})(C_1)(\text{mul}(C_{n+1},\text{fact}(\text{sub}((C_{n+1},1)))) \\
-&\to^* \text{mul}(C_{n+1},\text{fact}(\text{sub}((C_{n+1},1))) \\
-&\to^*C_{
+\text{fact}(C_{n+1}) &\to^*  \text{if0}(C_{n+1})(C_1)(\text{mul}(C_{n+1},\text{fact}(\text{sub}(C_{n+1},1)))) \\
+&\to^* \text{mul}(C_{n+1},\text{fact}(\text{sub}(C_{n+1},1))) \\
+&\to^* \text{mul}(C_{n+1},\text{fact}(C_{n})) \\
+&\to^* \text{mul}(C_{n+1},C_{n!}) \\
+&\to^* C_{(n+1)!} \\
 \end{align*}
 $$
 
@@ -388,9 +390,9 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTMyMTcwOTgsNjkyMTYzNDMsLTE3Nz
-g2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4
-LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OT
-k1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3
-MTBdfQ==
+eyJoaXN0b3J5IjpbMTM2NDcyNTkzMiw2OTIxNjM0MywtMTc3OD
+Y2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgs
+LTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OT
+U5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcx
+MF19
 -->
