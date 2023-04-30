@@ -142,7 +142,7 @@ Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre 
 ## Quelques exemples
 On définit :
 $$
-\text{fact\_rec} = (f,x\mapsto \text{if\_0}(x)(C_1)(\text{mul}(x,f(\text{sub}(x,1)))))
+\text{fact\_rec} = (f,x\mapsto \text{if}(\text{eq\_0}(x))(C_1)(\text{mul}(x,f(\text{sub}(x,1)))))
 $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
@@ -230,7 +230,7 @@ On pose les règles suivantes :
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjQ2NTg4OSwxNTY3MzU1MDIxLC0yMj
+eyJoaXN0b3J5IjpbLTIxNDMxMDA4MSwxNTY3MzU1MDIxLC0yMj
 k5OTM4MzYsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3Nzg1MDYz
 NCwtMzU2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwtOTMwMT
 czMDI3LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczODg3MDY3
