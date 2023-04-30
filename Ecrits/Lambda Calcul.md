@@ -147,7 +147,7 @@ $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 20. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
-21. Donnez une expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$
+21. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On utillisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
 
 # Partie IV: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -222,11 +222,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3Nz
-g1MDYzNCwtMzU2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwt
-OTMwMTczMDI3LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczOD
-g3MDY3NCwtMzU0NTcxODU3LDE5MjU5Mzk3MzIsMTkxNTQ1OTEx
-NywtMTQ5NzMwNzQwMiwtMTAzOTUxNzQ5MywtMTc3OTA3OTQ5OS
-w4ODIxNDU0MzQsMTUxMjAzMzA2OCwtMTg3OTM2NzU5NCw2Nzk4
-MTMxODJdfQ==
+eyJoaXN0b3J5IjpbLTIyOTk5MzgzNiwxMTIyMDE1Njg3LDQ4NT
+QwNjY1MiwtMTc3ODUwNjM0LC0zNTY3NDg2NCw2OTQ5OTU1MjQs
+MzIwMjkwNDAxLC05MzAxNzMwMjcsLTExNTU5NTExNjMsMTQyND
+E1Mzc4OCwxNzM4ODcwNjc0LC0zNTQ1NzE4NTcsMTkyNTkzOTcz
+MiwxOTE1NDU5MTE3LC0xNDk3MzA3NDAyLC0xMDM5NTE3NDkzLC
+0xNzc5MDc5NDk5LDg4MjE0NTQzNCwxNTEyMDMzMDY4LC0xODc5
+MzY3NTk0XX0=
 -->
