@@ -260,7 +260,7 @@ On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument.
 
-19. Montrez que, $\forall x\in E$,
+19. Montrez que, pour tout $\alpha$ sous forme normale, $\forall x\in E$,
 $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x) = F^{n_r-1}(F)(x)\to^*\alpha$$
 
 > TODO: Meilleur rédaction. Pas ouf. Peut-être pas par récurrence...
@@ -316,10 +316,10 @@ $$
 > On pose $\text{is\_even} = (C\mapsto C(\text{not},\top))$
 > On pose $\text{div\_2} = (C\mapsto C(x\mapsto \text{if\_eq}(x,C)(x)(\text{sub}(x,1) )(C))$
 > On pose $\text{div\_2\_i} = (C\mapsto C(x\mapsto \text{if\_eq}(x,C)(x)(\text{sub}(x,1) )(\text{sub}(C,1)))$ (qui fait la division entière d'un nombre impaire)
-> On pose $$\text{pow\_rec} = (f,x,y\mapsto \text{if\_0}(y)(C_1)\Big(\text{if}(\text{is\_even}(y))\\(\text{mul}(f(x,\text{div\_2}(y)),f(x,\text{div\_2}(y))))\\(\text{mul}(x,\text{mul}(f(x,\text{div\_2\_i}(y)),f(x,\text{div\_2\_i}(y)))))\Big)$$
+> On pose $$\text{pow\_rec} = (f,x,y\mapsto \text{if\_0}(y)(C_1)\Big(\text{if}(\text{is\_even}(y))\\(\text{mul}(f(x,\text{div\_2}(y)),f(x,\text{div\_2}(y))))\\(\text{mul}(x,\text{mul}(f(x,\text{div\_2\_i}(y)),f(x,\text{div\_2\_i}(y)))))\Big))$$
 > On montre que $\text{is\_even}(C_{2n}) \to^* \top$ et $\text{is\_even}(C_{2n+1 }) \to^* \bot$, que
 > $\text{div\_2}(C_{2n})\to^*C_n$ et $\text{div\_2\_i}(C_{2n+1})\to C_n$
-> Ainsi, on a bien le résultat. TODO: le faire.
+> Ainsi, on a bien le résultat. TODO: le faire  bien.
 
 # Partie IV: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -397,9 +397,9 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc2NjM3MDk5LDM5MzA3OTUxNywxMTIwNj
-E3MjUwLDc4MzU3MTg5LDY5MjE2MzQzLC0xNzc4NjY5MzcwLDMx
-NDM4NDYxNiwyMDM5Mzk5NzczLDc3MzQ4ODA3OCwtNzg5MzA5ND
-E4LDczMjA5NTI2MSwtMTA3MzQxNjAxOSw0ODk5NTkzNzksMTMy
-ODIzODQ3MCwtMTg3NTg1MjMxOCwtNDE1MTU5NzEwXX0=
+eyJoaXN0b3J5IjpbLTE0MzYzNzQ5MzcsMzkzMDc5NTE3LDExMj
+A2MTcyNTAsNzgzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAs
+MzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMD
+k0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwx
+MzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3MTBdfQ==
 -->
