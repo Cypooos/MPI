@@ -137,7 +137,7 @@ On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'
 $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
 
 
-On appellera le plus petit $n_r$ avec $\alpha$ sous forme normale le *nombre d'appels récursif* de $F(x)$.
+Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
 
 ## Quelques exemples
 On définit :
@@ -222,7 +222,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4OTMzODAyMiw0ODU0MDY2NTIsLTE3Nz
+eyJoaXN0b3J5IjpbMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3Nz
 g1MDYzNCwtMzU2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwt
 OTMwMTczMDI3LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczOD
 g3MDY3NCwtMzU0NTcxODU3LDE5MjU5Mzk3MzIsMTkxNTQ1OTEx
