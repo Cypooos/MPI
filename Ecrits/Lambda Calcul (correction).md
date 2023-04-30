@@ -74,7 +74,7 @@ On définit les expressions suivantes :
 3. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
 
 > On a que $\Delta(\Delta)\to\Delta(\Delta)$, qui est la seule dérivation possible.
-> On suppose par l'absurde que $\Delta(\Delta)\to^ne_n$ avec e sous forme normale. Alors on a $\Delta(\Delta)\to e_1\to e_2\to ...\to e_n$, et par récurrence, on a $e_i = \Delta(\Delta)$, donc $e_n =\Delta(\Delta)$ est sous forme normale, or $\Delta(\Delta)\to\Delta(\Delta)$, donc il existe une dérivation, c'est absurde.
+> On suppose par l'absurde que $\Delta(\Delta)\to^ne_n$ avec $e_n$ sous forme normale. Alors on a $\Delta(\Delta)\to e_1\to e_2\to ...\to e_n$, et par récurrence, on a $e_i = \Delta(\Delta)$, donc $e_n =\Delta(\Delta)$ est sous forme normale, or $\Delta(\Delta)\to\Delta(\Delta)$, donc il existe une dérivation, c'est absurde.
 
 On s'intéresse maintenant à la création de différents objets de base.
 ## Booléens
@@ -397,7 +397,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYwMjUxNTk4LDExMjA2MTcyNTAsNzgzNT
+eyJoaXN0b3J5IjpbMzkzMDc5NTE3LDExMjA2MTcyNTAsNzgzNT
 cxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIw
 MzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMDk1Mj
 YxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0x
