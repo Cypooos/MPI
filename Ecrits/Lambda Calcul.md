@@ -220,13 +220,16 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 35. Définir une grammaire hors contexte engendrant $E$
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
+
+On définie une grammaire contextuelle représentant le lambda calcul :
+On pose $$
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTk5MzgzNiwxMTIyMDE1Njg3LDQ4NT
-QwNjY1MiwtMTc3ODUwNjM0LC0zNTY3NDg2NCw2OTQ5OTU1MjQs
-MzIwMjkwNDAxLC05MzAxNzMwMjcsLTExNTU5NTExNjMsMTQyND
-E1Mzc4OCwxNzM4ODcwNjc0LC0zNTQ1NzE4NTcsMTkyNTkzOTcz
-MiwxOTE1NDU5MTE3LC0xNDk3MzA3NDAyLC0xMDM5NTE3NDkzLC
-0xNzc5MDc5NDk5LDg4MjE0NTQzNCwxNTEyMDMzMDY4LC0xODc5
-MzY3NTk0XX0=
+eyJoaXN0b3J5IjpbMTU2NzM1NTAyMSwtMjI5OTkzODM2LDExMj
+IwMTU2ODcsNDg1NDA2NjUyLC0xNzc4NTA2MzQsLTM1Njc0ODY0
+LDY5NDk5NTUyNCwzMjAyOTA0MDEsLTkzMDE3MzAyNywtMTE1NT
+k1MTE2MywxNDI0MTUzNzg4LDE3Mzg4NzA2NzQsLTM1NDU3MTg1
+NywxOTI1OTM5NzMyLDE5MTU0NTkxMTcsLTE0OTczMDc0MDIsLT
+EwMzk1MTc0OTMsLTE3NzkwNzk0OTksODgyMTQ1NDM0LDE1MTIw
+MzMwNjhdfQ==
 -->
