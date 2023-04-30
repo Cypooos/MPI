@@ -275,12 +275,14 @@ $\text{fix}(F)(x) \to F(\text{fix}(F),x)\to^2 \alpha$. Donc $F = (a,b\mapsto \al
 > > On appelle $k$ le nombre d'apparition de $f$ dans $F$.
 > Pour la $i$ème apparition de $f$ dans $F$ que l'on note $f_i$, on a que $F[f_i\larr\text{fix}(F)](x) \to^m e$ un calcul normalisant en $m<n$ étapes.
 > >
-> > On utilise donc notre hypothèse de récurrence forte pour $m$, et on a que il existe $n_r^i$ tel que $e_i[f_i\larr F^{n_r^i}](F)(x) \to^* e_{i+1}$
+> > On utilise donc notre hypothèse de récurrence forte pour $m$, et on a que il existe $n_r^i$ tel que $F[f_0\larr F^{n_r^i}][...][f_i\larr F^{n_r^i}](F)(x) \to^* e_{i+1}$
 > On pose alors $n_r = \max_{i\le k}(n_r^i)+1$, et on a que :
 > $$
 \begin{align*}
-F^{n_r}(F)(x) &\to F[f_0\larr(F)][f_1\larr(F)][...][[f_k\larr(F)](x)\\
-&\to^{n_r^0} e_0[f_1\larr(F)][...][[f_k\larr(F)](x)
+F^{n_r}(F)(x) &\to F[f_0\larr(F)][f_1\larr(F)][...][f_k\larr(F)](x)\\
+&\to^{n_r^0} e_0[f_1\larr(F)][...][f_k\larr(F)](x)\\
+&\to^{n_r^1} e_1[...][f_k\larr(F)](x)\\
+&\to^* e_k
 \end{align*}$$
 
 
@@ -379,9 +381,9 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MjQzMDQ3Niw2OTIxNjM0MywtMTc3OD
-Y2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgs
-LTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OT
-U5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcx
-MF19
+eyJoaXN0b3J5IjpbLTE4NTk2MTA2MzAsNjkyMTYzNDMsLTE3Nz
+g2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4
+LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OT
+k1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3
+MTBdfQ==
 -->
