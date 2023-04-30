@@ -196,7 +196,7 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 ## Caractérisation des expressions unitaire
 On essaye de montrer que toute les expressions unitaire sont tel que $\Gamma \vdash e:t$.
 
-26. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé et $t'\in t$.
+26. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé.
 27. Montrez que le type d'une expression est invariant par dérivation.
 28. Montrez que si $f$ est sous forme normale, alors il existe $\Gamma,t$ tel que toute variable libre de $f$  est une variable dans un couple de $\Gamma$ et $\Gamma \vdash f:t$
 29. Montrez que si $e$ est unitaire, alors il existe $\Gamma,t$ tel que $\Gamma \vdash e:t$.
@@ -223,11 +223,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzA5MzA3NDMsMTU2NzM1NTAyMSwtMj
-I5OTkzODM2LDExMjIwMTU2ODcsNDg1NDA2NjUyLC0xNzc4NTA2
-MzQsLTM1Njc0ODY0LDY5NDk5NTUyNCwzMjAyOTA0MDEsLTkzMD
-E3MzAyNywtMTE1NTk1MTE2MywxNDI0MTUzNzg4LDE3Mzg4NzA2
-NzQsLTM1NDU3MTg1NywxOTI1OTM5NzMyLDE5MTU0NTkxMTcsLT
-E0OTczMDc0MDIsLTEwMzk1MTc0OTMsLTE3NzkwNzk0OTksODgy
-MTQ1NDM0XX0=
+eyJoaXN0b3J5IjpbMTI0NDU1NDg4NCwtMjA3MDkzMDc0MywxNT
+Y3MzU1MDIxLC0yMjk5OTM4MzYsMTEyMjAxNTY4Nyw0ODU0MDY2
+NTIsLTE3Nzg1MDYzNCwtMzU2NzQ4NjQsNjk0OTk1NTI0LDMyMD
+I5MDQwMSwtOTMwMTczMDI3LC0xMTU1OTUxMTYzLDE0MjQxNTM3
+ODgsMTczODg3MDY3NCwtMzU0NTcxODU3LDE5MjU5Mzk3MzIsMT
+kxNTQ1OTExNywtMTQ5NzMwNzQwMiwtMTAzOTUxNzQ5MywtMTc3
+OTA3OTQ5OV19
 -->
