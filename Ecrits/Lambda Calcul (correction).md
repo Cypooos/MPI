@@ -314,8 +314,8 @@ $$
 
 21. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On utillisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
 > On pose $\text{is\_even} = (C\mapsto C(\text{not},\top))$
-> On pose $\text{div\_2} = (C\mapsto C(x\mapsto \text{if\_eq}(x,C)(x)(\text{sub}(x,1) )(C))$
-> On pose $\text{div\_2\_i} = (C\mapsto C(x\mapsto \text{if\_eq}(x,C)(x)(\text{sub}(x,1) )(\text{sub}(C,1)))$ (qui fait la division entière d'un nombre impaire)
+> On pose $\text{div\_2} = (C\mapsto C(x\mapsto \text{if\_eq}(\text{mul}(x,C_2),C)(x)(\text{sub}(x,1) )(C))$
+> On pose $\text{div\_2\_i} = (C\mapsto C(x\mapsto \text{if\_eq}(\text{mul}(x,C_2),C)(x)(\text{sub}(x,1) )(\text{sub}(C,1)))$ (qui fait la division entière d'un nombre impaire)
 > On pose $$\text{pow\_rec} = (f,x,y\mapsto \text{if}(\text{eq\_0}(y))(C_1)\Big(\text{if}(\text{is\_even}(y))\\(\text{mul}(f(x,\text{div\_2}(y)),f(x,\text{div\_2}(y))))\\(\text{mul}(x,\text{mul}(f(x,\text{div\_2\_i}(y)),f(x,\text{div\_2\_i}(y)))))\Big))$$
 > On montre que $\text{is\_even}(C_{2n}) \to^* \top$ et $\text{is\_even}(C_{2n+1 }) \to^* \bot$, que
 > $\text{div\_2}(C_{2n})\to^*C_n$ et $\text{div\_2\_i}(C_{2n+1})\to C_n$
@@ -395,10 +395,10 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjU3ODgzMSwtNzY0NjMzNDUyLDM5Mz
-A3OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5MjE2MzQzLC0x
-Nzc4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5NzczLDc3MzQ4OD
-A3OCwtNzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3MzQxNjAxOSw0
-ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMxOCwtNDE1MT
-U5NzEwXX0=
+eyJoaXN0b3J5IjpbLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNz
+Y0NjMzNDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5
+LDY5MjE2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mz
+k5NzczLDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2MSwt
+MTA3MzQxNjAxOSw0ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NT
+g1MjMxOCwtNDE1MTU5NzEwXX0=
 -->
