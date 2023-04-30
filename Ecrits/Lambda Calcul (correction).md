@@ -313,8 +313,8 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 $$
 
 21. Donnez une expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$ *(On posera ici que $0^0 = 1$)*
-> On pose $\text{is\_even} = (C\mapsto C$
-> On pose $\text{pow\_rec} = (f,x,y\mapsto \text{if\_0}(y)(C_1)(\text{mul})$
+> On pose $\text{is\_even} = (C\mapsto C(\text{not},\top))$
+> On pose $\text{pow\_rec} = (f,x,y\mapsto \text{if\_0}(y)(C_1)\Big(\text{if}(\text{is\_even}(y))(\text{mul})\Big)$
 
 # Partie IV: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -392,7 +392,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjY2MzI2LDY5MjE2MzQzLC0xNzc4Nj
+eyJoaXN0b3J5IjpbMTM0OTA2MjU5LDY5MjE2MzQzLC0xNzc4Nj
 Y5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5NzczLDc3MzQ4ODA3OCwt
 Nzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3MzQxNjAxOSw0ODk5NT
 kzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMxOCwtNDE1MTU5NzEw
