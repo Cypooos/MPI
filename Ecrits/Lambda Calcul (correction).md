@@ -293,14 +293,14 @@ Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre 
 ## Quelques exemples
 On définit :
 $$
-\text{fact\_rec} = (f,x\mapsto \text{if\_0}(x)(C_1)(\text{mul}(x,f(\text{sub}(x,1)))))
+\text{fact\_rec} = (f,x\mapsto \text{if}(\text{eq\_0}(x))(C_1)(\text{mul}(x,f(\text{sub}(x,1)))))
 $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 20. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 
 > On le montre par récurrence: 
-> Initialisation: On a $\text{fact}(C_0)\to \text{if0}(C_0)(C_1)(\text{mul}(C_0,\text{fact}(\text{sub}(C_0,1)))) \to^*C_1$
+> Initialisation: On a $\text{fact}(C_0)\to \text{if}((\text{eq\_0}(C_0))(C_1)(\text{mul}(C_0,\text{fact}(\text{sub}(C_0,1)))) \to^*C_1$
 > heredité : On suppose que $\text{fact}(C_n) \to^* C_{n!}$. On a alors
 >  $$
 \begin{align*}
@@ -316,7 +316,7 @@ $$
 > On pose $\text{is\_even} = (C\mapsto C(\text{not},\top))$
 > On pose $\text{div\_2} = (C\mapsto C(x\mapsto \text{if\_eq}(x,C)(x)(\text{sub}(x,1) )(C))$
 > On pose $\text{div\_2\_i} = (C\mapsto C(x\mapsto \text{if\_eq}(x,C)(x)(\text{sub}(x,1) )(\text{sub}(C,1)))$ (qui fait la division entière d'un nombre impaire)
-> On pose $$\text{pow\_rec} = (f,x,y\mapsto \text{if\_0}(y)(C_1)\Big(\text{if}(\text{is\_even}(y))\\(\text{mul}(f(x,\text{div\_2}(y)),f(x,\text{div\_2}(y))))\\(\text{mul}(x,\text{mul}(f(x,\text{div\_2\_i}(y)),f(x,\text{div\_2\_i}(y)))))\Big))$$
+> On pose $$\text{pow\_rec} = (f,x,y\mapsto \text{if}(\text{eq\_0}(y))(C_1)\Big(\text{if}(\text{is\_even}(y))\\(\text{mul}(f(x,\text{div\_2}(y)),f(x,\text{div\_2}(y))))\\(\text{mul}(x,\text{mul}(f(x,\text{div\_2\_i}(y)),f(x,\text{div\_2\_i}(y)))))\Big))$$
 > On montre que $\text{is\_even}(C_{2n}) \to^* \top$ et $\text{is\_even}(C_{2n+1 }) \to^* \bot$, que
 > $\text{div\_2}(C_{2n})\to^*C_n$ et $\text{div\_2\_i}(C_{2n+1})\to C_n$
 > Ainsi, on a bien le résultat. TODO: le faire  bien.
@@ -395,9 +395,9 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzUzNzg5NzUsMzkzMDc5NTE3LDExMj
-A2MTcyNTAsNzgzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAs
-MzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMD
-k0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwx
-MzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3MTBdfQ==
+eyJoaXN0b3J5IjpbLTc2NDYzMzQ1MiwzOTMwNzk1MTcsMTEyMD
+YxNzI1MCw3ODM1NzE4OSw2OTIxNjM0MywtMTc3ODY2OTM3MCwz
+MTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OTMwOT
+QxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OTU5Mzc5LDEz
+MjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcxMF19
 -->
