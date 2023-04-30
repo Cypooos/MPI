@@ -268,7 +268,7 @@ $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))
 > > Soit $x\in E$. Supposons que $\text{fix}(F)(x)\to^3 \alpha$. Alors forcément 
 $\text{fix}(F)(x) \to F(\text{fix}(F),x)\to^2 \alpha$. Donc $F = (a,b\mapsto \alpha)$. Donc $F(F)(x)\to\alpha$
 >
-> Heredité (pas très bien rédi:
+> Heredité (pas très bien rédigé, je n'aurai pas eu tout les points avec ce genre de rédaction):
 > > Supposons $P_{<n}$, et supposons que $\text{fix}(F)(x) \to^{n} \alpha$.
 > On a alors $\text{fix}(F)(x)\to F(\text{fix}(F),x) \to F[f\larr\text{fix}(F)](x)  \to^* \alpha$
 > >
@@ -278,13 +278,13 @@ $\text{fix}(F)(x) \to F(\text{fix}(F),x)\to^2 \alpha$. Donc $F = (a,b\mapsto \al
 > >
 > > On utilise donc notre hypothèse de récurrence forte pour $m$, et on a que il existe $n_r^i$ tel que $F[f_0\larr F^{n_r^i}][...][f_i\larr F^{n_r^i}](F)(x) \to^* e_{i+1}$
 > On pose alors $n_r = \max_{i\le k}(n_r^i)+1$, et on a que :
-> $$
+> > $$
 \begin{align*}
 F^{n_r}(F)(x) &\to F[f_0\larr F^{n_r -1}(F)][f_1\larr F^{n_r -1}(F)][...][f_k\larr F^{n_r -1}(F)](x)\\
 &\to^{n_r^0} e_0[f_1\larr F^{n_r -1}(F)][...][f_k\larr(F)](x)\\
 &\to^{n_r^1} e_1[...][f_k\larr F^{n_r -1}(F)](x)\\
 &\to^* e_k
-\end{align*}$$
+\end{align*}$$ Or $e_k = \alpha$ est un calcul normalisant, donc $P_n$ est vrai
 
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
@@ -382,7 +382,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MTQ0NTA2MCw2OTIxNjM0MywtMTc3OD
+eyJoaXN0b3J5IjpbMTM0OTA0NTM4Myw2OTIxNjM0MywtMTc3OD
 Y2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgs
 LTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OT
 U5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcx
