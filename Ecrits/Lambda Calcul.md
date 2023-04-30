@@ -222,10 +222,10 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 
 On définie une grammaire contextuelle représentant le lambda calcul :
-On pose $$
+On pose les règles suivante $(v_i\mapsto e)$
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDYzMTQ5NSwxNTY3MzU1MDIxLC0yMj
+eyJoaXN0b3J5IjpbLTEwODQ5Mzk4NywxNTY3MzU1MDIxLC0yMj
 k5OTM4MzYsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3Nzg1MDYz
 NCwtMzU2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwtOTMwMT
 czMDI3LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczODg3MDY3
