@@ -127,7 +127,7 @@ $$\text{fix}(f) \to f(\text{fix}(f))$$
 On appellera $e$ un point fixe de $f$ si $e=f(e)$
 
 16. Montrez que si $\text{fix}(f)$ et $\forall e\in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
-17. Donnez une expression $f$ telle que $\text{fix}(f)$ admette une forme normale. Quel est son point fixe ?
+17. Donnez une expression respectant les hypothèses de la question précédente. Quel est son point fixe ?
 18. (*) Donnez une expression $\Theta$ qui est un opérateur point-fixe.
 
 ## Récursivité
@@ -221,7 +221,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NDI2Nzk4NywxNDI0MTUzNzg4LDE3Mz
+eyJoaXN0b3J5IjpbLTIwNzA4NDgyMywxNDI0MTUzNzg4LDE3Mz
 g4NzA2NzQsLTM1NDU3MTg1NywxOTI1OTM5NzMyLDE5MTU0NTkx
 MTcsLTE0OTczMDc0MDIsLTEwMzk1MTc0OTMsLTE3NzkwNzk0OT
 ksODgyMTQ1NDM0LDE1MTIwMzMwNjgsLTE4NzkzNjc1OTQsNjc5
