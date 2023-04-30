@@ -282,6 +282,10 @@ $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 20. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
+
+> On le montre par récurrence: 
+> initialisation: On a 
+
 21. Donnez une expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$
 
 # Partie IV: Types
@@ -356,12 +360,13 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 35. Définir une grammaire hors contexte engendrant $E$
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 
-## Système F (dépend de 
+## 
+37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzYwMTI1LDY5MjE2MzQzLC0xNzc4Nj
-Y5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5NzczLDc3MzQ4ODA3OCwt
-Nzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3MzQxNjAxOSw0ODk5NT
-kzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMxOCwtNDE1MTU5NzEw
-XX0=
+eyJoaXN0b3J5IjpbLTEwMzcyMDUxMjYsNjkyMTYzNDMsLTE3Nz
+g2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4
+LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OT
+k1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3
+MTBdfQ==
 -->
