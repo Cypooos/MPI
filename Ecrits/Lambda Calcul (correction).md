@@ -314,7 +314,7 @@ $$
 
 21. Donnez une expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$ *(On posera ici que $0^0 = 1$)*
 > On pose $\text{is\_even} = (C\mapsto C(\text{not},\top))$
-> On pose $\text{div\_2} = (C\mapsto C()(C_0))$
+> On pose $\text{div\_2} = (C\mapsto C(x\mapsto )(\text{mul}(C,C_2)))$
 > On pose $\text{pow\_rec} = (f,x,y\mapsto \text{if\_0}(y)(C_1)\Big(\text{if}(\text{is\_even}(y))(\text{mul(f(x})\Big)$
 
 # Partie IV: Types
@@ -393,9 +393,9 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxODQxNCw2OTIxNjM0MywtMTc3ODY2OT
-M3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgsLTc4
-OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OTU5Mz
-c5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcxMF19
-
+eyJoaXN0b3J5IjpbNzgzNTcxODksNjkyMTYzNDMsLTE3Nzg2Nj
+kzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03
+ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OT
+M3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3MTBd
+fQ==
 -->
