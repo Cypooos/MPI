@@ -137,7 +137,7 @@ On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'
 $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
 
 
-Avec $\alpha$ qui est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
+On appellera le plus petit $n_r$ avec $\alpha$ sous forme normale le *nombre d'appels récursif* de $F(x)$.
 
 ## Quelques exemples
 On définit :
@@ -222,11 +222,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0MjEyMzM2LDQ4NTQwNjY1MiwtMTc3OD
-UwNjM0LC0zNTY3NDg2NCw2OTQ5OTU1MjQsMzIwMjkwNDAxLC05
-MzAxNzMwMjcsLTExNTU5NTExNjMsMTQyNDE1Mzc4OCwxNzM4OD
-cwNjc0LC0zNTQ1NzE4NTcsMTkyNTkzOTczMiwxOTE1NDU5MTE3
-LC0xNDk3MzA3NDAyLC0xMDM5NTE3NDkzLC0xNzc5MDc5NDk5LD
-g4MjE0NTQzNCwxNTEyMDMzMDY4LC0xODc5MzY3NTk0LDY3OTgx
-MzE4Ml19
+eyJoaXN0b3J5IjpbMjA4OTMzODAyMiw0ODU0MDY2NTIsLTE3Nz
+g1MDYzNCwtMzU2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwt
+OTMwMTczMDI3LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczOD
+g3MDY3NCwtMzU0NTcxODU3LDE5MjU5Mzk3MzIsMTkxNTQ1OTEx
+NywtMTQ5NzMwNzQwMiwtMTAzOTUxNzQ5MywtMTc3OTA3OTQ5OS
+w4ODIxNDU0MzQsMTUxMjAzMzA2OCwtMTg3OTM2NzU5NCw2Nzk4
+MTMxODJdfQ==
 -->
