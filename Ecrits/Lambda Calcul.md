@@ -125,9 +125,10 @@ $$\text{fix}(f) \to f(\text{fix}(f))$$
 15. Montrez que $\text{fix}(f)$ n'est pas unitaire.
 
 On appellera $e$ un point fixe de $f$ si $e=f(e)$
-
-16. Montrez que si $\text{fix}(f)$ et $\forall e\in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
-17. Donnez une expression respectant les hypothèses de la question précédente. Quel est son point fixe ?
+> Mauvaises questions
+> 
+> 16. Montrez que si $\text{fix}(f)$ admet une forme normale, alors $f$ admet un point fixe.
+> 17. Donnez une expression respectant les hypothèses de la question précédente. Quel est son point fixe ?
 18. (*) Donnez une expression $\Theta$ qui est un opérateur point-fixe.
 
 ## Récursivité
@@ -221,11 +222,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzA4NDgyMywxNDI0MTUzNzg4LDE3Mz
-g4NzA2NzQsLTM1NDU3MTg1NywxOTI1OTM5NzMyLDE5MTU0NTkx
-MTcsLTE0OTczMDc0MDIsLTEwMzk1MTc0OTMsLTE3NzkwNzk0OT
-ksODgyMTQ1NDM0LDE1MTIwMzMwNjgsLTE4NzkzNjc1OTQsNjc5
-ODEzMTgyLC01MDY1NzU0NDYsMTY2MTUxNzg3LDYyMzQwMTEyOC
-wtOTQ0MDQwMTYzLC01ODkwNzA5NzgsLTE4MzE4MDIxNjcsLTE4
-Mzk2NDA3MzRdfQ==
+eyJoaXN0b3J5IjpbLTExNTU5NTExNjMsMTQyNDE1Mzc4OCwxNz
+M4ODcwNjc0LC0zNTQ1NzE4NTcsMTkyNTkzOTczMiwxOTE1NDU5
+MTE3LC0xNDk3MzA3NDAyLC0xMDM5NTE3NDkzLC0xNzc5MDc5ND
+k5LDg4MjE0NTQzNCwxNTEyMDMzMDY4LC0xODc5MzY3NTk0LDY3
+OTgxMzE4MiwtNTA2NTc1NDQ2LDE2NjE1MTc4Nyw2MjM0MDExMj
+gsLTk0NDA0MDE2MywtNTg5MDcwOTc4LC0xODMxODAyMTY3LC0x
+ODM5NjQwNzM0XX0=
 -->
