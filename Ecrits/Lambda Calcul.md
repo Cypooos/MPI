@@ -126,8 +126,8 @@ $$\text{fix}(f) \to f(\text{fix}(f))$$
 
 On appellera $e$ un point fixe de $f$ si $e=f(e)$
 
-16. Montrez que si $\exist!e\in E,\ \text{fix}(f)\to^* e$, alors $f$ admet un point fixe.
-17. Donnez une expression $f$ telle que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
+16. Montrez que si $\text{fix}(f)$ admet une forme normale, alors $f$ admet un point fixe.
+17. Donnez une expression $f$ telle qu'elle admette une forme normale. Quel est son point fixe ?
 18. (*) Donnez une expression $\Theta$ qui est un opérateur point-fixe.
 
 ## Récursivité
@@ -221,11 +221,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDkxMjc2MCwtMzU0NTcxODU3LDE5Mj
-U5Mzk3MzIsMTkxNTQ1OTExNywtMTQ5NzMwNzQwMiwtMTAzOTUx
-NzQ5MywtMTc3OTA3OTQ5OSw4ODIxNDU0MzQsMTUxMjAzMzA2OC
-wtMTg3OTM2NzU5NCw2Nzk4MTMxODIsLTUwNjU3NTQ0NiwxNjYx
-NTE3ODcsNjIzNDAxMTI4LC05NDQwNDAxNjMsLTU4OTA3MDk3OC
-wtMTgzMTgwMjE2NywtMTgzOTY0MDczNCwxMTYwODg0NTg1LDE1
-MjI3NTg0MzZdfQ==
+eyJoaXN0b3J5IjpbLTczNzgzNDMyLC0zNTQ1NzE4NTcsMTkyNT
+kzOTczMiwxOTE1NDU5MTE3LC0xNDk3MzA3NDAyLC0xMDM5NTE3
+NDkzLC0xNzc5MDc5NDk5LDg4MjE0NTQzNCwxNTEyMDMzMDY4LC
+0xODc5MzY3NTk0LDY3OTgxMzE4MiwtNTA2NTc1NDQ2LDE2NjE1
+MTc4Nyw2MjM0MDExMjgsLTk0NDA0MDE2MywtNTg5MDcwOTc4LC
+0xODMxODAyMTY3LC0xODM5NjQwNzM0LDExNjA4ODQ1ODUsMTUy
+Mjc1ODQzNl19
 -->
