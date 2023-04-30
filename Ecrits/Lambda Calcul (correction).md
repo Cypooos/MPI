@@ -314,7 +314,8 @@ $$
 
 21. Donnez une expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$ *(On posera ici que $0^0 = 1$)*
 > On pose $\text{is\_even} = (C\mapsto C(\text{not},\top))$
-> On pose $\text{pow\_rec} = (f,x,y\mapsto \text{if\_0}(y)(C_1)\Big(\text{if}(\text{is\_even}(y))(\text{mul})\Big)$
+> On pose $\text{div\_2} = (C\mapsto C()(C_0))$
+> On pose $\text{pow\_rec} = (f,x,y\mapsto \text{if\_0}(y)(C_1)\Big(\text{if}(\text{is\_even}(y))(\text{mul(f(x})\Big)$
 
 # Partie IV: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -392,9 +393,9 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0OTA2MjU5LDY5MjE2MzQzLC0xNzc4Nj
-Y5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5NzczLDc3MzQ4ODA3OCwt
-Nzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3MzQxNjAxOSw0ODk5NT
-kzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMxOCwtNDE1MTU5NzEw
-XX0=
+eyJoaXN0b3J5IjpbNTMxODQxNCw2OTIxNjM0MywtMTc3ODY2OT
+M3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgsLTc4
+OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OTU5Mz
+c5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcxMF19
+
 -->
