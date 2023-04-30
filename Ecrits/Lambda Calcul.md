@@ -124,10 +124,10 @@ $$\text{fix}(f) \to f(\text{fix}(f))$$
 
 15. Montrez que $\text{fix}(f)$ n'est pas unitaire.
 
-On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
+On appellera $e$ sous forme normale un point fixe de $f$ si $f(e)\to^* e$
 
 16. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
-17. Soit $e\in E$. Donnez une expression $f$ respectant les hypothèses de la question précédente de point fixe $e$
+17. Soit $e\in E$. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
 18. (*) Donnez une expression $\Theta$ qui est un opérateur point-fixe.
 
 ## Récursivité
@@ -221,7 +221,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODcxMzQ5NywzMjAyOTA0MDEsLTkzMD
+eyJoaXN0b3J5IjpbMTIwMjY1NTkwOCwzMjAyOTA0MDEsLTkzMD
 E3MzAyNywtMTE1NTk1MTE2MywxNDI0MTUzNzg4LDE3Mzg4NzA2
 NzQsLTM1NDU3MTg1NywxOTI1OTM5NzMyLDE5MTU0NTkxMTcsLT
 E0OTczMDc0MDIsLTEwMzk1MTc0OTMsLTE3NzkwNzk0OTksODgy
