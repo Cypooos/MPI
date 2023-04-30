@@ -317,8 +317,9 @@ $$
 > On pose $\text{div\_2} = (C\mapsto C(x\mapsto \text{if\_eq}(x,C)(x)(\text{sub}(x,1) )(C))$
 > On pose $\text{div\_2\_i} = (C\mapsto C(x\mapsto \text{if\_eq}(x,C)(x)(\text{sub}(x,1) )(\text{sub}(C,1)))$ (qui fait la division entière d'un nombre impaire)
 > On pose $$\text{pow\_rec} = (f,x,y\mapsto \text{if\_0}(y)(C_1)\Big(\text{if}(\text{is\_even}(y))\\(\text{mul}(f(x,\text{div\_2}(y)),f(x,\text{div\_2}(y))))\\(\text{mul}(x,\text{mul}(f(x,\text{div\_2\_i}(y)),f(x,\text{div\_2\_i}(y)))))\Big)$$
-> On montre que $\text{is\_even}(C_{2\times n}) \to^* \top$ et $\text{is\_even}(C_{1+2\times n }) \to^* \bot$, que
-> $\text{div\_2}(C$
+> On montre que $\text{is\_even}(C_{2n}) \to^* \top$ et $\text{is\_even}(C_{2n+1 }) \to^* \bot$, que
+> $\text{div\_2}(C_{2n})\to^*C_n$ et $\text{div\_2\_i}(C_{2n+1})\to C_n$
+> Ainsi, on a bien le résultat. TODO: le faire.
 
 # Partie IV: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -396,9 +397,9 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMjIzNjMxOSwxMTIwNjE3MjUwLDc4Mz
-U3MTg5LDY5MjE2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwy
-MDM5Mzk5NzczLDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMjA5NT
-I2MSwtMTA3MzQxNjAxOSw0ODk5NTkzNzksMTMyODIzODQ3MCwt
-MTg3NTg1MjMxOCwtNDE1MTU5NzEwXX0=
+eyJoaXN0b3J5IjpbLTE5Mzc3MTUyMDUsMTEyMDYxNzI1MCw3OD
+M1NzE4OSw2OTIxNjM0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYs
+MjAzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOT
+UyNjEsLTEwNzM0MTYwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzAs
+LTE4NzU4NTIzMTgsLTQxNTE1OTcxMF19
 -->
