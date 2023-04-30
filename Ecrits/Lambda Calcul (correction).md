@@ -134,7 +134,7 @@ $$\begin{align*}
 &\to^* \bot
 \end{align*}$$
 >  
-> NB: $\text{and} = (x,y\mapsto x(y(\top,\bot),\bot))$ fonctionne aussi. Directement évalué un booléen par $e,e'$ est ce que fais $\text{if}$, on l'a juste directement simplifié
+> NB: $\text{and} = (x,y\mapsto x(y(\top,\bot),\bot))$ fonctionne aussi. Directement évaluer un booléen par $e,e'$ est ce que fais $\text{if}$, ici on l'a juste directement simplifié.
 
 ## Entiers de Church
 
@@ -397,7 +397,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwNDQxMDEzLDExMjA2MTcyNTAsNzgzNT
+eyJoaXN0b3J5IjpbNDYwMjUxNTk4LDExMjA2MTcyNTAsNzgzNT
 cxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIw
 MzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMDk1Mj
 YxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0x
