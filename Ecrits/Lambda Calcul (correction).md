@@ -1,4 +1,4 @@
-# Etude du Lambda Calcul
+# Etude du Lambda Calcul (corrigé)
 
 Ce sujet est difficile et long, et balaye les chapitres de Logique, Grammaire, Graphes.
 
@@ -244,7 +244,7 @@ On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 > On écrit $\text{fix}(f)\to^n e$. Mais on a aussi: $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e) \to^* p$ qui est un calcul normalisant par hypothèse. Par l'unicité de la forme normale de $\text{fix}(f)$, $e=p$, donc on a $f(e) \to^* e$
 
 17. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
-> Soit $e$ sou forme normale. On peut donner $K(e)$.
+> Soit $e$ sous forme normale. On peut donner $K(e)$.
 > En effet, on a pour $n>0$, que de $(K(e))^n\text{fix}(K(e))$, les seuls dérivations possibles sont $e$ ou $(K(I))^{n+1}\text{fix}(K(e))$.
 > Alors on a bien que pour tout calcul normalisant $\text{fix}(K(e)) \to^n a$, 
 > $\text{fix}(K(e)) \to K(e)(\text{fix}(K(e)))\to ... \to (K(e))^{n-1}(\text{fix}(K(e)))\to e$ la seule possibilité de longueur $n$
@@ -263,7 +263,7 @@ On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'
 19. Montrez que, $\forall x\in E$,
 $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x) = F^{n_r-1}(F)(x)\to^*\alpha$$
 
-> TODO: Meilleur rédaction. Pas ouf.
+> TODO: Meilleur rédaction. Pas ouf. Peut-être pas par récurrence...
 > On le fait par récurrence forte. On pose pour $n>2$ :$$P_n : «\ \forall x \in E, \text{fix}(F)(x) \to^n \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha\ »$$
 > Initialisation :
 > > Soit $x\in E$. Supposons que $\text{fix}(F)(x)\to^3 \alpha$. Alors forcément 
@@ -397,9 +397,9 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzc3MTUyMDUsMTEyMDYxNzI1MCw3OD
-M1NzE4OSw2OTIxNjM0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYs
-MjAzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOT
-UyNjEsLTEwNzM0MTYwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzAs
-LTE4NzU4NTIzMTgsLTQxNTE1OTcxMF19
+eyJoaXN0b3J5IjpbNjQwNDQxMDEzLDExMjA2MTcyNTAsNzgzNT
+cxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIw
+MzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMDk1Mj
+YxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0x
+ODc1ODUyMzE4LC00MTUxNTk3MTBdfQ==
 -->
