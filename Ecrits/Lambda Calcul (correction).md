@@ -250,7 +250,7 @@ On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 > $\text{fix}(K(e)) \to K(e)(\text{fix}(K(e)))\to ... \to (K(e))^{n-1}(\text{fix}(K(e)))\to e$ la seule possibilité de longueur $n$
 > 
 > Le point fixe ici est $e$: $K(e)(e) = e$
-19. (*) Donnez une expression $\Theta$ qui est un opérateur point-fixe.
+19. (*) Donnez une expression $\Theta = (x\mapsto e)$ tel que $\Theta(f) \to^* f(e[x\larr f])$
 
 > Bravo si vous l'avez réussie ! Vraiment, vraiment, vraiment pas facile.
 > On peut donner $\Theta = (f\mapsto\Big((x\mapsto f(x(x)))(x\mapsto f(x(x)))\Big))$
@@ -397,9 +397,9 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMDc5NTE3LDExMjA2MTcyNTAsNzgzNT
-cxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIw
-MzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMDk1Mj
-YxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0x
-ODc1ODUyMzE4LC00MTUxNTk3MTBdfQ==
+eyJoaXN0b3J5IjpbMjc2NjM3MDk5LDM5MzA3OTUxNywxMTIwNj
+E3MjUwLDc4MzU3MTg5LDY5MjE2MzQzLC0xNzc4NjY5MzcwLDMx
+NDM4NDYxNiwyMDM5Mzk5NzczLDc3MzQ4ODA3OCwtNzg5MzA5ND
+E4LDczMjA5NTI2MSwtMTA3MzQxNjAxOSw0ODk5NTkzNzksMTMy
+ODIzODQ3MCwtMTg3NTg1MjMxOCwtNDE1MTU5NzEwXX0=
 -->
