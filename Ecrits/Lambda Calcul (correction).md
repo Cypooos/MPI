@@ -241,11 +241,11 @@ $$\text{fix}(f) \to f(\text{fix}(f))$$
 On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
 16. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
-> On écrit $\text{fix}(f)\to^n e$. Mais on a aussi: $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e)$ qui est un calcul normalisant par hypothèse. Par l'unicité de la forme normale de $\text{fix}(f)$, $f(e)=e$
+> On écrit $\text{fix}(f)\to^n e$. Mais on a aussi: $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e) \to^* p$ qui est un calcul normalisant par hypothèse. Par l'unicité de la forme normale de $\text{fix}(f)$, $e=p$, donc on a $f(e) \to^* e$
 
-18. Donnez une expression $f$ telle que $\exist!e\in E,\ \text{fix}(f)\to^* e$. Quel est son point fixe ?
-> Soit $e\in E$. On peut donner $K(e)$.
-> En effet, on a pour $n>0$, que de $(K(I))^n\text{fix}(K(e))$, les seuls dérivations possibles sont $e$ ou $(K(I))^{n+1}\text{fix}(K(e))$.
+17. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
+> Soit $e$ sou forme normale. On peut donner $K(e)$.
+> En effet, on a pour $n>0$, que de $(K(e))^n\text{fix}(K(e))$, les seuls dérivations possibles sont $e$ ou $(K(I))^{n+1}\text{fix}(K(e))$.
 > Alors on a bien que pour tout calcul $\text{fix}(K(e)) \to^n a$, 
 > $\text{fix}(K(e)) \to K(e)(\text{fix}(K(e)))\to ... \to (K(e))^{n-1}(\text{fix}(K(e)))\to e$ la seule possibilité de longueur $n$
 > 
@@ -357,7 +357,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzg1NTQ1MjYsLTE3Nzg2NjkzNzAsMz
+eyJoaXN0b3J5IjpbLTEyOTY5MzAzMTMsLTE3Nzg2NjkzNzAsMz
 E0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0
 MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMz
 I4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3MTBdfQ==
