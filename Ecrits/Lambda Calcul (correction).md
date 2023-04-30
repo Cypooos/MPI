@@ -232,7 +232,7 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 ## L'opérateur Point-fixe
 
 On dit que $\text{fix}$ est un opérateur point-fixe si il est sous forme normale et que, pour tout $f\in E$, on a :
-$$\text{fix}(f) \to f(\text{fix}(f))$$
+$$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
 15. Montrez que $\text{fix}(f)$ n'est pas unitaire.
 
@@ -357,8 +357,8 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjA0NjQ3NSwtMTc3ODY2OTM3MCwzMT
-QzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OTMwOTQx
-OCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OTU5Mzc5LDEzMj
-gyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcxMF19
+eyJoaXN0b3J5IjpbNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMzE0Mz
+g0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0MTgs
+NzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMzI4Mj
+M4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3MTBdfQ==
 -->
