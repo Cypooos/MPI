@@ -119,7 +119,7 @@ qui représente un couple $(x,y)$
 Le but de cette partie est de pouvoir faire des fonctions récursives.
 ## L'opérateur Point-fixe
 
-On dit que $\text{fix} = (x\mapsto e)$ est un opérateur point-fixe si il est sous forme normale et que, pour tout $f\in E$, on a :
+On dit que $\text{fix}$ est un opérateur point-fixe si il est sous forme normale et que, pour tout $f\in E$, on a :
 $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
 15. Montrez que $\text{fix}(f)$ n'est pas unitaire.
@@ -221,7 +221,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjE4MDE4MSwtMTc3ODUwNjM0LC0zNT
+eyJoaXN0b3J5IjpbLTE3Nzg1MDYzNCwtMTc3ODUwNjM0LC0zNT
 Y3NDg2NCw2OTQ5OTU1MjQsMzIwMjkwNDAxLC05MzAxNzMwMjcs
 LTExNTU5NTExNjMsMTQyNDE1Mzc4OCwxNzM4ODcwNjc0LC0zNT
 Q1NzE4NTcsMTkyNTkzOTczMiwxOTE1NDU5MTE3LC0xNDk3MzA3
