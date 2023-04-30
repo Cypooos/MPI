@@ -273,7 +273,8 @@ $\text{fix}(F)(x) \to F(\text{fix}(F),x)\to^2 \alpha$. Donc $F = (a,b\mapsto \al
 > On a alors $\text{fix}(F)(x)\to F(\text{fix}(F),x) \to F[f\larr\text{fix}(F)](x)$
 > >
 > > On appelle $k$ le nombre d'apparition de $f$ dans $F$.
-> Pour la $i$ème apparition de $f$ dans $F$ que l'on note $f_i$, on a que $F[f_i\larr\text{fix}(F)](x) \to^m e$ un calcul normalisant en $m<n$ étapes.
+> Pour la $i$ème apparition de $f$ dans $F$ que l'on note $f_i$, on a que :
+> $F[f_0\larr\text{fix}(F)][...][f_i\larr\text{fix}(F)](x) \to^m e$ un calcul normalisant en $m<n$ étapes.
 > >
 > > On utilise donc notre hypothèse de récurrence forte pour $m$, et on a que il existe $n_r^i$ tel que $F[f_0\larr F^{n_r^i}][...][f_i\larr F^{n_r^i}](F)(x) \to^* e_{i+1}$
 > On pose alors $n_r = \max_{i\le k}(n_r^i)+1$, et on a que :
@@ -381,7 +382,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjg3NjI1MSw2OTIxNjM0MywtMTc3OD
+eyJoaXN0b3J5IjpbMTE0MTUwNjM4MCw2OTIxNjM0MywtMTc3OD
 Y2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgs
 LTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OT
 U5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcx
