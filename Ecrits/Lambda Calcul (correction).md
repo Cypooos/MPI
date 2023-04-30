@@ -279,9 +279,9 @@ $\text{fix}(F)(x) \to F(\text{fix}(F),x)\to^2 \alpha$. Donc $F = (a,b\mapsto \al
 > On pose alors $n_r = \max_{i\le k}(n_r^i)+1$, et on a que :
 > $$
 \begin{align*}
-F^{n_r}(F)(x) &\to F[f_0\larr(F)][f_1\larr(F)][...][f_k\larr(F)](x)\\
-&\to^{n_r^0} e_0[f_1\larr(F)][...][f_k\larr(F)](x)\\
-&\to^{n_r^1} e_1[...][f_k\larr(F)](x)\\
+F^{n_r}(F)(x) &\to F[f_0\larr F^{n_r -1}(F)][f_1\larr F^{n_r -1}(F)][...][f_k\larr F^{n_r -1}(F)](x)\\
+&\to^{n_r^0} e_0[f_1\larr F^{n_r -1}(F)][...][f_k\larr(F)](x)\\
+&\to^{n_r^1} e_1[...][f_k\larr F^{n_r -1}(F)](x)\\
 &\to^* e_k
 \end{align*}$$
 
@@ -381,9 +381,9 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTk2MTA2MzAsNjkyMTYzNDMsLTE3Nz
-g2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4
-LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OT
-k1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3
-MTBdfQ==
+eyJoaXN0b3J5IjpbMTkxMjg3NjI1MSw2OTIxNjM0MywtMTc3OD
+Y2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgs
+LTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OT
+U5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcx
+MF19
 -->
