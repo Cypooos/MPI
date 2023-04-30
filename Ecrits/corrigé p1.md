@@ -127,7 +127,7 @@ $$\begin{align*}
 &\to^2 \text{if}(\bot,\text{if}(b',\top,\bot),\bot) \\
 &\to^* \bot
 \end{align*}
-$$Sinon si $b'=\bot$ et $b=\top$ (ce qui conclu tout les cas) :
+$$Sinon si $b'=\bot$ et $b=\top$ (ce qui conclut tous les cas) :
 $$\begin{align*}
 \text{and}(\top,\bot) &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\top,\bot) \\
 &\to^2 \text{if}(\top,\text{if}(\bot,\top,\bot),\bot) \\
@@ -135,7 +135,7 @@ $$\begin{align*}
 &\to^* \bot
 \end{align*}$$
 >  
-> NB: $\text{and} = (x,y\mapsto x(y(\top,\bot),\bot))$ fonctionne aussi. Directement évalué un booléen par $e,e'$ est ce que fais $\text{if}$, on l'a juste directement simplifié
+> NB: $\text{and} = (x,y\mapsto x(y(\top,\bot),\bot))$ fonctionne aussi. Directement évaluer un booléen par $e,e'$ est ce que fais $\text{if}$, ici on l'a juste directement simplifié.
 
 ## Entiers de Church
 
@@ -197,5 +197,5 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\ma
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTc4ODc3NywxMTEwNDM0OTcwXX0=
+eyJoaXN0b3J5IjpbLTIwNzQzMzgwOTksMTExMDQzNDk3MF19
 -->
