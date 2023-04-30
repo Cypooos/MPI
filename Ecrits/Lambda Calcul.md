@@ -120,7 +120,7 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 ## L'opérateur Point-fixe
 
 On dit que $\text{fix}$ est un opérateur point-fixe si il est sous forme normale et que, pour tout $f\in E$, on a :
-$$\text{fix}(f) \to f(\text{fix}(f))$$
+$$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
 15. Montrez que $\text{fix}(f)$ n'est pas unitaire.
 
@@ -221,11 +221,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0OTk1NTI0LDMyMDI5MDQwMSwtOTMwMT
-czMDI3LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczODg3MDY3
-NCwtMzU0NTcxODU3LDE5MjU5Mzk3MzIsMTkxNTQ1OTExNywtMT
-Q5NzMwNzQwMiwtMTAzOTUxNzQ5MywtMTc3OTA3OTQ5OSw4ODIx
-NDU0MzQsMTUxMjAzMzA2OCwtMTg3OTM2NzU5NCw2Nzk4MTMxOD
-IsLTUwNjU3NTQ0NiwxNjYxNTE3ODcsNjIzNDAxMTI4LC05NDQw
-NDAxNjNdfQ==
+eyJoaXN0b3J5IjpbLTM1Njc0ODY0LDY5NDk5NTUyNCwzMjAyOT
+A0MDEsLTkzMDE3MzAyNywtMTE1NTk1MTE2MywxNDI0MTUzNzg4
+LDE3Mzg4NzA2NzQsLTM1NDU3MTg1NywxOTI1OTM5NzMyLDE5MT
+U0NTkxMTcsLTE0OTczMDc0MDIsLTEwMzk1MTc0OTMsLTE3Nzkw
+Nzk0OTksODgyMTQ1NDM0LDE1MTIwMzMwNjgsLTE4NzkzNjc1OT
+QsNjc5ODEzMTgyLC01MDY1NzU0NDYsMTY2MTUxNzg3LDYyMzQw
+MTEyOF19
 -->
