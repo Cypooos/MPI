@@ -263,6 +263,7 @@ On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'
 19. Montrez que, $\forall x\in E$,
 $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x) = F^{n_r-1}(F)(x)\to^*\alpha$$
 
+> TODO: Meilleur rédaction. Pas ouf.
 > On le fait par récurrence forte. On pose pour $n>2$ :$$P_n : «\ \forall x \in E, \text{fix}(F)(x) \to^n \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha\ »$$
 > Initialisation :
 > > Soit $x\in E$. Supposons que $\text{fix}(F)(x)\to^3 \alpha$. Alors forcément 
@@ -299,10 +300,12 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 20. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 
 > On le montre par récurrence: 
-> Initialisation:
-> > On a $\text{fact}(C_0)\to \text{if0}(C_0)(C_1)(\text{mul}(C_0,\text{fact}(\text{sub}(x,1)))) \to^*C_1$
-> 
+> Initialisation: On a $\text{fact}(C_0)\to \text{if0}(C_0)(C_1)(\text{mul}(C_0,\text{fact}(\text{sub}(x,1)))) \to^*C_1$
 > heredité : On suppose que $\text{fact}(C_n) \to^* C_{n!}$. On a alors
+>  $$
+\begin{align*}
+\text{fact}(C_{n+1}) &\to^*  \text{if0}(C_{n+1})(C_1)(\text{mul}(C_0,\text{fact}(\text{sub}(x,1))))
+$$
 
 21. Donnez une expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$
 
@@ -382,9 +385,9 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NDU4NTE3NCw2OTIxNjM0MywtMTc3OD
-Y2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgs
-LTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OT
-U5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcx
-MF19
+eyJoaXN0b3J5IjpbLTExNzMyMzQ4NTQsNjkyMTYzNDMsLTE3Nz
+g2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4
+LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OT
+k1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3
+MTBdfQ==
 -->
