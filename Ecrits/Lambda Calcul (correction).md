@@ -312,7 +312,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 \end{align*}
 $$
 
-21. (*) Donnez une expression $\text{pow}$ tel que, soit $n,m\in\N$, on ai $\text{pow}(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. Un *(On posera ici que $0^0 = 1$)*
+21. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On utillisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
 > On pose $\text{is\_even} = (C\mapsto C(\text{not},\top))$
 > On pose $\text{div\_2} = (C\mapsto C(x\mapsto \text{if\_eq}(x,C)(x)(\text{sub}(x,1) )(C))$
 > On pose $\text{div\_2\_i} = (C\mapsto C(x\mapsto \text{if\_eq}(x,C)(x)(\text{sub}(x,1) )(\text{sub}(C,1)))$ (qui fait la division entière d'un nombre impaire)
@@ -394,7 +394,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 37.
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MzU3ODc1Myw3ODM1NzE4OSw2OTIxNj
+eyJoaXN0b3J5IjpbMTEyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNj
 M0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3
 NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MT
 YwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgs
