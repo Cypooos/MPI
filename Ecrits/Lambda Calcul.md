@@ -142,7 +142,7 @@ Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre 
 ## Quelques exemples
 On définit :
 $$
-\text{fact\_rec} = (f,x\mapsto \text{if0}(x)(C_1)(\text{mul}(x,f(\text{sub}(x,1)))))
+\text{fact\_rec} = (f,x\mapsto \text{if\_0}(x)(C_1)(\text{mul}(x,f(\text{sub}(x,1)))))
 $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
@@ -230,11 +230,11 @@ On pose les règles suivantes :
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzk1NTk2NjIsMTU2NzM1NTAyMSwtMj
-I5OTkzODM2LDExMjIwMTU2ODcsNDg1NDA2NjUyLC0xNzc4NTA2
-MzQsLTM1Njc0ODY0LDY5NDk5NTUyNCwzMjAyOTA0MDEsLTkzMD
-E3MzAyNywtMTE1NTk1MTE2MywxNDI0MTUzNzg4LDE3Mzg4NzA2
-NzQsLTM1NDU3MTg1NywxOTI1OTM5NzMyLDE5MTU0NTkxMTcsLT
-E0OTczMDc0MDIsLTEwMzk1MTc0OTMsLTE3NzkwNzk0OTksODgy
-MTQ1NDM0XX0=
+eyJoaXN0b3J5IjpbLTE3MjQ2NTg4OSwxNTY3MzU1MDIxLC0yMj
+k5OTM4MzYsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3Nzg1MDYz
+NCwtMzU2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwtOTMwMT
+czMDI3LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczODg3MDY3
+NCwtMzU0NTcxODU3LDE5MjU5Mzk3MzIsMTkxNTQ1OTExNywtMT
+Q5NzMwNzQwMiwtMTAzOTUxNzQ5MywtMTc3OTA3OTQ5OSw4ODIx
+NDU0MzRdfQ==
 -->
