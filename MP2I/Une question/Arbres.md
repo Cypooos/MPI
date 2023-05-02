@@ -26,7 +26,12 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 
 ## Arbre parfaits
+> *INFO 1 2023 MINES MPI*
+
+On dit que la hauteur de l'abre nul est -1.
+1. Rappelez la définition d'un arbre parfait
+2. Démontrez que tout arbre parfait de hauteur
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MzE2NTc5OSwtMTAwNzQ4ODA5MSwxOT
+eyJoaXN0b3J5IjpbLTE2Njg4ODg1MiwtMTAwNzQ4ODA5MSwxOT
 cwODYzMzc1XX0=
 -->
