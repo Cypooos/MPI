@@ -49,19 +49,7 @@ int q11(int* liste,int n,int k) {
 16. Qu'est-ce qu'un *inode* (nœuds d’index) dans un système de fichier ?
 17. Différence entre un lien symbolique et physique ?
 18. Qu'est-ce qu'une instruction atomique ?
-19. Différence e## S-001
-> Oraux J1 Ulm 2021
-
-1) Rappeler ce qu’est un arbre binaire de recherche.
-2) Quelle en est l’utilité ? 
-3) nte ants  en O(1)Donne le la fonction d’insertion dans un arbre binaire de recherche. 
-4) Discuter de sa complexité en temps.
-
-## S-002
-> Oraux J2 Ulm 2021
-1) Différence entre structure de donnée persistante et impérative
-2) Définition d'une file
-3) Implémentation d'une file persistantre mutex et sémaphore. Notion de section critique.
+19. Différence entre mutex et sémaphore. Notion de section critique.
 20. Donnez un exemple d'algorithme qui donnera une situation d'interblocage possiblement avec 2 threads.
 21. Quel est le problème du diner des philosophe ?
 22. Algorithme de Peterson pour une implémentation des mutex avec 2 threads.
@@ -87,16 +75,9 @@ int main() {
 28. Qu'est-ce qu'une structure de donnée abstraite ? Donnez une structure de donnée abstraite représentant une hashmap (un dictionnaire).
 29. Qu'est-ce qu'une liste ? Une liste doublement chainé ? Donner une implémentation d'une liste doublement chainé en C stoquants des `int`. 
 30. Qu'est-ce qu'une liste cyclique ? Algorithme du lièvre et de la tortue pour savoir si une liste est cyclique.
-31. Donnez une implémentation possible de liste à l'aide de tableau grandissen ocaml 
-4) Déduire implémentation impérative
-
-## S-003*
-> Oraux A3 - Q5 Ulm 2021
-
-Proposer une structure de données pour stocker un ensemble d’entiers S qui supporte les opérations suivantes en Ocaml.
+31. Donnez une implémentation possible de liste à l'aide de tableau grandissants en Ocaml.
 32. Qu'est-ce qu'une file ? Une pile ? Implémentez une file en ocaml à l'aide de deux listes. Quelle est le cout amorti de `ajouter` et de `retirer` ?
-33. **Donnez une structure de donnée permettant de stoquer des sous-ensembles de $[\![0;n]\!]$. Les opérations d'ajout et de retrait d'élément se feront:
-  — Ajouter un entier dans S, en $O(1)$, l’initialisation en $O(n)$**
+33. **Donnez une structure de donnée permettant de stoquer des sous-ensembles de $[\![0;n]\!]$. Les opérations d'ajout et de retrait d'élément se feront en $O(1)$, l’initialisation en $O(n)$**
 34. Définir un arbre. Un arbre binaire. Sa hauteur et sa largeur. La hauteur d'un nœud. Une foret. Donnez un type en C et en Ocaml. 
 35. **Nombre d'arbre possible avec $n$ sommets ?** 
 36. **Nombre d'arbre binaire possible avec $n$ sommets ?** 
@@ -115,18 +96,7 @@ Proposer une structure de données pour stocker un ensemble d’entiers S qui su
 48. On note $\sim$ la relation d'existance d'un chemin entre deux sommets. Montrez que cela définie bien une relation d'équivalence. Que représente les classes d'équivalence ?
 49. Montrez que $G=(S,A)$ est un arbre, ssi pour tout paires $a,b\in S$ il existe un unique chemin de $a$ à $b$ sans cycle
 50. Montrez que $\sum_{s\in S} \deg (s) = |A|/2$
-51. Quelle est la structure unir et retrouver ? ;
-  — Retirer un entier de S, en O(1);
-  — Parcourir les entiers actuellement stockés dans S, en O(|S|).
-
-On suppose que les entiers en question sont tous entre 0 et M.
-
-Écrire le pseudocode pour ces opérations.
-
-## S-004
-> Oraux P2 - Ulm 2021
-
-Donnezr les optimisations de compression de chemin et de réunir à la plus grande racine. **La complexité amortie est $O(\alpha(n))$ où $\alpha = \{x\mapsto A(x,x)\}^{-1}$ avec $A$ la fonction d'Ackermann**
+51. Quelle est la structure unir et retrouver ? Donnez les optimisations de compression de chemin et de réunir à la plus grande racine. **La complexité amortie est $O(\alpha(n))$ où $\alpha = \{x\mapsto A(x,x)\}^{-1}$ avec $A$ la fonction d'Ackermann**
 52. Recherche d'un arbre couvrant de poids minimal (Algorithme de Kruskal). Preuve de sa correction et terminaison. **Complexité en $O(\log^*(n))$, en pratique O(1)**
 
 ## Langages formels
@@ -134,7 +104,7 @@ Donnezr les optimisations de compression de chemin et de réunir à la plus gran
 54. Définition de préfixe, suffixe, facteur. **Mot miroir.**
 55. Opérations sur les langages. Concaténation, Union, étoile de Kleen.
 56. Si $a,b\in\Sigma^*$ tel que $ab=ba$, alors $\exist\ \omega\in\Sigma^* \mid a,b\in\{\omega^n;n\in\N\}$
-57. Définition inductiv pseudo-code de l’algorithme de Dijkstra pour calculer la plus courte distance d'’un langage régulier.
+57. Définition inductive d'un langage régulier.
 58. Définition inductive d'une expression régulière.
 59. Définition d'un automate déterministe. Automate émondé. État accessible et co-accessible. $L(A)$ le langage reconnu par l'automate.
 60. Différences avec un automate non déterministe ? $\varepsilon$-transition et 
@@ -161,11 +131,7 @@ $L_2 = \{\omega\in\Sigma^* : |\omega|_a \in2\N\ \land\ |\omega|_b \in 3\N \}$ o�
 78. Définir l’ambiguïté d'une grammaire. **Un langage inhéremment ambigüe.**
 79. Démontrez que $L_5=\{a^{\ell }b^mc^n\mid m=\ell \ {\text{ou}}\ m=n\}$ est algébrique et **inhéremment ambigüe.**
 80. Donnez une grammaire non ambigüe représentant les formules logiques. Pareillement pour les mots de Dyck.
-81. Rappelez le problème du *nœud source à un nœud destination dans un graphe avec des poids positifs ou nuls.
-Le pseudo-code devra utiliser une file de priorité.
-Quelle est la complexité en terme du nombre $n$ de nœuds et $m$ d’arêtes du graphe, ainsi que de la complexité des opérations de la file de priorité utilisée ?
-
-Quelle est la complexité de l’algorithme de Dijkstra sin on pendant*.
+81. Rappelez le problème du *sinon pendant*.
 82. **Faire le diagramme de la hiérarchie de Chomsky**
 83. Démontrez que $x \rArr^* uv$ ssi $\exist a.\exist b.\ (x=ab\land a\rArr^* u \land b\rArr^* v)$
 
@@ -214,7 +180,7 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 ## Apprentissage automatique et jeux
 121. Différences entre IA, Apprentissage supervisé, Apprentissage non supervisé.
 122. Définition d'un arbre de décision
-123. Notion de distance. De pseudo-distance. **Distance de Levenshtein sur les chaines de charactères.**
+123. Notion de distance. De pseudo-distance. **Distance de Levenshtein sur les chaines de charactères**
 124. Algorithmes des k plus proches voisins avec une distance.
 125. Arbre k-dimensionnel. Insertion, et recherche des k plus proches voisins dans un arbre k-dimensionnel.
 126. Définissez l'entropie de Shannon. Donnez le pseudo code de ID3.
@@ -229,19 +195,10 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 133. Qu'est-ce qu'un problème de décision ? **Un problème semi-décidable ?**
 134. Prouvez la non décidabilité du problème de l’arrêt.
 135. Donnez l'énoncé des problèmes suivants : $\text{SAT}$, $\text{n-SAT}$, $\text{MAX2SAT}$, $\text{k-COLOR}$
-136. **Donnez l'énoncé des problèmes suivutilise un tas binaire ?
-
-## S-005
-> Oraux P3 Ulm 2021
-
-On considère $n$ objets décrits par des suites finies de bits, c.-à-d., par des mots de $\{0, 1\}^*$ . On fixe $k ∈ \N^*$. Une fonction de hachage est une fonction $h : \{0, 1\}^* \to [\![0;2^{k-1}]\!]$ associant à chaque suite finie de bits un entier entre $0$ et $2^{k-1}$.
-
-Donner le pseudo-code des opérations de base sur les tables de hachage : rechercher si un élément est dans l’ensemble, ajouter un élément, en supprimer un.
-
-Donner la complexité de ces fonctions en fonction de $n$ et de $k$ dants : $\text{CLIQUE}$, $\text{VERTEX-COVER}$, $\text{HAMILOTINAN}$, $\text{CIBLE-SAC-A-DOS}$**
+136. **Donnez l'énoncé des problèmes suivants : $\text{CLIQUE}$, $\text{VERTEX-COVER}$, $\text{HAMILOTINAN}$, $\text{CIBLE-SAC-A-DOS}$**
 137. Classe $\text{P}$, Classe $\text{NP}$, **Classe $\text{EXPTIME}$**, **Classe $\text{EXPSPACE}$**
 138. Réduction de problèmes en temps polynomial.
-139le pire des cas. MDontrez que $\text{SAT}\le_P\text{3-SAT}$
+139. Montrez que $\text{SAT}\le_P\text{3-SAT}$
 140. **Démontrez que les problèmes si-dessus sont tous $\text{NP}$ et même $\text{NP-complet}$ (en supposant $\text{SAT}$ $\text{NP-complet}$ )**
 141. Montrez que $\text{2-SAT}\le_P\text{2-COLOR}$. En déduire que $\text{2-SAT}$ est de classe $\text{P}$
 
@@ -259,14 +216,13 @@ On pose pour cette partie le schéma suivant :
 146. Affichez le nombre de fois que un utilisateur à acheter le produit d'un administrateur.
 147. Différence entre `WHERE` et `HAVING` ? Donnez un exemple de requêtes qui donne des résultats différents, l'une utilisant `WHERE` et l'autre `HAVING`
 
-> *Version 0.3 (beta), par @Cypooos*ner la complexité en moyenne de ces fonctions si on suppose que h répartie équitablement les éléments dans $[\![0;2^{k-1}]\!]$
-
+> *Version 0.3 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyNjUzNDcwLC0xNDE4NTIyNjI2LC0xNz
-I0MTAwODEyLDQ0Mzg5NzY3MSw0MjE1NDU4MCwtMjEzNjE2ODk5
-LC02MDAyNTc1MTUsLTE3NDQ3MTU0MDYsNTEwNjY3NzE1LDQxOD
-EwMjY5NywxODE5OTYwODM3LC0xMzc5MTU2MDU4LC0xNDQyMDk3
-MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3LDE3NDQ5MzQwNDAsMT
-A3MTQwMTk0OSwtMTY2NTM0ODY3OCwxODY3OTEzNzEsLTEwMDU0
-ODgwODVdfQ==
+eyJoaXN0b3J5IjpbLTE3MjQxMDA4MTIsODEyNjUzNDcwLC0xND
+E4NTIyNjI2LC0xNzI0MTAwODEyLDQ0Mzg5NzY3MSw0MjE1NDU4
+MCwtMjEzNjE2ODk5LC02MDAyNTc1MTUsLTE3NDQ3MTU0MDYsNT
+EwNjY3NzE1LDQxODEwMjY5NywxODE5OTYwODM3LC0xMzc5MTU2
+MDU4LC0xNDQyMDk3MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3LD
+E3NDQ5MzQwNDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3OCwxODY3
+OTEzNzFdfQ==
 -->
