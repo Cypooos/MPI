@@ -39,11 +39,11 @@ struct Noeud {
 ```
 
 On dit que la hauteur de l'arbre nul (sans nœud) est -1.
-1. Rappelez la définition d'un arbre binaire parfait. Donnez en un type en Ocaml.
+1. Rappelez la définition d'un arbre binaire parfait.
 2. Démontrez que tout arbre parfait de hauteur $n$ possède $2^{n+1}-1$ nœuds.
-3. Donnez `int hauteur(arb a)` renvoyant la hauteur de l'arbre `a`
-4. Donnez `arb arb_trouve(arb a, int n, int k)`
+3. Donnez `bool est_parfait(arb a)` renvoyant vrai si l'arbre `a` est parfait. 
+4. Donnez `arb arb_trouve(arb a, int n, int k)` renvoyant le `k`ème element dans l'ordre préfixe de l'arbre 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMjA2MTM2NywtMTAwNzQ4ODA5MSwxOT
-cwODYzMzc1XX0=
+eyJoaXN0b3J5IjpbLTIwMjg2MTYzMDgsLTEwMDc0ODgwOTEsMT
+k3MDg2MzM3NV19
 -->
