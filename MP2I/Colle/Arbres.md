@@ -14,10 +14,13 @@ struct Noeud {
 
 On définie un arbre parfait tel que toute les feuilles sont à la même distance de la racine.
 On dit que la hauteur de l'arbre nul (sans nœud) est -1.
-1. Dessinez un arbre parf
-1. Démontrez que tout arbre parfait de hauteur $h$ possède $2^{h+1}-1$ nœuds.
-2. Donnez `bool est_parfait(arb a)` renvoyant vrai si l'arbre `a` est parfait.
-3. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre. On suppose ici que `a` est parfait et que `k`$<2^{h+1}-1$ avec $h$ la hauteur de l'arbre.
+1. Dessinez un arbre parfait à 7 nœuds. Tout les arbres complets sont-ils parfaits ?
+2. Démontrez que tout arbre parfait de hauteur $h$ possède $2^{h+1}-1$ nœuds.
+3. Donnez `bool est_parfait(arb a)` renvoyant vrai si l'arbre `a` est parfait.
+4. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre. On suppose ici que `a` est parfait et que `k`$<2^{h+1}-1$ avec $h$ la hauteur de l'arbre.
+
+## Arbre cyclique
+
 ## Arbre canonique
 > *INFO A 2023 X-ENS MPI*
 
@@ -44,5 +47,5 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxNjg3MDIwLC0zMDkxNDQxMDZdfQ==
+eyJoaXN0b3J5IjpbLTk2OTczNjExMCwtMzA5MTQ0MTA2XX0=
 -->
