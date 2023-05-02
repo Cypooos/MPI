@@ -1,6 +1,6 @@
 
 ## Arbre binaire parfaits
-> *INFO 1 2023 MINES MPI*
+> *INFO-1 2023 MINES MPI*
 
 On ce donne le type d'un arbre suivant :
 ```c
@@ -60,6 +60,6 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjI4ODAzOTksLTM1MzgyNDc5MiwtMz
-A5MTQ0MTA2XX0=
+eyJoaXN0b3J5IjpbMTIxODc4NDA0LC0zNTM4MjQ3OTIsLTMwOT
+E0NDEwNl19
 -->
