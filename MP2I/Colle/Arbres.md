@@ -22,6 +22,12 @@ On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 ## Arbre d'ensembles
 On ce donne le type suivant d'arbre 
 
+## Tas binaire
+
+## Arbres d'intervalles
+
+## 
+
 ## Arbre canonique
 > *INFO A 2023 X-ENS MPI*
 
@@ -48,6 +54,6 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTQyMjQ2OCwtMzUzODI0NzkyLC0zMD
+eyJoaXN0b3J5IjpbMTU5MjMyNjI4NywtMzUzODI0NzkyLC0zMD
 kxNDQxMDZdfQ==
 -->
