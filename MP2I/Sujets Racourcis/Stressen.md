@@ -1,5 +1,5 @@
 
-## Multiplication de matrices
+# Multiplication de matrices
  Donnez en Ocaml le code de
 ```ocaml
 val mul: int array array -> int array array -> int array array
@@ -42,5 +42,5 @@ Modifier l'algorithme pour qu'il n'effectue que 7 sous-produits. Quelle est la n
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDI2OTE5XX0=
+eyJoaXN0b3J5IjpbLTUwNTc2MzE2NCwxMzA0MjY5MTldfQ==
 -->
