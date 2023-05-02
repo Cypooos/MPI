@@ -1,7 +1,4 @@
-> Tableaux, Récurrence, Chemin, Arbre 
-
-Ce sujet est d'une difficulté modéré.
-Source : Ulm L2 2019 https://a3nm.net/work/exams/ens/exercices_info_ulm_2019.pdf
+> Source : Ulm L2 2019 https://a3nm.net/work/exams/ens/exercices_info_ulm_2019.pdf
 
 # Chemins de Schröder 
 
@@ -14,7 +11,7 @@ Voici un exemple de chemin de Schröder :
 Dessiner les chemins de Schröder de longueur 2 et de longueur 4.
 
 ## Question 1
-Le $n$-ième nombre de Schröder $S_n$ est défini comme le nombre de chemins de Schröder de longueur $2n$. Par convention, il existe un unique chemin de Schröder de longueur 0. Déterminer la formule de récurrence de $S_{n+1}$ en fonction de $S_0, . . . , S_n$.
+Le $n$-ième nombre de Schröder $S_n$ est défini comme le nombre de chemins de Schröder de longueur $2n$. Par convention, il existe un unique chemin de Schröder de longueur $0$. Déterminer la formule de récurrence de $S_{n+1}$ en fonction de $S_0, . . . , S_n$.
 
 ## Question 2
 Écrire un algorithme qui prend en entrée une liste de coordonnées $(x, y)$ triée par abscisses, et détermine s’il existe un chemin de Schröder passant par tous ces points. On considère qu’un pas horizontal passe également par son centre.
@@ -34,10 +31,11 @@ Dessiner les bosquets possédant 1, 2 et 3 feuilles
 Soit $B_n$ le nombre de bosquets à $n$ feuilles. Montrer pour tout $n \ge 2$ qu’il existe $B_n/2$ bosquets dont la racine possède au moins deux enfants.
 
 ## Question 6
-Soit T un bosquet possédant $n$ feuilles et $p$ nœuds internes. Prouver que T possède $n + p − 1$ arêtes.
+Soit $T$ un bosquet possédant $n$ feuilles et $p$ nœuds internes. Prouver que $T possède $n + p − 1$ arêtes.
 
 ## Question 7
 Construire une bijection des bosquets à $n + 1$ feuilles vers les chemins de Schröder de longueur $2n$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTgzNDkwNTddfQ==
+eyJoaXN0b3J5IjpbLTE3MzA0MDQwMDgsLTEwOTgzNDkwNTddfQ
+==
 -->
