@@ -1,7 +1,6 @@
-Un sujet tout entier peut parfois être à la limite d'un exercice classique de sup ! En voici un.
-
-Source : oral A3 retravaillé qui est tombé à l'ENS Ulm en 2019 https://diplome.di.ens.fr/informatique-ens/annales/2019_InfoU-exercices.pdf
-> *OralA*
+> Sources :
+> *ORAL-ULM-A3 2019 XENS MPI*
+> *INFO 2023 CCP MPI*
 
 # Palindromes
 Un mot est ici un `string`
@@ -28,6 +27,6 @@ Donnez une condition suffisante pour qu'il y ait égalité.
 
 Sur la base de cette observation, améliorer l’algorithme pour qu’il fonctionne en temps linéaire.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzgzNzMzMiwtNjk2ODEzNDAxLC0zMz
-U5NDUxMDQsMTA4MjQxMTUwNl19
+eyJoaXN0b3J5IjpbLTEzMTcyNzc0NDksLTY5NjgxMzQwMSwtMz
+M1OTQ1MTA0LDEwODI0MTE1MDZdfQ==
 -->
