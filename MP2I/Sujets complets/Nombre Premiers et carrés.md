@@ -1,7 +1,4 @@
-> Math, arithmétique, programmation, pseudo-code et structure de données
-
-Cet exercice n'ayant pas été testé, la difficulté est encore inconnue.
-Source : Sujet Ulm 2019 J3 https://a3nm.net/work/exams/ens/exercices_info_ulm_2019.pdf
+>Source : Sujet Ulm 2019 J3 https://a3nm.net/work/exams/ens/exercices_info_ulm_2019.pdf
 
 # Nombre Premiers et carrés
 
@@ -40,5 +37,6 @@ $$
 En déduire le pseudo-code d’un algorithme permettant de calculer $\Phi(n)$ en temps sous-linéaire par rapport à $n$. Quelles sont ses complexités en temps et en espace ?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTA4ODg2MzUsMTMzMTUwNzgwNV19
+eyJoaXN0b3J5IjpbNTAwMjg4NTUwLC0xNTEwODg4NjM1LDEzMz
+E1MDc4MDVdfQ==
 -->
