@@ -30,7 +30,7 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 On ce donne le type d'arbre suivant :
 ```c
-typedef strcut Noeud *arb;
+typedef struct Noeud *arb;
 struct Noeud {
   int valeur;
   arb fils_g;
@@ -39,11 +39,11 @@ struct Noeud {
 ```
 
 On dit que la hauteur de l'arbre nul (sans nœud) est -1.
-1. Rappelez la définition d'un arbre binaire parfait.
-2. Démontrez que tout arbre parfait de hauteur $n$ possède $2^{n+1}-1$ nœuds.
+1. Rappelez la définition d'un arbre binaire parfait. Crée une v
+2. Démontrez que tout arbre parfait de hauteur $h$ possède $2^{h+1}-1$ nœuds.
 3. Donnez `bool est_parfait(arb a)` renvoyant vrai si l'arbre `a` est parfait. 
-4. Donnez `arb arb_trouve(arb a, int n, int k)` renvoyant le `k`ème element dans l'ordre préfixe de l'arbre 
+4. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre. On suppose ici que `a` est parfait et que `k`$<2^{h+1}-1$ avec $h$ la hauteur de l'arbre.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjg2MTYzMDgsLTEwMDc0ODgwOTEsMT
-k3MDg2MzM3NV19
+eyJoaXN0b3J5IjpbMTkxNTY4NTgyMSwtMTAwNzQ4ODA5MSwxOT
+cwODYzMzc1XX0=
 -->
