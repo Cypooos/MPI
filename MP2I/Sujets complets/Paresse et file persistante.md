@@ -1,7 +1,4 @@
-> File, récursivité, liste, types, ocaml++ 
-
-Cet exercice est difficile, et pousse la création de type récursif assez loin
-Source : Sujet Ulm 2021 J2 https://a3nm.net/work/exams/ens/exercices_info_ulm_2021.pdf
+> Source : Sujet Ulm 2021 J2 https://a3nm.net/work/exams/ens/exercices_info_ulm_2021.pdf
 # Paresse et file persistante
 
 ## Question 0
@@ -63,6 +60,6 @@ Le plus souvent, on enfilera les éléments au début de la liste `rear` et on l
 ## Question 5
 Une liste paresseuse est-elle toujours de longueur finie ? Définir en OCaml une liste paresseuse qui énumère les carrés parfaits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDI3NzY0MTYsLTExMzAxNjM0NTQsMT
-IxNDk1NzM2XX0=
+eyJoaXN0b3J5IjpbLTcxNTU3NTgyMCwtMTQ0Mjc3NjQxNiwtMT
+EzMDE2MzQ1NCwxMjE0OTU3MzZdfQ==
 -->
