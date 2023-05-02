@@ -2,7 +2,7 @@
 ## Arbre binaire parfaits
 > *INFO 1 2023 MINES MPI*
 
-On ce donne le type d'arbre suivant :
+On ce donne le type d'un arbre suivant :
 ```c
 typedef struct Noeud *arb;
 struct Noeud {
@@ -20,6 +20,11 @@ On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 4. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre. On suppose ici que `a` est parfait et que `k`$<2^{h+1}-1$ avec $h$ la hauteur de l'arbre.
 
 ## Arbre cyclique
+On ce donne le type d'un arbre suivant :
+
+1. Donnez un type possible d'un arbre binaire en C et en Ocaml. 
+
+On dit en C qu'un arbre `a` est cyclique 
 
 ## Arbre canonique
 > *INFO A 2023 X-ENS MPI*
@@ -47,5 +52,5 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTczNjExMCwtMzA5MTQ0MTA2XX0=
+eyJoaXN0b3J5IjpbMjA1MTU5NjYwMiwtMzA5MTQ0MTA2XX0=
 -->
