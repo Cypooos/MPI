@@ -1,5 +1,5 @@
-> Source:
-> *ORAL-ULM-P1 2021 XENS*
+> Source : Sujet Ulm 2021 P1 https://a3nm.net/work/exams/ens/exercices_info_ulm_2021.pdf
+
 # Théorème général de l’analyse des programmes récursifs
 Étant données deux fonctions $f, g : \R^+ \to \R+$, on note $f (n) = \Theta(g(n))$ si $f(n) = O(g(n))$ et $g(n) = O(f(n))$.  
 On considère dans ce problème un algorithme récursif $\mathcal{A}$ prenant une entrée de taille $n \in \N^*$. On suppose que :
@@ -74,5 +74,5 @@ $$
 ## Question 12
 Le théorème s'applique-t-il à toutes les récurrences de la forme $T(n) = a\times R(\frac{n}{b}) + f(n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDIxMDExNCwtMTc1OTEzMDgwN119
+eyJoaXN0b3J5IjpbNzM5Nzc0MDk0LC0xNzU5MTMwODA3XX0=
 -->
