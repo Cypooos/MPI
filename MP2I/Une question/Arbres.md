@@ -34,8 +34,8 @@ typedef strcut Noeud *arb;
 struct Noeud {
   int valeur;
   arb fils_g;
-  
-}
+  arb fils_d;
+};
 ```
 
 On dit que la hauteur de l'arbre nul (sans nœud) est -1.
@@ -44,6 +44,6 @@ On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 3. Donnez `int hauteur(arb a)` renvoyant la hauteur de l'arbre `a`
 4. Donnez `arb arb_trouve(arb a, int n, int k)`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Njk1NzE5LC0xMDA3NDg4MDkxLDE5Nz
-A4NjMzNzVdfQ==
+eyJoaXN0b3J5IjpbMjAzMjA2MTM2NywtMTAwNzQ4ODA5MSwxOT
+cwODYzMzc1XX0=
 -->
