@@ -31,11 +31,11 @@ Dessiner les bosquets possédant 1, 2 et 3 feuilles
 Soit $B_n$ le nombre de bosquets à $n$ feuilles. Montrer pour tout $n \ge 2$ qu’il existe $B_n/2$ bosquets dont la racine possède au moins deux enfants.
 
 ## Question 6
-Soit $T$ un bosquet possédant $n$ feuilles et $p$ nœuds internes. Prouver que $T possède $n + p − 1$ arêtes.
+Soit $T$ un bosquet possédant $n$ feuilles et $p$ nœuds internes. Prouver que $T$ possède $n + p − 1$ arêtes.
 
 ## Question 7
 Construire une bijection des bosquets à $n + 1$ feuilles vers les chemins de Schröder de longueur $2n$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzA0MDQwMDgsLTEwOTgzNDkwNTddfQ
+eyJoaXN0b3J5IjpbLTEzNjc2MzY2NzgsLTEwOTgzNDkwNTddfQ
 ==
 -->
