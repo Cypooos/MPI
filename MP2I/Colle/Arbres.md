@@ -24,7 +24,7 @@ On ce donne le type d'un arbre suivant :
 
 1. Donnez un type possible d'un arbre binaire en C et en Ocaml. 
 
-On dit en C qu'un arbre `a` est cyclique 
+On dit en C qu'un arbre `a` est cyclique si il existe un  
 
 ## Arbre canonique
 > *INFO A 2023 X-ENS MPI*
@@ -52,5 +52,5 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTU5NjYwMiwtMzA5MTQ0MTA2XX0=
+eyJoaXN0b3J5IjpbLTM1MzgyNDc5MiwtMzA5MTQ0MTA2XX0=
 -->
