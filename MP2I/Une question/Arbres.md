@@ -28,13 +28,22 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 ## Arbre binaire parfaits
 > *INFO 1 2023 MINES MPI*
 
-On ce donne
+On ce donne le type d'arbre suivant :
+```c
+typedef strcut Noeud *arb;
+struct Noeud {
+  int valeur;
+  arb fils_g;
+  
+}
+```
 
 On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 1. Rappelez la définition d'un arbre binaire parfait. Donnez en un type en Ocaml.
 2. Démontrez que tout arbre parfait de hauteur $n$ possède $2^{n+1}-1$ nœuds.
-3. Donnez `arb arb_trouve(arb a, int n, int k)`
+3. Donnez `int hauteur(arb a)` renvoyant la hauteur de l'arbre `a`
+4. Donnez `arb arb_trouve(arb a, int n, int k)`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjIyMzcyLC0xMDA3NDg4MDkxLDE5Nz
+eyJoaXN0b3J5IjpbLTg3Njk1NzE5LC0xMDA3NDg4MDkxLDE5Nz
 A4NjMzNzVdfQ==
 -->
