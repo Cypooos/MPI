@@ -25,7 +25,8 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 5.  Proposez un TODO
 
 
-## Arbre 
+## Arbre parfaits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDc0ODgwOTEsMTk3MDg2MzM3NV19
+eyJoaXN0b3J5IjpbLTY3MzE2NTc5OSwtMTAwNzQ4ODA5MSwxOT
+cwODYzMzc1XX0=
 -->
