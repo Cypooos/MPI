@@ -95,7 +95,7 @@ On note $n$ la taille d'un arbre.
 6. Donnez en OCaml `val rem_tas : arbre -> int -> arbre` qui ajoute à un tas binaire un nœud tel que l'arbre de retour reste un tas. On fera en sorte que la fonction soit en $O(\ln n)$
 7. En déduire un algorithme de tri de liste en $O(n\ln n)$.
 
-## Arbres via des tableaux
+## Arbres via des tableaux (TODO)
 
 On s'intéresse ici en la représentation d'arbre sous la forme d'un tableau.
 On pose la structure suivante :
@@ -111,7 +111,7 @@ typedef struct liste liste;
 1. Rappelez 
 2. Donnez en Ocaml une fonction `val pow : int -> int -> int` qui 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0NTE1NDc0LC0xODA0NTkwMDI3LDIwMD
+eyJoaXN0b3J5IjpbMjg0MzUzMTk3LC0xODA0NTkwMDI3LDIwMD
 MwOTA2MjEsLTIxNzg3Mjg3MCwxMzYyMTAzMzQyLDY3Mjg1NDk5
 NSwxMjA4NjMzMjAwLDkxMzIyNTY3NSwtMjE4MTc2MzAyLC0xMD
 I0NTg3MjE0LC0xNDkzNzcyMDksLTEyODg0NTgxMDEsLTEzNjE4
