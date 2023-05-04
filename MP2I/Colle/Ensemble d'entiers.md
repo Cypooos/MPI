@@ -1,7 +1,5 @@
 Cet exercice très **très** classique de sup peut ce retrouver dans de nombreux oraux sous différentes formes.
 
-> Oral A3 - Q5 Ulm 2021
-> Oral J3 - Q2 Ulm 2019
 
 ## Ensemble d'entiers, version 1
 
@@ -28,5 +26,5 @@ La complexité en espace sera de $O(1)$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTUxNDYxMDVdfQ==
+eyJoaXN0b3J5IjpbMTIwOTUyMDE2NCwtMTI1NTE0NjEwNV19
 -->
