@@ -57,16 +57,14 @@ Un arbre _t_ est dit *canonique* si pour $A$ et $B$ deux feuilles, on a $A$ plus
 
 Un arbre canonique peut-être uniquement représenté par un tableau qui à chaque hauteur associe son nombre de sommets.
 
-Donnez une définition équivalente de ce type en OCaml. Toujours en OCaml, donnez la fonction `val hauteur : arbre -> int` donnant pour un arbre quelconque sa hauteur.
-1. Donnez une définition équivalent de ce type en C. Toujours en C, donnez la fonction ``
-1. Qu'est-ce qu'un parcours préfixe ? Donnez `val parcours : tree -> int list` qui retourne le parcours préfixe d'un arbre. Dans notre cas, pourquoi est-il le même qu'un parcours postfixe ?
+1. Donnez une définition équivalent de ce type en C. Toujours en C, donnez la fonction `void parcours(arbre* arb)` qui affiche le parcours préfixe gauche de `arb`.
 2. Donnez les arbres canonique des tableaux $[\![0;2]\!]$, $[\![0;0;3;2]\!]$, $[\![0;1;1;1;1;2]\!]$.
 3. Démontrez que le tableau d'un arbre canonique non trivial doit se terminer avec un nombre pair.
 4. Donnez une fonction `val canonical : int array -> tree` qui à un tableau associe son arbre canonique. On mettra sur chaque feuille son indice d'apparition dans le parcours préfixe. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTc3NTUxMSwxMTUyNjc1MDAsLTE5Nj
+eyJoaXN0b3J5IjpbLTEzNzQ2MDA5MywxMTUyNjc1MDAsLTE5Nj
 c3MTg3NjAsMTIxODc4NDA0LC0zNTM4MjQ3OTIsLTMwOTE0NDEw
 Nl19
 -->
