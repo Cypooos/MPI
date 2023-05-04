@@ -1,22 +1,4 @@
 
-## Détection de liste cyclique
-On ce donne le type suivant en C:
-```c
-struct liste {
-	liste* next;
-	int value;
-};
-typedef struct liste liste;
-```
-
-1. Créez une liste cyclique. Une liste acyclique.
-2. Donnez le code de la fonction suivante qui détecte si un cycle est présent ou non dans la liste, en $O(n)$ avec $n$ la taille de la liste
-```c
-bool is_cyclique(liste* tete)
-```
-3. **DIFFICILE** : Transformer la fonction pour quelle rende la liste acyclique sans perdre aucun maillon. On veillera à toujours le faire en O(N) en complexité temporelle et O(1) en complexité spatial. 
-
-
 ## Liste doublement chainée
 >  *INFO-C 2023 X-ENS MPI*
 
@@ -44,10 +26,29 @@ typedef struct liste_s liste;
 5. Programmez `int pop()` retirant de la liste `lg` son dernier élément, et le retournant. On utilisera une assertion pour s'assurer que la liste n'est pas vide.
 6. Quelle structure de donnée avons-nous implémenté ?
 
+## Détection de liste cyclique
+On ce donne le type suivant en C:
+```c
+struct liste {
+	liste* next;
+	int value;
+};
+typedef struct liste liste;
+```
+
+1. Créez une liste cyclique. Une liste acyclique.
+2. Donnez `void add(liste* li,int v)` qui à une liste `li` ajoute en tête  
+3. Donnez le code de la fonction suivante qui détecte si un cycle est présent ou non dans la liste, en $O(n)$ avec $n$ la longueur de la liste
+```c
+bool is_cyclique(liste* tete)
+```
+4. **DIFFICILE** : Transformer la fonction pour quelle rende la liste acyclique sans perdre aucun maillon. On veillera à toujours le faire en O(N) en complexité temporelle et O(1) en complexité spatial. 
+
 ## Liste générée
 
 On ce donne le type suivant en OCaml :
-
+```ocaml
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzUzNDk5OCwtMTg1NDkzMjI1M119
+eyJoaXN0b3J5IjpbLTMyODkyNTM3MiwtMTg1NDkzMjI1M119
 -->
