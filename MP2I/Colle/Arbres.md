@@ -1,5 +1,5 @@
 ## Arbre binaire parfaits
-> *INFO-1 2023 MINES MPI*
+> *INFO-1 MINES MPI 2023*
 
 On ce donne le type d'un arbre suivant :
 ```c
@@ -41,7 +41,7 @@ On supposera écrite la fonction `val rotd : arbre_int -> arbre_int` qui effectu
 
 6. Donnez `val ajouter : arbre_int -> intervalle -> arbre_int` tel que `ajouter a i` ajoute à un arbre équilibré `a` l'intervalle `i`. On veillera à ce que `a` reste équilibré.
 ## Arbre canonique
-> *INFO A 2023 X-ENS MPI*
+> *INFO-A X-ENS MPI 2023*
 
 On définie une structure d'arbre :
 ```ocaml
@@ -111,11 +111,11 @@ typedef struct liste liste;
 1. Rappelez 
 2. Donnez en Ocaml une fonction `val pow : int -> int -> int` qui 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDQ1OTAwMjcsMjAwMzA5MDYyMSwtMj
-E3ODcyODcwLDEzNjIxMDMzNDIsNjcyODU0OTk1LDEyMDg2MzMy
-MDAsOTEzMjI1Njc1LC0yMTgxNzYzMDIsLTEwMjQ1ODcyMTQsLT
-E0OTM3NzIwOSwtMTI4ODQ1ODEwMSwtMTM2MTgwNTE1NSwtMTE2
-NTc3MTI2OSwtODExMDc2NzI3LC03MzEwMzMxMiw4NjkxMDY5NT
-csLTE0OTE0Njk2NTMsMjkzMDI5MywyMDk1ODA1Mjg4LC0xMDAw
-Nzc3Nzc1XX0=
+eyJoaXN0b3J5IjpbNjQ0NTE1NDc0LC0xODA0NTkwMDI3LDIwMD
+MwOTA2MjEsLTIxNzg3Mjg3MCwxMzYyMTAzMzQyLDY3Mjg1NDk5
+NSwxMjA4NjMzMjAwLDkxMzIyNTY3NSwtMjE4MTc2MzAyLC0xMD
+I0NTg3MjE0LC0xNDkzNzcyMDksLTEyODg0NTgxMDEsLTEzNjE4
+MDUxNTUsLTExNjU3NzEyNjksLTgxMTA3NjcyNywtNzMxMDMzMT
+IsODY5MTA2OTU3LC0xNDkxNDY5NjUzLDI5MzAyOTMsMjA5NTgw
+NTI4OF19
 -->
