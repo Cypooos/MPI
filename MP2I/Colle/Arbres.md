@@ -47,9 +47,9 @@ type tree = F of int | N of tree * tree;;
 Un arbre _t_ est dit *canonique* si pour $A$ et $B$ deux feuilles, on a $A$ plus proche de la racine que $B$ ssi $A$ arrive avant $B$ dans un parcours préfixe gauche.
 
 Un arbre canonique peut-être uniquement représenté par un tableau qui à chaque hauteur associe son nombre de sommets.
-1. Qu'est-ce qu'un parcours préfixe ? Donnez `val parcours : tree`
+1. Qu'est-ce qu'un parcours préfixe ? Donnez `val parcours : tree -> int list` qui retourne le parcours préfixe gauche d'un arbre. Dans notre cas, pourquoi
 2. Donnez les arbres canonique des tableaux $[\![0;2]\!]$, $[\![0;0;3;2]\!]$, $[\![0;1;1;1;1;2]\!]$.
-3. Démontrez que le tableau d'un arbre canonique non trivial doit se terminer avec un 2.
+3. Démontrez que le tableau d'un arbre canonique non trivial doit se terminer avec un nombre pair.
 4. Donnez une fonction `val canonical : int array -> tree` qui à un tableau associe son arbre canonique.
 
 ## Arbre canonique, suite
@@ -63,6 +63,6 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3MzgxMjc0LDEyMTg3ODQwNCwtMzUzOD
-I0NzkyLC0zMDkxNDQxMDZdfQ==
+eyJoaXN0b3J5IjpbLTExMjY5MDg3MDksMTIxODc4NDA0LC0zNT
+M4MjQ3OTIsLTMwOTE0NDEwNl19
 -->
