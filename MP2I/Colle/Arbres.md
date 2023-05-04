@@ -69,7 +69,7 @@ On dit qu'un mot $(q_n)_{n\le p}$ appartient à un `arb` si il existe un chemin 
 
 1. 
 1. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$.
-2. Montrez que si deux mots so
+2. Montrez que si deux mots sont dans le même sous-arbre qui est à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
 
 ## Tas de Fibonacci
 
@@ -77,9 +77,9 @@ On dit qu'un mot $(q_n)_{n\le p}$ appartient à un `arb` si il existe un chemin 
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3MTMyNDIxLDg2OTEwNjk1NywtMTQ5MT
-Q2OTY1MywyOTMwMjkzLDIwOTU4MDUyODgsLTEwMDA3Nzc3NzUs
-MTE3MTQxMjk4NiwxNzEyMTYwMTcsLTk4MDgxMTM5OCwxMTUyNj
-c1MDAsLTE5Njc3MTg3NjAsMTIxODc4NDA0LC0zNTM4MjQ3OTIs
-LTMwOTE0NDEwNl19
+eyJoaXN0b3J5IjpbLTExMzkxNjE1NzMsODY5MTA2OTU3LC0xND
+kxNDY5NjUzLDI5MzAyOTMsMjA5NTgwNTI4OCwtMTAwMDc3Nzc3
+NSwxMTcxNDEyOTg2LDE3MTIxNjAxNywtOTgwODExMzk4LDExNT
+I2NzUwMCwtMTk2NzcxODc2MCwxMjE4Nzg0MDQsLTM1MzgyNDc5
+MiwtMzA5MTQ0MTA2XX0=
 -->
