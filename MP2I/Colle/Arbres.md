@@ -67,7 +67,7 @@ type arbre_mots = F | N of (int * arb) list;;
 On modélise une lettre par un entier positif entre $0$ et $255$.
 On dit qu'un mot $(q_n)_{n\le p}$ appartient à un `arb` si il existe un chemin de la racine à une feuille étiqueté par les lettres $q_0,...,q_p$
 
-1. Donnez en C une structure représentant le type `arbre_mots`. Donnez ``
+1. Donnez en C une structure représentant le type `arbre_mots`. Donnez `bool is_in(arbre* a, `
 1. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$.
 2. Montrez que si deux mots sont dans le même sous-arbre qui est à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
 
@@ -77,9 +77,9 @@ On dit qu'un mot $(q_n)_{n\le p}$ appartient à un `arb` si il existe un chemin 
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzc0MjY5MjgsLTczMTAzMzEyLDg2OT
-EwNjk1NywtMTQ5MTQ2OTY1MywyOTMwMjkzLDIwOTU4MDUyODgs
-LTEwMDA3Nzc3NzUsMTE3MTQxMjk4NiwxNzEyMTYwMTcsLTk4MD
-gxMTM5OCwxMTUyNjc1MDAsLTE5Njc3MTg3NjAsMTIxODc4NDA0
-LC0zNTM4MjQ3OTIsLTMwOTE0NDEwNl19
+eyJoaXN0b3J5IjpbLTI4NTM2MzE3NSwtNzMxMDMzMTIsODY5MT
+A2OTU3LC0xNDkxNDY5NjUzLDI5MzAyOTMsMjA5NTgwNTI4OCwt
+MTAwMDc3Nzc3NSwxMTcxNDEyOTg2LDE3MTIxNjAxNywtOTgwOD
+ExMzk4LDExNTI2NzUwMCwtMTk2NzcxODc2MCwxMjE4Nzg0MDQs
+LTM1MzgyNDc5MiwtMzA5MTQ0MTA2XX0=
 -->
