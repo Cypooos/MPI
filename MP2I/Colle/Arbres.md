@@ -47,7 +47,7 @@ On définie une structure d'arbre :
 ```ocaml
 type tree = F of int | N of tree * tree;;
 ``` 
-Un arbre _t_ est dit *canonique* si pour $A$ et $B$ deux feuilles, on a $A$ plus proche de la racine que $B$ ssi $A$ arrive avant $B$ dans un parcours préfixe.
+Un arbre binaire strict (ou localement complet) est dit *canonique* si pour $A$ et $B$ deux feuilles, on a $A$ plus proche de la racine que $B$ ssi $A$ arrive avant $B$ dans un parcours préfixe.
 
 Un arbre canonique peut-être représenté par un tableau qui à chaque hauteur associe son nombre de feuilles.
 
@@ -88,11 +88,11 @@ type arbre = F | N of int * arbre * arbre;
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjQ1ODcyMTQsLTE0OTM3NzIwOSwtMT
-I4ODQ1ODEwMSwtMTM2MTgwNTE1NSwtMTE2NTc3MTI2OSwtODEx
-MDc2NzI3LC03MzEwMzMxMiw4NjkxMDY5NTcsLTE0OTE0Njk2NT
-MsMjkzMDI5MywyMDk1ODA1Mjg4LC0xMDAwNzc3Nzc1LDExNzE0
-MTI5ODYsMTcxMjE2MDE3LC05ODA4MTEzOTgsMTE1MjY3NTAwLC
-0xOTY3NzE4NzYwLDEyMTg3ODQwNCwtMzUzODI0NzkyLC0zMDkx
-NDQxMDZdfQ==
+eyJoaXN0b3J5IjpbLTIxODE3NjMwMiwtMTAyNDU4NzIxNCwtMT
+Q5Mzc3MjA5LC0xMjg4NDU4MTAxLC0xMzYxODA1MTU1LC0xMTY1
+NzcxMjY5LC04MTEwNzY3MjcsLTczMTAzMzEyLDg2OTEwNjk1Ny
+wtMTQ5MTQ2OTY1MywyOTMwMjkzLDIwOTU4MDUyODgsLTEwMDA3
+Nzc3NzUsMTE3MTQxMjk4NiwxNzEyMTYwMTcsLTk4MDgxMTM5OC
+wxMTUyNjc1MDAsLTE5Njc3MTg3NjAsMTIxODc4NDA0LC0zNTM4
+MjQ3OTJdfQ==
 -->
