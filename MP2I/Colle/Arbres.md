@@ -40,7 +40,7 @@ N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 ## Arbres d'intervalles
 > Source : https://info-llg.fr/option-mp/pdf/TP_intervalles.pdf
 
-Un arbre d'intervalles est un arbre binaire de recherche dont tous les nœuds contiennent un intervalle de la forme $[\![ a; b]\!]$, et un nombre représentant la plus grande extrémité droite de tout les intervalles dans le sous arbre enraciné en ce nœud.
+Un arbre d'intervalles est un arbre binaire de recherche dont tous les nœuds contiennent un intervalle de la forme $[\![ a; b]\!]$, dont les clefs sont $a$, et un nombre représentant la plus grande extrémité droite de tout les intervalles dans le sous arbre enraciné en ce nœud.
 
 On ce donne le type suivant en ocaml :
 ```ocaml
@@ -68,7 +68,8 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDA3Nzc3NzUsMTE3MTQxMjk4NiwxNz
-EyMTYwMTcsLTk4MDgxMTM5OCwxMTUyNjc1MDAsLTE5Njc3MTg3
-NjAsMTIxODc4NDA0LC0zNTM4MjQ3OTIsLTMwOTE0NDEwNl19
+eyJoaXN0b3J5IjpbLTY4ODQ4Nzg5NiwtMTAwMDc3Nzc3NSwxMT
+cxNDEyOTg2LDE3MTIxNjAxNywtOTgwODExMzk4LDExNTI2NzUw
+MCwtMTk2NzcxODc2MCwxMjE4Nzg0MDQsLTM1MzgyNDc5MiwtMz
+A5MTQ0MTA2XX0=
 -->
