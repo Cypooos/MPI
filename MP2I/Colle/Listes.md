@@ -48,7 +48,8 @@ On ce donne le type suivant en OCaml :
 ```ocaml
 ```
 
-1. Rapellez 
+## Pile file en moyenne $O(n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwOTY5Njk5LC0xODU0OTMyMjUzXX0=
+eyJoaXN0b3J5IjpbLTExNzc3ODEzNTksNzUwOTY5Njk5LC0xOD
+U0OTMyMjUzXX0=
 -->
