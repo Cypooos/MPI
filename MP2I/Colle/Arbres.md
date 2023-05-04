@@ -28,7 +28,7 @@ type arb = F | N of (int * arb) list;;
 ```
 
 On dit que une liste d'entiers $(q_n)_{n\le p}$ appartient à un `arb` si il existe un chemin de la racine à une feuille étiqueté par $q_0,...,q_p$
-1. Qu'est-ce qu'un 
+1. 
 1. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$.
 2. Montrez que si $(x_1,...,x_n,a_1,...,a_q)$ et $(x_1,...,x_n,b_1,...,b_p)$ appartiennent au même arbre 
 
@@ -45,7 +45,7 @@ On ce donne le type suivant en ocaml :
 
 ```
 
-1. Qu'est-ce qu'un arbre binaire de recherche ?
+1. Qu'est-ce qu'un arbre binaire de recherche ? Donnez une définition équivalente du type en C, 
 2. Proposez une structure en C et en ocaml pour un arbre binaire d'intervalle.
 ## Arbre canonique
 > *INFO A 2023 X-ENS MPI*
@@ -65,7 +65,7 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDI1MzU4OCwtOTgwODExMzk4LDExNT
-I2NzUwMCwtMTk2NzcxODc2MCwxMjE4Nzg0MDQsLTM1MzgyNDc5
-MiwtMzA5MTQ0MTA2XX0=
+eyJoaXN0b3J5IjpbMTcxMjE2MDE3LC05ODA4MTEzOTgsMTE1Mj
+Y3NTAwLC0xOTY3NzE4NzYwLDEyMTg3ODQwNCwtMzUzODI0Nzky
+LC0zMDkxNDQxMDZdfQ==
 -->
