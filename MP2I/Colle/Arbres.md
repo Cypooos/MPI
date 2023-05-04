@@ -78,24 +78,24 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un c
 6. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`. On retirera aussi tout les maillons de l'arbre qui ne sont plus utilisés.
 7. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour qu'il appartienne à `a`. On retournera $-1$ si il n'y a pas de mot de longueur `n` dans `a`
 
-## Tas de Fibonacci
+## Tas de Fibonacci (A FAIRE AVANT DE DONNER)
 
 On ce donne en OCaml le type d'arbre suivant :
 ```ocaml
-type tas = F | N of float * int * int * tas * tas
+type tas = F | N of float * int * tas * tas
 ```
-ou si l'on a un nœud `N(f,a,b,g,d)`, alors `a` représente le nombre de nœuds dans `g` et `b` le nombre de nœuds dans `d`.
+ou si l'on a un nœud `n = N(f,a,g,d)`, alors `a` représente le nombre de nœuds dans l'arbre.
 On note $n$ la taille d'un arbre.
 
 1. Rappelez la définition d'un tas binaire. Donnez en C une structure représentant un arbre, et `int hauteur(arbre* arb)` qui à un arbre `arb` lui associe sa hauteur.
-2. Donnez en OCaml `val rotg : arbre -> arbre` qui effectue l'opération de rotation ga
-3. Donnez en OCaml `val add : arbre -> int -> arbre` qui ajoute à un arbre équilibré un nœud tel que l'arbre reste équilibré. On veillera à avoir une complexité de $O(\ln n)$
+2. Donnez en OCaml `val rotg : arbre -> arbre` qui effectue l'opération de rotation gauche.
+3. Donnez en OCaml `val add : arbre -> int -> arbre` qui ajoute à un arbre équilibré un nœud tel que l'arbre reste équilibré. On veillera à avoir une complexité de $O(\ln n)$.
 4. Donnez en OCaml `val add_tas : arbre -> int -> arbre` qui ajoute à un tas binaire un nœud tel que l'arbre de retour reste un tas. On fera en sorte que la fonction soit en $O(\ln n)$
 5. Donnez en OCaml
 6. En déduire un algorithme de tri de liste en $O(n\ln n)$.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0Nzk5NTM1NiwxMzYyMTAzMzQyLDY3Mj
+eyJoaXN0b3J5IjpbMTM5OTU2NDk3NCwxMzYyMTAzMzQyLDY3Mj
 g1NDk5NSwxMjA4NjMzMjAwLDkxMzIyNTY3NSwtMjE4MTc2MzAy
 LC0xMDI0NTg3MjE0LC0xNDkzNzcyMDksLTEyODg0NTgxMDEsLT
 EzNjE4MDUxNTUsLTExNjU3NzEyNjksLTgxMTA3NjcyNywtNzMx
