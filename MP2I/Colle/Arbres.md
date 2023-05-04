@@ -36,7 +36,8 @@ N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 ## Arbres d'intervalles
 Un arbre d'intervalles est un arbre binaire dont toute les feuilles contiennent un intervalle de la forme $[\![ a; b]\!]$
-
+1. Qu'est-ce qu'un arbre binaire de recherche ?
+2. Proposez une structure en C et en ocaml 
 ## Arbre canonique
 > *INFO A 2023 X-ENS MPI*
 
@@ -44,7 +45,7 @@ On définie une structure d'arbre :
 ```ocaml
 type tree = F of int | N of tree * tree;;
 ``` 
-Un arbre _t_ est dit *canonique* si pour $A$ et $B$ deux feuilles, on a $A$ plus proche de la racine que $B$ ssi $A$ arrive avant $B$ dans un parcours préfixe gauche.
+Un arbre _t_ est dit *canonique* si pour $A$ et $B$ deux feuilles, on a $A$ plus proche de la racine que $B$ ssi $A$ arrive avant $B$ dans un parcours préfixe.
 
 Un arbre canonique peut-être uniquement représenté par un tableau qui à chaque hauteur associe son nombre de sommets.
 1. Qu'est-ce qu'un parcours préfixe ? Donnez `val parcours : tree -> int list` qui retourne le parcours préfixe d'un arbre. Dans notre cas, pourquoi est-il le même qu'un parcours postfixe ?
@@ -54,6 +55,6 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2MjQ1MjY0LDEyMTg3ODQwNCwtMzUzOD
-I0NzkyLC0zMDkxNDQxMDZdfQ==
+eyJoaXN0b3J5IjpbLTE3Njc3ODQ5OCwxMjE4Nzg0MDQsLTM1Mz
+gyNDc5MiwtMzA5MTQ0MTA2XX0=
 -->
