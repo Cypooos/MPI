@@ -40,18 +40,19 @@ N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 ## Arbres d'intervalles
 > Source : https://info-llg.fr/option-mp/pdf/TP_intervalles.pdf
 
-Un arbre d'intervalles est un arbre binaire de recherche dont tous les nœuds contiennent un intervalle de la forme $[\![ a; b]\!]$, dont les clefs sont $(a,b)$ dans l'ordre alphabétique
+Un arbre d'intervalles est un arbre binaire de recherche dont tous les nœuds contiennent un intervalle de la forme $[\![ a; b]\!]$, dont les clefs sont $(a,b)$ dans l'ordre alphabétique.
 
 On ce donne le type suivant en ocaml :
 ```ocaml
-type interval = float * float;;
-type arbre_int = F | N of interval * arbre_int * arbre_int;;
+type intervalle = float * float;;
+type arbre_int = F | N of intervalle * arbre_int * arbre_int;;
 ```
 
 1. Qu'est-ce qu'un arbre binaire de recherche ? Proposez une structure en C pour représenter un arbre d'intervalles.
 2. Dessinez puis donnez en Ocaml arbre équilibré contenant les intervalles $\{[0;2]; [0;1]; [1;3]; [4;5]; [3;5]; [3;3]\}$
 3. Donnez `val trouver : arbre_int -> interval -> interval` tel que `trouver a i`  retourne un intervalle de l'arbre `a` intersectant `i` en $O(h)$ avec $h$ la hauteur de `a`
-4. Définissez les opérations de rotation sur les arbres binaire de recherc.
+4. Définissez les opérations de rotations sur les arbres binaire de recherche.
+5. 
 ## Arbre canonique
 > *INFO A 2023 X-ENS MPI*
 
@@ -70,8 +71,8 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTczMjIzNSwyOTMwMjkzLDIwOTU4MD
-UyODgsLTEwMDA3Nzc3NzUsMTE3MTQxMjk4NiwxNzEyMTYwMTcs
-LTk4MDgxMTM5OCwxMTUyNjc1MDAsLTE5Njc3MTg3NjAsMTIxOD
-c4NDA0LC0zNTM4MjQ3OTIsLTMwOTE0NDEwNl19
+eyJoaXN0b3J5IjpbODk4NDQxNjgwLDI5MzAyOTMsMjA5NTgwNT
+I4OCwtMTAwMDc3Nzc3NSwxMTcxNDEyOTg2LDE3MTIxNjAxNywt
+OTgwODExMzk4LDExNTI2NzUwMCwtMTk2NzcxODc2MCwxMjE4Nz
+g0MDQsLTM1MzgyNDc5MiwtMzA5MTQ0MTA2XX0=
 -->
