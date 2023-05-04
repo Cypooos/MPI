@@ -18,7 +18,7 @@ On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 2. Dessinez un arbre parfait à 7 nœuds. Tout les arbres complets sont-ils parfaits ?
 3. Démontrez que tout arbre parfait de hauteur $h$ possède $2^{h+1}-1$ nœuds.
 4. Donnez `bool est_parfait(arb a)` renvoyant vrai si l'arbre `a` est parfait.
-5. Donnez `void delete(arb a`
+5. Donnez `arb delete(arb a, int v)` retournant un arbre `a` ou toutes les occurrences de `v` ont été supprimées.
 6. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre `a` supposé parfait. Discutez de la complexité de `arb_trouve` et de potentiel moyens de l'améliorer.
 
 ## Arbres d'intervalles
@@ -77,9 +77,9 @@ On dit qu'un mot $(q_n)_{n\le p}$ appartient à un `arb` si il existe un chemin 
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQwMjc1ODQsODY5MTA2OTU3LC0xND
-kxNDY5NjUzLDI5MzAyOTMsMjA5NTgwNTI4OCwtMTAwMDc3Nzc3
-NSwxMTcxNDEyOTg2LDE3MTIxNjAxNywtOTgwODExMzk4LDExNT
-I2NzUwMCwtMTk2NzcxODc2MCwxMjE4Nzg0MDQsLTM1MzgyNDc5
-MiwtMzA5MTQ0MTA2XX0=
+eyJoaXN0b3J5IjpbLTczMTAzMzEyLDg2OTEwNjk1NywtMTQ5MT
+Q2OTY1MywyOTMwMjkzLDIwOTU4MDUyODgsLTEwMDA3Nzc3NzUs
+MTE3MTQxMjk4NiwxNzEyMTYwMTcsLTk4MDgxMTM5OCwxMTUyNj
+c1MDAsLTE5Njc3MTg3NjAsMTIxODc4NDA0LC0zNTM4MjQ3OTIs
+LTMwOTE0NDEwNl19
 -->
