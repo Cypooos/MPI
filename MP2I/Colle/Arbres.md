@@ -50,7 +50,7 @@ type tree = F of int | N of tree * tree;;
 ``` 
 Un arbre _t_ est dit *canonique* si pour $A$ et $B$ deux feuilles, on a $A$ plus proche de la racine que $B$ ssi $A$ arrive avant $B$ dans un parcours préfixe.
 
-Un arbre canonique peut-être uniquement représenté par un tableau qui à chaque hauteur associe son nombre de feuilles.
+Un arbre canonique peut-être représenté par un tableau qui à chaque hauteur associe son nombre de feuilles.
 
 1. Donnez une définition équivalent de ce type en C. Toujours en C, donnez la fonction `void parcours(arbre* arb)` qui affiche le parcours préfixe de `arb`.
 2. Donnez les arbres canonique des tableaux $[\![0;2]\!]$, $[\![0;0;3;2]\!]$, $[\![0;1;1;1;1;2]\!]$.
@@ -76,9 +76,9 @@ On dit que une liste d'entiers $(q_n)_{n\le p}$ appartient à un `arb` si il exi
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5MTA2OTU3LC0xNDkxNDY5NjUzLDI5Mz
-AyOTMsMjA5NTgwNTI4OCwtMTAwMDc3Nzc3NSwxMTcxNDEyOTg2
-LDE3MTIxNjAxNywtOTgwODExMzk4LDExNTI2NzUwMCwtMTk2Nz
-cxODc2MCwxMjE4Nzg0MDQsLTM1MzgyNDc5MiwtMzA5MTQ0MTA2
-XX0=
+eyJoaXN0b3J5IjpbMTI0NjEyMjU3Niw4NjkxMDY5NTcsLTE0OT
+E0Njk2NTMsMjkzMDI5MywyMDk1ODA1Mjg4LC0xMDAwNzc3Nzc1
+LDExNzE0MTI5ODYsMTcxMjE2MDE3LC05ODA4MTEzOTgsMTE1Mj
+Y3NTAwLC0xOTY3NzE4NzYwLDEyMTg3ODQwNCwtMzUzODI0Nzky
+LC0zMDkxNDQxMDZdfQ==
 -->
