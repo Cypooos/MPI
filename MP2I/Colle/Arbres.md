@@ -59,12 +59,12 @@ Un arbre canonique peut-être représenté par un tableau qui à chaque hauteur 
 5. Donnez une fonction OCaml `val canonical : int array -> tree` qui à un tableau associe son arbre canonique. On mettra sur chaque feuille son indice d'apparition dans le parcours préfixe. 
 
 
-## Arbre d'ensembles de séries
+## Arbre d'ensembles de mots
 On ce donne le type suivant d'arbre en Ocaml :
 ```ocaml
 type arb = F | N of (int * arb) list;;
 ```
-
+On modélise un
 On dit que une liste d'entiers $(q_n)_{n\le p}$ appartient à un `arb` si il existe un chemin de la racine à une feuille étiqueté par $q_0,...,q_p$
 1. 
 1. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$.
@@ -76,7 +76,7 @@ On dit que une liste d'entiers $(q_n)_{n\le p}$ appartient à un `arb` si il exi
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjEyMjU3Niw4NjkxMDY5NTcsLTE0OT
+eyJoaXN0b3J5IjpbLTQ4NDQ3MzI2MCw4NjkxMDY5NTcsLTE0OT
 E0Njk2NTMsMjkzMDI5MywyMDk1ODA1Mjg4LC0xMDAwNzc3Nzc1
 LDExNzE0MTI5ODYsMTcxMjE2MDE3LC05ODA4MTEzOTgsMTE1Mj
 Y3NTAwLC0xOTY3NzE4NzYwLDEyMTg3ODQwNCwtMzUzODI0Nzky
