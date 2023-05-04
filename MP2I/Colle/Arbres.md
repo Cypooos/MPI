@@ -84,15 +84,15 @@ On ce donne en OCaml le type d'arbre suivant :
 ```ocaml
 type tas = F | N of float * int * int * tas * tas
 ```
-ou si l'on a un nœud `N(f,a,b,g,d)`, alors a représente le nombre de noeud
+ou si l'on a un nœud `N(f,a,b,g,d)`, alors `a` représente le nombre de nœuds dans `g` et `b` le nombre de nœuds dans `d`
 
 1. Rappelez la définition d'un tas binaire. Donnez en C une structure représentant un arbre, et `int hauteur(arbre* arb)` qui à un arbre `arb` lui associe sa hauteur.
-2. Donnez en OCaml `add : arbre -> int -> arbre` qui ajoute à un arbre équilibré un nœud tel que l'arbre reste équilibré.
+2. Donnez en OCaml `add : arbre -> int -> arbre` qui ajoute à un arbre équilibré un nœud tel que l'arbre reste équilibré. On veillera à avoir une complexité de $O(n)$
 3. Donnez en OCaml `add_tas : arbre -> int -> arbre` qui ajoute à un tas binaire un nœud tel que l'arbre de retour reste un tas. On fera en sorte que la fonction soit en $O(\ln n)$
 4. En déduire un algorithme de tri de liste en $O(n\ln n)$. On appelle cet algorithme le tri par le *Tas de Fibonacci*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNjQ2NTI4NSw2NzI4NTQ5OTUsMTIwOD
+eyJoaXN0b3J5IjpbLTgyNDEzNzg5MCw2NzI4NTQ5OTUsMTIwOD
 YzMzIwMCw5MTMyMjU2NzUsLTIxODE3NjMwMiwtMTAyNDU4NzIx
 NCwtMTQ5Mzc3MjA5LC0xMjg4NDU4MTAxLC0xMzYxODA1MTU1LC
 0xMTY1NzcxMjY5LC04MTEwNzY3MjcsLTczMTAzMzEyLDg2OTEw
