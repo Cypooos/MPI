@@ -27,7 +27,7 @@ type arb = F | N of (int * arb) list;;
 
 On dit que une liste d'entiers $(q_n)_{n\le p}$ appartient à un `arb` si la racine il existe un chemin de la racine à une feuille étiqueté par $q_0,...,q_p$
 1. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$, puis donnez en une définition ocaml.
-2. Montrez que si $(x_1,...,x_n,a_1)$ et $(x_1,...,x_n,b_1,...,b_p)$ 
+2. Montrez que si $(x_1,...,x_n,a_1,...,a_q)$ et $(x_1,...,x_n,b_1,...,b_p)$ appartiennent au même arbre 
 
 ## Tas de Fibonacci
 
@@ -44,7 +44,7 @@ On définie une structure d'arbre :
 ```ocaml
 type tree = F | N of tree * tree;;
 ``` 
-Un arbre _t_ est dit *canonique* si pour toute feuille A plus proche de la racine qu'une feuille B, alors A sera plus à gauche que B.
+Un arbre _t_ est dit *canonique* si pour toute feuille A plus proche de la racine qu'une feuille B, alors A sera plus à gauche que B. Formellement, on 
 
 Un arbre canonique peut-être uniquement représenté par un tableau qui à chaque hauteur associe son nombre de sommets.
 
@@ -63,6 +63,6 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDM4OTAwOSwxMjE4Nzg0MDQsLTM1Mz
+eyJoaXN0b3J5IjpbLTIwMTgxMDI4NywxMjE4Nzg0MDQsLTM1Mz
 gyNDc5MiwtMzA5MTQ0MTA2XX0=
 -->
