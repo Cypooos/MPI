@@ -12,13 +12,13 @@ struct Noeud {
 };
 ```
 
-On définie un arbre parfait tel que toute les feuilles sont à la même distance de la racine.
+On définie un arbre binaire **parfait** tel que toute les feuilles sont à la même distance de la racine.
 On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 1. Donnez une définition équivalente de ce type en OCaml. Toujours en OCaml, donnez la fonction `val hauteur : arbre -> int` donnant pour un arbre quelconque sa hauteur.
 2. Dessinez un arbre parfait à 7 nœuds. Tout les arbres complets sont-ils parfaits ?
 3. Démontrez que tout arbre parfait de hauteur $h$ possède $2^{h+1}-1$ nœuds.
 4. Donnez `bool est_parfait(arb a)` renvoyant vrai si l'arbre `a` est parfait.
-5. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre. On suppose ici que `a` est parfait et que `k`$<2^{h+1}-1$ avec $h$ la hauteur de l'arbre.
+5. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre. On suppose ici que `a` est parfait et que $k$
 6. Discutez de la complexité de `arb_trouve` et de potentiel moyen de l'améliorer.
 
 ## Arbre d'ensembles de séries
@@ -64,7 +64,7 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDgxMTM5OCwxMTUyNjc1MDAsLTE5Nj
-c3MTg3NjAsMTIxODc4NDA0LC0zNTM4MjQ3OTIsLTMwOTE0NDEw
-Nl19
+eyJoaXN0b3J5IjpbLTEwMjIwNTY1NTAsLTk4MDgxMTM5OCwxMT
+UyNjc1MDAsLTE5Njc3MTg3NjAsMTIxODc4NDA0LC0zNTM4MjQ3
+OTIsLTMwOTE0NDEwNl19
 -->
