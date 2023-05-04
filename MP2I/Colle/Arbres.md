@@ -60,14 +60,17 @@ Un arbre canonique peut-être représenté par un tableau qui à chaque hauteur 
 
 
 ## Arbre d'ensembles de mots
-On ce donne le type suivant d'arbre en Ocaml :
+On ce donne le type suivant d'arbre en C :
 ```c
-struct arbre_mot
+typedef struct arbre_mot arbre_mot;
+struct arbre_mot {
+	arbre_mot[255] next;
+}
 ```
 On modélise une lettre par un entier positif entre $0$ et $255$.
-On dit qu'un mot $(q_n)_{n\le p}$ appartient à un `arb` si il un chemin de la racine à une feuille étiqueté par les lettres $q_0,...,q_p$. 
+On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arb` si il un chemin de la racine à une feuille étiqueté par les lettres $a_0,...,a_p$. 
 
-1. Donnez en C une structure représentant le type `arbre_mots`.
+1. Donnez en OCaml une structure équivalente représentant le type `arbre_mots`.
 2. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$.
 3. Donnez `bool is_in(arbre* a, int* mot, int n)` qui test si un `mot` de longueur `n` appartient à `a`
 4. Montrez que si deux mots sont dans le même sous-arbre enraciné à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
@@ -78,9 +81,9 @@ On dit qu'un mot $(q_n)_{n\le p}$ appartient à un `arb` si il un chemin de la r
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTA3NjcyNywtNzMxMDMzMTIsODY5MT
-A2OTU3LC0xNDkxNDY5NjUzLDI5MzAyOTMsMjA5NTgwNTI4OCwt
-MTAwMDc3Nzc3NSwxMTcxNDEyOTg2LDE3MTIxNjAxNywtOTgwOD
-ExMzk4LDExNTI2NzUwMCwtMTk2NzcxODc2MCwxMjE4Nzg0MDQs
-LTM1MzgyNDc5MiwtMzA5MTQ0MTA2XX0=
+eyJoaXN0b3J5IjpbLTM3NDQxMjAyMiwtODExMDc2NzI3LC03Mz
+EwMzMxMiw4NjkxMDY5NTcsLTE0OTE0Njk2NTMsMjkzMDI5Mywy
+MDk1ODA1Mjg4LC0xMDAwNzc3Nzc1LDExNzE0MTI5ODYsMTcxMj
+E2MDE3LC05ODA4MTEzOTgsMTE1MjY3NTAwLC0xOTY3NzE4NzYw
+LDEyMTg3ODQwNCwtMzUzODI0NzkyLC0zMDkxNDQxMDZdfQ==
 -->
