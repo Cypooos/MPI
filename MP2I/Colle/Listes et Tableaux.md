@@ -1,4 +1,42 @@
 
+## Algorithme de Stressen
+
+On cherche dans ce sujet à calculer un produit de matrices de manière efficace.
+1. Donnez en C le code de `int** (int** mat1, int** mat2, int n)` qui calcule le produit de deux matrices de $\mathcal{M}_n(\R)$. Quelle est sa complexité ?
+
+Soit $\Gamma,\Delta \in \mathcal{M}_n$ des matrices, on effectue la décomposition par bloc :
+$$
+\Gamma = \begin{pmatrix}
+A & B \\
+C & D 
+\end{pmatrix},\ \Delta = \begin{pmatrix}
+W & X  \\
+Y & Z
+\end{pmatrix}
+$$
+On défini le type en OCaml :
+```ocaml
+type mat = int array array;;
+```
+3. Donnez en OCaml `val mul: mat -> mat -> mat`  une fonction en $O(n^3)$ qui calcule $\Gamma\times \Delta$ quand c'est possible, et qui `failwith` sinon.
+4. Quels sont les 8 sous-produits que l'on a effectué ?
+
+On pose les produits suivant :
+$$
+\begin{align*}
+&M_1 = (A+D)(W+Z) \\
+&M_2 = (C+D)W \\
+&M_3 = A(X-Z) \\
+&M_4 = D(Y-W)\\
+&M_5 = (A+B)Z \\
+&M_6 = (C-A)(W+X) \\
+&M_7 = (B-D)(Y+Z) \\
+\end{align*}
+$$
+
+4. Donnez $\Gamma \times \Delta$ en fonction des $(M_i)_i$
+5. Modifier l'algorithme pour qu'il n'effectue que 7 sous-produits. Quelle est la nouvelle complexité ?
+
 ## Liste doublement chainée
 >  *INFO-C 2023 X-ENS MPI*
 
@@ -50,46 +88,8 @@ On ce donne le type suivant en OCaml :
 
 ## Pile file en moyenne $O(n)$
 
-## Stressen
-
-On cherche dans ce sujet à calculer un produit de matrices de manière efficace.
-1. Donnez en C le code de `int** (int** mat1, int** mat2, int n)` qui calcule le produit de deux matrices de $\mathcal{M}_n(\R)$. Quelle est sa complexité ?
-
-Soit $\Gamma,\Delta \in \mathcal{M}_n$ des matrices, on effectue la décomposition par bloc :
-$$
-\Gamma = \begin{pmatrix}
-A & B \\
-C & D 
-\end{pmatrix},\ \Delta = \begin{pmatrix}
-W & X  \\
-Y & Z
-\end{pmatrix}
-$$
-On défini le type en OCaml :
-```ocaml
-type mat = int array array;;
-```
-3. Donnez en OCaml `val mul: mat -> mat -> mat`  une fonction en $O(n^3)$ qui calcule $\Gamma\times \Delta$ quand c'est possible, et qui `failwith` sinon.
-4. Quels sont les 8 sous-produits que l'on a effectué ?
-
-On pose les produits suivant :
-$$
-\begin{align*}
-&M_1 = (A+D)(W+Z) \\
-&M_2 = (C+D)W \\
-&M_3 = A(X-Z) \\
-&M_4 = D(Y-W)\\
-&M_5 = (A+B)Z \\
-&M_6 = (C-A)(W+X) \\
-&M_7 = (B-D)(Y+Z) \\
-\end{align*}
-$$
-
-4. Donnez $\Gamma \times \Delta$ en fonction des $(M_i)_i$
-5. Modifier l'algorithme pour qu'il n'effectue que 7 sous-produits. Quelle est la nouvelle complexité ?
-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzk2MzQxNzldfQ==
+eyJoaXN0b3J5IjpbLTEzMzI3NDgwMTRdfQ==
 -->
