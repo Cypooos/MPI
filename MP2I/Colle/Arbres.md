@@ -44,13 +44,13 @@ On définie une structure d'arbre :
 ```ocaml
 type tree = F | N of tree * tree;;
 ``` 
-Un arbre _t_ est dit *canonique* si pour toute feuille A plus proche de la racine qu'une feuille B, alors A sera plus à gauche que B. Formellement, on 
+Un arbre _t_ est dit *canonique* si pour toute feuille A plus proche de la racine qu'une feuille B, alors A sera plus à gauche que B. Formellement, on a $A$ plus proche de la racine que $B$ si $A$ arrive avant $B$ dans un parcours préfixe gauche. 
 
 Un arbre canonique peut-être uniquement représenté par un tableau qui à chaque hauteur associe son nombre de sommets.
 
 1. Donnez les arbres canonique des tableaux $[\![0;2]\!]$, $[\![0;0;3;2]\!]$, $[\![0;1;1;1;1;2]\!]$.
-2. Donnez une fonction `val canonical : int array -> tree` qui à un tableau associe son arbre canonique.
-3. Démontrez que le tableau d'un arbre canonique non trivial doit se terminer avec un 2.
+2. Démontrez que le tableau d'un arbre canonique non trivial doit se terminer avec un 2.
+3. Donnez une fonction `val canonical : int array -> tree` qui à un tableau associe son arbre canonique.
 
 ## Arbre canonique, suite
 On souhaite rajouter sur chaque sommet un entier positifs.
@@ -63,6 +63,6 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTgxMDI4NywxMjE4Nzg0MDQsLTM1Mz
-gyNDc5MiwtMzA5MTQ0MTA2XX0=
+eyJoaXN0b3J5IjpbMjcxNjU1NjMxLDEyMTg3ODQwNCwtMzUzOD
+I0NzkyLC0zMDkxNDQxMDZdfQ==
 -->
