@@ -31,13 +31,16 @@ On dit que une liste d'entiers $(q_n)_{n\le p}$ appartient à un `arb` si il exi
 
 ## Tas de Fibonacci
 
-
+1. Donnez en C
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 ## Arbres d'intervalles
 Un arbre d'intervalles est un arbre binaire dont toute les feuilles contiennent un intervalle de la forme $[\![ a; b]\!]$
 
-On ce donne le type suivant 
+On ce donne le type suivant en ocaml :
+```ocaml
+
+```
 
 1. Qu'est-ce qu'un arbre binaire de recherche ?
 2. Proposez une structure en C et en ocaml pour un arbre binaire d'intervalle.
@@ -58,6 +61,6 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTk5MTg1ODgsMTIxODc4NDA0LC0zNT
+eyJoaXN0b3J5IjpbLTE5Njc3MTg3NjAsMTIxODc4NDA0LC0zNT
 M4MjQ3OTIsLTMwOTE0NDEwNl19
 -->
