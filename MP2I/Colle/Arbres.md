@@ -44,7 +44,8 @@ Un arbre d'intervalles est un arbre binaire de recherche dont tous les nœuds co
 
 On ce donne le type suivant en ocaml :
 ```ocaml
-type arbre = F of float * float | N of float * arbre * arbre;;
+type interval = float * float;;
+type arbre_int = F | N of interval * float * arbre_int * arbre_int;;
 ```
 
 1. Qu'est-ce qu'un arbre binaire de recherche ? Donnez en 
@@ -67,7 +68,7 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ2OTc2Mzk1LDExNzE0MTI5ODYsMTcxMj
+eyJoaXN0b3J5IjpbOTQyNDUxNTIxLDExNzE0MTI5ODYsMTcxMj
 E2MDE3LC05ODA4MTEzOTgsMTE1MjY3NTAwLC0xOTY3NzE4NzYw
 LDEyMTg3ODQwNCwtMzUzODI0NzkyLC0zMDkxNDQxMDZdfQ==
 -->
