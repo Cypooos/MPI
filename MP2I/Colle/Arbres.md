@@ -38,7 +38,7 @@ On dit que une liste d'entiers $(q_n)_{n\le p}$ appartient à un `arb` si il exi
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 ## Arbres d'intervalles
-Un arbre d'intervalles est un arbre binaire dont toute les feuilles contiennent un intervalle de la forme $[\![ a; b]\!]$
+Un arbre d'intervalles est un arbre binaire de recherche dont toute les nœuds contiennent un intervalle de la forme $[\![ a; b]\!]$, et un nombre représentant la 
 
 On ce donne le type suivant en ocaml :
 ```ocaml
@@ -65,7 +65,7 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg2NjgxMDgsMTE3MTQxMjk4NiwxNz
-EyMTYwMTcsLTk4MDgxMTM5OCwxMTUyNjc1MDAsLTE5Njc3MTg3
-NjAsMTIxODc4NDA0LC0zNTM4MjQ3OTIsLTMwOTE0NDEwNl19
+eyJoaXN0b3J5IjpbMTgzMTgzMzUwMSwxMTcxNDEyOTg2LDE3MT
+IxNjAxNywtOTgwODExMzk4LDExNTI2NzUwMCwtMTk2NzcxODc2
+MCwxMjE4Nzg0MDQsLTM1MzgyNDc5MiwtMzA5MTQ0MTA2XX0=
 -->
