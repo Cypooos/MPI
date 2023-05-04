@@ -19,7 +19,7 @@ On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 3. Démontrez que tout arbre parfait de hauteur $h$ possède $2^{h+1}-1$ nœuds.
 4. Donnez `bool est_parfait(arb a)` renvoyant vrai si l'arbre `a` est parfait.
 5. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre. On suppose ici que `a` est parfait et que `k`$<2^{h+1}-1$ avec $h$ la hauteur de l'arbre.
-6. Discu
+6. Discutez de la complexité de `arb_trouve` et de potentiel moyen de l'améliorer.
 
 ## Arbre d'ensembles de séries
 On ce donne le type suivant d'arbre en Ocaml :
@@ -56,6 +56,9 @@ type tree = F of int | N of tree * tree;;
 Un arbre _t_ est dit *canonique* si pour $A$ et $B$ deux feuilles, on a $A$ plus proche de la racine que $B$ ssi $A$ arrive avant $B$ dans un parcours préfixe.
 
 Un arbre canonique peut-être uniquement représenté par un tableau qui à chaque hauteur associe son nombre de sommets.
+
+Donnez une définition équivalente de ce type en OCaml. Toujours en OCaml, donnez la fonction `val hauteur : arbre -> int` donnant pour un arbre quelconque sa hauteur.
+1. Donnez une définition équivalent de ce type en C. Toujours en C, donnez la fonction ``
 1. Qu'est-ce qu'un parcours préfixe ? Donnez `val parcours : tree -> int list` qui retourne le parcours préfixe d'un arbre. Dans notre cas, pourquoi est-il le même qu'un parcours postfixe ?
 2. Donnez les arbres canonique des tableaux $[\![0;2]\!]$, $[\![0;0;3;2]\!]$, $[\![0;1;1;1;1;2]\!]$.
 3. Démontrez que le tableau d'un arbre canonique non trivial doit se terminer avec un nombre pair.
@@ -63,7 +66,7 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDMwNDg2NiwxMTUyNjc1MDAsLTE5Nj
+eyJoaXN0b3J5IjpbLTQwOTc3NTUxMSwxMTUyNjc1MDAsLTE5Nj
 c3MTg3NjAsMTIxODc4NDA0LC0zNTM4MjQ3OTIsLTMwOTE0NDEw
 Nl19
 -->
