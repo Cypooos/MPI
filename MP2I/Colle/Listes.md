@@ -21,10 +21,10 @@ typedef struct liste_s liste;
 ```
 1. A quoi servent les `typedef` ?
 2. Définir et initialiser une variable globale `lg` représentant une liste chainé initialement vide.
-3. Programmez `bool est_vide()` renvoyant `true` is `lg` est vide et `false` sinon.
+3. Programmez `bool est_vide()` renvoyant `true` si `lg` est vide et `false` sinon.
 4. Programmez `void push(int v)` ajoutant `v` au début (à gauche) de la liste `lg`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
 5. Programmez `int pop()` retirant de la liste `lg` son dernier élément, et le retournant. On utilisera une assertion pour s'assurer que la liste n'est pas vide.
-6. Quelle structure de donnée avons-nous implémenté ?
+6. Quelle structure de donnée avons-nous implémentée ?
 
 ## Détection de liste cyclique
 On ce donne le type suivant en C:
@@ -37,12 +37,13 @@ typedef struct liste liste;
 ```
 
 1. Créez une liste cyclique. Une liste acyclique.
-2. Donnez `void add(liste* li,int v)` qui à une liste `li` ajoute en tête le chainon contenant `v`
-3. Donnez le code de la fonction suivante qui détecte si un cycle est présent ou non dans la liste, en $O(n)$ avec $n$ la longueur de la liste
+2. Donnez `void add(liste* li,int v)` qui à une liste `li` ajoute en tête le chainon contenant la valeur `v`
+3. Donnez `void remove(liste* li, int v)` qui retire tous les maillons 
+4. Donnez le code de la fonction suivante qui détecte si un cycle est présent ou non dans la liste, en $O(n)$ avec $n$ la longueur de la liste
 ```c
 bool is_cyclique(liste* tete)
 ```
-4. Transformer la fonction pour qu'elle transforme la liste en une liste acyclique sans perdre aucun maillon. On veillera à toujours le faire en $O(n)$ en complexité temporelle et $O(1)$ en complexité spatiale. 
+5. Transformer la fonction pour qu'elle transforme la liste en une liste acyclique sans perdre aucun maillon. On veillera à toujours le faire en $O(n)$ en complexité temporelle et $O(1)$ en complexité spatiale. 
 
 ## Liste générée
 
@@ -50,6 +51,5 @@ On ce donne le type suivant en OCaml :
 ```ocaml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjA1NDcyMzcsLTE4NTQ5MzIyNTNdfQ
-==
+eyJoaXN0b3J5IjpbLTI0MzMwODAxMywtMTg1NDkzMjI1M119
 -->
