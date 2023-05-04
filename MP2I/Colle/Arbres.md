@@ -82,7 +82,7 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un c
 
 On ce donne en OCaml le type d'arbre suivant :
 ```ocaml
-type arbre = F | N of int * arbre * arbre;
+type 
 ```
 
 1. Rappelez la définition d'un tas binaire. Donnez en C une structure représentant un arbre, et `int hauteur(arbre* arb)` qui à un arbre `arb` lui associe sa hauteur.
@@ -91,11 +91,11 @@ type arbre = F | N of int * arbre * arbre;
 4. En déduire un algorithme de tri de liste en $O(n\ln n)$. On appelle cet algorithme le tri par le *Tas de Fibonacci*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcyODU0OTk1LDEyMDg2MzMyMDAsOTEzMj
-I1Njc1LC0yMTgxNzYzMDIsLTEwMjQ1ODcyMTQsLTE0OTM3NzIw
-OSwtMTI4ODQ1ODEwMSwtMTM2MTgwNTE1NSwtMTE2NTc3MTI2OS
-wtODExMDc2NzI3LC03MzEwMzMxMiw4NjkxMDY5NTcsLTE0OTE0
-Njk2NTMsMjkzMDI5MywyMDk1ODA1Mjg4LC0xMDAwNzc3Nzc1LD
-ExNzE0MTI5ODYsMTcxMjE2MDE3LC05ODA4MTEzOTgsMTE1MjY3
-NTAwXX0=
+eyJoaXN0b3J5IjpbMTQzNjcyMzcwOSw2NzI4NTQ5OTUsMTIwOD
+YzMzIwMCw5MTMyMjU2NzUsLTIxODE3NjMwMiwtMTAyNDU4NzIx
+NCwtMTQ5Mzc3MjA5LC0xMjg4NDU4MTAxLC0xMzYxODA1MTU1LC
+0xMTY1NzcxMjY5LC04MTEwNzY3MjcsLTczMTAzMzEyLDg2OTEw
+Njk1NywtMTQ5MTQ2OTY1MywyOTMwMjkzLDIwOTU4MDUyODgsLT
+EwMDA3Nzc3NzUsMTE3MTQxMjk4NiwxNzEyMTYwMTcsLTk4MDgx
+MTM5OF19
 -->
