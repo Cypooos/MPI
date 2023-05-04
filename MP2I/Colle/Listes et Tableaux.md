@@ -67,9 +67,9 @@ Y & Z
 $$
 On défini le type en OCaml :
 ```ocaml
-type matrice = int array array;;
+type mat = int array array;;
 ```
-3. Donnez en OCaml `val mul: mat`  une fonction en $O(n^3)$ qui calcule $\Gamma\times \Delta$
+3. Donnez en OCaml `val mul: mat -> mat -> mat`  une fonction en $O(n^3)$ qui calcule $\Gamma\times \Delta$ quand c'est possible, et qui `failwith` sinon.
 4. Quels sont les 8 sous-produits que l'on a effectué ?
 
 On pose les produits suivant :
@@ -91,5 +91,5 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDA0Mjk4NjNdfQ==
+eyJoaXN0b3J5IjpbLTE0Nzk2MzQxNzldfQ==
 -->
