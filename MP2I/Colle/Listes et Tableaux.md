@@ -51,13 +51,9 @@ On ce donne le type suivant en OCaml :
 ## Pile file en moyenne $O(n)$
 
 ## Stressen
-On défini le type en OCaml :
-```ocaml
-type matrice = int array array;;
-```
 
 On cherche dans ce sujet à calculer un produit de matrices de manière efficace.
-1. Donnez en C le code de `int** (int** mat1, int** mat2)` qui calcule le produit de deux matrices de manière naïve si c'est possible. On s'assurera que ce soit possible à l'aide d'une assertion. Quelle est sa complexité ?
+1. Donnez en C le code de `int** (int** mat1, int** mat2, int n)` qui calcule le produit de deux matrices de $\mathcal{M}_n(\R)$. Quelle est sa complexité ?
 
 Soit $\Gamma,\Delta \in \mathcal{M}_n$ des matrices, on effectue la décomposition par bloc :
 $$
@@ -69,8 +65,11 @@ W & X  \\
 Y & Z
 \end{pmatrix}
 $$
-
-3. Donnez en pseudo-code une fonction récursive en $O(n^3)$ qui calcule $\Gamma\times \Delta$
+On défini le type en OCaml :
+```ocaml
+type matrice = int array array;;
+```
+3. Donnez en OCaml `val mul: mat`  une fonction en $O(n^3)$ qui calcule $\Gamma\times \Delta$
 4. Quels sont les 8 sous-produits que l'on a effectué ?
 
 On pose les produits suivant :
@@ -92,5 +91,5 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTc5NTc5MV19
+eyJoaXN0b3J5IjpbLTEzNDA0Mjk4NjNdfQ==
 -->
