@@ -74,7 +74,8 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arb` si il un chemin de la r
 2. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$. Crée une variable `arbre_mot* example` le représentant.
 3. Donnez `bool is_in(arbre_mot* a, int* mot, int n)` qui test si un `mot` de longueur `n` appartient à `a`
 4. Montrez que si deux mots sont dans le même sous-arbre enraciné à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
-5. Donnez `void add(arbre_mot* a, int* mot, int n)` qui ajoute à l'arbre `a` le mot ``
+5. Donnez `void add(arbre_mot* a, int* mot, int n)` qui ajoute à `a` le mot `mot` de longueur `n`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
+6. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longu
 
 ## Tas de Fibonacci
 
@@ -82,9 +83,9 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arb` si il un chemin de la r
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4MzEyNDUyLC04MTEwNzY3MjcsLTczMT
-AzMzEyLDg2OTEwNjk1NywtMTQ5MTQ2OTY1MywyOTMwMjkzLDIw
-OTU4MDUyODgsLTEwMDA3Nzc3NzUsMTE3MTQxMjk4NiwxNzEyMT
-YwMTcsLTk4MDgxMTM5OCwxMTUyNjc1MDAsLTE5Njc3MTg3NjAs
-MTIxODc4NDA0LC0zNTM4MjQ3OTIsLTMwOTE0NDEwNl19
+eyJoaXN0b3J5IjpbMTg5MjMwNzI3MSwtODExMDc2NzI3LC03Mz
+EwMzMxMiw4NjkxMDY5NTcsLTE0OTE0Njk2NTMsMjkzMDI5Mywy
+MDk1ODA1Mjg4LC0xMDAwNzc3Nzc1LDExNzE0MTI5ODYsMTcxMj
+E2MDE3LC05ODA4MTEzOTgsMTE1MjY3NTAwLC0xOTY3NzE4NzYw
+LDEyMTg3ODQwNCwtMzUzODI0NzkyLC0zMDkxNDQxMDZdfQ==
 -->
