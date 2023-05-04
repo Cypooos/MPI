@@ -77,18 +77,18 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un c
 6. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`.
 7. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour qu'il appartienne à `a`.
 
-## Tas binaire
+## Tas de Fibonacci
 
 On ce donne en OCaml le type d'arbre suivant :
 ```ocaml
 type arbre = F | N of int * arbre * arbre;
 ```
 
-1. Donnez en C
+1. Donnez la définition d'un tas binaire. Donnez en C une 
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjY5NTQwNCwtMTI4ODQ1ODEwMSwtMT
+eyJoaXN0b3J5IjpbLTE0OTM3NzIwOSwtMTI4ODQ1ODEwMSwtMT
 M2MTgwNTE1NSwtMTE2NTc3MTI2OSwtODExMDc2NzI3LC03MzEw
 MzMxMiw4NjkxMDY5NTcsLTE0OTE0Njk2NTMsMjkzMDI5MywyMD
 k1ODA1Mjg4LC0xMDAwNzc3Nzc1LDExNzE0MTI5ODYsMTcxMjE2
