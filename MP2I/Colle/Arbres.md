@@ -64,11 +64,12 @@ On ce donne le type suivant d'arbre en Ocaml :
 ```ocaml
 type arb = F | N of (int * arb) list;;
 ```
-On modélise un
-On dit que une liste d'entiers $(q_n)_{n\le p}$ appartient à un `arb` si il existe un chemin de la racine à une feuille étiqueté par $q_0,...,q_p$
+On modélise une lettre par un entier positif.
+On dit qu'un mot $(q_n)_{n\le p}$ appartient à un `arb` si il existe un chemin de la racine à une feuille étiqueté par les lettres $q_0,...,q_p$
+
 1. 
 1. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$.
-2. Montrez que si $(x_1,...,x_n,a_1,...,a_q)$ et $(x_1,...,x_n,b_1,...,b_p)$ appartiennent au même arbre 
+2. Montrez que si deux mots so
 
 ## Tas de Fibonacci
 
@@ -76,9 +77,9 @@ On dit que une liste d'entiers $(q_n)_{n\le p}$ appartient à un `arb` si il exi
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDQ3MzI2MCw4NjkxMDY5NTcsLTE0OT
-E0Njk2NTMsMjkzMDI5MywyMDk1ODA1Mjg4LC0xMDAwNzc3Nzc1
-LDExNzE0MTI5ODYsMTcxMjE2MDE3LC05ODA4MTEzOTgsMTE1Mj
-Y3NTAwLC0xOTY3NzE4NzYwLDEyMTg3ODQwNCwtMzUzODI0Nzky
-LC0zMDkxNDQxMDZdfQ==
+eyJoaXN0b3J5IjpbODg3MTMyNDIxLDg2OTEwNjk1NywtMTQ5MT
+Q2OTY1MywyOTMwMjkzLDIwOTU4MDUyODgsLTEwMDA3Nzc3NzUs
+MTE3MTQxMjk4NiwxNzEyMTYwMTcsLTk4MDgxMTM5OCwxMTUyNj
+c1MDAsLTE5Njc3MTg3NjAsMTIxODc4NDA0LC0zNTM4MjQ3OTIs
+LTMwOTE0NDEwNl19
 -->
