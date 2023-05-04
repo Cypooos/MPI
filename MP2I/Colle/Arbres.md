@@ -104,13 +104,14 @@ struct liste {
   int length;
   int* array;
   int hauteur;
-}
+};
+typedef struct liste liste;
 ```
 
 
 1. Rappelez 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjcxOTg3OSwtMjE3ODcyODcwLDEzNj
+eyJoaXN0b3J5IjpbMjAwMzA5MDYyMSwtMjE3ODcyODcwLDEzNj
 IxMDMzNDIsNjcyODU0OTk1LDEyMDg2MzMyMDAsOTEzMjI1Njc1
 LC0yMTgxNzYzMDIsLTEwMjQ1ODcyMTQsLTE0OTM3NzIwOSwtMT
 I4ODQ1ODEwMSwtMTM2MTgwNTE1NSwtMTE2NTc3MTI2OSwtODEx
