@@ -28,7 +28,7 @@ Un arbre d'intervalles est un arbre binaire de recherche dont tous les nœuds co
 
 On ce donne le type suivant en ocaml :
 ```ocaml
-type intervalle = float * float;;
+type intervalle = int * int;;
 type arbre_int = F | N of intervalle * arbre_int * arbre_int;;
 ```
 
@@ -76,8 +76,8 @@ On dit que une liste d'entiers $(q_n)_{n\le p}$ appartient à un `arb` si il exi
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTU4OTIwMSwyOTMwMjkzLDIwOTU4MD
-UyODgsLTEwMDA3Nzc3NzUsMTE3MTQxMjk4NiwxNzEyMTYwMTcs
-LTk4MDgxMTM5OCwxMTUyNjc1MDAsLTE5Njc3MTg3NjAsMTIxOD
-c4NDA0LC0zNTM4MjQ3OTIsLTMwOTE0NDEwNl19
+eyJoaXN0b3J5IjpbLTE0OTE0Njk2NTMsMjkzMDI5MywyMDk1OD
+A1Mjg4LC0xMDAwNzc3Nzc1LDExNzE0MTI5ODYsMTcxMjE2MDE3
+LC05ODA4MTEzOTgsMTE1MjY3NTAwLC0xOTY3NzE4NzYwLDEyMT
+g3ODQwNCwtMzUzODI0NzkyLC0zMDkxNDQxMDZdfQ==
 -->
