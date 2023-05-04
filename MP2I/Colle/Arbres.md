@@ -89,14 +89,14 @@ On note $n$ la taille d'un arbre.
 
 1. Rappelez la définition d'un tas binaire. Donnez en C une structure représentant un arbre, et `int hauteur(arbre* arb)` qui à un arbre `arb` lui associe sa hauteur.
 2. Donnez en OCaml `val rotg : arbre -> arbre` qui effectue l'opération de rotation gauche.
-3. Montrez que si on a un arbre binaire de recherche, il est possible de le convertir en un arbre complet contenant les mêmes 
-4. Donnez en OCaml `val add : arbre -> int -> arbre` qui ajoute à un arbre équilibré un nœud tel que l'arbre reste équilibré. On veillera à avoir une complexité de $O(\ln n)$.
+3. Montrez que si on a un arbre binaire de recherche, il est possible de le convertir en un arbre complet contenant les mêmes entrées. Cela fonctionne-t'il avec les tas ?
+4. Donnez en OCaml `val add : arbre -> int -> arbre` qui ajoute à un arbre complet un nœud tel que l'arbre reste complet. On veillera à avoir une complexité de $O(\ln n)$.
 5. Donnez en OCaml `val add_tas : arbre -> int -> arbre` qui ajoute à un tas binaire un nœud tel que l'arbre de retour reste un tas. On fera en sorte que la fonction soit en $O(\ln n)$
 6. Donnez en OCaml `val rem_tas : arbre -> int -> arbre` qui ajoute à un tas binaire un nœud tel que l'arbre de retour reste un tas. On fera en sorte que la fonction soit en $O(\ln n)$
 7. En déduire un algorithme de tri de liste en $O(n\ln n)$.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzYzNTkzNywxMzYyMTAzMzQyLDY3Mj
+eyJoaXN0b3J5IjpbMjA4MDY3MzI1OCwxMzYyMTAzMzQyLDY3Mj
 g1NDk5NSwxMjA4NjMzMjAwLDkxMzIyNTY3NSwtMjE4MTc2MzAy
 LC0xMDI0NTg3MjE0LC0xNDkzNzcyMDksLTEyODg0NTgxMDEsLT
 EzNjE4MDUxNTUsLTExNjU3NzEyNjksLTgxMTA3NjcyNywtNzMx
