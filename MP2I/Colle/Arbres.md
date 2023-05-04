@@ -19,6 +19,7 @@ On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 3. Démontrez que tout arbre parfait de hauteur $h$ possède $2^{h+1}-1$ nœuds.
 4. Donnez `bool est_parfait(arb a)` renvoyant vrai si l'arbre `a` est parfait.
 5. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre. On suppose ici que `a` est parfait et que `k`$<2^{h+1}-1$ avec $h$ la hauteur de l'arbre.
+6. Discu
 
 ## Arbre d'ensembles de séries
 On ce donne le type suivant d'arbre en Ocaml :
@@ -62,6 +63,7 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjY3NTAwLC0xOTY3NzE4NzYwLDEyMT
-g3ODQwNCwtMzUzODI0NzkyLC0zMDkxNDQxMDZdfQ==
+eyJoaXN0b3J5IjpbMTk5MDMwNDg2NiwxMTUyNjc1MDAsLTE5Nj
+c3MTg3NjAsMTIxODc4NDA0LC0zNTM4MjQ3OTIsLTMwOTE0NDEw
+Nl19
 -->
