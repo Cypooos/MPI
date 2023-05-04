@@ -51,7 +51,7 @@ Un arbre _t_ est dit *canonique* si pour $A$ et $B$ deux feuilles, on a $A$ plus
 
 Un arbre canonique peut-être représenté par un tableau qui à chaque hauteur associe son nombre de feuilles.
 
-1. Donnez une définition équivalent de ce type en C. Toujours en C, donnez la fonction `void parcours(arbre* arb)` qui affiche le parcours préfixe de `arb`.
+1. Donnez une définition équivalente de ce type en C. Toujours en C, donnez la fonction `void parcours(arbre* arb)` qui affiche le parcours préfixe de `arb`.
 2. Donnez les arbres canonique des tableaux $[\![0;2]\!]$, $[\![0;0;3;2]\!]$, $[\![0;1;1;1;1;2]\!]$.
 3. Démontrez que le tableau d'un arbre canonique non trivial doit se terminer avec un nombre pair.
 4. Donnez une fonction OCaml `val to_array : tree -> int array` qui à un arbre canonique associe son tableau d'entiers le représentant.
@@ -88,10 +88,11 @@ type arbre = F | N of int * arbre * arbre;
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTM3NzIwOSwtMTI4ODQ1ODEwMSwtMT
-M2MTgwNTE1NSwtMTE2NTc3MTI2OSwtODExMDc2NzI3LC03MzEw
-MzMxMiw4NjkxMDY5NTcsLTE0OTE0Njk2NTMsMjkzMDI5MywyMD
-k1ODA1Mjg4LC0xMDAwNzc3Nzc1LDExNzE0MTI5ODYsMTcxMjE2
-MDE3LC05ODA4MTEzOTgsMTE1MjY3NTAwLC0xOTY3NzE4NzYwLD
-EyMTg3ODQwNCwtMzUzODI0NzkyLC0zMDkxNDQxMDZdfQ==
+eyJoaXN0b3J5IjpbLTEwMjQ1ODcyMTQsLTE0OTM3NzIwOSwtMT
+I4ODQ1ODEwMSwtMTM2MTgwNTE1NSwtMTE2NTc3MTI2OSwtODEx
+MDc2NzI3LC03MzEwMzMxMiw4NjkxMDY5NTcsLTE0OTE0Njk2NT
+MsMjkzMDI5MywyMDk1ODA1Mjg4LC0xMDAwNzc3Nzc1LDExNzE0
+MTI5ODYsMTcxMjE2MDE3LC05ODA4MTEzOTgsMTE1MjY3NTAwLC
+0xOTY3NzE4NzYwLDEyMTg3ODQwNCwtMzUzODI0NzkyLC0zMDkx
+NDQxMDZdfQ==
 -->
