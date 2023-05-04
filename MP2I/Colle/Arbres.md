@@ -63,18 +63,19 @@ On ce donne le type suivant d'arbre en C :
 ```c
 typedef struct arbre_mot arbre_mot;
 struct arbre_mot {
+  bool est_un_mot;
 	arbre_mot[255] next;
 }
 ```
 On modélise une lettre par un entier positif entre $0$ et $255$.
-On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un chemin de la racine à une feuille étiqueté par les lettres $a_0,...,a_p$. 
+On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un chemin de la racine à un nœud étiqueté par les lettres $a_0,...,a_p$. 
 
 1. Donnez en OCaml une structure équivalente représentant le type `arbre_mots`. Toujours en OCaml, donnez `val hauteur : arbre_mots -> int` qui à un arbre associe sa hauteur.
 2. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$. Crée une variable `arbre_mot* example` le représentant.
 3. Donnez `bool is_in(arbre_mot* a, int* mot, int n)` qui test si un `mot` de longueur `n` appartient à `a`
 4. Montrez que si deux mots sont dans le même sous-arbre enraciné à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
 5. Donnez `void add(arbre_mot* a, int* mot, int n)` qui ajoute à `a` le mot `mot` de longueur `n`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
-6. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`.
+6. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`, si c'est possible
 7. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour qu'il appartienne à `a`. On retournera $-1$ si il n'y a pas de mot de longueur `n` dans `a`
 
 ## Tas de Fibonacci
@@ -89,11 +90,11 @@ type arbre = F | N of int * arbre * arbre;
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2NzYwMjA3LDkxMzIyNTY3NSwtMjE4MT
-c2MzAyLC0xMDI0NTg3MjE0LC0xNDkzNzcyMDksLTEyODg0NTgx
-MDEsLTEzNjE4MDUxNTUsLTExNjU3NzEyNjksLTgxMTA3NjcyNy
-wtNzMxMDMzMTIsODY5MTA2OTU3LC0xNDkxNDY5NjUzLDI5MzAy
-OTMsMjA5NTgwNTI4OCwtMTAwMDc3Nzc3NSwxMTcxNDEyOTg2LD
-E3MTIxNjAxNywtOTgwODExMzk4LDExNTI2NzUwMCwtMTk2Nzcx
-ODc2MF19
+eyJoaXN0b3J5IjpbMTcwMjU0OTExMSw5MTMyMjU2NzUsLTIxOD
+E3NjMwMiwtMTAyNDU4NzIxNCwtMTQ5Mzc3MjA5LC0xMjg4NDU4
+MTAxLC0xMzYxODA1MTU1LC0xMTY1NzcxMjY5LC04MTEwNzY3Mj
+csLTczMTAzMzEyLDg2OTEwNjk1NywtMTQ5MTQ2OTY1MywyOTMw
+MjkzLDIwOTU4MDUyODgsLTEwMDA3Nzc3NzUsMTE3MTQxMjk4Ni
+wxNzEyMTYwMTcsLTk4MDgxMTM5OCwxMTUyNjc1MDAsLTE5Njc3
+MTg3NjBdfQ==
 -->
