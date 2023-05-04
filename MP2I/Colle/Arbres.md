@@ -36,8 +36,11 @@ N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 ## Arbres d'intervalles
 Un arbre d'intervalles est un arbre binaire dont toute les feuilles contiennent un intervalle de la forme $[\![ a; b]\!]$
+
+On ce donne le type suivant 
+
 1. Qu'est-ce qu'un arbre binaire de recherche ?
-2. Proposez une structure en C et en ocaml 
+2. Proposez une structure en C et en ocaml pour un arbre binaire d'intervalle.
 ## Arbre canonique
 > *INFO A 2023 X-ENS MPI*
 
@@ -55,6 +58,6 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njc3ODQ5OCwxMjE4Nzg0MDQsLTM1Mz
-gyNDc5MiwtMzA5MTQ0MTA2XX0=
+eyJoaXN0b3J5IjpbLTE0MTk5MTg1ODgsMTIxODc4NDA0LC0zNT
+M4MjQ3OTIsLTMwOTE0NDEwNl19
 -->
