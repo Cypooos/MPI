@@ -84,15 +84,16 @@ On ce donne en OCaml le type d'arbre suivant :
 type arbre = F | N of int * arbre * arbre;
 ```
 
-1. Donnez la définition d'un tas binaire. Donnez en C une structure représentant un arbre.
+1. Rappelez la définition d'un tas binaire. Donnez en C une structure représentant un arbre.
+2. Donnez en Ocaml `add : arbre -> int -> arbre` qui ajoute à un tas 
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MDQzNDEwMSwtMjE4MTc2MzAyLC0xMD
-I0NTg3MjE0LC0xNDkzNzcyMDksLTEyODg0NTgxMDEsLTEzNjE4
-MDUxNTUsLTExNjU3NzEyNjksLTgxMTA3NjcyNywtNzMxMDMzMT
-IsODY5MTA2OTU3LC0xNDkxNDY5NjUzLDI5MzAyOTMsMjA5NTgw
-NTI4OCwtMTAwMDc3Nzc3NSwxMTcxNDEyOTg2LDE3MTIxNjAxNy
-wtOTgwODExMzk4LDExNTI2NzUwMCwtMTk2NzcxODc2MCwxMjE4
-Nzg0MDRdfQ==
+eyJoaXN0b3J5IjpbMTk1MzQ0MTcxLC0yMTgxNzYzMDIsLTEwMj
+Q1ODcyMTQsLTE0OTM3NzIwOSwtMTI4ODQ1ODEwMSwtMTM2MTgw
+NTE1NSwtMTE2NTc3MTI2OSwtODExMDc2NzI3LC03MzEwMzMxMi
+w4NjkxMDY5NTcsLTE0OTE0Njk2NTMsMjkzMDI5MywyMDk1ODA1
+Mjg4LC0xMDAwNzc3Nzc1LDExNzE0MTI5ODYsMTcxMjE2MDE3LC
+05ODA4MTEzOTgsMTE1MjY3NTAwLC0xOTY3NzE4NzYwLDEyMTg3
+ODQwNF19
 -->
