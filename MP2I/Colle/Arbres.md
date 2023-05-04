@@ -53,7 +53,7 @@ On définie une structure d'arbre :
 ```ocaml
 type tree = F of int | N of tree * tree;;
 ``` 
-Un arbre _t_ est dit *canonique* si pour $A$ et $B$ deux feuilles, on a $A$ plus proche de la racine que $B$ ssi $A$ arrive avant $B$ dans un parcours préfixe.
+Un arbre _t_ est dit *canonique* si pour $A$ et $B$ deux feuilles, on a $A$ plus proche de la racine que $B$ ssi $A$ arrive avant $B$ dans un parcours préfixe gauche.
 
 Un arbre canonique peut-être uniquement représenté par un tableau qui à chaque hauteur associe son nombre de sommets.
 
@@ -64,7 +64,7 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQ2MDA5MywxMTUyNjc1MDAsLTE5Nj
-c3MTg3NjAsMTIxODc4NDA0LC0zNTM4MjQ3OTIsLTMwOTE0NDEw
-Nl19
+eyJoaXN0b3J5IjpbNTc1NjQ3MTg4LDExNTI2NzUwMCwtMTk2Nz
+cxODc2MCwxMjE4Nzg0MDQsLTM1MzgyNDc5MiwtMzA5MTQ0MTA2
+XX0=
 -->
