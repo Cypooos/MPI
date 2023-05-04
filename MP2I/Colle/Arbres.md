@@ -55,7 +55,7 @@ Un arbre canonique peut-être représenté par un tableau qui à chaque hauteur 
 1. Donnez une définition équivalent de ce type en C. Toujours en C, donnez la fonction `void parcours(arbre* arb)` qui affiche le parcours préfixe de `arb`.
 2. Donnez les arbres canonique des tableaux $[\![0;2]\!]$, $[\![0;0;3;2]\!]$, $[\![0;1;1;1;1;2]\!]$.
 3. Démontrez que le tableau d'un arbre canonique non trivial doit se terminer avec un nombre pair.
-4. Donnez une fonction OCaml `val to_array : tree -> int array` qui à un arbre canonique associe sa liste d'entiers le représentant.
+4. Donnez une fonction OCaml `val to_array : tree -> int array` qui à un arbre canonique associe son tableau d'entiers le représentant.
 5. Donnez une fonction OCaml `val canonical : int array -> tree` qui à un tableau associe son arbre canonique. On mettra sur chaque feuille son indice d'apparition dans le parcours préfixe. 
 
 
@@ -77,6 +77,7 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un c
 5. Donnez `void add(arbre_mot* a, int* mot, int n)` qui ajoute à `a` le mot `mot` de longueur `n`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
 6. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`.
 7. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour qu'il appartienne à `a`.
+8. (Bonus) 
 
 ## Tas de Fibonacci
 
@@ -84,10 +85,10 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un c
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjkwNTQ1NiwtMTE2NTc3MTI2OSwtOD
-ExMDc2NzI3LC03MzEwMzMxMiw4NjkxMDY5NTcsLTE0OTE0Njk2
-NTMsMjkzMDI5MywyMDk1ODA1Mjg4LC0xMDAwNzc3Nzc1LDExNz
-E0MTI5ODYsMTcxMjE2MDE3LC05ODA4MTEzOTgsMTE1MjY3NTAw
-LC0xOTY3NzE4NzYwLDEyMTg3ODQwNCwtMzUzODI0NzkyLC0zMD
-kxNDQxMDZdfQ==
+eyJoaXN0b3J5IjpbLTU2MTU3NDg5LC0xMTY1NzcxMjY5LC04MT
+EwNzY3MjcsLTczMTAzMzEyLDg2OTEwNjk1NywtMTQ5MTQ2OTY1
+MywyOTMwMjkzLDIwOTU4MDUyODgsLTEwMDA3Nzc3NzUsMTE3MT
+QxMjk4NiwxNzEyMTYwMTcsLTk4MDgxMTM5OCwxMTUyNjc1MDAs
+LTE5Njc3MTg3NjAsMTIxODc4NDA0LC0zNTM4MjQ3OTIsLTMwOT
+E0NDEwNl19
 -->
