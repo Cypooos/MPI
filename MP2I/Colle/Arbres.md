@@ -14,7 +14,7 @@ struct Noeud {
 
 On définie un arbre parfait tel que toute les feuilles sont à la même distance de la racine.
 On dit que la hauteur de l'arbre nul (sans nœud) est -1.
-1. Donnez une définition équivalente de ce type en ocaml.
+1. Donnez une définition équivalente de ce type en OCaml. Toujours en OCaml, donnez la fonction `val hauteur : arbre -> int` donnant pour un arbre quelconque sa hauteur.
 2. Dessinez un arbre parfait à 7 nœuds. Tout les arbres complets sont-ils parfaits ?
 3. Démontrez que tout arbre parfait de hauteur $h$ possède $2^{h+1}-1$ nœuds.
 4. Donnez `bool est_parfait(arb a)` renvoyant vrai si l'arbre `a` est parfait.
@@ -62,6 +62,6 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTY0MTQ2MSwtMTk2NzcxODc2MCwxMj
-E4Nzg0MDQsLTM1MzgyNDc5MiwtMzA5MTQ0MTA2XX0=
+eyJoaXN0b3J5IjpbMTE1MjY3NTAwLC0xOTY3NzE4NzYwLDEyMT
+g3ODQwNCwtMzUzODI0NzkyLC0zMDkxNDQxMDZdfQ==
 -->
