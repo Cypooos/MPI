@@ -86,10 +86,12 @@ On ce donne le type suivant en OCaml :
 ```ocaml
 ```
 
+## 
+
 ## Pile file en moyenne $O(n)$
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzI3NDgwMTRdfQ==
+eyJoaXN0b3J5IjpbLTI5NTYzMDAyXX0=
 -->
