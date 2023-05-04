@@ -76,7 +76,7 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un c
 4. Montrez que si deux mots sont dans le même sous-arbre enraciné à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
 5. Donnez `void add(arbre_mot* a, int* mot, int n)` qui ajoute à `a` le mot `mot` de longueur `n`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
 6. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`.
-7. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour que `mot` de longu appartiennent à `a`
+7. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour qu'il appartienne à `a`.
 
 ## Tas de Fibonacci
 
@@ -84,10 +84,10 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un c
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE5MzQzNDEsLTExNjU3NzEyNjksLT
-gxMTA3NjcyNywtNzMxMDMzMTIsODY5MTA2OTU3LC0xNDkxNDY5
-NjUzLDI5MzAyOTMsMjA5NTgwNTI4OCwtMTAwMDc3Nzc3NSwxMT
-cxNDEyOTg2LDE3MTIxNjAxNywtOTgwODExMzk4LDExNTI2NzUw
-MCwtMTk2NzcxODc2MCwxMjE4Nzg0MDQsLTM1MzgyNDc5MiwtMz
-A5MTQ0MTA2XX0=
+eyJoaXN0b3J5IjpbMTcwMjkwNTQ1NiwtMTE2NTc3MTI2OSwtOD
+ExMDc2NzI3LC03MzEwMzMxMiw4NjkxMDY5NTcsLTE0OTE0Njk2
+NTMsMjkzMDI5MywyMDk1ODA1Mjg4LC0xMDAwNzc3Nzc1LDExNz
+E0MTI5ODYsMTcxMjE2MDE3LC05ODA4MTEzOTgsMTE1MjY3NTAw
+LC0xOTY3NzE4NzYwLDEyMTg3ODQwNCwtMzUzODI0NzkyLC0zMD
+kxNDQxMDZdfQ==
 -->
