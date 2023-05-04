@@ -36,8 +36,8 @@ struct liste {
 typedef struct liste liste;
 ```
 
-1. Créez une liste cyclique. Une liste acyclique.
-2. Donnez `void add(liste* li,int v)` qui à une liste `li` ajoute en tête le chainon contenant la valeur `v`. 
+1. Définissez deux variables représentant une liste cyclique et une liste acyclique.
+2. Donnez `void add(liste* li,int v)` qui à une liste `li` ajoute en tête le chainon contenant la valeur `v`. On utilisera une assertion pour vérifier que l’allocation dynamique de mémoire est bien réalisée.
 3. Donnez `void remove(liste* li, int v)` qui retire tous les maillons ayant `v` comme valeur à `li`.
 4. Donnez le code de la fonction suivante qui détecte si un cycle est présent ou non dans la liste, en $O(n)$ avec $n$ la longueur de la liste
 ```c
@@ -53,5 +53,6 @@ On ce donne le type suivant en OCaml :
 
 1. Rapellez 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4MzA2Mjc3LC0xODU0OTMyMjUzXX0=
+eyJoaXN0b3J5IjpbLTE3NTc3MzE2ODAsLTE4NTQ5MzIyNTNdfQ
+==
 -->
