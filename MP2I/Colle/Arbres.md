@@ -21,22 +21,6 @@ On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 5. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre. On suppose ici que `a` est parfait et que $0\le k<n$ avec $n$ le nombre de sommets.
 6. Discutez de la complexité de `arb_trouve` et de potentiel moyens de l'améliorer.
 
-## Arbre d'ensembles de séries
-On ce donne le type suivant d'arbre en Ocaml :
-```ocaml
-type arb = F | N of (int * arb) list;;
-```
-
-On dit que une liste d'entiers $(q_n)_{n\le p}$ appartient à un `arb` si il existe un chemin de la racine à une feuille étiqueté par $q_0,...,q_p$
-1. 
-1. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$.
-2. Montrez que si $(x_1,...,x_n,a_1,...,a_q)$ et $(x_1,...,x_n,b_1,...,b_p)$ appartiennent au même arbre 
-
-## Tas de Fibonacci
-
-1. Donnez en C
-N. En déduire un algorithme de tri de liste en $O(n\ln n)$
-
 ## Arbres d'intervalles
 > Source : https://info-llg.fr/option-mp/pdf/TP_intervalles.pdf
 
@@ -71,12 +55,28 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 1. Donnez une définition équivalent de ce type en C. Toujours en C, donnez la fonction `void parcours(arbre* arb)` qui affiche le parcours préfixe de `arb`.
 2. Donnez les arbres canonique des tableaux $[\![0;2]\!]$, $[\![0;0;3;2]\!]$, $[\![0;1;1;1;1;2]\!]$.
 3. Démontrez que le tableau d'un arbre canonique non trivial doit se terminer avec un nombre pair.
-4. Donnez une fonction OCaml `val to_list : tree -> int list` qui à un arbre canonique associe son tableau
+4. Donnez une fonction OCaml `val to_list : tree -> int array` qui à un arbre canonique associe sa liste d'entiers le représentant.
 5. Donnez une fonction OCaml `val canonical : int array -> tree` qui à un tableau associe son arbre canonique. On mettra sur chaque feuille son indice d'apparition dans le parcours préfixe. 
 
 
+## Arbre d'ensembles de séries
+On ce donne le type suivant d'arbre en Ocaml :
+```ocaml
+type arb = F | N of (int * arb) list;;
+```
+
+On dit que une liste d'entiers $(q_n)_{n\le p}$ appartient à un `arb` si il existe un chemin de la racine à une feuille étiqueté par $q_0,...,q_p$
+1. 
+1. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$.
+2. Montrez que si $(x_1,...,x_n,a_1,...,a_q)$ et $(x_1,...,x_n,b_1,...,b_p)$ appartiennent au même arbre 
+
+## Tas de Fibonacci
+
+1. Donnez en C
+N. En déduire un algorithme de tri de liste en $O(n\ln n)$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTEzOTI0OCwyOTMwMjkzLDIwOTU4MD
+eyJoaXN0b3J5IjpbMTA3NTU4OTIwMSwyOTMwMjkzLDIwOTU4MD
 UyODgsLTEwMDA3Nzc3NzUsMTE3MTQxMjk4NiwxNzEyMTYwMTcs
 LTk4MDgxMTM5OCwxMTUyNjc1MDAsLTE5Njc3MTg3NjAsMTIxOD
 c4NDA0LC0zNTM4MjQ3OTIsLTMwOTE0NDEwNl19
