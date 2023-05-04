@@ -88,17 +88,18 @@ ou si l'on a un nœud `N(f,a,b,g,d)`, alors `a` représente le nombre de nœuds 
 On note $n$ la taille d'un arbre.
 
 1. Rappelez la définition d'un tas binaire. Donnez en C une structure représentant un arbre, et `int hauteur(arbre* arb)` qui à un arbre `arb` lui associe sa hauteur.
-2. Donnez en OCaml `add : arbre -> int -> arbre` qui ajoute à un arbre équilibré un nœud tel que l'arbre reste équilibré. On veillera à avoir une complexité de $O(\ln n)$
-3. Donnez en OCaml `add_tas : arbre -> int -> arbre` qui ajoute à un tas binaire un nœud tel que l'arbre de retour reste un tas. On fera en sorte que la fonction soit en $O(\ln n)$
-4. Donnez en OCaml
-5. En déduire un algorithme de tri de liste en $O(n\ln n)$.
+2. Donnez en OCaml `val rotg : arbre -> arbre` qui effectue l'opération de rotation ga
+3. Donnez en OCaml `val add : arbre -> int -> arbre` qui ajoute à un arbre équilibré un nœud tel que l'arbre reste équilibré. On veillera à avoir une complexité de $O(\ln n)$
+4. Donnez en OCaml `val add_tas : arbre -> int -> arbre` qui ajoute à un tas binaire un nœud tel que l'arbre de retour reste un tas. On fera en sorte que la fonction soit en $O(\ln n)$
+5. Donnez en OCaml
+6. En déduire un algorithme de tri de liste en $O(n\ln n)$.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MjEwMzM0Miw2NzI4NTQ5OTUsMTIwOD
-YzMzIwMCw5MTMyMjU2NzUsLTIxODE3NjMwMiwtMTAyNDU4NzIx
-NCwtMTQ5Mzc3MjA5LC0xMjg4NDU4MTAxLC0xMzYxODA1MTU1LC
-0xMTY1NzcxMjY5LC04MTEwNzY3MjcsLTczMTAzMzEyLDg2OTEw
-Njk1NywtMTQ5MTQ2OTY1MywyOTMwMjkzLDIwOTU4MDUyODgsLT
-EwMDA3Nzc3NzUsMTE3MTQxMjk4NiwxNzEyMTYwMTcsLTk4MDgx
-MTM5OF19
+eyJoaXN0b3J5IjpbLTU0Nzk5NTM1NiwxMzYyMTAzMzQyLDY3Mj
+g1NDk5NSwxMjA4NjMzMjAwLDkxMzIyNTY3NSwtMjE4MTc2MzAy
+LC0xMDI0NTg3MjE0LC0xNDkzNzcyMDksLTEyODg0NTgxMDEsLT
+EzNjE4MDUxNTUsLTExNjU3NzEyNjksLTgxMTA3NjcyNywtNzMx
+MDMzMTIsODY5MTA2OTU3LC0xNDkxNDY5NjUzLDI5MzAyOTMsMj
+A5NTgwNTI4OCwtMTAwMDc3Nzc3NSwxMTcxNDEyOTg2LDE3MTIx
+NjAxN119
 -->
