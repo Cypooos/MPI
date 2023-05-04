@@ -96,15 +96,16 @@ On note $n$ la taille d'un arbre.
 7. En déduire un algorithme de tri de liste en $O(n\ln n)$.
 
 ## Arbres via des tableaux
-En C
+
+On s'intéresse ici en la représentation sous la forme d'un tableau d'arbre.
 
 1. Rappelez 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDExNTc0MTAsMTM2MjEwMzM0Miw2Nz
-I4NTQ5OTUsMTIwODYzMzIwMCw5MTMyMjU2NzUsLTIxODE3NjMw
-MiwtMTAyNDU4NzIxNCwtMTQ5Mzc3MjA5LC0xMjg4NDU4MTAxLC
-0xMzYxODA1MTU1LC0xMTY1NzcxMjY5LC04MTEwNzY3MjcsLTcz
-MTAzMzEyLDg2OTEwNjk1NywtMTQ5MTQ2OTY1MywyOTMwMjkzLD
-IwOTU4MDUyODgsLTEwMDA3Nzc3NzUsMTE3MTQxMjk4NiwxNzEy
-MTYwMTddfQ==
+eyJoaXN0b3J5IjpbLTIxNzg3Mjg3MCwxMzYyMTAzMzQyLDY3Mj
+g1NDk5NSwxMjA4NjMzMjAwLDkxMzIyNTY3NSwtMjE4MTc2MzAy
+LC0xMDI0NTg3MjE0LC0xNDkzNzcyMDksLTEyODg0NTgxMDEsLT
+EzNjE4MDUxNTUsLTExNjU3NzEyNjksLTgxMTA3NjcyNywtNzMx
+MDMzMTIsODY5MTA2OTU3LC0xNDkxNDY5NjUzLDI5MzAyOTMsMj
+A5NTgwNTI4OCwtMTAwMDc3Nzc3NSwxMTcxNDEyOTg2LDE3MTIx
+NjAxN119
 -->
