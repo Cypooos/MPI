@@ -50,12 +50,12 @@ type tree = F of int | N of tree * tree;;
 ``` 
 Un arbre _t_ est dit *canonique* si pour $A$ et $B$ deux feuilles, on a $A$ plus proche de la racine que $B$ ssi $A$ arrive avant $B$ dans un parcours préfixe.
 
-Un arbre canonique peut-être uniquement représenté par un tableau qui à chaque hauteur associe son nombre de sommets.
+Un arbre canonique peut-être uniquement représenté par un tableau qui à chaque hauteur associe son nombre de feuilles.
 
 1. Donnez une définition équivalent de ce type en C. Toujours en C, donnez la fonction `void parcours(arbre* arb)` qui affiche le parcours préfixe de `arb`.
 2. Donnez les arbres canonique des tableaux $[\![0;2]\!]$, $[\![0;0;3;2]\!]$, $[\![0;1;1;1;1;2]\!]$.
 3. Démontrez que le tableau d'un arbre canonique non trivial doit se terminer avec un nombre pair.
-4. Donnez une fonction OCaml `val to_list : tree -> int array` qui à un arbre canonique associe sa liste d'entiers le représentant.
+4. Donnez une fonction OCaml `val to_array : tree -> int array` qui à un arbre canonique associe sa liste d'entiers le représentant.
 5. Donnez une fonction OCaml `val canonical : int array -> tree` qui à un tableau associe son arbre canonique. On mettra sur chaque feuille son indice d'apparition dans le parcours préfixe. 
 
 
@@ -76,8 +76,9 @@ On dit que une liste d'entiers $(q_n)_{n\le p}$ appartient à un `arb` si il exi
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTE0Njk2NTMsMjkzMDI5MywyMDk1OD
-A1Mjg4LC0xMDAwNzc3Nzc1LDExNzE0MTI5ODYsMTcxMjE2MDE3
-LC05ODA4MTEzOTgsMTE1MjY3NTAwLC0xOTY3NzE4NzYwLDEyMT
-g3ODQwNCwtMzUzODI0NzkyLC0zMDkxNDQxMDZdfQ==
+eyJoaXN0b3J5IjpbODY5MTA2OTU3LC0xNDkxNDY5NjUzLDI5Mz
+AyOTMsMjA5NTgwNTI4OCwtMTAwMDc3Nzc3NSwxMTcxNDEyOTg2
+LDE3MTIxNjAxNywtOTgwODExMzk4LDExNTI2NzUwMCwtMTk2Nz
+cxODc2MCwxMjE4Nzg0MDQsLTM1MzgyNDc5MiwtMzA5MTQ0MTA2
+XX0=
 -->
