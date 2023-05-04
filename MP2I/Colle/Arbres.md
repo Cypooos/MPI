@@ -100,13 +100,17 @@ On note $n$ la taille d'un arbre.
 On s'intéresse ici en la représentation d'arbre sous la forme d'un tableau.
 On pose la structure suivante :
 ```c
-struct 
+struct liste {
+  int length;
+  int* array;
+  int hauteur;
+}
 ```
 
 
 1. Rappelez 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjEzNDIyOSwtMjE3ODcyODcwLDEzNj
+eyJoaXN0b3J5IjpbMTA0MjcxOTg3OSwtMjE3ODcyODcwLDEzNj
 IxMDMzNDIsNjcyODU0OTk1LDEyMDg2MzMyMDAsOTEzMjI1Njc1
 LC0yMTgxNzYzMDIsLTEwMjQ1ODcyMTQsLTE0OTM3NzIwOSwtMT
 I4ODQ1ODEwMSwtMTM2MTgwNTE1NSwtMTE2NTc3MTI2OSwtODEx
