@@ -95,8 +95,11 @@ On note $n$ la taille d'un arbre.
 6. Donnez en OCaml `val rem_tas : arbre -> int -> arbre` qui ajoute à un tas binaire un nœud tel que l'arbre de retour reste un tas. On fera en sorte que la fonction soit en $O(\ln n)$
 7. En déduire un algorithme de tri de liste en $O(n\ln n)$.
 
+## Arbres via des tableaux
+
+1. Rappelez 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTMwMDU0MjksMTM2MjEwMzM0Miw2Nz
+eyJoaXN0b3J5IjpbLTE3MTg2MDM2ODQsMTM2MjEwMzM0Miw2Nz
 I4NTQ5OTUsMTIwODYzMzIwMCw5MTMyMjU2NzUsLTIxODE3NjMw
 MiwtMTAyNDU4NzIxNCwtMTQ5Mzc3MjA5LC0xMjg4NDU4MTAxLC
 0xMzYxODA1MTU1LC0xMTY1NzcxMjY5LC04MTEwNzY3MjcsLTcz
