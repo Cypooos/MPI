@@ -10,7 +10,6 @@ typedef struct liste liste;
 ```
 
 1. Créez une liste cyclique. Une liste acyclique.
-
 2. Donnez le code de la fonction suivante qui détecte si un cycle est présent ou non dans la liste, en $O(n)$ avec $n$ la taille de la liste
 ```c
 bool is_cyclique(liste* tete)
@@ -45,5 +44,5 @@ typedef struct liste_s liste;
 5. Programmez `int pop()` retirant de la liste `lg` son dernier élément, et le retournant. On utilisera une assertion pour s'assurer que la liste n'est pas vide.
 6. Quelle structure de donnée avons-nous implémenté ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQ5MzIyNTNdfQ==
+eyJoaXN0b3J5IjpbMjMxMzEwMzg5LC0xODU0OTMyMjUzXX0=
 -->
