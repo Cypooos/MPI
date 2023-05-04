@@ -82,8 +82,9 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un c
 
 On ce donne en OCaml le type d'arbre suivant :
 ```ocaml
-type tas_binaire = F | N of int * 
+type tas = F | N of float * int * int * tas * tas
 ```
+ou si l'on a un nœud `N(f,a,b,g,d)`, alors a représente le nombre de noeud
 
 1. Rappelez la définition d'un tas binaire. Donnez en C une structure représentant un arbre, et `int hauteur(arbre* arb)` qui à un arbre `arb` lui associe sa hauteur.
 2. Donnez en OCaml `add : arbre -> int -> arbre` qui ajoute à un arbre équilibré un nœud tel que l'arbre reste équilibré.
@@ -91,7 +92,7 @@ type tas_binaire = F | N of int *
 4. En déduire un algorithme de tri de liste en $O(n\ln n)$. On appelle cet algorithme le tri par le *Tas de Fibonacci*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzkzMTQ3MSw2NzI4NTQ5OTUsMTIwOD
+eyJoaXN0b3J5IjpbLTgxNjQ2NTI4NSw2NzI4NTQ5OTUsMTIwOD
 YzMzIwMCw5MTMyMjU2NzUsLTIxODE3NjMwMiwtMTAyNDU4NzIx
 NCwtMTQ5Mzc3MjA5LC0xMjg4NDU4MTAxLC0xMzYxODA1MTU1LC
 0xMTY1NzcxMjY5LC04MTEwNzY3MjcsLTczMTAzMzEyLDg2OTEw
