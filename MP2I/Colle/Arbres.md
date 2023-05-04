@@ -70,13 +70,13 @@ struct arbre_mot {
 On modélise une lettre par un entier positif entre $0$ et $255$.
 On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arb` si il un chemin de la racine à une feuille étiqueté par les lettres $a_0,...,a_p$. 
 
-1. Donnez en OCaml une structure équivalente représentant le type `arbre_mots`.
+1. Donnez en OCaml une structure équivalente représentant le type `arbre_mots`. Toujours en OCaml, donnez `val hauteur : arbre_mots -> int` qui à un arbre associe sa hauteur.
 2. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$. Crée une variable `arbre_mot* example` le représentant.
 3. Donnez `bool is_in(arbre_mot* a, int* mot, int n)` qui test si un `mot` de longueur `n` appartient à `a`
 4. Montrez que si deux mots sont dans le même sous-arbre enraciné à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
 5. Donnez `void add(arbre_mot* a, int* mot, int n)` qui ajoute à `a` le mot `mot` de longueur `n`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
 6. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`.
-7. 
+7. Soit 
 
 ## Tas de Fibonacci
 
@@ -84,7 +84,7 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arb` si il un chemin de la r
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTY5NzYyNzQsLTExNjU3NzEyNjksLT
+eyJoaXN0b3J5IjpbLTE3MTA4MDMyMzMsLTExNjU3NzEyNjksLT
 gxMTA3NjcyNywtNzMxMDMzMTIsODY5MTA2OTU3LC0xNDkxNDY5
 NjUzLDI5MzAyOTMsMjA5NTgwNTI4OCwtMTAwMDc3Nzc3NSwxMT
 cxNDEyOTg2LDE3MTIxNjAxNywtOTgwODExMzk4LDExNTI2NzUw
