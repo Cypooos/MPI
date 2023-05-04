@@ -58,8 +58,8 @@ Le plus souvent, on enfilera les éléments au début de la liste `rear` et on l
 2) Prouver que le temps d’exécution amorti de chacune de ces deux opérations est O(1).
 
 ## Question 5
-Une liste paresseuse est-elle toujours de longueur finie ? Définir en OCaml une liste paresseuse qui énumère les carrés parfaits
+Une liste paresseuse est-elle toujours de longueur finie ? Définir en OCaml une liste paresseuse qui énumère les carrés parfaits.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNTU3NTgyMCwtMTQ0Mjc3NjQxNiwtMT
-EzMDE2MzQ1NCwxMjE0OTU3MzZdfQ==
+eyJoaXN0b3J5IjpbLTEwNDIwNTUzMTAsLTcxNTU3NTgyMCwtMT
+Q0Mjc3NjQxNiwtMTEzMDE2MzQ1NCwxMjE0OTU3MzZdfQ==
 -->
