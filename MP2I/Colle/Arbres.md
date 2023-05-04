@@ -71,11 +71,12 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 1. Donnez une définition équivalent de ce type en C. Toujours en C, donnez la fonction `void parcours(arbre* arb)` qui affiche le parcours préfixe de `arb`.
 2. Donnez les arbres canonique des tableaux $[\![0;2]\!]$, $[\![0;0;3;2]\!]$, $[\![0;1;1;1;1;2]\!]$.
 3. Démontrez que le tableau d'un arbre canonique non trivial doit se terminer avec un nombre pair.
-4. Donnez une fonction `val canonical : int array -> tree` qui à un tableau associe son arbre canonique. On mettra sur chaque feuille son indice d'apparition dans le parcours préfixe. 
+4. Donnez une fonction OCaml `val to_list : tree -> int list` qui à un arbre canonique associe son tableau
+5. Donnez une fonction OCaml `val canonical : int array -> tree` qui à un tableau associe son arbre canonique. On mettra sur chaque feuille son indice d'apparition dans le parcours préfixe. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzYzODA3NiwyOTMwMjkzLDIwOTU4MD
+eyJoaXN0b3J5IjpbMTg2OTEzOTI0OCwyOTMwMjkzLDIwOTU4MD
 UyODgsLTEwMDA3Nzc3NzUsMTE3MTQxMjk4NiwxNzEyMTYwMTcs
 LTk4MDgxMTM5OCwxMTUyNjc1MDAsLTE5Njc3MTg3NjAsMTIxOD
 c4NDA0LC0zNTM4MjQ3OTIsLTMwOTE0NDEwNl19
