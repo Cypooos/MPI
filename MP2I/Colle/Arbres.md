@@ -26,7 +26,8 @@ type arb = F | N of (int * arb) list;;
 ```
 
 On dit que une liste d'entiers $(q_n)_{n\le p}$ appartient à un `arb` si la racine il existe un chemin de la racine à une feuille étiqueté par $q_0,...,q_p$
-1. Définissez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$
+1. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$, puis donnez en une définition ocaml.
+2. Montrez que si $$
 
 ## Tas de Fibonacci
 
@@ -62,6 +63,6 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQ2NzE5NjgsMTIxODc4NDA0LC0zNT
-M4MjQ3OTIsLTMwOTE0NDEwNl19
+eyJoaXN0b3J5IjpbLTU4NTg5OTI4LDEyMTg3ODQwNCwtMzUzOD
+I0NzkyLC0zMDkxNDQxMDZdfQ==
 -->
