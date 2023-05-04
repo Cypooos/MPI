@@ -77,7 +77,6 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un c
 5. Donnez `void add(arbre_mot* a, int* mot, int n)` qui ajoute à `a` le mot `mot` de longueur `n`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
 6. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`.
 7. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour qu'il appartienne à `a`.
-8. (Bonus) 
 
 ## Tas de Fibonacci
 
@@ -85,10 +84,10 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un c
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTU3NDg5LC0xMTY1NzcxMjY5LC04MT
-EwNzY3MjcsLTczMTAzMzEyLDg2OTEwNjk1NywtMTQ5MTQ2OTY1
-MywyOTMwMjkzLDIwOTU4MDUyODgsLTEwMDA3Nzc3NzUsMTE3MT
-QxMjk4NiwxNzEyMTYwMTcsLTk4MDgxMTM5OCwxMTUyNjc1MDAs
-LTE5Njc3MTg3NjAsMTIxODc4NDA0LC0zNTM4MjQ3OTIsLTMwOT
-E0NDEwNl19
+eyJoaXN0b3J5IjpbLTEzNjE4MDUxNTUsLTExNjU3NzEyNjksLT
+gxMTA3NjcyNywtNzMxMDMzMTIsODY5MTA2OTU3LC0xNDkxNDY5
+NjUzLDI5MzAyOTMsMjA5NTgwNTI4OCwtMTAwMDc3Nzc3NSwxMT
+cxNDEyOTg2LDE3MTIxNjAxNywtOTgwODExMzk4LDExNTI2NzUw
+MCwtMTk2NzcxODc2MCwxMjE4Nzg0MDQsLTM1MzgyNDc5MiwtMz
+A5MTQ0MTA2XX0=
 -->
