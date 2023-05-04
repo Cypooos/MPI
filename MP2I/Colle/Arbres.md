@@ -88,16 +88,14 @@ type arbre = F | N of int * arbre * arbre;
 1. Rappelez la définition d'un tas binaire. Donnez en C une structure représentant un arbre, et `int hauteur(arbre* arb)` qui à un arbre `arb` lui associe sa hauteur.
 2. Donnez en OCaml `add : arbre -> int -> arbre` qui ajoute à un arbre équilibré un nœud tel que l'arbre reste équilibré.
 3. Donnez en OCaml `add_tas : arbre -> int -> arbre` qui ajoute à un tas binaire un nœud tel que l'arbre de retour reste un tas. On fera en sorte que la fonction soit en $O(\ln n)$
-
-
-5. En déduire un algorithme de tri de liste en $O(n\ln n)$. On appelle cet algorithme le tri par le *Tas de Fibonacci*.
+4. En déduire un algorithme de tri de liste en $O(n\ln n)$. On appelle cet algorithme le tri par le *Tas de Fibonacci*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwODYzMzIwMCw5MTMyMjU2NzUsLTIxOD
-E3NjMwMiwtMTAyNDU4NzIxNCwtMTQ5Mzc3MjA5LC0xMjg4NDU4
-MTAxLC0xMzYxODA1MTU1LC0xMTY1NzcxMjY5LC04MTEwNzY3Mj
-csLTczMTAzMzEyLDg2OTEwNjk1NywtMTQ5MTQ2OTY1MywyOTMw
-MjkzLDIwOTU4MDUyODgsLTEwMDA3Nzc3NzUsMTE3MTQxMjk4Ni
-wxNzEyMTYwMTcsLTk4MDgxMTM5OCwxMTUyNjc1MDAsLTE5Njc3
-MTg3NjBdfQ==
+eyJoaXN0b3J5IjpbNjcyODU0OTk1LDEyMDg2MzMyMDAsOTEzMj
+I1Njc1LC0yMTgxNzYzMDIsLTEwMjQ1ODcyMTQsLTE0OTM3NzIw
+OSwtMTI4ODQ1ODEwMSwtMTM2MTgwNTE1NSwtMTE2NTc3MTI2OS
+wtODExMDc2NzI3LC03MzEwMzMxMiw4NjkxMDY5NTcsLTE0OTE0
+Njk2NTMsMjkzMDI5MywyMDk1ODA1Mjg4LC0xMDAwNzc3Nzc1LD
+ExNzE0MTI5ODYsMTcxMjE2MDE3LC05ODA4MTEzOTgsMTE1MjY3
+NTAwXX0=
 -->
