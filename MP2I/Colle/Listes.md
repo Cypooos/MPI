@@ -22,7 +22,7 @@ typedef struct liste_s liste;
 1. A quoi servent les `typedef` ?
 2. Définir et initialiser une variable globale `lg` représentant une liste chainé initialement vide.
 3. Programmez `bool est_vide()` renvoyant `true` si `lg` est vide et `false` sinon.
-4. Programmez `void push(int v)` ajoutant `v` au début (à gauche) de la liste `lg`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
+4. Programmez `void push(int v)` ajoutant `v` au début de la liste `lg`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
 5. Programmez `int pop()` retirant de la liste `lg` son dernier élément, et le retournant. On utilisera une assertion pour s'assurer que la liste n'est pas vide.
 6. Quelle structure de donnée avons-nous implémentée ?
 
@@ -51,6 +51,5 @@ On ce donne le type suivant en OCaml :
 ```ocaml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDE1NTAwODcsLTE4NTQ5MzIyNTNdfQ
-==
+eyJoaXN0b3J5IjpbNDY4NDIxNTk1LC0xODU0OTMyMjUzXX0=
 -->
