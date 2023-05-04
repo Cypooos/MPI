@@ -70,7 +70,7 @@ On dit qu'un mot $(q_n)_{n\le p}$ appartient à un `arb` si il existe un chemin 
 1. Donnez en C une structure représentant le type `arbre_mots`.
 2. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$.
 3. Donnez `bool is_in(arbre* a, int* mot, int n)` qui test si un `mot` de longueur `n` appartient à `a`
-4. Montrez que si deux mots sont dans le même sous-arbre qui est à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
+4. Montrez que si deux mots sont dans le même sous-arbre enraciné à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
 
 ## Tas de Fibonacci
 
@@ -78,7 +78,7 @@ On dit qu'un mot $(q_n)_{n\le p}$ appartient à un `arb` si il existe un chemin 
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDU1ODI0NDcsLTczMTAzMzEyLDg2OT
+eyJoaXN0b3J5IjpbLTEyNTY4ODgxNzUsLTczMTAzMzEyLDg2OT
 EwNjk1NywtMTQ5MTQ2OTY1MywyOTMwMjkzLDIwOTU4MDUyODgs
 LTEwMDA3Nzc3NzUsMTE3MTQxMjk4NiwxNzEyMTYwMTcsLTk4MD
 gxMTM5OCwxMTUyNjc1MDAsLTE5Njc3MTg3NjAsMTIxODc4NDA0
