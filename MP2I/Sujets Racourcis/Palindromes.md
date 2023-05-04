@@ -1,6 +1,4 @@
-> Sources :
-> *A3 ORAL-ULM MPI*
-> *INFO 2023 CCP MPI*
+> *A3 ORAL-ULM MPI 2019* & *INFO CCP MPI 2023*
 
 # Palindromes
 Un mot est ici un `string`
@@ -27,6 +25,6 @@ Donnez une condition suffisante pour qu'il y ait égalité.
 
 Sur la base de cette observation, améliorer l’algorithme pour qu’il fonctionne en temps linéaire.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwODI4Nzk5NCwtMTMxNzI3NzQ0OSwtNj
-k2ODEzNDAxLC0zMzU5NDUxMDQsMTA4MjQxMTUwNl19
+eyJoaXN0b3J5IjpbNDQ0NzYyNTg0LC0xMzE3Mjc3NDQ5LC02OT
+Y4MTM0MDEsLTMzNTk0NTEwNCwxMDgyNDExNTA2XX0=
 -->
