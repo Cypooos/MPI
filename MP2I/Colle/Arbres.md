@@ -18,8 +18,8 @@ On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 2. Dessinez un arbre parfait à 7 nœuds. Tout les arbres complets sont-ils parfaits ?
 3. Démontrez que tout arbre parfait de hauteur $h$ possède $2^{h+1}-1$ nœuds.
 4. Donnez `bool est_parfait(arb a)` renvoyant vrai si l'arbre `a` est parfait.
-5. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre. On suppose ici que `a` est parfait et que $k$
-6. Discutez de la complexité de `arb_trouve` et de potentiel moyen de l'améliorer.
+5. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre. On suppose ici que `a` est parfait et que $0\le k<n$ avec $n$ le nombre de sommets.
+6. Discutez de la complexité de `arb_trouve` et de potentiel moyens de l'améliorer.
 
 ## Arbre d'ensembles de séries
 On ce donne le type suivant d'arbre en Ocaml :
@@ -28,7 +28,8 @@ type arb = F | N of (int * arb) list;;
 ```
 
 On dit que une liste d'entiers $(q_n)_{n\le p}$ appartient à un `arb` si il existe un chemin de la racine à une feuille étiqueté par $q_0,...,q_p$
-1. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$, puis donnez en une définition ocaml.
+1. Qu'est-ce qu'un 
+1. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$.
 2. Montrez que si $(x_1,...,x_n,a_1,...,a_q)$ et $(x_1,...,x_n,b_1,...,b_p)$ appartiennent au même arbre 
 
 ## Tas de Fibonacci
@@ -64,7 +65,7 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjIwNTY1NTAsLTk4MDgxMTM5OCwxMT
-UyNjc1MDAsLTE5Njc3MTg3NjAsMTIxODc4NDA0LC0zNTM4MjQ3
-OTIsLTMwOTE0NDEwNl19
+eyJoaXN0b3J5IjpbMTg3MDI1MzU4OCwtOTgwODExMzk4LDExNT
+I2NzUwMCwtMTk2NzcxODc2MCwxMjE4Nzg0MDQsLTM1MzgyNDc5
+MiwtMzA5MTQ0MTA2XX0=
 -->
