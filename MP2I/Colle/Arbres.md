@@ -50,8 +50,8 @@ type arbre_int = F | N of intervalle * arbre_int * arbre_int;;
 
 1. Qu'est-ce qu'un arbre binaire de recherche ? Proposez une structure en C pour représenter un arbre d'intervalles.
 2. Dessinez puis donnez en Ocaml arbre équilibré contenant les intervalles $\{[0;2]; [0;1]; [1;3]; [4;5]; [3;5]; [3;3]\}$
-3. Donnez `val trouver : arbre_int -> interval -> interval` tel que `trouver a i`  retourne un intervalle de l'arbre `a` intersectant `i` en $O(h)$ avec $h$ la hauteur de `a`
-4. Définissez les opérations de rotations sur les arbres binaire de recherche.
+3. Donnez `val trouver : arbre_int -> intervalle -> intervalle` tel que `trouver a i`  retourne un intervalle de l'arbre `a` intersectant `i` en $O(h)$ avec $h$ la hauteur de `a`
+4. Définissez les opérations de rotations sur les arbres binaire de recherche. Donnez la fonction `val rotg : arbre_int -> arbre-int`
 5. 
 ## Arbre canonique
 > *INFO A 2023 X-ENS MPI*
@@ -71,8 +71,8 @@ Un arbre canonique peut-être uniquement représenté par un tableau qui à chaq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4NDQxNjgwLDI5MzAyOTMsMjA5NTgwNT
-I4OCwtMTAwMDc3Nzc3NSwxMTcxNDEyOTg2LDE3MTIxNjAxNywt
-OTgwODExMzk4LDExNTI2NzUwMCwtMTk2NzcxODc2MCwxMjE4Nz
-g0MDQsLTM1MzgyNDc5MiwtMzA5MTQ0MTA2XX0=
+eyJoaXN0b3J5IjpbLTIxMjIxNTI3NTcsMjkzMDI5MywyMDk1OD
+A1Mjg4LC0xMDAwNzc3Nzc1LDExNzE0MTI5ODYsMTcxMjE2MDE3
+LC05ODA4MTEzOTgsMTE1MjY3NTAwLC0xOTY3NzE4NzYwLDEyMT
+g3ODQwNCwtMzUzODI0NzkyLC0zMDkxNDQxMDZdfQ==
 -->
