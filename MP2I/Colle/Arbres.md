@@ -53,18 +53,18 @@ On définie une structure d'arbre :
 ```ocaml
 type tree = F of int | N of tree * tree;;
 ``` 
-Un arbre _t_ est dit *canonique* si pour $A$ et $B$ deux feuilles, on a $A$ plus proche de la racine que $B$ ssi $A$ arrive avant $B$ dans un parcours préfixe gauche.
+Un arbre _t_ est dit *canonique* si pour $A$ et $B$ deux feuilles, on a $A$ plus proche de la racine que $B$ ssi $A$ arrive avant $B$ dans un parcours préfixe.
 
 Un arbre canonique peut-être uniquement représenté par un tableau qui à chaque hauteur associe son nombre de sommets.
 
-1. Donnez une définition équivalent de ce type en C. Toujours en C, donnez la fonction `void parcours(arbre* arb)` qui affiche le parcours préfixe gauche de `arb`.
+1. Donnez une définition équivalent de ce type en C. Toujours en C, donnez la fonction `void parcours(arbre* arb)` qui affiche le parcours préfixe de `arb`.
 2. Donnez les arbres canonique des tableaux $[\![0;2]\!]$, $[\![0;0;3;2]\!]$, $[\![0;1;1;1;1;2]\!]$.
 3. Démontrez que le tableau d'un arbre canonique non trivial doit se terminer avec un nombre pair.
 4. Donnez une fonction `val canonical : int array -> tree` qui à un tableau associe son arbre canonique. On mettra sur chaque feuille son indice d'apparition dans le parcours préfixe. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1NjQ3MTg4LDExNTI2NzUwMCwtMTk2Nz
-cxODc2MCwxMjE4Nzg0MDQsLTM1MzgyNDc5MiwtMzA5MTQ0MTA2
-XX0=
+eyJoaXN0b3J5IjpbLTk4MDgxMTM5OCwxMTUyNjc1MDAsLTE5Nj
+c3MTg3NjAsMTIxODc4NDA0LC0zNTM4MjQ3OTIsLTMwOTE0NDEw
+Nl19
 -->
