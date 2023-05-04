@@ -1,4 +1,3 @@
-
 ## Arbre binaire parfaits
 > *INFO-1 2023 MINES MPI*
 
@@ -84,10 +83,10 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un c
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjE4MDUxNTUsLTExNjU3NzEyNjksLT
-gxMTA3NjcyNywtNzMxMDMzMTIsODY5MTA2OTU3LC0xNDkxNDY5
-NjUzLDI5MzAyOTMsMjA5NTgwNTI4OCwtMTAwMDc3Nzc3NSwxMT
-cxNDEyOTg2LDE3MTIxNjAxNywtOTgwODExMzk4LDExNTI2NzUw
-MCwtMTk2NzcxODc2MCwxMjE4Nzg0MDQsLTM1MzgyNDc5MiwtMz
-A5MTQ0MTA2XX0=
+eyJoaXN0b3J5IjpbLTEyODg0NTgxMDEsLTEzNjE4MDUxNTUsLT
+ExNjU3NzEyNjksLTgxMTA3NjcyNywtNzMxMDMzMTIsODY5MTA2
+OTU3LC0xNDkxNDY5NjUzLDI5MzAyOTMsMjA5NTgwNTI4OCwtMT
+AwMDc3Nzc3NSwxMTcxNDEyOTg2LDE3MTIxNjAxNywtOTgwODEx
+Mzk4LDExNTI2NzUwMCwtMTk2NzcxODc2MCwxMjE4Nzg0MDQsLT
+M1MzgyNDc5MiwtMzA5MTQ0MTA2XX0=
 -->
