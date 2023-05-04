@@ -24,7 +24,9 @@ On ce donne le type suivant d'arbre en Ocaml :
 ```ocaml
 type arb = F | N of (int * arb) list;;
 ```
-On 
+
+On dit que une liste d'entiers $(q_n)_{n\le p}$ appartient à un `arb` si la racine il existe un chemin de la racine à une feuille étiqueté par $q_0,...,q_p$
+1. Définissez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$
 
 ## Tas de Fibonacci
 
@@ -32,7 +34,7 @@ On
 N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 ## Arbres d'intervalles
-
+Un arbre d'intervalles est un arbre binaire dont toute les feuilles contiennent un intervalle de la forme $[\![ a; b]\!]$
 
 ## Arbre canonique
 > *INFO A 2023 X-ENS MPI*
@@ -60,6 +62,6 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzk0NDQ4OCwxMjE4Nzg0MDQsLTM1Mz
-gyNDc5MiwtMzA5MTQ0MTA2XX0=
+eyJoaXN0b3J5IjpbLTE0MDQ2NzE5NjgsMTIxODc4NDA0LC0zNT
+M4MjQ3OTIsLTMwOTE0NDEwNl19
 -->
