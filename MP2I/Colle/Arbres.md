@@ -97,15 +97,20 @@ On note $n$ la taille d'un arbre.
 
 ## Arbres via des tableaux
 
-On s'intéresse ici en la représentation sous la forme d'un tableau d'arbre.
+On s'intéresse ici en la représentation d'arbre sous la forme d'un tableau.
+On pose la structure suivante :
+```c
+struct 
+```
+
 
 1. Rappelez 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzg3Mjg3MCwxMzYyMTAzMzQyLDY3Mj
-g1NDk5NSwxMjA4NjMzMjAwLDkxMzIyNTY3NSwtMjE4MTc2MzAy
-LC0xMDI0NTg3MjE0LC0xNDkzNzcyMDksLTEyODg0NTgxMDEsLT
-EzNjE4MDUxNTUsLTExNjU3NzEyNjksLTgxMTA3NjcyNywtNzMx
-MDMzMTIsODY5MTA2OTU3LC0xNDkxNDY5NjUzLDI5MzAyOTMsMj
-A5NTgwNTI4OCwtMTAwMDc3Nzc3NSwxMTcxNDEyOTg2LDE3MTIx
-NjAxN119
+eyJoaXN0b3J5IjpbMTYzNjEzNDIyOSwtMjE3ODcyODcwLDEzNj
+IxMDMzNDIsNjcyODU0OTk1LDEyMDg2MzMyMDAsOTEzMjI1Njc1
+LC0yMTgxNzYzMDIsLTEwMjQ1ODcyMTQsLTE0OTM3NzIwOSwtMT
+I4ODQ1ODEwMSwtMTM2MTgwNTE1NSwtMTE2NTc3MTI2OSwtODEx
+MDc2NzI3LC03MzEwMzMxMiw4NjkxMDY5NTcsLTE0OTE0Njk2NT
+MsMjkzMDI5MywyMDk1ODA1Mjg4LC0xMDAwNzc3Nzc1LDExNzE0
+MTI5ODZdfQ==
 -->
