@@ -51,14 +51,13 @@ On ce donne le type suivant en OCaml :
 ## Pile file en moyenne $O(n)$
 
 ## Stressen
-# Multiplication de matrices
 On défini le type en OCaml :
 ```ocaml
 type matrice = int array array;;
 ```
 
 On cherche dans ce sujet à calculer un produit de matrices de manière efficace.
-1. Donnez en C le code de `void (int** mat` qui calcule le produit de deux matrices de manière naïve si c'est possible, et qui `failwith` sinon. Quelle est sa complexité ?
+1. Donnez en C le code de `int** (int** mat1, int** mat2)` qui calcule le produit de deux matrices de manière naïve si c'est possible. On s'assurera que ce soit possible à l'aide d'une assertion. Quelle est sa complexité ?
 
 Soit $\Gamma,\Delta \in \mathcal{M}_n$ des matrices, on effectue la décomposition par bloc :
 $$
@@ -93,5 +92,5 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDExMDE3NV19
+eyJoaXN0b3J5IjpbLTkwMTc5NTc5MV19
 -->
