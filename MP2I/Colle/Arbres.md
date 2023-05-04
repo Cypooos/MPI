@@ -19,11 +19,12 @@ On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 3. Donnez `bool est_parfait(arb a)` renvoyant vrai si l'arbre `a` est parfait.
 4. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre. On suppose ici que `a` est parfait et que `k`$<2^{h+1}-1$ avec $h$ la hauteur de l'arbre.
 
-## Arbre d'ensembles de mots
+## Arbre d'ensembles de séries
 On ce donne le type suivant d'arbre en Ocaml :
 ```ocaml
-type arb = F | N of (
+type arb = F | N of (int * arb) list;;
 ```
+On 
 
 ## Tas de Fibonacci
 
@@ -32,7 +33,6 @@ N. En déduire un algorithme de tri de liste en $O(n\ln n)$
 
 ## Arbres d'intervalles
 
-## 
 
 ## Arbre canonique
 > *INFO A 2023 X-ENS MPI*
@@ -60,6 +60,6 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODc4NDA0LC0zNTM4MjQ3OTIsLTMwOT
-E0NDEwNl19
+eyJoaXN0b3J5IjpbMjEzMzk0NDQ4OCwxMjE4Nzg0MDQsLTM1Mz
+gyNDc5MiwtMzA5MTQ0MTA2XX0=
 -->
