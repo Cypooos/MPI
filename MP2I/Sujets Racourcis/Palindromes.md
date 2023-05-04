@@ -1,5 +1,5 @@
 > Sources :
-> *ORAL-ULM-A3 2019 XENS MPI*
+> *A3 ORAL-ULM MPI*
 > *INFO 2023 CCP MPI*
 
 # Palindromes
@@ -27,6 +27,6 @@ Donnez une condition suffisante pour qu'il y ait égalité.
 
 Sur la base de cette observation, améliorer l’algorithme pour qu’il fonctionne en temps linéaire.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTcyNzc0NDksLTY5NjgxMzQwMSwtMz
-M1OTQ1MTA0LDEwODI0MTE1MDZdfQ==
+eyJoaXN0b3J5IjpbLTUwODI4Nzk5NCwtMTMxNzI3NzQ0OSwtNj
+k2ODEzNDAxLC0zMzU5NDUxMDQsMTA4MjQxMTUwNl19
 -->
