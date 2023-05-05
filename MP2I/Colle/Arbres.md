@@ -113,16 +113,17 @@ typedef struct arbre arbre;
 3. Montrez qu'un arbre binaire complet de hauteur $h$ à entre $2^{h-1}-1$ (exclu) et $2^{h+1}-1$ (inclus) sommets.
 4. Donnez une manière de stoker dans un tableau de longueur $2^{h+1}-1$ un arbre binaire. On pourra utiliser $-1$ pour représenter une feuille vide.
 5. Donnez `arbre* create()` qui retourne un arbre vide.
-6. Donnez `void add(arbre* arb, int v)` qui ajoute à `a` un arbre binaire de recherche un nœud `b`. On veillera a avoir une faible complexité en moyenne.
+5. Donnez `bool is_in(arbre* a, int v)` qui retourne vrai si `v` est dans `a`, que l'on suppose être un arbre binaire de recherche.
+6. Donnez `void add(arbre* arb, int v)` qui ajoute à `a` e un nœud `b`.
 7. Donnez `void add`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzOTAwMzQ2LDI4NDM1MzE5NywtMTgwND
-U5MDAyNywyMDAzMDkwNjIxLC0yMTc4NzI4NzAsMTM2MjEwMzM0
-Miw2NzI4NTQ5OTUsMTIwODYzMzIwMCw5MTMyMjU2NzUsLTIxOD
-E3NjMwMiwtMTAyNDU4NzIxNCwtMTQ5Mzc3MjA5LC0xMjg4NDU4
-MTAxLC0xMzYxODA1MTU1LC0xMTY1NzcxMjY5LC04MTEwNzY3Mj
-csLTczMTAzMzEyLDg2OTEwNjk1NywtMTQ5MTQ2OTY1MywyOTMw
-MjkzXX0=
+eyJoaXN0b3J5IjpbLTE2NDk1NzI4MjQsMjg0MzUzMTk3LC0xOD
+A0NTkwMDI3LDIwMDMwOTA2MjEsLTIxNzg3Mjg3MCwxMzYyMTAz
+MzQyLDY3Mjg1NDk5NSwxMjA4NjMzMjAwLDkxMzIyNTY3NSwtMj
+E4MTc2MzAyLC0xMDI0NTg3MjE0LC0xNDkzNzcyMDksLTEyODg0
+NTgxMDEsLTEzNjE4MDUxNTUsLTExNjU3NzEyNjksLTgxMTA3Nj
+cyNywtNzMxMDMzMTIsODY5MTA2OTU3LC0xNDkxNDY5NjUzLDI5
+MzAyOTNdfQ==
 -->
