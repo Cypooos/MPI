@@ -1,6 +1,8 @@
 ## Représentation gauche
 > *INFO-1 MINES MPI 2023*
 
+## Représentation des entiers négatifs
+
 ## Entiers non bornée
 On ce donne les types suivants :
 ```ocaml
@@ -26,5 +28,6 @@ Proposer une structure de données pour stocker des sous-ensembles d’entiers $
 La complexité en espace sera de $O(M)$
 Écrire le pseudocode pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTI0MTg3MTYsMTczNDUxMTM4Ml19
+eyJoaXN0b3J5IjpbLTE3NDk1ODExNiwtMTk1MjQxODcxNiwxNz
+M0NTExMzgyXX0=
 -->
