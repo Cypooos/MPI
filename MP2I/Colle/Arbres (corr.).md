@@ -127,8 +127,8 @@ void remove(arbre_mot* a, int* mot, int n) {
 	if (a->next[mot[0]] == NULL) { return;}
 	remove(a->next[mot[0]], &mot[1], n-1);
 	
-	// On test si tout les fils de a->next[mot[0]] ne sont pas vide. S'il le sont, alors il est devenu inutile.
 	if (a->next[mot[0]]->is_end) {return;}
+	// On test si tout les fils de a->next[mot[0]] ne sont pas vide. S'il le sont, alors il est devenu inutile.
 	for(int i=0;i<256;i++) {
 		if(a->next[mot[0]]->next[i] != NULL) {
 			return;
@@ -188,6 +188,6 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1NDI2NTA0LC03NTQwMjIxNDEsNTQwND
-M0MzUyXX0=
+eyJoaXN0b3J5IjpbMTczMTMxMTU4NiwtNzU0MDIyMTQxLDU0MD
+QzNDM1Ml19
 -->
