@@ -148,7 +148,7 @@ int distance(arbre_mot* a, int* mot, int n) {
 		if (a->is_end) { return 0;}
 		return 1;
 	}
-	int min = 0;
+	int min = -1;
 	for(int i=0;i<256;i++) {
 		if(i=a->next[mot[0]]) {
 			min = min(distance(a->next[mot[0]],&mot[1],n-1),min);
@@ -202,6 +202,6 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxMjM0ODgwLDQ2NTExMzA5MCwtNzU0MD
+eyJoaXN0b3J5IjpbMTY4MTUyODM4LDQ2NTExMzA5MCwtNzU0MD
 IyMTQxLDU0MDQzNDM1Ml19
 -->
