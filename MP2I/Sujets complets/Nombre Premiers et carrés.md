@@ -1,4 +1,4 @@
->Source : Sujet Ulm 2019 J3 https://a3nm.net/work/exams/ens/exercices_info_ulm_2019.pdf
+> *J3 ORAL-Ulm 2019*
 
 # Nombre Premiers et carrés
 
@@ -37,6 +37,6 @@ $$
 En déduire le pseudo-code d’un algorithme permettant de calculer $\Phi(n)$ en temps sous-linéaire par rapport à $n$. Quelles sont ses complexités en temps et en espace ?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwMjg4NTUwLC0xNTEwODg4NjM1LDEzMz
-E1MDc4MDVdfQ==
+eyJoaXN0b3J5IjpbMjExNTMxMTYzNyw1MDAyODg1NTAsLTE1MT
+A4ODg2MzUsMTMzMTUwNzgwNV19
 -->
