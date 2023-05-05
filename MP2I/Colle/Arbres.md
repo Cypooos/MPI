@@ -71,7 +71,7 @@ On modélise une lettre par un entier positif entre $0$ et $255$.
 On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un chemin étiqueté par les lettres $a_0,...,a_p$ de la racine à un nœud ayant `end` à `true`.
 
 1. Donnez en OCaml une structure équivalente représentant le type `arbre_mot`. Toujours en OCaml, donnez `val hauteur : arbre_mot -> int` qui à un arbre associe sa hauteur.
-2. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$. Crée une variable `arbre_mot* example` le représentant.
+2. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$.
 3. Donnez `bool is_in(arbre_mot* a, int* mot, int n)` qui test si un `mot` de longueur `n` appartient à `a`
 4. Montrez que si deux mots sont dans le même sous-arbre enraciné à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
 5. Donnez `void add(arbre_mot* a, int* mot, int n)` qui ajoute à `a` le mot `mot` de longueur `n`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
@@ -119,11 +119,11 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDAyMjM3MSwxODk5NjA2OTQ2LDE3Mj
-Y4OTk5NzQsMjg0MzUzMTk3LC0xODA0NTkwMDI3LDIwMDMwOTA2
-MjEsLTIxNzg3Mjg3MCwxMzYyMTAzMzQyLDY3Mjg1NDk5NSwxMj
-A4NjMzMjAwLDkxMzIyNTY3NSwtMjE4MTc2MzAyLC0xMDI0NTg3
-MjE0LC0xNDkzNzcyMDksLTEyODg0NTgxMDEsLTEzNjE4MDUxNT
-UsLTExNjU3NzEyNjksLTgxMTA3NjcyNywtNzMxMDMzMTIsODY5
-MTA2OTU3XX0=
+eyJoaXN0b3J5IjpbODM2MTU4NDg1LDE2MDAwMjIzNzEsMTg5OT
+YwNjk0NiwxNzI2ODk5OTc0LDI4NDM1MzE5NywtMTgwNDU5MDAy
+NywyMDAzMDkwNjIxLC0yMTc4NzI4NzAsMTM2MjEwMzM0Miw2Nz
+I4NTQ5OTUsMTIwODYzMzIwMCw5MTMyMjU2NzUsLTIxODE3NjMw
+MiwtMTAyNDU4NzIxNCwtMTQ5Mzc3MjA5LC0xMjg4NDU4MTAxLC
+0xMzYxODA1MTU1LC0xMTY1NzcxMjY5LC04MTEwNzY3MjcsLTcz
+MTAzMzEyXX0=
 -->
