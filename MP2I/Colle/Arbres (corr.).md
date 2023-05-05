@@ -91,8 +91,11 @@ let rec hauteur a = match a with
 bool is_in(arbre_mot* a, int* mot,int n) {
 	int i=0;
 	while (a->next[mot[i]]!=NULL && i<n) {
-		a->a->next[mot[i]];
-		i++ } return a->next[mot[i]]->is_end && i==n-1; }
+		a = a->next[mot[i]];
+		i++;
+	}
+	return a->is_end && i==n-1;
+}
 ```
 
 6. Montrez que si deux mots sont dans le même sous-arbre enraciné à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
@@ -142,5 +145,5 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxMDk3NjExXX0=
+eyJoaXN0b3J5IjpbNjYyNzE1ODQ5XX0=
 -->
