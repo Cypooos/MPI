@@ -95,9 +95,9 @@ On note $n$ la taille d'un arbre.
 6. Donnez en OCaml `val rem_tas : arbre -> int -> arbre` qui ajoute à un tas binaire un nœud tel que l'arbre de retour reste un tas. On fera en sorte que la fonction soit en $O(\ln n)$
 7. En déduire un algorithme de tri de liste en $O(n\ln n)$.
 
-## Arbres via des tableaux (TODO)
+## Arbres binaire de recherche via des tableaux
 
-On s'intéresse ici en la représentation d'arbre sous la forme d'un tableau.
+On s'intéresse ici en la représentation d'arbre binaire de recherche sous la forme d'un tableau.
 On pose la structure suivante :
 ```c
 struct arbre {
@@ -108,22 +108,22 @@ typedef struct arbre arbre;
 ```
 
 
-1. Donnez en OCaml une définition d'un type d'arbre binaire. Qu'est-ce qu'un arbre complet ?
+1. Donnez en OCaml une définition d'un type d'arbre binaire. Qu'est-ce qu'un arbre binaire de recherche complet ?
 2. Donnez en OCaml une fonction `val pow : int -> int -> int` tel que `pow a b` calcule $a^b$en $O(\ln b)$.
 3. Montrez qu'un arbre binaire complet de hauteur $h$ à entre $2^{h-1}-1$ (exclu) et $2^{h+1}-1$ (inclus) sommets.
 4. Donnez une manière de stoker dans un tableau de longueur $2^{h+1}-1$ un arbre binaire. On pourra utiliser $-1$ pour représenter une feuille vide.
 5. Donnez `arbre* create()` qui retourne un arbre vide.
 5. Donnez `bool is_in(arbre* a, int v)` qui retourne vrai si `v` est dans `a`, que l'on suppose être un arbre binaire de recherche.
-6. Donnez `void add(arbre* arb, int v)` qui ajoute à `a` e un nœud `b`.
-7. Donnez `void add`
+6. Donnez `void add(arbre* arb, int v)` qui ajoute à un arbre binaire de recherche `a` un nœud `b`.
+7. Donnez `void fusion(arbre* arb1, arbre* arb2)` qui fusionne deux arbre binaire de recherche.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDk1NzI4MjQsMjg0MzUzMTk3LC0xOD
-A0NTkwMDI3LDIwMDMwOTA2MjEsLTIxNzg3Mjg3MCwxMzYyMTAz
-MzQyLDY3Mjg1NDk5NSwxMjA4NjMzMjAwLDkxMzIyNTY3NSwtMj
-E4MTc2MzAyLC0xMDI0NTg3MjE0LC0xNDkzNzcyMDksLTEyODg0
-NTgxMDEsLTEzNjE4MDUxNTUsLTExNjU3NzEyNjksLTgxMTA3Nj
-cyNywtNzMxMDMzMTIsODY5MTA2OTU3LC0xNDkxNDY5NjUzLDI5
-MzAyOTNdfQ==
+eyJoaXN0b3J5IjpbMTcyNjg5OTk3NCwyODQzNTMxOTcsLTE4MD
+Q1OTAwMjcsMjAwMzA5MDYyMSwtMjE3ODcyODcwLDEzNjIxMDMz
+NDIsNjcyODU0OTk1LDEyMDg2MzMyMDAsOTEzMjI1Njc1LC0yMT
+gxNzYzMDIsLTEwMjQ1ODcyMTQsLTE0OTM3NzIwOSwtMTI4ODQ1
+ODEwMSwtMTM2MTgwNTE1NSwtMTE2NTc3MTI2OSwtODExMDc2Nz
+I3LC03MzEwMzMxMiw4NjkxMDY5NTcsLTE0OTE0Njk2NTMsMjkz
+MDI5M119
 -->
