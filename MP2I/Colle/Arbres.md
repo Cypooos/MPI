@@ -108,14 +108,14 @@ struct liste {
 typedef struct liste liste;
 ```
 
-1. Donnez en OCaml une définition d'une fonction 
-2. Donnez en Ocaml une fonction `val pow : int -> int -> int` qui 
+1. Donnez en OCaml une définition d'un type d'arbre binaire. Qu'est-ce qu'un arbre complet ?
+2. Donnez en OCaml une fonction `val pow : int -> int -> int` tel que `pow a b` calcule en $O(\ln b)$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzY1MzgzOSwyODQzNTMxOTcsLTE4MD
-Q1OTAwMjcsMjAwMzA5MDYyMSwtMjE3ODcyODcwLDEzNjIxMDMz
-NDIsNjcyODU0OTk1LDEyMDg2MzMyMDAsOTEzMjI1Njc1LC0yMT
-gxNzYzMDIsLTEwMjQ1ODcyMTQsLTE0OTM3NzIwOSwtMTI4ODQ1
-ODEwMSwtMTM2MTgwNTE1NSwtMTE2NTc3MTI2OSwtODExMDc2Nz
-I3LC03MzEwMzMxMiw4NjkxMDY5NTcsLTE0OTE0Njk2NTMsMjkz
-MDI5M119
+eyJoaXN0b3J5IjpbLTEwOTA0MDI4NjQsMjg0MzUzMTk3LC0xOD
+A0NTkwMDI3LDIwMDMwOTA2MjEsLTIxNzg3Mjg3MCwxMzYyMTAz
+MzQyLDY3Mjg1NDk5NSwxMjA4NjMzMjAwLDkxMzIyNTY3NSwtMj
+E4MTc2MzAyLC0xMDI0NTg3MjE0LC0xNDkzNzcyMDksLTEyODg0
+NTgxMDEsLTEzNjE4MDUxNTUsLTExNjU3NzEyNjksLTgxMTA3Nj
+cyNywtNzMxMDMzMTIsODY5MTA2OTU3LC0xNDkxNDY5NjUzLDI5
+MzAyOTNdfQ==
 -->
