@@ -63,14 +63,14 @@ On ce donne le type suivant d'arbre en C :
 ```c
 struct arbre_mot {
   bool end;
-  struct arbre_mot next[255];
+  struct arbre_mot next[256];
 };
 typedef struct arbre_mot arbre_mot;
 ```
 On modélise une lettre par un entier positif entre $0$ et $255$.
 On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un chemin étiqueté par les lettres $a_0,...,a_p$ de la racine à un nœud ayant `end` à `true`.
 
-1. Donnez en OCaml une structure équivalente représentant le type `arbre_mots`. Toujours en OCaml, donnez `val hauteur : arbre_mots -> int` qui à un arbre associe sa hauteur.
+1. Donnez en OCaml une structure équivalente représentant le type `arbre_mot`. Toujours en OCaml, donnez `val hauteur : arbre_mot -> int` qui à un arbre associe sa hauteur.
 2. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$. Crée une variable `arbre_mot* example` le représentant.
 3. Donnez `bool is_in(arbre_mot* a, int* mot, int n)` qui test si un `mot` de longueur `n` appartient à `a`
 4. Montrez que si deux mots sont dans le même sous-arbre enraciné à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
@@ -119,11 +119,11 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjA4MTc1MjAsMTg5OTYwNjk0NiwxNz
-I2ODk5OTc0LDI4NDM1MzE5NywtMTgwNDU5MDAyNywyMDAzMDkw
-NjIxLC0yMTc4NzI4NzAsMTM2MjEwMzM0Miw2NzI4NTQ5OTUsMT
-IwODYzMzIwMCw5MTMyMjU2NzUsLTIxODE3NjMwMiwtMTAyNDU4
-NzIxNCwtMTQ5Mzc3MjA5LC0xMjg4NDU4MTAxLC0xMzYxODA1MT
-U1LC0xMTY1NzcxMjY5LC04MTEwNzY3MjcsLTczMTAzMzEyLDg2
-OTEwNjk1N119
+eyJoaXN0b3J5IjpbMTYwMDAyMjM3MSwxODk5NjA2OTQ2LDE3Mj
+Y4OTk5NzQsMjg0MzUzMTk3LC0xODA0NTkwMDI3LDIwMDMwOTA2
+MjEsLTIxNzg3Mjg3MCwxMzYyMTAzMzQyLDY3Mjg1NDk5NSwxMj
+A4NjMzMjAwLDkxMzIyNTY3NSwtMjE4MTc2MzAyLC0xMDI0NTg3
+MjE0LC0xNDkzNzcyMDksLTEyODg0NTgxMDEsLTEzNjE4MDUxNT
+UsLTExNjU3NzEyNjksLTgxMTA3NjcyNywtNzMxMDMzMTIsODY5
+MTA2OTU3XX0=
 -->
