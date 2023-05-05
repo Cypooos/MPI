@@ -64,7 +64,7 @@ On ce donne le type suivant d'arbre en C :
 typedef struct arbre_mot arbre_mot;
 struct arbre_mot {
   bool est_un_mot;
-	arbre_mot[255] next;
+  arbre_mot[255] next;
 }
 ```
 On modélise une lettre par un entier positif entre $0$ et $255$.
@@ -119,11 +119,11 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTYwNjk0NiwxNzI2ODk5OTc0LDI4ND
-M1MzE5NywtMTgwNDU5MDAyNywyMDAzMDkwNjIxLC0yMTc4NzI4
-NzAsMTM2MjEwMzM0Miw2NzI4NTQ5OTUsMTIwODYzMzIwMCw5MT
-MyMjU2NzUsLTIxODE3NjMwMiwtMTAyNDU4NzIxNCwtMTQ5Mzc3
-MjA5LC0xMjg4NDU4MTAxLC0xMzYxODA1MTU1LC0xMTY1NzcxMj
-Y5LC04MTEwNzY3MjcsLTczMTAzMzEyLDg2OTEwNjk1NywtMTQ5
-MTQ2OTY1M119
+eyJoaXN0b3J5IjpbNTc3OTI0MTU0LDE4OTk2MDY5NDYsMTcyNj
+g5OTk3NCwyODQzNTMxOTcsLTE4MDQ1OTAwMjcsMjAwMzA5MDYy
+MSwtMjE3ODcyODcwLDEzNjIxMDMzNDIsNjcyODU0OTk1LDEyMD
+g2MzMyMDAsOTEzMjI1Njc1LC0yMTgxNzYzMDIsLTEwMjQ1ODcy
+MTQsLTE0OTM3NzIwOSwtMTI4ODQ1ODEwMSwtMTM2MTgwNTE1NS
+wtMTE2NTc3MTI2OSwtODExMDc2NzI3LC03MzEwMzMxMiw4Njkx
+MDY5NTddfQ==
 -->
