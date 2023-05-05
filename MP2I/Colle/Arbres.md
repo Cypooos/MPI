@@ -110,9 +110,13 @@ typedef struct liste liste;
 
 1. Donnez en OCaml une définition d'un type d'arbre binaire. Qu'est-ce qu'un arbre complet ?
 2. Donnez en OCaml une fonction `val pow : int -> int -> int` tel que `pow a b` calcule $a^b$en $O(\ln b)$
-3. Montrez qu'un arbre binaire complet de hauteur $h$ à entre $2^{h-1}-1$ et $2^{h+1}-1$ sommets.
+3. Montrez qu'un arbre binaire complet de hauteur $h$ à entre $2^{h-1}-1$ (exclu) et $2^{h+1}-1$ (inclus) sommets.
+4. Déduisez en une manière de stoker dans un tableau de longueur $2^{h+1}-1$ un arbre binaire complet.
+
+On 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQwMzI0OTksMjg0MzUzMTk3LC0xOD
+eyJoaXN0b3J5IjpbLTE1NjM2NTIyODAsMjg0MzUzMTk3LC0xOD
 A0NTkwMDI3LDIwMDMwOTA2MjEsLTIxNzg3Mjg3MCwxMzYyMTAz
 MzQyLDY3Mjg1NDk5NSwxMjA4NjMzMjAwLDkxMzIyNTY3NSwtMj
 E4MTc2MzAyLC0xMDI0NTg3MjE0LC0xNDkzNzcyMDksLTEyODg0
