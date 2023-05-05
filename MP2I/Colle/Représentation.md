@@ -10,8 +10,8 @@ type mot = binaire list;;
 On note $L$ l'ensemble des mots.
 
 1. Rappelez l'encodage de nombre signé. Quelle est la page des nombre signé représentable avec $n$ bits ?
-2. Donnez en C `void affiche_binaire(int n)` qui pour une entré $n$, affiche (`print)` 
-3. 
+2. Donnez en C `void affiche_binaire(int n)` qui pour une entré $n$ non signé, affiche (`print`) sa représentation binaire. On n'utilisera que `%d`.
+3. Donnez en OCaml
 4. Donnez une injection de $\N$ dans $L$
 5. Donnez `val phi : int -> binaire liste` bijective.
 ## Ensemble d'entiers
@@ -26,5 +26,5 @@ Proposer une structure de données pour stocker des sous-ensembles d’entiers $
 La complexité en espace sera de $O(M)$
 Écrire le pseudocode pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTcyMzM4MywxNzM0NTExMzgyXX0=
+eyJoaXN0b3J5IjpbLTE5NTI0MTg3MTYsMTczNDUxMTM4Ml19
 -->
