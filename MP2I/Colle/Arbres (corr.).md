@@ -103,7 +103,13 @@ bool is_in(arbre_mot* a, int* mot,int n) {
 
 ```c
 void add(arbre_mot* a, int* mot, int n) {
-	while(a->next[mot[i]] != NULL) {
+	int i =0;
+	while(i<n) {
+		if (a->next[mot[i]] == NULL) {
+			a->next[mot[i]] = malloc(sizeof(arbre_mot));
+			
+		}
+		a = a->next[mot[i]];
 	}
 	a->is_end = true;
 }
@@ -154,5 +160,5 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwNDM0MzUyXX0=
+eyJoaXN0b3J5IjpbLTE2MzM3NjkzOTcsNTQwNDM0MzUyXX0=
 -->
