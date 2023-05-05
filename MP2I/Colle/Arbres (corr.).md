@@ -107,7 +107,10 @@ void add(arbre_mot* a, int* mot, int n) {
 	while(i<n) {
 		if (a->next[mot[i]] == NULL) {
 			a->next[mot[i]] = malloc(sizeof(arbre_mot));
-			
+			a->next[mot[i]]->is_end = false;
+			for (int j=0;j<256;j++){
+				a->next[mot[i]]->next[j] = NULL;
+			}
 		}
 		a = a->next[mot[i]];
 	}
@@ -160,5 +163,5 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzM3NjkzOTcsNTQwNDM0MzUyXX0=
+eyJoaXN0b3J5IjpbLTc1NDAyMjE0MSw1NDA0MzQzNTJdfQ==
 -->
