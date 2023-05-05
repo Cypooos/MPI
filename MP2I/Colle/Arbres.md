@@ -61,14 +61,14 @@ Un arbre canonique peut-être représenté par un tableau qui à chaque hauteur 
 ## Arbre d'ensembles de mots
 On ce donne le type suivant d'arbre en C :
 ```c
-typedef struct arbre_mot arbre_mot;
 struct arbre_mot {
-  bool est_final;
-  arbre_mot next[255];
+  bool end;
+  struct arbre_mot next[255];
 };
+typedef struct arbre_mot arbre_mot;
 ```
 On modélise une lettre par un entier positif entre $0$ et $255$.
-On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un chemin étiqueté par les lettres $a_0,...,a_p$ de la racine à un nœud ayant `est_un_mot` à `true`.
+On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un chemin étiqueté par les lettres $a_0,...,a_p$ de la racine à un nœud ayant `end` à `true`.
 
 1. Donnez en OCaml une structure équivalente représentant le type `arbre_mots`. Toujours en OCaml, donnez `val hauteur : arbre_mots -> int` qui à un arbre associe sa hauteur.
 2. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$. Crée une variable `arbre_mot* example` le représentant.
@@ -119,7 +119,7 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzUyNTU2NDksMTg5OTYwNjk0NiwxNz
+eyJoaXN0b3J5IjpbLTIxMjA4MTc1MjAsMTg5OTYwNjk0NiwxNz
 I2ODk5OTc0LDI4NDM1MzE5NywtMTgwNDU5MDAyNywyMDAzMDkw
 NjIxLC0yMTc4NzI4NzAsMTM2MjEwMzM0Miw2NzI4NTQ5OTUsMT
 IwODYzMzIwMCw5MTMyMjU2NzUsLTIxODE3NjMwMiwtMTAyNDU4
