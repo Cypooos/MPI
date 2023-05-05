@@ -108,14 +108,14 @@ struct liste {
 typedef struct liste liste;
 ```
 
-1. Rappelez 
+1. Donnez en OCaml une définition d'une fonction 
 2. Donnez en Ocaml une fonction `val pow : int -> int -> int` qui 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0MzUzMTk3LC0xODA0NTkwMDI3LDIwMD
-MwOTA2MjEsLTIxNzg3Mjg3MCwxMzYyMTAzMzQyLDY3Mjg1NDk5
-NSwxMjA4NjMzMjAwLDkxMzIyNTY3NSwtMjE4MTc2MzAyLC0xMD
-I0NTg3MjE0LC0xNDkzNzcyMDksLTEyODg0NTgxMDEsLTEzNjE4
-MDUxNTUsLTExNjU3NzEyNjksLTgxMTA3NjcyNywtNzMxMDMzMT
-IsODY5MTA2OTU3LC0xNDkxNDY5NjUzLDI5MzAyOTMsMjA5NTgw
-NTI4OF19
+eyJoaXN0b3J5IjpbLTYzMzY1MzgzOSwyODQzNTMxOTcsLTE4MD
+Q1OTAwMjcsMjAwMzA5MDYyMSwtMjE3ODcyODcwLDEzNjIxMDMz
+NDIsNjcyODU0OTk1LDEyMDg2MzMyMDAsOTEzMjI1Njc1LC0yMT
+gxNzYzMDIsLTEwMjQ1ODcyMTQsLTE0OTM3NzIwOSwtMTI4ODQ1
+ODEwMSwtMTM2MTgwNTE1NSwtMTE2NTc3MTI2OSwtODExMDc2Nz
+I3LC03MzEwMzMxMiw4NjkxMDY5NTcsLTE0OTE0Njk2NTMsMjkz
+MDI5M119
 -->
