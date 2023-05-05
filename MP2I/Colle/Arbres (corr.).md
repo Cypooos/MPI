@@ -141,7 +141,10 @@ void remove(arbre_mot* a, int* mot, int n) {
 
 ```c
 int distance(arbre_mot* a, int* mot, int n) {
-	
+	if (a
+	for(int i=0;i<256;i++) {
+		if(i=mot[0])
+	}
 
 }
 ```
@@ -188,6 +191,6 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTMxMTU4NiwtNzU0MDIyMTQxLDU0MD
-QzNDM1Ml19
+eyJoaXN0b3J5IjpbLTIwNTU5MTUxNDgsLTc1NDAyMjE0MSw1ND
+A0MzQzNTJdfQ==
 -->
