@@ -77,7 +77,7 @@ type arbre_mot = F | N of bool * (arbre_mot array);;
 type arbre_mot' = F | N of bool * (arbre_mot' list);;
 let rec hauteur a = match a with
   | F -> -1
-  | N(a,b) -> 
+  | N (_,b) -> 1+ for i=0 to 256 do 
 ```
 
 3. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$.
@@ -129,5 +129,5 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUxNDIzNzQxXX0=
+eyJoaXN0b3J5IjpbLTcxNzA3MzU4N119
 -->
