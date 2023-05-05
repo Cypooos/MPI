@@ -123,10 +123,8 @@ void add(arbre_mot* a, int* mot, int n) {
  
 ```c
 void remove(arbre_mot* a, int* mot, int n) {
-	if (n==0) {
-		if (a=
-	}
-
+	if (n<0) { return;}
+	if (a->next[mot[0
 }
 ```
 7. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour qu'il appartienne à `a`. On retournera $-1$ si il n'y a pas de mot de longueur `n` dans `a`
@@ -173,6 +171,6 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1Mzk1ODY2MiwtNzU0MDIyMTQxLDU0MD
-QzNDM1Ml19
+eyJoaXN0b3J5IjpbLTEwOTQxMTg1NDAsLTc1NDAyMjE0MSw1ND
+A0MzQzNTJdfQ==
 -->
