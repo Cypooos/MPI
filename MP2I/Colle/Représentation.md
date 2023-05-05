@@ -2,13 +2,17 @@
 > *INFO-1 MINES MPI 2023*
 
 ## Entiers non bornée
+On ce donne les types suivants :
+```ocaml
+type binaire = Zero | One;;
+type mot = binaire list;;
+```
+On note $L$ l'ensemble des mots.
 
-On note $L$ l'ensemble des listes de 
-
-1. Soit $m\in \N$. Peut-on toujours 
+1. Donnez 
 2. 
 3. Donnez une injection de $\N$ dans $L$
-4. Donnez `val phi : int -> `
+4. Donnez `val phi : int -> binaire liste` bijective.
 ## Ensemble d'entiers
 > *A3 (Q5) Oral Ulm 2021*, *J3 (Q2) Oral Ulm 2019*
 
@@ -21,5 +25,5 @@ Proposer une structure de données pour stocker des sous-ensembles d’entiers $
 La complexité en espace sera de $O(M)$
 Écrire le pseudocode pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDIxMzIyLDE3MzQ1MTEzODJdfQ==
+eyJoaXN0b3J5IjpbLTkzNTU3NTQzNSwxNzM0NTExMzgyXX0=
 -->
