@@ -100,8 +100,17 @@ bool is_in(arbre_mot* a, int* mot,int n) {
 
 6. Montrez que si deux mots sont dans le même sous-arbre enraciné à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
 7. Donnez `void add(arbre_mot* a, int* mot, int n)` qui ajoute à `a` le mot `mot` de longueur `n`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
-8. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`. On retirera aussi tout les maillons de l'arbre qui ne sont plus utilisés.
-9. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour qu'il appartienne à `a`. On retournera $-1$ si il n'y a pas de mot de longueur `n` dans `a`
+
+```c
+void add(arbre_mot* a, int* mot, int n) {
+	while(a->next[mot[i]] != NULL) {
+	}
+	a->is_end = true;
+}
+```
+
+9. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`. On retirera aussi tout les maillons de l'arbre qui ne sont plus utilisés.
+10. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour qu'il appartienne à `a`. On retournera $-1$ si il n'y a pas de mot de longueur `n` dans `a`
 
 ## Tas binaires
 
@@ -145,5 +154,5 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyNzE1ODQ5XX0=
+eyJoaXN0b3J5IjpbNTQwNDM0MzUyXX0=
 -->
