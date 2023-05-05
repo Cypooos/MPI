@@ -76,8 +76,11 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un c
 type arbre_mot = F | N of bool * (arbre_mot array);;
 type arbre_mot' = F | N of bool * (arbre_mot' list);;
 let rec hauteur a = match a with
-  | F -> -1
-  | N (_,b) -> 1+ for i=0 to 256 do 
+	| F -> -1
+	| N (_,b) -> let n= ref b.(0) in
+		for i=0 to 256 do 
+							n := max !n b.(i)
+					done; 1+!n
 ```
 
 3. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$.
@@ -129,5 +132,5 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzA3MzU4N119
+eyJoaXN0b3J5IjpbMTIxNzcxNjc0XX0=
 -->
