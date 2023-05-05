@@ -1,4 +1,4 @@
-> Source : Sujet Ulm 2021 J2 https://a3nm.net/work/exams/ens/exercices_info_ulm_2021.pdf
+> *J2 ORAL-Ulm 2021*
 # Paresse et file persistante
 
 ## Question 0
@@ -60,6 +60,7 @@ Le plus souvent, on enfilera les éléments au début de la liste `rear` et on l
 ## Question 5
 Une liste paresseuse est-elle toujours de longueur finie ? Définir en OCaml une liste paresseuse qui énumère les carrés parfaits.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDIwNTUzMTAsLTcxNTU3NTgyMCwtMT
-Q0Mjc3NjQxNiwtMTEzMDE2MzQ1NCwxMjE0OTU3MzZdfQ==
+eyJoaXN0b3J5IjpbLTEwNDA4NzY1MzAsLTEwNDIwNTUzMTAsLT
+cxNTU3NTgyMCwtMTQ0Mjc3NjQxNiwtMTEzMDE2MzQ1NCwxMjE0
+OTU3MzZdfQ==
 -->
