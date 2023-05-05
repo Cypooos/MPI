@@ -84,8 +84,8 @@ let rec hauteur a = match a with
 		done; 1+!n
 ```
 
-3. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$.
-4. Donnez `bool is_in(arbre_mot* a, int* mot, int n)` qui test si un `mot` de longueur `n` appartient à `a`
+2. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$.
+3. Donnez `bool is_in(arbre_mot* a, int* mot, int n)` qui test si un `mot` de longueur `n` appartient à `a`
 
 ```c
 bool is_in(arbre_mot* a, int* mot,int n) {
@@ -98,8 +98,8 @@ bool is_in(arbre_mot* a, int* mot,int n) {
 }
 ```
 
-6. Montrez que si deux mots sont dans le même sous-arbre enraciné à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
-7. Donnez `void add(arbre_mot* a, int* mot, int n)` qui ajoute à `a` le mot `mot` de longueur `n`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
+4. Montrez que si deux mots sont dans le même sous-arbre enraciné à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
+5. Donnez `void add(arbre_mot* a, int* mot, int n)` qui ajoute à `a` le mot `mot` de longueur `n`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
 
 ```c
 void add(arbre_mot* a, int* mot, int n) {
@@ -107,6 +107,7 @@ void add(arbre_mot* a, int* mot, int n) {
 	while(i<n) {
 		if (a->next[mot[i]] == NULL) {
 			a->next[mot[i]] = malloc(sizeof(arbre_mot));
+			assert(a->next[mot[i]] != NULL);
 			a->next[mot[i]]->is_end = false;
 			for (int j=0;j<256;j++){
 				a->next[mot[i]]->next[j] = NULL;
@@ -118,8 +119,15 @@ void add(arbre_mot* a, int* mot, int n) {
 }
 ```
 
-9. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`. On retirera aussi tout les maillons de l'arbre qui ne sont plus utilisés.
-10. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour qu'il appartienne à `a`. On retournera $-1$ si il n'y a pas de mot de longueur `n` dans `a`
+6. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`. On retirera aussi tout les maillons de l'arbre qui ne sont plus utilisés.
+ 
+```c
+void remove(arbre_mot* a, int* mot, int n) {
+
+
+}
+```
+7. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour qu'il appartienne à `a`. On retournera $-1$ si il n'y a pas de mot de longueur `n` dans `a`
 
 ## Tas binaires
 
@@ -163,5 +171,6 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDAyMjE0MSw1NDA0MzQzNTJdfQ==
+eyJoaXN0b3J5IjpbLTEzMDYzMjU4NzEsLTc1NDAyMjE0MSw1ND
+A0MzQzNTJdfQ==
 -->
