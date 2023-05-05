@@ -1,5 +1,4 @@
-> Source : Ulm L2 2019 https://a3nm.net/work/exams/ens/exercices_info_ulm_2019.pdf
-
+> *L2 ORAL-Ulm 2019*
 # Chemins de Schröder 
 
 
@@ -36,6 +35,6 @@ Soit $T$ un bosquet possédant $n$ feuilles et $p$ nœuds internes. Prouver que 
 ## Question 7
 Construire une bijection des bosquets à $n + 1$ feuilles vers les chemins de Schröder de longueur $2n$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjc2MzY2NzgsLTEwOTgzNDkwNTddfQ
-==
+eyJoaXN0b3J5IjpbLTI0Mjk1Mjc0LC0xMzY3NjM2Njc4LC0xMD
+k4MzQ5MDU3XX0=
 -->
