@@ -123,7 +123,9 @@ void add(arbre_mot* a, int* mot, int n) {
  
 ```c
 void remove(arbre_mot* a, int* mot, int n) {
-
+	if (n==0) {
+		if (a=
+	}
 
 }
 ```
@@ -171,6 +173,6 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDYzMjU4NzEsLTc1NDAyMjE0MSw1ND
-A0MzQzNTJdfQ==
+eyJoaXN0b3J5IjpbMTM1Mzk1ODY2MiwtNzU0MDIyMTQxLDU0MD
+QzNDM1Ml19
 -->
