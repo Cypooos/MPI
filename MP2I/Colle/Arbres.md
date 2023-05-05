@@ -101,27 +101,26 @@ On s'intéresse ici en la représentation d'arbre sous la forme d'un tableau.
 On pose la structure suivante :
 ```c
 struct arbre {
-  int length;
   int* array;
   int hauteur;
 };
 typedef struct arbre arbre;
 ```
 
-Pour une instance `a` de `liste`, on aura `a.length` qui représente le nombre de nœuds   de `a.array`.
 
 1. Donnez en OCaml une définition d'un type d'arbre binaire. Qu'est-ce qu'un arbre complet ?
-2. Donnez en OCaml une fonction `val pow : int -> int -> int` tel que `pow a b` calcule $a^b$en $O(\ln b)$
+2. Donnez en OCaml une fonction `val pow : int -> int -> int` tel que `pow a b` calcule $a^b$en $O(\ln b)$.
 3. Montrez qu'un arbre binaire complet de hauteur $h$ à entre $2^{h-1}-1$ (exclu) et $2^{h+1}-1$ (inclus) sommets.
-4. Déduisez en une manière de stoker dans un tableau de longueur $2^{h+1}-1$ un arbre binaire complet.
+4. Déduisez en une manière de stoker dans un tableau de longueur $2^{h+1}-1$ un arbre binaire complet. On pourra utiliser $-1$ pour représenter une feuille.
+5. Donnez `arbre* create()` qui retou
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTgyMjE0MjAsMjg0MzUzMTk3LC0xOD
-A0NTkwMDI3LDIwMDMwOTA2MjEsLTIxNzg3Mjg3MCwxMzYyMTAz
-MzQyLDY3Mjg1NDk5NSwxMjA4NjMzMjAwLDkxMzIyNTY3NSwtMj
-E4MTc2MzAyLC0xMDI0NTg3MjE0LC0xNDkzNzcyMDksLTEyODg0
-NTgxMDEsLTEzNjE4MDUxNTUsLTExNjU3NzEyNjksLTgxMTA3Nj
-cyNywtNzMxMDMzMTIsODY5MTA2OTU3LC0xNDkxNDY5NjUzLDI5
-MzAyOTNdfQ==
+eyJoaXN0b3J5IjpbLTQxNDMzMzMxMCwyODQzNTMxOTcsLTE4MD
+Q1OTAwMjcsMjAwMzA5MDYyMSwtMjE3ODcyODcwLDEzNjIxMDMz
+NDIsNjcyODU0OTk1LDEyMDg2MzMyMDAsOTEzMjI1Njc1LC0yMT
+gxNzYzMDIsLTEwMjQ1ODcyMTQsLTE0OTM3NzIwOSwtMTI4ODQ1
+ODEwMSwtMTM2MTgwNTE1NSwtMTE2NTc3MTI2OSwtODExMDc2Nz
+I3LC03MzEwMzMxMiw4NjkxMDY5NTcsLTE0OTE0Njk2NTMsMjkz
+MDI5M119
 -->
