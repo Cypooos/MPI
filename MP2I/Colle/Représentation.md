@@ -3,11 +3,12 @@
 
 ## Entiers non bornée
 
-On note $L$
+On note $L$ l'ensemble des listes de 
 
 1. Soit $m\in \N$. Peut-on toujours 
 2. 
 3. Donnez une injection de $\N$ dans $L$
+4. Donnez `val phi : int -> `
 ## Ensemble d'entiers
 > *A3 (Q5) Oral Ulm 2021*, *J3 (Q2) Oral Ulm 2019*
 
@@ -20,5 +21,5 @@ Proposer une structure de données pour stocker des sous-ensembles d’entiers $
 La complexité en espace sera de $O(M)$
 Écrire le pseudocode pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDkxMDg2NywxNzM0NTExMzgyXX0=
+eyJoaXN0b3J5IjpbMTYwNDIxMzIyLDE3MzQ1MTEzODJdfQ==
 -->
