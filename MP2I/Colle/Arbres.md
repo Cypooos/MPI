@@ -51,7 +51,7 @@ Un arbre binaire strict (ou localement complet) est dit *canonique* si pour $A$ 
 
 Un arbre canonique peut-être représenté par un tableau qui à chaque hauteur associe son nombre de feuilles.
 
-1. Donnez une définition équivalente de ce type en C. Toujours en C, donnez la fonction `void parcours(arbre* arb)` qui affiche le parcours préfixe de `arb`.
+1. Donnez une définition équivalente de ce type en C. Toujours en C, donnez la fonction `void parcours(arbre* arb)` qui affiche (print) le parcours préfixe de `arb`.
 2. Donnez les arbres canonique des tableaux $[\![0;2]\!]$, $[\![0;0;3;2]\!]$, $[\![0;1;1;1;1;2]\!]$.
 3. Démontrez que le tableau d'un arbre canonique non trivial doit se terminer avec un nombre pair.
 4. Donnez une fonction OCaml `val to_array : tree -> int array` qui à un arbre canonique associe son tableau d'entiers le représentant.
@@ -119,11 +119,11 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2MTU4NDg1LDE2MDAwMjIzNzEsMTg5OT
-YwNjk0NiwxNzI2ODk5OTc0LDI4NDM1MzE5NywtMTgwNDU5MDAy
-NywyMDAzMDkwNjIxLC0yMTc4NzI4NzAsMTM2MjEwMzM0Miw2Nz
-I4NTQ5OTUsMTIwODYzMzIwMCw5MTMyMjU2NzUsLTIxODE3NjMw
-MiwtMTAyNDU4NzIxNCwtMTQ5Mzc3MjA5LC0xMjg4NDU4MTAxLC
-0xMzYxODA1MTU1LC0xMTY1NzcxMjY5LC04MTEwNzY3MjcsLTcz
-MTAzMzEyXX0=
+eyJoaXN0b3J5IjpbLTY4NDI2MjAzMSw4MzYxNTg0ODUsMTYwMD
+AyMjM3MSwxODk5NjA2OTQ2LDE3MjY4OTk5NzQsMjg0MzUzMTk3
+LC0xODA0NTkwMDI3LDIwMDMwOTA2MjEsLTIxNzg3Mjg3MCwxMz
+YyMTAzMzQyLDY3Mjg1NDk5NSwxMjA4NjMzMjAwLDkxMzIyNTY3
+NSwtMjE4MTc2MzAyLC0xMDI0NTg3MjE0LC0xNDkzNzcyMDksLT
+EyODg0NTgxMDEsLTEzNjE4MDUxNTUsLTExNjU3NzEyNjksLTgx
+MTA3NjcyN119
 -->
