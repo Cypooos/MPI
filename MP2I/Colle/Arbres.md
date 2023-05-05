@@ -112,11 +112,12 @@ typedef struct arbre arbre;
 2. Donnez en OCaml une fonction `val pow : int -> int -> int` tel que `pow a b` calcule $a^b$en $O(\ln b)$.
 3. Montrez qu'un arbre binaire complet de hauteur $h$ à entre $2^{h-1}-1$ (exclu) et $2^{h+1}-1$ (inclus) sommets.
 4. Déduisez en une manière de stoker dans un tableau de longueur $2^{h+1}-1$ un arbre binaire complet. On pourra utiliser $-1$ pour représenter une feuille.
-5. Donnez `arbre* create()` qui retou
+5. Donnez `arbre* create()` qui retourne un arbre vide.
+5. Donnez `void add(arbre* arb, int v)` qui ajoute à `a` un nœud `b`. L'arbe doit On veillera a avoir une faible complexité en moyenne.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDMzMzMxMCwyODQzNTMxOTcsLTE4MD
+eyJoaXN0b3J5IjpbLTEwMjEwMDUzNSwyODQzNTMxOTcsLTE4MD
 Q1OTAwMjcsMjAwMzA5MDYyMSwtMjE3ODcyODcwLDEzNjIxMDMz
 NDIsNjcyODU0OTk1LDEyMDg2MzMyMDAsOTEzMjI1Njc1LC0yMT
 gxNzYzMDIsLTEwMjQ1ODcyMTQsLTE0OTM3NzIwOSwtMTI4ODQ1
