@@ -3,7 +3,7 @@
 
 ## Entiers non bornée
 
-
+On ce 
 
 1. Soit $m\in \N$. Peut-on toujours 
 2. 
@@ -19,5 +19,5 @@ Proposer une structure de données pour stocker des sous-ensembles d’entiers $
 La complexité en espace sera de $O(M)$
 Écrire le pseudocode pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNDU3NjEyMV19
+eyJoaXN0b3J5IjpbMTczNDUxMTM4Ml19
 -->
