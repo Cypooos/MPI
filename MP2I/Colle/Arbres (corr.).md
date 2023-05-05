@@ -128,9 +128,13 @@ void remove(arbre_mot* a, int* mot, int n) {
 	remove(a->next[mot[0]], &mot[1], n-1);
 	
 	// On test si tout les fils de a->next[mot[0]] ne sont pas vide
+	if (a->next[mot[0]]->is_e
 	for(int i=0;i<256;i++) {
-		if(a->next[i] == NULL)
+		if(a->next[mot[0]]->next[i] != NULL) {
+			return;
+		}
 	}
+	
 }
 ```
 7. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour qu'il appartienne à `a`. On retournera $-1$ si il n'y a pas de mot de longueur `n` dans `a`
@@ -177,6 +181,6 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTQ3ODI2OCwtNzU0MDIyMTQxLDU0MD
-QzNDM1Ml19
+eyJoaXN0b3J5IjpbNjA3NDM5MTcyLC03NTQwMjIxNDEsNTQwND
+M0MzUyXX0=
 -->
