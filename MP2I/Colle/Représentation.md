@@ -1,7 +1,9 @@
 ## Représentation gauche
 > *INFO-1 MINES MPI 2023*
 
+On apelle représentation binaire 
 ## Représentation des entiers négatifs
+
 
 ## Bijection de $\N$ aux mots binaire
 > Inspiré d'une erreur dans le sujet *INFO-2 MINES MPI 2023*
@@ -31,6 +33,6 @@ Proposer une structure de données pour stocker des sous-ensembles d’entiers $
 La complexité en espace sera de $O(M)$
 Écrire le pseudocode pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjI3MzQxNCwtMTc0OTU4MTE2LC0xOT
-UyNDE4NzE2LDE3MzQ1MTEzODJdfQ==
+eyJoaXN0b3J5IjpbMTE5Mzk4ODc3LC05MzIyNzM0MTQsLTE3ND
+k1ODExNiwtMTk1MjQxODcxNiwxNzM0NTExMzgyXX0=
 -->
