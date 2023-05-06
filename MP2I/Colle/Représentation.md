@@ -3,7 +3,7 @@
 
 ## Représentation des entiers négatifs
 
-## Entiers non bornée
+## Bijection de $\N$ à $L$
 > Inspiré d'une erreur dans le sujet *INFO-2 MINES MPI 2023*
 
 On ce donne les types suivants :
@@ -18,7 +18,7 @@ On note $L$ l'ensemble des objets de type `mot`.
 3. Donnez en OCaml la fonction `val to_bit : int -> binaire list` qui à $n$ associe sa représentation binaire. Est-elle bijective ?
 4. Montrez que $\psi : n,m\mapsto 2^n(2m+1)$ est bijectif de $\N^2\to\N$.
 5. Donnez en OCaml `val psi : int -> int*int` qui à $n$ associe $\psi^{-1}(n)$
-6. Donnez `val phi : int -> binaire liste` bijective de ^.
+6. Donnez `val phi : int -> binaire liste` bijective de $\N\to L$.
 ## Ensemble d'entiers
 > *A3 (Q5) Oral Ulm 2021*, *J3 (Q2) Oral Ulm 2019*
 
@@ -31,6 +31,6 @@ Proposer une structure de données pour stocker des sous-ensembles d’entiers $
 La complexité en espace sera de $O(M)$
 Écrire le pseudocode pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDQ2NzU2NCwtMTc0OTU4MTE2LC0xOT
-UyNDE4NzE2LDE3MzQ1MTEzODJdfQ==
+eyJoaXN0b3J5IjpbMTM0NDY0NjU5LC0xNzQ5NTgxMTYsLTE5NT
+I0MTg3MTYsMTczNDUxMTM4Ml19
 -->
