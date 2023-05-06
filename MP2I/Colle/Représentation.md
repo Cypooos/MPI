@@ -1,9 +1,9 @@
 ## Représentation gauche
 > *INFO-1 MINES MPI 2023*
 
-On appelle *représentation binaire gauche* de $n$ une suite finie $(g_n)_{0\le n<N}$ tel que :
+On appelle *représentation binaire gauche* de $n$ une suite finie $g= (g_n)_{0\le n<N}$ tel que :
  - $n=\sum_{k=0}^{N-1} g_k(2^{k+1}-1)$
- - Et $g_n$
+ - Et si $g = g_0,g_1,...,2,g_i,..,g_{N-1}$ alors $g_i,...,g_{N-1} = (0, ...,0)$
 
 1. Donnez la représentation binaire gauche des nombre de $0$ à $111_b$ 
 ## Représentation des entiers négatifs
@@ -40,6 +40,6 @@ On s'intéresse ici à implémenté une structure représentant des ensembles, e
 La complexité en espace sera de $O(M)$
 Écrire le code  pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzMzNDU1NjUsLTkzMjI3MzQxNCwtMT
-c0OTU4MTE2LC0xOTUyNDE4NzE2LDE3MzQ1MTEzODJdfQ==
+eyJoaXN0b3J5IjpbOTAxMDE1ODkxLC05MzIyNzM0MTQsLTE3ND
+k1ODExNiwtMTk1MjQxODcxNiwxNzM0NTExMzgyXX0=
 -->
