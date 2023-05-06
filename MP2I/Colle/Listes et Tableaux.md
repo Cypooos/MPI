@@ -18,7 +18,7 @@ On défini le type en OCaml :
 ```ocaml
 type mat = int array array;;
 ```
-3. Donnez en OCaml `val mul: mat -> mat -> mat`  une fonction en $O(n^3)$ qui calcule $\Gamma\times \Delta$ quand c'est possible, et qui `failwith` sinon.
+3. Donnez en OCaml `val mul: mat -> mat -> mat`  une fonction en $O(n^3)$ qui calcule récursivement $\Gamma\times \Delta$ quand c'est possible, et qui `failwith` sinon.
 4. Quels sont les 8 sous-produits que l'on a effectué ?
 
 On pose les produits suivant :
@@ -93,5 +93,5 @@ On ce donne le type suivant en OCaml :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTYzMDAyXX0=
+eyJoaXN0b3J5IjpbMTAxNDkzNDA2Nl19
 -->
