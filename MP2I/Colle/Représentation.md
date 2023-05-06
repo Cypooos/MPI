@@ -3,7 +3,7 @@
 
 ## Représentation des entiers négatifs
 
-## Bijection de $\N$ à $L$
+## Bijection de $\N$ aux mots binaire
 > Inspiré d'une erreur dans le sujet *INFO-2 MINES MPI 2023*
 
 On ce donne les types suivants :
@@ -31,6 +31,6 @@ Proposer une structure de données pour stocker des sous-ensembles d’entiers $
 La complexité en espace sera de $O(M)$
 Écrire le pseudocode pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDY0NjU5LC0xNzQ5NTgxMTYsLTE5NT
-I0MTg3MTYsMTczNDUxMTM4Ml19
+eyJoaXN0b3J5IjpbMTg0MjQ0NzkwNCwtMTc0OTU4MTE2LC0xOT
+UyNDE4NzE2LDE3MzQ1MTEzODJdfQ==
 -->
