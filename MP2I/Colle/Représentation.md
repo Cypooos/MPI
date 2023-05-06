@@ -17,8 +17,8 @@ On note $L$ l'ensemble des objets de type `mot`.
 2. Donnez en C `void affiche_binaire(int n)` qui pour une entré $n$ non signé, affiche (`print`) sa représentation binaire. On n'utilisera que `%d`.
 3. Donnez en OCaml la fonction `val to_bit : int -> binaire list` qui à $n$ associe sa représentation binaire. Est-elle bijective ?
 4. Montrez que $\psi : n,m\mapsto 2^n(2m+1)$ est bijectif de $(\N^*)^2\to\N^*$.
-5. Donnez en OCaml `val psi : int -> int*int` qui à $n$ associe $\psi^{-1}(n)$
-6. Donnez `val phi : int -> binaire liste` bijective de $\N\to L$.
+6. Donnez en OCaml `val psi : int -> int*int` qui à $n$ associe $\psi^{-1}(n)$.
+7. Donnez `val phi : int -> binaire liste` bijective de $\N\to L$.
 ## Ensemble d'entiers
 > *A3 (Q5) Oral Ulm 2021*, *J3 (Q2) Oral Ulm 2019*
 
@@ -31,6 +31,6 @@ Proposer une structure de données pour stocker des sous-ensembles d’entiers $
 La complexité en espace sera de $O(M)$
 Écrire le pseudocode pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyMDg1MjgzLC0xNzQ5NTgxMTYsLTE5NT
-I0MTg3MTYsMTczNDUxMTM4Ml19
+eyJoaXN0b3J5IjpbLTE4OTI0Mjg5NzcsLTE3NDk1ODExNiwtMT
+k1MjQxODcxNiwxNzM0NTExMzgyXX0=
 -->
