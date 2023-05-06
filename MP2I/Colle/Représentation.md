@@ -4,6 +4,8 @@
 ## Représentation des entiers négatifs
 
 ## Entiers non bornée
+> Inspiré d'une erreur dans le sujet *INFO-2 MINES MPI 2023*
+
 On ce donne les types suivants :
 ```ocaml
 type binaire = Zero | One;;
@@ -13,7 +15,7 @@ On note $L$ l'ensemble des objets de type `mot`.
 
 1. Rappelez l'encodage de nombre signé. Quelle est la page des nombre signé représentable avec $n$ bits ?
 2. Donnez en C `void affiche_binaire(int n)` qui pour une entré $n$ non signé, affiche (`print`) sa représentation binaire. On n'utilisera que `%d`.
-4. Do
+4. Donnez en OCaml la fonction `val to_bit : int -> binaire list` qui à $n$ associe sa liste 
 5. Donnez `val phi : int -> binaire liste` bijective.
 ## Ensemble d'entiers
 > *A3 (Q5) Oral Ulm 2021*, *J3 (Q2) Oral Ulm 2019*
@@ -27,6 +29,6 @@ Proposer une structure de données pour stocker des sous-ensembles d’entiers $
 La complexité en espace sera de $O(M)$
 Écrire le pseudocode pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3ODYzMjQ4LC0xNzQ5NTgxMTYsLTE5NT
+eyJoaXN0b3J5IjpbLTEzMDQxMjg2LC0xNzQ5NTgxMTYsLTE5NT
 I0MTg3MTYsMTczNDUxMTM4Ml19
 -->
