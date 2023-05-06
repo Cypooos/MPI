@@ -1,12 +1,14 @@
 ## Représentation gauche
 > *INFO-1 MINES MPI 2023*
 
-On appelle *représentation binaire gauche* de $n$ une suite finie $g= (g_n)_{0\le n<N}$ tel que :
- - $n=\sum_{k=0}^{N-1} g_k(2^{k+1}-1)$
- - Et si $g = g_0,g_1,...,2,g_i,..,g_{N-1}$ alors $(g_i,...,g_{N-1}) = (0, ..., 0)$
 
-1. Donnez la représentation binaire et binaire gauche des nombres de $0$ à $7$
-2. 
+On appelle *représentation binaire gauche* de $n$ sur $N$ chiffres une suite finie $g= (g_n)_{0\le n<N}$ tel que :
+ - $n=\sum_{k=0}^{N-1} g_k(2^{k+1}-1)$
+ - Si $g = g_0,g_1,...,2,g_i,..,g_{N-1}$ alors $(g_i,...,g_{N-1}) = (0, ..., 0)$
+ - Chaque $g_$
+
+1. Donnez la représentation binaire et binaire gauche des nombres de $0$ à $7$.
+2. Donnez le plus grand $M_N$ qui admet une représentation binaire gauche sur $N$ chiffres
 ## Représentation des entiers négatifs
 
 
@@ -41,6 +43,6 @@ On s'intéresse ici à implémenté une structure représentant des ensembles, e
 La complexité en espace sera de $O(M)$
 Écrire le code  pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDc1ODQyMSwtOTMyMjczNDE0LC0xNz
+eyJoaXN0b3J5IjpbLTE3NzQ5ODI3OSwtOTMyMjczNDE0LC0xNz
 Q5NTgxMTYsLTE5NTI0MTg3MTYsMTczNDUxMTM4Ml19
 -->
