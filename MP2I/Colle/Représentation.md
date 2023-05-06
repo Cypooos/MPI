@@ -16,7 +16,7 @@ struct RepGauche {
 	int position;
 	bool chiffres[N];
 };
-typedef struct RepGauche
+typedef struct RepGauche rg;
 ```
 
 ## Représentation des entiers négatifs
@@ -53,6 +53,6 @@ On s'intéresse ici à implémenté une structure représentant des ensembles, e
 La complexité en espace sera de $O(M)$
 Écrire le code  pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MjMyMzkzMSwtOTMyMjczNDE0LC0xNz
+eyJoaXN0b3J5IjpbLTk5OTgzODU0OSwtOTMyMjczNDE0LC0xNz
 Q5NTgxMTYsLTE5NTI0MTg3MTYsMTczNDUxMTM4Ml19
 -->
