@@ -10,6 +10,7 @@ On appelle *représentation binaire gauche* de $n$ sur $N$ chiffres une suite fi
 1. Donnez la représentation binaire et binaire gauche des nombres de $0$ à $7$.
 2. Donnez le plus grand $M_N$ qui admet une représentation binaire gauche sur $N$ chiffres.
 
+On définie la structure 
 ```c
 const int N = 8;
 struct RepGauche {
@@ -53,6 +54,6 @@ On s'intéresse ici à implémenté une structure représentant des ensembles, e
 La complexité en espace sera de $O(M)$
 Écrire le code  pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTgzODU0OSwtOTMyMjczNDE0LC0xNz
-Q5NTgxMTYsLTE5NTI0MTg3MTYsMTczNDUxMTM4Ml19
+eyJoaXN0b3J5IjpbODYwNzEzMTEwLC05MzIyNzM0MTQsLTE3ND
+k1ODExNiwtMTk1MjQxODcxNiwxNzM0NTExMzgyXX0=
 -->
