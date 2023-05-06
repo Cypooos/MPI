@@ -11,7 +11,7 @@ struct Noeud {
 };
 ```
 
-On définie un arbre binaire **parfait** tel que toute les feuilles sont à la même distance de la racine.
+On définie un arbre binaire *parfait* tel que toute les feuilles sont à la même distance de la racine.
 On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 1. Donnez une définition équivalente de ce type en OCaml. Toujours en OCaml, donnez la fonction `val hauteur : arbre -> int` donnant pour un arbre quelconque sa hauteur.
 2. Dessinez un arbre parfait à 7 nœuds. Tout les arbres complets sont-ils parfaits ?
@@ -23,7 +23,7 @@ On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 ## Arbres d'intervalles
 > Source : https://info-llg.fr/option-mp/pdf/TP_intervalles.pdf
 
-Un arbre d'intervalles est un arbre binaire de recherche dont tous les nœuds contiennent un intervalle de la forme $[\![ a; b]\!]$, dont les clefs sont $(a,b)$ dans l'ordre alphabétique.
+Un *arbre d'intervalles* est un arbre binaire de recherche dont tous les nœuds contiennent un intervalle de la forme $[\![ a; b]\!]$, dont les clefs sont $(a,b)$ dans l'ordre alphabétique.
 
 On ce donne le type suivant en ocaml :
 ```ocaml
@@ -119,11 +119,11 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDI2MjAzMSw4MzYxNTg0ODUsMTYwMD
-AyMjM3MSwxODk5NjA2OTQ2LDE3MjY4OTk5NzQsMjg0MzUzMTk3
-LC0xODA0NTkwMDI3LDIwMDMwOTA2MjEsLTIxNzg3Mjg3MCwxMz
-YyMTAzMzQyLDY3Mjg1NDk5NSwxMjA4NjMzMjAwLDkxMzIyNTY3
-NSwtMjE4MTc2MzAyLC0xMDI0NTg3MjE0LC0xNDkzNzcyMDksLT
-EyODg0NTgxMDEsLTEzNjE4MDUxNTUsLTExNjU3NzEyNjksLTgx
-MTA3NjcyN119
+eyJoaXN0b3J5IjpbLTE1MDk4NjI5NzcsLTY4NDI2MjAzMSw4Mz
+YxNTg0ODUsMTYwMDAyMjM3MSwxODk5NjA2OTQ2LDE3MjY4OTk5
+NzQsMjg0MzUzMTk3LC0xODA0NTkwMDI3LDIwMDMwOTA2MjEsLT
+IxNzg3Mjg3MCwxMzYyMTAzMzQyLDY3Mjg1NDk5NSwxMjA4NjMz
+MjAwLDkxMzIyNTY3NSwtMjE4MTc2MzAyLC0xMDI0NTg3MjE0LC
+0xNDkzNzcyMDksLTEyODg0NTgxMDEsLTEzNjE4MDUxNTUsLTEx
+NjU3NzEyNjldfQ==
 -->
