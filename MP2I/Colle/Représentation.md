@@ -13,9 +13,10 @@ type mot = binaire list;;
 ```
 On note $L$ l'ensemble des objets de type `mot`.
 
-1. Rappelez l'encodage de nombre signé. Quelle est la page des nombre signé représentable avec $n$ bits ?
+1. Rappelez l'encodage de nombre signé. Quelle est la plage (l'intervalle) des nombres signé représentable avec $n$ bits ?
 2. Donnez en C `void affiche_binaire(int n)` qui pour une entré $n$ non signé, affiche (`print`) sa représentation binaire. On n'utilisera que `%d`.
-4. Donnez en OCaml la fonction `val to_bit : int -> binaire list` qui à $n$ associe sa liste 
+3. Donnez en OCaml la fonction `val to_bit : int -> binaire list` qui à $n$ associe sa représentation binaire. Est-elle bijective ?
+4. Montrez que $\phi : n,m\mapsto 2^n()$ Donnez en OCaml `val get_couple : int -> int*int`
 5. Donnez `val phi : int -> binaire liste` bijective.
 ## Ensemble d'entiers
 > *A3 (Q5) Oral Ulm 2021*, *J3 (Q2) Oral Ulm 2019*
@@ -29,6 +30,6 @@ Proposer une structure de données pour stocker des sous-ensembles d’entiers $
 La complexité en espace sera de $O(M)$
 Écrire le pseudocode pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQxMjg2LC0xNzQ5NTgxMTYsLTE5NT
-I0MTg3MTYsMTczNDUxMTM4Ml19
+eyJoaXN0b3J5IjpbLTU3NDI2MzM4OSwtMTc0OTU4MTE2LC0xOT
+UyNDE4NzE2LDE3MzQ1MTEzODJdfQ==
 -->
