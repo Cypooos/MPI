@@ -3,9 +3,10 @@
 
 On appelle *représentation binaire gauche* de $n$ une suite finie $g= (g_n)_{0\le n<N}$ tel que :
  - $n=\sum_{k=0}^{N-1} g_k(2^{k+1}-1)$
- - Et si $g = g_0,g_1,...,2,g_i,..,g_{N-1}$ alors $g_i,...,g_{N-1} = (0, ...,0)$
+ - Et si $g = g_0,g_1,...,2,g_i,..,g_{N-1}$ alors $(g_i,...,g_{N-1}) = (0, ..., 0)$
 
-1. Donnez la représentation binaire gauche des nombre de $0$ à $111_b$ 
+1. Donnez la représentation binaire et binaire gauche des nombres de $0$ à $7$
+2. 
 ## Représentation des entiers négatifs
 
 
@@ -40,6 +41,6 @@ On s'intéresse ici à implémenté une structure représentant des ensembles, e
 La complexité en espace sera de $O(M)$
 Écrire le code  pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAxMDE1ODkxLC05MzIyNzM0MTQsLTE3ND
-k1ODExNiwtMTk1MjQxODcxNiwxNzM0NTExMzgyXX0=
+eyJoaXN0b3J5IjpbMjA3MDc1ODQyMSwtOTMyMjczNDE0LC0xNz
+Q5NTgxMTYsLTE5NTI0MTg3MTYsMTczNDUxMTM4Ml19
 -->
