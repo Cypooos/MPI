@@ -1,7 +1,7 @@
 ## Représentation gauche
 > *INFO-1 MINES MPI 2023*
 
-On apelle représentation binaire 
+On apelle représentation binaire gauche 
 ## Représentation des entiers négatifs
 
 
@@ -21,18 +21,21 @@ On note $L$ l'ensemble des objets de type `mot`.
 4. Montrez que $\psi : n,m\mapsto 2^n(2m+1)$ est bijectif de $(\N^*)^2\to\N^*$.
 6. Donnez en OCaml `val psi : int -> int*int` qui à $n$ associe $\psi^{-1}(n)$.
 7. Donnez `val phi : int -> binaire liste` bijective de $\N\to L$.
-## Ensemble d'entiers
+## Représentation d'ensembles
 > *A3 (Q5) Oral Ulm 2021*, *J3 (Q2) Oral Ulm 2019*
 
-Proposer une structure de données pour stocker des sous-ensembles d’entiers $S$ compris entre $0$ et $M$ qui supporte les opérations suivantes :
+On s'intéresse ici à implémenté une structure représentant des ensembles, et différentes opérations dessus.
+
+1. Donnez 
+1. Proposer une structure de données pour stocker des sous-ensembles d’entiers $S$ compris entre $0$ et $M$ qui supporte les opérations suivantes :
   — Créer cette structure (prend $M$ en argument) en $O(M)$
   — Ajouter un entier dans $S$, en $O(1)$;
   — Retirer un entier de $S$, en $O(1)$;
   — Parcourir les entiers actuellement stockés dans $S$, en $O(M)$.
 
 La complexité en espace sera de $O(M)$
-Écrire le pseudocode pour ces opérations.
+Écrire le code  pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5Mzk4ODc3LC05MzIyNzM0MTQsLTE3ND
-k1ODExNiwtMTk1MjQxODcxNiwxNzM0NTExMzgyXX0=
+eyJoaXN0b3J5IjpbLTE2OTE4ODg3OTMsLTkzMjI3MzQxNCwtMT
+c0OTU4MTE2LC0xOTUyNDE4NzE2LDE3MzQ1MTEzODJdfQ==
 -->
