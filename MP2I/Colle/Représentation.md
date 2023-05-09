@@ -22,6 +22,22 @@ typedef struct RepGauche rg;
 
 ## Représentation des entiers négatifs
 
+## Calcul de $\ln$
+
+On ce donne une structure de matrice en C :
+```c
+struct mat {
+	int size;
+	int** matrix;
+};
+typedef struct mat mat;
+
+```
+
+
+1. Donnez en OCaml `val pow : int -> int -> int` tel que `pow a b` donne $a^b$ en $O(\ln b)$
+2. Donnez en C `int log2(int n)` tel que `log2(n)` donne $\lfloor  \log_2(n) \rfloor$
+3. Donnez en C `int `
 
 ## Bijection de $\N$ aux mots binaire
 > Inspiré d'une erreur dans le sujet *INFO-2 MINES MPI 2023*
@@ -54,6 +70,7 @@ On s'intéresse ici à implémenté une structure représentant des ensembles, e
 La complexité en espace sera de $O(M)$
 Écrire le code  pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwNzEzMTEwLC05MzIyNzM0MTQsLTE3ND
-k1ODExNiwtMTk1MjQxODcxNiwxNzM0NTExMzgyXX0=
+eyJoaXN0b3J5IjpbLTE3NDE4NDcxMjAsODYwNzEzMTEwLC05Mz
+IyNzM0MTQsLTE3NDk1ODExNiwtMTk1MjQxODcxNiwxNzM0NTEx
+MzgyXX0=
 -->
