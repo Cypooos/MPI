@@ -23,9 +23,9 @@ On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 ## Arbres d'intervalles
 > Source : https://info-llg.fr/option-mp/pdf/TP_intervalles.pdf
 
-Un *arbre d'intervalles* est un arbre binaire de recherche dont tous les nœuds contiennent un intervalle de la forme $[\![ a; b]\!]$, dont les clefs sont $(a,b)$ dans l'ordre alphabétique.
+Un *arbre d'intervalles* est un arbre binaire de recherche dont tous les nœuds contiennent un intervalle de la forme $[a; b]$, dont les clefs sont $(a,b)$ dans l'ordre alphabétique.
 
-On ce donne le type suivant en ocaml :
+On ce donne le type suivant en OCaml :
 ```ocaml
 type intervalle = int * int;;
 type arbre_int = F | N of intervalle * arbre_int * arbre_int;;
@@ -33,7 +33,7 @@ type arbre_int = F | N of intervalle * arbre_int * arbre_int;;
 
 1. Qu'est-ce qu'un arbre binaire de recherche ? Proposez une structure en C similaire à celle proposé pour représenter un arbre d'intervalles.
 2. Donnez en C la fonction `int hauteur(arbre* a)` donnant la hauteur d'un arbre d'intervalle.
-3. Dessinez puis donnez en OCaml arbre équilibré contenant les intervalles $\{[0;2]; [0;1]; [1;3]; [4;5]; [3;5]; [3;3]\}$
+3. Dessinez puis donnez en OCaml un arbre équilibré contenant les intervalles $\{[0;2]; [0;1]; [1;3]; [4;5]; [3;5]; [3;3]\}$
 4. Donnez `val trouver : arbre_int -> intervalle -> intervalle` tel que `trouver a i`  retourne un intervalle de l'arbre `a` intersectant `i` en $O(h)$ avec $h$ la hauteur de `a`.
 5. Définissez les opérations de rotations sur les arbres binaire de recherche. Donnez la fonction `val rotg : arbre_int -> arbre_int` effectuant l'opération de rotation gauche. 
 
@@ -119,11 +119,11 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDk4NjI5NzcsLTY4NDI2MjAzMSw4Mz
-YxNTg0ODUsMTYwMDAyMjM3MSwxODk5NjA2OTQ2LDE3MjY4OTk5
-NzQsMjg0MzUzMTk3LC0xODA0NTkwMDI3LDIwMDMwOTA2MjEsLT
-IxNzg3Mjg3MCwxMzYyMTAzMzQyLDY3Mjg1NDk5NSwxMjA4NjMz
-MjAwLDkxMzIyNTY3NSwtMjE4MTc2MzAyLC0xMDI0NTg3MjE0LC
-0xNDkzNzcyMDksLTEyODg0NTgxMDEsLTEzNjE4MDUxNTUsLTEx
-NjU3NzEyNjldfQ==
+eyJoaXN0b3J5IjpbMTM2NDcyMzM0MiwtMTUwOTg2Mjk3NywtNj
+g0MjYyMDMxLDgzNjE1ODQ4NSwxNjAwMDIyMzcxLDE4OTk2MDY5
+NDYsMTcyNjg5OTk3NCwyODQzNTMxOTcsLTE4MDQ1OTAwMjcsMj
+AwMzA5MDYyMSwtMjE3ODcyODcwLDEzNjIxMDMzNDIsNjcyODU0
+OTk1LDEyMDg2MzMyMDAsOTEzMjI1Njc1LC0yMTgxNzYzMDIsLT
+EwMjQ1ODcyMTQsLTE0OTM3NzIwOSwtMTI4ODQ1ODEwMSwtMTM2
+MTgwNTE1NV19
 -->
