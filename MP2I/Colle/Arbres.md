@@ -18,7 +18,7 @@ On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 3. Démontrez que tout arbre parfait de hauteur $h$ possède $2^{h+1}-1$ nœuds.
 4. Donnez `bool est_parfait(arb a)` renvoyant vrai si l'arbre `a` est parfait.
 5. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre. On suppose ici que `a` est parfait et que $0\le k<n$ avec $n$ le nombre de sommets.
-6. Discutez de la complexité de `arb_trouve` et de potentiel moyens de l'améliorer. On pourra chercher un algorithme en $O(\ln n)$
+6. Discutez de la complexité de `arb_trouve` et de potentiels moyens de l'améliorer. On pourra chercher un algorithme en $O(\ln n)$
 
 ## Arbres d'intervalles
 > Source : https://info-llg.fr/option-mp/pdf/TP_intervalles.pdf
@@ -119,11 +119,11 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzAyOTIxMDAsLTE4ODQyNzY1MjYsLT
-E1MDk4NjI5NzcsLTY4NDI2MjAzMSw4MzYxNTg0ODUsMTYwMDAy
-MjM3MSwxODk5NjA2OTQ2LDE3MjY4OTk5NzQsMjg0MzUzMTk3LC
-0xODA0NTkwMDI3LDIwMDMwOTA2MjEsLTIxNzg3Mjg3MCwxMzYy
-MTAzMzQyLDY3Mjg1NDk5NSwxMjA4NjMzMjAwLDkxMzIyNTY3NS
-wtMjE4MTc2MzAyLC0xMDI0NTg3MjE0LC0xNDkzNzcyMDksLTEy
-ODg0NTgxMDFdfQ==
+eyJoaXN0b3J5IjpbLTEyNzM2MjkwMTMsLTIxMzAyOTIxMDAsLT
+E4ODQyNzY1MjYsLTE1MDk4NjI5NzcsLTY4NDI2MjAzMSw4MzYx
+NTg0ODUsMTYwMDAyMjM3MSwxODk5NjA2OTQ2LDE3MjY4OTk5Nz
+QsMjg0MzUzMTk3LC0xODA0NTkwMDI3LDIwMDMwOTA2MjEsLTIx
+Nzg3Mjg3MCwxMzYyMTAzMzQyLDY3Mjg1NDk5NSwxMjA4NjMzMj
+AwLDkxMzIyNTY3NSwtMjE4MTc2MzAyLC0xMDI0NTg3MjE0LC0x
+NDkzNzcyMDldfQ==
 -->
