@@ -23,7 +23,7 @@ On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 ## Arbres d'intervalles
 > Source : https://info-llg.fr/option-mp/pdf/TP_intervalles.pdf
 
-Un *arbre d'intervalles* est un arbre binaire de recherche dont tous les nœuds contiennent un intervalle de la forme $[a; b]$, dont les clefs sont $(a,b)$ dans l'ordre alphabétique : on dit que $(x,y)\le (a,b)$ si $x<a$ ou $x=a \land y\le b$
+Un *arbre d'intervalles* est un arbre binaire de recherche dont tous les nœuds contiennent un intervalle de la forme $[a; b]$, dont les clefs sont $(a,b)$ dans l'ordre alphabétique : on dit que $(x,y)`\preceq` (a,b)$ si $x<a$ ou $x=a \land y\le b$
 
 On ce donne le type suivant en OCaml :
 ```ocaml
@@ -119,11 +119,11 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQyNzY1MjYsLTE1MDk4NjI5NzcsLT
-Y4NDI2MjAzMSw4MzYxNTg0ODUsMTYwMDAyMjM3MSwxODk5NjA2
-OTQ2LDE3MjY4OTk5NzQsMjg0MzUzMTk3LC0xODA0NTkwMDI3LD
-IwMDMwOTA2MjEsLTIxNzg3Mjg3MCwxMzYyMTAzMzQyLDY3Mjg1
-NDk5NSwxMjA4NjMzMjAwLDkxMzIyNTY3NSwtMjE4MTc2MzAyLC
-0xMDI0NTg3MjE0LC0xNDkzNzcyMDksLTEyODg0NTgxMDEsLTEz
-NjE4MDUxNTVdfQ==
+eyJoaXN0b3J5IjpbMjA4OTkyODIzLC0xODg0Mjc2NTI2LC0xNT
+A5ODYyOTc3LC02ODQyNjIwMzEsODM2MTU4NDg1LDE2MDAwMjIz
+NzEsMTg5OTYwNjk0NiwxNzI2ODk5OTc0LDI4NDM1MzE5NywtMT
+gwNDU5MDAyNywyMDAzMDkwNjIxLC0yMTc4NzI4NzAsMTM2MjEw
+MzM0Miw2NzI4NTQ5OTUsMTIwODYzMzIwMCw5MTMyMjU2NzUsLT
+IxODE3NjMwMiwtMTAyNDU4NzIxNCwtMTQ5Mzc3MjA5LC0xMjg4
+NDU4MTAxXX0=
 -->
