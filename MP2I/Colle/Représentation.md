@@ -52,7 +52,7 @@ On note $L$ l'ensemble des objets de type `mot`.
 1. Rappelez l'encodage de nombres signés. Quelle est la plage (l'intervalle) des nombres signés représentable avec $n$ bits ?
 2. Donnez en C `void affiche_binaire(int n)` qui pour une entrée $n$ non signé, affiche (`print`) sa représentation binaire. On n'utilisera que `%d`.
 3. Donnez en OCaml la fonction `val to_bit : int -> binaire list` qui à $n$ associe sa représentation binaire. Est-elle bijective de $\N$ sur $L$ ?
-4. Montrez que $\psi : (n,m)\mapsto 2^n(2m+1)$ est bijectif de $(\N^*)^2\to\N^*$.
+4. Montrez que $\psi : (n,m)\mapsto 2^n(2m+1)$ est bijectif sur $\N^2\to\N^*$.
 6. Donnez en OCaml `val psi : int -> int*int` qui à $n$ associe $\psi^{-1}(n)$.
 7. Donnez `val phi : int -> binaire liste` bijective de $\N\to L$.
 ## Représentation d'ensembles
@@ -70,7 +70,7 @@ On s'intéresse ici à implémenté une structure représentant des ensembles, e
 La complexité en espace sera de $O(M)$
 Écrire le code  pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODI5OTUwNSwtMTc0MTg0NzEyMCw4Nj
-A3MTMxMTAsLTkzMjI3MzQxNCwtMTc0OTU4MTE2LC0xOTUyNDE4
-NzE2LDE3MzQ1MTEzODJdfQ==
+eyJoaXN0b3J5IjpbOTI2NjAyODY1LC0xNzQxODQ3MTIwLDg2MD
+cxMzExMCwtOTMyMjczNDE0LC0xNzQ5NTgxMTYsLTE5NTI0MTg3
+MTYsMTczNDUxMTM4Ml19
 -->
