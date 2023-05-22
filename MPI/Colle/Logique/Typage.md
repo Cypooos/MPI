@@ -33,12 +33,12 @@ $$
 On notera $e:t$ pour dire qu'une expression $e$ à un typage $t$.
 
 
-1. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
+1. Donnez un arbre de dérivation donnant un typage de $x\mapsto (y\mapsto x)$, $K$ et $C_0$
 
 Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
 
 2. Donnez $t$ un type généralisé de $\{\top, \bot\}$
 3. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjY2MTRdfQ==
+eyJoaXN0b3J5IjpbMTEwMDc2OTIwM119
 -->
