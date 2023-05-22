@@ -154,14 +154,15 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 # Partie V : Le théorème de _Church-Rosser_
 
-On pose la relation $=_\beta$ tel que, soit $a,b\in E$,
+On pose les relation $=_\beta$ et $\ge_\beta$ tel que, soit $a,b\in E$,
 $$
-a =_\beta b \iff \exist e\in E\ |\ a\to^* b\ \land\ b\to^* a
+a =_\beta b \iff \exist e\in E\ |\ a\to^* b\ \land\ b\to^* a \\ 
+a \ge_\beta b \iff a \to^* b \\ 
 $$
 
 1. Montrez que $=_\beta$ est une relation d'équivalence.
 
-On pose le graphe orienté $G=(,E)$ tel que
+On pose le graphe orienté infini $G=(E,V)$ tel que $(e,e') \in $
 
 # Partie VI: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -237,11 +238,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjc3NjE0MywxNTk1MTQ5ODE5LDEyND
-Q1NTQ4ODQsLTIwNzA5MzA3NDMsMTU2NzM1NTAyMSwtMjI5OTkz
-ODM2LDExMjIwMTU2ODcsNDg1NDA2NjUyLC0xNzc4NTA2MzQsLT
-M1Njc0ODY0LDY5NDk5NTUyNCwzMjAyOTA0MDEsLTkzMDE3MzAy
-NywtMTE1NTk1MTE2MywxNDI0MTUzNzg4LDE3Mzg4NzA2NzQsLT
-M1NDU3MTg1NywxOTI1OTM5NzMyLDE5MTU0NTkxMTcsLTE0OTcz
-MDc0MDJdfQ==
+eyJoaXN0b3J5IjpbOTYyNTU3OTk1LDE1OTUxNDk4MTksMTI0ND
+U1NDg4NCwtMjA3MDkzMDc0MywxNTY3MzU1MDIxLC0yMjk5OTM4
+MzYsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3Nzg1MDYzNCwtMz
+U2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwtOTMwMTczMDI3
+LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczODg3MDY3NCwtMz
+U0NTcxODU3LDE5MjU5Mzk3MzIsMTkxNTQ1OTExNywtMTQ5NzMw
+NzQwMl19
 -->
