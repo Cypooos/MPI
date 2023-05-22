@@ -161,7 +161,8 @@ On pose les relation $=_\beta$ et $\ge_\beta$ tel que, soit $a,b\in E$, $a =_\be
 
 Soit $e\in E$ unitaire, on pose $S = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x,y)\in X^2\ |\ x\to^* y\}$.
 
-24. Justifiez que $G_e = (S,V)$ est bien un graphe acyclique fini.  
+24. Justifiez que $G_e = (S,V)$ est bien un graphe fini.
+25. Soit $e,e' \in E$ deux expressions unitaire, montrez que soit $S_e=S_{e'}$ ou $S_e\ \cap S_{e'}$ 
 
 # Partie VI: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -237,11 +238,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwNjE4NjQwLDE1OTUxNDk4MTksMTI0ND
-U1NDg4NCwtMjA3MDkzMDc0MywxNTY3MzU1MDIxLC0yMjk5OTM4
-MzYsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3Nzg1MDYzNCwtMz
-U2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwtOTMwMTczMDI3
-LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczODg3MDY3NCwtMz
-U0NTcxODU3LDE5MjU5Mzk3MzIsMTkxNTQ1OTExNywtMTQ5NzMw
-NzQwMl19
+eyJoaXN0b3J5IjpbLTQyNzIzODkxMywxNTk1MTQ5ODE5LDEyND
+Q1NTQ4ODQsLTIwNzA5MzA3NDMsMTU2NzM1NTAyMSwtMjI5OTkz
+ODM2LDExMjIwMTU2ODcsNDg1NDA2NjUyLC0xNzc4NTA2MzQsLT
+M1Njc0ODY0LDY5NDk5NTUyNCwzMjAyOTA0MDEsLTkzMDE3MzAy
+NywtMTE1NTk1MTE2MywxNDI0MTUzNzg4LDE3Mzg4NzA2NzQsLT
+M1NDU3MTg1NywxOTI1OTM5NzMyLDE5MTU0NTkxMTcsLTE0OTcz
+MDc0MDJdfQ==
 -->
