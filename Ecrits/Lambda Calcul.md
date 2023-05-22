@@ -154,10 +154,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 # Partie V : Le théorème de _Church-Rosser_
 
-On pose les relation $=_\beta$ et $\ge_\beta$ tel que, soit $a,b\in E$,
-$$
-a =_\beta b \iff \exist e\in E\ |\ a\to^* e\ \land\ b\to^* e \\
-$$
+On pose les relation $=_\beta$ et $\ge_\beta$ tel que, soit $a,b\in E$, $a =_\beta b$ ssi il existe $e\in E$ sous forme normale tel que $a\to^* e\ \land\ b\to^* e$ 
 
 1. Montrez que $=_\beta$ est une relation d'équivalence.
 2. Montrez que $\to^*$ est une relation d'ordre. Est-elle totale ?
@@ -239,11 +236,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTk3NjczMSwxNTk1MTQ5ODE5LDEyND
-Q1NTQ4ODQsLTIwNzA5MzA3NDMsMTU2NzM1NTAyMSwtMjI5OTkz
-ODM2LDExMjIwMTU2ODcsNDg1NDA2NjUyLC0xNzc4NTA2MzQsLT
-M1Njc0ODY0LDY5NDk5NTUyNCwzMjAyOTA0MDEsLTkzMDE3MzAy
-NywtMTE1NTk1MTE2MywxNDI0MTUzNzg4LDE3Mzg4NzA2NzQsLT
-M1NDU3MTg1NywxOTI1OTM5NzMyLDE5MTU0NTkxMTcsLTE0OTcz
-MDc0MDJdfQ==
+eyJoaXN0b3J5IjpbLTExMTE3Mzc3NTYsMTU5NTE0OTgxOSwxMj
+Q0NTU0ODg0LC0yMDcwOTMwNzQzLDE1NjczNTUwMjEsLTIyOTk5
+MzgzNiwxMTIyMDE1Njg3LDQ4NTQwNjY1MiwtMTc3ODUwNjM0LC
+0zNTY3NDg2NCw2OTQ5OTU1MjQsMzIwMjkwNDAxLC05MzAxNzMw
+MjcsLTExNTU5NTExNjMsMTQyNDE1Mzc4OCwxNzM4ODcwNjc0LC
+0zNTQ1NzE4NTcsMTkyNTkzOTczMiwxOTE1NDU5MTE3LC0xNDk3
+MzA3NDAyXX0=
 -->
