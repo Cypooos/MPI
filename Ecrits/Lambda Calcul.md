@@ -213,7 +213,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 REM: En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même la fonction $\text{pow}$ comme on a pu le voir dans la partie III.
 
-REM: Le compromis pris par ocaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. Ocaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
+REM: Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
 # Partie V
 Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombre fini de règles $\hat{V}\to v_1|...|v_n$
@@ -223,11 +223,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NTE0OTgxOSwxMjQ0NTU0ODg0LC0yMD
-cwOTMwNzQzLDE1NjczNTUwMjEsLTIyOTk5MzgzNiwxMTIyMDE1
-Njg3LDQ4NTQwNjY1MiwtMTc3ODUwNjM0LC0zNTY3NDg2NCw2OT
-Q5OTU1MjQsMzIwMjkwNDAxLC05MzAxNzMwMjcsLTExNTU5NTEx
-NjMsMTQyNDE1Mzc4OCwxNzM4ODcwNjc0LC0zNTQ1NzE4NTcsMT
-kyNTkzOTczMiwxOTE1NDU5MTE3LC0xNDk3MzA3NDAyLC0xMDM5
-NTE3NDkzXX0=
+eyJoaXN0b3J5IjpbMjcyOTM1Mzg3LDE1OTUxNDk4MTksMTI0ND
+U1NDg4NCwtMjA3MDkzMDc0MywxNTY3MzU1MDIxLC0yMjk5OTM4
+MzYsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3Nzg1MDYzNCwtMz
+U2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwtOTMwMTczMDI3
+LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczODg3MDY3NCwtMz
+U0NTcxODU3LDE5MjU5Mzk3MzIsMTkxNTQ1OTExNywtMTQ5NzMw
+NzQwMl19
 -->
