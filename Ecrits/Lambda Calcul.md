@@ -8,13 +8,14 @@ La partie I propose une implémentation d'objets classique en lambda calcul.
 La partie II propose une implémentation de la soustraction.
 La partie III s'intéresse à la récursivité, elle est plus théorique.
 La partie IV porte sur des expressions typées (logique).
-La partie V s'intéresse à la création de grammaires générant certaines expressions.
-> La partie VI à pour but de démontrer le _Théorème de Church-Rosser_ en utilisant des graphes.
+La partie V à pour but de démontrer le _Théorème de Church-Rosser_ en utilisant des graphes.
+La partie VI s'intéresse à la création de grammaires générant certaines expressions.
 Elle est en cours d'écriture.
 
 Les parties sont toutes dépendante de la partie 1.
-Les parties de II à IV sont indépendantes entre elles
-La partie V est dépendante de toute les autres.
+Les parties de II à V sont indépendantes entre elles
+La partie VI est dépendante de toutes les autres.
+
 
 Seul la question 31 est tiroir à la question 32.
 
@@ -225,11 +226,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjgwMDY0MiwxNTk1MTQ5ODE5LDEyND
-Q1NTQ4ODQsLTIwNzA5MzA3NDMsMTU2NzM1NTAyMSwtMjI5OTkz
-ODM2LDExMjIwMTU2ODcsNDg1NDA2NjUyLC0xNzc4NTA2MzQsLT
-M1Njc0ODY0LDY5NDk5NTUyNCwzMjAyOTA0MDEsLTkzMDE3MzAy
-NywtMTE1NTk1MTE2MywxNDI0MTUzNzg4LDE3Mzg4NzA2NzQsLT
-M1NDU3MTg1NywxOTI1OTM5NzMyLDE5MTU0NTkxMTcsLTE0OTcz
-MDc0MDJdfQ==
+eyJoaXN0b3J5IjpbMzQ2Nzk1MDE3LDE1OTUxNDk4MTksMTI0ND
+U1NDg4NCwtMjA3MDkzMDc0MywxNTY3MzU1MDIxLC0yMjk5OTM4
+MzYsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3Nzg1MDYzNCwtMz
+U2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwtOTMwMTczMDI3
+LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczODg3MDY3NCwtMz
+U0NTcxODU3LDE5MjU5Mzk3MzIsMTkxNTQ1OTExNywtMTQ5NzMw
+NzQwMl19
 -->
