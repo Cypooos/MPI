@@ -156,10 +156,12 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 On pose la relation $=_\beta$ tel que, soit $a,b\in E$,
 $$
-a =_\beta b \iff \exist e
+a =_\beta b \iff \exist e\in E\ |\ a\to^* b\ \land\ b\to^* a
 $$
 
-1. M 
+1. Montrez que $=_\beta$ est une relation d'équivalence.
+
+On pose le graphe orienté $G=(,E)$ tel que
 
 # Partie VI: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -235,7 +237,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzM2NjQ1OCwxNTk1MTQ5ODE5LDEyND
+eyJoaXN0b3J5IjpbMTUzNjc3NjE0MywxNTk1MTQ5ODE5LDEyND
 Q1NTQ4ODQsLTIwNzA5MzA3NDMsMTU2NzM1NTAyMSwtMjI5OTkz
 ODM2LDExMjIwMTU2ODcsNDg1NDA2NjUyLC0xNzc4NTA2MzQsLT
 M1Njc0ODY0LDY5NDk5NTUyNCwzMjAyOTA0MDEsLTkzMDE3MzAy
