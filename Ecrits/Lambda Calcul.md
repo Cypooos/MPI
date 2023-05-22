@@ -159,7 +159,7 @@ On pose les relation $=_\beta$ et $\ge_\beta$ tel que, soit $a,b\in E$, $a =_\be
 1. Montrez que $=_\beta$ est une relation d'équivalence.
 2. Montrez que $\to^*$ est une relation d'ordre. Est-elle totale ?
 
-Soit $e\in E$ unitaire, on pose $X = $on pose $G=(X,V)$ le 
+Soit $e\in E$ unitaire, on pose $S = \{x\in E\ | x =_\beta e\}$, et $V = \{(x,y)\in X^2\ |\ x\to^* y\}$.
 
 # Partie VI: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -235,11 +235,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjY3NzM5LDE1OTUxNDk4MTksMTI0ND
-U1NDg4NCwtMjA3MDkzMDc0MywxNTY3MzU1MDIxLC0yMjk5OTM4
-MzYsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3Nzg1MDYzNCwtMz
-U2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwtOTMwMTczMDI3
-LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczODg3MDY3NCwtMz
-U0NTcxODU3LDE5MjU5Mzk3MzIsMTkxNTQ1OTExNywtMTQ5NzMw
-NzQwMl19
+eyJoaXN0b3J5IjpbOTM5NzMwMiwxNTk1MTQ5ODE5LDEyNDQ1NT
+Q4ODQsLTIwNzA5MzA3NDMsMTU2NzM1NTAyMSwtMjI5OTkzODM2
+LDExMjIwMTU2ODcsNDg1NDA2NjUyLC0xNzc4NTA2MzQsLTM1Nj
+c0ODY0LDY5NDk5NTUyNCwzMjAyOTA0MDEsLTkzMDE3MzAyNywt
+MTE1NTk1MTE2MywxNDI0MTUzNzg4LDE3Mzg4NzA2NzQsLTM1ND
+U3MTg1NywxOTI1OTM5NzMyLDE5MTU0NTkxMTcsLTE0OTczMDc0
+MDJdfQ==
 -->
