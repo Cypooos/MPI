@@ -8,17 +8,19 @@ La partie I propose une implémentation d'objets classique en lambda calcul.
 La partie II propose une implémentation de la soustraction.
 La partie III s'intéresse à la récursivité, elle est plus théorique.
 La partie IV porte sur des expressions typées (logique).
-La partie V s'intéresse à la création de grammaires générant des expressions.
+La partie V s'intéresse à la création de grammaires générant certaines expressions.
 > La partie VI à pour but de démontrer le _Théorème de Church-Rosser_ en utilisant des graphes.
-Elles sont en cours d'écriture.
+Elle est en cours d'écriture.
 
-Toutes les parties sont dépendante de la partie 1, mais sont indépendantes entre elles.
+Les parties sont toutes dépendante de la partie 1.
+Les parties de II à IV sont indépendantes entre elles
+La partie V est dépendante de toute les autres.
 
 Seul la question 31 est tiroir à la question 32.
 
 Les questions plus difficile sont préambulées d'une étoile (*).
 On pourra admettre une question pour passer à la suivante.
-Il n'est pas fait pour être réalisé en 4h ; il sera difficile même en le faisant en 6 heures.
+Il n'est pas fait pour être réalisé en 4h.
 
 # Définitions
 
@@ -223,7 +225,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMDI1NDEzMSwxNTk1MTQ5ODE5LDEyND
+eyJoaXN0b3J5IjpbLTMyMjgwMDY0MiwxNTk1MTQ5ODE5LDEyND
 Q1NTQ4ODQsLTIwNzA5MzA3NDMsMTU2NzM1NTAyMSwtMjI5OTkz
 ODM2LDExMjIwMTU2ODcsNDg1NDA2NjUyLC0xNzc4NTA2MzQsLT
 M1Njc0ODY0LDY5NDk5NTUyNCwzMjAyOTA0MDEsLTkzMDE3MzAy
