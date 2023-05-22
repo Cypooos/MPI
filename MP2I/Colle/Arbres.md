@@ -74,7 +74,7 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un c
 1. Donnez en OCaml une structure équivalente représentant le type `arbre_mot`. Toujours en OCaml, donnez `val hauteur : arbre_mot -> int` qui à un arbre associe sa hauteur.
 2. Dessinez l'arbre représentant $\{ [ \! [0,1,0]\!]; [ \! [0,1,1]\!]; [ \! [1]\!]; [ \! [1,2]\!]\}$.
 3. Donnez `bool is_in(arbre_mot* a, int* mot, int n)` qui test si un `mot` de longueur `n` appartient à `a`
-4. Montrez que si deux mots sont dans le même sous-arbre enraciné à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
+4. Montrez que deux mots sont dans le même sous-arbre enraciné à une distance $n$ de la racine, alors leur $n$ premières lettres sont les mêmes.
 5. Donnez `void add(arbre_mot* a, int* mot, int n)` qui ajoute à `a` le mot `mot` de longueur `n`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
 6. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`. On retirera aussi tout les maillons de l'arbre qui ne sont plus utilisés.
 7. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour qu'il appartienne à `a`. On retournera $-1$ si il n'y a pas de mot de longueur `n` dans `a`
@@ -120,11 +120,11 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNDA0NTg4MCwtMjEzMDI5MjEwMCwtMT
-g4NDI3NjUyNiwtMTUwOTg2Mjk3NywtNjg0MjYyMDMxLDgzNjE1
-ODQ4NSwxNjAwMDIyMzcxLDE4OTk2MDY5NDYsMTcyNjg5OTk3NC
-wyODQzNTMxOTcsLTE4MDQ1OTAwMjcsMjAwMzA5MDYyMSwtMjE3
-ODcyODcwLDEzNjIxMDMzNDIsNjcyODU0OTk1LDEyMDg2MzMyMD
-AsOTEzMjI1Njc1LC0yMTgxNzYzMDIsLTEwMjQ1ODcyMTQsLTE0
-OTM3NzIwOV19
+eyJoaXN0b3J5IjpbMTA1MDY4NzIxMiwxMjA0MDQ1ODgwLC0yMT
+MwMjkyMTAwLC0xODg0Mjc2NTI2LC0xNTA5ODYyOTc3LC02ODQy
+NjIwMzEsODM2MTU4NDg1LDE2MDAwMjIzNzEsMTg5OTYwNjk0Ni
+wxNzI2ODk5OTc0LDI4NDM1MzE5NywtMTgwNDU5MDAyNywyMDAz
+MDkwNjIxLC0yMTc4NzI4NzAsMTM2MjEwMzM0Miw2NzI4NTQ5OT
+UsMTIwODYzMzIwMCw5MTMyMjU2NzUsLTIxODE3NjMwMiwtMTAy
+NDU4NzIxNF19
 -->
