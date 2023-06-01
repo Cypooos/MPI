@@ -37,7 +37,7 @@ typedef struct mat mat;
 
 1. Donnez en OCaml `val pow : int -> int -> int` tel que `pow a b` donne $a^b$ en $O(\ln b)$
 2. Donnez en C `int log2(int n)` tel que `log2(n)` donne $\lfloor  \log_2(n) \rfloor$
-3. Donnez en C `void mul(mat* a, mat* b, mat* c)` tel que après l'execution, la matrice C contin``
+3. Donnez en C `void mul(mat* a, mat* b, mat* c)` tel que après l'execution, la matrice `c` contiens `a`$\times$`b`
 
 ## Bijection de $\N$ aux mots binaire
 > Inspiré d'une erreur dans le sujet *INFO-2 MINES MPI 2023*
@@ -70,7 +70,7 @@ On s'intéresse ici à implémenté une structure représentant des ensembles, e
 La complexité en espace sera de $O(M)$
 Écrire le code  pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTE4MTYxNTYsOTI2NjAyODY1LC0xNz
-QxODQ3MTIwLDg2MDcxMzExMCwtOTMyMjczNDE0LC0xNzQ5NTgx
-MTYsLTE5NTI0MTg3MTYsMTczNDUxMTM4Ml19
+eyJoaXN0b3J5IjpbMTIwODc2NzcxMyw5MjY2MDI4NjUsLTE3ND
+E4NDcxMjAsODYwNzEzMTEwLC05MzIyNzM0MTQsLTE3NDk1ODEx
+NiwtMTk1MjQxODcxNiwxNzM0NTExMzgyXX0=
 -->
