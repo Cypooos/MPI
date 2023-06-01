@@ -24,8 +24,8 @@ typedef struct RepGauche rg;
 On dit qu'un tableau $T$ de taille $n$ est un tableau d'indices auto-représentatif si $T[i]$ indique le nombre de $i$ dans $T$.
 1. Existe-t'il des tableaux d'indices auto-représentatif pour $n=1$ ? pour $n=2$ ?
 2. Donnez un exemple de tableau d'indice auto-représentatif.
-3. Montrez que, si $T$ est un tableau d'indice auto-représentatif :
-4. il n'existe qu'un seul $i\in$
+3. Montrez que, si $T$ est un tableau de longueur $n$ d'indice auto-représentatif :
+4. Il n'existe au maximum qu'un seul $i>n/2$ tel que $T[i] \ne  0$
 5. Soit $n\in\N$. Donnez `int nb_table(int n)` qui donne le nombre de tableau représentatif de taille $n$
 
 1,2,1,0
@@ -79,8 +79,7 @@ On s'intéresse ici à implémenté une structure représentant des ensembles, e
 La complexité en espace sera de $O(M)$
 Écrire le code  pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTYwODczNDEsMTIwODc2NzcxMyw5Mj
-Y2MDI4NjUsLTE3NDE4NDcxMjAsODYwNzEzMTEwLC05MzIyNzM0
-MTQsLTE3NDk1ODExNiwtMTk1MjQxODcxNiwxNzM0NTExMzgyXX
-0=
+eyJoaXN0b3J5IjpbMjk0MTY0NDY1LDEyMDg3Njc3MTMsOTI2Nj
+AyODY1LC0xNzQxODQ3MTIwLDg2MDcxMzExMCwtOTMyMjczNDE0
+LC0xNzQ5NTgxMTYsLTE5NTI0MTg3MTYsMTczNDUxMTM4Ml19
 -->
