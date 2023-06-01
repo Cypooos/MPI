@@ -19,6 +19,10 @@ struct RepGauche {
 };
 typedef struct RepGauche rg;
 ```
+## Tableau auto-représentatif
+
+Donnez `int*`
+
 
 ## Représentation des entiers négatifs
 
@@ -70,7 +74,8 @@ On s'intéresse ici à implémenté une structure représentant des ensembles, e
 La complexité en espace sera de $O(M)$
 Écrire le code  pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwODc2NzcxMyw5MjY2MDI4NjUsLTE3ND
-E4NDcxMjAsODYwNzEzMTEwLC05MzIyNzM0MTQsLTE3NDk1ODEx
-NiwtMTk1MjQxODcxNiwxNzM0NTExMzgyXX0=
+eyJoaXN0b3J5IjpbMjA5NDg1MDkwNCwxMjA4NzY3NzEzLDkyNj
+YwMjg2NSwtMTc0MTg0NzEyMCw4NjA3MTMxMTAsLTkzMjI3MzQx
+NCwtMTc0OTU4MTE2LC0xOTUyNDE4NzE2LDE3MzQ1MTEzODJdfQ
+==
 -->
