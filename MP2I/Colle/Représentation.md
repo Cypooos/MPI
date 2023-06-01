@@ -21,9 +21,8 @@ typedef struct RepGauche rg;
 ```
 ## Tableau auto-représentatif
 
-On appelle un tableaux d'indices auto-représentatif un tableau de $n$ éléments tel que le nombre de $i$ dans le tableau est indiqué par $T[i]$
-
-1. Existe-t'il des tableaux d'indices auto-représentatif à 1 élément ?
+On dit qu'un tableau $T$ de taille $n$ est un tableau d'indices auto-représentatif si $T[i]$ indique le nombre de $i$ dans $T$
+1. Existe-t'il des tableaux d'indices auto-représentatif pour $n=1$ ? pour $n=2$ ?
 Donnez `int*`
 
 
@@ -77,8 +76,7 @@ On s'intéresse ici à implémenté une structure représentant des ensembles, e
 La complexité en espace sera de $O(M)$
 Écrire le code  pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzg4ODUyNiwxMjA4NzY3NzEzLDkyNj
-YwMjg2NSwtMTc0MTg0NzEyMCw4NjA3MTMxMTAsLTkzMjI3MzQx
-NCwtMTc0OTU4MTE2LC0xOTUyNDE4NzE2LDE3MzQ1MTEzODJdfQ
-==
+eyJoaXN0b3J5IjpbMjU2Mjg5MTEwLDEyMDg3Njc3MTMsOTI2Nj
+AyODY1LC0xNzQxODQ3MTIwLDg2MDcxMzExMCwtOTMyMjczNDE0
+LC0xNzQ5NTgxMTYsLTE5NTI0MTg3MTYsMTczNDUxMTM4Ml19
 -->
