@@ -19,7 +19,7 @@ struct RepGauche {
 };
 typedef struct RepGauche rg;
 ```
-## Tableau auto-représentatif
+## Tableau auto-référent
 
 On dit qu'un tableau $T$ de taille $n$ est un tableau d'indices auto-représentatif si $T[i]$ indique le nombre de $i$ dans $T$.
 1. Existe-t'il des tableaux d'indices auto-représentatif pour $n=1$ ? pour $n=2$ ?
@@ -79,7 +79,7 @@ On s'intéresse ici à implémenté une structure représentant des ensembles, e
 La complexité en espace sera de $O(M)$
 Écrire le code  pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0MTY0NDY1LDEyMDg3Njc3MTMsOTI2Nj
+eyJoaXN0b3J5IjpbMzkxMDEwOTQwLDEyMDg3Njc3MTMsOTI2Nj
 AyODY1LC0xNzQxODQ3MTIwLDg2MDcxMzExMCwtOTMyMjczNDE0
 LC0xNzQ5NTgxMTYsLTE5NTI0MTg3MTYsMTczNDUxMTM4Ml19
 -->
