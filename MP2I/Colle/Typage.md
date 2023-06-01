@@ -7,7 +7,7 @@ let a1 b c d = b.(!c.(d)).[!c.(d)];;
 let a2 b c = (b c) c (!c);;
 ```
 ```ocaml
-let a3 a b c = c+.a b;;
+let a3 a b c = c.(a c)+.a !b;;
 ```
 ```ocaml
 let a4 b c = (b c) c (!c);;
@@ -33,5 +33,5 @@ val b2 :
   int -> (('a -> int) -> bool ref) -> 'a -> bool = <fun>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NjU2ODMyNCwtNzEyNTc0MDldfQ==
+eyJoaXN0b3J5IjpbMTQ4OTgxMDY3OCwtNzEyNTc0MDldfQ==
 -->
