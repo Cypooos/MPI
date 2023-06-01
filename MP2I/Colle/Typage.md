@@ -10,7 +10,7 @@ let a2 b c = (b c) c (!c);;
 let a3 a b c = c.(a c) (a !b);;
 ```
 ```ocaml
-let a4 b c = (b c) c (!c);;
+let a4 a b c = a [|[b.[c]]|];;
 ```
 ```ocaml
 let b1 b c d = match b c [||] with
@@ -27,11 +27,15 @@ SOLUTIONS
 ```ocaml
 val a1 : string array -> int array ref -> int -> char = <fun>  
 val a2 : ('a ref -> 'a ref -> 'a -> 'b) -> 'a ref -> 'b = <fun>
+val a3 :
+  ((int -> 'a) array -> int) ->
+  (int -> 'a) array ref -> (int -> 'a) array -> 'a = <fun>
+va
 val b1 : (float -> 'a array -> float ref) -> float -> float -> float = <fun>  
 val b2 :
   (int -> (('a -> int) -> bool ref) -> 'a -> int) ->
   int -> (('a -> int) -> bool ref) -> 'a -> bool = <fun>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjg4NTIyMiwtNzEyNTc0MDldfQ==
+eyJoaXN0b3J5IjpbLTExNDUyMjEwMTIsLTcxMjU3NDA5XX0=
 -->
