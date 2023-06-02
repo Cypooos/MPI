@@ -1,5 +1,5 @@
 ## Arbre binaire parfaits
-> *INFO-1 MINES MPI 2023*
+> *INFO1 MINES MPI 2023*
 
 On ce donne le type d'un arbre suivant :
 ```c
@@ -17,16 +17,15 @@ On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 2. Dessinez un arbre parfait à 7 nœuds. Tout les arbres complets sont-ils parfaits ?
 3. Démontrez que tout arbre parfait de hauteur $h$ possède $2^{h+1}-1$ nœuds.
 4. Donnez `bool est_parfait(arb a)` renvoyant vrai si l'arbre `a` est parfait.
-5. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre. On suppose ici que `a` est parfait et que $0\le k<n$ avec $n$ le nombre de sommets.
+5. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre. On suppose ici que `a` est parfait et que $0\le k<n$ avec $h$ le nombre de sommets.
 6. Discutez de la complexité de `arb_trouve` et de potentiels moyens de l'améliorer. On pourra chercher un algorithme en $O(\ln n)$
-
 ## Arbres d'intervalles
 > Source : https://info-llg.fr/option-mp/pdf/TP_intervalles.pdf
 
 Un *arbre d'intervalles* est un arbre binaire de recherche dont tous les nœuds contiennent un intervalle de la forme $[a; b]$, dont les clefs sont $(a,b)$ dans l'ordre lexicographique définie par la relation d'ordre $\preceq$ :
 $$(a,x)\preceq (b,y) \iff a<b \lor (a=b \land x\le y)$$
-
-On ce donne le type suivant en OCaml :
+ensembles de mots
+On ce donne le type suivant en Ocaml :
 ```ocaml
 type intervalle = int * int;;
 type arbre_int = F | N of intervalle * arbre_int * arbre_int;;
@@ -59,7 +58,8 @@ Un arbre canonique peut-être représenté par un tableau qui à chaque hauteur 
 5. Donnez une fonction OCaml `val canonical : int array -> tree` qui à un tableau associe son arbre canonique. On mettra sur chaque feuille son indice d'apparition dans le parcours préfixe. 
 
 
-## Arbre d'ensembles de mots
+
+## Arbre d'
 On ce donne le type suivant d'arbre en C :
 ```c
 struct arbre_mot {
@@ -76,8 +76,17 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un c
 3. Donnez `bool is_in(arbre_mot* a, int* mot, int n)` qui test si un `mot` de longueur `n` appartient à `a`
 4. Montrez que deux mots sont dans le même sous-arbre enraciné à une distance $n$ de la racine ssi leur $n$ premières lettres sont les mêmes.
 5. Donnez `void add(arbre_mot* a, int* mot, int n)` qui ajoute à `a` le mot `mot` de longueur `n`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
-6. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`. On retirera aussi tout les maillons de l'arbre qui ne sont plus utilisés.
-7. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour qu'il appartienne à `a`. On retournera $-1$ si il n'y a pas de mot de longueur `n` dans `a`
+6. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`. On resommets.
+
+1. Donnez les arbres canonique des tableaux $[\![0;2]\!]$, $[\![0;0;3;2]\!]$, $[\![0;1;1;1;1;2]\!]$.
+2. Donnez une fonction `val canonical : int array -> tree` qui à un tableau associe son arbre canonique.
+3. Démontrez que le tableau d'un arbre canonique non trivial doit se terminer avec un 2.
+
+## Arbre canonique, suite
+On souhaite rajouter sur chaque sommet un entirera aussi tout les maillons de l'arbre qui ne sont plus utilisés.
+7. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour qu'il appartienne à `a`. On retournera $-1$ si il n'y a pas de mot de long positifs.
+
+3. Modifier la définition de `tree` pour effectueur `n` dans `a`
 
 ## Tas binaires
 
@@ -116,15 +125,19 @@ typedef struct arbre arbre;
 5. Donnez `arbre* create()` qui retourne un arbre vide.
 5. Donnez `bool is_in(arbre* a, int v)` qui retourne vrai si `v` est dans `a`, que l'on suppose être un arbre binaire de recherche.
 6. Donnez `void add(arbre* arb, int v)` qui ajoute à un arbre binaire de recherche `a` un nœud `b`.
-7. Donnez `void fusion(arbre* arb1, arbre* arb2)` qui fusionne deux arbre binaire de recherche.
+7. Donnez `void fusion(arbre* arb1, arbre* arb2)` qui fusionne deux arbre binaire de recherche.ce changement.
+
+Si deux sommets `F(x)` et `F(y)` ont la même hauteur, alors `F(x)` est à gauche de `F(y)` si et seulement si x<y.
+On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\_,x_n]\!]$ obtenue par parcours gauche-droite de l'arbre.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzM0Mjg1NzgsMTIwNDA0NTg4MCwtMj
-EzMDI5MjEwMCwtMTg4NDI3NjUyNiwtMTUwOTg2Mjk3NywtNjg0
-MjYyMDMxLDgzNjE1ODQ4NSwxNjAwMDIyMzcxLDE4OTk2MDY5ND
-YsMTcyNjg5OTk3NCwyODQzNTMxOTcsLTE4MDQ1OTAwMjcsMjAw
-MzA5MDYyMSwtMjE3ODcyODcwLDEzNjIxMDMzNDIsNjcyODU0OT
-k1LDEyMDg2MzMyMDAsOTEzMjI1Njc1LC0yMTgxNzYzMDIsLTEw
-MjQ1ODcyMTRdfQ==
+eyJoaXN0b3J5IjpbLTg2NjAzNTE4MCwtMTAzMzQyODU3OCwxMj
+A0MDQ1ODgwLC0yMTMwMjkyMTAwLC0xODg0Mjc2NTI2LC0xNTA5
+ODYyOTc3LC02ODQyNjIwMzEsODM2MTU4NDg1LDE2MDAwMjIzNz
+EsMTg5OTYwNjk0NiwxNzI2ODk5OTc0LDI4NDM1MzE5NywtMTgw
+NDU5MDAyNywyMDAzMDkwNjIxLC0yMTc4NzI4NzAsMTM2MjEwMz
+M0Miw2NzI4NTQ5OTUsMTIwODYzMzIwMCw5MTMyMjU2NzUsLTIx
+ODE3NjMwMl19
 -->
