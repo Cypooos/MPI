@@ -164,7 +164,7 @@ $$\forall x([\forall y.\exist z.\underline f(x,u)] \land [\exist f.\ \underline 
 ## Algorithmique
 107. Qu'est-ce qu'un algorithme déterministe ? Un algorithme probabiliste ?
 108. Différence entre un algorithme de Las Vegas et de Monte Carlos ?
-109. Qu'est-ce qu'un algorithme glouton ? Diviser pour régner ?
+109. Qu'est-ce qu'un algorithme glouton ? Diviser pour régner ? De retour sur trace ?
 110. Qu'est-ce que la mémoïsation ? Donnez une implémentation de la suite de Fibonacci mémoïsé. Quelle est la nouvelle complexité ?
 111. **Fonction d'Ackermann**
 112. Algorithme de Boyer-Moore
@@ -218,11 +218,11 @@ On pose pour cette partie le schéma suivant :
 
 > *Version 0.3 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjQxMDA4MTIsODEyNjUzNDcwLC0xND
-E4NTIyNjI2LC0xNzI0MTAwODEyLDQ0Mzg5NzY3MSw0MjE1NDU4
-MCwtMjEzNjE2ODk5LC02MDAyNTc1MTUsLTE3NDQ3MTU0MDYsNT
-EwNjY3NzE1LDQxODEwMjY5NywxODE5OTYwODM3LC0xMzc5MTU2
-MDU4LC0xNDQyMDk3MTMzLDQ2ODczNjI5NywyMTAxNDE5NzE3LD
-E3NDQ5MzQwNDAsMTA3MTQwMTk0OSwtMTY2NTM0ODY3OCwxODY3
-OTEzNzFdfQ==
+eyJoaXN0b3J5IjpbOTcwMTM4MDk4LC0xNzI0MTAwODEyLDgxMj
+Y1MzQ3MCwtMTQxODUyMjYyNiwtMTcyNDEwMDgxMiw0NDM4OTc2
+NzEsNDIxNTQ1ODAsLTIxMzYxNjg5OSwtNjAwMjU3NTE1LC0xNz
+Q0NzE1NDA2LDUxMDY2NzcxNSw0MTgxMDI2OTcsMTgxOTk2MDgz
+NywtMTM3OTE1NjA1OCwtMTQ0MjA5NzEzMyw0Njg3MzYyOTcsMj
+EwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNzE0MDE5NDksLTE2NjUz
+NDg2NzhdfQ==
 -->
