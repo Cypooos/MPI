@@ -159,11 +159,11 @@ On pose les relation $=_\beta$ et $\ge_\beta$ tel que, soit $a,b\in E$, $a =_\be
 22. Montrez que $=_\beta$ est une relation d'équivalence.
 23. Montrez que $\to^*$ est une relation d'ordre. Est-elle totale ?
 
-Soit $e\in E$ unitaire, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x,y)\in S_e^2\ |\ x\to^* y\}$.
+Soit $e\in E$ normalisable, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x,y)\in S_e^2\ |\ x\to^* y\}$.
 
-24. Justifiez que $G_e = (S_e,V_e)$ est bien un graphe orienté fini.
+24. Justifiez que $G_e = (S_e,V_e)$ est bien un graphe orienté.
 25. Soit $e,e' \in E$ deux expressions unitaire, montrez que soit $S_e=S_{e'}$ ou $S_e \cap S_{e'} = \empty$ 
-26. Justifiez que $\ge_\beta$ est une relation d'ordre totale sur $S_e$.
+26. Justifiez que $\ge_\beta$ est une relation d'ordre sur $S_e$ admettant un unique plus petit élément.
 27. Montrez le _Théorème de Church-Rosser_: si $e$ est normalisable, alors sa forme normale est unique.
 
 # Partie VI: Types
@@ -240,7 +240,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTAyOTMwNzksLTIwMjUzNDU1ODMsMT
+eyJoaXN0b3J5IjpbLTE1NjMzMjg4NjgsLTIwMjUzNDU1ODMsMT
 U5NTE0OTgxOSwxMjQ0NTU0ODg0LC0yMDcwOTMwNzQzLDE1Njcz
 NTUwMjEsLTIyOTk5MzgzNiwxMTIyMDE1Njg3LDQ4NTQwNjY1Mi
 wtMTc3ODUwNjM0LC0zNTY3NDg2NCw2OTQ5OTU1MjQsMzIwMjkw
