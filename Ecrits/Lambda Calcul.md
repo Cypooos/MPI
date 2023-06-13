@@ -159,7 +159,7 @@ On pose les relation $=_\beta$ et $\ge_\beta$ tel que, soit $a,b\in E$, $a =_\be
 22. Montrez que $=_\beta$ est une relation d'équivalence.
 23. Montrez que $\to^*$ est une relation d'ordre. Est-elle totale ?
 
-Soit $e\in E$ unitaire, on pose $S = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x,y)\in X^2\ |\ x\to^* y\}$.
+Soit $e\in E$ unitaire, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x,y)\in X^2\ |\ x\to^* y\}$.
 
 24. Justifiez que $G_e = (S,V)$ est bien un graphe fini.
 25. Soit $e,e' \in E$ deux expressions unitaire, montrez que soit $S_e=S_{e'}$ ou $S_e \cap S_{e'} = \empty$ 
@@ -239,11 +239,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjUzNDU1ODMsMTU5NTE0OTgxOSwxMj
-Q0NTU0ODg0LC0yMDcwOTMwNzQzLDE1NjczNTUwMjEsLTIyOTk5
-MzgzNiwxMTIyMDE1Njg3LDQ4NTQwNjY1MiwtMTc3ODUwNjM0LC
-0zNTY3NDg2NCw2OTQ5OTU1MjQsMzIwMjkwNDAxLC05MzAxNzMw
-MjcsLTExNTU5NTExNjMsMTQyNDE1Mzc4OCwxNzM4ODcwNjc0LC
-0zNTQ1NzE4NTcsMTkyNTkzOTczMiwxOTE1NDU5MTE3LC0xNDk3
-MzA3NDAyXX0=
+eyJoaXN0b3J5IjpbMTE4MDIxNjc0NywtMjAyNTM0NTU4MywxNT
+k1MTQ5ODE5LDEyNDQ1NTQ4ODQsLTIwNzA5MzA3NDMsMTU2NzM1
+NTAyMSwtMjI5OTkzODM2LDExMjIwMTU2ODcsNDg1NDA2NjUyLC
+0xNzc4NTA2MzQsLTM1Njc0ODY0LDY5NDk5NTUyNCwzMjAyOTA0
+MDEsLTkzMDE3MzAyNywtMTE1NTk1MTE2MywxNDI0MTUzNzg4LD
+E3Mzg4NzA2NzQsLTM1NDU3MTg1NywxOTI1OTM5NzMyLDE5MTU0
+NTkxMTddfQ==
 -->
