@@ -163,7 +163,8 @@ Soit $e\in E$ unitaire, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x
 
 24. Justifiez que $G_e = (S_e,V_e)$ est bien un graphe orienté fini.
 25. Soit $e,e' \in E$ deux expressions unitaire, montrez que soit $S_e=S_{e'}$ ou $S_e \cap S_{e'} = \empty$ 
-26. Justifiez que $\ge_\beta$ est une relation d'ordre totale sur $S_e$, 
+26. Justifiez que $\ge_\beta$ est une relation d'ordre totale sur $S_e$.
+27. Montrez le _Théorème de Church-Rosser_: si $e$ est normalisable, alors sa forme normale est unique.
 
 # Partie VI: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -239,11 +240,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2NjY1MzQyLC0yMDI1MzQ1NTgzLDE1OT
-UxNDk4MTksMTI0NDU1NDg4NCwtMjA3MDkzMDc0MywxNTY3MzU1
-MDIxLC0yMjk5OTM4MzYsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLT
-E3Nzg1MDYzNCwtMzU2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQw
-MSwtOTMwMTczMDI3LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMT
-czODg3MDY3NCwtMzU0NTcxODU3LDE5MjU5Mzk3MzIsMTkxNTQ1
-OTExN119
+eyJoaXN0b3J5IjpbLTIwOTAyOTMwNzksLTIwMjUzNDU1ODMsMT
+U5NTE0OTgxOSwxMjQ0NTU0ODg0LC0yMDcwOTMwNzQzLDE1Njcz
+NTUwMjEsLTIyOTk5MzgzNiwxMTIyMDE1Njg3LDQ4NTQwNjY1Mi
+wtMTc3ODUwNjM0LC0zNTY3NDg2NCw2OTQ5OTU1MjQsMzIwMjkw
+NDAxLC05MzAxNzMwMjcsLTExNTU5NTExNjMsMTQyNDE1Mzc4OC
+wxNzM4ODcwNjc0LC0zNTQ1NzE4NTcsMTkyNTkzOTczMiwxOTE1
+NDU5MTE3XX0=
 -->
