@@ -159,11 +159,11 @@ On pose les relation $=_\beta$ et $\ge_\beta$ tel que, soit $a,b\in E$, $a =_\be
 22. Montrez que $=_\beta$ est une relation d'équivalence.
 23. Montrez que $\to^*$ est une relation d'ordre. Est-elle totale ?
 
-Soit $e\in E$ unitaire, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x,y)\in X^2\ |\ x\to^* y\}$.
+Soit $e\in E$ unitaire, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x,y)\in S_e^2\ |\ x\to^* y\}$.
 
-24. Justifiez que $G_e = (S,V)$ est bien un graphe fini.
+24. Justifiez que $G_e = (S,V)$ est bien un graphe orienté fini.
 25. Soit $e,e' \in E$ deux expressions unitaire, montrez que soit $S_e=S_{e'}$ ou $S_e \cap S_{e'} = \empty$ 
-26. 
+26. Justifiez que 
 
 # Partie VI: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -239,11 +239,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDIxNjc0NywtMjAyNTM0NTU4MywxNT
-k1MTQ5ODE5LDEyNDQ1NTQ4ODQsLTIwNzA5MzA3NDMsMTU2NzM1
-NTAyMSwtMjI5OTkzODM2LDExMjIwMTU2ODcsNDg1NDA2NjUyLC
-0xNzc4NTA2MzQsLTM1Njc0ODY0LDY5NDk5NTUyNCwzMjAyOTA0
-MDEsLTkzMDE3MzAyNywtMTE1NTk1MTE2MywxNDI0MTUzNzg4LD
-E3Mzg4NzA2NzQsLTM1NDU3MTg1NywxOTI1OTM5NzMyLDE5MTU0
-NTkxMTddfQ==
+eyJoaXN0b3J5IjpbNTMzMTM5MzIwLC0yMDI1MzQ1NTgzLDE1OT
+UxNDk4MTksMTI0NDU1NDg4NCwtMjA3MDkzMDc0MywxNTY3MzU1
+MDIxLC0yMjk5OTM4MzYsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLT
+E3Nzg1MDYzNCwtMzU2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQw
+MSwtOTMwMTczMDI3LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMT
+czODg3MDY3NCwtMzU0NTcxODU3LDE5MjU5Mzk3MzIsMTkxNTQ1
+OTExN119
 -->
