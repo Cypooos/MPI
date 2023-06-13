@@ -154,10 +154,8 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 # Partie V : _Church-Rosser_ et l'unicité de la forme normale
 
-On pose les relation $=_\beta$ et $\ge_\beta$ tel que, soit $a,b\in E$, $a =_\beta b$ ssi il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
-
-22. Montrez que $=_\beta$ est une relation d'équivalence.
-23. Montrez que $\to^*$ est une relation d'ordre. Est-elle totale ?
+22. Montrez que $\to^*$ est une relation d'ordre. Est-elle totale ?
+23. Montrez que $=_\beta$ qui les la cloture symétrique est une relation d'équivalence.
 
 Soit $e\in E$ normalisable, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x,y)\in S_e^2\ |\ x\to^* y\}$.
 
@@ -240,11 +238,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyNjU3NDg3LC0xNTYzMzI4ODY4LC0yMD
-I1MzQ1NTgzLDE1OTUxNDk4MTksMTI0NDU1NDg4NCwtMjA3MDkz
-MDc0MywxNTY3MzU1MDIxLC0yMjk5OTM4MzYsMTEyMjAxNTY4Ny
-w0ODU0MDY2NTIsLTE3Nzg1MDYzNCwtMzU2NzQ4NjQsNjk0OTk1
-NTI0LDMyMDI5MDQwMSwtOTMwMTczMDI3LC0xMTU1OTUxMTYzLD
-E0MjQxNTM3ODgsMTczODg3MDY3NCwtMzU0NTcxODU3LDE5MjU5
-Mzk3MzJdfQ==
+eyJoaXN0b3J5IjpbMTM2NDAwMDk5OCwtMTU2MzMyODg2OCwtMj
+AyNTM0NTU4MywxNTk1MTQ5ODE5LDEyNDQ1NTQ4ODQsLTIwNzA5
+MzA3NDMsMTU2NzM1NTAyMSwtMjI5OTkzODM2LDExMjIwMTU2OD
+csNDg1NDA2NjUyLC0xNzc4NTA2MzQsLTM1Njc0ODY0LDY5NDk5
+NTUyNCwzMjAyOTA0MDEsLTkzMDE3MzAyNywtMTE1NTk1MTE2My
+wxNDI0MTUzNzg4LDE3Mzg4NzA2NzQsLTM1NDU3MTg1NywxOTI1
+OTM5NzMyXX0=
 -->
