@@ -156,14 +156,13 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 22. Montrez que $\to^*$ est une relation d'ordre. Est-elle totale ?
 23. Montrez que $=_\beta$ qui est la cloture symétrique de $\to^*$ est une relation d'équivalence.
-24. Montrez la propriété de _Chrcuh-Rosser :_ si $e,e'\in E$ tel que $e=_\beta e'$, alors il existe $e''\in E$ tel que $e\to^* e''$ et $e'\to^* e''$
 
 Soit $e\in E$ normalisable, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x,y)\in S_e^2\ |\ x\to^* y\}$.
 
-24. Justifiez que $G_e = (S_e,V_e)$ est bien un graphe orienté.
+24. Justifiez que $G_e = (S_e,V_e)$ est bien un graphe orienté connexe.
 25. Soit $e,e' \in E$ deux expressions unitaire, montrez que soit $S_e=S_{e'}$ ou $S_e \cap S_{e'} = \empty$ 
-26. Justifiez que $\ge_\beta$ est une relation d'ordre sur $S_e$ admettant un unique plus petit élément.
-27. Montrez le _Théorème de Church-Rosser_: si $e$ est normalisable, alors sa forme normale est unique.
+24. Montrez la propriété de _Chrcuh-Rosser :_ si $e,e'\in E$ tel que $e=_\beta e'$, alors il existe $e''\in E$ tel que $e\to^* e''$ et $e'\to^* e''$
+27. Montrez _l'unicité de la forme normale_: si $e$ est normalisable, alors sa forme normale est unique.
 
 # Partie VI: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -239,7 +238,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjAwODA1OSwtMTU2MzMyODg2OCwtMj
+eyJoaXN0b3J5IjpbLTU3MDU1MDQyMSwtMTU2MzMyODg2OCwtMj
 AyNTM0NTU4MywxNTk1MTQ5ODE5LDEyNDQ1NTQ4ODQsLTIwNzA5
 MzA3NDMsMTU2NzM1NTAyMSwtMjI5OTkzODM2LDExMjIwMTU2OD
 csNDg1NDA2NjUyLC0xNzc4NTA2MzQsLTM1Njc0ODY0LDY5NDk5
