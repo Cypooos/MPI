@@ -142,7 +142,7 @@ $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
 
-## Quelques exemples
+## Un exemple
 On définit :
 $$
 \text{fact\_rec} = (f,x\mapsto \text{if}(\text{eq\_0}(x))(C_1)(\text{mul}(x,f(\text{sub}(x,1)))))
@@ -156,7 +156,8 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 22. Montrez que $\to^*$ est une relation d'ordre. Est-elle totale ?
 23. Montrez que $=_\beta$ qui est la cloture symétrique de $\to^*$ est une relation d'équivalence.
-24. Montrez la propriété de _Chrcuh-Rosser :_ si $e,e'\in E$ tel que $e=_\beta$
+24. Montrez la propriété de _Chrcuh-Rosser :_ si $e,e'\in E$ tel que $e=_\beta e'$, alors il existe $e''\in E$ tel que $e\to^* e''$ et $e'\to^* e''$
+
 Soit $e\in E$ normalisable, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x,y)\in S_e^2\ |\ x\to^* y\}$.
 
 24. Justifiez que $G_e = (S_e,V_e)$ est bien un graphe orienté.
@@ -238,7 +239,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MTcwMDc3MSwtMTU2MzMyODg2OCwtMj
+eyJoaXN0b3J5IjpbLTQ5NjAwODA1OSwtMTU2MzMyODg2OCwtMj
 AyNTM0NTU4MywxNTk1MTQ5ODE5LDEyNDQ1NTQ4ODQsLTIwNzA5
 MzA3NDMsMTU2NzM1NTAyMSwtMjI5OTkzODM2LDExMjIwMTU2OD
 csNDg1NDA2NjUyLC0xNzc4NTA2MzQsLTM1Njc0ODY0LDY5NDk5
