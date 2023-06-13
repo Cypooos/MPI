@@ -159,12 +159,12 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 Soit $e\in E$ normalisable, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x,y)\in S_e^2\ |\ x\to^* y\}$.
 
-24. Justifiez que $G_e = (S_e,V_e)$ est bien un graphe orienté faiblement connexe.
+24. Justifiez que $G_e = (S_e,V_e)$ est bien un graphe orienté faiblement connexe. La relation $\to^*$ est-elle totale sur $S_e$ ?
 25. Soit $e,e' \in E$ deux expressions unitaire, montrez que soit $S_e=S_{e'}$ ou $S_e \cap S_{e'} = \empty$
 26. 
 27. Montrez la propriété de _Chrcuh-Rosser :_ si $e,e'\in E$ tel que $e=_\beta e'$, alors il existe $e''\in E$ tel que $e\to^* e''$ et $e'\to^* e''$
-28. Montrez que si $G_e$ admet unn plus petit élément pour $\to^*$, alors il est unique.
-29. Montrez _l'unicité de la forme normale_: si $e$ est normalisable, alors sa forme normale est unique.
+28. En déduire que si $G_e$ admet un plus petit élément pour $\to^*$, alors il est unique.
+29. En déduire _l'unicité de la forme normale_: si $e$ est normalisable, alors sa forme normale est unique.
 
 # Partie VI: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -240,11 +240,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3MzAxNzc0LDE0OTAzMzA1NjgsLTE1Nj
-MzMjg4NjgsLTIwMjUzNDU1ODMsMTU5NTE0OTgxOSwxMjQ0NTU0
-ODg0LC0yMDcwOTMwNzQzLDE1NjczNTUwMjEsLTIyOTk5MzgzNi
-wxMTIyMDE1Njg3LDQ4NTQwNjY1MiwtMTc3ODUwNjM0LC0zNTY3
-NDg2NCw2OTQ5OTU1MjQsMzIwMjkwNDAxLC05MzAxNzMwMjcsLT
-ExNTU5NTExNjMsMTQyNDE1Mzc4OCwxNzM4ODcwNjc0LC0zNTQ1
-NzE4NTddfQ==
+eyJoaXN0b3J5IjpbMTMwMDY3MTY0NCwxNDkwMzMwNTY4LC0xNT
+YzMzI4ODY4LC0yMDI1MzQ1NTgzLDE1OTUxNDk4MTksMTI0NDU1
+NDg4NCwtMjA3MDkzMDc0MywxNTY3MzU1MDIxLC0yMjk5OTM4Mz
+YsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3Nzg1MDYzNCwtMzU2
+NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwtOTMwMTczMDI3LC
+0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczODg3MDY3NCwtMzU0
+NTcxODU3XX0=
 -->
