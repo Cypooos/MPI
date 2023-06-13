@@ -163,7 +163,8 @@ Soit $e\in E$ normalisable, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = 
 25. Soit $e,e' \in E$ deux expressions unitaire, montrez que soit $S_e=S_{e'}$ ou $S_e \cap S_{e'} = \empty$
 26. 
 27. Montrez la propriété de _Chrcuh-Rosser :_ si $e,e'\in E$ tel que $e=_\beta e'$, alors il existe $e''\in E$ tel que $e\to^* e''$ et $e'\to^* e''$
-28. Montrez _l'unicité de la forme normale_: si $e$ est normalisable, alors sa forme normale est unique.
+28. Montrez que si $G_e$ admet unn plus petit élément pour $\to^*$, alors il est unique.
+29. Montrez _l'unicité de la forme normale_: si $e$ est normalisable, alors sa forme normale est unique.
 
 # Partie VI: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -239,11 +240,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDMzMDU2OCwtMTU2MzMyODg2OCwtMj
-AyNTM0NTU4MywxNTk1MTQ5ODE5LDEyNDQ1NTQ4ODQsLTIwNzA5
-MzA3NDMsMTU2NzM1NTAyMSwtMjI5OTkzODM2LDExMjIwMTU2OD
-csNDg1NDA2NjUyLC0xNzc4NTA2MzQsLTM1Njc0ODY0LDY5NDk5
-NTUyNCwzMjAyOTA0MDEsLTkzMDE3MzAyNywtMTE1NTk1MTE2My
-wxNDI0MTUzNzg4LDE3Mzg4NzA2NzQsLTM1NDU3MTg1NywxOTI1
-OTM5NzMyXX0=
+eyJoaXN0b3J5IjpbMjc3MzAxNzc0LDE0OTAzMzA1NjgsLTE1Nj
+MzMjg4NjgsLTIwMjUzNDU1ODMsMTU5NTE0OTgxOSwxMjQ0NTU0
+ODg0LC0yMDcwOTMwNzQzLDE1NjczNTUwMjEsLTIyOTk5MzgzNi
+wxMTIyMDE1Njg3LDQ4NTQwNjY1MiwtMTc3ODUwNjM0LC0zNTY3
+NDg2NCw2OTQ5OTU1MjQsMzIwMjkwNDAxLC05MzAxNzMwMjcsLT
+ExNTU5NTExNjMsMTQyNDE1Mzc4OCwxNzM4ODcwNjc0LC0zNTQ1
+NzE4NTddfQ==
 -->
