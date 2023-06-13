@@ -161,9 +161,9 @@ On pose les relation $=_\beta$ et $\ge_\beta$ tel que, soit $a,b\in E$, $a =_\be
 
 Soit $e\in E$ unitaire, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x,y)\in S_e^2\ |\ x\to^* y\}$.
 
-24. Justifiez que $G_e = (S,V)$ est bien un graphe orienté fini.
+24. Justifiez que $G_e = (S_e,V_e)$ est bien un graphe orienté fini.
 25. Soit $e,e' \in E$ deux expressions unitaire, montrez que soit $S_e=S_{e'}$ ou $S_e \cap S_{e'} = \empty$ 
-26. Justifiez que 
+26. Justifiez que $\ge_\beta$ est une relation d'ordre totale sur $S_e$, 
 
 # Partie VI: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -239,7 +239,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzMTM5MzIwLC0yMDI1MzQ1NTgzLDE1OT
+eyJoaXN0b3J5IjpbODU2NjY1MzQyLC0yMDI1MzQ1NTgzLDE1OT
 UxNDk4MTksMTI0NDU1NDg4NCwtMjA3MDkzMDc0MywxNTY3MzU1
 MDIxLC0yMjk5OTM4MzYsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLT
 E3Nzg1MDYzNCwtMzU2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQw
