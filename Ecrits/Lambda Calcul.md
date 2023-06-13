@@ -57,7 +57,7 @@ On appelle *évaluation* de l'expression $a =(x\mapsto e)(e')$ l'expression $â=
 On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^n A_n$ ou $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant.
-On admet le _Théorème de Church-Rosser_ dans toute les parties sauf la VI: si $A$ est normalisable, alors sa forme normale est unique.
+On admet le Théorème de l'unicité de la forme normale dans toute les parties sauf la VI: si $A$ est normalisable, alors sa forme normale est unique.
 
 Si tout les calculs à partir de $A$ sont de longueurs inférieur à un $n$ fixé, on dit que $A$ est unitaire. *(Rem: Dans la littérature, le terme de "fortement normalisable" est plutôt employé.)*
 
@@ -152,9 +152,9 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 20. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 21. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
 
-# Partie V : Le théorème de _Church-Rosser_
+# Partie V : _Church-Rosser_ et l'unicité de la forme normale
 
-On pose les relation $=_\beta$ et $\ge_\beta$ tel que, soit $a,b\in E$, $a =_\beta b$ ssi il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$ 
+On pose les relation $=_\beta$ et $\ge_\beta$ tel que, soit $a,b\in E$, $a =_\beta b$ ssi il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
 
 22. Montrez que $=_\beta$ est une relation d'équivalence.
 23. Montrez que $\to^*$ est une relation d'ordre. Est-elle totale ?
@@ -240,11 +240,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjMzMjg4NjgsLTIwMjUzNDU1ODMsMT
-U5NTE0OTgxOSwxMjQ0NTU0ODg0LC0yMDcwOTMwNzQzLDE1Njcz
-NTUwMjEsLTIyOTk5MzgzNiwxMTIyMDE1Njg3LDQ4NTQwNjY1Mi
-wtMTc3ODUwNjM0LC0zNTY3NDg2NCw2OTQ5OTU1MjQsMzIwMjkw
-NDAxLC05MzAxNzMwMjcsLTExNTU5NTExNjMsMTQyNDE1Mzc4OC
-wxNzM4ODcwNjc0LC0zNTQ1NzE4NTcsMTkyNTkzOTczMiwxOTE1
-NDU5MTE3XX0=
+eyJoaXN0b3J5IjpbMjcyNjU3NDg3LC0xNTYzMzI4ODY4LC0yMD
+I1MzQ1NTgzLDE1OTUxNDk4MTksMTI0NDU1NDg4NCwtMjA3MDkz
+MDc0MywxNTY3MzU1MDIxLC0yMjk5OTM4MzYsMTEyMjAxNTY4Ny
+w0ODU0MDY2NTIsLTE3Nzg1MDYzNCwtMzU2NzQ4NjQsNjk0OTk1
+NTI0LDMyMDI5MDQwMSwtOTMwMTczMDI3LC0xMTU1OTUxMTYzLD
+E0MjQxNTM3ODgsMTczODg3MDY3NCwtMzU0NTcxODU3LDE5MjU5
+Mzk3MzJdfQ==
 -->
