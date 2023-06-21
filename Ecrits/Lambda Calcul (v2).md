@@ -52,7 +52,7 @@ On définit les expressions suivantes :
 1. Donnez un calcul normalisant de $K(K,I)$, de $I(I)$, de $K(I,\Delta)$
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
 
-On s'intéresse maintenant à démontrer
+On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_ : si $a \to^*$
 
 On s'intéresse maintenant à la création de différents objets de base.
 ## Booléens
@@ -224,5 +224,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODYyMjAyMV19
+eyJoaXN0b3J5IjpbLTEyMTkwMjIwNDldfQ==
 -->
