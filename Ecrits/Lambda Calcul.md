@@ -12,7 +12,7 @@ La partie V à pour but de démontrer le _Théorème de Church-Rosser_ en utilis
 La partie VI s'intéresse à la création de grammaires générant certaines expressions.
 Elle est en cours d'écriture.
 
-Les parties sont toutes dépendante de la partie 1.
+Les parties sont toutes dépendante de la partie I.
 Les parties de II à V sont indépendantes entre elles
 La partie VI est dépendante de toutes les autres.
 
@@ -25,10 +25,6 @@ Il n'est pas fait pour être réalisé en 4h.
 
 # Définitions
 
-> Soit $\Sigma$ un ensemble de *lettres*. On dis que $\omega=\omega_1...\omega_n$ est un *mot* s'il est une suite finie de lettre. On note $\varepsilon$ le mot vide.
- Pour $\omega$ un mot, on note $|\omega|$ sa longueur et pour $\alpha\in\Sigma$, on note $|\omega|_\alpha$ le nombre d'occurrences de $\alpha$ dans $\omega$.
- Soit $n\in\N$, on note $\Sigma^n$ l'ensemble des mots de $\Sigma$ à $n$ lettres. On note $\Sigma^* = \cup_{n\in\N}\Sigma^n$
-On appelle *langage* un ensemble de mots.
 
 Soit $V=\{x,y,z,t,u,v,...\}$ un ensemble dénombrable infinie de *variables*.
 On définit une *expression* inductivement :
@@ -240,11 +236,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDY3MTY0NCwxNDkwMzMwNTY4LC0xNT
-YzMzI4ODY4LC0yMDI1MzQ1NTgzLDE1OTUxNDk4MTksMTI0NDU1
-NDg4NCwtMjA3MDkzMDc0MywxNTY3MzU1MDIxLC0yMjk5OTM4Mz
-YsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3Nzg1MDYzNCwtMzU2
-NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwtOTMwMTczMDI3LC
-0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTczODg3MDY3NCwtMzU0
-NTcxODU3XX0=
+eyJoaXN0b3J5IjpbLTE5OTcwMTAxNDEsMTMwMDY3MTY0NCwxND
+kwMzMwNTY4LC0xNTYzMzI4ODY4LC0yMDI1MzQ1NTgzLDE1OTUx
+NDk4MTksMTI0NDU1NDg4NCwtMjA3MDkzMDc0MywxNTY3MzU1MD
+IxLC0yMjk5OTM4MzYsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3
+Nzg1MDYzNCwtMzU2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMS
+wtOTMwMTczMDI3LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTcz
+ODg3MDY3NF19
 -->
