@@ -140,7 +140,7 @@ $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
 
-*J'ai mal écrit ce sujet. Pour prouver cette question, il aurai été judicieux d’utiliser le graphe introduit partie IV*
+*J'ai mal écrit ce sujet. Pour prouver cette question, il aurai été judicieux d’utiliser le graphe introduit partie IV, après. D’où sa re-organisation en cours.*
 
 ## Un exemple
 On définit :
@@ -202,7 +202,7 @@ Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 
 22. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
 
-Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
+Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$.
 
 24. Donnez $t$ un type généralisé de $\{\top, \bot\}$
 25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
@@ -237,5 +237,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDY4NjEyN119
+eyJoaXN0b3J5IjpbLTEwNDYxNjU1MTFdfQ==
 -->
