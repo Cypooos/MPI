@@ -140,6 +140,8 @@ $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
 
+*J'ai mal écrit ce sujet. Pour prouver cette question, il aurai été judicieux d'u*
+
 ## Un exemple
 On définit :
 $$
@@ -238,7 +240,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjk3ODgyMCwtMTI1MTg5NDE4NSwtMT
+eyJoaXN0b3J5IjpbMTE5MjkzNTU4NCwtMTI1MTg5NDE4NSwtMT
 k5NzAxMDE0MSwxMzAwNjcxNjQ0LDE0OTAzMzA1NjgsLTE1NjMz
 Mjg4NjgsLTIwMjUzNDU1ODMsMTU5NTE0OTgxOSwxMjQ0NTU0OD
 g0LC0yMDcwOTMwNzQzLDE1NjczNTUwMjEsLTIyOTk5MzgzNiwx
