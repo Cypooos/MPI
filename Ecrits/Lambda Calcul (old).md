@@ -1,3 +1,4 @@
+> Sujet brouillon à re-organiser
 # Etude du Lambda Calcul
 
 Ce sujet est difficile, et balaye les chapitres de Logique, Grammaire, et programmation fonctionnelle.
@@ -163,6 +164,8 @@ Soit $e\in E$ normalisable, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = 
 28. En déduire que si $G_e$ admet un plus petit élément pour $\to^*$, alors il est unique.
 29. En déduire _l'unicité de la forme normale_: si $e$ est normalisable, alors sa forme normale est unique.
 
+*REM: L'opérateur point fixe est défini tel qu'il respecte $\text{fix}(f) =_\beta f(\text{fix}(f))$. D'ou un besoin de re-organiser le sujet pour définir $=_\beta$ avant*
+
 # Partie V: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
 
@@ -237,5 +240,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières ???
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5Nzc0NDU3XX0=
+eyJoaXN0b3J5IjpbLTkxNzUzNjg2Ml19
 -->
