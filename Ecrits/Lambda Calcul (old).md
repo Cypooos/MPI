@@ -8,15 +8,13 @@ Ce sujet introduit la théorie derrière les langages fonctionnel : le lambda ca
 La partie I propose une implémentation d'objets classique en lambda calcul.
 La partie II propose une implémentation de la soustraction.
 La partie III s'intéresse à la récursivité, elle est plus théorique.
-La partie IV porte sur des expressions typées (logique).
-La partie V à pour but de démontrer le _Théorème de Church-Rosser_ en utilisant des graphes.
+La partie IV à pour but de démontrer le _Théorème de Church-Rosser_ en utilisant des graphes.
+La partie V porte sur des expressions typées (logique).
 La partie VI s'intéresse à la création de grammaires générant certaines expressions.
-Elle est en cours d'écriture.
 
 Les parties sont toutes dépendante de la partie I.
-Les parties de II à V sont indépendantes entre elles
+Les parties de II à V sont indépendantes entre elles.
 La partie VI est dépendante de toutes les autres.
-
 
 Seul la question 31 est tiroir à la question 32.
 
@@ -159,12 +157,12 @@ Soit $e\in E$ normalisable, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = 
 
 24. Justifiez que $G_e = (S_e,V_e)$ est bien un graphe orienté infini faiblement connexe. La relation $\to^*$ est-elle une relation d'ordre totale sur $S_e$ ?
 25. Soit $e,e' \in E$ deux expressions unitaire, montrez que soit $S_e=S_{e'}$ ou $S_e \cap S_{e'} = \empty$
-26. ???
+26. ??? *Insérer question intermédiaire.*
 27. Montrez la propriété de _Chrcuh-Rosser :_ si $e,e'\in E$ tel que $e=_\beta e'$, alors il existe $e''\in E$ tel que $e\to^* e''$ et $e'\to^* e''$
 28. En déduire que si $G_e$ admet un plus petit élément pour $\to^*$, alors il est unique.
 29. En déduire _l'unicité de la forme normale_: si $e$ est normalisable, alors sa forme normale est unique.
 
-*REM: L'opérateur point fixe est défini tel qu'il respecte $\text{fix}(f) =_\beta f(\text{fix}(f))$. D'ou un besoin de re-organiser le sujet pour définir $=_\beta$ avant*
+*REM: L'opérateur point fixe est défini tel qu'il respecte $\text{fix}(f) =_\beta f(\text{fix}(f))$. D’où un besoin de re-organiser le sujet pour définir $=_\beta$ avant*
 
 # Partie V: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -240,5 +238,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières ???
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzUzNjg2Ml19
+eyJoaXN0b3J5IjpbLTgwMDk2MDI0MV19
 -->
