@@ -50,7 +50,7 @@ Dans ce sujet, pour $x,y\in V$, si $y\not\in e$ on identifiera $e$ et $e[x \larr
 On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$
 
 On appelle *évaluation* de l'expression $a =(x\mapsto e)(e')$ l'expression $â=e[x\larr e']$.
-On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
+On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation $\hat a$. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^n A_n$ ou $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant.
 On admet le Théorème de l'unicité de la forme normale dans toute les parties sauf la VI: si $A$ est normalisable, alors sa forme normale est unique.
@@ -236,11 +236,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTcwMTAxNDEsMTMwMDY3MTY0NCwxND
-kwMzMwNTY4LC0xNTYzMzI4ODY4LC0yMDI1MzQ1NTgzLDE1OTUx
-NDk4MTksMTI0NDU1NDg4NCwtMjA3MDkzMDc0MywxNTY3MzU1MD
-IxLC0yMjk5OTM4MzYsMTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3
-Nzg1MDYzNCwtMzU2NzQ4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMS
-wtOTMwMTczMDI3LC0xMTU1OTUxMTYzLDE0MjQxNTM3ODgsMTcz
-ODg3MDY3NF19
+eyJoaXN0b3J5IjpbLTEyNTE4OTQxODUsLTE5OTcwMTAxNDEsMT
+MwMDY3MTY0NCwxNDkwMzMwNTY4LC0xNTYzMzI4ODY4LC0yMDI1
+MzQ1NTgzLDE1OTUxNDk4MTksMTI0NDU1NDg4NCwtMjA3MDkzMD
+c0MywxNTY3MzU1MDIxLC0yMjk5OTM4MzYsMTEyMjAxNTY4Nyw0
+ODU0MDY2NTIsLTE3Nzg1MDYzNCwtMzU2NzQ4NjQsNjk0OTk1NT
+I0LDMyMDI5MDQwMSwtOTMwMTczMDI3LC0xMTU1OTUxMTYzLDE0
+MjQxNTM3ODhdfQ==
 -->
