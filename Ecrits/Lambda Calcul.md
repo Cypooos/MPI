@@ -157,7 +157,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 Soit $e\in E$ normalisable, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x,y)\in S_e^2\ |\ x\to^* y\}$.
 
-24. Justifiez que $G_e = (S_e,V_e)$ est bien un graphe orienté faiblement connexe. La relation $\to^*$ est-elle totale sur $S_e$ ?
+24. Justifiez que $G_e = (S_e,V_e)$ est bien un graphe orienté infini faiblement connexe. La relation $\to^*$ est-elle totale sur $S_e$ ?
 25. Soit $e,e' \in E$ deux expressions unitaire, montrez que soit $S_e=S_{e'}$ ou $S_e \cap S_{e'} = \empty$
 26. 
 27. Montrez la propriété de _Chrcuh-Rosser :_ si $e,e'\in E$ tel que $e=_\beta e'$, alors il existe $e''\in E$ tel que $e\to^* e''$ et $e'\to^* e''$
@@ -238,11 +238,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDc1NTk2ODksLTEyNTE4OTQxODUsLT
-E5OTcwMTAxNDEsMTMwMDY3MTY0NCwxNDkwMzMwNTY4LC0xNTYz
-MzI4ODY4LC0yMDI1MzQ1NTgzLDE1OTUxNDk4MTksMTI0NDU1ND
-g4NCwtMjA3MDkzMDc0MywxNTY3MzU1MDIxLC0yMjk5OTM4MzYs
-MTEyMjAxNTY4Nyw0ODU0MDY2NTIsLTE3Nzg1MDYzNCwtMzU2Nz
-Q4NjQsNjk0OTk1NTI0LDMyMDI5MDQwMSwtOTMwMTczMDI3LC0x
-MTU1OTUxMTYzXX0=
+eyJoaXN0b3J5IjpbMTQyMjk3ODgyMCwtMTI1MTg5NDE4NSwtMT
+k5NzAxMDE0MSwxMzAwNjcxNjQ0LDE0OTAzMzA1NjgsLTE1NjMz
+Mjg4NjgsLTIwMjUzNDU1ODMsMTU5NTE0OTgxOSwxMjQ0NTU0OD
+g0LC0yMDcwOTMwNzQzLDE1NjczNTUwMjEsLTIyOTk5MzgzNiwx
+MTIyMDE1Njg3LDQ4NTQwNjY1MiwtMTc3ODUwNjM0LC0zNTY3ND
+g2NCw2OTQ5OTU1MjQsMzIwMjkwNDAxLC05MzAxNzMwMjcsLTEx
+NTU5NTExNjNdfQ==
 -->
