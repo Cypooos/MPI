@@ -129,6 +129,8 @@ On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 17. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
 18. (*) Donnez une expression $\Theta = (x\mapsto e)$ tel que $\Theta(f) \to^* f(e[x\larr \Theta(f)])$
 
+*Rem: Dans la littérature, ce n'est pas la définition d'un opérateur point-fixe. On définie normalement d'abord la *
+
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
 
@@ -236,11 +238,11 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE4OTQxODUsLTE5OTcwMTAxNDEsMT
-MwMDY3MTY0NCwxNDkwMzMwNTY4LC0xNTYzMzI4ODY4LC0yMDI1
-MzQ1NTgzLDE1OTUxNDk4MTksMTI0NDU1NDg4NCwtMjA3MDkzMD
-c0MywxNTY3MzU1MDIxLC0yMjk5OTM4MzYsMTEyMjAxNTY4Nyw0
-ODU0MDY2NTIsLTE3Nzg1MDYzNCwtMzU2NzQ4NjQsNjk0OTk1NT
-I0LDMyMDI5MDQwMSwtOTMwMTczMDI3LC0xMTU1OTUxMTYzLDE0
-MjQxNTM3ODhdfQ==
+eyJoaXN0b3J5IjpbLTU2NzAxODE5MywtMTI1MTg5NDE4NSwtMT
+k5NzAxMDE0MSwxMzAwNjcxNjQ0LDE0OTAzMzA1NjgsLTE1NjMz
+Mjg4NjgsLTIwMjUzNDU1ODMsMTU5NTE0OTgxOSwxMjQ0NTU0OD
+g0LC0yMDcwOTMwNzQzLDE1NjczNTUwMjEsLTIyOTk5MzgzNiwx
+MTIyMDE1Njg3LDQ4NTQwNjY1MiwtMTc3ODUwNjM0LC0zNTY3ND
+g2NCw2OTQ5OTU1MjQsMzIwMjkwNDAxLC05MzAxNzMwMjcsLTEx
+NTU5NTExNjNdfQ==
 -->
