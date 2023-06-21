@@ -140,7 +140,7 @@ $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
 
-*J'ai mal écrit ce sujet. Pour prouver cette question, il aurai été judicieux d'u*
+*J'ai mal écrit ce sujet. Pour prouver cette question, il aurai été judicieux d’utiliser le graphe introduit partie IV*
 
 ## Un exemple
 On définit :
@@ -152,10 +152,8 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 20. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 21. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
 
-# Partie V : _Church-Rosser_ et l'unicité de la forme normale
+# Partie IV : _Church-Rosser_ et l'unicité de la forme normale
 
-22. Montrez que $\to^*$ est une relation d'ordre. Est-elle totale ?
-23. Montrez que $=_\beta$ qui est la cloture symétrique de $\to^*$ est une relation d'équivalence.
 
 Soit $e\in E$ normalisable, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x,y)\in S_e^2\ |\ x\to^* y\}$.
 
@@ -166,7 +164,7 @@ Soit $e\in E$ normalisable, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = 
 28. En déduire que si $G_e$ admet un plus petit élément pour $\to^*$, alors il est unique.
 29. En déduire _l'unicité de la forme normale_: si $e$ est normalisable, alors sa forme normale est unique.
 
-# Partie VI: Types
+# Partie V: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
 
 On pose $T$ tel que $\{\tau,\tau_1,\tau_2,...\} \sub T$ et pour tout $t,t'\in T$, on a $(t\to t')\in T$. On appelle $\tau,\tau_1,\tau_2,...$ les *types par défault*.
@@ -240,7 +238,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjkzNTU4NCwtMTI1MTg5NDE4NSwtMT
+eyJoaXN0b3J5IjpbLTIxMjA2NzQ3MywtMTI1MTg5NDE4NSwtMT
 k5NzAxMDE0MSwxMzAwNjcxNjQ0LDE0OTAzMzA1NjgsLTE1NjMz
 Mjg4NjgsLTIwMjUzNDU1ODMsMTU5NTE0OTgxOSwxMjQ0NTU0OD
 g0LC0yMDcwOTMwNzQzLDE1NjczNTUwMjEsLTIyOTk5MzgzNiwx
