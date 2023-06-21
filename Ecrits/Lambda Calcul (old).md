@@ -156,9 +156,9 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 Soit $e\in E$ normalisable, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x,y)\in S_e^2\ |\ x\to^* y\}$.
 
-24. Justifiez que $G_e = (S_e,V_e)$ est bien un graphe orienté infini faiblement connexe. La relation $\to^*$ est-elle totale sur $S_e$ ?
+24. Justifiez que $G_e = (S_e,V_e)$ est bien un graphe orienté infini faiblement connexe. La relation $\to^*$ est-elle une relation d'ordre totale sur $S_e$ ?
 25. Soit $e,e' \in E$ deux expressions unitaire, montrez que soit $S_e=S_{e'}$ ou $S_e \cap S_{e'} = \empty$
-26. 
+26. ???
 27. Montrez la propriété de _Chrcuh-Rosser :_ si $e,e'\in E$ tel que $e=_\beta e'$, alors il existe $e''\in E$ tel que $e\to^* e''$ et $e'\to^* e''$
 28. En déduire que si $G_e$ admet un plus petit élément pour $\to^*$, alors il est unique.
 29. En déduire _l'unicité de la forme normale_: si $e$ est normalisable, alors sa forme normale est unique.
@@ -237,5 +237,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDgwODUxM119
+eyJoaXN0b3J5IjpbMjAwNDY4NjEyN119
 -->
