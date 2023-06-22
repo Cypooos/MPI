@@ -2,15 +2,14 @@
 PLAN :
 
 Prélim (A-1)
+
 beta équiv
 G reduc
+Chruch-rosser & unicité de la forme normale
 
 booléens
 church
 cond church
-
-Chruch-rosser & unicité de la forme normale
-
 soustraction
 
 opérateur point fixe (beta équiv)
@@ -267,6 +266,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDc2NzY2Miw3NTc4NDMyMjUsLTQyOD
-M4MTM4MCwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbLTE5NDYzNDM4MTAsLTYwNDc2NzY2Miw3NT
+c4NDMyMjUsLTQyODM4MTM4MCwtMTI5OTc4NDk0OV19
 -->
