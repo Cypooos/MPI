@@ -16,9 +16,10 @@ $$
 &\swarrow& &\searrow \\
 \text{II} &&&& \text{III} \\
 \downarrow&& \swarrow &&\downarrow\\
-\text{IV } &&&& \text{V} \\
+\text{IV } &&&&\text{V} \\
 \end{array}
 $$
+(la partie IV est dépendante de la III) 
 
 Les questions les plus difficile sont préambules d'une étoile (*).
 On pourra admettre une question pour passer à la suivante.
@@ -265,13 +266,6 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 > Remarque : Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
-# Partie VI: Grammaire (en cours d'écriture)
-Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombre fini de règles $\hat{V}\to v_1|...|v_n$
-
-35. Définir une grammaire hors contexte engendrant $E$
-36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
-> To continue
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDU3MTM3MF19
+eyJoaXN0b3J5IjpbLTE4MzQ2NDU5ODYsLTYzNDU3MTM3MF19
 -->
