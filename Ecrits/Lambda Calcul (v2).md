@@ -71,7 +71,7 @@ On définit les expressions suivantes :
 Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $A_e = \{(x,y)\in S_e^2 : x\to^* y \}$
 
 3. Donnez le graphe des réductions de $I(I(I))$, et de $K (K(I,I))$.
-4. Donnez une expression donnant un graphe des réductions infini.
+4. (*) Donnez une expression donnant un graphe des réductions infini.
 5. Donnez une condition nécessaire et suffisante sur $e$ pour que $\to^*$ soit une relation d'ordre totale sur $S_e$
 
 ## Booléens
@@ -87,7 +87,7 @@ On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 # Partie II: résultats généralistes
 
 
-## Beta équivalence
+## $\beta$-équivalence
 
 On pose $\lrarr$ la fermeture symétrique de $\to$ : on a $x\lrarr y$ si et seulement si $x\to y$ ou $y\to x$
 
@@ -272,6 +272,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTMwODg0MDQsLTYwNDc2NzY2Miw3NT
-c4NDMyMjUsLTQyODM4MTM4MCwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbMTM0NjQ0NTY1NiwtMTAxMzA4ODQwNCwtNj
+A0NzY3NjYyLDc1Nzg0MzIyNSwtNDI4MzgxMzgwLC0xMjk5Nzg0
+OTQ5XX0=
 -->
