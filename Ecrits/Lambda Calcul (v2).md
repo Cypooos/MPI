@@ -150,13 +150,9 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étapes. Dans le cas de $\text{if}(\top,I,\Delta(\Delta)) \to^* I$, si l'on calcule constamment $\Delta(\Delta)$, on n'atteindra jamais la forme normale $I$, alors qu'elle existe et est unique.
 
 12. En déduire que tout graphe des réductions possède un plus petit et un plus grand élément. 
-13. Montrez que si $a=_\beta b$, alors il existe $e\in E$ tel que $a\to^* e$
+13. Montrez que si $a=_\beta b$, alors il existe $e\in E$ tel que $a\to^* e$ et $b\to^* e$
 
-# Partie II: objets de base
-
-On s'intéresse maintenant à la création de différents objets de base.
-
-
+# Partie II: Entiers et opérations
 
 ## Entiers de Church
 
@@ -173,16 +169,16 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 8. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$
 
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
-On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m\ ;\ 0\}}$ a été écrite ; l'écrire est l'objet de la partie II.
 
-## Condition sur les entiers de Church
+## Conditions sur les entiers de Church
 9. Définir $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
 10. Définir $\text{eq}$ une expression tel que :
     * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
     * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
 
-# Partie III: Soustraction
-L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
+## Soustraction
+
+L'objectif de cette partie est d'implémenter $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m\ ;\ 0\}}$
 On définit :
 $$D = (x,y,z \mapsto z(x,y))$$
 
@@ -306,6 +302,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzMjUwMzAxLC02MDQ3Njc2NjIsNzU3OD
+eyJoaXN0b3J5IjpbMTk0NzM1ODIyLC02MDQ3Njc2NjIsNzU3OD
 QzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
