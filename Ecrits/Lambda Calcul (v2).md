@@ -97,7 +97,8 @@ On définit les expressions suivantes :
 Soit $e\in E$, on pose $G_e = (S_e,V_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $V_e = \{(x,y)\in S_e^2 : x\to^* y \}$
 
 3. Donnez le graphe des réductions de $I(I(I))$, et de $K (K(I,I))$.
-4. Donnez une expreUn graphe des réductions est-il toujours fini ?
+4. Donnez une expression donnant un graphe des réductions infini.
+5. 
 
 ## Booléens
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
@@ -295,6 +296,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzYwNjI3LC02MDQ3Njc2NjIsNzU3OD
-QzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
+eyJoaXN0b3J5IjpbMTYyNzM0NDE4MSwtNjA0NzY3NjYyLDc1Nz
+g0MzIyNSwtNDI4MzgxMzgwLC0xMjk5Nzg0OTQ5XX0=
 -->
