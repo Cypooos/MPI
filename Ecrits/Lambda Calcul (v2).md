@@ -62,7 +62,7 @@ Soit $e\in E$, on pose $G_e = (S_e,V_e)$ le graphe de réduction de $e$ avec $S_
 On pose $e =_\beta e'$ si et seulement si $e$ et $e'$ appartienne à la même composante faiblement connexe dans G_e. 
 
 3. Montrez que $=_\beta$ est une relation d'équivalence
-4. Donnez le graphe de réduction de $$
+4. Donnez le graphe de réduction de $I(I)$ $K (K(I,I))$
 
 # Partie II: objet de base
 
@@ -225,5 +225,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzM5NjI2NSwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbMTg1NTgxMzcxMCwtMTI5OTc4NDk0OV19
 -->
