@@ -52,7 +52,11 @@ On définit les expressions suivantes :
 1. Donnez un calcul normalisant de $K(K,I)$, de $I(I)$, de $K(I,\Delta)$
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
 
-On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_ : si $a \to^*b$ et $b\to^* a$ alors $a\to^*$
+On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_.
+
+##
+
+# Partie II: objet de base
 
 On s'intéresse maintenant à la création de différents objets de base.
 ## Booléens
@@ -88,7 +92,7 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\ma
     * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
     * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
 
-# Partie II: Soustraction
+# Partie III: Soustraction
 L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
 On définit :
 $$D = (x,y,z \mapsto z(x,y))$$
@@ -100,7 +104,7 @@ qui représente un couple $(x,y)$
 13. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
 14. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ 
 
-# Partie III: Récursivité
+# Partie IV: Récursivité
 Le but de cette partie est de pouvoir faire des fonctions récursives.
 ## L'opérateur Point-fixe
 
@@ -224,5 +228,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTk3ODQ5NDldfQ==
+eyJoaXN0b3J5IjpbLTIwNTI0MTY5MjgsLTEyOTk3ODQ5NDldfQ
+==
 -->
