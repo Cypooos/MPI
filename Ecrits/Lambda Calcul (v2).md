@@ -68,8 +68,9 @@ Le théorème de Church-Rosser assure que la relation $\to^*$ respecte la propri
 Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que :
 - $x\triangleright x$
 - $x\mapsto t \triangleright x'\mapsto t'$ si $x \triangleright x'$ et $t \triangleright t'$
-- $t(x)\triangleright t'(x')$ si $t\triangleright t'$ et $$
-— (λx.t)u −→ v {w/x} si t −→ v et u −→ w.
+- $t(x)\triangleright t'(x')$ si $t\triangleright t'$ et $x\triangleright x'$
+- $(x\mapsto e)(u) \triangleright t'[x\larr u']$ si $t \triangleright t'$ et $u \triangleright u'$
+
 
 4. Montrez que si $a\to b$, alors $a\triangleright b$.
 5. Montrez que si $a\triangleright b$, alors $a\to^* b$
@@ -239,6 +240,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MjQyOTM1OCw3NTc4NDMyMjUsLTQyOD
+eyJoaXN0b3J5IjpbLTQ5MzUzNTQ3OSw3NTc4NDMyMjUsLTQyOD
 M4MTM4MCwtMTI5OTc4NDk0OV19
 -->
