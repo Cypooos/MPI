@@ -75,9 +75,10 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 4. Montrez que si $a\to b$, alors $a\triangleright b$.
 5. Montrez que si $a\triangleright b$, alors $a\to^* b$
 6. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
-7. Montrez que $\triangleright$ respecte la *propriété du diamant*.
-8. En déduire le théorème de *Church-Rosser*
-9. En déduire que si $a\in $
+> Ind: Procédez par induction sur la forme de $t$
+8. Montrez que $\triangleright$ respecte la *propriété du diamant*.
+9. En déduire le théorème de *Church-Rosser*.
+10. En déduire que si $a\in E$ possède une forme normale, alors celle-ci est unique.
 
 # Partie II: objet de base
 
@@ -240,6 +241,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjIwOTM2OCw3NTc4NDMyMjUsLTQyOD
+eyJoaXN0b3J5IjpbMTY4Mzg3NDc3Miw3NTc4NDMyMjUsLTQyOD
 M4MTM4MCwtMTI5OTc4NDk0OV19
 -->
