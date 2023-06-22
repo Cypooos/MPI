@@ -32,7 +32,7 @@ La partie I introduit le lambda calcul et les booléens.
 La partie II étudie la béta équivalence et la propriété de Church Rosser.
 La partie III implémente les entiers de church et les opérations classiques dessus.
 La partie IV introduit le principe d'opérateur point-fixe et la récursivité.
-La partie V introduit au lambda calcul bien typé. 
+La partie V définie des types au expression du lambda calcul.
 
 Dépendances des différentes parties :
 $$
@@ -87,16 +87,27 @@ On définit les expressions suivantes :
  - $K =  (y\mapsto (x\mapsto y)) = (y,x\mapsto y)$
  - $\Delta = (x\mapsto x(x))$
 
-# Partie I: beta-équivalence et Church-Rosser
+# Partie I: Introduction
 
 ## Préliminaires
 1. Donnez un calcul normalisant de $K(K,I)$, de $I(I)$, de $K(I,\Delta)$
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
 
+## Graphe des réductions
 Soit $e\in E$, on pose $G_e = (S_e,V_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $V_e = \{(x,y)\in S_e^2 : x\to^* y \}$
 
 3. Donnez le graphe des réductions de $I(I(I))$, et de $K (K(I,I))$. Un graphe de réduction est-il toujours fini ?
 
+## Booléens
+On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
+On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
+
+3. Montrez que, soit $e,e'\in E$, on a $\text{if}(\top,e,e') \to^* e$ et $\text{if}(\bot,e,e') \to^* e'$ 
+4. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
+5. Définir une expression $\text{and}$ tel que, soit $b,b'\in B$, on ai:
+   * $\text{and}(b,b') \to^* \top$  si $b=b'=\top$
+   * $\text{and}(b,b') \to^* \bot$  sinon
+   * 
 On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_.
 
 ## Le théorème de _Church-Rosser_
@@ -126,15 +137,8 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 # Partie II: objet de base
 
 On s'intéresse maintenant à la création de différents objets de base.
-## Booléens
-On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
-On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 
-3. Montrez que, soit $e,e'\in E$, on a $\text{if}(\top,e,e') \to^* e$ et $\text{if}(\bot,e,e') \to^* e'$ 
-4. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
-5. Définir une expression $\text{and}$ tel que, soit $b,b'\in B$, on ai:
-   * $\text{and}(b,b') \to^* \top$  si $b=b'=\top$
-   * $\text{and}(b,b') \to^* \bot$  sinon
+
 
 ## Entiers de Church
 
@@ -284,6 +288,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyNDQ4MTQ4LC02MDQ3Njc2NjIsNzU3OD
+eyJoaXN0b3J5IjpbLTMxMjYwNDYzLC02MDQ3Njc2NjIsNzU3OD
 QzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
