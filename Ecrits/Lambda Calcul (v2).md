@@ -96,18 +96,26 @@ On définit les expressions suivantes :
 ## Graphe des réductions
 Soit $e\in E$, on pose $G_e = (S_e,V_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $V_e = \{(x,y)\in S_e^2 : x\to^* y \}$
 
-3. Donnez le graphe des réductions de $I(I(I))$, et de $K (K(I,I))$. Un graphe de réduction est-il toujours fini ?
+3. Donnez le graphe des réductions de $I(I(I))$, et de $K (K(I,I))$.
+4. Donnez une expreUn graphe des réductions est-il toujours fini ?
 
 ## Booléens
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
 On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 
-3. Montrez que, soit $e,e'\in E$, on a $\text{if}(\top,e,e') \to^* e$ et $\text{if}(\bot,e,e') \to^* e'$ 
-4. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
-5. Définir une expression $\text{and}$ tel que, soit $b,b'\in B$, on ai:
+4. Montrez que, soit $e,e'\in E$, on a $\text{if}(\top,e,e') \to^* e$ et $\text{if}(\bot,e,e') \to^* e'$ 
+5. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
+6. Définir une expression $\text{and}$ tel que, soit $b,b'\in B$, on ai:
    * $\text{and}(b,b') \to^* \top$  si $b=b'=\top$
    * $\text{and}(b,b') \to^* \bot$  sinon
-   * 
+
+# Partie II: résultats généralistes
+
+
+## Beta équivalence
+
+
+
 On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_.
 
 ## Le théorème de _Church-Rosser_
@@ -132,7 +140,6 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 9. En déduire le théorème de *Church-Rosser*.
 10. En déduire que si $a\in E$ possède une forme normale, alors celle-ci est unique.
 
-## Beta équivalence
 
 # Partie II: objet de base
 
@@ -288,6 +295,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjYwNDYzLC02MDQ3Njc2NjIsNzU3OD
+eyJoaXN0b3J5IjpbMTQ0NzYwNjI3LC02MDQ3Njc2NjIsNzU3OD
 QzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
