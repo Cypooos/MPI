@@ -331,7 +331,19 @@ On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 > On écrit $\text{fix}(f)\to^n e$. Mais on a aussi: $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e) \to^* p$ qui est un calcul normalisant par hypothèse. Par l'unicité de la forme normale de $\text{fix}(f)$, $e=p$, donc on a $f(e) \to^* e$
 
 30. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
+
+> Soit $e$ sous forme normale. On peut donner $K(e)$.
+> En effet, on a pour $n>0$, que de $(K(e))^n\text{fix}(K(e))$, les seuls dérivations possibles sont $e$ ou $(K(I))^{n+1}\text{fix}(K(e))$.
+> Alors on a bien que pour tout calcul normalisant $\text{fix}(K(e)) \to^n a$, 
+> $\text{fix}(K(e)) \to K(e)(\text{fix}(K(e)))\to ... \to (K(e))^{n-1}(\text{fix}(K(e)))\to e$ la seule possibilité de longueur $n$
+> 
+> Le point fixe ici est $e$: $K(e)(e) = e$
+
 31. (*) Donnez une expression $\Theta$ point-fixe.
+
+> Bravo si vous l'avez réussie ! Vraiment, vraiment, vraiment pas facile.
+> On peut donner $\Theta = (f\mapsto\Big((x\mapsto f(x(x)))(x\mapsto f(x(x)))\Big))$
+> Il est noté par un $Y$ dans la littérature *(The Y combinator)*.
 
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
@@ -428,5 +440,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTU1MzMzNzJdfQ==
+eyJoaXN0b3J5IjpbLTIyOTQxODUzXX0=
 -->
