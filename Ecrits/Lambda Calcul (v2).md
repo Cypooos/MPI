@@ -140,8 +140,10 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 8. Montrez que $\triangleright$ respecte la *propriété du diamant*.
 9. En déduire le théorème de *Church-Rosser*.
 10. Montrez que si $a\in E$ possède une forme normale, alors celle-ci est unique.
-11. En déduire que le graphe des réduc 
+11. En déduire que tout graphe des réductions possède un plus petit et un plus grand élément. 
+
 > On a ici prouvé que quelquefois notre manière d'évaluer une expression $e$, on tombera toujours sur le même résultat. Autrement dit, le lambda calcul est fondamentalement "déterministe" par rapport à son implémentation.
+> Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étape. Dans le cas de $\text{if}(\top)$
 # Partie II: objet de base
 
 On s'intéresse maintenant à la création de différents objets de base.
@@ -296,6 +298,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjIyNTQ3OSwtNjA0NzY3NjYyLDc1Nz
-g0MzIyNSwtNDI4MzgxMzgwLC0xMjk5Nzg0OTQ5XX0=
+eyJoaXN0b3J5IjpbNTcwNTEzMTkxLC02MDQ3Njc2NjIsNzU3OD
+QzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
