@@ -41,8 +41,10 @@ $$
 \end{array}
 $$
 
-La partie I introduit le lambda calcul, différentes opérations et objets.
-La partie II étudie la propriété
+La partie I introduit le lambda calcul et les booléens.
+La partie II étudie la béta équivalence et la propriété de Church Rosser.
+La partie III implémente les entiers de church et les opérations classiques dessus.
+La partie IV 
 
 Les questions plus difficile sont préambulées d'une étoile (*).
 On pourra admettre une question pour passer à la suivante.
@@ -283,6 +285,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDgwNzQ1NiwtNjA0NzY3NjYyLDc1Nz
-g0MzIyNSwtNDI4MzgxMzgwLC0xMjk5Nzg0OTQ5XX0=
+eyJoaXN0b3J5IjpbNzg3OTU5NjY2LC02MDQ3Njc2NjIsNzU3OD
+QzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
