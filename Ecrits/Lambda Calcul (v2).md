@@ -115,9 +115,12 @@ On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 
 ## Beta équivalence
 
-On pose $G = (E,V)$ un graphe orienté infini avec $V = \{(x,y)\in E^2 : x\to^* y \}$
-On définie $=_\beta$ une relation d'équivalence telle que $e=_\beta e''$ si $x$ et $$
+On pose $\lrarr$ la fermeture symétrique de $\to$ : on a $x\lrarr y$ si et seulement si $x\to y$ ou $y\to x$
 
+On pose $G = (E,V)$ un graphe orienté infini avec $V = \{(x,y)\in E^2 : x\to^* y \}$
+On définie $=_\beta$ une relation d'équivalence telle que $e=_\beta e''$ si $x$ et $y$ appartiennent à la même composante faiblement connexe dans $G$
+
+7. Montrez que si $a=$
 
 ## Le théorème de _Church-Rosser_
 
@@ -298,6 +301,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTMwOTc4OCwtNjA0NzY3NjYyLDc1Nz
-g0MzIyNSwtNDI4MzgxMzgwLC0xMjk5Nzg0OTQ5XX0=
+eyJoaXN0b3J5IjpbNjMwODkyMzYwLC02MDQ3Njc2NjIsNzU3OD
+QzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
