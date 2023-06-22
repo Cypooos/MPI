@@ -115,9 +115,7 @@ On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 
 ## Beta équivalence
 
-On définie $\lrarr$ la fermeture symétrique de $\to$ : On a $x\lrarr y$ si et seulement si $x\to y$ ou $y\to x$.
-On définie $\lrarr^*$ la fermeture transitive de $\lrarr$
-On définie la relation $=_\beta$ la relation de béta équivalence tel que $$
+On définie la relation $=_\beta$ comme la fermeture symétrique de $\to^*$
 
 
 ## Le théorème de _Church-Rosser_
@@ -299,6 +297,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjQyNjU5OSwtNjA0NzY3NjYyLDc1Nz
-g0MzIyNSwtNDI4MzgxMzgwLC0xMjk5Nzg0OTQ5XX0=
+eyJoaXN0b3J5IjpbLTE5NzE3NjI4NzQsLTYwNDc2NzY2Miw3NT
+c4NDMyMjUsLTQyODM4MTM4MCwtMTI5OTc4NDk0OV19
 -->
