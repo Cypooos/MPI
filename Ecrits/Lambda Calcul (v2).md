@@ -94,8 +94,8 @@ On pose $\lrarr$ la fermeture symétrique de $\to$ : on a $x\lrarr y$ si et seul
 On pose $G = (E,A)$ un graphe orienté infini avec $A = \{(x,y)\in E^2 : x\to^* y \}$
 On définie $=_\beta$ une relation d'équivalence telle que $e=_\beta e''$ si $x$ et $y$ appartiennent à la même composante faiblement connexe dans $G$
 
+. Montrez que $=_\beta$ est une relation d'équivalence sur E. 
 9. Montrez que si $a=_\beta b$, alors il existe $n\in\N$ et $M_1,...,M_n \in E$ tel que $a\lrarr M_1\lrarr...\lrarr M_n\lrarr b$
-10. Montrez que $=_\beta$ est une relation d'équivalence sur E. 
 ## Le théorème de _Church-Rosser_
 
 On dit que une relation $\mathcal{R}$ sur $E$ respecte la propriété du diamant si :
@@ -272,7 +272,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDE0MDQxNSwtMTkzOTgxMTE0NSw0Nz
-c5OTExNzMsLTEwMTMwODg0MDQsLTYwNDc2NzY2Miw3NTc4NDMy
-MjUsLTQyODM4MTM4MCwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbLTE1MTIyMTQ0OTIsLTE5Mzk4MTExNDUsND
+c3OTkxMTczLC0xMDEzMDg4NDA0LC02MDQ3Njc2NjIsNzU3ODQz
+MjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
