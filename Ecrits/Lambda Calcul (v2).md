@@ -60,12 +60,8 @@ On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_.
 
 ## Le théorème de _Church-Rosser_
 
-Pour toute relation $R$, on pose $G_R = (S_R$
-
-On pose $G=(E,V)$ un graphe infini avec $V=\{(x,y)\in E^2 : x\to^* y \}$.
-On pose $e =_\beta e'$ si et seulement si $e$ et $e'$ appartienne à la même composante faiblement connexe dans G_e.
-
-3. Montrez que $=_\beta$ est une relation d'équivalence.
+La propriété du diamant est que :
+> 
 
 On pose $\triangleright$ la réduction parallèle tel que :
 - $x\triangleright x$
@@ -77,7 +73,8 @@ On pose $\triangleright$ la réduction parallèle tel que :
 5. Montrez que si $a\triangleright b$, alors $a\to^* b$
 6. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 7. Montrez que $\triangleright$ respecte la *propriété du diamant*, soit que si $t\triangleright x$ et $t\triangleright y$, alors il existe $e\in E$ tel que $x\triangleright e$ et $y\triangleright e$
-8. En déduire que $\to^*$ respecte donc aussi la propriété du diamant.
+8. En déduire que $\to^*$ respecte donc aussi la propriété du diamant. *On a ici montrer le théorème de Church-Rosser*
+9. En déduire que si $a\in $
 
 # Partie II: objet de base
 
@@ -240,6 +237,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTc3NDM1OCw3NTc4NDMyMjUsLTQyOD
+eyJoaXN0b3J5IjpbMTkzNDIwNTI1Nyw3NTc4NDMyMjUsLTQyOD
 M4MTM4MCwtMTI5OTc4NDk0OV19
 -->
