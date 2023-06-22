@@ -73,8 +73,9 @@ On pose $\triangleright$ la réductione parallèle tel que :
 - $$
 — (λx.t)u −→ v {w/x} si t −→ v et u −→ w.
 
-4. Montrez que $a\to b$
-Soient t, u, v, w ∈ Λ et x ∈ V. Si t −→ v et u −→ w, on a t {u/x} −→ v {w/x}.
+4. Montrez que si $a\to b$, alors $a\triangleright b$.
+5. Montrez que si $a\triangleright b$, alors $a\to^* b$
+6. Montrez que, soit $t$
 
 # Partie II: objet de base
 
@@ -237,6 +238,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzU1NzkzMiw3NTc4NDMyMjUsLTQyOD
+eyJoaXN0b3J5IjpbLTg1MTI4OTQzMyw3NTc4NDMyMjUsLTQyOD
 M4MTM4MCwtMTI5OTc4NDk0OV19
 -->
