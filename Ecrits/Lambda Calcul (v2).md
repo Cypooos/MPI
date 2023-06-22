@@ -1,38 +1,12 @@
-
-PLAN :
-
-Prélim (A-1)
-G reduc
-booléens
-
-beta équiv
-Chruch-rosser & unicité de la forme normale
-
-church
-cond church
-soustraction
-
-opérateur point fixe (beta équiv)
-def récusivité ( Greduc )
-expodentiation rapide (curch, cond church)
-
-typage (church)
-type => unitaire
-unitaire => typable
-
-
-
-
-
 # Etude du Lambda Calcul
 
 Ce sujet difficile introduit la théorie derrière les langages fonctionnel : le lambda calcul.
 
 La partie I introduit le lambda calcul et les booléens.
-La partie II étudie la béta équivalence et la propriété de Church Rosser.
+La partie II étudie la $\beta$-équivalence et la propriété de Church Rosser.
 La partie III implémente les entiers de church et les opérations classiques dessus.
 La partie IV introduit le principe d'opérateur point-fixe et la récursivité.
-La partie V définie des types au expression du lambda calcul.
+La partie V définie des types au expressions du lambda calcul.
 
 Dépendances des différentes parties :
 $$
@@ -47,7 +21,7 @@ $$
 
 Les questions plus difficile sont préambulées d'une étoile (*).
 On pourra admettre une question pour passer à la suivante.
-Il n'est pas fait pour être réalisé en 4h.
+Ce sujet n'est pas fait pour être réalisé en 4h.
 
 # Définitions
 
@@ -168,7 +142,6 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 7. Définir une expression $\text{add}$ tel que $\text{add}(C_n,C_m) \to^* C_{n+m}$
 8. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$
 
-On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
 
 ## Conditions sur les entiers de Church
 9. Définir $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
@@ -302,6 +275,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzM1ODIyLC02MDQ3Njc2NjIsNzU3OD
-QzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
+eyJoaXN0b3J5IjpbMTY2MTIxMjUyOSwtNjA0NzY3NjYyLDc1Nz
+g0MzIyNSwtNDI4MzgxMzgwLC0xMjk5Nzg0OTQ5XX0=
 -->
