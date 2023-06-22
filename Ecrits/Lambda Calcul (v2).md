@@ -21,12 +21,12 @@ type => unitaire
 unitaire => typable
 
 $$
-\begin{array}{ccc} 
-& &\text{Partie I: Préliminaires} & \\
+\begin{array}{ccccc} 
+& &\text{I} & \\
 &\swarrow& &\searrow \\
-&\text{Partie II: Church-Rosser } && \text{Partie III: Opérations} \\
-&\downarrow& &\searrow \\
-&\text{Partie II: Church-Rosser } &&&& \text{Partie III: Opérations} \\
+\text{II} &&&& \text{III} \\
+\downarrow&& \swarrow \\
+\text{IV } &&&& \text{V} \\
 \end{array}
 $$
 
@@ -276,6 +276,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwMTAyNTgsLTYwNDc2NzY2Miw3NTc4ND
-MyMjUsLTQyODM4MTM4MCwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbNDU2MDgwMDQ3LC02MDQ3Njc2NjIsNzU3OD
+QzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
