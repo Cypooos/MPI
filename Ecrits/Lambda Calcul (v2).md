@@ -64,12 +64,11 @@ On dit que une relation $\mathcal{R}$ sur $E$ respecte la propriété du diamant
 > Soit $t,u,v\in E$, si $t\mathcal{R}u$ et $t\mathcal{R}v$, alors il existe $\omega\in E$ tel que $u\mathcal{R}\omega$ et $v\mathcal{R}\omega$
 
 Le théorème de Church-Rosser assure que la relation $\to^*$ respecte la propriété du diamant.
-Une d
 
-On pose $\triangleright$ la réduction parallèle tel que :
+Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que :
 - $x\triangleright x$
 - $x\mapsto t \triangleright x'\mapsto t'$ si $x \triangleright x'$ et $t \triangleright t'$
-- $$
+- $t(x)\triangleright t'(x')$ si $t\triangleright t'$ et $$
 — (λx.t)u −→ v {w/x} si t −→ v et u −→ w.
 
 4. Montrez que si $a\to b$, alors $a\triangleright b$.
@@ -240,6 +239,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2NTk1MDM3LDc1Nzg0MzIyNSwtNDI4Mz
-gxMzgwLC0xMjk5Nzg0OTQ5XX0=
+eyJoaXN0b3J5IjpbLTI3MjQyOTM1OCw3NTc4NDMyMjUsLTQyOD
+M4MTM4MCwtMTI5OTc4NDk0OV19
 -->
