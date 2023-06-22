@@ -68,7 +68,7 @@ On définit les expressions suivantes :
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
 
 ## Graphe des réductions
-Soit $e\in E$, on pose $G_e = (S_e,V_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $V_e = \{(x,y)\in S_e^2 : x\to^* y \}$
+Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $A_e = \{(x,y)\in S_e^2 : x\to^* y \}$
 
 3. Donnez le graphe des réductions de $I(I(I))$, et de $K (K(I,I))$.
 4. Donnez une expression donnant un graphe des réductions infini.
@@ -91,7 +91,7 @@ On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 
 On pose $\lrarr$ la fermeture symétrique de $\to$ : on a $x\lrarr y$ si et seulement si $x\to y$ ou $y\to x$
 
-On pose $G = (E,V)$ un graphe orienté infini avec $V = \{(x,y)\in E^2 : x\to^* y \}$
+On pose $G = (E,A)$ un graphe orienté infini avec $A = \{(x,y)\in E^2 : x\to^* y \}$
 On définie $=_\beta$ une relation d'équivalence telle que $e=_\beta e''$ si $x$ et $y$ appartiennent à la même composante faiblement connexe dans $G$
 
 7. Montrez que si $a=_\beta b$, alors il existe $n\in\N$ et $M_1,...,M_n \in E$ tel que $a\lrarr M_1\lrarr...\lrarr M_n\lrarr b$
@@ -126,7 +126,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 12. En déduire que tout graphe des réductions possède un plus petit et un plus grand élément. 
 13. Montrez que si $a=_\beta b$, alors il existe $e\in E$ tel que $a\to^* e$ et $b\to^* e$
 
-# Partie II: Entiers et opérations
+# Partie III: Entiers et opérations
 
 ## Entiers de Church
 
@@ -162,12 +162,12 @@ qui représente un couple $(x,y)$
 13. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
 14. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ 
 
-# Partie IV: Récursivité
+# Partie IV: Point-fixe et Récursivité
 Le but de cette partie est de pouvoir faire des fonctions récursives.
 ## L'opérateur Point-fixe
 
 On dit que $\text{fix}$ est un opérateur point-fixe  si il est sous forme normale et que, pour tout $f\in E$, on a :
-$$\text{fix}(f) \to^* f(\text{fix}(f))$$
+$$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
 15. Montrez que $\text{fix}(f)$ n'est pas unitaire.
 
@@ -175,9 +175,7 @@ On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
 16. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
 17. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
-18. (*) Donnez une expression $\Theta = (x\mapsto e)$ tel que $\Theta(f) \to^* f(e[x\larr \Theta(f)])$
-
-*Rem: Dans la littérature, ce n'est pas la définition exacte d'un opérateur point-fixe. Voire remarque partie IV.*
+18. (*) Donnez une expression $\Theta$ point-f
 
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
@@ -275,6 +273,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTIxMjUyOSwtNjA0NzY3NjYyLDc1Nz
+eyJoaXN0b3J5IjpbMTUzMDM4NjA1OSwtNjA0NzY3NjYyLDc1Nz
 g0MzIyNSwtNDI4MzgxMzgwLC0xMjk5Nzg0OTQ5XX0=
 -->
