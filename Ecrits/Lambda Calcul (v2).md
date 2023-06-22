@@ -121,7 +121,7 @@ On pose $G = (E,V)$ un graphe orienté infini avec $V = \{(x,y)\in E^2 : x\to^* 
 On définie $=_\beta$ une relation d'équivalence telle que $e=_\beta e''$ si $x$ et $y$ appartiennent à la même composante faiblement connexe dans $G$
 
 7. Montrez que si $a=_\beta b$, alors il existe $n\in\N$ et $M_1,...,M_n \in E$ tel que $a\lrarr M_1\lrarr...\lrarr M_n\lrarr b$
-8. Montrez que $=_\beta$ est une relation d'éq
+8. Montrez que $=_\beta$ est une relation d'équivalence sur E.
 ## Le théorème de _Church-Rosser_
 
 On dit que une relation $\mathcal{R}$ sur $E$ respecte la propriété du diamant si :
@@ -140,10 +140,12 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 5. Montrez que si $a\triangleright b$, alors $a\to^* b$
 6. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : Procédez par induction sur la forme de $t$
-8. Montrez que $\triangleright$ respecte la *propriété du diamant*.
-9. En déduire le théorème de *Church-Rosser*.
+7. Montrez que $\triangleright$ respecte la *propriété du diamant*.
+8. En déduire le théorème de *Church-Rosser*.
+## Autour de Church-Rosser
 10. Montrez que si $a\in E$ possède une forme normale, alors celle-ci est unique.
 11. En déduire que tout graphe des réductions possède un plus petit et un plus grand élément. 
+12. Montrez que 
 
 > On a ici prouvé que quelquefois notre manière d'évaluer une expression $e$, on tombera toujours sur le même résultat. Autrement dit, le lambda calcul est fondamentalement "déterministe" par rapport à son implémentation.
 > Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étapes. Dans le cas de $\text{if}(\top,I,\Delta(\Delta)) \to^* I$, si l'on calcule constamment $\Delta(\Delta)$, on n'atteindra jamais la forme normale $I$, alors qu'elle existe et est unique.
@@ -301,6 +303,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MjIyMTc2MSwtNjA0NzY3NjYyLDc1Nz
-g0MzIyNSwtNDI4MzgxMzgwLC0xMjk5Nzg0OTQ5XX0=
+eyJoaXN0b3J5IjpbNjkwMDAyMjY2LC02MDQ3Njc2NjIsNzU3OD
+QzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
