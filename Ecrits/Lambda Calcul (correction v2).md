@@ -382,9 +382,11 @@ $$
 > On pose $\text{is\_even} = (C\mapsto C(\text{not},\top))$
 > On pose $\text{div\_2} = (C\mapsto C(x\mapsto \text{if\_eq}(\text{mul}(x,C_2),C)(x)(\text{sub}(x,1) )(C))$
 > On pose $\text{div\_2\_i} = (C\mapsto C(x\mapsto \text{if\_eq}(\text{mul}(x,C_2),C)(x)(\text{sub}(x,1) )(\text{sub}(C,1)))$ (qui fait la division entière d'un nombre impaire)
+> On montre que :
+>  - $\text{is\_even}(C_{2n}) \to^* \top$ et $\text{is\_even}(C_{2n+1 }) \to^* \bot$
+>  - $\text{div\_2}(C_{2n})\to^*C_n$ et $\text{div\_2\_i}(C_{2n+1})\to C_n$
+>  >
 > On pose $$\text{pow\_rec} = (f,x,y\mapsto \text{if}(\text{eq\_0}(y))(C_1)\Big(\text{if}(\text{is\_even}(y))\\(\text{mul}(f(x,\text{div\_2}(y)),f(x,\text{div\_2}(y))))\\(\text{mul}(x,\text{mul}(f(x,\text{div\_2\_i}(y)),f(x,\text{div\_2\_i}(y)))))\Big))$$
-> On montre que $\text{is\_even}(C_{2n}) \to^* \top$ et $\text{is\_even}(C_{2n+1 }) \to^* \bot$, que
-> $\text{div\_2}(C_{2n})\to^*C_n$ et $\text{div\_2\_i}(C_{2n+1})\to C_n$
 > Ainsi, on a bien le résultat. TODO: compléter la preuve, montrer que le nombre d'appels récursif est en $O(n)$
 
 # Partie V: Types
@@ -462,5 +464,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDE2MjMxMTBdfQ==
+eyJoaXN0b3J5IjpbNTE3ODQxNDExXX0=
 -->
