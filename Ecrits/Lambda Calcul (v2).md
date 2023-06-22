@@ -1,9 +1,9 @@
 
 PLAN :
 
-Objets de base => soustraction => récursivité exemple
+Objets de base (A) =>Types (E)
+Objets de base (A) => soustraction (B => récursivité exemple
 Beta equivalence => church-rosser => récursivité exemple
-Objets de base =>Types
 
 
 
@@ -252,6 +252,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3MTE4NzU3LDc1Nzg0MzIyNSwtNDI4Mz
-gxMzgwLC0xMjk5Nzg0OTQ5XX0=
+eyJoaXN0b3J5IjpbLTE1NjQ5OTMwOTUsNzU3ODQzMjI1LC00Mj
+gzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
