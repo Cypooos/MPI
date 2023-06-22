@@ -1,18 +1,18 @@
 
 PLAN :
 
-Prélim
+Prélim (A-1)
 Chruch-rosser & unicité de la forme normale
 beta équiv
-graphe des réductions
+G reduc
 booléens
-entier de church
-condition sur entiers de church
+church
+cond church
 soustraction
-opérateur point fixe
-def récusivité
-expodentiation rapide
-typage
+opérateur point fixe (beta équiv)
+def récusivité ( Greduc )
+expodentiation rapide (curch, cond church)
+typage (church)
 type => unitaire
 unitaire => typable
 
@@ -262,6 +262,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTc4NDc2MTAsNzU3ODQzMjI1LC00Mj
-gzODEzODAsLTEyOTk3ODQ5NDldfQ==
+eyJoaXN0b3J5IjpbMzgxOTAxNTc0LDc1Nzg0MzIyNSwtNDI4Mz
+gxMzgwLC0xMjk5Nzg0OTQ5XX0=
 -->
