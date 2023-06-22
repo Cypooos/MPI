@@ -1,3 +1,12 @@
+
+PLAN :
+
+Objets de base => soustraction => récursivité exemple
+Beta equivalence => church-rosser => récursivité exemple
+Objets de base =>Types
+
+
+
 # Etude du Lambda Calcul
 
 Ce sujet est difficile, et balaye les chapitres de Logique, Grammaire, et programmation fonctionnelle.
@@ -243,6 +252,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTkwMTY5MTYsNzU3ODQzMjI1LC00Mj
-gzODEzODAsLTEyOTk3ODQ5NDldfQ==
+eyJoaXN0b3J5IjpbNTI3MTE4NzU3LDc1Nzg0MzIyNSwtNDI4Mz
+gxMzgwLC0xMjk5Nzg0OTQ5XX0=
 -->
