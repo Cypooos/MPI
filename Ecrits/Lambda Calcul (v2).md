@@ -55,17 +55,15 @@ On définit les expressions suivantes :
 Soit $e\in E$, on pose $G_e = (S_e,V_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $V_e = \{(x,y)\in S_e^2 : x\to^* y \}$
 
 3. Donnez le graphe des réductions de $I(I(I))$, et de $K (K(I,I))$. Un graphe de réduction est-il toujours fini ?
-4. Montrez que si $a \to y$ et $b \to y$, alors 
-5. Montrez que si $a =_\beta b$, alors $$
 
 On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_.
 
 ## Le théorème de _Church-Rosser_
 
-Pour toute relation $R$ et , on pose $G_R = (S_R$
+Pour toute relation $R$, on pose $G_R = (S_R$
 
 On pose $G=(E,V)$ un graphe infini avec $V=\{(x,y)\in E^2 : x\to^* y \}$.
-On pose $e =_\beta e'$ si et seulement si $e$ et $e'$ appartienne à la même composante faiblement connexe dans G_e. 
+On pose $e =_\beta e'$ si et seulement si $e$ et $e'$ appartienne à la même composante faiblement connexe dans G_e.
 
 3. Montrez que $=_\beta$ est une relation d'équivalence.
 
@@ -75,6 +73,8 @@ On pose $\triangleright$ la réductione parallèle tel que :
 - $$
 — (λx.t)u −→ v {w/x} si t −→ v et u −→ w.
 
+4. Montrez que $a\to b$
+Soient t, u, v, w ∈ Λ et x ∈ V. Si t −→ v et u −→ w, on a t {u/x} −→ v {w/x}.
 
 # Partie II: objet de base
 
@@ -237,6 +237,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjY4NzEyMiw3NTc4NDMyMjUsLTQyOD
+eyJoaXN0b3J5IjpbLTgyNzU1NzkzMiw3NTc4NDMyMjUsLTQyOD
 M4MTM4MCwtMTI5OTc4NDk0OV19
 -->
