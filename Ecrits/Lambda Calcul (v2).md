@@ -71,7 +71,7 @@ On définit les expressions suivantes :
 Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $A_e = \{(x,y)\in S_e^2 : x\to y \}$
 
 3. Donnez le graphe des réductions de $I(I(I))$, et de $K(I,\Delta(\Delta))$.
-4. (*) Donnez une expression donnant un graphe des réductions infini.
+4. Donnez une expression donnant un graphe des réductions infini.
 5. Montrez que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire. 
 
 ## Booléens
@@ -110,12 +110,12 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 - $(x\mapsto e)(u) \triangleright t'[x\larr u']$ si $t \triangleright t'$ et $u \triangleright u'$
 
 
-4. Montrez que si $a\to b$, alors $a\triangleright b$.
-5. Montrez que si $a\triangleright b$, alors $a\to^* b$
-6. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
+11. Montrez que si $a\to b$, alors $a\triangleright b$.
+12. Montrez que si $a\triangleright b$, alors $a\to^* b$
+13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$ 
 > Indication : Procédez par induction sur la forme de $t$
-7. Montrez que $\triangleright$ respecte la *propriété du diamant*.
-8. En déduire le théorème de *Church-Rosser*.
+14. Montrez que $\triangleright$ respecte la *propriété du diamant*.
+15. En déduire le théorème de *Church-Rosser*.
 
 ## Autour de Church-Rosser
 10. Montrez que si $a\in E$ possède une forme normale, alors celle-ci est unique.
@@ -272,7 +272,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjU3MDczNjYsLTE5Mzk4MTExNDUsND
-c3OTkxMTczLC0xMDEzMDg4NDA0LC02MDQ3Njc2NjIsNzU3ODQz
-MjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
+eyJoaXN0b3J5IjpbLTM0MDE0MDQxNSwtMTkzOTgxMTE0NSw0Nz
+c5OTExNzMsLTEwMTMwODg0MDQsLTYwNDc2NzY2Miw3NTc4NDMy
+MjUsLTQyODM4MTM4MCwtMTI5OTc4NDk0OV19
 -->
