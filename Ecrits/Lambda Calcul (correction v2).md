@@ -201,6 +201,9 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 ## Autour de Church-Rosser
 16. Montrez que si $a\in E$ possède une forme normale, alors celle-ci est unique.
 
+> Soit $a\in E$, et soient $e,e'\in E$ sous forme normale tel que $a\to^* e$ et $a\to^* e'$.
+> On applique alors le théorème de Church Rosser, et on a  
+
 > Remarque : On a ici prouvé que quelque-soit notre manière d'évaluer une expression $e$ bien écrite, on tombera toujours sur le même résultat. Autrement dit, le lambda calcul est fondamentalement "déterministe" par rapport à son implémentation.
 > Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étapes. Dans le cas de $\text{if}(\top,I,\Delta(\Delta)) \to^* I$, si l'on calcule constamment $\Delta(\Delta)$, on n'atteindra jamais la forme normale $I$, alors qu'elle existe et est unique.
 
@@ -354,5 +357,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTE5Nzk4NF19
+eyJoaXN0b3J5IjpbMzY1MjMwODU2XX0=
 -->
