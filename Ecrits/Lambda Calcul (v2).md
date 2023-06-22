@@ -6,7 +6,7 @@ La partie I introduit le lambda calcul et les booléens.
 La partie II étudie la $\beta$-équivalence et la propriété de Church Rosser.
 La partie III implémente les entiers de church et les opérations classiques dessus.
 La partie IV introduit le principe d'opérateur point-fixe et la récursivité.
-La partie V définie des types au expressions du lambda calcul.
+La partie V définie des types aux expressions du lambda calcul.
 
 Dépendances des différentes parties :
 $$
@@ -19,7 +19,7 @@ $$
 \end{array}
 $$
 
-Les questions plus difficile sont préambulées d'une étoile (*).
+Les questions les plus difficile sont préambules d'une étoile (*).
 On pourra admettre une question pour passer à la suivante.
 Ce sujet n'est pas fait pour être réalisé en 4h.
 
@@ -272,7 +272,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjQ0NTY1NiwtMTAxMzA4ODQwNCwtNj
-A0NzY3NjYyLDc1Nzg0MzIyNSwtNDI4MzgxMzgwLC0xMjk5Nzg0
-OTQ5XX0=
+eyJoaXN0b3J5IjpbNDc3OTkxMTczLC0xMDEzMDg4NDA0LC02MD
+Q3Njc2NjIsNzU3ODQzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5
+NDldfQ==
 -->
