@@ -215,7 +215,8 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  - $x\to^* \alpha$ par l'unicité de la forme normale et la propriété du diamant appliquée à $e\to^* e$ et $e\to^* x$ (TODO bien)
 
 19. Montrez que si $a=_\beta b$, alors il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
-> Cela est immédiat à part
+
+> Si on écrit $a \lrarr e_1 \lrarr ... \lrarr e_n \lrarr b$, on montre par récurrence sur $i$ que l'unique forme normale de $a$ est la même que pour $e_i$
 
 # Partie III: Entiers et opérations
 
@@ -363,5 +364,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxMTY2MTgzXX0=
+eyJoaXN0b3J5IjpbMjY5NjIzNTk1XX0=
 -->
