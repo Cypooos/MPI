@@ -56,11 +56,10 @@ On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_.
 
 ## le théorème de _Church-Rosser_
 
-On définie une relation d'équivalence $=_\beta$
 
 3. 
 
-Pour tout $e\in E$, on pose $G_e=(S_e,V_e)$ un graphe avec $S_e=\{x\in E\}$
+Pour tout $e\in E$, on pose $G_e=(E,V_e)$ un graphe avec $V_e=\{(x,y)\in E^2 \ :\  \}$
 
 3.
 
@@ -225,5 +224,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjk1MjcxOCwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbNTM4ODgxNTksLTEyOTk3ODQ5NDldfQ==
 -->
