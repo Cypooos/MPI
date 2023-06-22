@@ -115,7 +115,8 @@ On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 
 ## Beta équivalence
 
-On définie $\lrarr$ la fermeture symétrique de $\to$ : On a $x\lrarr y$ si et seulement si $x\to y$ ou $y\to x$
+On définie $\lrarr$ la fermeture symétrique de $\to$ : On a $x\lrarr y$ si et seulement si $x\to y$ ou $y\to x$.
+On définie $\lrarr^*$ la fermeture transitive de $\lrarr$
 On définie la relation $=_\beta$ la relation de béta équivalence tel que $$
 
 
@@ -143,8 +144,8 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 11. En déduire que tout graphe des réductions possède un plus petit et un plus grand élément. 
 
 > On a ici prouvé que quelquefois notre manière d'évaluer une expression $e$, on tombera toujours sur le même résultat. Autrement dit, le lambda calcul est fondamentalement "déterministe" par rapport à son implémentation.
-> Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étapes. Dans le cas de $\text{if}(\top,I,\Delta(\Delta))$, si l'on calcule constamment $\Delta(\Delta)$, on n'atteindra jamais la forme normale. Pour
-# Partie II: objet de base
+> Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étapes. Dans le cas de $\text{if}(\top,I,\Delta(\Delta)) \to^* I$, si l'on calcule constamment $\Delta(\Delta)$, on n'atteindra jamais la forme normale $I$, alors qu'elle existe et est unique.
+# Partie II: objets de base
 
 On s'intéresse maintenant à la création de différents objets de base.
 
@@ -298,6 +299,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2MTEyMDY4LC02MDQ3Njc2NjIsNzU3OD
-QzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
+eyJoaXN0b3J5IjpbMTI4MjQyNjU5OSwtNjA0NzY3NjYyLDc1Nz
+g0MzIyNSwtNDI4MzgxMzgwLC0xMjk5Nzg0OTQ5XX0=
 -->
