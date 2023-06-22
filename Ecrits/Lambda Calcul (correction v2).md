@@ -426,6 +426,8 @@ Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 
 ## Typage de groupe d'expressions
 
+> TODO : Correction à recopier
+
 22. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
 
 Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
@@ -464,5 +466,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTMxODc4MV19
+eyJoaXN0b3J5IjpbLTU1NTgwMzE1Ml19
 -->
