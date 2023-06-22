@@ -118,7 +118,6 @@ On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 On définie $\lrarr$ la fermeture symétrique de $\to$ : On a $x\lrarr y$ si et seulement si $x\to y$ ou $y\to x$
 On définie la relation $=_\beta$ la relation de béta équivalence tel que $$
 
-On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_.
 
 ## Le théorème de _Church-Rosser_
 
@@ -137,12 +136,12 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 4. Montrez que si $a\to b$, alors $a\triangleright b$.
 5. Montrez que si $a\triangleright b$, alors $a\to^* b$
 6. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
-> Ind: Procédez par induction sur la forme de $t$
+> Indication : Procédez par induction sur la forme de $t$
 8. Montrez que $\triangleright$ respecte la *propriété du diamant*.
 9. En déduire le théorème de *Church-Rosser*.
 10. En déduire que si $a\in E$ possède une forme normale, alors celle-ci est unique.
 
-
+> On a ici prouvé que quelquesoit notre manière d'évaluer une expression $e$, on tombera toujours sue le même résul
 # Partie II: objet de base
 
 On s'intéresse maintenant à la création de différents objets de base.
@@ -297,6 +296,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjYyMDQ4NywtNjA0NzY3NjYyLDc1Nz
+eyJoaXN0b3J5IjpbMTY0MjE5NjI3MCwtNjA0NzY3NjYyLDc1Nz
 g0MzIyNSwtNDI4MzgxMzgwLC0xMjk5Nzg0OTQ5XX0=
 -->
