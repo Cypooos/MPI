@@ -75,7 +75,8 @@ On pose $\triangleright$ la réductione parallèle tel que :
 
 4. Montrez que si $a\to b$, alors $a\triangleright b$.
 5. Montrez que si $a\triangleright b$, alors $a\to^* b$
-6. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v]$
+6. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
+7. Montrez que $\triangleright$ respecte la *propriété du diamant*, soit que si $t\triangleright x$ et $t\triangleright y$, alo
 
 # Partie II: objet de base
 
@@ -238,6 +239,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0NTM5NTgyLDc1Nzg0MzIyNSwtNDI4Mz
+eyJoaXN0b3J5IjpbMTE0ODQ4NTk1LDc1Nzg0MzIyNSwtNDI4Mz
 gxMzgwLC0xMjk5Nzg0OTQ5XX0=
 -->
