@@ -1,10 +1,15 @@
 
 PLAN :
 
-Objets de base (A) =>Types (E)
-Objets de base (A) => soustraction (B => récursivité exemple
-Beta equivalence => church-rosser => récursivité exemple
-
+Prélim
+Chruch-rosser & unicité de la forme normale
+beta équiv
+graphe des réductions
+booléens
+entier de church
+condition sur entiers de church
+soustraction
+opérateur point fixe
 
 
 # Etude du Lambda Calcul
@@ -252,6 +257,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQ5OTMwOTUsNzU3ODQzMjI1LC00Mj
-gzODEzODAsLTEyOTk3ODQ5NDldfQ==
+eyJoaXN0b3J5IjpbMTk1MjE3ODkxOSw3NTc4NDMyMjUsLTQyOD
+M4MTM4MCwtMTI5OTc4NDk0OV19
 -->
