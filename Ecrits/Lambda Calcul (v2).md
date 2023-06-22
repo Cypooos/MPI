@@ -70,7 +70,7 @@ On définit les expressions suivantes :
 ## Graphe des réductions
 Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $A_e = \{(x,y)\in S_e^2 : x\to^* y \}$
 
-3. Donnez le graphe des réductions de $I(I(I))$, et de $K (K(I,I))$.
+3. Donnez le graphe des réductions de $I(I(I))$, et de $K(I,\Delta(\Delta))$.
 4. (*) Donnez une expression donnant un graphe des réductions infini.
 5. Donnez une condition nécessaire et suffisante sur $e$ pour que $\to^*$ soit une relation d'ordre totale sur $S_e$
 
@@ -272,7 +272,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc3OTkxMTczLC0xMDEzMDg4NDA0LC02MD
-Q3Njc2NjIsNzU3ODQzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5
-NDldfQ==
+eyJoaXN0b3J5IjpbMTYwNDI5NzcwNyw0Nzc5OTExNzMsLTEwMT
+MwODg0MDQsLTYwNDc2NzY2Miw3NTc4NDMyMjUsLTQyODM4MTM4
+MCwtMTI5OTc4NDk0OV19
 -->
