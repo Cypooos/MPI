@@ -20,15 +20,8 @@ typage (church)
 type => unitaire
 unitaire => typable
 
-$$
-\begin{array}{ccccc} 
-& &\text{I} & \\
-&\swarrow& &\searrow \\
-\text{II} &&&& \text{III} \\
-\downarrow&& \swarrow \\
-\text{IV } &&&& \text{V} \\
-\end{array}
-$$
+
+
 
 
 # Etude du Lambda Calcul
@@ -36,6 +29,20 @@ $$
 Ce sujet est difficile, et balaye les chapitres de Logique, Grammaire, et programmation fonctionnelle.
 
 Ce sujet introduit la théorie derrière les langages fonctionnel : le lambda calcul.
+
+Dépendances des différentes parties :
+$$
+\begin{array}{ccccc} 
+& &\text{I} & \\
+&\swarrow& &\searrow \\
+\text{II} &&&& \text{III} \\
+\downarrow&& \swarrow &&\downarrow\\
+\text{IV } &&&& \text{V} \\
+\end{array}
+$$
+
+La partie I introduit le lambda calcul, différentes opérations et objets.
+La partie II étudie la propriété
 
 Les questions plus difficile sont préambulées d'une étoile (*).
 On pourra admettre une question pour passer à la suivante.
@@ -276,6 +283,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU2MDgwMDQ3LC02MDQ3Njc2NjIsNzU3OD
-QzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
+eyJoaXN0b3J5IjpbLTc5NDgwNzQ1NiwtNjA0NzY3NjYyLDc1Nz
+g0MzIyNSwtNDI4MzgxMzgwLC0xMjk5Nzg0OTQ5XX0=
 -->
