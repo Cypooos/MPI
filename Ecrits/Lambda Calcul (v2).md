@@ -75,7 +75,7 @@ On pose $\triangleright$ la réductione parallèle tel que :
 
 4. Montrez que si $a\to b$, alors $a\triangleright b$.
 5. Montrez que si $a\triangleright b$, alors $a\to^* b$
-6. Montrez que, soit $t$
+6. Montrez que, soit $t,t',v,v' \in E$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[$
 
 # Partie II: objet de base
 
@@ -238,6 +238,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTI4OTQzMyw3NTc4NDMyMjUsLTQyOD
-M4MTM4MCwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbMjM1MjMzNzYsNzU3ODQzMjI1LC00MjgzOD
+EzODAsLTEyOTk3ODQ5NDldfQ==
 -->
