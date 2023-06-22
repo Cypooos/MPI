@@ -87,9 +87,37 @@ Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe des réductions de $e$* avec
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
 On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 
-6. Montrez que, soit $e,e'\in E$, on a $\text{if}(\top,e,e') \to^* e$ et $\text{if}(\bot,e,e') \to^* e'$ 
+6. Montrez que, soit $e,e'\in E$, on a $\text{if}(\top,e,e') \to^* e$ et $\text{if}(\bot,e,e') \to^* e'$
+
+
+>On a:
+$$\begin{align*}\text{if}(\top,e,e')&=\text{if}(\top)(e)(e') \\
+&= (b,f_1,f_2\mapsto b(f_1,f_2))(\top)(e)(e')\\
+&\to (f_1,f_2\mapsto \top(f_1,f_2))(e)(e')\\
+&\to (f_2\mapsto \top(e,f_2))(e')\\
+&\to\top(e,e')\\
+&= (x,y\mapsto x)(e,e')\\
+&\to (y\mapsto e)(e')\\
+&\to e\\
+\end{align*}$$
+> De même :
+$$\begin{align*}\text{if}(\bot,e,e')&=(b,f_1,f_2\mapsto b(f_1,f_2))(\bot)(e)(e')\\
+&\to^3\bot(e,e')\\
+&= (x,y\mapsto y)(e,e')\\
+&\to (y\mapsto y)(e')\\
+&\to e'\\
+\end{align*}$$
+
 7. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
-8. Définir une expression $\text{and}$ tel que, soit $b,b'\in B$, on ai:
+
+> On pose $\text{not} = x\mapsto \text{if}(x,\bot,\top)$, et on a bien d'après la question précédente :
+>  - $\text{not}(\top) = (x\mapsto \text{if}(x,\bot,\top))(\top)\to \text{if}(\top,\bot,\top) \to^*\bot$
+>  - $\text{not}(\bot) = (x\mapsto \text{if}(x,\bot,\top))(\top)\to \text{if}(\bot,\bot,\top) \to^*\top$
+> 
+> NB: $\text{not} = (x\mapsto x(\bot,\top))$ fonctionne aussi.
+
+
+9. Définir une expression $\text{and}$ tel que, soit $b,b'\in B$, on ai:
    * $\text{and}(b,b') \to^* \top$  si $b=b'=\top$
    * $\text{and}(b,b') \to^* \bot$  sinon
 
@@ -282,5 +310,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ5NDczNDZdfQ==
+eyJoaXN0b3J5IjpbLTg1NzI4Mzc4Ml19
 -->
