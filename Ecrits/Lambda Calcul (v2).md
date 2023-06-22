@@ -20,6 +20,13 @@ typage (church)
 type => unitaire
 unitaire => typable
 
+$$
+\begin{CD}
+1 @<<<  2 @=  3\\
+@. @| @VVV\\ @. 4 @=  5
+\end{CD}
+$$
+
 
 # Etude du Lambda Calcul
 
@@ -266,6 +273,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDYzNDM4MTAsLTYwNDc2NzY2Miw3NT
+eyJoaXN0b3J5IjpbLTE0MzUxNjc5MTksLTYwNDc2NzY2Miw3NT
 c4NDMyMjUsLTQyODM4MTM4MCwtMTI5OTc4NDk0OV19
 -->
