@@ -321,9 +321,15 @@ $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
 28. Montrez que $\text{fix}(f)$ n'est pas unitaire.
 
+> On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées). On a alors $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+1$, absurde.
+> TODO: adapter la preuve à la nouvelle définition de l'opérateur point-fixe.
+
 On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
 29. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
+
+> On écrit $\text{fix}(f)\to^n e$. Mais on a aussi: $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e) \to^* p$ qui est un calcul normalisant par hypothèse. Par l'unicité de la forme normale de $\text{fix}(f)$, $e=p$, donc on a $f(e) \to^* e$
+
 30. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
 31. (*) Donnez une expression $\Theta$ point-fixe.
 
@@ -422,5 +428,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NTY3NDUxNl19
+eyJoaXN0b3J5IjpbLTExNTU1MzMzNzJdfQ==
 -->
