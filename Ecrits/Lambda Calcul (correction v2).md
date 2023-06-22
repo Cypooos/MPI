@@ -216,7 +216,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 19. Montrez que si $a=_\beta b$, alors il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
 
-> Si on écrit $a \lrarr e_1 \lrarr ... \lrarr e_n \lrarr b$, on montre par récurrence sur $i$ que l'unique forme normale de $a$ est la même que pour $e_i$
+> Si on écrit $a \lrarr e_1 \lrarr ... \lrarr e_n \lrarr b$, on montre par récurrence sur $i$ que l'unique forme normale de $a$ est la même que pour $e_i$. TODO
 
 # Partie III: Entiers et opérations
 
@@ -231,8 +231,27 @@ Pour tout $n\in\N$, on pose :
 On appelle $C_n$ l'*entier de Church* associé à $n$.
 
 19. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to^* C_{n+1}$
+
+> On pose $\text{succ} = (C,f,x\mapsto C(f,f(x)))$. On a ainsi:
+> $\text{succ}(C_n) \to (f,x\mapsto C_n(f,f(x)))\to^2(f,x\mapsto f^n(f(x))) = (f,x\mapsto f^{n+1}(x)) = C_{n+1}$
+> 
+> NB: $\text{succ} = (C_n,f,x\mapsto f(C_n(f,x)))$ marche aussi: On aurai
+> $\text{succ}(C_n) \to (f,x\mapsto f(C_n(f,x))) \to^2 (f,x\mapsto f(f^n(x))) =  (f,x\mapsto f^{n+1}(x)) = C_{n+1}$
+
 20. Définir une expression $\text{add}$ tel que $\text{add}(C_n,C_m) \to^* C_{n+m}$
+
+> On pose $\text{add} = (C,C' \mapsto C(\text{succ},C'))$
+> On a : $\text{add}(C_n,C_m) \to^2 C_n(\text{succ},C_m)\to^2 \text{succ}^n(C_m) \to^* C_{m+n}$
+> 
+> NB: $\text{add} = (C,C',f,x\mapsto C(f,C'(f,x)))$ marche aussi.
+
 21. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$ 
+
+> On pose $\text{mul} = (C,C'\mapsto C(\text{add}(C'),C_0))$ 
+> On a : $\text{mul}(C_n,C_m) \to^2 C_n(\text{add}(C_m),C_0)\to^2 (\text{add}(C_m))^n(C_0) \to ^* C_{n\times m}$
+> Ou l'on peut montrer par récurrence sur $n$ que $(\text{add}(C_m))^n(C_0) \to ^* C_{n\times m}$ :
+>  - Initialisation: On a $(\text{add}(C_m))^0(C_0) = C_0= C_{n\times m}$
+>  - Hérédité: On a $(\text{add}(C_m))^{n+1}(C_0)=\text{add}(C_m)((\text{add}(C_m))^n(C_0)) \to^*\text{add}(C_m)(C_{n\times m}) \to ^* C_{m+n\times m} = C_{(n+1)\times m}$
 
 
 ## Conditions sur les entiers de Church
@@ -364,5 +383,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5NjIzNTk1XX0=
+eyJoaXN0b3J5IjpbMTcyOTY2NTc2NV19
 -->
