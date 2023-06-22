@@ -58,11 +58,11 @@ On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_.
 
 
 On pose $G=(E,V)$ un graphe infini avec $V_e=\{(x,y)\in E^2 : x\to^* y \}$.
-On pose $G_e = (S_e,V_e)$ le graphe de réduction avec $S_e = \{x\in E : e \to^* x\}$ et $V_e = \{x\in E : \}$
+Soit $e\in E$, on pose $G_e = (S_e,V_e)$ le graphe de réduction de $e$ avec $S_e = \{x\in E : e \to^* x\}$ et $V_e = \{(x,y)\in S_e^2 : x\to^* y \}$
 On pose $e =_\beta e'$ si et seulement si $e$ et $e'$ appartienne à la même composante faiblement connexe dans G_e. 
 
 3. Montrez que $=_\beta$ est une relation d'équivalence
-4. 
+4. Donnez le graphe de réduction de $$
 
 # Partie II: objet de base
 
@@ -225,6 +225,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQ4NjkyNDgsLTEyOTk3ODQ5NDldfQ
-==
+eyJoaXN0b3J5IjpbLTYxMzM5NjI2NSwtMTI5OTc4NDk0OV19
 -->
