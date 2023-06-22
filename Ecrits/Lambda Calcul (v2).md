@@ -57,12 +57,14 @@ On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_.
 ## Le théorème de _Church-Rosser_
 
 
-On pose $G=(E,V)$ un graphe infini avec $V_e=\{(x,y)\in E^2 : x\to^* y \}$.
-Soit $e\in E$, on pose $G_e = (S_e,V_e)$ le graphe de réduction de $e$ avec $S_e = \{x\in E : e \to^* x\}$ et $V_e = \{(x,y)\in S_e^2 : x\to^* y \}$
+On pose $G=(E,V)$ un graphe infini avec $V=\{(x,y)\in E^2 : x\to^* y \}$.
 On pose $e =_\beta e'$ si et seulement si $e$ et $e'$ appartienne à la même composante faiblement connexe dans G_e. 
 
-3. Montrez que $=_\beta$ est une relation d'équivalence
-4. Donnez le graphe de réduction de $I(I(I))$, de $K (K(I,I))$. Un graphe de réduction est-il toujours fini ?
+3. Montrez que $=_\beta$ est une relation d'équivalence.
+
+Soit $e\in E$, on pose $G_e = (S_e,V_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $V_e = \{(x,y)\in S_e^2 : x\to^* y \}$
+
+4. Donnez le graphe des réductions de $I(I(I))$, et de $K (K(I,I))$. Un graphe de réduction est-il toujours fini ?
 5. Montrez que si $a \to y$
 6. Montrez que si $a =_\beta b$, alors $$
 
@@ -227,5 +229,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4ODc3MjE4MSwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbLTMzMjkyNzE1NCwtMTI5OTc4NDk0OV19
 -->
