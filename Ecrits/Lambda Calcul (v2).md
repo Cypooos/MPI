@@ -46,7 +46,7 @@ On définit les expressions suivantes :
  - $K =  (y\mapsto (x\mapsto y)) = (y,x\mapsto y)$
  - $\Delta = (x\mapsto x(x))$
 
-# Partie I: _Church-Rosser_ et l'unicité de la forme normale
+# Partie I: beta-équivalence et Church-Rosser
 
 ## Préliminaires
 1. Donnez un calcul normalisant de $K(K,I)$, de $I(I)$, de $K(I,\Delta)$
@@ -79,6 +79,8 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 8. Montrez que $\triangleright$ respecte la *propriété du diamant*.
 9. En déduire le théorème de *Church-Rosser*.
 10. En déduire que si $a\in E$ possède une forme normale, alors celle-ci est unique.
+
+## Beta équivalence
 
 # Partie II: objet de base
 
@@ -241,6 +243,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4Mzg3NDc3Miw3NTc4NDMyMjUsLTQyOD
-M4MTM4MCwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbLTE1OTkwMTY5MTYsNzU3ODQzMjI1LC00Mj
+gzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
