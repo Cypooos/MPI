@@ -26,9 +26,13 @@ unitaire => typable
 
 # Etude du Lambda Calcul
 
-Ce sujet est difficile, et balaye les chapitres de Logique, Grammaire, et programmation fonctionnelle.
+Ce sujet difficile introduit la théorie derrière les langages fonctionnel : le lambda calcul.
 
-Ce sujet introduit la théorie derrière les langages fonctionnel : le lambda calcul.
+La partie I introduit le lambda calcul et les booléens.
+La partie II étudie la béta équivalence et la propriété de Church Rosser.
+La partie III implémente les entiers de church et les opérations classiques dessus.
+La partie IV introduit le principe d'opérateur point-fixe et la récursivité.
+La partie V introduit au lambda calcul bien typé. 
 
 Dépendances des différentes parties :
 $$
@@ -40,11 +44,6 @@ $$
 \text{IV } &&&& \text{V} \\
 \end{array}
 $$
-
-La partie I introduit le lambda calcul et les booléens.
-La partie II étudie la béta équivalence et la propriété de Church Rosser.
-La partie III implémente les entiers de church et les opérations classiques dessus.
-La partie IV 
 
 Les questions plus difficile sont préambulées d'une étoile (*).
 On pourra admettre une question pour passer à la suivante.
@@ -285,6 +284,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3OTU5NjY2LC02MDQ3Njc2NjIsNzU3OD
+eyJoaXN0b3J5IjpbNjAyNDQ4MTQ4LC02MDQ3Njc2NjIsNzU3OD
 QzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
