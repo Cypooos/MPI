@@ -150,7 +150,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étapes. Dans le cas de $\text{if}(\top,I,\Delta(\Delta)) \to^* I$, si l'on calcule constamment $\Delta(\Delta)$, on n'atteindra jamais la forme normale $I$, alors qu'elle existe et est unique.
 
 12. En déduire que tout graphe des réductions possède un plus petit et un plus grand élément. 
-13. Montrez que si $a=_\beta b$, alors il existe 
+13. Montrez que si $a=_\beta b$, alors il existe $e\in E$ tel que $a\to^* e$
 
 # Partie II: objets de base
 
@@ -306,6 +306,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjcyNDY0NTMsLTYwNDc2NzY2Miw3NT
-c4NDMyMjUsLTQyODM4MTM4MCwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbNTEzMjUwMzAxLC02MDQ3Njc2NjIsNzU3OD
+QzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
