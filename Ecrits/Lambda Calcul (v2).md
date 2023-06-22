@@ -112,19 +112,20 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 11. Montrez que si $a\to b$, alors $a\triangleright b$.
 12. Montrez que si $a\triangleright b$, alors $a\to^* b$
-13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$ 
+13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : Procédez par induction sur la forme de $t$
 14. Montrez que $\triangleright$ respecte la *propriété du diamant*.
 15. En déduire le théorème de *Church-Rosser*.
 
 ## Autour de Church-Rosser
-10. Montrez que si $a\in E$ possède une forme normale, alors celle-ci est unique.
+16. Montrez que si $a\in E$ possède une forme normale, alors celle-ci est unique.
 
 > Remarque : On a ici prouvé que quelque-soit notre manière d'évaluer une expression $e$ bien écrite, on tombera toujours sur le même résultat. Autrement dit, le lambda calcul est fondamentalement "déterministe" par rapport à son implémentation.
 > Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étapes. Dans le cas de $\text{if}(\top,I,\Delta(\Delta)) \to^* I$, si l'on calcule constamment $\Delta(\Delta)$, on n'atteindra jamais la forme normale $I$, alors qu'elle existe et est unique.
 
-12. En déduire que tout graphe des réductions possède un plus petit et un plus grand élément. 
-13. Montrez que si $a=_\beta b$, alors il existe $e\in E$ tel que $a\to^* e$ et $b\to^* e$
+17. En déduire que tout graphe des réductions possède un plus petit et un plus grand élément. 
+18. Montrez que si $a=_\beta b$, alors il existe $e\in E$ tel que $a\to^* e$ et $b\to^* e$
+
 
 # Partie III: Entiers et opérations
 
@@ -138,14 +139,14 @@ Pour tout $n\in\N$, on pose :
 
 On appelle $C_n$ l'*entier de Church* associé à $n$.
 
-6. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to^* C_{n+1}$
-7. Définir une expression $\text{add}$ tel que $\text{add}(C_n,C_m) \to^* C_{n+m}$
-8. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$
+19. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to^* C_{n+1}$
+20. Définir une expression $\text{add}$ tel que $\text{add}(C_n,C_m) \to^* C_{n+m}$
+21. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$ 
 
 
 ## Conditions sur les entiers de Church
-9. Définir $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
-10. Définir $\text{eq}$ une expression tel que :
+22. Définir $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
+23. Définir $\text{eq}$ une expression tel que :
     * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
     * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
 
@@ -157,10 +158,10 @@ $$D = (x,y,z \mapsto z(x,y))$$
 
 qui représente un couple $(x,y)$
 
-11. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$.
-12. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1})$
-13. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
-14. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$ 
+24. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$.
+25. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1})$
+26. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
+27. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$
 
 # Partie IV: Point-fixe et Récursivité
 Le but de cette partie est de pouvoir faire des fonctions récursives.
@@ -169,25 +170,25 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 On dit que $\text{fix}$ est un opérateur point-fixe  si il est sous forme normale et que, pour tout $f\in E$, on a :
 $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
-15. Montrez que $\text{fix}(f)$ n'est pas unitaire.
+28. Montrez que $\text{fix}(f)$ n'est pas unitaire.
 
 On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
-16. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
-17. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
-18. (*) Donnez une expression $\Theta$ point-fixe.
+29. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
+30. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
+31. (*) Donnez une expression $\Theta$ point-fixe.
 
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
 
-19. Montrez que, pour tout $\alpha$ sous forme normale, $\forall x\in E$,
+32. Montrez que, pour tout $\alpha$ sous forme normale, $\forall x\in E$,
 $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
 
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
 
-> Ind. : On pourra utiliser le graphes des réductions de $\text{fix}(F)(x)$
-
+> Indication : On pourra utiliser le graphes des réductions de $\text{fix}(F)(x)$
+> 
 ## Un exemple
 On définit :
 $$
@@ -195,7 +196,7 @@ $$
 $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
-20. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
+33. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 21. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
 
 # Partie V: Types
@@ -272,7 +273,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzU5MTQ0MCwtMTkzOTgxMTE0NSw0Nz
+eyJoaXN0b3J5IjpbMTQ5NjUzNDg1MywtMTkzOTgxMTE0NSw0Nz
 c5OTExNzMsLTEwMTMwODg0MDQsLTYwNDc2NzY2Miw3NTc4NDMy
 MjUsLTQyODM4MTM4MCwtMTI5OTc4NDk0OV19
 -->
