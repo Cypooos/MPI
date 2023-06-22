@@ -169,7 +169,8 @@ On définie $=_\beta$ une relation d'équivalence telle que $e=_\beta e''$ si $x
 
 > Soit $a$,$b$ tels que $a=_\beta b$.
 > Par définition d'une composante connexe, on a $e_1,...,e_m\in E$ tel que pour tout $i\in [\![1;m-1]\!]$, $e_i \to^* e_{i+1}$ ou $e_{i+1} \to^* e_i$.
-> Pour chaque i, on pose $M_i^1,...,M_i^{n_i} \in E$ tel que $M_i^1 \to M_i^2 \to ... \to M_i^{n_i}$
+> Pour chaque i, on pose $M_i^1,...,M_i^{n_i} \in E$ tel que $M_i^1 \to M_i^2 \to ... \to M_i^{n_i}$ ou tel que $M_i^1 \larr ... \larr M_i^{n_i}$. On a donc 
+> Et en posant $n=\Sigma_{i=1}^{m} n_i$, on a $$
  
 10. Montrez que $=_\beta$ est une relation d'équivalence sur E.
 
@@ -352,5 +353,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTg5MTI3OF19
+eyJoaXN0b3J5IjpbMTY0NDM3NTQ3XX0=
 -->
