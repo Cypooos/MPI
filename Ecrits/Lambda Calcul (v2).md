@@ -62,6 +62,12 @@ On pose $e =_\beta e'$ si et seulement si $e$ et $e'$ appartienne à la même co
 
 3. Montrez que $=_\beta$ est une relation d'équivalence.
 
+On pose $\not\zto$ tel que :
+- $x
+- λx.t −→ λx.u si t −→ u ;
+— (t)u −→(v)w si t −→ v et u −→ w ;
+— (λx.t)u −→ v {w/x} si t −→ v et u −→ w.
+
 Soit $e\in E$, on pose $G_e = (S_e,V_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $V_e = \{(x,y)\in S_e^2 : x\to^* y \}$
 
 5. Donnez le graphe des réductions de $I(I(I))$, et de $K (K(I,I))$. Un graphe de réduction est-il toujours fini ?
@@ -229,6 +235,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3ODQzMjI1LC00MjgzODEzODAsLTEyOT
-k3ODQ5NDldfQ==
+eyJoaXN0b3J5IjpbNTUxNjMzNDg2LDc1Nzg0MzIyNSwtNDI4Mz
+gxMzgwLC0xMjk5Nzg0OTQ5XX0=
 -->
