@@ -61,7 +61,10 @@ On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_.
 ## Le théorème de _Church-Rosser_
 
 On dit que une relation $\mathcal{R}$ sur $E$ respecte la propriété du diamant si :
-> Soit $t,u,v\in E$, si $t$
+> Soit $t,u,v\in E$, si $t\mathcal{R}u$ et $t\mathcal{R}v$, alors il existe $\omega\in E$ tel que $u\mathcal{R}\omega$ et $v\mathcal{R}\omega$
+
+Le théorème de Church-Rosser assure que la relation $\to^*$ respecte la propriété du diamant.
+Une d
 
 On pose $\triangleright$ la réduction parallèle tel que :
 - $x\triangleright x$
@@ -237,6 +240,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjI3MDMzMyw3NTc4NDMyMjUsLTQyOD
-M4MTM4MCwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbNTk2NTk1MDM3LDc1Nzg0MzIyNSwtNDI4Mz
+gxMzgwLC0xMjk5Nzg0OTQ5XX0=
 -->
