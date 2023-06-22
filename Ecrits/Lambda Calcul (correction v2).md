@@ -168,7 +168,7 @@ On définie $=_\beta$ une relation d'équivalence telle que $e=_\beta e''$ si $x
 9. Montrez que si $a=_\beta b$, alors il existe $n\in\N$ et $M_1,...,M_n \in E$ tel que $a\lrarr M_1\lrarr...\lrarr M_n\lrarr b$
 
 > Soit $a$,$b$ tels que $a=_\beta b$.
-> Par définition d'une composante connexe, on a $e_1,...,e_n\in E$ tel que , (TODO)
+> Par définition d'une composante connexe, on a $e_1,...,e_m\in E$ tel que pour tout $i\in [\![1;m-1]\!]$, $e_i \to^* e_{i+1}$ ou $e_{i+1} \to^* e_i$, (TODO)
  
 10. Montrez que $=_\beta$ est une relation d'équivalence sur E.
 
@@ -351,5 +351,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTQzNDcxMjNdfQ==
+eyJoaXN0b3J5IjpbLTE5MjI4MDUxODFdfQ==
 -->
