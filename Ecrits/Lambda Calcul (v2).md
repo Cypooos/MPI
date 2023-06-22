@@ -116,7 +116,9 @@ On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 ## Beta équivalence
 
 On définie $\lrarr$ la fermeture symétrique de $\to$ : On a $x\lrarr y$ si et seulement si $x\to y$ ou $y\to x$.
-On définie $=_\beta$ la fermeture transitive de $\lrarr$ : Si on a $x\lr$
+On définie $=_\beta$ la fermeture transitive de $\lrarr$ : Si on a $x\lrarr y$ alors $x\lrarr^* y$ et si on a $x\lrarr^* y$ et $y\lrarr^* z$, alors $x\lrarr^* z$
+
+On pose $G = (S_,V_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $V_e = \{(x,y)\in S_e^2 : x\to^* y \}$
 
 
 ## Le théorème de _Church-Rosser_
@@ -298,6 +300,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2OTMzMzM4LC02MDQ3Njc2NjIsNzU3OD
-QzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
+eyJoaXN0b3J5IjpbLTEwNjgzMDcwNzEsLTYwNDc2NzY2Miw3NT
+c4NDMyMjUsLTQyODM4MTM4MCwtMTI5OTc4NDk0OV19
 -->
