@@ -10,6 +10,11 @@ entier de church
 condition sur entiers de church
 soustraction
 opérateur point fixe
+def récusivité
+expodentiation rapide
+typage
+type => unitaire
+unitaire => typable
 
 
 # Etude du Lambda Calcul
@@ -170,7 +175,7 @@ $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
 
-*J'ai mal écrit ce sujet. Pour prouver cette question, il aurai été judicieux d’utiliser le graphe introduit partie IV*
+> Ind. : On pourra s'inspirer des graphes de réduction de $\text{fix}(F)(x)$
 
 ## Un exemple
 On définit :
@@ -257,6 +262,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MjE3ODkxOSw3NTc4NDMyMjUsLTQyOD
-M4MTM4MCwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbLTEyMTc4NDc2MTAsNzU3ODQzMjI1LC00Mj
+gzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
