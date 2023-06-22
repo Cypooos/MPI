@@ -12,14 +12,14 @@ La partie VI est en cours d'écriture, et portera sur des liens avec les grammai
 Dépendances des différentes parties :
 $$
 \begin{array}{ccccc} 
-& &\text{I} & \\
-&\swarrow& &\searrow \\
-\text{II} &&&& \text{III} \\
-\downarrow&& \swarrow &&\downarrow\\
-\text{IV } &&&&\text{V} \\
+&&\text{I}&\\
+&\swarrow&&\searrow\\
+\text{II}&&&&\text{III}\\
+\downarrow&&\swarrow&&\downarrow\\
+\text{IV}&&&&\text{V}\\
 \end{array}
 $$
-(la partie IV est dépendante de la III) 
+(la partie IV est dépendante de la II et de la III) 
 
 Les questions les plus difficile sont préambules d'une étoile (*).
 On pourra admettre une question pour passer à la suivante.
@@ -267,5 +267,5 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Remarque : Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQ2NDU5ODYsLTYzNDU3MTM3MF19
+eyJoaXN0b3J5IjpbLTEyMDc4Mzk2ODcsLTYzNDU3MTM3MF19
 -->
