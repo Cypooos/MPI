@@ -181,14 +181,13 @@ On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
 
-32. Montrez que, pour tout $\alpha$ sous forme normale, $\forall x\in E$,
-$$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x)\to^*\alpha$$
+32. Montrez que, pour tout $\alpha$ sous forme normale, $\forall e\in E$,
+$$\text{fix}(F)(e) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(e)\to^*\alpha$$
 
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
 
-> Indication : On pourra utiliser le graphes des réductions de $\text{fix}(F)(x)$
-> 
+> Indication : On pourra utiliser le graphes des réductions de $\text{fix}(F)(e)$
 ## Un exemple
 On définit :
 $$
@@ -273,7 +272,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjUzNDg1MywtMTkzOTgxMTE0NSw0Nz
-c5OTExNzMsLTEwMTMwODg0MDQsLTYwNDc2NzY2Miw3NTc4NDMy
-MjUsLTQyODM4MTM4MCwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbLTE3NjM5NzcwMzEsLTE5Mzk4MTExNDUsND
+c3OTkxMTczLC0xMDEzMDg4NDA0LC02MDQ3Njc2NjIsNzU3ODQz
+MjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
