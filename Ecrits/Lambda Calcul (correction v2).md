@@ -80,8 +80,17 @@ On définit les expressions suivantes :
 Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $A_e = \{(x,y)\in S_e^2 : x\to y \}$
 
 3. Donnez le graphe des réductions de $I(I(I))$, et de $K(I,\Delta(\Delta))$.
+
+> TODO
+
 4. Donnez une expression donnant un graphe des réductions infini.
+
+> On pose $\Delta' = (x\mapsto x(x,x))$
+> Et on
+
 5. Montrez que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire. 
+
+> (par contraposé) TODO
 
 ## Booléens
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
@@ -120,6 +129,30 @@ $$\begin{align*}\text{if}(\bot,e,e')&=(b,f_1,f_2\mapsto b(f_1,f_2))(\bot)(e)(e')
 9. Définir une expression $\text{and}$ tel que, soit $b,b'\in B$, on ai:
    * $\text{and}(b,b') \to^* \top$  si $b=b'=\top$
    * $\text{and}(b,b') \to^* \bot$  sinon
+
+
+> On pose $\text{and} = (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)$, et on a :
+$$\begin{align*}
+\text{and}(\top,\top) &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\top,\top) \\
+&\to^2 \text{if}(\top,\text{if}(\top,\top,\bot),\bot) \\
+&\to^* \text{if}(\top,\top,\bot) \\
+&\to^* \top
+\end{align*}$$Si $b=\bot$ :
+$$\begin{align*}
+\text{and}(\bot,b') &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\bot,\top) \\
+&\to^2 \text{if}(\bot,\text{if}(b',\top,\bot),\bot) \\
+&\to^* \bot
+\end{align*}
+$$Sinon si $b'=\bot$ et $b=\top$ (ce qui conclu tout les cas) :
+$$\begin{align*}
+\text{and}(\top,\bot) &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\top,\bot) \\
+&\to^2 \text{if}(\top,\text{if}(\bot,\top,\bot),\bot) \\
+&\to^* \text{if}(\top,\bot,\bot) \\
+&\to^* \bot
+\end{align*}$$
+>  
+> NB: $\text{and} = (x,y\mapsto x(y(\top,\bot),\bot))$ fonctionne aussi. Directement évaluer un booléen par $e,e'$ est ce que fais $\text{if}$, ici on l'a juste directement simplifié.
+
 
 # Partie II: résultats généralistes
 
@@ -310,5 +343,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzI4Mzc4Ml19
+eyJoaXN0b3J5IjpbLTE0NjY1NDk1MjZdfQ==
 -->
