@@ -207,8 +207,13 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > Remarque : On a ici prouvé que quelque-soit notre manière d'évaluer une expression $e$ bien écrite, on tombera toujours sur le même résultat. Autrement dit, le lambda calcul est fondamentalement "déterministe" par rapport à son implémentation.
 > Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étapes. Dans le cas de $\text{if}(\top,I,\Delta(\Delta)) \to^* I$, si l'on calcule constamment $\Delta(\Delta)$, on n'atteindra jamais la forme normale $I$, alors qu'elle existe et est unique.
 
-17. En déduire que tout graphe des réductions de $e$ possède un plus petit et un plus grand élément pour la relation $\to^*$. 
-18. Montrez que si $a=_\beta b$, alors il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
+17. En déduire que tout graphe des réductions de $e$ possède un plus petit et un plus grand élément pour la relation $\to^*$.
+ 
+> Le plus petit élément sera l'unique forme normale, et le plus grand sera $e$.
+> En effet, pour tout $x\in S_e$, on a :
+>  - $e\to^* e$ (c'est donc un plus grand élément)
+
+19. Montrez que si $a=_\beta b$, alors il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
 
 
 # Partie III: Entiers et opérations
@@ -357,5 +362,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NzAzMzZdfQ==
+eyJoaXN0b3J5IjpbMTQ4OTQ3MTQyNV19
 -->
