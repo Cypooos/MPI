@@ -65,7 +65,7 @@ On pose $e =_\beta e'$ si et seulement si $e$ et $e'$ appartienne à la même co
 Soit $e\in E$, on pose $G_e = (S_e,V_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $V_e = \{(x,y)\in S_e^2 : x\to^* y \}$
 
 4. Donnez le graphe des réductions de $I(I(I))$, et de $K (K(I,I))$. Un graphe de réduction est-il toujours fini ?
-5. Montrez que si $a \to y$
+5. Montrez que si $a \to y$ et $b \to y$, alors 
 6. Montrez que si $a =_\beta b$, alors $$
 
 # Partie II: objet de base
@@ -229,5 +229,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjkyNzE1NCwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbLTQyODM4MTM4MCwtMTI5OTc4NDk0OV19
 -->
