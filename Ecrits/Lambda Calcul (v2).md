@@ -7,6 +7,7 @@ La partie II étudie la $\beta$-équivalence et la propriété de Church Rosser.
 La partie III implémente les entiers de church et les opérations classiques dessus.
 La partie IV introduit le principe d'opérateur point-fixe et la récursivité.
 La partie V définie des types aux expressions du lambda calcul.
+La partie VI est en cours d'écriture, et portera sur des liens avec les grammaires.
 
 Dépendances des différentes parties :
 $$
@@ -256,7 +257,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 31. En étendant $\phi$, donnez $\varphi : T\to E$ injective 
 32. Soit $\Gamma\vdash e:t$. Montrez que $e\to^* \phi(t)$ et $e$ unitaire.
-> Je pense avoir fait une erreur quand j'ai écrit la correction, mais je ne sais pas d'où elle viens. Je regarderai avec vos propositions. Ne passez pas trop de temps dessus si elle vous semble impossible.
+> A revoir: Je pense avoir fait une erreur quand j'ai écrit la correction, mais je ne sais pas d'où elle viens. Je regarderai avec vos propositions. Ne passez pas trop de temps dessus si elle vous semble impossible.
 33. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
 34. En déduire que $\Delta$ ne possède pas de typage.
 
@@ -264,7 +265,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 > Remarque : Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
-# Partie VI: Grammaire 
+# Partie VI: Grammaire (en cours d'écriture)
 Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombre fini de règles $\hat{V}\to v_1|...|v_n$
 
 35. Définir une grammaire hors contexte engendrant $E$
@@ -272,7 +273,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjM5NzcwMzEsLTE5Mzk4MTExNDUsND
+eyJoaXN0b3J5IjpbLTE2MTc5OTczMTksLTE5Mzk4MTExNDUsND
 c3OTkxMTczLC0xMDEzMDg4NDA0LC02MDQ3Njc2NjIsNzU3ODQz
 MjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
