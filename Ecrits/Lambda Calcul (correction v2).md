@@ -85,8 +85,9 @@ Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe des réductions de $e$* avec
 
 4. Donnez une expression donnant un graphe des réductions infini.
 
-> On pose $\Delta' = (x\mapsto x(x,x))$
-> Et on
+> On pose $\Delta' = (x\mapsto x(x)(x))$
+> Et on a $\Delta'(\Delta') \to \Delta'(\Delta')(\Delta') \to \Delta'(\Delta')(\Delta')(\Delta')\to ...$
+> Ce qui nous donne le graphe infini. TODO
 
 5. Montrez que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire. 
 
@@ -343,5 +344,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjY1NDk1MjZdfQ==
+eyJoaXN0b3J5IjpbLTcwMDg5MjM0NV19
 -->
