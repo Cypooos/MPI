@@ -54,7 +54,11 @@ On définit les expressions suivantes :
 
 On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_.
 
-##
+## le théorème de _Church-Rosser_
+
+Pour tout $e\in E$, on pose $G_e=(S_e,V_e)$ un graphe avec $S_e=\{x\in\E\}$
+
+3.
 
 # Partie II: objet de base
 
@@ -142,17 +146,6 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 20. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 21. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
 
-# Partie IV : _Church-Rosser_ et l'unicité de la forme normale
-
-Soit $e\in E$ normalisable, on pose $S_e = \{x\in E\ |\ x =_\beta e\}$, et $V = \{(x,y)\in S_e^2\ |\ x\to^* y\}$.
-
-24. Justifiez que $G_e = (S_e,V_e)$ est bien un graphe orienté infini faiblement connexe. La relation $\to^*$ est-elle totale sur $S_e$ ?
-25. Soit $e,e' \in E$ deux expressions unitaire, montrez que soit $S_e=S_{e'}$ ou $S_e \cap S_{e'} = \empty$
-26. 
-27. Montrez la propriété de _Chrcuh-Rosser :_ si $e,e'\in E$ tel que $e=_\beta e'$, alors il existe $e''\in E$ tel que $e\to^* e''$ et $e'\to^* e''$
-28. En déduire que si $G_e$ admet un plus petit élément pour $\to^*$, alors il est unique.
-29. En déduire _l'unicité de la forme normale_: si $e$ est normalisable, alors sa forme normale est unique.
-
 # Partie V: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
 
@@ -228,6 +221,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTI0MTY5MjgsLTEyOTk3ODQ5NDldfQ
+eyJoaXN0b3J5IjpbLTE1MTEzMjM1MzUsLTEyOTk3ODQ5NDldfQ
 ==
 -->
