@@ -9,14 +9,14 @@ La partie II propose une implémentation de la soustraction.
 La partie III s'intéresse à la récursivité, elle est plus théorique.
 La partie IV porte sur des expressions typées (logique).
 >La partie V s'intéresse à la création de grammaires générant des expressions.
-La partie VI à pour but de démontrer le _Théorème de Church-Rosser_ en utilisant des graphes.
+La partie VI 
+
+Les questionà pour but de démontrer le _Théorème de Church-Rosser_ en utilisant des graphes.
 Elles sont en cours d'écriture.
 
 Toutes les parties sont dépendante de la partie 1, mais sont indépendantes entre elles.
 
-Seul la question 31 est tiroir à la question 32.
-
-Les questions plus difficile sont préambulées d'une étoile (*).
+Seul la question 31 est tiroir à la question 32.s plus difficile sont préambulées d'une étoile (*).
 On pourra admettre une question pour passer à la suivante.
 Il n'est pas fait pour être réalisé en 4h ; il sera difficile même en le faisant en 6 heures.
 
@@ -77,6 +77,7 @@ On définit les expressions suivantes :
 > On suppose par l'absurde que $\Delta(\Delta)\to^ne_n$ avec $e_n$ sous forme normale. Alors on a $\Delta(\Delta)\to e_1\to e_2\to ...\to e_n$, et par récurrence, on a $e_i = \Delta(\Delta)$, donc $e_n =\Delta(\Delta)$ est sous forme normale, or $\Delta(\Delta)\to\Delta(\Delta)$, donc il existe une dérivation, c'est absurde.
 
 On s'intéresse maintenant à la création de différents objets de base.
+
 ## Booléens
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
 On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
@@ -170,7 +171,7 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 >  - Hérédité: On a $(\text{add}(C_m))^{n+1}(C_0)=\text{add}(C_m)((\text{add}(C_m))^n(C_0)) \to^*\text{add}(C_m)(C_{n\times m}) \to ^* C_{m+n\times m} = C_{(n+1)\times m}$
 
 On utilisera les opérations $\text{add}$ et $\text{mul}$ pour représenter l'addition et la multiplication entre entiers que l'on représentera sous la forme d'entiers de Church.
-On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m\ ;\ 0\}}$ a été écrite ; l'écrire est l'objet de la partie II.
+On suppose l'opération $\text{sub}$  a été écrite ; l'écrire est l'objet de la partie II.
 
 ## Condition sur les entiers de Church
 9. Définir $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
@@ -194,9 +195,8 @@ On suppose l'opération $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\ma
 > Et pareillement si $m<n$
 > NB: Il ne faut pas oublier le $\text{and}$ ! Il est important, car $\text{sub}(C_n,C_m)$ ne marche que pour des $n>m$
  
-
-# Partie II: Soustraction
-L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.
+ Partie II:## Soustraction
+L'objectif de cette partie est d'implémenter $\text{sub}$ définie plus haut.telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m\ ;\ 0\}}$
 On définit :
 $$D = (x,y,z \mapsto z(x,y))$$
 
@@ -232,7 +232,7 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 ## L'opérateur Point-fixe
 
 On dit que $\text{fix}$ est un opérateur point-fixe si il est sous forme normale et que, pour tout $f\in E$, on a :
-$$\text{fix}(f) \to^* f(\text{fix}(f))$$
+$$\text{fix}(f) \to^*=_\beta f(\text{fix}(f))$$
 
 15. Montrez que $\text{fix}(f)$ n'est pas unitaire.
 
@@ -240,7 +240,7 @@ $$\text{fix}(f) \to^* f(\text{fix}(f))$$
 
 On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
-16. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
+. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
 > On écrit $\text{fix}(f)\to^n e$. Mais on a aussi: $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e) \to^* p$ qui est un calcul normalisant par hypothèse. Par l'unicité de la forme normale de $\text{fix}(f)$, $e=p$, donc on a $f(e) \to^* e$
 
 17. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
@@ -260,7 +260,7 @@ On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument.
 
-19. Montrez que, pour tout $\alpha$ sous forme normale, $\forall x\in E$,
+. Montrez que, pour tout $\alpha$ sous forme normale, $\forall x\in E$,
 $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(x) = F^{n_r-1}(F)(x)\to^*\alpha$$
 
 > TODO: Meilleur rédaction. Pas ouf. Peut-être pas par récurrence...
@@ -269,7 +269,10 @@ $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))
 > > Soit $x\in E$. Supposons que $\text{fix}(F)(x)\to^3 \alpha$. Alors forcément 
 $\text{fix}(F)(x) \to F(\text{fix}(F),x)\to^2 \alpha$. Donc $F = (a,b\mapsto \alpha)$. Donc $F(F)(x)\to\alpha$
 >
-> Heredité (pas très bien rédigé, je n'aurai pas eu tout les points avec ce genre de rédaction):
+> Heredité (pas très bien rédigé, je n'aurai pas eu toute)\to^*\alpha$$
+
+
+Si $\alpha$ est sous forme normale, on appellera les points avec ce genre de rédaction):
 > > Supposons $P_{<n}$, et supposons que $\text{fix}(F)(x) \to^{n} \alpha$.
 > On a alors $\text{fix}(F)(x)\to F(\text{fix}(F),x) \to F[f\larr\text{fix}(F)](x)  \to^* \alpha$
 > >
@@ -290,14 +293,17 @@ F^{n_r}(F)(x) &\to F[f_0\larr F^{n_r -1}(F)][f_1\larr F^{n_r -1}(F)][...][f_k\la
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F$.
 
-## Quelques exemples
+## Quelqueslus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
+
+> Indication : On pourra utiliser le graphes des réductions de $\text{fix}(F)(e)$
+## Un exemples
 On définit :
 $$
 \text{fact\_rec} = (f,x\mapsto \text{if}(\text{eq\_0}(x))(C_1)(\text{mul}(x,f(\text{sub}(x,1)))))
 $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
-20. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
+2033. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 
 > On le montre par récurrence: 
 > Initialisation: On a $\text{fact}(C_0)\to \text{if}((\text{eq\_0}(C_0))(C_1)(\text{mul}(C_0,\text{fact}(\text{sub}(C_0,1)))) \to^*C_1$
@@ -319,7 +325,8 @@ $$
 > On pose $$\text{pow\_rec} = (f,x,y\mapsto \text{if}(\text{eq\_0}(y))(C_1)\Big(\text{if}(\text{is\_even}(y))\\(\text{mul}(f(x,\text{div\_2}(y)),f(x,\text{div\_2}(y))))\\(\text{mul}(x,\text{mul}(f(x,\text{div\_2\_i}(y)),f(x,\text{div\_2\_i}(y)))))\Big))$$
 > On montre que $\text{is\_even}(C_{2n}) \to^* \top$ et $\text{is\_even}(C_{2n+1 }) \to^* \bot$, que
 > $\text{div\_2}(C_{2n})\to^*C_n$ et $\text{div\_2\_i}(C_{2n+1})\to C_n$
-> Ainsi, on a bien le résultat. TODO: le faire  bien.
+> Ainsi, on a bien le résultat. TODO: le faire  bien.])$$
+> Ainsi, on a bien le résultat. TODO: compléter la preuve, montrer que le nombre d'appels récursif est en $O(\log_2(m))$
 
 # Partie IV: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -358,6 +365,8 @@ Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 
 ## Typage de groupe d'expressions
 
+> TODO : Correction à recopier
+
 22. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
 
 Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
@@ -385,7 +394,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 REM: En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même la fonction $\text{pow}$ comme on a pu le voir dans la partie III.
 
-REM: Le compromis pris par ocaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. Ocaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
+REM> Remarque : Le compromis pris par ocOCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. Ocaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
 # Partie V
 Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombre fini de règles $\hat{V}\to v_1|...|v_n$
@@ -395,10 +404,10 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNz
-Y0NjMzNDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5
-LDY5MjE2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mz
-k5NzczLDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2MSwt
-MTA3MzQxNjAxOSw0ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NT
-g1MjMxOCwtNDE1MTU5NzEwXX0=
+eyJoaXN0b3J5IjpbLTY5NjA4MTcxMywtMTU5NTI0NzQwNywxMj
+gyNTc4ODMxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDExMjA2MTcy
+NTAsNzgzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMzE0Mz
+g0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0MTgs
+NzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMzI4Mj
+M4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3MTBdfQ==
 -->
