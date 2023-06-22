@@ -52,10 +52,17 @@ On définit les expressions suivantes :
 1. Donnez un calcul normalisant de $K(K,I)$, de $I(I)$, de $K(I,\Delta)$
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
 
+Soit $e\in E$, on pose $G_e = (S_e,V_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $V_e = \{(x,y)\in S_e^2 : x\to^* y \}$
+
+3. Donnez le graphe des réductions de $I(I(I))$, et de $K (K(I,I))$. Un graphe de réduction est-il toujours fini ?
+4. Montrez que si $a \to y$ et $b \to y$, alors 
+5. Montrez que si $a =_\beta b$, alors $$
+
 On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_.
 
 ## Le théorème de _Church-Rosser_
 
+Pour toute relation $R$ et , on pose $G_R = (S_R$
 
 On pose $G=(E,V)$ un graphe infini avec $V=\{(x,y)\in E^2 : x\to^* y \}$.
 On pose $e =_\beta e'$ si et seulement si $e$ et $e'$ appartienne à la même composante faiblement connexe dans G_e. 
@@ -68,11 +75,6 @@ On pose $\triangleright$ la réductione parallèle tel que :
 - $$
 — (λx.t)u −→ v {w/x} si t −→ v et u −→ w.
 
-Soit $e\in E$, on pose $G_e = (S_e,V_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $V_e = \{(x,y)\in S_e^2 : x\to^* y \}$
-
-5. Donnez le graphe des réductions de $I(I(I))$, et de $K (K(I,I))$. Un graphe de réduction est-il toujours fini ?
-6. Montrez que si $a \to y$ et $b \to y$, alors 
-7. Montrez que si $a =_\beta b$, alors $$
 
 # Partie II: objet de base
 
@@ -235,6 +237,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQzNzc3MzMsNzU3ODQzMjI1LC00Mj
-gzODEzODAsLTEyOTk3ODQ5NDldfQ==
+eyJoaXN0b3J5IjpbLTMzMjY4NzEyMiw3NTc4NDMyMjUsLTQyOD
+M4MTM4MCwtMTI5OTc4NDk0OV19
 -->
