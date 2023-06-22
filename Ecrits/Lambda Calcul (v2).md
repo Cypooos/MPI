@@ -57,11 +57,9 @@ On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_.
 ## le théorème de _Church-Rosser_
 
 
+Pour tout $e\in E$, on pose $G_e=(E,V_e)$ un graphe avec $V_e=\{(x,y)\in E^2 : x\to^* y \}$
+On pose $e =_\beta e'$ si et seulement si $e$ et $e'$ appartienne à la même composante faiblement connexe dans G_e. 
 3. 
-
-Pour tout $e\in E$, on pose $G_e=(E,V_e)$ un graphe avec $V_e=\{(x,y)\in E^2 \ :\  \}$
-
-3.
 
 # Partie II: objet de base
 
@@ -224,5 +222,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4ODgxNTksLTEyOTk3ODQ5NDldfQ==
+eyJoaXN0b3J5IjpbLTU3MTQ2MDk4MiwtMTI5OTc4NDk0OV19
 -->
