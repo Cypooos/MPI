@@ -87,7 +87,7 @@ Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe des réductions de $e$* avec
 
 > On pose $\Delta' = (x\mapsto x(x)(x))$
 > Et on a $\Delta'(\Delta') \to \Delta'(\Delta')(\Delta') \to \Delta'(\Delta')(\Delta')(\Delta')\to ...$
-> Ce qui nous donne le graphe infini. TODO
+> Ce qui nous donne le graphe infini suivant : TODO
 
 5. Montrez que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire. 
 
@@ -166,7 +166,14 @@ On pose $G = (E,A)$ un graphe orienté infini avec $A = \{(x,y)\in E^2 : x\to^* 
 On définie $=_\beta$ une relation d'équivalence telle que $e=_\beta e''$ si $x$ et $y$ appartiennent à la même composante faiblement connexe dans $G$
 
 9. Montrez que si $a=_\beta b$, alors il existe $n\in\N$ et $M_1,...,M_n \in E$ tel que $a\lrarr M_1\lrarr...\lrarr M_n\lrarr b$
-10. Montrez que $=_\beta$ est une relation d'équivalence sur E. 
+
+> Soit $a$,$b$ tels que $a=_\beta b$.
+> Par définition d'une composante connexe, on a $e_1,...,e_n\in E$ tel que , (TODO)
+ 
+10. Montrez que $=_\beta$ est une relation d'équivalence sur E.
+
+> 
+
 ## Le théorème de _Church-Rosser_
 
 On dit que une relation $\mathcal{R}$ sur $E$ respecte la propriété du diamant si :
@@ -344,5 +351,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDg5MjM0NV19
+eyJoaXN0b3J5IjpbLTE1MTQzNDcxMjNdfQ==
 -->
