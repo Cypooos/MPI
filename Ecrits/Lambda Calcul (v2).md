@@ -72,16 +72,15 @@ Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe des réductions de $e$* avec
 
 3. Donnez le graphe des réductions de $I(I(I))$, et de $K(I,\Delta(\Delta))$.
 4. (*) Donnez une expression donnant un graphe des réductions infini.
-5. Montrez que si le graph
-6. Donnez une condition nécessaire et suffisante sur $e$ pour que $\to^*$ soit une relation d'ordre totale sur $S_e$
+5. Montrez que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire. 
 
 ## Booléens
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
 On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 
-4. Montrez que, soit $e,e'\in E$, on a $\text{if}(\top,e,e') \to^* e$ et $\text{if}(\bot,e,e') \to^* e'$ 
-5. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
-6. Définir une expression $\text{and}$ tel que, soit $b,b'\in B$, on ai:
+6. Montrez que, soit $e,e'\in E$, on a $\text{if}(\top,e,e') \to^* e$ et $\text{if}(\bot,e,e') \to^* e'$ 
+7. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
+8. Définir une expression $\text{and}$ tel que, soit $b,b'\in B$, on ai:
    * $\text{and}(b,b') \to^* \top$  si $b=b'=\top$
    * $\text{and}(b,b') \to^* \bot$  sinon
 
@@ -95,8 +94,8 @@ On pose $\lrarr$ la fermeture symétrique de $\to$ : on a $x\lrarr y$ si et seul
 On pose $G = (E,A)$ un graphe orienté infini avec $A = \{(x,y)\in E^2 : x\to^* y \}$
 On définie $=_\beta$ une relation d'équivalence telle que $e=_\beta e''$ si $x$ et $y$ appartiennent à la même composante faiblement connexe dans $G$
 
-7. Montrez que si $a=_\beta b$, alors il existe $n\in\N$ et $M_1,...,M_n \in E$ tel que $a\lrarr M_1\lrarr...\lrarr M_n\lrarr b$
-8. Montrez que $=_\beta$ est une relation d'équivalence sur E.
+9. Montrez que si $a=_\beta b$, alors il existe $n\in\N$ et $M_1,...,M_n \in E$ tel que $a\lrarr M_1\lrarr...\lrarr M_n\lrarr b$
+10. Montrez que $=_\beta$ est une relation d'équivalence sur E. 
 ## Le théorème de _Church-Rosser_
 
 On dit que une relation $\mathcal{R}$ sur $E$ respecte la propriété du diamant si :
@@ -273,7 +272,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDY2MTI4NzgsLTE5Mzk4MTExNDUsND
+eyJoaXN0b3J5IjpbLTE0MjU3MDczNjYsLTE5Mzk4MTExNDUsND
 c3OTkxMTczLC0xMDEzMDg4NDA0LC02MDQ3Njc2NjIsNzU3ODQz
 MjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
