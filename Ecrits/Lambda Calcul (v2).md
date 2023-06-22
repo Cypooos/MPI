@@ -54,12 +54,15 @@ On définit les expressions suivantes :
 
 On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_.
 
-## le théorème de _Church-Rosser_
+## Le théorème de _Church-Rosser_
 
 
-Pour tout $e\in E$, on pose $G_e=(E,V_e)$ un graphe avec $V_e=\{(x,y)\in E^2 : x\to^* y \}$
+On pose $G=(E,V)$ un graphe infini avec $V_e=\{(x,y)\in E^2 : x\to^* y \}$.
+On pose $G_e = ($
 On pose $e =_\beta e'$ si et seulement si $e$ et $e'$ appartienne à la même composante faiblement connexe dans G_e. 
-3. 
+
+3. Montrez que $=_\beta$ est une relation d'équivalence
+4. 
 
 # Partie II: objet de base
 
@@ -222,5 +225,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTQ2MDk4MiwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbMTcyMzYxOTg0MSwtMTI5OTc4NDk0OV19
 -->
