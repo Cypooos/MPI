@@ -124,8 +124,8 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > Remarque : On a ici prouvé que quelque-soit notre manière d'évaluer une expression $e$ bien écrite, on tombera toujours sur le même résultat. Autrement dit, le lambda calcul est fondamentalement "déterministe" par rapport à son implémentation.
 > Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étapes. Dans le cas de $\text{if}(\top,I,\Delta(\Delta)) \to^* I$, si l'on calcule constamment $\Delta(\Delta)$, on n'atteindra jamais la forme normale $I$, alors qu'elle existe et est unique.
 
-17. En déduire que tout graphe des réductions possède un plus petit et un plus grand élément. 
-18. Montrez que si $a=_\beta b$, alors il existe $e\in E$ tel que $a\to^* e$ et $b\to^* e$
+17. En déduire que tout graphe des réductions de $e$ possède un plus petit et un plus grand élément pour la relation $\to^*$. 
+18. Montrez que si $a=_\beta b$, alors il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
 
 
 # Partie III: Entiers et opérations
@@ -273,7 +273,7 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTc5OTczMTksLTE5Mzk4MTExNDUsND
-c3OTkxMTczLC0xMDEzMDg4NDA0LC02MDQ3Njc2NjIsNzU3ODQz
-MjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
+eyJoaXN0b3J5IjpbLTYzNDU3MTM3MCwtMTkzOTgxMTE0NSw0Nz
+c5OTExNzMsLTEwMTMwODg0MDQsLTYwNDc2NzY2Miw3NTc4NDMy
+MjUsLTQyODM4MTM4MCwtMTI5OTc4NDk0OV19
 -->
