@@ -169,8 +169,8 @@ On définie $=_\beta$ une relation d'équivalence telle que $e=_\beta e''$ si $x
 
 > Soit $a$,$b$ tels que $a=_\beta b$.
 > Par définition d'une composante connexe, on a $(a=e_1,e_2,...,e_m=b)\in E^m$ tel que pour tout $i\in [\![1;m-1]\!]$, $e_i \to^* e_{i+1}$ ou $e_{i+1} \to^* e_i$.
-> Pour chaque i, on pose $M_i^1,...,M_i^{n_i} \in E$ tel que $M_i^1 \to M_i^2 \to ... \to M_i^{n_i}$ ou tel que $M_i^1 \larr ... \larr M_i^{n_i}$. On a donc $M_i^1 \lrarr ... \lrarr M_i^{n_i}$
-> Et en posant $n=\Sigma_{i=1}^{m} n_i$, on a $a = M_1^1 \lrarr M_1^2 \lrarr ... \lrarr M_1^{n_1} $
+> Pour chaque $i$, on pose $(e_i=M_i^1,...,M_i^{n_i}=e_{i+1}) \in E^{n_i}$ tel que $M_i^1 \to M_i^2 \to ... \to M_i^{n_i}$ ou tel que $M_i^1 \larr ... \larr M_i^{n_i}$. On a donc $M_i^1 \lrarr ... \lrarr M_i^{n_i}$
+> Et en posant $n=\Sigma_{i=1}^{m} n_i$, on a $a = M_1^1 \lrarr M_1^2 \lrarr ... \lrarr M_1^{n_1} = M_2^1 \lrarr...\lra$
  
 10. Montrez que $=_\beta$ est une relation d'équivalence sur E.
 
@@ -353,5 +353,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5MTczMDY2XX0=
+eyJoaXN0b3J5IjpbLTExNTgxMDg0OTFdfQ==
 -->
