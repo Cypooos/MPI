@@ -2,16 +2,22 @@
 PLAN :
 
 Prélim (A-1)
-Chruch-rosser & unicité de la forme normale
 beta équiv
 G reduc
+
 booléens
 church
 cond church
+
+Chruch-rosser & unicité de la forme normale
+
 soustraction
+
+
 opérateur point fixe (beta équiv)
 def récusivité ( Greduc )
 expodentiation rapide (curch, cond church)
+
 typage (church)
 type => unitaire
 unitaire => typable
@@ -262,6 +268,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxOTAxNTc0LDc1Nzg0MzIyNSwtNDI4Mz
+eyJoaXN0b3J5IjpbMTc0NDcwODIwLDc1Nzg0MzIyNSwtNDI4Mz
 gxMzgwLC0xMjk5Nzg0OTQ5XX0=
 -->
