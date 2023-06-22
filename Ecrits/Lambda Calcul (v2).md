@@ -2,13 +2,14 @@
 PLAN :
 
 Prélim (A-1)
+G reduc
 
 beta équiv
-G reduc
 Chruch-rosser & unicité de la forme normale
 
 booléens
 church
+
 cond church
 soustraction
 
@@ -21,11 +22,9 @@ type => unitaire
 unitaire => typable
 
 $$
-\begin{array}{ccccc} 
-&& \text{High-Tier} && \\
-& \swarrow & \downarrow & \searrow & \\
-\text{Connector} && \text{Child} && \text{Connector} \\
-\downarrow &&&& \downarrow \\
+\begin{array}{ccc} 
+& \text{Partie I: Préliminaire} & \\
+& & & \\
 \text{Child} &&&& \text{Child}
 \end{array}
 $$
@@ -276,6 +275,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTcwNDE3MjksLTYwNDc2NzY2Miw3NT
-c4NDMyMjUsLTQyODM4MTM4MCwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbMTQxNzAzODQyNSwtNjA0NzY3NjYyLDc1Nz
+g0MzIyNSwtNDI4MzgxMzgwLC0xMjk5Nzg0OTQ5XX0=
 -->
