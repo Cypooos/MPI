@@ -363,7 +363,29 @@ $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 33. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
-21. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
+
+> On le montre par récurrence: 
+> Initialisation: On a $\text{fact}(C_0)\to \text{if}((\text{eq\_0}(C_0))(C_1)(\text{mul}(C_0,\text{fact}(\text{sub}(C_0,1)))) \to^*C_1$
+> Heredité : On suppose que $\text{fact}(C_n) \to^* C_{n!}$. On a alors
+>  $$
+\begin{align*}
+\text{fact}(C_{n+1}) &\to^*  \text{if\_0}(C_{n+1})(C_1)(\text{mul}(C_{n+1},\text{fact}(\text{sub}(C_{n+1},1)))) \\
+&\to^* \text{mul}(C_{n+1},\text{fact}(\text{sub}(C_{n+1},1))) \\
+&\to^* \text{mul}(C_{n+1},\text{fact}(C_{n})) \\
+&\to^* \text{mul}(C_{n+1},C_{n!}) \\
+&\to^* C_{(n+1)!} \\
+\end{align*}
+$$
+
+34. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
+
+> On pose $\text{is\_even} = (C\mapsto C(\text{not},\top))$
+> On pose $\text{div\_2} = (C\mapsto C(x\mapsto \text{if\_eq}(\text{mul}(x,C_2),C)(x)(\text{sub}(x,1) )(C))$
+> On pose $\text{div\_2\_i} = (C\mapsto C(x\mapsto \text{if\_eq}(\text{mul}(x,C_2),C)(x)(\text{sub}(x,1) )(\text{sub}(C,1)))$ (qui fait la division entière d'un nombre impaire)
+> On pose $$\text{pow\_rec} = (f,x,y\mapsto \text{if}(\text{eq\_0}(y))(C_1)\Big(\text{if}(\text{is\_even}(y))\\(\text{mul}(f(x,\text{div\_2}(y)),f(x,\text{div\_2}(y))))\\(\text{mul}(x,\text{mul}(f(x,\text{div\_2\_i}(y)),f(x,\text{div\_2\_i}(y)))))\Big))$$
+> On montre que $\text{is\_even}(C_{2n}) \to^* \top$ et $\text{is\_even}(C_{2n+1 }) \to^* \bot$, que
+> $\text{div\_2}(C_{2n})\to^*C_n$ et $\text{div\_2\_i}(C_{2n+1})\to C_n$
+> Ainsi, on a bien le résultat. TODO: le faire  bien.
 
 # Partie V: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -440,5 +462,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTQxODUzXX0=
+eyJoaXN0b3J5IjpbMjA1NDY0MjM0OV19
 -->
