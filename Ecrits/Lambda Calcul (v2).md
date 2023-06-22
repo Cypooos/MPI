@@ -62,10 +62,10 @@ On pose $e =_\beta e'$ si et seulement si $e$ et $e'$ appartienne à la même co
 
 3. Montrez que $=_\beta$ est une relation d'équivalence.
 
-On pose $\triangleright$ tel que :
+On pose $\triangleright$ la réductione parallèle tel que :
 - $x\triangleright x$
-- $x\mapsto t \triangleright u\mapsto v$ ;
-— (t)u −→(v)w si t −→ v et u −→ w ;
+- $x\mapsto t \triangleright x'\mapsto t'$ si $x \triangleright x'$ et $t \triangleright t'$
+- $$
 — (λx.t)u −→ v {w/x} si t −→ v et u −→ w.
 
 Soit $e\in E$, on pose $G_e = (S_e,V_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $V_e = \{(x,y)\in S_e^2 : x\to^* y \}$
@@ -235,6 +235,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzAyMTYwNyw3NTc4NDMyMjUsLTQyOD
-M4MTM4MCwtMTI5OTc4NDk0OV19
+eyJoaXN0b3J5IjpbLTEyMDQzNzc3MzMsNzU3ODQzMjI1LC00Mj
+gzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
