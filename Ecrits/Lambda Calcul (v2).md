@@ -98,7 +98,7 @@ Soit $e\in E$, on pose $G_e = (S_e,V_e)$ le *graphe des réductions de $e$* avec
 
 3. Donnez le graphe des réductions de $I(I(I))$, et de $K (K(I,I))$.
 4. Donnez une expression donnant un graphe des réductions infini.
-5. Donnez une CNS sur $e$ pour que $\to^*$ soit une relation d'ordre totale sur $S_e$
+5. Donnez une condition nécessaire et suffisante sur $e$ pour que $\to^*$ soit une relation d'ordre totale sur $S_e$
 
 ## Booléens
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
@@ -115,7 +115,7 @@ On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 
 ## Beta équivalence
 
-
+On définie la relation $=_\beta$ la relation de béta équivalence tel que $$
 
 On s'intéresse maintenant à démontrer le théorème de _Church-Rosser_.
 
@@ -296,6 +296,6 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTQ5NjU3MiwtNjA0NzY3NjYyLDc1Nz
-g0MzIyNSwtNDI4MzgxMzgwLC0xMjk5Nzg0OTQ5XX0=
+eyJoaXN0b3J5IjpbNzk2NjUxMDA2LC02MDQ3Njc2NjIsNzU3OD
+QzMjI1LC00MjgzODEzODAsLTEyOTk3ODQ5NDldfQ==
 -->
