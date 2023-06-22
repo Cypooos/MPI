@@ -296,8 +296,22 @@ qui représente un couple $(x,y)$
 > On a alors : $A(D(e,C_n))\to D\Big(D(e,C_n)(\bot),\text{succ}(D(e,C_n)(\bot))\Big)\to^* D\Big(C_n,\text{succ}(C_n)\Big)\to^* D(C_n,C_{n+1})$
 
 26. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
-28. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$
 
+> On pose $\text{decr} = (C\mapsto C(A,D(C_0,C_0))(\top))$
+> L'idée que comme A passe de (x,n) à (n,n+1), en répétant n fois A, on a une fonction qui à (0,0) associe (n-1,n). En récupérant la première composante, on pourra avoir n-1
+> 
+> On a ainsi $\text{decr}(C_n) \to C_n(A,D(C_0,C_0))(\top)\to^2 A^n(D(C_0,C_0))(\top)$
+> 
+> Et on montre que $A^n(D(C_0,C_0)) \to^* D(C_{\max(n-1;0)},C_n)$ par récurrence (pour n>0) :
+> - initialisation : pour n=0, on a $D(C_0,C_0) =  D(C_{\max(n-1;0)},C_n)$
+> - hérédité : on a $A^{n+1}(D(C_0,C_0)) \to^* A(A^n(D(C_0,C_0))) \to^*A(D(C_{\max(n-1;0)},C_n))\to^* D(C_{\max(n;0)},C_{n+1})$
+> 
+> Donc $\text{decr}(C_n) \to^* D(C_{\max(n-1;0)},C_n)(\top)\to^*C_{\max(n-1;0)}$
+
+27. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$
+
+> On pose $\text{sub} = (C,C'\mapsto C(\text{decr},C'))$
+> Et on a bien $\text{sub}(C_n,C_m) \to^2C_n(\text{decr},C_m)\to^2\text{decr}^n(C_m)\to^*C_{\max\{n-m;0\}}$
 # Partie IV: Point-fixe et Récursivité
 Le but de cette partie est de pouvoir faire des fonctions récursives.
 ## L'opérateur Point-fixe
@@ -408,5 +422,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTcxMDA2OV19
+eyJoaXN0b3J5IjpbLTc2NTY3NDUxNl19
 -->
