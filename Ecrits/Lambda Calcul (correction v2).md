@@ -212,10 +212,10 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > Le plus petit élément sera l'unique forme normale que l'on note $\alpha$, et le plus grand sera $e$.
 > En effet, pour tout $x\in S_e$, on a :
 >  - $e\to^* x$ par définition de $S_e$ (c'est donc un plus grand élément)
->  - on applique la propriété du diamant sur $e\to^* x$ et $x$, et on a $e \to^* \alpha \to^* \omega\to^* \alpha$par unicité de la forme normale en partant de $x$ (on 
+>  - $x\to^* \alpha$ par l'unicité de la forme normale et la propriété du diamant appliquée à $e\to^* e$ et $e\to^* x$ (TODO bien)
 
 19. Montrez que si $a=_\beta b$, alors il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
-
+> Cela est immédiat à part
 
 # Partie III: Entiers et opérations
 
@@ -363,5 +363,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzQwODYzOV19
+eyJoaXN0b3J5IjpbNjgxMTY2MTgzXX0=
 -->
