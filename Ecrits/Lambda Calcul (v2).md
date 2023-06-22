@@ -175,7 +175,7 @@ On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
 16. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
 17. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
-18. (*) Donnez une expression $\Theta$ point-f
+18. (*) Donnez une expression $\Theta$ point-fixe.
 
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
@@ -186,7 +186,7 @@ $$\text{fix}(F)(x) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
 
-> Ind. : On pourra s'inspirer des graphes de réduction de $\text{fix}(F)(x)$
+> Ind. : On pourra utiliser le graphes des réductions de $\text{fix}(F)(x)$
 
 ## Un exemple
 On définit :
@@ -260,19 +260,18 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 33. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
 34. En déduire que $\Delta$ ne possède pas de typage.
 
-REM: En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même la fonction $\text{pow}$ comme on a pu le voir dans la partie III.
+> Remarque : En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même la fonction $\text{pow}$ comme on a pu le voir dans la partie III.
 
-REM: Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
+> Remarque : Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
-# Partie V
+# Partie VI: Grammaire 
 Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombre fini de règles $\hat{V}\to v_1|...|v_n$
 
 35. Définir une grammaire hors contexte engendrant $E$
 36. Définir une grammaire hors contexte engendrant les expressions sous forme normale. Expliquez votre raisonnement
-
-> To continue. Cette partie sera peut-être dépendante des 2 dernières.
+> To continue
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMDM4NjA1OSwtNjA0NzY3NjYyLDc1Nz
-g0MzIyNSwtNDI4MzgxMzgwLC0xMjk5Nzg0OTQ5XX0=
+eyJoaXN0b3J5IjpbLTEwMTMwODg0MDQsLTYwNDc2NzY2Miw3NT
+c4NDMyMjUsLTQyODM4MTM4MCwtMTI5OTc4NDk0OV19
 -->
