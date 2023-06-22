@@ -209,9 +209,10 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 17. En déduire que tout graphe des réductions de $e$ possède un plus petit et un plus grand élément pour la relation $\to^*$.
  
-> Le plus petit élément sera l'unique forme normale, et le plus grand sera $e$.
+> Le plus petit élément sera l'unique forme normale que l'on note $\alpha$, et le plus grand sera $e$.
 > En effet, pour tout $x\in S_e$, on a :
->  - $e\to^* e$ (c'est donc un plus grand élément)
+>  - $e\to^* x$ par définition de $S_e$ (c'est donc un plus grand élément)
+>  - $x\to^* \alpha$ car sinon, 
 
 19. Montrez que si $a=_\beta b$, alors il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
 
@@ -362,5 +363,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTQ3MTQyNV19
+eyJoaXN0b3J5IjpbMTg0MjQzOTQ1MF19
 -->
