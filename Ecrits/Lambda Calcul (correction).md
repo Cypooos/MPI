@@ -188,8 +188,8 @@ On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ 
 
 10. Montrez que $=_\beta$ est une relation d'équivalence sur E. 
 
-> On vérifie les différentes propriétés, qui découle immédiatement du chemin dans G ( "$a,b$ sont dans les même composante faiblement connexe :
->  - Réflexivité : si $a=_\beta b$, alors on a on a 
+> On vérifie les différentes propriétés, qui découle immédiatement du chemin dans G ( "$a,b$ sont dans les même composante faiblement connexe" est bien une relation d'équivalence) :
+>  - Réflexivité : si $a=_\beta b$, alors on a un chemin $M_{i\le n}$ de $a$ vers $b$. En prenant le chemin $M_{n-i+1}$
 >  - Symétrie
 
 ## Le théorème de _Church-Rosser_
@@ -362,11 +362,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQ2MzM0ODMsLTU4NzUyOTkwMSwtNj
-k2MDgxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYz
-MzQ1MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3ODM1NzE4OSw2OT
-IxNjM0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3
-Myw3NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNz
-M0MTYwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIz
-MThdfQ==
+eyJoaXN0b3J5IjpbNjA5NTI5MjU4LC01ODc1Mjk5MDEsLTY5Nj
+A4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0
+NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNzgzNTcxODksNjkyMT
+YzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMs
+NzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczND
+E2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4
+XX0=
 -->
