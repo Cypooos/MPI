@@ -333,7 +333,7 @@ qui représente un couple $(x,y)$
 
 
 > On pose $\text{decr} = (C\mapsto C(A,D(C_0,C_0))(\top))$
-> L'idée que comme A passe de (x,n) à (n,n+1), en répétant n fois A, on a une fonction qui à (0,0) associe (n-1,n). En récupérant la première composante, on pourra avoir n-1
+> L'idée que comme A passe de (x,n) à (n,n+1), en répétant n fois A, on a une fonction qui à (0,0) associe (n-1,n). En récupérant la première composante, on pourra avoir n-1.
 > 
 > On a ainsi $\text{decr}(C_n) \to C_n(A,D(C_0,C_0))(\top)\to^2 A^n(D(C_0,C_0))(\top)$
 > 
@@ -354,6 +354,10 @@ On dit que $\text{fix}$ est un opérateur point-fixe  si il est sous forme norma
 $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
 28. Montrez que $\text{fix}(f)$ n'est pas unitaire.
+
+> TODO : refaire avec la nouvelle définition :/
+> On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées). On a alors $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+1$, absurde.
+
 
 On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
@@ -449,7 +453,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODg5OTQyOSwxNTc3MTI5MjkwLC01OD
+eyJoaXN0b3J5IjpbMTIxMjU1MjU0MywxNTc3MTI5MjkwLC01OD
 c1Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4
 ODMxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNz
 gzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2
