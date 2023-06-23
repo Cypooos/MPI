@@ -182,13 +182,14 @@ On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ 
 > Or si $e_i\to^* e_{i+1}$ alors il existe $e_i=e_i^{1},...,e_i^{n_i}=e_{i+1}$ tel que $e_i^{1}\to ... \to e_i^{n_i}$, donc tel que $e_i^{1}\lrarr ... \lrarr e_i^{n_i}$
 > Réciproquement, si $e_{i+1}\to^* e_{i}$, on a bien les $e_i^{k}$ qui existe et vérifient la même propriété.
 > Finalement, on a $a=e_1^{1}\lrarr e_1^{2}\lrarr ... \lrarr e_1^{n_1}\lrarr e_2^{1} \lrarr ... \lrarr e_n^{n_n}=b$
-> La réciproque est beaucoup plus simple : Le chemin nous ai donné par les $M_i$. En effet, pour $i\in [\![1;n-1]\!]$, on a $M_i \lrarr M_{i+1}$ donc soit $M_i \to M_{i+1}$ soit $M_{i+1} \to M_i$, et donc soit $M_i \to^* M_{i+1}$ soit $M_{i+1} \to^* M_i$. 
+> La réciproque est beaucoup plus simple : Le chemin nous ai donné par les $M_i$. En effet, pour $i\in [\![1;n-1]\!]$, on a $M_i \lrarr M_{i+1}$ donc soit $M_i \to M_{i+1}$ soit $M_{i+1} \to M_i$, et donc soit $M_i \to^* M_{i+1}$ soit $M_{i+1} \to^* M_i$.
+> Donc $M_i$ et $M_{i+1}$ sont bien relié faiblement dans $G$
 
 
 10. Montrez que $=_\beta$ est une relation d'équivalence sur E. 
 
-> On vérifie les différentes propriétés :
->  - Réflexivité : si $a=_\beta b$, alors on a 
+> On vérifie les différentes propriétés, qui découle immédiatement du chemin dans G ( "$a,b$ sont dans les même composante faiblement connexe :
+>  - Réflexivité : si $a=_\beta b$, alors on a on a 
 >  - Symétrie
 
 ## Le théorème de _Church-Rosser_
@@ -361,11 +362,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTQzNjYwMiwtNTg3NTI5OTAxLC02OT
-YwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMz
-NDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5Mj
-E2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5Nzcz
-LDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3Mz
-QxNjAxOSw0ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMx
-OF19
+eyJoaXN0b3J5IjpbLTEzODQ2MzM0ODMsLTU4NzUyOTkwMSwtNj
+k2MDgxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYz
+MzQ1MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3ODM1NzE4OSw2OT
+IxNjM0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3
+Myw3NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNz
+M0MTYwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIz
+MThdfQ==
 -->
