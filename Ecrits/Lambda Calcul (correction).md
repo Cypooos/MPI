@@ -299,6 +299,18 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
     * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
     * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
 
+> On pose $\text{eq} = (C,C'\mapsto \text{and}\Big(\text{eq\_0}(\text{sub}(C,C')),\text{eq\_0}(\text{sub}(C',C))\Big))$
+> Soit $n\in\N$, on a
+> $$\begin{align*}\text{eq}(C_n,C_n)&\to^* \text{and}\Big(\text{eq\_0}(\text{sub}(C_n,C_n)),\text{eq\_0}(\text{sub}(C_n,C_n))\Big)
+\\&\to^*\text{and}\Big(\text{eq\_0}(C_0),\text{eq\_0}(C_0)\Big)
+\\&\to^* \text{and}(\top,\top) \\&\to \top\end{align*}$$
+> Soit $n<m$, on a :
+> $$\begin{align*}\text{eq}(C_n,C_m)&\to^* \text{and}\Big(\text{eq\_0}(\text{sub}(C_n,C_m)),\text{eq\_0}(\text{sub}(C_n,C_m))\Big)
+\\&\to^*\text{and}\Big(\text{eq\_0}(C_0),\text{eq\_0}(C_{m-n})\Big)
+\\&\to^* \text{and}(\top,\bot) \\&\to \bot\end{align*}$$
+> Et pareillement si $m<n$
+> NB: Il ne faut pas oublier le $\text{and}$ ! Il est important, car $\text{sub}(C_n,C_m)$ ne marche que pour des $n>m$
+
 ## Soustraction
 
 L'objectif de cette partie est d'implémenter $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m\ ;\ 0\}}$
@@ -308,8 +320,30 @@ $$D = (x,y,z \mapsto z(x,y))$$
 qui représente un couple $(x,y)$
 
 24. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$.
+
+> On a : $D(e,e')(\top)\to \top(e,e')= (x,y\mapsto x)(e,e') \to^2 e$
+> Et aussi : $D(e,e')(\bot)\to \bot(e,e')= (x,y\mapsto y)(e,e') \to^2 e'$
+
 25. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1})$
+
+> On pose $A = (d\mapsto D\Big(d(\bot),\text{succ}(d(\bot))\Big))$
+> On a alors : $A(D(e,C_n))\to D\Big(D(e,C_n)(\bot),\text{succ}(D(e,C_n)(\bot))\Big)\to^* D\Big(C_n,\text{succ}(C_n)\Big)\to^* D(C_n,C_{n+1})$
+
 26. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
+
+
+> On pose $\text{decr} = (C\mapsto C(A,D(C_0,C_0))(\top))$
+> L'idée que comme A passe de (x,n) à (n,n+1), en répétant n fois A, on a une fonction qui à (0,0) associe (n-1,n). En récupérant la première composante, on pourra avoir n-1
+> 
+> On a ainsi $\text{decr}(C_n) \to C_n(A,D(C_0,C_0))(\top)\to^2 A^n(D(C_0,C_0))(\top)$
+> 
+> Et on montre que $A^n(D(C_0,C_0)) \to^* D(C_{\max(n-1;0)},C_n)$ par récurrence (pour n>0) :
+> - initialisation : pour n=0, on a $D(C_0,C_0) =  D(C_{\max(n-1;0)},C_n)$
+> - hérédité : on a $A^{n+1}(D(C_0,C_0)) \to^* A(A^n(D(C_0,C_0))) \to^*A(D(C_{\max(n-1;0)},C_n))\to^* D(C_{\max(n;0)},C_{n+1})$
+> 
+> Donc $\text{decr}(C_n) \to^* D(C_{\max(n-1;0)},C_n)(\top)\to^*C_{\max(n-1;0)}$
+
+
 27. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$
 
 # Partie IV: Point-fixe et Récursivité
@@ -415,11 +449,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzcxNjU4ODgsMTU3NzEyOTI5MCwtNT
-g3NTI5OTAxLC02OTYwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3
-ODgzMSwtNzY0NjMzNDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLD
-c4MzU3MTg5LDY5MjE2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYx
-NiwyMDM5Mzk5NzczLDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMj
-A5NTI2MSwtMTA3MzQxNjAxOSw0ODk5NTkzNzksMTMyODIzODQ3
-MF19
+eyJoaXN0b3J5IjpbMTM2ODg5OTQyOSwxNTc3MTI5MjkwLC01OD
+c1Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4
+ODMxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNz
+gzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2
+LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMD
+k1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcw
+XX0=
 -->
