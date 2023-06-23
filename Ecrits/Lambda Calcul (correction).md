@@ -92,12 +92,15 @@ I(I(I)) @>>> I(I) @>>> I\\
 > On a le graphe des réductions de $K(I,\Delta(\Delta))$ :
 > $$
 \begin{CD}
-K(I,\Delta(\Delta)) @>>> (x\ \mapsto\ I\ )(\Delta(\Delta)) @>>> I\\
+\overbrace{K(I,\Delta(\Delta))}^{\text{Etat bouclant}} @>>> \overbrace{(x\ \mapsto\ I\ )(\Delta(\Delta))}^{\text{Etat bouclant}} @>>> I\\
 \end{CD}
 $$
 
 4. Donnez une expression donnant un graphe des réductions infini.
-5. Montrez que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire.
+
+> On peut donner 
+
+6. Montrez que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire.
 
 ## Booléens
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
@@ -291,11 +294,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NzUyOTkwMSwtNjk2MDgxNzEzLC0xNT
-k1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1MiwzOTMwNzk1
-MTcsMTEyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNjM0MywtMTc3OD
-Y2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgs
-LTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OT
-U5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcx
-MF19
+eyJoaXN0b3J5IjpbMTU1MzQ3NTA1OSwtNTg3NTI5OTAxLC02OT
+YwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMz
+NDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5Mj
+E2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5Nzcz
+LDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3Mz
+QxNjAxOSw0ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMx
+OF19
 -->
