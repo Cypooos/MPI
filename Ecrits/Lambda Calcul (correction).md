@@ -355,15 +355,26 @@ $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
 28. Montrez que $\text{fix}(f)$ n'est pas unitaire.
 
-> TODO : refaire avec la nouvelle définition :/
+> TODO : changer la correction de toute cette partie pour correspondre avec la nouvelle définition :/
 > On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées). On a alors $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+1$, absurde.
-
 
 On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
 29. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
+
+> On écrit $\text{fix}(f)\to^n e$. Mais on a aussi: $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e) \to^* p$ qui est un calcul normalisant par hypothèse. Par l'unicité de la forme normale de $\text{fix}(f)$, $e=p$, donc on a $f(e) \to^* e$
+
 30. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
+
+> Soit $e$ sous forme normale. On peut donner $K(e)$.
+> En effet, on a pour $n>0$, que de $(K(e))^n\text{fix}(K(e))$, les seuls dérivations possibles sont $e$ ou $(K(I))^{n+1}\text{fix}(K(e))$.
+> Alors on a bien que pour tout calcul normalisant $\text{fix}(K(e)) \to^n a$, 
+
 31. (*) Donnez une expression $\Theta$ point-fixe.
+
+> Bravo si vous l'avez réussie ! Vraiment, vraiment, vraiment pas facile.
+> On peut donner $\Theta = (f\mapsto\Big((x\mapsto f(x(x)))(x\mapsto f(x(x)))\Big))$
+> Il est noté par un $Y$ dans la littérature *(The Y combinator)*.
 
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
@@ -383,7 +394,21 @@ $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 33. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
-21. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
+
+> On le montre par récurrence: 
+> Initialisation: On a $\text{fact}(C_0)\to \text{if}((\text{eq\_0}(C_0))(C_1)(\text{mul}(C_0,\text{fact}(\text{sub}(C_0,1)))) \to^*C_1$
+> heredité : On suppose que $\text{fact}(C_n) \to^* C_{n!}$. On a alors
+>  $$
+\begin{align*}
+\text{fact}(C_{n+1}) &\to^*  \text{if\_0}(C_{n+1})(C_1)(\text{mul}(C_{n+1},\text{fact}(\text{sub}(C_{n+1},1)))) \\
+&\to^* \text{mul}(C_{n+1},\text{fact}(\text{sub}(C_{n+1},1))) \\
+&\to^* \text{mul}(C_{n+1},\text{fact}(C_{n})) \\
+&\to^* \text{mul}(C_{n+1},C_{n!}) \\
+&\to^* C_{(n+1)!} \\
+\end{align*}
+$$
+
+34. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
 
 # Partie V: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -453,11 +478,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjU1MjU0MywxNTc3MTI5MjkwLC01OD
-c1Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4
-ODMxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNz
-gzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2
-LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMD
-k1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcw
-XX0=
+eyJoaXN0b3J5IjpbNjE2MjQxMjczLDE1NzcxMjkyOTAsLTU4Nz
+UyOTkwMSwtNjk2MDgxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4
+MzEsLTc2NDYzMzQ1MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3OD
+M1NzE4OSw2OTIxNjM0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYs
+MjAzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOT
+UyNjEsLTEwNzM0MTYwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzBd
+fQ==
 -->
