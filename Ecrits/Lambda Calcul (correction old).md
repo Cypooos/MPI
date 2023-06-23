@@ -71,7 +71,7 @@ On définit les expressions suivantes :
 > On a $I(I)=(x\mapsto x)(I)\to I$, et $I$ est bien sous forme normale.
 > On a $K(I,\Delta)=K(I)(\Delta)=(y\mapsto (x\mapsto y))(I)(\Delta)\to(x\mapsto I)(\Delta)\to I$, et $I$ est bien sous forme normale.
 
-3. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
+2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
 
 > On a que $\Delta(\Delta)\to\Delta(\Delta)$, qui est la seule dérivation possible.
 > On suppose par l'absurde que $\Delta(\Delta)\to^ne_n$ avec $e_n$ sous forme normale. Alors on a $\Delta(\Delta)\to e_1\to e_2\to ...\to e_n$, et par récurrence, on a $e_i = \Delta(\Delta)$, donc $e_n =\Delta(\Delta)$ est sous forme normale, or $\Delta(\Delta)\to\Delta(\Delta)$, donc il existe une dérivation, c'est absurde.
@@ -395,5 +395,5 @@ Ici, l'on suppose $V = \{v_1,...,v_n\}$ fini, comme cela on peut créer le nombr
 
 > To continue. Cette partie sera peut-être dépendante des 2 dernières.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTUyNDc0MDddfQ==
+eyJoaXN0b3J5IjpbMjEzODE2MjQyXX0=
 -->
