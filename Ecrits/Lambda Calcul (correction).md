@@ -94,9 +94,9 @@ I(I(I)) @>>> I(I) @>>> I\\
 \begin{CD}
 K(I,\Delta(\Delta)) @>>> 2 @>\text{this is a really long label}>> 3\\
 @VVV @VVV @VVV\\
-(x\mapsto I)(\Delta(\Delta)) @>>> 5@>>> 6
+(x\mapsto I)(\Delta(\Delta)) @>>> 5@>>> 6\\
 @VVV @VVV @VVV\\
-@ed@VVV @VVV\\
+I @>>> 5@>>> 6
 \end{CD}
 $$
 
@@ -295,7 +295,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjA4MzIxMjQsLTY5NjA4MTcxMywtMT
+eyJoaXN0b3J5IjpbLTEzNTQyMjgyNDksLTY5NjA4MTcxMywtMT
 U5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0NTIsMzkzMDc5
 NTE3LDExMjA2MTcyNTAsNzgzNTcxODksNjkyMTYzNDMsLTE3Nz
 g2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4
