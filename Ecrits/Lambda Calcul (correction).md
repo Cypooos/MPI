@@ -237,7 +237,8 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 ## Autour de Church-Rosser
 16. Montrez que si $a\in E$ possède une forme normale, alors celle-ci est unique.
 
-> Soit $a\in E$ tel que $a\to^* \alpha_1$ et $a\to^* \alpha_2$, avec $\alpha_1$ et $\alpha_2$ s 
+> Soit $a\in E$ tel que $a\to^* \alpha_1$ et $a\to^* \alpha_2$, avec $\alpha_1$ et $\alpha_2$ sous forme normale.
+> On a par la propriété du diamant qu'il existe $w$ tel que $\alpha_1 \to^* w$ et $\alpha_2 \to^* w$. 
 
 > Remarque : On a ici prouvé que quelque-soit notre manière d'évaluer une expression $e$ bien écrite, on tombera toujours sur le même résultat. Autrement dit, le lambda calcul est fondamentalement "déterministe" par rapport à son implémentation.
 > Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étapes. Dans le cas de $\text{if}(\top,I,\Delta(\Delta)) \to^* I$, si l'on calcule constamment $\Delta(\Delta)$, on n'atteindra jamais la forme normale $I$, alors qu'elle existe et est unique.
@@ -385,11 +386,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDc4MDU4NCwxNTc3MTI5MjkwLC01OD
-c1Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4
-ODMxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNz
-gzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2
-LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMD
-k1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcw
-XX0=
+eyJoaXN0b3J5IjpbLTE0NjgxMDM1MDAsMTU3NzEyOTI5MCwtNT
+g3NTI5OTAxLC02OTYwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3
+ODgzMSwtNzY0NjMzNDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLD
+c4MzU3MTg5LDY5MjE2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYx
+NiwyMDM5Mzk5NzczLDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMj
+A5NTI2MSwtMTA3MzQxNjAxOSw0ODk5NTkzNzksMTMyODIzODQ3
+MF19
 -->
