@@ -175,7 +175,7 @@ On pose $\lrarr$ la fermeture symétrique de $\to$ : on a $x\lrarr y$ si et seul
 On pose $G = (E,A)$ un graphe orienté infini avec $A = \{(x,y)\in E^2 : x\to^* y \}$
 On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ et $y$ appartiennent à la même composante faiblement connexe dans $G$
 
-9. Montrez que si $a=_\beta b$, alors il existe $n\in\N$ et $M_1,...,M_n \in E$ tel que $a\lrarr M_1\lrarr...\lrarr M_n\lrarr b$
+9. Montrez que $a=_\beta b$, si et seulement si il existe $n\in\N$ et $M_1,...,M_n \in E$ tel que $a\lrarr M_1\lrarr...\lrarr M_n\lrarr b$
 
 > Soit $a,b\in E$ tel que $a=_\beta b$.
 > Par définition d'une composante faiblement connexe, on a des $a = e_1,...,e_n=b$ tel que pour tout $i\in [\![1;n-1]\!], e_i \to^* e_{i+1}$ ou $e_{i+1} \to^* e_i$.
@@ -186,7 +186,8 @@ On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ 
 10. Montrez que $=_\beta$ est une relation d'équivalence sur E. 
 
 > On vérifie les différentes propriétés :
->  - Symétrie : 
+>  - Réflexivité : si $a=_\beta b$, alors on a 
+>  - Symétrie
 
 ## Le théorème de _Church-Rosser_
 
@@ -358,11 +359,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTY5ODYyNSwtNTg3NTI5OTAxLC02OT
-YwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMz
-NDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5Mj
-E2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5Nzcz
-LDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3Mz
-QxNjAxOSw0ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMx
-OF19
+eyJoaXN0b3J5IjpbLTEzODcwODYwNTcsLTU4NzUyOTkwMSwtNj
+k2MDgxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYz
+MzQ1MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3ODM1NzE4OSw2OT
+IxNjM0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3
+Myw3NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNz
+M0MTYwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIz
+MThdfQ==
 -->
