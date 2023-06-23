@@ -182,7 +182,7 @@ On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ 
 > Or si $e_i\to^* e_{i+1}$ alors il existe $e_i=e_i^{1},...,e_i^{n_i}=e_{i+1}$ tel que $e_i^{1}\to ... \to e_i^{n_i}$, donc tel que $e_i^{1}\lrarr ... \lrarr e_i^{n_i}$
 > Réciproquement, si $e_{i+1}\to^* e_{i}$, on a bien les $e_i^{k}$ qui existe et vérifient la même propriété.
 > Finalement, on a $a=e_1^{1}\lrarr e_1^{2}\lrarr ... \lrarr e_1^{n_1}\lrarr e_2^{1} \lrarr ... \lrarr e_n^{n_n}=b$
-> La réciproque est beaucoup plus simple : Le chemin nous ai donné par les $M_i$. En effet, pour $i\in [\![1;n-1]\!]$, on a $M_i \lrarr M_{i+1}$
+> La réciproque est beaucoup plus simple : Le chemin nous ai donné par les $M_i$. En effet, pour $i\in [\![1;n-1]\!]$, on a $M_i \lrarr M_{i+1}$ donc soit $M_i \to M_{i+1}$ soit $M_{i+1} \to M_i$, et donc soit $M_i \to^* M_{i+1}$ soit $M_{i+1} \to^* M_i$. 
 
 
 10. Montrez que $=_\beta$ est une relation d'équivalence sur E. 
@@ -361,11 +361,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzMTQxNDI1LC01ODc1Mjk5MDEsLTY5Nj
-A4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0
-NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNzgzNTcxODksNjkyMT
-YzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMs
-NzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczND
-E2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4
-XX0=
+eyJoaXN0b3J5IjpbMTM4NTQzNjYwMiwtNTg3NTI5OTAxLC02OT
+YwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMz
+NDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5Mj
+E2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5Nzcz
+LDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3Mz
+QxNjAxOSw0ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMx
+OF19
 -->
