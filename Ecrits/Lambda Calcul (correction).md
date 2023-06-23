@@ -112,7 +112,34 @@ On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\b
 On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 
 6. Montrez que, soit $e,e'\in E$, on a $\text{if}(\top,e,e') \to^* e$ et $\text{if}(\bot,e,e') \to^* e'$ 
+
+>On a:
+$$\begin{align*}\text{if}(\top,e,e')&=\text{if}(\top)(e)(e') \\
+&= (b,f_1,f_2\mapsto b(f_1,f_2))(\top)(e)(e')\\
+&\to (f_1,f_2\mapsto \top(f_1,f_2))(e)(e')\\
+&\to (f_2\mapsto \top(e,f_2))(e')\\
+&\to\top(e,e')\\
+&= (x,y\mapsto x)(e,e')\\
+&\to (y\mapsto e)(e')\\
+&\to e\\
+\end{align*}$$
+> De même :
+$$\begin{align*}\text{if}(\bot,e,e')&=(b,f_1,f_2\mapsto b(f_1,f_2))(\bot)(e)(e')\\
+&\to^3\bot(e,e')\\
+&= (x,y\mapsto y)(e,e')\\
+&\to (y\mapsto y)(e')\\
+&\to e'\\
+\end{align*}$$
+
 7. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
+
+> On pose $\text{not} = x\mapsto \text{if}(x,\bot,\top)$, et on a bien d'après la question précédente :
+>  - $\text{not}(\top) = (x\mapsto \text{if}(x,\bot,\top))(\top)\to \text{if}(\top,\bot,\top) \to^*\bot$
+>  - $\text{not}(\bot) = (x\mapsto \text{if}(x,\bot,\top))(\top)\to \text{if}(\bot,\bot,\top) \to^*\top$
+> 
+> NB: $\text{not} = (x\mapsto x(\bot,\top))$ fonctionne aussi.
+
+
 8. Définir une expression $\text{and}$ tel que, soit $b,b'\in B$, on ai:
    * $\text{and}(b,b') \to^* \top$  si $b=b'=\top$
    * $\text{and}(b,b') \to^* \bot$  sinon
@@ -299,11 +326,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1NzA3NzMxLC01ODc1Mjk5MDEsLTY5Nj
-A4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0
-NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNzgzNTcxODksNjkyMT
-YzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMs
-NzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczND
-E2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4
-XX0=
+eyJoaXN0b3J5IjpbLTk5OTQ2NDAyNiwtNTg3NTI5OTAxLC02OT
+YwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMz
+NDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5Mj
+E2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5Nzcz
+LDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3Mz
+QxNjAxOSw0ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMx
+OF19
 -->
