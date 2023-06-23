@@ -105,7 +105,7 @@ $$
 6. Montrez que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire.
 
 > Tout les calculs partant de $e$ sont fini, et de longueur inférieur à la profondeur de l'arbre si on l'enracine en $e$.
-> Supposons par  
+> Supposons par l'absurde que $e$ n'est pas unitaire. On a alors $(A_n)_n$ un calcul infini
 
 ## Booléens
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
@@ -299,11 +299,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE0MzY0OTkxLC01ODc1Mjk5MDEsLTY5Nj
-A4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0
-NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNzgzNTcxODksNjkyMT
-YzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMs
-NzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczND
-E2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4
-XX0=
+eyJoaXN0b3J5IjpbNjU0Njk2NDEsLTU4NzUyOTkwMSwtNjk2MD
+gxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1
+MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNj
+M0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3
+NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MT
+YwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMThd
+fQ==
 -->
