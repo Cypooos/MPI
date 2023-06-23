@@ -221,7 +221,8 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  - Si $a\not \in X \to X'$, alors $X=X'$ et donc $X\triangleright X'$.
 >  - Si $X=a$, alors $X=a\triangleright \hat a= X'$ comme vu précédemment.
 >  - Sinon, si $a\in X$, on décompose $X$ et raisonne par induction.
->    - Si $X=u(v)\to$, comme $$  
+>    - Si $X=u(v)\to u'(v')=X'$, comme $u'\triangleright u'$ et $v' \triangleright v'$, on a $X\triangleright X'$.
+>    - Si $X=u(v)\to u'(v')=X'$, comme $u'\triangleright u'$ et $v' \triangleright v'$, on a $X\triangleright X'$.
 
 12. Montrez que si $a\triangleright b$, alors $a\to^* b$
 13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
@@ -378,11 +379,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjAzNDMxMzAsLTU4NzUyOTkwMSwtNj
-k2MDgxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYz
-MzQ1MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3ODM1NzE4OSw2OT
-IxNjM0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3
-Myw3NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNz
-M0MTYwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIz
-MThdfQ==
+eyJoaXN0b3J5IjpbOTkzMTg0MzU4LC01ODc1Mjk5MDEsLTY5Nj
+A4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0
+NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNzgzNTcxODksNjkyMT
+YzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMs
+NzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczND
+E2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4
+XX0=
 -->
