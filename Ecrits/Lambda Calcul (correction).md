@@ -189,8 +189,11 @@ On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ 
 10. Montrez que $=_\beta$ est une relation d'équivalence sur E. 
 
 > On vérifie les différentes propriétés, qui découle immédiatement du chemin dans G ( "$a,b$ sont dans les même composante faiblement connexe" est bien une relation d'équivalence) :
->  - Réflexivité : si $a=_\beta b$, alors on a un chemin $M_{i\le n}$ de $a$ vers $b$. En prenant le chemin $M_{n-i+1}$
->  - Symétrie
+>  - Symétrie : si $a=_\beta b$, alors on a un chemin $(M_{i\le n})_i$ de $a$ vers $b$. En prenant le chemin $(M_{n-i+1})_i$, on a bien une chemin de $b$ vers $a$
+>  - Réflexivité : le chemin vide conviens.
+>   - Transitivité : On concatène les chemins.
+
+ 
 
 ## Le théorème de _Church-Rosser_
 
@@ -207,6 +210,9 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 
 11. Montrez que si $a\to b$, alors $a\triangleright b$.
+
+> Supposons $a\to b$. On chs
+
 12. Montrez que si $a\triangleright b$, alors $a\to^* b$
 13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : Procédez par induction sur la forme de $t$
@@ -362,11 +368,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5NTI5MjU4LC01ODc1Mjk5MDEsLTY5Nj
-A4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0
-NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNzgzNTcxODksNjkyMT
-YzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMs
-NzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczND
-E2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4
-XX0=
+eyJoaXN0b3J5IjpbMTcwMDY0MzQzMSwtNTg3NTI5OTAxLC02OT
+YwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMz
+NDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5Mj
+E2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5Nzcz
+LDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3Mz
+QxNjAxOSw0ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMx
+OF19
 -->
