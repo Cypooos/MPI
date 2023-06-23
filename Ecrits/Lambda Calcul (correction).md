@@ -216,9 +216,12 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  - On a bien $e\triangleright e$ par la première formule
 >  - On a bien $e' \triangleright e'$ par la première formule
 > 
-> Par induction rapide sur les sous-formule de $A$, on aura maintenant $A \triangleright B$ : soit $X$ une sous formule de $A$, avec $X'$ celle qui correspond dans $B
->  - Si $a\not \in X \to X'$, alors $X=X'$ et donc $X\triangleright X'$. Si $X=a$, alors $X=a\triangleright \hat a= X'$ (cas de base de l'induction).
->  - Sinon, si $a\in X$, on  
+> Par induction rapide sur les sous-formule de $A$, on aura maintenant $A \triangleright B$: 
+> Soit $X$ une sous formule de $A$, avec $X'$ celle qui correspond dans $B$ :
+>  - Si $a\not \in X \to X'$, alors $X=X'$ et donc $X\triangleright X'$.
+>  - Si $X=a$, alors $X=a\triangleright \hat a= X'$ comme vu précédemment.
+>  - Sinon, si $a\in X$, on décompose $X$ et raisonne par induction.
+>    - Si $X=u(v)\to$, comme $$  
 
 12. Montrez que si $a\triangleright b$, alors $a\to^* b$
 13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
@@ -375,7 +378,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDkzNTU3MTgsLTU4NzUyOTkwMSwtNj
+eyJoaXN0b3J5IjpbLTEyNjAzNDMxMzAsLTU4NzUyOTkwMSwtNj
 k2MDgxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYz
 MzQ1MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3ODM1NzE4OSw2OT
 IxNjM0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3
