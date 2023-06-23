@@ -98,7 +98,7 @@ $$
 
 4. Donnez une expression donnant un graphe des réductions infini.
 
-> On peut donner 
+> On pose $\Delta'=(x\mapsto$
 
 6. Montrez que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire.
 
@@ -294,11 +294,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzQ3NTA1OSwtNTg3NTI5OTAxLC02OT
-YwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMz
-NDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5Mj
-E2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5Nzcz
-LDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3Mz
-QxNjAxOSw0ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMx
-OF19
+eyJoaXN0b3J5IjpbNzk4Njc0MzAsLTU4NzUyOTkwMSwtNjk2MD
+gxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1
+MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNj
+M0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3
+NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MT
+YwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMThd
+fQ==
 -->
