@@ -216,14 +216,15 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  - On a bien $e\triangleright e$ par la première formule
 >  - On a bien $e' \triangleright e'$ par la première formule
 > 
-> Par induction rapide sur les sous-formule de $A$, on aura maintenant $A \triangleright B$: 
+> Par induction rapide sur les sous-formules de $A$, on aura maintenant $A \triangleright B$: 
 > Soit $X$ une sous formule de $A$, avec $X'$ celle qui correspond dans $B$ :
 >  - Si $a\not \in X \to X'$, alors $X=X'$ et donc $X\triangleright X'$.
 >  - Si $X=a$, alors $X=a\triangleright \hat a= X'$ comme vu précédemment.
 >  - Sinon, si $a\in X$, on décompose $X$ et raisonne par induction.
 >    - Si $X=u(v)\to u'(v')=X'$, comme $u'\triangleright u'$ et $v' \triangleright v'$, on a $X\triangleright X'$.
->    - Si $X=u(v)\to u'(v')=X'$, comme $u'\triangleright u'$ et $v' \triangleright v'$, on a $X\triangleright X'$.
-
+>    - Si $X=(x\mapsto e)\to(x\mapsto e')=X'$, comme $e\triangleright e'$, on a $X\triangleright X'$.
+> 
+> Cela conclu la preuve.
 12. Montrez que si $a\triangleright b$, alors $a\to^* b$
 13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : Procédez par induction sur la forme de $t$
@@ -379,7 +380,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzMTg0MzU4LC01ODc1Mjk5MDEsLTY5Nj
+eyJoaXN0b3J5IjpbNjYwOTQ3MDkxLC01ODc1Mjk5MDEsLTY5Nj
 A4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0
 NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNzgzNTcxODksNjkyMT
 YzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMs
