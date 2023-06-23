@@ -410,8 +410,18 @@ $$
 
 34. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
 
+> TODO : montrer le $O(\log_2(n))$.
+> On pose $\text{is\_even} = (C\mapsto C(\text{not},\top))$
+> On pose $\text{div\_2} = (C\mapsto C(x\mapsto \text{if\_eq}(\text{mul}(x,C_2),C)(x)(\text{sub}(x,1) )(C))$
+> On pose $\text{div\_2\_i} = (C\mapsto C(x\mapsto \text{if\_eq}(\text{mul}(x,C_2),C)(x)(\text{sub}(x,1) )(\text{sub}(C,1)))$ (qui fait la division entière d'un nombre impaire)
+> On pose $$\text{pow\_rec} = (f,x,y\mapsto \text{if}(\text{eq\_0}(y))(C_1)\Big(\text{if}(\text{is\_even}(y))\\(\text{mul}(f(x,\text{div\_2}(y)),f(x,\text{div\_2}(y))))\\(\text{mul}(x,\text{mul}(f(x,\text{div\_2\_i}(y)),f(x,\text{div\_2\_i}(y)))))\Big))$$
+> On montre que $\text{is\_even}(C_{2n}) \to^* \top$ et $\text{is\_even}(C_{2n+1 }) \to^* \bot$, que
+> $\text{div\_2}(C_{2n})\to^*C_n$ et $\text{div\_2\_i}(C_{2n+1})\to C_n$
+
 # Partie V: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
+
+> TODO: faire (recopier la correction de cette partie 
 
 On pose $T$ tel que $\{\tau,\tau_1,\tau_2,...\} \sub T$ et pour tout $t,t'\in T$, on a $(t\to t')\in T$. On appelle $\tau,\tau_1,\tau_2,...$ les *types par défault*.
 
@@ -478,11 +488,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2MjQxMjczLDE1NzcxMjkyOTAsLTU4Nz
-UyOTkwMSwtNjk2MDgxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4
-MzEsLTc2NDYzMzQ1MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3OD
-M1NzE4OSw2OTIxNjM0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYs
-MjAzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOT
-UyNjEsLTEwNzM0MTYwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzBd
-fQ==
+eyJoaXN0b3J5IjpbMTI0ODQ3NDYxMywxNTc3MTI5MjkwLC01OD
+c1Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4
+ODMxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNz
+gzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2
+LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMD
+k1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcw
+XX0=
 -->
