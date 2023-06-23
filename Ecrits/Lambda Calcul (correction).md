@@ -248,7 +248,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 > Le plus petit sera l'unique forme normale $\alpha$, le plus grand sera $e$ : Soit $x \in S_e$ :
 >  - On a par définition de $S_e$ que $e \to^* x$ (maximalité de $e$)
->  - On a que $x\to^* \alpha$ par la propriété du diamant appliqué à $\alpha,x$ : On a un $w$ tel que  
+>  - Par la propriété du diamant appliqué à $x$ et $\alpha$, tout deux issue de $e$, on a un $w$ tel que $x\to^* w$ et $\alpha \to^* w$, or comme $\alpha$ est sous forme normale, on a $x\to^*w=\alpha$ 
 
 18. Montrez que si $a=_\beta b$, alors il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
 
@@ -392,11 +392,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkxNDQ0NTQ3LDE1NzcxMjkyOTAsLTU4Nz
-UyOTkwMSwtNjk2MDgxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4
-MzEsLTc2NDYzMzQ1MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3OD
-M1NzE4OSw2OTIxNjM0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYs
-MjAzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOT
-UyNjEsLTEwNzM0MTYwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzBd
-fQ==
+eyJoaXN0b3J5IjpbMTc5MTM4OTMwMiwxNTc3MTI5MjkwLC01OD
+c1Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4
+ODMxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNz
+gzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2
+LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMD
+k1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcw
+XX0=
 -->
