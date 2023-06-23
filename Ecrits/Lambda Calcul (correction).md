@@ -92,11 +92,7 @@ I(I(I)) @>>> I(I) @>>> I\\
 > On a le graphe des réductions de $K(I,\Delta(\Delta))$ :
 > $$
 \begin{CD}
-K(I,\Delta(\Delta)) @>>> 2 @>\text{this is a really long label}>> 3\\
-@VVV @VVV @VVV\\
-(x\mapsto I)(\Delta(\Delta)) @>>> 5@>>> 6\\
-@VVV @VVV @VVV\\
-I @>>> 5@>>> 6
+K(I,\Delta(\Delta)) @>>> (x\ \mapsto\ I\ )(\Delta(\Delta)) @>>> I\\
 \end{CD}
 $$
 
@@ -295,11 +291,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQyMjgyNDksLTY5NjA4MTcxMywtMT
-U5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0NTIsMzkzMDc5
-NTE3LDExMjA2MTcyNTAsNzgzNTcxODksNjkyMTYzNDMsLTE3Nz
-g2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4
-LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OT
-k1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3
-MTBdfQ==
+eyJoaXN0b3J5IjpbLTU4NzUyOTkwMSwtNjk2MDgxNzEzLC0xNT
+k1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1MiwzOTMwNzk1
+MTcsMTEyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNjM0MywtMTc3OD
+Y2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgs
+LTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OT
+U5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcx
+MF19
 -->
