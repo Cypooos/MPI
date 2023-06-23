@@ -211,7 +211,9 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 11. Montrez que si $a\to b$, alors $a\triangleright b$.
 
-> Supposons $a\to b$. On chs
+> Supposons $A\to B$. On choisi $a\in A$ qui soit évalué avec  $\hat a\in B$.
+> On montre par induction que $A \triangleright B$ : 
+>  - Si $a = $
 
 12. Montrez que si $a\triangleright b$, alors $a\to^* b$
 13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
@@ -368,11 +370,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDY0MzQzMSwtNTg3NTI5OTAxLC02OT
-YwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMz
-NDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5Mj
-E2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5Nzcz
-LDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3Mz
-QxNjAxOSw0ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMx
-OF19
+eyJoaXN0b3J5IjpbNDA3MTk0NjAwLC01ODc1Mjk5MDEsLTY5Nj
+A4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0
+NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNzgzNTcxODksNjkyMT
+YzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMs
+NzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczND
+E2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4
+XX0=
 -->
