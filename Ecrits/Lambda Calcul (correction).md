@@ -144,6 +144,27 @@ $$\begin{align*}\text{if}(\bot,e,e')&=(b,f_1,f_2\mapsto b(f_1,f_2))(\bot)(e)(e')
    * $\text{and}(b,b') \to^* \top$  si $b=b'=\top$
    * $\text{and}(b,b') \to^* \bot$  sinon
 
+> On pose $\text{and} = (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)$, et on a :
+$$\begin{align*}
+\text{and}(\top,\top) &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\top,\top) \\
+&\to^2 \text{if}(\top,\text{if}(\top,\top,\bot),\bot) \\
+&\to^* \text{if}(\top,\top,\bot) \\
+&\to^* \top
+\end{align*}$$Si $b=\bot$ :
+$$\begin{align*}
+\text{and}(\bot,b') &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\bot,\top) \\
+&\to^2 \text{if}(\bot,\text{if}(b',\top,\bot),\bot) \\
+&\to^* \bot
+\end{align*}
+$$Sinon si $b'=\bot$ et $b=\top$ (ce qui conclu tout les cas) :
+$$\begin{align*}
+\text{and}(\top,\bot) &= (x,y\mapsto \text{if}(x,\text{if}(y,\top,\bot),\bot)(\top,\bot) \\
+&\to^2 \text{if}(\top,\text{if}(\bot,\top,\bot),\bot) \\
+&\to^* \text{if}(\top,\bot,\bot) \\
+&\to^* \bot
+\end{align*}$$
+>  
+> NB: $\text{and} = (x,y\mapsto x(y(\top,\bot),\bot))$ fonctionne aussi. Directement évaluer un booléen par $e,e'$ est ce que fais $\text{if}$, ici on l'a juste directement simplifié.
 # Partie II: résultats généralistes
 
 
@@ -155,6 +176,9 @@ On pose $G = (E,A)$ un graphe orienté infini avec $A = \{(x,y)\in E^2 : x\to^* 
 On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ et $y$ appartiennent à la même composante faiblement connexe dans $G$
 
 9. Montrez que si $a=_\beta b$, alors il existe $n\in\N$ et $M_1,...,M_n \in E$ tel que $a\lrarr M_1\lrarr...\lrarr M_n\lrarr b$
+
+> Soit $a,b\in E$ tel que $a=_\beta$par définition d'une composante faiblement connexe, on a 
+
 10. Montrez que $=_\beta$ est une relation d'équivalence sur E. 
 ## Le théorème de _Church-Rosser_
 
@@ -326,7 +350,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTQ2NDAyNiwtNTg3NTI5OTAxLC02OT
+eyJoaXN0b3J5IjpbMTYwNjEyMDY5NiwtNTg3NTI5OTAxLC02OT
 YwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMz
 NDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5Mj
 E2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5Nzcz
