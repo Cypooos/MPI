@@ -89,7 +89,16 @@ Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe des réductions de $e$* avec
 I(I(I)) @>>> I(I) @>>> I\\
 \end{CD}
 > $$
-> On a le graphe des réductions de $$
+> On a le graphe des réductions de $K(I,\Delta(\Delta))$ :
+> $$
+\begin{CD}
+K(I,\Delta(\Delta)) @>>> 2 @>\text{this is a really long label}>> 3\\
+@VVV @VVV @VVV\\
+(x\mapsto I)(\Delta(\Delta)) @>>> 5@>>> 6
+@VVV @VVV @VVV\\
+@ed@VVV @VVV\\
+\end{CD}
+$$
 
 4. Donnez une expression donnant un graphe des réductions infini.
 5. Montrez que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire.
@@ -286,11 +295,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDYzNTAxNiwtNjk2MDgxNzEzLC0xNT
-k1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1MiwzOTMwNzk1
-MTcsMTEyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNjM0MywtMTc3OD
-Y2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgs
-LTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OT
-U5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMTgsLTQxNTE1OTcx
-MF19
+eyJoaXN0b3J5IjpbLTE0NjA4MzIxMjQsLTY5NjA4MTcxMywtMT
+U5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0NTIsMzkzMDc5
+NTE3LDExMjA2MTcyNTAsNzgzNTcxODksNjkyMTYzNDMsLTE3Nz
+g2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4
+LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OT
+k1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4LC00MTUxNTk3
+MTBdfQ==
 -->
