@@ -100,7 +100,7 @@ $$
 
 > On pose $\Delta'=(x\mapsto x(x)(x))$.
 > On a alors $\Delta'(\Delta') \to \Delta'(\Delta')(\Delta') \to \Delta'(\Delta')(\Delta')(\Delta') \to ...$
-> Qui donne donc $S_{\Delta'(\Delta')}$
+> Qui donne donc un $S_{\Delta'(\Delta')}$ infinie, donc un graphe fini (qui est le même 
 
 6. Montrez que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire.
 
@@ -296,11 +296,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzkwMTc3NCwtNTg3NTI5OTAxLC02OT
-YwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMz
-NDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5Mj
-E2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5Nzcz
-LDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2MSwtMTA3Mz
-QxNjAxOSw0ODk5NTkzNzksMTMyODIzODQ3MCwtMTg3NTg1MjMx
-OF19
+eyJoaXN0b3J5IjpbODc4NjA1OTY4LC01ODc1Mjk5MDEsLTY5Nj
+A4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0
+NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNzgzNTcxODksNjkyMT
+YzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMs
+NzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczND
+E2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4
+XX0=
 -->
