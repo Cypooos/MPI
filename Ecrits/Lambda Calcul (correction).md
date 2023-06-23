@@ -67,14 +67,26 @@ On définit les expressions suivantes :
 
 ## Préliminaires
 1. Donnez un calcul normalisant de $K(K,I)$, de $I(I)$, de $K(I,\Delta)$
+
+> On a $K(K,I)=K(K)(I)=(y\mapsto (x\mapsto y))(K)(I)\to (x\mapsto K)(I)\to K$, et $K$ est bien sous forme normale.
+> On a $I(I)=(x\mapsto x)(I)\to I$, et $I$ est bien sous forme normale.
+> On a $K(I,\Delta)=K(I)(\Delta)=(y\mapsto (x\mapsto y))(I)(\Delta)\to(x\mapsto I)(\Delta)\to I$, et $I$ est bien sous forme normale.
+
+
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
+
+> On a que $\Delta(\Delta)\to\Delta(\Delta)$, qui est la seule dérivation possible.
+> On suppose par l'absurde que $\Delta(\Delta)\to^ne_n$ avec $e_n$ sous forme normale. Alors on a $\Delta(\Delta)\to e_1\to e_2\to ...\to e_n$, et par récurrence, on a $e_i = \Delta(\Delta)$, donc $e_n =\Delta(\Delta)$ est sous forme normale, or $\Delta(\Delta)\to\Delta(\Delta)$, donc il existe une dérivation, c'est absurde.
 
 ## Graphe des réductions
 Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $A_e = \{(x,y)\in S_e^2 : x\to y \}$
 
 3. Donnez le graphe des réductions de $I(I(I))$, et de $K(I,\Delta(\Delta))$.
+
+
+
 4. Donnez une expression donnant un graphe des réductions infini.
-5. Montrez que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire. 
+5. Montrez que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire.
 
 ## Booléens
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
@@ -268,7 +280,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4OTg5MTkwNCwtNjk2MDgxNzEzLC0xNT
+eyJoaXN0b3J5IjpbLTU0MzgyOTk4MCwtNjk2MDgxNzEzLC0xNT
 k1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1MiwzOTMwNzk1
 MTcsMTEyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNjM0MywtMTc3OD
 Y2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgs
