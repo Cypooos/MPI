@@ -177,7 +177,7 @@ On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ 
 
 9. Montrez que si $a=_\beta b$, alors il existe $n\in\N$ et $M_1,...,M_n \in E$ tel que $a\lrarr M_1\lrarr...\lrarr M_n\lrarr b$
 
-> Soit $a,b\in E$ tel que $a=_\beta$par définition d'une composante faiblement connexe, on a 
+> Soit $a,b\in E$ tel que $a=_\beta b$. Par définition d'une composante faiblement connexe, on a des $a = e_1,...,e_n=b$ tel que pour tout $i$
 
 10. Montrez que $=_\beta$ est une relation d'équivalence sur E. 
 ## Le théorème de _Church-Rosser_
@@ -350,7 +350,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjEyMDY5NiwtNTg3NTI5OTAxLC02OT
+eyJoaXN0b3J5IjpbMTIxNzMzODg2NywtNTg3NTI5OTAxLC02OT
 YwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMz
 NDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5Mj
 E2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5Nzcz
