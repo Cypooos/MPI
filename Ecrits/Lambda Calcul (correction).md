@@ -290,6 +290,11 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 
 ## Conditions sur les entiers de Church
 22. Définir $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
+
+ > On pose $\text{eq\_0} = (C\mapsto C(K(\bot),\top))$, et on a :
+ >  - pour $C_0$ : $\text{eq\_0}(C_0) \to C_0(K(\bot),\top)\to \top$
+ >  - soit $n>0$ : $\text{eq\_0}(C_n) \to C_n(K(\bot),\top)\to (K(\bot))^n(\top)\to^*K(\top)((K(\bot))^{n-1}(\top)) \to \bot$
+ 
 23. Définir $\text{eq}$ une expression tel que :
     * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
     * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
@@ -410,7 +415,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTk1MzMxNjksMTU3NzEyOTI5MCwtNT
+eyJoaXN0b3J5IjpbLTE0NzcxNjU4ODgsMTU3NzEyOTI5MCwtNT
 g3NTI5OTAxLC02OTYwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3
 ODgzMSwtNzY0NjMzNDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLD
 c4MzU3MTg5LDY5MjE2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYx
