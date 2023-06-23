@@ -252,7 +252,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 18. Montrez que si $a=_\beta b$, alors il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
 
-> TODO : le faire, par récurrence sur les $(M_i)$
+> TODO : le faire, par récurrence sur les $(M_i)_i$
 # Partie III: Entiers et opérations
 
 ## Entiers de Church
@@ -421,7 +421,7 @@ $$
 # Partie V: Types
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
 
-> TODO: faire (recopier la correction de cette partie 
+> TODO: faire (recopier) la correction de cette partie 
 
 On pose $T$ tel que $\{\tau,\tau_1,\tau_2,...\} \sub T$ et pour tout $t,t'\in T$, on a $(t\to t')\in T$. On appelle $\tau,\tau_1,\tau_2,...$ les *types par défault*.
 
@@ -488,11 +488,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0ODQ3NDYxMywxNTc3MTI5MjkwLC01OD
-c1Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4
-ODMxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNz
-gzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2
-LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMD
-k1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcw
-XX0=
+eyJoaXN0b3J5IjpbMTgzOTUyMTM2LDE1NzcxMjkyOTAsLTU4Nz
+UyOTkwMSwtNjk2MDgxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4
+MzEsLTc2NDYzMzQ1MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3OD
+M1NzE4OSw2OTIxNjM0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYs
+MjAzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOT
+UyNjEsLTEwNzM0MTYwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzBd
+fQ==
 -->
