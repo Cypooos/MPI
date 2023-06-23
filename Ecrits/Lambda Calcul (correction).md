@@ -206,13 +206,14 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 - $x\triangleright x$
 - $x\mapsto t \triangleright x'\mapsto t'$ si $x \triangleright x'$ et $t \triangleright t'$
 - $t(x)\triangleright t'(x')$ si $t\triangleright t'$ et $x\triangleright x'$
-- $(x\mapsto e)(u) \triangleright t'[x\larr u']$ si $t \triangleright t'$ et $u \triangleright u'$
+- $(x\mapsto t)(u) \triangleright t'[x\larr u']$ si $t \triangleright t'$ et $u \triangleright u'$
 
 
 11. Montrez que si $a\to b$, alors $a\triangleright b$.
 
 > Supposons $A\to B$. On choisi $a\in A$ qui soit évalué avec  $\hat a\in B$.
-> On a alors $a=(x\mapsto e)(e') \to e[x\larr e']$. On 
+> On a alors $a=(x\mapsto e)(e') \to e[x\larr e']$. On montre $a\triangleright \hat a$ par la quatrième formule :
+>  - On a bien $e\triangleright e$ par la première formue
 
 12. Montrez que si $a\triangleright b$, alors $a\to^* b$
 13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
@@ -369,11 +370,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwNDE2MDA1LC01ODc1Mjk5MDEsLTY5Nj
-A4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0
-NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNzgzNTcxODksNjkyMT
-YzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMs
-NzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczND
-E2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcwLC0xODc1ODUyMzE4
-XX0=
+eyJoaXN0b3J5IjpbNjQ1NDE3NTMsLTU4NzUyOTkwMSwtNjk2MD
+gxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1
+MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNj
+M0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3
+NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MT
+YwMTksNDg5OTU5Mzc5LDEzMjgyMzg0NzAsLTE4NzU4NTIzMThd
+fQ==
 -->
