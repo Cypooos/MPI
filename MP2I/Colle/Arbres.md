@@ -59,7 +59,7 @@ Un arbre canonique peut-être représenté par un tableau qui à chaque hauteur 
 
 
 
-## Arbre d'
+## Arbre de mots
 On ce donne le type suivant d'arbre en C :
 ```c
 struct arbre_mot {
@@ -78,9 +78,6 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un c
 5. Donnez `void add(arbre_mot* a, int* mot, int n)` qui ajoute à `a` le mot `mot` de longueur `n`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
 6. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`. On resommets.
 
-1. Donnez les arbres canonique des tableaux $[\![0;2]\!]$, $[\![0;0;3;2]\!]$, $[\![0;1;1;1;1;2]\!]$.
-2. Donnez une fonction `val canonical : int array -> tree` qui à un tableau associe son arbre canonique.
-3. Démontrez que le tableau d'un arbre canonique non trivial doit se terminer avec un 2.
 
 ## Arbre canonique, suite
 On souhaite rajouter sur chaque sommet un entirera aussi tout les maillons de l'arbre qui ne sont plus utilisés.
@@ -133,7 +130,7 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzAyNjk1ODQsLTg2NjAzNTE4MCwtMT
+eyJoaXN0b3J5IjpbLTE5MTA1MTkyNDQsLTg2NjAzNTE4MCwtMT
 AzMzQyODU3OCwxMjA0MDQ1ODgwLC0yMTMwMjkyMTAwLC0xODg0
 Mjc2NTI2LC0xNTA5ODYyOTc3LC02ODQyNjIwMzEsODM2MTU4ND
 g1LDE2MDAwMjIzNzEsMTg5OTYwNjk0NiwxNzI2ODk5OTc0LDI4
