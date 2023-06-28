@@ -80,18 +80,6 @@ typedef struct liste liste;
 4. Donnez `bool is_cyclique(liste* li)` qui détecte si un cycle est présent ou non dans la liste, en $O(n)$ avec $n$ la longueur de la liste.
 5. Transformer la fonction pour qu'elle transforme la liste en une liste acyclique sans perdre aucun maillon. On cherchera la meilleur complexité.
 
-## Liste générée
-
-On ce donne le type suivant en OCaml :
-```ocaml
-```
-
-## 
-
-## Pile file en moyenne $O(n)$
-
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDYyMzUxNywxMDE0OTM0MDY2XX0=
+eyJoaXN0b3J5IjpbLTI4NDk5NzI3NCwxMDE0OTM0MDY2XX0=
 -->
