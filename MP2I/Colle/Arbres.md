@@ -112,7 +112,7 @@ typedef struct arbre arbre;
 
 1. Donnez en OCaml une définition d'un type d'arbre binaire. Qu'est-ce qu'un arbre binaire de recherche complet ?
 2. Donnez en OCaml une fonction `val pow : int -> int -> int` tel que `pow a b` calcule $a^b$en $O(\ln b)$.
-3. Montrez qu'un arbre binaire complet de hauteur $h$ à entre $2^{h-1}-1$ (exclu) et $2^{h+1}-1$ (inclus) sommets.
+3. Montrez qu'un arbre binaire complet de hauteur $h$ à entre $2^{h-1}-1$ (exclu) et $2^h-1$ (inclus) sommets.
 4. Donnez une manière de stoker dans un tableau de longueur $2^{h+1}-1$ un arbre binaire. On pourra utiliser $-1$ pour représenter une feuille vide.
 5. Donnez `arbre* create()` qui retourne un arbre vide.
 5. Donnez `bool is_in(arbre* a, int v)` qui retourne vrai si `v` est dans `a`, que l'on suppose être un arbre binaire de recherche.
@@ -125,11 +125,11 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE5OTI3ODEsLTg2NjAzNTE4MCwtMTAzMz
-QyODU3OCwxMjA0MDQ1ODgwLC0yMTMwMjkyMTAwLC0xODg0Mjc2
-NTI2LC0xNTA5ODYyOTc3LC02ODQyNjIwMzEsODM2MTU4NDg1LD
-E2MDAwMjIzNzEsMTg5OTYwNjk0NiwxNzI2ODk5OTc0LDI4NDM1
-MzE5NywtMTgwNDU5MDAyNywyMDAzMDkwNjIxLC0yMTc4NzI4Nz
-AsMTM2MjEwMzM0Miw2NzI4NTQ5OTUsMTIwODYzMzIwMCw5MTMy
-MjU2NzVdfQ==
+eyJoaXN0b3J5IjpbMjgxMTAxMzg3LC04NjYwMzUxODAsLTEwMz
+M0Mjg1NzgsMTIwNDA0NTg4MCwtMjEzMDI5MjEwMCwtMTg4NDI3
+NjUyNiwtMTUwOTg2Mjk3NywtNjg0MjYyMDMxLDgzNjE1ODQ4NS
+wxNjAwMDIyMzcxLDE4OTk2MDY5NDYsMTcyNjg5OTk3NCwyODQz
+NTMxOTcsLTE4MDQ1OTAwMjcsMjAwMzA5MDYyMSwtMjE3ODcyOD
+cwLDEzNjIxMDMzNDIsNjcyODU0OTk1LDEyMDg2MzMyMDAsOTEz
+MjI1Njc1XX0=
 -->
