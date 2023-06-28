@@ -59,7 +59,7 @@ Un arbre canonique peut-être représenté par un tableau qui à chaque hauteur 
 
 
 
-## Arbre de mots
+## Arbre préfixes
 On ce donne le type suivant d'arbre en C :
 ```c
 struct arbre_mot {
@@ -76,14 +76,9 @@ On dit qu'un mot $(a_n)_{n\le p}$ appartient à un `arbre_mot` si il existe un c
 3. Donnez `bool is_in(arbre_mot* a, int* mot, int n)` qui test si un `mot` de longueur `n` appartient à `a`
 4. Montrez que deux mots sont dans le même sous-arbre enraciné à une distance $n$ de la racine ssi leur $n$ premières lettres sont les mêmes.
 5. Donnez `void add(arbre_mot* a, int* mot, int n)` qui ajoute à `a` le mot `mot` de longueur `n`. On utilisera une assertion pour vérifier que l'allocation dynamique de mémoire est bien réalisée.
-6. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`. On resommets.
+6. Donnez `void remove(arbre_mot* a, int* mot, int n)` qui retire à `a` le mot `mot` de longueur `n`.
 
 
-## Arbre canonique, suite
-On souhaite rajouter sur chaque sommet un entirera aussi tout les maillons de l'arbre qui ne sont plus utilisés.
-7. Donnez `int distance(arbre_mot* a, int* mot, int n)` qui à un mot associe le nombre minimal de lettres à modifier pour qu'il appartienne à `a`. On retournera $-1$ si il n'y a pas de mot de long positifs.
-
-3. Modifier la définition de `tree` pour effectueur `n` dans `a`
 
 ## Tas binaires
 
@@ -130,11 +125,11 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTA1MTkyNDQsLTg2NjAzNTE4MCwtMT
-AzMzQyODU3OCwxMjA0MDQ1ODgwLC0yMTMwMjkyMTAwLC0xODg0
-Mjc2NTI2LC0xNTA5ODYyOTc3LC02ODQyNjIwMzEsODM2MTU4ND
-g1LDE2MDAwMjIzNzEsMTg5OTYwNjk0NiwxNzI2ODk5OTc0LDI4
-NDM1MzE5NywtMTgwNDU5MDAyNywyMDAzMDkwNjIxLC0yMTc4Nz
-I4NzAsMTM2MjEwMzM0Miw2NzI4NTQ5OTUsMTIwODYzMzIwMCw5
-MTMyMjU2NzVdfQ==
+eyJoaXN0b3J5IjpbMjE5OTI3ODEsLTg2NjAzNTE4MCwtMTAzMz
+QyODU3OCwxMjA0MDQ1ODgwLC0yMTMwMjkyMTAwLC0xODg0Mjc2
+NTI2LC0xNTA5ODYyOTc3LC02ODQyNjIwMzEsODM2MTU4NDg1LD
+E2MDAwMjIzNzEsMTg5OTYwNjk0NiwxNzI2ODk5OTc0LDI4NDM1
+MzE5NywtMTgwNDU5MDAyNywyMDAzMDkwNjIxLC0yMTc4NzI4Nz
+AsMTM2MjEwMzM0Miw2NzI4NTQ5OTUsMTIwODYzMzIwMCw5MTMy
+MjU2NzVdfQ==
 -->
