@@ -78,7 +78,7 @@ typedef struct liste liste;
 2. Donnez `void add(liste* li, int v)` qui à une liste `li` ajoute en tête le chainon contenant la valeur `v`. On utilisera une assertion pour vérifier que l’allocation dynamique de mémoire est bien réalisée.
 3. Donnez `void remove(liste* li, int v)` qui retire tous les maillons ayant `v` comme valeur à `li`.
 4. Donnez `bool is_cyclique(liste* li)` qui détecte si un cycle est présent ou non dans la liste, en $O(n)$ avec $n$ la longueur de la liste.
-5. Transformer la fonction pour qu'elle transforme la liste en une liste acyclique sans perdre aucun maillon. On veillera à toujours le faire en $O(n)$ en complexité temporelle et $O(1)$ en complexité spatiale. 
+5. Transformer la fonction pour qu'elle transforme la liste en une liste acyclique sans perdre aucun maillon. On cherchera la meilleur complexité.
 
 ## Liste générée
 
@@ -93,5 +93,5 @@ On ce donne le type suivant en OCaml :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDkzNDA2Nl19
+eyJoaXN0b3J5IjpbLTExMDYyMzUxNywxMDE0OTM0MDY2XX0=
 -->
