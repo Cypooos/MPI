@@ -24,7 +24,7 @@ On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 
 Un *arbre d'intervalles* est un arbre binaire de recherche dont tous les nœuds contiennent un intervalle de la forme $[a; b]$, dont les clefs sont $(a,b)$ dans l'ordre lexicographique définie par la relation d'ordre $\preceq$ :
 $$(a,x)\preceq (b,y) \iff a<b \lor (a=b \land x\le y)$$
-ensembles de mots
+
 On ce donne le type suivant en Ocaml :
 ```ocaml
 type intervalle = int * int;;
@@ -133,11 +133,11 @@ On rajoute donc au tableau représentant l'arbre canonique le tableau $[\![x_1,\
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjAzNTE4MCwtMTAzMzQyODU3OCwxMj
-A0MDQ1ODgwLC0yMTMwMjkyMTAwLC0xODg0Mjc2NTI2LC0xNTA5
-ODYyOTc3LC02ODQyNjIwMzEsODM2MTU4NDg1LDE2MDAwMjIzNz
-EsMTg5OTYwNjk0NiwxNzI2ODk5OTc0LDI4NDM1MzE5NywtMTgw
-NDU5MDAyNywyMDAzMDkwNjIxLC0yMTc4NzI4NzAsMTM2MjEwMz
-M0Miw2NzI4NTQ5OTUsMTIwODYzMzIwMCw5MTMyMjU2NzUsLTIx
-ODE3NjMwMl19
+eyJoaXN0b3J5IjpbLTExNzAyNjk1ODQsLTg2NjAzNTE4MCwtMT
+AzMzQyODU3OCwxMjA0MDQ1ODgwLC0yMTMwMjkyMTAwLC0xODg0
+Mjc2NTI2LC0xNTA5ODYyOTc3LC02ODQyNjIwMzEsODM2MTU4ND
+g1LDE2MDAwMjIzNzEsMTg5OTYwNjk0NiwxNzI2ODk5OTc0LDI4
+NDM1MzE5NywtMTgwNDU5MDAyNywyMDAzMDkwNjIxLC0yMTc4Nz
+I4NzAsMTM2MjEwMzM0Miw2NzI4NTQ5OTUsMTIwODYzMzIwMCw5
+MTMyMjU2NzVdfQ==
 -->
