@@ -190,7 +190,7 @@ On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ 
 > On vérifie les différentes propriétés, qui découle immédiatement du chemin dans G ( "$a,b$ sont dans les mêmes composantes faiblement connexe" est bien une relation d'équivalence) :
 >  - Symétrie : si $a=_\beta b$, alors on a un chemin $(M_{i\le n})_i$ de $a$ vers $b$. En prenant le chemin $(M_{n-i+1})_i$, on a bien une chemin de $b$ vers $a$
 >  - Réflexivité : On a $(a)$ qui est un chemin qui conviens à montrer que $a =_\beta a$.
->   - Transitivité : On suppose que l'on ai $a =_\beta b$ et $b =_\beta c$. Alors on a $a = e_1 \lrarr ... \lrarr e_n = b$ et $b = e'_1 \lrarr ... \lrarr e'_n = c$, donc en concaténant les chemins, on a $a=e_1 $
+>   - Transitivité : On suppose que l'on ai $a =_\beta b$ et $b =_\beta c$. Alors on a $a = e_1 \lrarr ... \lrarr e_n = b$ et $b = e'_1 \lrarr ... \lrarr e'_m = c$, donc en concaténant les chemins, on a $a=e_1 \lrarr ... \lrarr e_{n-1} \lrarr e'_1 \lrarr ... \lrarr e'_m = c$ un chemin de $a$ à $c$, donc $a=_\beta c$
 
  > On peut aussi dire que comme les composantes faiblement connexe de $G$ forme une partition de $E$, on a que $=_\beta$ est la relation d'équivalence qui est associé à cette partition.
 
@@ -489,11 +489,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQ4MTc1NTgsLTYyMTE4NTE0MSwxNT
-c3MTI5MjkwLC01ODc1Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0
-NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LD
-ExMjA2MTcyNTAsNzgzNTcxODksNjkyMTYzNDMsLTE3Nzg2Njkz
-NzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03OD
-kzMDk0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3
-OV19
+eyJoaXN0b3J5IjpbMTAzOTI3MTIzMiwtNjIxMTg1MTQxLDE1Nz
+cxMjkyOTAsLTU4NzUyOTkwMSwtNjk2MDgxNzEzLC0xNTk1MjQ3
+NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1MiwzOTMwNzk1MTcsMT
+EyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNjM0MywtMTc3ODY2OTM3
+MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OT
+MwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OTU5Mzc5
+XX0=
 -->
