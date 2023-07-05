@@ -190,9 +190,9 @@ On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ 
 > On vérifie les différentes propriétés, qui découle immédiatement du chemin dans G ( "$a,b$ sont dans les mêmes composantes faiblement connexe" est bien une relation d'équivalence) :
 >  - Symétrie : si $a=_\beta b$, alors on a un chemin $(M_{i\le n})_i$ de $a$ vers $b$. En prenant le chemin $(M_{n-i+1})_i$, on a bien une chemin de $b$ vers $a$
 >  - Réflexivité : On a $(a)$ qui est un chemin qui conviens à montrer que $a =_\beta a$.
->   - Transitivité : On suppose que l'on ai $a =_\beta b$ et $b =_\beta c$. Alors on a $a = e_1 \lrarr ... \lrarr e_n = b$ et $b = e'_1 \lrarr ... \lrarr e'_n = c$, donc en concaténant les chemins, on a $a=$
+>   - Transitivité : On suppose que l'on ai $a =_\beta b$ et $b =_\beta c$. Alors on a $a = e_1 \lrarr ... \lrarr e_n = b$ et $b = e'_1 \lrarr ... \lrarr e'_n = c$, donc en concaténant les chemins, on a $a=e_1 $
 
- 
+ > On peut aussi dire que comme les composantes faiblement connexe de $G$ forme une partition de $E$, on a que $=_\beta$ est la relation d'équivalence qui est associé à cette partition.
 
 ## Le théorème de _Church-Rosser_
 
@@ -489,7 +489,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDkyMzIxNTMsLTYyMTE4NTE0MSwxNT
+eyJoaXN0b3J5IjpbLTEwNDQ4MTc1NTgsLTYyMTE4NTE0MSwxNT
 c3MTI5MjkwLC01ODc1Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0
 NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LD
 ExMjA2MTcyNTAsNzgzNTcxODksNjkyMTYzNDMsLTE3Nzg2Njkz
