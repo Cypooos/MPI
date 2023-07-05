@@ -100,7 +100,7 @@ $$
 
 > On pose $\Delta'=(x\mapsto x(x)(x))$.
 > On a alors $\Delta'(\Delta') \to \Delta'(\Delta')(\Delta') \to \Delta'(\Delta')(\Delta')(\Delta') \to ...$
-> Qui donne donc un $S_{\Delta'(\Delta')}$ infinie, donc un graphe fini (qui est le même graphe que la série de dérivation donnée plus haut)
+> Qui donne donc un $S_{\Delta'(\Delta')}$ infinie, donc un graphe infini (qui est le même graphe que la série de dérivation donnée plus haut)
 
 6. Montrez que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire.
 
@@ -490,11 +490,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTE4NTE0MSwxNTc3MTI5MjkwLC01OD
-c1Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4
-ODMxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNz
-gzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2
-LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMD
-k1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OSwxMzI4MjM4NDcw
-XX0=
+eyJoaXN0b3J5IjpbNjI2NDE2MDYsLTYyMTE4NTE0MSwxNTc3MT
+I5MjkwLC01ODc1Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0NzQw
+NywxMjgyNTc4ODMxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDExMj
+A2MTcyNTAsNzgzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAs
+MzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMD
+k0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OV19
+
 -->
