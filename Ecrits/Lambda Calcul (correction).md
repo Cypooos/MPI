@@ -226,8 +226,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > Cela conclu la preuve.
 12. Montrez que si $a\triangleright b$, alors $a\to^* b$
 
-> Supposons que $a\triangleright b$. On montre par induction que la forme de $b$ que $a\to^* b$ :
-> - Si $b=e_1(e_2)$
+> On montre par induction sur les 4 règles de la dérivation parallèle que si $a\triangleright b$ alors $a\to^* b$ 
 
 13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : Procédez par induction sur la forme de $t$
@@ -490,11 +489,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTY0MjcyMzAsLTE3MTMyMzEwMTcsLT
-YyMTE4NTE0MSwxNTc3MTI5MjkwLC01ODc1Mjk5MDEsLTY5NjA4
-MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0NT
-IsMzkzMDc5NTE3LDExMjA2MTcyNTAsNzgzNTcxODksNjkyMTYz
-NDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMsNz
-czNDg4MDc4LC03ODkzMDk0MTgsNzMyMDk1MjYxLC0xMDczNDE2
-MDE5XX0=
+eyJoaXN0b3J5IjpbLTEwNDU4NDgyOSwtMjAxNjQyNzIzMCwtMT
+cxMzIzMTAxNywtNjIxMTg1MTQxLDE1NzcxMjkyOTAsLTU4NzUy
+OTkwMSwtNjk2MDgxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4Mz
+EsLTc2NDYzMzQ1MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3ODM1
+NzE4OSw2OTIxNjM0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYsMj
+AzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOTUy
+NjFdfQ==
 -->
