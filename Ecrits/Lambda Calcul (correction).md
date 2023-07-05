@@ -237,7 +237,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > Par induction, on a $t\to^* t'$ et $x\to^* x'$. On a donc le calcul $t(x) \to^* t(x') \to^* t'(x')$
 > 
 > - Règle 4: si $(x\mapsto t)(u) \triangleright t'[x\larr u']$ avec $t \triangleright t'$ et $u \triangleright u'$.
->  Par induction, on a $t\to^* t'$ et $u\to^* u'$. On fait d'pose donc le calcul :
+>  Par induction, on a $t\to^* t'$ et $u\to^* u'$. On pose donc le calcul constitué du calcul de $u$, puis de $t$, puis de l’évaluation :
 >  $(x\mapsto t)(u) \to^* (x\mapsto t)(u') \to^* (x\mapsto t')(u') \to t'[x\larr u']$
 
 13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
@@ -501,11 +501,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDQwNzg3NCwtMjAxNjQyNzIzMCwtMT
-cxMzIzMTAxNywtNjIxMTg1MTQxLDE1NzcxMjkyOTAsLTU4NzUy
-OTkwMSwtNjk2MDgxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4Mz
-EsLTc2NDYzMzQ1MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3ODM1
-NzE4OSw2OTIxNjM0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYsMj
-AzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOTUy
-NjFdfQ==
+eyJoaXN0b3J5IjpbNTk4NTg0MDUzLC0yMDE2NDI3MjMwLC0xNz
+EzMjMxMDE3LC02MjExODUxNDEsMTU3NzEyOTI5MCwtNTg3NTI5
+OTAxLC02OTYwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMS
+wtNzY0NjMzNDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3
+MTg5LDY5MjE2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMD
+M5Mzk5NzczLDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2
+MV19
 -->
