@@ -104,8 +104,7 @@ $$
 
 6. Montrez que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire.
 
-> Tout les calculs partant de $e$ sont fini, et de longueur inférieur à la profondeur de l'arbre si on l'enracine en $e$.
-> Supposons par l'absurde que $e$ n'est pas unitaire. On a alors $(A_n)_n$ un calcul infini. Donc on a un chemin dans le graphe des réduction de longueur infinie. Or les états sur le chemin sont tous deux à deux différents car le graphe est acyclique, donc il y a une infinité d'états, donc le graphe est infini, absurde.
+> Supposons par l'absurde que $e$ n'est pas unitaire. On a alors $(A_n)_n$ un calcul infini. Donc on a un chemin dans le graphe des réductions de longueur infinie. Or les états sur le chemin sont tous deux à deux différents car le graphe est acyclique, donc il y a une infinité d'états, donc le graphe est infini, absurde.
 
 ## Booléens
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
@@ -188,7 +187,7 @@ On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ 
 
 10. Montrez que $=_\beta$ est une relation d'équivalence sur E. 
 
-> On vérifie les différentes propriétés, qui découle immédiatement du chemin dans G ( "$a,b$ sont dans les même composante faiblement connexe" est bien une relation d'équivalence) :
+> On vérifie les différentes propriétés, qui découle immédiatement du chemin dans G ( "$a,b$ sont dans les mêmes composantes faiblement connexe" est bien une relation d'équivalence) :
 >  - Symétrie : si $a=_\beta b$, alors on a un chemin $(M_{i\le n})_i$ de $a$ vers $b$. En prenant le chemin $(M_{n-i+1})_i$, on a bien une chemin de $b$ vers $a$
 >  - Réflexivité : le chemin vide conviens.
 >   - Transitivité : On concatène les chemins.
@@ -490,11 +489,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI2NDE2MDYsLTYyMTE4NTE0MSwxNTc3MT
-I5MjkwLC01ODc1Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0NzQw
-NywxMjgyNTc4ODMxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDExMj
-A2MTcyNTAsNzgzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAs
-MzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMD
-k0MTgsNzMyMDk1MjYxLC0xMDczNDE2MDE5LDQ4OTk1OTM3OV19
-
+eyJoaXN0b3J5IjpbLTM1NjA5NzQzMCwtNjIxMTg1MTQxLDE1Nz
+cxMjkyOTAsLTU4NzUyOTkwMSwtNjk2MDgxNzEzLC0xNTk1MjQ3
+NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1MiwzOTMwNzk1MTcsMT
+EyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNjM0MywtMTc3ODY2OTM3
+MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OT
+MwOTQxOCw3MzIwOTUyNjEsLTEwNzM0MTYwMTksNDg5OTU5Mzc5
+XX0=
 -->
