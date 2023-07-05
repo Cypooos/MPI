@@ -226,7 +226,9 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > Cela conclu la preuve.
 12. Montrez que si $a\triangleright b$, alors $a\to^* b$
 
-> On montre par induction sur les 4 règles de la dérivation parallèle que si $a\triangleright b$ alors $a\to^* b$ 
+> On montre par induction sur les 4 règles de la dérivation parallèle que si $a\triangleright b$ alors $a\to^* b$ :
+> - règle 1: Cas $a\triangleright a$ : On a trivialement $a\to^* a$ (calcul vide)
+> - Cas $a\triangleright $
 
 13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : Procédez par induction sur la forme de $t$
@@ -489,11 +491,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDU4NDgyOSwtMjAxNjQyNzIzMCwtMT
-cxMzIzMTAxNywtNjIxMTg1MTQxLDE1NzcxMjkyOTAsLTU4NzUy
-OTkwMSwtNjk2MDgxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4Mz
-EsLTc2NDYzMzQ1MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3ODM1
-NzE4OSw2OTIxNjM0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYsMj
-AzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOTUy
-NjFdfQ==
+eyJoaXN0b3J5IjpbOTg0ODc3NjU5LC0yMDE2NDI3MjMwLC0xNz
+EzMjMxMDE3LC02MjExODUxNDEsMTU3NzEyOTI5MCwtNTg3NTI5
+OTAxLC02OTYwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMS
+wtNzY0NjMzNDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3
+MTg5LDY5MjE2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMD
+M5Mzk5NzczLDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2
+MV19
 -->
