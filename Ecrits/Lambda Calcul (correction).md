@@ -231,10 +231,12 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  On a trivialement $a\to^* a$ (calcul vide)
 > 
 > - Règle 2, si $x\mapsto t \triangleright x'\mapsto t'$ avec $x \triangleright x'$ et $t \triangleright t'$:
-> Par induction, on a $x\to^* x'$ et $t\to^* t'$. Comme $x\in V$, $x$ est sous forme normale, le calcul de $x$ à $x'$ est nécessairement vide, et donc $x=x'$.  Donc on a par le même calcul qui passe de $t$ à $t'$ $(x\mapsto t) = (x'\mapsto t) \to^* (x'\mapsto t')$
+> Par induction, on a $x\to^* x'$ et $t\to^* t'$. Comme $x\in V$, $x$ est sous forme normale, le calcul de $x$ à $x'$ est nécessairement vide, et donc $x=x'$.  Donc on a par le même calcul qui passe de $t$ à $t'$:  $(x\mapsto t) = (x'\mapsto t) \to^* (x'\mapsto t')$
 > 
 > - Règle 3: si $t(x)\triangleright t'(x')$ avec $t\triangleright t'$ et $x\triangleright x'$ :
-> Par induction, on a $t\to^* t'$ et $x\to^* x'$. On pose $(e_i)_i$ le calcul de $$
+> Par induction, on a $t\to^* t'$ et $x\to^* x'$. On a donc le calcul $t(x) \to^* t(x') \to^* t'(x')$
+> 
+> - Règle 4: $(x\mapsto t)(u) \triangleright t'[x\larr u']$ si $t \triangleright t'$ et $u \triangleright u'$
 
 13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : Procédez par induction sur la forme de $t$
@@ -497,11 +499,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwMjk5MTM5LC0yMDE2NDI3MjMwLC0xNz
-EzMjMxMDE3LC02MjExODUxNDEsMTU3NzEyOTI5MCwtNTg3NTI5
-OTAxLC02OTYwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMS
-wtNzY0NjMzNDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3
-MTg5LDY5MjE2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMD
-M5Mzk5NzczLDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2
-MV19
+eyJoaXN0b3J5IjpbLTE2NzgyODg1MzksLTIwMTY0MjcyMzAsLT
+E3MTMyMzEwMTcsLTYyMTE4NTE0MSwxNTc3MTI5MjkwLC01ODc1
+Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4OD
+MxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNzgz
+NTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0NjE2LD
+IwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0MTgsNzMyMDk1
+MjYxXX0=
 -->
