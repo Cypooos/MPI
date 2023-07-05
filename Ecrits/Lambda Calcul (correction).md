@@ -228,7 +228,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 > On montre par induction sur les 4 règles de la dérivation parallèle que si $a\triangleright b$ alors $a\to^* b$ :
 > - Règle 1: Cas $a\triangleright a$ : On a trivialement $a\to^* a$ (calcul vide)
-> - Règle 2: si $x\mapsto t \triangleright x'\mapsto t'$ avec $x \triangleright x'$ et $t \triangleright t'$. Par induction, on a $x\to^* x'$ et $t\to^* t'$. Donc on a $$
+> - Règle 2: si $x\mapsto t \triangleright x'\mapsto t'$ avec $x \triangleright x'$ et $t \triangleright t'$. Comme $x\in V$, on a $x\tox'$. Par induction, on a $t\to^* t'$. Donc on a par le même calcul $x\mapsto t = x'\mapsto t$
 
 13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : Procédez par induction sur la forme de $t$
@@ -491,7 +491,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjE5NjI0ODIsLTIwMTY0MjcyMzAsLT
+eyJoaXN0b3J5IjpbLTE4NTc3MjM5MDIsLTIwMTY0MjcyMzAsLT
 E3MTMyMzEwMTcsLTYyMTE4NTE0MSwxNTc3MTI5MjkwLC01ODc1
 Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4OD
 MxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNzgz
