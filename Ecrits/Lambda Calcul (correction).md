@@ -227,13 +227,14 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 12. Montrez que si $a\triangleright b$, alors $a\to^* b$
 
 > On montre par induction sur les 4 règles de la dérivation parallèle que si $a\triangleright b$ alors $a\to^* b$ :
-> - Règle 1, si $a\triangleright a$ :
+> - Règle 1, case de base, si $a\triangleright a$ :
 >  On a trivialement $a\to^* a$ (calcul vide)
 > 
-> - Règle 2:
-> si $x\mapsto t \triangleright x'\mapsto t'$ avec $x \triangleright x'$ et $t \triangleright t'$. Par induction, on a $x\to^* x'$ et $t\to^* t'$. Comme $x\in V$, $x$ est sous forme normale, le calcul de $x$ à $x'$ est nécessairement vide, et donc $x=x'$.  Donc on a par le même calcul qui passe de $t$ à $t'$ $(x\mapsto t) = (x'\mapsto t) \to^* (x'\mapsto t')$
+> - Règle 2, si $x\mapsto t \triangleright x'\mapsto t'$ avec $x \triangleright x'$ et $t \triangleright t'$:
+> Par induction, on a $x\to^* x'$ et $t\to^* t'$. Comme $x\in V$, $x$ est sous forme normale, le calcul de $x$ à $x'$ est nécessairement vide, et donc $x=x'$.  Donc on a par le même calcul qui passe de $t$ à $t'$ $(x\mapsto t) = (x'\mapsto t) \to^* (x'\mapsto t')$
 > 
-> - Règle 3: si $t(x)\triangleright t'(x')$ si $t\triangleright t'$ et $x\triangleright x'$
+> - Règle 3: si $t(x)\triangleright t'(x')$ avec $t\triangleright t'$ et $x\triangleright x'$ :
+> Par induction, on a $t\to^* t'$ et $x\to^* x'$. On pose $(e_i)_i$ le calcul de $$
 
 13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : Procédez par induction sur la forme de $t$
@@ -496,11 +497,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTY2NjY1NywtMjAxNjQyNzIzMCwtMT
-cxMzIzMTAxNywtNjIxMTg1MTQxLDE1NzcxMjkyOTAsLTU4NzUy
-OTkwMSwtNjk2MDgxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4Mz
-EsLTc2NDYzMzQ1MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3ODM1
-NzE4OSw2OTIxNjM0MywtMTc3ODY2OTM3MCwzMTQzODQ2MTYsMj
-AzOTM5OTc3Myw3NzM0ODgwNzgsLTc4OTMwOTQxOCw3MzIwOTUy
-NjFdfQ==
+eyJoaXN0b3J5IjpbOTIwMjk5MTM5LC0yMDE2NDI3MjMwLC0xNz
+EzMjMxMDE3LC02MjExODUxNDEsMTU3NzEyOTI5MCwtNTg3NTI5
+OTAxLC02OTYwODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMS
+wtNzY0NjMzNDUyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3
+MTg5LDY5MjE2MzQzLC0xNzc4NjY5MzcwLDMxNDM4NDYxNiwyMD
+M5Mzk5NzczLDc3MzQ4ODA3OCwtNzg5MzA5NDE4LDczMjA5NTI2
+MV19
 -->
