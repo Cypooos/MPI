@@ -227,8 +227,13 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 12. Montrez que si $a\triangleright b$, alors $a\to^* b$
 
 > On montre par induction sur les 4 règles de la dérivation parallèle que si $a\triangleright b$ alors $a\to^* b$ :
-> - Règle 1: Cas $a\triangleright a$ : On a trivialement $a\to^* a$ (calcul vide)
-> - Règle 2: si $x\mapsto t \triangleright x'\mapsto t'$ avec $x \triangleright x'$ et $t \triangleright t'$. Par induction, on a $x\to^* x'$ et $t\to^* t'$. Comme $x\in V$, $x$ est sous forme normale, le calcul de $x$ à $x'$ est nécessairement vide, et donc $x=x'$.  Donc on a par le même calcul $x\mapsto t = x'\mapsto t$
+> - Règle 1, si $a\triangleright a$ :
+>  On a trivialement $a\to^* a$ (calcul vide)
+> 
+> - Règle 2:
+> si $x\mapsto t \triangleright x'\mapsto t'$ avec $x \triangleright x'$ et $t \triangleright t'$. Par induction, on a $x\to^* x'$ et $t\to^* t'$. Comme $x\in V$, $x$ est sous forme normale, le calcul de $x$ à $x'$ est nécessairement vide, et donc $x=x'$.  Donc on a par le même calcul qui passe de $t$ à $t'$ $(x\mapsto t) = (x'\mapsto t) \to^* (x'\mapsto t')$
+> 
+> - Règle 3: si $t(x)\triangleright t'(x')$ si $t\triangleright t'$ et $x\triangleright x'$
 
 13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : Procédez par induction sur la forme de $t$
@@ -491,7 +496,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMzExODEwOCwtMjAxNjQyNzIzMCwtMT
+eyJoaXN0b3J5IjpbMTkzOTY2NjY1NywtMjAxNjQyNzIzMCwtMT
 cxMzIzMTAxNywtNjIxMTg1MTQxLDE1NzcxMjkyOTAsLTU4NzUy
 OTkwMSwtNjk2MDgxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4Mz
 EsLTc2NDYzMzQ1MiwzOTMwNzk1MTcsMTEyMDYxNzI1MCw3ODM1
