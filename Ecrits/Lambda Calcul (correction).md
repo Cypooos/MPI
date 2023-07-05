@@ -189,8 +189,8 @@ On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ 
 
 > On vérifie les différentes propriétés, qui découle immédiatement du chemin dans G ( "$a,b$ sont dans les mêmes composantes faiblement connexe" est bien une relation d'équivalence) :
 >  - Symétrie : si $a=_\beta b$, alors on a un chemin $(M_{i\le n})_i$ de $a$ vers $b$. En prenant le chemin $(M_{n-i+1})_i$, on a bien une chemin de $b$ vers $a$
->  - Réflexivité : le chemin vide conviens.
->   - Transitivité : On concatène les chemins.
+>  - Réflexivité : On a $(a)$ qui est un chemin qui conviens à montrer que $a =_\beta a$.
+>   - Transitivité : On suppose que l'on ai $a = e_1 $
 
  
 
@@ -489,7 +489,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NjA5NzQzMCwtNjIxMTg1MTQxLDE1Nz
+eyJoaXN0b3J5IjpbLTg4NDgyMzMwNywtNjIxMTg1MTQxLDE1Nz
 cxMjkyOTAsLTU4NzUyOTkwMSwtNjk2MDgxNzEzLC0xNTk1MjQ3
 NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1MiwzOTMwNzk1MTcsMT
 EyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNjM0MywtMTc3ODY2OTM3
