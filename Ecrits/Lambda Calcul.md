@@ -70,7 +70,7 @@ On définit les expressions suivantes :
 2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
 
 ## Graphe des réductions
-Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $A_e = \{(x,y)\in S_e^2 : x\to y \}$
+Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe orienté des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $A_e = \{(x,y)\in S_e^2 : x\to y \}$
 
 3. Donnez le graphe des réductions de $I(I(I))$, et de $K(I,\Delta(\Delta))$.
 4. Donnez une expression donnant un graphe des réductions infini.
@@ -267,6 +267,6 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Remarque : Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODg0MjU0NCwtNzA2MTg5OTM0LC0xMj
-A3ODM5Njg3LC02MzQ1NzEzNzBdfQ==
+eyJoaXN0b3J5IjpbLTE4NDc3NzE2MDQsLTU2ODg0MjU0NCwtNz
+A2MTg5OTM0LC0xMjA3ODM5Njg3LC02MzQ1NzEzNzBdfQ==
 -->
