@@ -79,7 +79,7 @@ On définit les expressions suivantes :
 > On suppose par l'absurde que $\Delta(\Delta)\to^ne_n$ avec $e_n$ sous forme normale. Alors on a $\Delta(\Delta)\to e_1\to e_2\to ...\to e_n$, et par récurrence, on a $e_i = \Delta(\Delta)$, donc $e_n =\Delta(\Delta)$ est sous forme normale, or $\Delta(\Delta)\to\Delta(\Delta)$, donc il existe une dérivation, c'est absurde.
 
 ## Graphe des réductions
-Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $A_e = \{(x,y)\in S_e^2 : x\to y \}$
+Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe orienté des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $A_e = \{(x,y)\in S_e^2 : x\to y \}$
 
 3. Donnez le graphe des réductions de $I(I(I))$, et de $K(I,\Delta(\Delta))$.
 
@@ -501,11 +501,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NjY3OTk5Niw1OTg1ODQwNTMsLTIwMT
-Y0MjcyMzAsLTE3MTMyMzEwMTcsLTYyMTE4NTE0MSwxNTc3MTI5
-MjkwLC01ODc1Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0NzQwNy
-wxMjgyNTc4ODMxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDExMjA2
-MTcyNTAsNzgzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMz
-E0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4MDc4LC03ODkzMDk0
-MThdfQ==
+eyJoaXN0b3J5IjpbNjI0NTgyNjI0LDEyODY2Nzk5OTYsNTk4NT
+g0MDUzLC0yMDE2NDI3MjMwLC0xNzEzMjMxMDE3LC02MjExODUx
+NDEsMTU3NzEyOTI5MCwtNTg3NTI5OTAxLC02OTYwODE3MTMsLT
+E1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMzNDUyLDM5MzA3
+OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5MjE2MzQzLC0xNz
+c4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5NzczLDc3MzQ4ODA3
+OF19
 -->
