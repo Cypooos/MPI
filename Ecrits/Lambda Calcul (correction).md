@@ -246,7 +246,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > - Règle 1, si $t = t'$, alors on procède par induction sur $t$:
 >    - Si $t=x$, alors $t[x \larr v] = v \triangleright v' = t'[x \larr v']$
 >    - Si $t= (x\mapsto e)$, alors $t[x \larr v] = t\ \triangleright t' = t'[x \larr v]$
->    - Si $t=(y\mapsto e)$ (avec $y\neq x$), alors 
+>    - Si $t=(y\mapsto e)$ (avec $y\neq x$), alors $$
 >    - Si $t=(e_1)(e_2)$, alors $t[x \larr v] = (e_1[x \larr v])(e_2[x \larr v])$ et par hypothèse d'induction, $e_1[x \larr v] \ \triangleright e_1[x \larr v']$ et $e_2[x \larr v] \ \triangleright e_2[x \larr v']$ ce qui montre par la règle 3 que $t[x \larr v]  \ \triangleright t'[x \larr v']$
 
 
@@ -509,11 +509,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzczMDcyMCwxMjg2Njc5OTk2LDU5OD
-U4NDA1MywtMjAxNjQyNzIzMCwtMTcxMzIzMTAxNywtNjIxMTg1
-MTQxLDE1NzcxMjkyOTAsLTU4NzUyOTkwMSwtNjk2MDgxNzEzLC
-0xNTk1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1MiwzOTMw
-Nzk1MTcsMTEyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNjM0MywtMT
-c3ODY2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgw
-NzhdfQ==
+eyJoaXN0b3J5IjpbLTE2MDIwNzQzMzYsMTI4NjY3OTk5Niw1OT
+g1ODQwNTMsLTIwMTY0MjcyMzAsLTE3MTMyMzEwMTcsLTYyMTE4
+NTE0MSwxNTc3MTI5MjkwLC01ODc1Mjk5MDEsLTY5NjA4MTcxMy
+wtMTU5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0NTIsMzkz
+MDc5NTE3LDExMjA2MTcyNTAsNzgzNTcxODksNjkyMTYzNDMsLT
+E3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4
+MDc4XX0=
 -->
