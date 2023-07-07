@@ -246,7 +246,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > - Règle 1, si $t = t'$, alors on procède par induction sur $t$:
 >    - Si $t=x$, alors $t[x \larr v] = v \triangleright v' = t'[x \larr v']$
 >    - Si $t= (x\mapsto e)$, alors $t[x \larr v] = t\ \triangleright t' = t'[x \larr v]$
->    - Si $t=(e_1)(e_2)$, alors $t[x \larr v] = (e_1[x \larr v])(e_2[x \larr v])$ et par hypo
+>    - Si $t=(e_1)(e_2)$, alors $t[x \larr v] = (e_1[x \larr v])(e_2[x \larr v])$ et par hypothèse d'induction, $e_1[x \larr v] \ \triangleright e_1[x \larr v']$ et $e_2[x \larr v] \ \triangleright e_2[x \larr v']$ ce qui montre par la règle 3 que $t[x \larr v]  \ \triangleright t'[x \larr v']$
 > Indication : Procédez par induction sur la forme de $t$
 
 
@@ -509,7 +509,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4MzUxMjMxLDEyODY2Nzk5OTYsNTk4NT
+eyJoaXN0b3J5IjpbNjcwMzA2OTg0LDEyODY2Nzk5OTYsNTk4NT
 g0MDUzLC0yMDE2NDI3MjMwLC0xNzEzMjMxMDE3LC02MjExODUx
 NDEsMTU3NzEyOTI5MCwtNTg3NTI5OTAxLC02OTYwODE3MTMsLT
 E1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMzNDUyLDM5MzA3
