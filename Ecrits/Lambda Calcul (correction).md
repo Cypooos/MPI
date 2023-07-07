@@ -241,7 +241,12 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  $(x\mapsto t)(u) \to^* (x\mapsto t)(u') \to^* (x\mapsto t')(u') \to t'[x\larr u']$
 
 13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
+
+> On raisonne par induction sur la forme de $t$ : 
+> - Si $t$
 > Indication : Procédez par induction sur la forme de $t$
+
+
 14. Montrez que $\triangleright$ respecte la *propriété du diamant*.
 15. En déduire le théorème de *Church-Rosser*.
 
@@ -501,11 +506,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0NTgyNjI0LDEyODY2Nzk5OTYsNTk4NT
-g0MDUzLC0yMDE2NDI3MjMwLC0xNzEzMjMxMDE3LC02MjExODUx
-NDEsMTU3NzEyOTI5MCwtNTg3NTI5OTAxLC02OTYwODE3MTMsLT
-E1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMzNDUyLDM5MzA3
-OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5MjE2MzQzLC0xNz
-c4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5NzczLDc3MzQ4ODA3
-OF19
+eyJoaXN0b3J5IjpbMTY2NDUwNzA0OCwxMjg2Njc5OTk2LDU5OD
+U4NDA1MywtMjAxNjQyNzIzMCwtMTcxMzIzMTAxNywtNjIxMTg1
+MTQxLDE1NzcxMjkyOTAsLTU4NzUyOTkwMSwtNjk2MDgxNzEzLC
+0xNTk1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1MiwzOTMw
+Nzk1MTcsMTEyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNjM0MywtMT
+c3ODY2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgw
+NzhdfQ==
 -->
