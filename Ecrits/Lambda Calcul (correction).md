@@ -242,8 +242,10 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 
-> On raisonne par induction sur la forme de $t\triangleright t'$ : 
-> - Si $t = t'$, alors on procède par  
+> On distingue les cas selon la forme de $t\triangleright t'$ : 
+> - Si $t = t'$, alors on procède par induction sur $t$:
+>    - Si $t=x$, alors $t[x \larr v] = v \triangleright v' = t'[x \larr v']$
+>    - Sinon, 
 > Indication : Procédez par induction sur la forme de $t$
 
 
@@ -506,11 +508,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTE2MTM1ODEsMTI4NjY3OTk5Niw1OT
-g1ODQwNTMsLTIwMTY0MjcyMzAsLTE3MTMyMzEwMTcsLTYyMTE4
-NTE0MSwxNTc3MTI5MjkwLC01ODc1Mjk5MDEsLTY5NjA4MTcxMy
-wtMTU5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0NTIsMzkz
-MDc5NTE3LDExMjA2MTcyNTAsNzgzNTcxODksNjkyMTYzNDMsLT
-E3Nzg2NjkzNzAsMzE0Mzg0NjE2LDIwMzkzOTk3NzMsNzczNDg4
-MDc4XX0=
+eyJoaXN0b3J5IjpbLTUzMTQwMjg5NywxMjg2Njc5OTk2LDU5OD
+U4NDA1MywtMjAxNjQyNzIzMCwtMTcxMzIzMTAxNywtNjIxMTg1
+MTQxLDE1NzcxMjkyOTAsLTU4NzUyOTkwMSwtNjk2MDgxNzEzLC
+0xNTk1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1MiwzOTMw
+Nzk1MTcsMTEyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNjM0MywtMT
+c3ODY2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgw
+NzhdfQ==
 -->
