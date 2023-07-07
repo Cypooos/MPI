@@ -245,7 +245,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > On procède par induction selon la règle obtenue pour avoir $t\triangleright t'$ : 
 > - Règle 1, si $t = t'$, alors on procède par induction sur $t$:
 >    - Si $t=x$, alors $t[x \larr v] = v \triangleright v' = t'[x \larr v']$
->    - Sinon, 
+>    - Si $t= (x\mapsto e)$, alors par induction $$
 > Indication : Procédez par induction sur la forme de $t$
 
 
@@ -508,11 +508,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1MzY4MywxMjg2Njc5OTk2LDU5ODU4ND
-A1MywtMjAxNjQyNzIzMCwtMTcxMzIzMTAxNywtNjIxMTg1MTQx
-LDE1NzcxMjkyOTAsLTU4NzUyOTkwMSwtNjk2MDgxNzEzLC0xNT
-k1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1MiwzOTMwNzk1
-MTcsMTEyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNjM0MywtMTc3OD
-Y2OTM3MCwzMTQzODQ2MTYsMjAzOTM5OTc3Myw3NzM0ODgwNzhd
-fQ==
+eyJoaXN0b3J5IjpbMzYxMTc0NDE4LDEyODY2Nzk5OTYsNTk4NT
+g0MDUzLC0yMDE2NDI3MjMwLC0xNzEzMjMxMDE3LC02MjExODUx
+NDEsMTU3NzEyOTI5MCwtNTg3NTI5OTAxLC02OTYwODE3MTMsLT
+E1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMzNDUyLDM5MzA3
+OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5MjE2MzQzLC0xNz
+c4NjY5MzcwLDMxNDM4NDYxNiwyMDM5Mzk5NzczLDc3MzQ4ODA3
+OF19
 -->
