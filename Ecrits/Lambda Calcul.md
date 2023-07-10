@@ -105,8 +105,6 @@ On dit que une relation $\mathcal{R}$ sur $E$ respecte la propriété du diamant
 
 Le théorème de Church-Rosser assure que la relation $\to^*$ respecte la propriété du diamant.
 
-
-
 Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que :
 - $x\triangleright x$
 - $x\mapsto t \triangleright x'\mapsto t'$ si $x \triangleright x'$ et $t \triangleright t'$
@@ -269,7 +267,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Remarque : Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0ODExMDIzLDE5MTI5NTMzMjMsLTE4ND
-c3NzE2MDQsLTU2ODg0MjU0NCwtNzA2MTg5OTM0LC0xMjA3ODM5
-Njg3LC02MzQ1NzEzNzBdfQ==
+eyJoaXN0b3J5IjpbMTkxMjk1MzMyMywxOTEyOTUzMzIzLC0xOD
+Q3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkzNCwtMTIwNzgz
+OTY4NywtNjM0NTcxMzcwXX0=
 -->
