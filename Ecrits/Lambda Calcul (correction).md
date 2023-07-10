@@ -230,8 +230,8 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > - Règle 1, case de base, si $a\triangleright a$ :
 >  On a trivialement $a\to^* a$ (calcul vide)
 > 
-> - Règle 2, si $x\mapsto t \triangleright x'\mapsto t'$ avec $x \triangleright x'$ et $t \triangleright t'$:
-> Par induction, on a $x\to^* x'$ et $t\to^* t'$. Comme $x\in V$, $x$ est sous forme normale, le calcul de $x$ à $x'$ est nécessairement vide, et donc $x=x'$.  Donc on a par le même calcul qui passe de $t$ à $t'$:  $(x\mapsto t) = (x'\mapsto t) \to^* (x'\mapsto t')$
+> - Règle 2, si $x\mapsto t \triangleright x\mapsto t'$ avec $t \triangleright t'$:
+> Par induction, on a $t\to^* t'$. Donc on a par le même calcul qui passe de $t$ à $t'$:  $(x\mapsto t) = (x'\mapsto t) \to^* (x'\mapsto t')$
 > 
 > - Règle 3: si $t(x)\triangleright t'(x')$ avec $t\triangleright t'$ et $x\triangleright x'$ :
 > Par induction, on a $t\to^* t'$ et $x\to^* x'$. On a donc le calcul $t(x) \to^* t(x') \to^* t'(x')$
@@ -510,11 +510,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzI0MTQ1OSw5MzA1MDQyNDksLTE2MD
-IwNzQzMzYsMTI4NjY3OTk5Niw1OTg1ODQwNTMsLTIwMTY0Mjcy
-MzAsLTE3MTMyMzEwMTcsLTYyMTE4NTE0MSwxNTc3MTI5MjkwLC
-01ODc1Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0NzQwNywxMjgy
-NTc4ODMxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDExMjA2MTcyNT
-AsNzgzNTcxODksNjkyMTYzNDMsLTE3Nzg2NjkzNzAsMzE0Mzg0
-NjE2XX0=
+eyJoaXN0b3J5IjpbLTUxMDgxOTk3NiwxMzgzMjQxNDU5LDkzMD
+UwNDI0OSwtMTYwMjA3NDMzNiwxMjg2Njc5OTk2LDU5ODU4NDA1
+MywtMjAxNjQyNzIzMCwtMTcxMzIzMTAxNywtNjIxMTg1MTQxLD
+E1NzcxMjkyOTAsLTU4NzUyOTkwMSwtNjk2MDgxNzEzLC0xNTk1
+MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1MiwzOTMwNzk1MT
+csMTEyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNjM0MywtMTc3ODY2
+OTM3MF19
 -->
