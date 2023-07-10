@@ -203,7 +203,7 @@ Le théorème de Church-Rosser assure que la relation $\to^*$ respecte la propri
 
 Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que :
 - $x\triangleright x$
-- $x\mapsto t \triangleright x'\mapsto t'$ si $x \triangleright x'$ et $t \triangleright t'$
+- $x\mapsto t \triangleright x\mapsto t'$si $t \triangleright t'$
 - $t(x)\triangleright t'(x')$ si $t\triangleright t'$ et $x\triangleright x'$
 - $(x\mapsto t)(u) \triangleright t'[x\larr u']$ si $t \triangleright t'$ et $u \triangleright u'$
 
@@ -248,8 +248,8 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >    - Si $t= (x\mapsto e)$, alors $t[x \larr v] = t\ \triangleright t' = t'[x \larr v]$
 >    - Si $t=(y\mapsto e)$ (avec $y\neq x$), alors $$
 >    - Si $t=(e_1)(e_2)$, alors $t[x \larr v] = (e_1[x \larr v])(e_2[x \larr v])$ et par hypothèse d'induction, $e_1[x \larr v] \ \triangleright e_1[x \larr v']$ et $e_2[x \larr v] \ \triangleright e_2[x \larr v']$ ce qui montre par la règle 3 que $t[x \larr v]  \ \triangleright t'[x \larr v']$
-> - Règle 2, si on a $t = x\mapsto e \triangleright x'\mapsto e' = t'$ avec $x \triangleright x'$ et $e \triangleright e'$, on a par induction que :
-$$t[x \larr v]= x\mapto$$
+> - Règle 2, si on a $t = y\mapsto e \triangleright y'\mapsto e' = t'$ avec $y \triangleright y'$ et $e \triangleright e'$, on a par induction que :
+$$t[x \larr v]= x\mapsto$$
 
 14. (*) Montrez que $\triangleright$ respecte la *propriété du diamant*.
 15. En déduire le théorème de *Church-Rosser*.
@@ -510,7 +510,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjQwODY2NSw5MzA1MDQyNDksLTE2MD
+eyJoaXN0b3J5IjpbMTM4MzI0MTQ1OSw5MzA1MDQyNDksLTE2MD
 IwNzQzMzYsMTI4NjY3OTk5Niw1OTg1ODQwNTMsLTIwMTY0Mjcy
 MzAsLTE3MTMyMzEwMTcsLTYyMTE4NTE0MSwxNTc3MTI5MjkwLC
 01ODc1Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0NzQwNywxMjgy
