@@ -231,7 +231,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  On a trivialement $a\to^* a$ (calcul vide)
 > 
 > - Règle 2, si $x\mapsto t \triangleright x\mapsto t'$ avec $t \triangleright t'$:
-> Par induction, on a $t\to^* t'$. Donc on a par le même calcul qui passe de $t$ à $t'$:  $(x\mapsto t) = (x'\mapsto t) \to^* (x'\mapsto t')$
+> Par induction, on a $t\to^* t'$. Donc on a par le même calcul qui passe de $t$ à $t'$:  $(x\mapsto t) \to^* (x'\mapsto t')$
 > 
 > - Règle 3: si $t(x)\triangleright t'(x')$ avec $t\triangleright t'$ et $x\triangleright x'$ :
 > Par induction, on a $t\to^* t'$ et $x\to^* x'$. On a donc le calcul $t(x) \to^* t(x') \to^* t'(x')$
@@ -510,7 +510,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDgxOTk3NiwxMzgzMjQxNDU5LDkzMD
+eyJoaXN0b3J5IjpbLTI3MzM1NjYyMSwxMzgzMjQxNDU5LDkzMD
 UwNDI0OSwtMTYwMjA3NDMzNiwxMjg2Njc5OTk2LDU5ODU4NDA1
 MywtMjAxNjQyNzIzMCwtMTcxMzIzMTAxNywtNjIxMTg1MTQxLD
 E1NzcxMjkyOTAsLTU4NzUyOTkwMSwtNjk2MDgxNzEzLC0xNTk1
