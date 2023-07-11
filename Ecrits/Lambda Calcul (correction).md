@@ -242,7 +242,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 ??. Montrez que, soit $t,t',e\in E$ et $x,y\in V$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
 
-13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
+13. (*) Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 
 > On procède par induction selon la règle obtenue pour avoir $t\triangleright t'$ : 
 > - Règle 1, si $t = t'$, alors on procède par induction sur $t$:
@@ -261,7 +261,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >   - Si $x \neq y$, alors $t[x\larr v] = (y\mapsto e[x\larr v])(u[x\larr v]) \triangleright e'[x\larr v'][y\larr u'[x\larr v']]=e'[y\larr u'][x\larr v'] = t'[x\larr v']$ (question 13prel)
 >   - Si $x=y$, alors $t[x\larr v] = (x\mapsto e)(u[x\larr v]) \triangleright e'[x\larr v]$
 
-but $t[x\larr v] = (x\mapsto e)(u[x\larr v]) \triangleright e'= e'[y\larr u'][x\larr v'] = t'[x\larr v']$
+but $t[x\larr v] = (x\mapsto e)(u[x\larr v]) \triangleright e'[x\larr u'] = e'[y\larr u'][x\larr v'] = t'[x\larr v']$
 
 14. (*) Montrez que $\triangleright$ respecte la *propriété du diamant*.
 15. En déduire le théorème de *Church-Rosser*.
@@ -527,11 +527,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTgyOTQzNSwtNjIyNjUxNjUwLDE1OT
-U1MzUxODgsLTIxMjM1NjY5MiwtMjczMzU2NjIxLDEzODMyNDE0
-NTksOTMwNTA0MjQ5LC0xNjAyMDc0MzM2LDEyODY2Nzk5OTYsNT
-k4NTg0MDUzLC0yMDE2NDI3MjMwLC0xNzEzMjMxMDE3LC02MjEx
-ODUxNDEsMTU3NzEyOTI5MCwtNTg3NTI5OTAxLC02OTYwODE3MT
-MsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMzNDUyLDM5
-MzA3OTUxN119
+eyJoaXN0b3J5IjpbLTEzNTYxOTgzMTEsLTYyMjY1MTY1MCwxNT
+k1NTM1MTg4LC0yMTIzNTY2OTIsLTI3MzM1NjYyMSwxMzgzMjQx
+NDU5LDkzMDUwNDI0OSwtMTYwMjA3NDMzNiwxMjg2Njc5OTk2LD
+U5ODU4NDA1MywtMjAxNjQyNzIzMCwtMTcxMzIzMTAxNywtNjIx
+MTg1MTQxLDE1NzcxMjkyOTAsLTU4NzUyOTkwMSwtNjk2MDgxNz
+EzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1Miwz
+OTMwNzk1MTddfQ==
 -->
