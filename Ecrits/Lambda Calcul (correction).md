@@ -425,11 +425,10 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 30. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
 
 > Soit $e$ sous forme normale. On peut donner $K(e)$.
-> OEn a deffet, onc aussi que $f(\text{fix}(f)) \to^* f(e)$ qui admet une forme normale $k$.
+> En effet, on a aussi que $f(\text{fix}(f)) \to^* f(e)$ qui admet une forme normale $k$.
 > Donc, par l'unicité de la forme normale, $k = e$.
 > On a donc $f pour $n>0$, que de $(K(e))^n\text{fix}(K(e))$, les seuls dérivations possibles sont $e$ ou $(K(I))^{n+1}\text{fix}(K(e))$.
 > Alors on a bien que pour tout calcul normalisant $\text{fix}(K(e)) \to^* k=e$, ce qui conclu la preuve.
-n a$, 
 
 31. (*) Donnez une expression $Y\Theta$ point-fixe.
 
@@ -564,11 +563,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM0ODc1NzE2LC0xMzU4NDk0MjA2LC0xMT
-U3NTQ0MzUwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2
-MjY5MSwtMTExNzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NTU5OD
-YwNSw3NTMxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3
-MjMyNTEyODQsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MD
-E5MzExMSwtNjIyNjUxNjUwLDE1OTU1MzUxODgsLTIxMjM1NjY5
-MiwtMjczMzU2NjIxXX0=
+eyJoaXN0b3J5IjpbLTEyMTkzMjYxNzMsLTEzNTg0OTQyMDYsLT
+ExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0
+MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NT
+k4NjA1LDc1MzE0ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQs
+MTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0xNDEzODg3MTUxLC0yMD
+cwMTkzMTExLC02MjI2NTE2NTAsMTU5NTUzNTE4OCwtMjEyMzU2
+NjkyLC0yNzMzNTY2MjFdfQ==
 -->
