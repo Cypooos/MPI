@@ -304,8 +304,9 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > - Si $M_i \rarr M_{i+1}$, alors on sait par la propriété du diamant sur $e_i$ et $M_{i+1}$, tout deux généré par $M_i$ qu'il existe $\alpha$ tel que $e_i \to^* \alpha$ et $M_{i+1}\to^* \alpha$.
 > On pose $e_{i+1} = \alpha$, et on a bien $M_0 \to^* e_i \to^* e_{i+1}$ et $M_{i+1}\to^* e_{i+1}$ 
 
-19. Donnez un contre-exemple à : $\forall e\in E, f(e)=_\beta g(e) \implies$
-
+19. Soit $f\in E$. Donnez un contre-exemple $g$ à : $(\forall e\in E, f(e)=_\beta g(e)) \implies f =_\beta g$
+> On peut prendre $g = y \mapsto f(y)$
+> On a bien, soit $e\in E$, $$
 # Partie III: Entiers et opérations
 
 ## Entiers de Church
@@ -553,7 +554,7 @@ Toute ces questions sont difficile.
 1. Donnez un opérateur point fixe tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
 3. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDE5NTg3NSwtMTQ4NTU5ODYwNSw3NT
+eyJoaXN0b3J5IjpbLTU3MzIzMjEyNSwtMTQ4NTU5ODYwNSw3NT
 MxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3MjMyNTEy
 ODQsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MDE5MzExMS
 wtNjIyNjUxNjUwLDE1OTU1MzUxODgsLTIxMjM1NjY5MiwtMjcz
