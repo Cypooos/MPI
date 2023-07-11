@@ -425,7 +425,8 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 30. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe fort.
 
 > Par la question 18, on a que $f(\text{fix}(f)) \to^* e$ et $\text{fix}(f) \to^* e$.
-> On a donc $f(e)$ $\to^n f(e) \to^* p$ qui est un calcul normalisant par hypothèse. Par l'unicité de la forme normale de $\text{fix}(f)$, $e=p$, don a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe fort.
+> On a donc $f(\text{fix}(f))\to^* f(e) \to^* p$ qui est un calcul normalisant par hypothèse.
+> Par l'unicité de la forme normale de $f(\text{fix}(f))$, $e\to^*p$, donc on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe fort.
 
 33. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
 
@@ -568,7 +569,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTg5ODQ4MiwtMTM1ODQ5NDIwNiwtMT
+eyJoaXN0b3J5IjpbMTY1OTc1MjgxMSwtMTM1ODQ5NDIwNiwtMT
 E1NzU0NDM1MCwxNDYzMDE3ODE2LC03NDE1ODQxNTIsLTE1MTQx
 NjI2OTEsLTExMTc2NTc4NTEsLTEzODI0OTQ4MjEsLTE0ODU1OT
 g2MDUsNzUzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwx
