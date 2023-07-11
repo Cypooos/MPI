@@ -271,7 +271,8 @@ $$t[x \larr v]= x\mapsto$$
 >  - Par la propriété du diamant appliqué à $x$ et $\alpha$, tout deux issues de $e$, on a un $w$ tel que $x\to^* w$ et $\alpha \to^* w$, or comme $\alpha$ est sous forme normale, on a $x\to^*w=\alpha$ 
 
 18. Montrez que si $a=_\beta b$, alors il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
-
+> On pose $(M_i)_i$ la suite finie dans $E$ tel que $a= M_0 \lrarr M_1 \lrarr ... \lrarr M_n = b$.
+> On montre par récurrence que 
 > TODO : le faire, par récurrence sur les $(M_i)_i$
 # Partie III: Entiers et opérations
 
@@ -510,11 +511,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzM1NjYyMSwxMzgzMjQxNDU5LDkzMD
-UwNDI0OSwtMTYwMjA3NDMzNiwxMjg2Njc5OTk2LDU5ODU4NDA1
-MywtMjAxNjQyNzIzMCwtMTcxMzIzMTAxNywtNjIxMTg1MTQxLD
-E1NzcxMjkyOTAsLTU4NzUyOTkwMSwtNjk2MDgxNzEzLC0xNTk1
-MjQ3NDA3LDEyODI1Nzg4MzEsLTc2NDYzMzQ1MiwzOTMwNzk1MT
-csMTEyMDYxNzI1MCw3ODM1NzE4OSw2OTIxNjM0MywtMTc3ODY2
-OTM3MF19
+eyJoaXN0b3J5IjpbMTE5MjEzMTA3MywtMjczMzU2NjIxLDEzOD
+MyNDE0NTksOTMwNTA0MjQ5LC0xNjAyMDc0MzM2LDEyODY2Nzk5
+OTYsNTk4NTg0MDUzLC0yMDE2NDI3MjMwLC0xNzEzMjMxMDE3LC
+02MjExODUxNDEsMTU3NzEyOTI5MCwtNTg3NTI5OTAxLC02OTYw
+ODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMzND
+UyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5MjE2
+MzQzXX0=
 -->
