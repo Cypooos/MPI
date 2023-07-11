@@ -306,7 +306,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 19. Soit $f\in E$. Donnez une expression contre-exemple $g$ à : $(\forall e\in E, f(e)=_\beta g(e)) \implies f =_\beta g$
 > On peut prendre $g = y \mapsto f(y)$
-> On a bien, soit $e\in E$, $g(e) = f(e)$, mais $f \not=_\beta g$ (les deux sont sous forme normale. S'ils étaient $=_\beta$équivalent, ils auraient eu la même forme normale)
+> On a bien, soit $e\in E$, $g(e) = f(e)$, mais $f \not=_\beta g$ (les deux sont sous forme normale, or s'ils étaient dans la même classe dans $=_\beta$, ils auraient eu la même forme normale)
 # Partie III: Entiers et opérations
 
 ## Entiers de Church
@@ -552,11 +552,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 1. Donnez un opérateur point fixe tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
 3. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODg4NTM1LC0xMzgyNDk0ODIxLC0xND
-g1NTk4NjA1LDc1MzE0ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5
-NDQsMTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0xNDEzODg3MTUxLC
-0yMDcwMTkzMTExLC02MjI2NTE2NTAsMTU5NTUzNTE4OCwtMjEy
-MzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1OSw5MzA1MDQyND
-ksLTE2MDIwNzQzMzYsMTI4NjY3OTk5Niw1OTg1ODQwNTMsLTIw
-MTY0MjcyMzBdfQ==
+eyJoaXN0b3J5IjpbMTYyMjU1Nzc5OSwtMTM4MjQ5NDgyMSwtMT
+Q4NTU5ODYwNSw3NTMxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQy
+OTQ0LDE3MjMyNTEyODQsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MS
+wtMjA3MDE5MzExMSwtNjIyNjUxNjUwLDE1OTU1MzUxODgsLTIx
+MjM1NjY5MiwtMjczMzU2NjIxLDEzODMyNDE0NTksOTMwNTA0Mj
+Q5LC0xNjAyMDc0MzM2LDEyODY2Nzk5OTYsNTk4NTg0MDUzLC0y
+MDE2NDI3MjMwXX0=
 -->
