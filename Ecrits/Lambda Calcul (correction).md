@@ -534,13 +534,16 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 > Remarque : Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
+## Pour aller plus loin
 
+1. Montrez que 
+2. Donnez un opérateur point fixe tel que $\text{fix}(f)$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwODkxNDM1LC0xNDg1NTk4NjA1LDc1Mz
-E0ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQsMTcyMzI1MTI4
-NCwxOTQ1NjI3NTAwLC0xNDEzODg3MTUxLC0yMDcwMTkzMTExLC
-02MjI2NTE2NTAsMTU5NTUzNTE4OCwtMjEyMzU2NjkyLC0yNzMz
-NTY2MjEsMTM4MzI0MTQ1OSw5MzA1MDQyNDksLTE2MDIwNzQzMz
-YsMTI4NjY3OTk5Niw1OTg1ODQwNTMsLTIwMTY0MjcyMzAsLTE3
-MTMyMzEwMTddfQ==
+eyJoaXN0b3J5IjpbLTE0MzU4Nzc2NTMsLTE0ODU1OTg2MDUsNz
+UzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwxNzIzMjUx
+Mjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMT
+EsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OTIsLTI3
+MzM1NjYyMSwxMzgzMjQxNDU5LDkzMDUwNDI0OSwtMTYwMjA3ND
+MzNiwxMjg2Njc5OTk2LDU5ODU4NDA1MywtMjAxNjQyNzIzMCwt
+MTcxMzIzMTAxN119
 -->
