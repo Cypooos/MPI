@@ -246,10 +246,11 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 > On montre d'abord (LEMME) : soient $t,t',e\in E$ et $x,y\in V$, on a :
 > - si $x\neq y$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
-> - sinon, si $x=y$, on a  $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
+> - sinon, si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 > 
 > Pour le cas $x=y$: on procède par induction sur $t$:
->  - Si $t\in V$, alors on a 
+>  - Si $t\in V \setminus\{x\}$, alors on a $t[x\larr t'][y\larr e] = t = t[x\larr t'[y\larr e]]$
+>  - Si $t=x$, alors on a $t[x\larr t'][y\larr e] = t'[y\larr e]$
 >
 > On procède par induction selon la règle obtenue pour avoir $t\triangleright t'$ : 
 > - Règle 1, si $t = t'$, alors on procède par induction sur $t$:
@@ -533,11 +534,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NjY1ODUxNywtNjIyNjUxNjUwLDE1OT
-U1MzUxODgsLTIxMjM1NjY5MiwtMjczMzU2NjIxLDEzODMyNDE0
-NTksOTMwNTA0MjQ5LC0xNjAyMDc0MzM2LDEyODY2Nzk5OTYsNT
-k4NTg0MDUzLC0yMDE2NDI3MjMwLC0xNzEzMjMxMDE3LC02MjEx
-ODUxNDEsMTU3NzEyOTI5MCwtNTg3NTI5OTAxLC02OTYwODE3MT
-MsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMzNDUyLDM5
-MzA3OTUxN119
+eyJoaXN0b3J5IjpbNTExNTE4NDI4LC02MjI2NTE2NTAsMTU5NT
+UzNTE4OCwtMjEyMzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1
+OSw5MzA1MDQyNDksLTE2MDIwNzQzMzYsMTI4NjY3OTk5Niw1OT
+g1ODQwNTMsLTIwMTY0MjcyMzAsLTE3MTMyMzEwMTcsLTYyMTE4
+NTE0MSwxNTc3MTI5MjkwLC01ODc1Mjk5MDEsLTY5NjA4MTcxMy
+wtMTU5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0NTIsMzkz
+MDc5NTE3XX0=
 -->
