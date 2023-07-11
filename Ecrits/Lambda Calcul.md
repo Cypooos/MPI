@@ -56,7 +56,7 @@ On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qu
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^n A_n$ ou $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant.
 
-Si tout les calculs à partir de $A$ sont de longueurs inférieur à un $n$ fixé, on dit que $A$ est unitaire. *(Rem: Dans la littérature, le terme de "fortement normalisable" est plutôt employé.)*
+Si tout les calculs à partir de $A$ sont de longueurs inférieur à un certain $n$, on dit que $A$ est unitaire. *(Rem: Dans la littérature, le terme de "fortement normalisable" est plutôt employé.)*
 
 On définit les expressions suivantes :
  - $I = (x\mapsto x)$
@@ -288,9 +288,9 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTYyNzkwMCwxNzA5NTczOTM3LC0xND
-U1OTE0Mjk4LC0xMDU2OTI4NTQzLDc3Njg1OTcyLDEzODYzMzQ3
-LDg2ODY4OTIzLDE5MTI5NTMzMjMsLTE4NDc3NzE2MDQsLTU2OD
-g0MjU0NCwtNzA2MTg5OTM0LC0xMjA3ODM5Njg3LC02MzQ1NzEz
-NzBdfQ==
+eyJoaXN0b3J5IjpbNDc0NjE5ODU2LC0xNjk2Mjc5MDAsMTcwOT
+U3MzkzNywtMTQ1NTkxNDI5OCwtMTA1NjkyODU0Myw3NzY4NTk3
+MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOTUzMzIzLC0xODQ3Nz
+cxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkzNCwtMTIwNzgzOTY4
+NywtNjM0NTcxMzcwXX0=
 -->
