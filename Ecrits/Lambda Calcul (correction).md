@@ -303,6 +303,9 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > - Si $M_{i} \larr M_{i+1}$, alors on a $M_{i+1} \to M_i \to^* e_i$ et donc $e_{i+1}=e_i$ conviens
 > - Si $M_i \rarr M_{i+1}$, alors on sait par la propriété du diamant sur $e_i$ et $M_{i+1}$, tout deux généré par $M_i$ qu'il existe $\alpha$ tel que $e_i \to^* \alpha$ et $M_{i+1}\to^* \alpha$.
 > On pose $e_{i+1} = \alpha$, et on a bien $M_0 \to^* e_i \to^* e_{i+1}$ et $M_{i+1}\to^* e_{i+1}$ 
+
+19. Donnez un contre-exemple à : $\forall e\in E, f(e)=_\beta g(e) \implies$
+
 # Partie III: Entiers et opérations
 
 ## Entiers de Church
@@ -550,11 +553,11 @@ Toute ces questions sont difficile.
 1. Donnez un opérateur point fixe tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
 3. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwNjI3NTcxLC0xNDg1NTk4NjA1LDc1Mz
-E0ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQsMTcyMzI1MTI4
-NCwxOTQ1NjI3NTAwLC0xNDEzODg3MTUxLC0yMDcwMTkzMTExLC
-02MjI2NTE2NTAsMTU5NTUzNTE4OCwtMjEyMzU2NjkyLC0yNzMz
-NTY2MjEsMTM4MzI0MTQ1OSw5MzA1MDQyNDksLTE2MDIwNzQzMz
-YsMTI4NjY3OTk5Niw1OTg1ODQwNTMsLTIwMTY0MjcyMzAsLTE3
-MTMyMzEwMTddfQ==
+eyJoaXN0b3J5IjpbLTQwMDE5NTg3NSwtMTQ4NTU5ODYwNSw3NT
+MxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3MjMyNTEy
+ODQsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MDE5MzExMS
+wtNjIyNjUxNjUwLDE1OTU1MzUxODgsLTIxMjM1NjY5MiwtMjcz
+MzU2NjIxLDEzODMyNDE0NTksOTMwNTA0MjQ5LC0xNjAyMDc0Mz
+M2LDEyODY2Nzk5OTYsNTk4NTg0MDUzLC0yMDE2NDI3MjMwLC0x
+NzEzMjMxMDE3XX0=
 -->
