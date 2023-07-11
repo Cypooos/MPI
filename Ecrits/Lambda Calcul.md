@@ -172,10 +172,11 @@ qui représente un couple $(x,y)$
 Le but de cette partie est de pouvoir faire des fonctions récursives.
 ## L'opérateur Point-fixe
 
+
 On dit que $\text{fix}$ est un opérateur point-fixe  si il est sous forme normale et que, pour tout $f\in E$, on a :
 $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
-28. Montrez que $\text{fix}(f)$ n'est pas unitaire.
+28. Montrez que si $\text{fix}(f) \to f(\text{fix}(f))$, alors $\text{fix}(f)$ n'est pas unitaire.
 
 On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
@@ -270,7 +271,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Remarque : Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4Njg5MjMsMTkxMjk1MzMyMywtMTg0Nz
-c3MTYwNCwtNTY4ODQyNTQ0LC03MDYxODk5MzQsLTEyMDc4Mzk2
-ODcsLTYzNDU3MTM3MF19
+eyJoaXN0b3J5IjpbLTk0MzU4MjkxNCw4Njg2ODkyMywxOTEyOT
+UzMzIzLC0xODQ3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkz
+NCwtMTIwNzgzOTY4NywtNjM0NTcxMzcwXX0=
 -->
