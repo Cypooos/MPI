@@ -108,7 +108,7 @@ Le théorème de Church-Rosser assure que la relation $\to^*$ respecte la propri
 
 Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que :
 - $x\triangleright x$
-- $x\mapsto t \triangleright x'\mapsto t'$ si $x \triangleright x'$ et $t \triangleright t'$
+- $x\mapsto t \triangleright x\mapsto t'$ si $t \triangleright t'$
 - $t(x)\triangleright t'(x')$ si $t\triangleright t'$ et $x\triangleright x'$
 - $(x\mapsto e)(u) \triangleright t'[x\larr u']$ si $t \triangleright t'$ et $u \triangleright u'$
 
@@ -288,9 +288,9 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0NjE5ODU2LC0xNjk2Mjc5MDAsMTcwOT
-U3MzkzNywtMTQ1NTkxNDI5OCwtMTA1NjkyODU0Myw3NzY4NTk3
-MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOTUzMzIzLC0xODQ3Nz
-cxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkzNCwtMTIwNzgzOTY4
-NywtNjM0NTcxMzcwXX0=
+eyJoaXN0b3J5IjpbLTE3NjE2OTk3NzMsLTE2OTYyNzkwMCwxNz
+A5NTczOTM3LC0xNDU1OTE0Mjk4LC0xMDU2OTI4NTQzLDc3Njg1
+OTcyLDEzODYzMzQ3LDg2ODY4OTIzLDE5MTI5NTMzMjMsLTE4ND
+c3NzE2MDQsLTU2ODg0MjU0NCwtNzA2MTg5OTM0LC0xMjA3ODM5
+Njg3LC02MzQ1NzEzNzBdfQ==
 -->
