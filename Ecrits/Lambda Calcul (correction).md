@@ -412,16 +412,13 @@ $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
 29. Montrez que si pour tout $e\in E$, on a que $f(e)$ admette une forme normale, alors $\text{fix}(f)$ admet une forme normale.
-
 > On sait que $\text{fix}(f) =_\beta f(\text{fix}(f))$, donc on choisi $e$ sous forme normale par la question 18 tel que $\text{fix}(f) \to^* e$ et $f(\text{fix}(f)) \to^* e$
-> On a donc $f(\text{fix}(f)) \to^* f(e)$ et $f(\text{fix}(f)) \to^* e$, donc par la propriété du diamant sur $\to^*$, on a $\omega$ tel que $e \to^* \omega$ et $f(e) \to^* \omega$, or comme $e$ est sous forme normale on a $\omega = e$ et donc $f(e) \to^* e$
+> On a aussi $f(\text{fix}(f)) \to^* k$ sous forme normale par l'hypothèse de l'énoncé.
+> Par l'unicité de la forme normale de $f(\text{$
 
 30. Montrez que si pour tout $e\in E$, on a que $f(e)$ admette une forme normale, alors $f$ admet un point fixe.
 Donnez un $f$ exemple qui respecte cette propriété. Quel est son point fixe ?
-31. (*) Donnez une expression $\Theta$ point-fixe.
 
-> Soit $e$ sous forme normale. On peut donner $K(e)$.
-> En effet, 
 
 31. (*) Donnez une expression $\Theta$ point-fixe.
 
@@ -541,11 +538,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjA5NTg3NTQsLTY5MjMyMjk0OCwyMD
-g2OTQyOTQ0LDE3MjMyNTEyODQsMTk0NTYyNzUwMCwtMTQxMzg4
-NzE1MSwtMjA3MDE5MzExMSwtNjIyNjUxNjUwLDE1OTU1MzUxOD
-gsLTIxMjM1NjY5MiwtMjczMzU2NjIxLDEzODMyNDE0NTksOTMw
-NTA0MjQ5LC0xNjAyMDc0MzM2LDEyODY2Nzk5OTYsNTk4NTg0MD
-UzLC0yMDE2NDI3MjMwLC0xNzEzMjMxMDE3LC02MjExODUxNDEs
-MTU3NzEyOTI5MF19
+eyJoaXN0b3J5IjpbMTk3Njk4NjcxMCwtNjkyMzIyOTQ4LDIwOD
+Y5NDI5NDQsMTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0xNDEzODg3
+MTUxLC0yMDcwMTkzMTExLC02MjI2NTE2NTAsMTU5NTUzNTE4OC
+wtMjEyMzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1OSw5MzA1
+MDQyNDksLTE2MDIwNzQzMzYsMTI4NjY3OTk5Niw1OTg1ODQwNT
+MsLTIwMTY0MjcyMzAsLTE3MTMyMzEwMTcsLTYyMTE4NTE0MSwx
+NTc3MTI5MjkwXX0=
 -->
