@@ -257,7 +257,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > Pour le cas $x\neq y$: on procède aussi par induction sur $t$:
 >  - Si $t=x$, alors $t[x\larr t'][y\larr e] = t'[y\larr e] = x[x\larr t'[y\larr e]] = t[y\larr e][x\larr t'[y\larr e]]$
 >  - Si $t\in V \setminus \{x\}$, alors $t[x\larr t'][y\larr e] = t[y\larr e]$ 
->
+>  - 
 > Pour la preuve totale, on procède par induction selon la règle obtenue pour avoir $t\triangleright t'$ : 
 > - Règle 1, si $t = t'$, alors on procède par induction sur $t$:
 >    - Si $t=x$, alors $t[x \larr v] = v \triangleright v' = t'[x \larr v']$
@@ -562,11 +562,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjIyODg0NiwtMTM1ODQ5NDIwNiwtMT
-E1NzU0NDM1MCwxNDYzMDE3ODE2LC03NDE1ODQxNTIsLTE1MTQx
-NjI2OTEsLTExMTc2NTc4NTEsLTEzODI0OTQ4MjEsLTE0ODU1OT
-g2MDUsNzUzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwx
-NzIzMjUxMjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNz
-AxOTMxMTEsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2
-OTIsLTI3MzM1NjYyMV19
+eyJoaXN0b3J5IjpbMzQ2MzE3NDQxLDE4MTYyMjg4NDYsLTEzNT
+g0OTQyMDYsLTExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNzQxNTg0
+MTUyLC0xNTE0MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgyNDk0OD
+IxLC0xNDg1NTk4NjA1LDc1MzE0ODE4NywtNjkyMzIyOTQ4LDIw
+ODY5NDI5NDQsMTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0xNDEzOD
+g3MTUxLC0yMDcwMTkzMTExLC02MjI2NTE2NTAsMTU5NTUzNTE4
+OCwtMjEyMzU2NjkyXX0=
 -->
