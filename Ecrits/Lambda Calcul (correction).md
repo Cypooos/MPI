@@ -241,7 +241,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  Par induction, on a $t\to^* t'$ et $u\to^* u'$. On pose donc le calcul constitué du calcul de $u$, puis de $t$, puis de l’évaluation :
 >  $(x\mapsto t)(u) \to^* (x\mapsto t)(u') \to^* (x\mapsto t')(u') \to t'[x\larr u']$
 
-13. (*) Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
+13. (*) (très long) Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 
 > On montre d'abord (LEMME) : soient $t,t',e\in E$ et $x,y\in V$, on a :
 > - si $x\neq y$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
@@ -430,7 +430,7 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 
 > $f$ admet une forme normale $f'$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
-> Sinon, on montre que $x\not\in e$ : en effet
+> Sinon, on montre que $x\not\in e$ par l'absurde.
 
 33. (*) Donnez une expression $\Theta$ point-fixe.
 
@@ -554,11 +554,11 @@ Toute ces questions sont difficile.
 1. Donnez un opérateur point fixe tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
 3. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjY2NTI4OCwtMTQ4NTU5ODYwNSw3NT
-MxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3MjMyNTEy
-ODQsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MDE5MzExMS
-wtNjIyNjUxNjUwLDE1OTU1MzUxODgsLTIxMjM1NjY5MiwtMjcz
-MzU2NjIxLDEzODMyNDE0NTksOTMwNTA0MjQ5LC0xNjAyMDc0Mz
-M2LDEyODY2Nzk5OTYsNTk4NTg0MDUzLC0yMDE2NDI3MjMwLC0x
-NzEzMjMxMDE3XX0=
+eyJoaXN0b3J5IjpbLTEzODI0OTQ4MjEsLTE0ODU1OTg2MDUsNz
+UzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwxNzIzMjUx
+Mjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMT
+EsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OTIsLTI3
+MzM1NjYyMSwxMzgzMjQxNDU5LDkzMDUwNDI0OSwtMTYwMjA3ND
+MzNiwxMjg2Njc5OTk2LDU5ODU4NDA1MywtMjAxNjQyNzIzMCwt
+MTcxMzIzMTAxN119
 -->
