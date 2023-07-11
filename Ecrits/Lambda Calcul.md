@@ -278,13 +278,13 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 1. Donnez un opérateur point fixe $\Theta$ tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
 
-2. On cherche à calculer la forme normale de $f(e)$, pour cela on met d'abord l'argument $e$ sous forme normale inductivement avant de faire l'évaluation. Comment changer $Y$ tel que $\text{fix}(e)$ termine ? 
+2. On cherche à calculer la forme normale de $f(e)$, pour cela on met d'abord l'argument $e$ sous forme normale inductivement avant de faire l'évaluation. Comment changer $Y$ tel que $\text{fact}(C_1)$ termine ? 
 
 3. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDc2MTY1NjgsNzc2ODU5NzIsMTM4Nj
+eyJoaXN0b3J5IjpbLTEwNTY5Mjg1NDMsNzc2ODU5NzIsMTM4Nj
 MzNDcsODY4Njg5MjMsMTkxMjk1MzMyMywtMTg0Nzc3MTYwNCwt
 NTY4ODQyNTQ0LC03MDYxODk5MzQsLTEyMDc4Mzk2ODcsLTYzND
 U3MTM3MF19
