@@ -411,13 +411,14 @@ $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
 On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
-30. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe.
+29. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe.
 Donnez un $f$ exemple qui respecte cette propriété. Quel est son point fixe ?
 > Par la question 18, on a que $f(\text{fix}(f)) \to^* e$ et $\text{fix}(f) \to^* e$ avec $e$ sous forme normale.
 > On a donc aussi que $f(\text{fix}(f)) \to^* f(e)$ qui admet une forme normale $k$.
 > Donc, par l'unicité de la forme normale, $k = e$.
 > On a donc $f(e) \to^* k=e$, ce qui conclu la preuve.
-> On a $f$
+
+30. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta K(\omega)$
 
 31. (*) Donnez une expression $\Theta$ point-fixe.
 
@@ -537,11 +538,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Nj
-k0Mjk0NCwxNzIzMjUxMjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcx
-NTEsLTIwNzAxOTMxMTEsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC
-0yMTIzNTY2OTIsLTI3MzM1NjYyMSwxMzgzMjQxNDU5LDkzMDUw
-NDI0OSwtMTYwMjA3NDMzNiwxMjg2Njc5OTk2LDU5ODU4NDA1My
-wtMjAxNjQyNzIzMCwtMTcxMzIzMTAxNywtNjIxMTg1MTQxLDE1
-NzcxMjkyOTBdfQ==
+eyJoaXN0b3J5IjpbMTI5MjY3NTY2NCw3NTMxNDgxODcsLTY5Mj
+MyMjk0OCwyMDg2OTQyOTQ0LDE3MjMyNTEyODQsMTk0NTYyNzUw
+MCwtMTQxMzg4NzE1MSwtMjA3MDE5MzExMSwtNjIyNjUxNjUwLD
+E1OTU1MzUxODgsLTIxMjM1NjY5MiwtMjczMzU2NjIxLDEzODMy
+NDE0NTksOTMwNTA0MjQ5LC0xNjAyMDc0MzM2LDEyODY2Nzk5OT
+YsNTk4NTg0MDUzLC0yMDE2NDI3MjMwLC0xNzEzMjMxMDE3LC02
+MjExODUxNDFdfQ==
 -->
