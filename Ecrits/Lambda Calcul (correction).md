@@ -424,6 +424,8 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 
 32. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta K(\omega)$
 
+> Si $f=(x\mapsto)$
+
 33. (*) Donnez une expression $\Theta$ point-fixe.
 
 > Bravo si vous l'avez réussie ! Vraiment, vraiment, vraiment pas facile.
@@ -546,11 +548,11 @@ Toute ces questions sont difficile.
 1. Donnez un opérateur point fixe tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
 3. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTU0MzU4NjQsLTE0ODU1OTg2MDUsNz
-UzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwxNzIzMjUx
-Mjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMT
-EsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OTIsLTI3
-MzM1NjYyMSwxMzgzMjQxNDU5LDkzMDUwNDI0OSwtMTYwMjA3ND
-MzNiwxMjg2Njc5OTk2LDU5ODU4NDA1MywtMjAxNjQyNzIzMCwt
-MTcxMzIzMTAxN119
+eyJoaXN0b3J5IjpbLTk3NTc4MjQ2OCwtMTQ4NTU5ODYwNSw3NT
+MxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3MjMyNTEy
+ODQsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MDE5MzExMS
+wtNjIyNjUxNjUwLDE1OTU1MzUxODgsLTIxMjM1NjY5MiwtMjcz
+MzU2NjIxLDEzODMyNDE0NTksOTMwNTA0MjQ5LC0xNjAyMDc0Mz
+M2LDEyODY2Nzk5OTYsNTk4NTg0MDUzLC0yMDE2NDI3MjMwLC0x
+NzEzMjMxMDE3XX0=
 -->
