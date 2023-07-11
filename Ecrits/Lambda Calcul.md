@@ -129,7 +129,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étapes. Dans le cas de $\text{if}(\top,I,\Delta(\Delta)) \to^* I$, si l'on calcule constamment $\Delta(\Delta)$, on n'atteindra jamais la forme normale $I$, alors qu'elle existe et est unique.
 
 17. En déduire que tout graphe des réductions de $e$ possède un plus petit et un plus grand élément pour la relation $\to^*$. 
-18. Montrez que si $a=_\beta b$, alors il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
+18. Montrez que si $a=_\beta b$, alors il existe $e\in E$ tel que $a\to^* e$ et $b\to^* e$
 
 
 # Partie III: Entiers et opérations
@@ -284,8 +284,8 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTY5Mjg1NDMsNzc2ODU5NzIsMTM4Nj
-MzNDcsODY4Njg5MjMsMTkxMjk1MzMyMywtMTg0Nzc3MTYwNCwt
-NTY4ODQyNTQ0LC03MDYxODk5MzQsLTEyMDc4Mzk2ODcsLTYzND
-U3MTM3MF19
+eyJoaXN0b3J5IjpbNzAxMTQ4MjAwLC0xMDU2OTI4NTQzLDc3Nj
+g1OTcyLDEzODYzMzQ3LDg2ODY4OTIzLDE5MTI5NTMzMjMsLTE4
+NDc3NzE2MDQsLTU2ODg0MjU0NCwtNzA2MTg5OTM0LC0xMjA3OD
+M5Njg3LC02MzQ1NzEzNzBdfQ==
 -->
