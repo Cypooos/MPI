@@ -431,7 +431,7 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 > $f$ admet une forme normale $f'$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde :
-> On a que $f(\Delta(\Delta)) \to e[x\larr \Delta(\Delta)]\to e[x\larr \Delta(\Delta)]\to ...$ qui est un calcul  
+> On montre par récurrence sur $$que après $f$
 
 33. (*) Donnez une expression $\Theta$ point-fixe.
 
@@ -553,11 +553,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 1. Donnez un opérateur point fixe tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
 3. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTc2NTc4NTEsLTEzODI0OTQ4MjEsLT
-E0ODU1OTg2MDUsNzUzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0
-Mjk0NCwxNzIzMjUxMjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNT
-EsLTIwNzAxOTMxMTEsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0y
-MTIzNTY2OTIsLTI3MzM1NjYyMSwxMzgzMjQxNDU5LDkzMDUwND
-I0OSwtMTYwMjA3NDMzNiwxMjg2Njc5OTk2LDU5ODU4NDA1Mywt
-MjAxNjQyNzIzMF19
+eyJoaXN0b3J5IjpbMTY2OTM0MDQyNSwtMTExNzY1Nzg1MSwtMT
+M4MjQ5NDgyMSwtMTQ4NTU5ODYwNSw3NTMxNDgxODcsLTY5MjMy
+Mjk0OCwyMDg2OTQyOTQ0LDE3MjMyNTEyODQsMTk0NTYyNzUwMC
+wtMTQxMzg4NzE1MSwtMjA3MDE5MzExMSwtNjIyNjUxNjUwLDE1
+OTU1MzUxODgsLTIxMjM1NjY5MiwtMjczMzU2NjIxLDEzODMyND
+E0NTksOTMwNTA0MjQ5LC0xNjAyMDc0MzM2LDEyODY2Nzk5OTYs
+NTk4NTg0MDUzXX0=
 -->
