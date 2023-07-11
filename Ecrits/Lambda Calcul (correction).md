@@ -320,7 +320,7 @@ Pour tout $n\in\N$, on pose :
 
 On appelle $C_n$ l'*entier de Church* associé à $n$.
 
-19. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to^* C_{n+1}$
+20. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to^* C_{n+1}$
 
 > On pose $\text{succ} = (C,f,x\mapsto C(f,f(x)))$. On a ainsi:
 > $\text{succ}(C_n) \to (f,x\mapsto C_n(f,f(x)))\to^2(f,x\mapsto f^n(f(x))) = (f,x\mapsto f^{n+1}(x)) = C_{n+1}$
@@ -328,7 +328,7 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 > NB: $\text{succ} = (C_n,f,x\mapsto f(C_n(f,x)))$ marche aussi: On aurai
 > $\text{succ}(C_n) \to (f,x\mapsto f(C_n(f,x))) \to^2 (f,x\mapsto f(f^n(x))) =  (f,x\mapsto f^{n+1}(x)) = C_{n+1}$
 
-20. Définir une expression $\text{add}$ tel que $\text{add}(C_n,C_m) \to^* C_{n+m}$
+21. Définir une expression $\text{add}$ tel que $\text{add}(C_n,C_m) \to^* C_{n+m}$
 
 > On pose $\text{add} = (C,C' \mapsto C(\text{succ},C'))$
 > On a : $\text{add}(C_n,C_m) \to^2 C_n(\text{succ},C_m)\to^2 \text{succ}^n(C_m) \to^* C_{m+n}$
@@ -562,11 +562,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjQyMjE4NiwtMTM1ODQ5NDIwNiwtMT
-E1NzU0NDM1MCwxNDYzMDE3ODE2LC03NDE1ODQxNTIsLTE1MTQx
-NjI2OTEsLTExMTc2NTc4NTEsLTEzODI0OTQ4MjEsLTE0ODU1OT
-g2MDUsNzUzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwx
-NzIzMjUxMjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNz
-AxOTMxMTEsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2
-OTIsLTI3MzM1NjYyMV19
+eyJoaXN0b3J5IjpbLTE3OTAwMDQ0OTMsLTEzNTg0OTQyMDYsLT
+ExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0
+MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NT
+k4NjA1LDc1MzE0ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQs
+MTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0xNDEzODg3MTUxLC0yMD
+cwMTkzMTExLC02MjI2NTE2NTAsMTU5NTUzNTE4OCwtMjEyMzU2
+NjkyLC0yNzMzNTY2MjFdfQ==
 -->
