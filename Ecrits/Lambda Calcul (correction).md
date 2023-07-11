@@ -422,9 +422,10 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 > Donc, par l'unicité de la forme normale, $k = e$.
 > On a donc $f(e) \to^* k=e$, ce qui conclu la preuve.
 
-32. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta K(\omega)$
+32. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
-> si $f$ n'est pas éval
+> $f$ admet une forme normale
+> Si $f \neq x\mapsto e$, alors 
 
 33. (*) Donnez une expression $\Theta$ point-fixe.
 
@@ -548,7 +549,7 @@ Toute ces questions sont difficile.
 1. Donnez un opérateur point fixe tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
 3. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDc3NjY5NzMsLTE0ODU1OTg2MDUsNz
+eyJoaXN0b3J5IjpbLTE1NDE0Nzc3OTUsLTE0ODU1OTg2MDUsNz
 UzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwxNzIzMjUx
 Mjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMT
 EsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OTIsLTI3
