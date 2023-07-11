@@ -296,8 +296,9 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  - Par la propriété du diamant appliqué à $x$ et $\alpha$, tout deux issues de $e$, on a un $w$ tel que $x\to^* w$ et $\alpha \to^* w$, or comme $\alpha$ est sous forme normale, on a $x\to^*w=\alpha$ 
 
 18. Montrez que si $a=_\beta b$, alors il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
+
 > On pose $(M_i)_i$ la suite finie dans $E$ tel que $a= M_0 \lrarr M_1 \lrarr ... \lrarr M_n = b$.
-> On montre par récurrence sur $i$ que il existe $e_i\in E$ tel que $a \to^* e_i$ et $M_i\to^* e_i$ :
+> On ire, ar récurrence sur $i$ que il existe $e_i\in E$ tel que $a \to^* e_i$ et $M_i\to^* e_i$ :
 > Pour $i=0$, $e_i = a$ conviens.
 > On suppose que $M_i \to^* e_i$ et que $M_0 \to^* e_i$ :
 > - Si $M_{i} \larr M_{i+1}$, alors on a $M_{i+1} \to M_i \to^* e_i$ et donc $e_{i+1}=e_i$ conviens
@@ -385,8 +386,7 @@ qui représente un couple $(x,y)$
 
 26. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
 
-
-> On pose $\text{decr} = (C\mapsto C(A,D(C_0,C_0))(\top))$
+> On \text{decr} = (C\mapsto C(A,D(C_0,C_0))(\top))$
 > L'idée que comme A passe de (x,n) à (n,n+1), en répétant n fois A, on a une fonction qui à (0,0) associe (n-1,n). En récupérant la première composante, on pourra avoir n-1.
 > 
 > On a ainsi $\text{decr}(C_n) \to C_n(A,D(C_0,C_0))(\top)\to^2 A^n(D(C_0,C_0))(\top)$
@@ -415,22 +415,26 @@ On admet qu'il en existe (sauf à la question 32).
 
 > On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées). On a alors $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+1$, absurde.
 
-On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe fort* de $f$ si $f(e)\to^* e$
+On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe fort* de $f$ si $f(e)$ admet un point fixe.
 
-29. Montrez que tout $f\in E$ admet un point fixe.
-> On pose $e=\text{fix}(f)$ et on a $f(e) = f ( \text{fix}(f)) = _\beta \text{fix}(f) = e$
+> On pose $e=écrit $\text{fix}(f)$ et on a $f(e) = f ( \to^n e$. Mais on a aussi: $\text{fix}(f)) = _\beta \to f(\text{fix}(f) = e$
 
-30. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe fort.
-> Par la question 18, on a que $f(\text{fix}(f)) \to^* e$ et $\text{fix}(f) \to^* e$ avec $e$ sous forme normale.
-> On a donc aussi que $f(\text{fix}(f)) \to^* f(e)$ qui admet une forme normale $k$.
+30. Montrez que si pour tout $e\in E)\to^n f(e) \to^* p$ qui est un calcul normalisant par hypothèse. Par l'unicité de la forme normale de $\text{fix}(f)$, $e=p$, don a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe fort.
+> Par la question 18, on a que $f(\text{fix}(f)) \to^* e$ et $\text{fix}(f) \to^* e$ avecc on a $f(e) \to^* e$
+
+30. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
+
+> Soit $e$ sous forme normale. On peut donner $K(e)$.
+> OEn a deffet, onc aussi que $f(\text{fix}(f)) \to^* f(e)$ qui admet une forme normale $k$.
 > Donc, par l'unicité de la forme normale, $k = e$.
-> On a donc $f(e) \to^* k=e$, ce qui conclu la preuve.
+> On a donc $f pour $n>0$, que de $(K(e))^n\text{fix}(K(e))$, les seuls dérivations possibles sont $e$ ou $(K(I))^{n+1}\text{fix}(K(e))$.
+> Alors on a bien que pour tout calcul normalisant $\text{fix}(K(e)) \to^* k=e$, ce qui conclu la preuve.
+n a$, 
 
-
-31. (*) Donnez une expression $Y$ point-fixe.
+31. (*) Donnez une expression $Y\Theta$ point-fixe.
 
 > Bravo si vous l'avez réussie ! Vraiment, vraiment, vraiment pas facile.
-> On peut donner $Y = (f\mapsto\Big((x\mapsto f(x(x)))(x\mapsto f(x(x)))\Big))$
+> On peut donner $Y\Theta = (f\mapsto\Big((x\mapsto f(x(x)))(x\mapsto f(x(x)))\Big))$
 
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
@@ -560,11 +564,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTg0OTQyMDYsLTExNTc1NDQzNTAsMT
-Q2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0MTYyNjkxLC0xMTE3
-NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NTk4NjA1LDc1MzE0OD
-E4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQsMTcyMzI1MTI4NCwx
-OTQ1NjI3NTAwLC0xNDEzODg3MTUxLC0yMDcwMTkzMTExLC02Mj
-I2NTE2NTAsMTU5NTUzNTE4OCwtMjEyMzU2NjkyLC0yNzMzNTY2
-MjEsMTM4MzI0MTQ1OV19
+eyJoaXN0b3J5IjpbNTM0ODc1NzE2LC0xMzU4NDk0MjA2LC0xMT
+U3NTQ0MzUwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2
+MjY5MSwtMTExNzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NTU5OD
+YwNSw3NTMxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3
+MjMyNTEyODQsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MD
+E5MzExMSwtNjIyNjUxNjUwLDE1OTU1MzUxODgsLTIxMjM1NjY5
+MiwtMjczMzU2NjIxXX0=
 -->
