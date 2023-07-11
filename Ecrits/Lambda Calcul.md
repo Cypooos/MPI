@@ -180,8 +180,8 @@ $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
 On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
-29. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
-30. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
+29. Montrez que si pour tout $e\in E$, on a que $f(e)$ admette une forme normale, alors $\text{fix}(f)$ admet une forme normale.
+30. Montrez que si pour tout $e\in E$, on a que $f(e)$ admette une forme normale, alors $f$ admet un point fixe.
 31. (*) Donnez une expression $\Theta$ point-fixe.
 
 ## Récursivité
@@ -271,7 +271,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Remarque : Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MzU4MjkxNCw4Njg2ODkyMywxOTEyOT
-UzMzIzLC0xODQ3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkz
-NCwtMTIwNzgzOTY4NywtNjM0NTcxMzcwXX0=
+eyJoaXN0b3J5IjpbNDY1MDA1NDE2LDg2ODY4OTIzLDE5MTI5NT
+MzMjMsLTE4NDc3NzE2MDQsLTU2ODg0MjU0NCwtNzA2MTg5OTM0
+LC0xMjA3ODM5Njg3LC02MzQ1NzEzNzBdfQ==
 -->
