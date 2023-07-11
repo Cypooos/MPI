@@ -280,10 +280,10 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 3. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
-4. Quel est le point fixe $C_$
+4. Quel est le point fixe $C^*$ de $\text{succ}$ ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2OTQ1NzgwLDc3Njg1OTcyLDEzODYzMz
-Q3LDg2ODY4OTIzLDE5MTI5NTMzMjMsLTE4NDc3NzE2MDQsLTU2
-ODg0MjU0NCwtNzA2MTg5OTM0LC0xMjA3ODM5Njg3LC02MzQ1Nz
-EzNzBdfQ==
+eyJoaXN0b3J5IjpbLTIwMjA3NzgyNDYsNzc2ODU5NzIsMTM4Nj
+MzNDcsODY4Njg5MjMsMTkxMjk1MzMyMywtMTg0Nzc3MTYwNCwt
+NTY4ODQyNTQ0LC03MDYxODk5MzQsLTEyMDc4Mzk2ODcsLTYzND
+U3MTM3MF19
 -->
