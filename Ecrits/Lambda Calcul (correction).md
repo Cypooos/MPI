@@ -34,7 +34,8 @@ On définit une *expression* inductivement :
  - "$e_1(e_2)$" est une expression pour tout $e_1,e_2$ deux expressions
  - "$x\mapsto e$" est une expression pour tout $x\in V$ et $e$ une expression
 
-On utilisera des parenthèses pour indiquer de l'ordre des opérations. On note $E$ l'ensemble des expressions. Si $a$ est une expression présente dans $A$, une autre expression, on note cela $a\in A$.
+On utilisera des parenthèses pour indiquer de l'ordre des opérations. On note $E$ l'ensemble des expressions.
+Soient $a,A\in E$ deux expressions, si on retrouve $a$ dans $A$, on note cela $a\in A$.
 
 On pourra noter $x_1,x_2,...,x_n\mapsto e$ pour dénoter $x_1\mapsto (x_2\mapsto(...(x_n\mapsto e)...))$
 On pourra noter $e(x_1,x_2,...,x_n)$ pour dénoter $e(x_1)(x_2)...(x_n)$
@@ -538,11 +539,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0xND
-EzODg3MTUxLC0yMDcwMTkzMTExLC02MjI2NTE2NTAsMTU5NTUz
-NTE4OCwtMjEyMzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1OS
-w5MzA1MDQyNDksLTE2MDIwNzQzMzYsMTI4NjY3OTk5Niw1OTg1
-ODQwNTMsLTIwMTY0MjcyMzAsLTE3MTMyMzEwMTcsLTYyMTE4NT
-E0MSwxNTc3MTI5MjkwLC01ODc1Mjk5MDEsLTY5NjA4MTcxMywt
-MTU5NTI0NzQwN119
+eyJoaXN0b3J5IjpbMTg4NjAxNDA4MywxNzIzMjUxMjg0LDE5ND
+U2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMTEsLTYyMjY1
+MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OTIsLTI3MzM1NjYyMS
+wxMzgzMjQxNDU5LDkzMDUwNDI0OSwtMTYwMjA3NDMzNiwxMjg2
+Njc5OTk2LDU5ODU4NDA1MywtMjAxNjQyNzIzMCwtMTcxMzIzMT
+AxNywtNjIxMTg1MTQxLDE1NzcxMjkyOTAsLTU4NzUyOTkwMSwt
+Njk2MDgxNzEzXX0=
 -->
