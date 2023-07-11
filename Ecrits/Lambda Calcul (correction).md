@@ -295,7 +295,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  - On a par définition de $S_e$ que $e \to^* x$ (maximalité de $e$)
 >  - Par la propriété du diamant appliqué à $x$ et $\alpha$, tout deux issues de $e$, on a un $w$ tel que $x\to^* w$ et $\alpha \to^* w$, or comme $\alpha$ est sous forme normale, on a $x\to^*w=\alpha$ 
 
-18. Montrez que si $a=_\beta b$, alors il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
+18. Montrez que si $a=_\beta b$, alors il existe $e\in E$  tel que $a\to^* e$ et $b\to^* e$
 
 > On pose $(M_i)_i$ la suite finie dans $E$ tel que $a= M_0 \lrarr M_1 \lrarr ... \lrarr M_n = b$.
 > On montre, par récurrence sur $i$ que il existe $e_i\in E$ tel que $a \to^* e_i$ et $M_i\to^* e_i$ :
@@ -569,11 +569,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MjUyODg3MiwtMTM1ODQ5NDIwNiwtMT
-E1NzU0NDM1MCwxNDYzMDE3ODE2LC03NDE1ODQxNTIsLTE1MTQx
-NjI2OTEsLTExMTc2NTc4NTEsLTEzODI0OTQ4MjEsLTE0ODU1OT
-g2MDUsNzUzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwx
-NzIzMjUxMjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNz
-AxOTMxMTEsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2
-OTIsLTI3MzM1NjYyMV19
+eyJoaXN0b3J5IjpbMTgyMDgwODgxLC0xMzU4NDk0MjA2LC0xMT
+U3NTQ0MzUwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2
+MjY5MSwtMTExNzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NTU5OD
+YwNSw3NTMxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3
+MjMyNTEyODQsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MD
+E5MzExMSwtNjIyNjUxNjUwLDE1OTU1MzUxODgsLTIxMjM1NjY5
+MiwtMjczMzU2NjIxXX0=
 -->
