@@ -248,7 +248,8 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > - si $x\neq y$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
 > - sinon, si $x=y$, on a  $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 > 
-> Pour le cas $x=y$: on procède par induction sur 
+> Pour le cas $x=y$: on procède par induction sur $t$:
+>  - Si $t\in V$, alors on a 
 >
 > On procède par induction selon la règle obtenue pour avoir $t\triangleright t'$ : 
 > - Règle 1, si $t = t'$, alors on procède par induction sur $t$:
@@ -532,7 +533,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5Njc3MzEwOCwtNjIyNjUxNjUwLDE1OT
+eyJoaXN0b3J5IjpbMTY5NjY1ODUxNywtNjIyNjUxNjUwLDE1OT
 U1MzUxODgsLTIxMjM1NjY5MiwtMjczMzU2NjIxLDEzODMyNDE0
 NTksOTMwNTA0MjQ5LC0xNjAyMDc0MzM2LDEyODY2Nzk5OTYsNT
 k4NTg0MDUzLC0yMDE2NDI3MjMwLC0xNzEzMjMxMDE3LC02MjEx
