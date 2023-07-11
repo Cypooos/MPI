@@ -418,7 +418,8 @@ On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
 30. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe.
 Donnez un $f$ exemple qui respecte cette propriété. Quel est son point fixe ?
-> Par la question 18, on a que $f(\text{fix}(f)) \to^* e$ et $\text{fix}(f)) \to^* e$ sous forme normale
+> Par la question 18, on a que $f(\text{fix}(f)) \to^* e$ et $\text{fix}(f) \to^* e$ avec $e$ sous forme normale.
+> On a aussi donc que $f(\text{fix}(f)) \to^* f(e)$
 
 31. (*) Donnez une expression $\Theta$ point-fixe.
 
@@ -538,11 +539,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzNTQyODAxLC02OTIzMjI5NDgsMjA4Nj
-k0Mjk0NCwxNzIzMjUxMjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcx
-NTEsLTIwNzAxOTMxMTEsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC
-0yMTIzNTY2OTIsLTI3MzM1NjYyMSwxMzgzMjQxNDU5LDkzMDUw
-NDI0OSwtMTYwMjA3NDMzNiwxMjg2Njc5OTk2LDU5ODU4NDA1My
-wtMjAxNjQyNzIzMCwtMTcxMzIzMTAxNywtNjIxMTg1MTQxLDE1
-NzcxMjkyOTBdfQ==
+eyJoaXN0b3J5IjpbMTYzNTIxMjY2MSwtNjkyMzIyOTQ4LDIwOD
+Y5NDI5NDQsMTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0xNDEzODg3
+MTUxLC0yMDcwMTkzMTExLC02MjI2NTE2NTAsMTU5NTUzNTE4OC
+wtMjEyMzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1OSw5MzA1
+MDQyNDksLTE2MDIwNzQzMzYsMTI4NjY3OTk5Niw1OTg1ODQwNT
+MsLTIwMTY0MjcyMzAsLTE3MTMyMzEwMTcsLTYyMTE4NTE0MSwx
+NTc3MTI5MjkwXX0=
 -->
