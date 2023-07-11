@@ -255,8 +255,8 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  - Si $t=e_1(e_2)$, alors par induction $t[x\larr t'][y\larr e] = e_1[x\larr t'][y\larr e](e_2[x\larr t'][y\larr e]) = e_1[x\larr t'[y\larr e]](e_1[x\larr t'[y\larr e]]) = t[x\larr t'[y\larr e]]$
 > 
 > Pour le cas $x\neq y$: on procède aussi par induction sur $t$:
->  - Si $t=x$, alors $t = t[x\larr t'][y\larr e] = t'[y\larr e] = x[x\larr t'[y\larr e]] = t[y\larr e][x\larr t'[y\larr e]]$
->  - Si $t=y$, alors 
+>  - Si $t=x$, alors $t[x\larr t'][y\larr e] = t'[y\larr e] = x[x\larr t'[y\larr e]] = t[y\larr e][x\larr t'[y\larr e]]$
+>  - Si $t\in V \setminus \{x\}$, alors $t[x\larr t'][y\larr e] = t[y\larr e]$ 
 >
 > On procède par induction selon la règle obtenue pour avoir $t\triangleright t'$ : 
 > - Règle 1, si $t = t'$, alors on procède par induction sur $t$:
@@ -540,7 +540,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzA5OTAyOCwxNzIzMjUxMjg0LDE5ND
+eyJoaXN0b3J5IjpbLTkxOTc3MDg3MywxNzIzMjUxMjg0LDE5ND
 U2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMTEsLTYyMjY1
 MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OTIsLTI3MzM1NjYyMS
 wxMzgzMjQxNDU5LDkzMDUwNDI0OSwtMTYwMjA3NDMzNiwxMjg2
