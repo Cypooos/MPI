@@ -248,8 +248,8 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >    - Si $t= (x\mapsto e)$, alors $t[x \larr v] = t\ \triangleright t' = t'[x \larr v]$
 >    - Si $t=(y\mapsto e)$ (avec $y\neq x$), alors $$
 >    - Si $t=(e_1)(e_2)$, alors $t[x \larr v] = (e_1[x \larr v])(e_2[x \larr v])$ et par hypothèse d'induction, $e_1[x \larr v] \ \triangleright e_1[x \larr v']$ et $e_2[x \larr v] \ \triangleright e_2[x \larr v']$ ce qui montre par la règle 3 que $t[x \larr v]  \ \triangleright t'[x \larr v']$
-> - Règle 2, si on a $t = y\mapsto e \triangleright y'\mapsto e' = t'$ avec $y \triangleright y'$ et $e \triangleright e'$, on a par induction que :
-$$t[x \larr v]= x\mapsto$$
+> - Règle 2, si on a $t = y\mapsto e \triangleright y\mapsto e' = t'$ avec $y \triangleright y'$ et $e \triangleright e'$, on a par induction que :
+$$t[x \larr v]= x\mapsto e[x\larr v] \$$
 
 14. (*) Montrez que $\triangleright$ respecte la *propriété du diamant*.
 15. En déduire le théorème de *Church-Rosser*.
@@ -515,11 +515,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjM1NjY5MiwtMjczMzU2NjIxLDEzOD
-MyNDE0NTksOTMwNTA0MjQ5LC0xNjAyMDc0MzM2LDEyODY2Nzk5
-OTYsNTk4NTg0MDUzLC0yMDE2NDI3MjMwLC0xNzEzMjMxMDE3LC
-02MjExODUxNDEsMTU3NzEyOTI5MCwtNTg3NTI5OTAxLC02OTYw
-ODE3MTMsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMzND
-UyLDM5MzA3OTUxNywxMTIwNjE3MjUwLDc4MzU3MTg5LDY5MjE2
-MzQzXX0=
+eyJoaXN0b3J5IjpbLTk3NDA0MTgxOSwtMjEyMzU2NjkyLC0yNz
+MzNTY2MjEsMTM4MzI0MTQ1OSw5MzA1MDQyNDksLTE2MDIwNzQz
+MzYsMTI4NjY3OTk5Niw1OTg1ODQwNTMsLTIwMTY0MjcyMzAsLT
+E3MTMyMzEwMTcsLTYyMTE4NTE0MSwxNTc3MTI5MjkwLC01ODc1
+Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0NzQwNywxMjgyNTc4OD
+MxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDExMjA2MTcyNTAsNzgz
+NTcxODldfQ==
 -->
