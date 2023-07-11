@@ -7,8 +7,8 @@
 
 ## Retirer le cycle à une liste cyclique en O(n) et O(1)
 
-On décompose la liste en la partie $A = x_0 , ... $
-1. Après avoir trouvé un $x\$
+On décompose la liste en la partie $A = x_0 , ... , x_\lambda$ avant le cycle, et la partie $x_{\lambda+1}, ... x_{\lambda+\mu} = B$ cyclique de longueur $\mu$
+1. Après avoir trouvé un $x\in B$ (lièvre et la tortue, ou alors exponentiation), on 
 ## Récursivité sans `rec` ou boucle :
 1. Méthode par des types :
 
@@ -33,5 +33,5 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDk2MTY1MjEsMTk2NDM3MTk0XX0=
+eyJoaXN0b3J5IjpbMTA4MzM4NDU2MiwxOTY0MzcxOTRdfQ==
 -->
