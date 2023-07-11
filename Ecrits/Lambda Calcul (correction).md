@@ -411,8 +411,9 @@ $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
 On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
-29. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
+29. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe sous forme normale.
 
+> On sait que 
 > TODO : changer la correction de toute cette partie pour correspondre avec la nouvelle définition :/
 > On écrit $\text{fix}(f)\to^n e$. Mais on a aussi: $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e) \to^* p$ qui est un calcul normalisant par hypothèse. Par l'unicité de la forme normale de $\text{fix}(f)$, $e=p$, donc on a $f(e) \to^* e$
 
@@ -540,11 +541,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTczMzM4MywtNjkyMzIyOTQ4LDIwOD
-Y5NDI5NDQsMTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0xNDEzODg3
-MTUxLC0yMDcwMTkzMTExLC02MjI2NTE2NTAsMTU5NTUzNTE4OC
-wtMjEyMzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1OSw5MzA1
-MDQyNDksLTE2MDIwNzQzMzYsMTI4NjY3OTk5Niw1OTg1ODQwNT
-MsLTIwMTY0MjcyMzAsLTE3MTMyMzEwMTcsLTYyMTE4NTE0MSwx
-NTc3MTI5MjkwXX0=
+eyJoaXN0b3J5IjpbLTEwOTU3Njc3ODMsLTY5MjMyMjk0OCwyMD
+g2OTQyOTQ0LDE3MjMyNTEyODQsMTk0NTYyNzUwMCwtMTQxMzg4
+NzE1MSwtMjA3MDE5MzExMSwtNjIyNjUxNjUwLDE1OTU1MzUxOD
+gsLTIxMjM1NjY5MiwtMjczMzU2NjIxLDEzODMyNDE0NTksOTMw
+NTA0MjQ5LC0xNjAyMDc0MzM2LDEyODY2Nzk5OTYsNTk4NTg0MD
+UzLC0yMDE2NDI3MjMwLC0xNzEzMjMxMDE3LC02MjExODUxNDEs
+MTU3NzEyOTI5MF19
 -->
