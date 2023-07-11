@@ -414,15 +414,12 @@ On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 29. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe sous forme normale.
 
 > On sait que $\text{fix}(f) =_\beta f(\text{fix}(f))$, donc on choisi $e$ sous forme normale par la question 18 tel que $\text{fix}(f) \to^* e$ et $f(\text{fix}(f)) \to^* e$
-> On a donc $f(\text{fix}(f)) \to^* f(e)$ et $f(\text{fix}(f)) \to^* e$, donc par la propriété du diamant sur $\to^*$, on a $\omega$ tel que $e \to^* \omega$ et $f(e) \to^* \omega$, or comme $e$ est sous forme normale on a $\omega = e$ et donc 
-> TODO : changer la correction de toute cette partie pour correspondre avec la nouvelle définition :/
-> On écrit $\text{fix}(f)\to^n e$. Mais on a aussi: $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e) \to^* p$ qui est un calcul normalisant par hypothèse. Par l'unicité de la forme normale de $\text{fix}(f)$, $e=p$, donc on a $f(e) \to^* e$
+> On a donc $f(\text{fix}(f)) \to^* f(e)$ et $f(\text{fix}(f)) \to^* e$, donc par la propriété du diamant sur $\to^*$, on a $\omega$ tel que $e \to^* \omega$ et $f(e) \to^* \omega$, or comme $e$ est sous forme normale on a $\omega = e$ et donc $f(e) \to^* e$
 
 30. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
 
 > Soit $e$ sous forme normale. On peut donner $K(e)$.
-> En effet, on a pour $n>0$, que de $(K(e))^n\text{fix}(K(e))$, les seuls dérivations possibles sont $e$ ou $(K(I))^{n+1}\text{fix}(K(e))$.
-> Alors on a bien que pour tout calcul normalisant $\text{fix}(K(e)) \to^n a$, 
+> En effet, 
 
 31. (*) Donnez une expression $\Theta$ point-fixe.
 
@@ -542,7 +539,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODY3NDQ4MCwtNjkyMzIyOTQ4LDIwOD
+eyJoaXN0b3J5IjpbMjAwNjIwNDI0NSwtNjkyMzIyOTQ4LDIwOD
 Y5NDI5NDQsMTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0xNDEzODg3
 MTUxLC0yMDcwMTkzMTExLC02MjI2NTE2NTAsMTU5NTUzNTE4OC
 wtMjEyMzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1OSw5MzA1
