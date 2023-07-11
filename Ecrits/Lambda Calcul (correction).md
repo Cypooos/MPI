@@ -407,6 +407,8 @@ $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
 28. Montrez que $\text{fix}(f)$ n'est pas unitaire.
 
+> 
+
 > TODO : changer la correction de toute cette partie pour correspondre avec la nouvelle définition :/
 > On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées). On a alors $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+1$, absurde.
 
@@ -540,11 +542,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4Njk0Mjk0NCwxNzIzMjUxMjg0LDE5ND
-U2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMTEsLTYyMjY1
-MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OTIsLTI3MzM1NjYyMS
-wxMzgzMjQxNDU5LDkzMDUwNDI0OSwtMTYwMjA3NDMzNiwxMjg2
-Njc5OTk2LDU5ODU4NDA1MywtMjAxNjQyNzIzMCwtMTcxMzIzMT
-AxNywtNjIxMTg1MTQxLDE1NzcxMjkyOTAsLTU4NzUyOTkwMSwt
-Njk2MDgxNzEzXX0=
+eyJoaXN0b3J5IjpbLTE1NjAxMjAxMDIsMjA4Njk0Mjk0NCwxNz
+IzMjUxMjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAx
+OTMxMTEsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OT
+IsLTI3MzM1NjYyMSwxMzgzMjQxNDU5LDkzMDUwNDI0OSwtMTYw
+MjA3NDMzNiwxMjg2Njc5OTk2LDU5ODU4NDA1MywtMjAxNjQyNz
+IzMCwtMTcxMzIzMTAxNywtNjIxMTg1MTQxLDE1NzcxMjkyOTAs
+LTU4NzUyOTkwMV19
 -->
