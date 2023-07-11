@@ -253,7 +253,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  - Si $t=(z\mapsto e)$ avec $z\in V \setminus \{ x\}$, on a $t[x\larr t'][y\larr e] = (z\mapsto e[x\larr t'][y\larr e]) = (z\mapsto e[x\larr t'[y\larr e]])) = t[x\larr t'[y\larr e]]$ par induction
 >  - Si $t=e_1(e_2)$, alors par induction $t[x\larr t'][y\larr e] = e_1[x\larr t'][y\larr e](e_2[x\larr t'][y\larr e]) = e_1[x\larr t'[y\larr e]](e_1[x\larr t'[y\larr e]]) = t[x\larr t'[y\larr e]]$
 > 
-> Pour le cas $x\neq y$: 
+> Pour le cas $x\neq y$: on procède aussi par induction sur $t$:
 >
 > On procède par induction selon la règle obtenue pour avoir $t\triangleright t'$ : 
 > - Règle 1, si $t = t'$, alors on procède par induction sur $t$:
@@ -537,11 +537,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTM4ODcxNTEsLTIwNzAxOTMxMTEsLT
-YyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OTIsLTI3MzM1
-NjYyMSwxMzgzMjQxNDU5LDkzMDUwNDI0OSwtMTYwMjA3NDMzNi
-wxMjg2Njc5OTk2LDU5ODU4NDA1MywtMjAxNjQyNzIzMCwtMTcx
-MzIzMTAxNywtNjIxMTg1MTQxLDE1NzcxMjkyOTAsLTU4NzUyOT
-kwMSwtNjk2MDgxNzEzLC0xNTk1MjQ3NDA3LDEyODI1Nzg4MzEs
-LTc2NDYzMzQ1Ml19
+eyJoaXN0b3J5IjpbMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMj
+A3MDE5MzExMSwtNjIyNjUxNjUwLDE1OTU1MzUxODgsLTIxMjM1
+NjY5MiwtMjczMzU2NjIxLDEzODMyNDE0NTksOTMwNTA0MjQ5LC
+0xNjAyMDc0MzM2LDEyODY2Nzk5OTYsNTk4NTg0MDUzLC0yMDE2
+NDI3MjMwLC0xNzEzMjMxMDE3LC02MjExODUxNDEsMTU3NzEyOT
+I5MCwtNTg3NTI5OTAxLC02OTYwODE3MTMsLTE1OTUyNDc0MDcs
+MTI4MjU3ODgzMV19
 -->
