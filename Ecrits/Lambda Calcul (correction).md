@@ -432,8 +432,7 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 33. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
 
 > Soit $e$ sous forme normale. On peut donner $K(e)$.
-> En effet, on a aussi que $f(\text{fix}(f)) \to^* f(e)$ qui admet une forme normale $k$.
-> Donc, par l'unicité de la forme normale, $k = e$.
+> En effet, pour tout $a\in E$, on a $f(a) \to e$.
 > On a donc $f$ pour $n>0$, que de $(K(e))^n\text{fix}(K(e))$, les seuls dérivations possibles sont $e$ ou $(K(I))^{n+1}\text{fix}(K(e))$.
 > Alors on a bien que pour tout calcul normalisant $\text{fix}(K(e)) \to^* k=e$, ce qui conclu la preuve.
 
@@ -570,7 +569,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMDQ3MDk4MiwtMTM1ODQ5NDIwNiwtMT
+eyJoaXN0b3J5IjpbLTI1ODMwODYyOSwtMTM1ODQ5NDIwNiwtMT
 E1NzU0NDM1MCwxNDYzMDE3ODE2LC03NDE1ODQxNTIsLTE1MTQx
 NjI2OTEsLTExMTc2NTc4NTEsLTEzODI0OTQ4MjEsLTE0ODU1OT
 g2MDUsNzUzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwx
