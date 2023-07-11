@@ -8,7 +8,9 @@
 ## Retirer le cycle à une liste cyclique en O(n) et O(1)
 
 On décompose la liste en la partie $A = x_0 , ... , x_\lambda$ avant le cycle, et la partie $x_{\lambda+1}, ... x_{\lambda+\mu} = B$ cyclique de longueur $\mu$
-1. Après avoir trouvé un $x\in B$ (lièvre et la tortue, ou alors exponentiation), on 
+1. Sans arithmétique :
+Après avoir trouvé un $x_i\in B$ (lièvre et la tortue, ou alors exponentiation), on calcule $\mu$ (juste on parcours j'usqu'à retomber sur $$ on inverse la liste de $x_0$ à $x_i$.
+On fait un parcours de $x_i$ et de $x_{i+1}$. On sait que la somme 
 ## Récursivité sans `rec` ou boucle :
 1. Méthode par des types :
 
@@ -33,5 +35,5 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MzM4NDU2MiwxOTY0MzcxOTRdfQ==
+eyJoaXN0b3J5IjpbLTE4NjY4NTk1MSwxOTY0MzcxOTRdfQ==
 -->
