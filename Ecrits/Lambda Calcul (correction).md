@@ -422,8 +422,7 @@ On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 31. (*) Donnez une expression $\Theta$ point-fixe.
 
 > Bravo si vous l'avez réussie ! Vraiment, vraiment, vraiment pas facile.
-> On peut donner $\Theta = (f\mapsto\Big((x\mapsto f(x(x)))(x\mapsto f(x(x)))\Big))$
-> Il est noté par un $Y$ dans la littérature *(The Y combinator)*.
+> On peut donner $Y = (f\mapsto\Big((x\mapsto f(x(x)))(x\mapsto f(x(x)))\Big))$
 
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
@@ -537,11 +536,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODU1OTg2MDUsNzUzMTQ4MTg3LC02OT
-IzMjI5NDgsMjA4Njk0Mjk0NCwxNzIzMjUxMjg0LDE5NDU2Mjc1
-MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMTEsLTYyMjY1MTY1MC
-wxNTk1NTM1MTg4LC0yMTIzNTY2OTIsLTI3MzM1NjYyMSwxMzgz
-MjQxNDU5LDkzMDUwNDI0OSwtMTYwMjA3NDMzNiwxMjg2Njc5OT
-k2LDU5ODU4NDA1MywtMjAxNjQyNzIzMCwtMTcxMzIzMTAxNywt
-NjIxMTg1MTQxXX0=
+eyJoaXN0b3J5IjpbMTgwODkxNDM1LC0xNDg1NTk4NjA1LDc1Mz
+E0ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQsMTcyMzI1MTI4
+NCwxOTQ1NjI3NTAwLC0xNDEzODg3MTUxLC0yMDcwMTkzMTExLC
+02MjI2NTE2NTAsMTU5NTUzNTE4OCwtMjEyMzU2NjkyLC0yNzMz
+NTY2MjEsMTM4MzI0MTQ1OSw5MzA1MDQyNDksLTE2MDIwNzQzMz
+YsMTI4NjY3OTk5Niw1OTg1ODQwNTMsLTIwMTY0MjcyMzAsLTE3
+MTMyMzEwMTddfQ==
 -->
