@@ -405,6 +405,8 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 On dit que $\text{fix}$ est un opérateur point-fixe  si il est sous forme normale et que, pour tout $f\in E$, on a :
 $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
+On admet qu'il en existe (sauf à la question 32).
+
 28. Montrez que si $\text{fix}(f) \to f(\text{fix}(f))$, alors $\text{fix}(f)$ n'est pas unitaire.
 
 > On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées). On a alors $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+1$, absurde.
@@ -412,13 +414,15 @@ $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe fort* de $f$ si $f(e)\to^* e$
 
 29. Montrez que tout $f\in E$ admet un point fixe.
+> On pose $e=\text{fix}(f)$ et on a $f(e$
+
 30. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe fort.
 > Par la question 18, on a que $f(\text{fix}(f)) \to^* e$ et $\text{fix}(f) \to^* e$ avec $e$ sous forme normale.
 > On a donc aussi que $f(\text{fix}(f)) \to^* f(e)$ qui admet une forme normale $k$.
 > Donc, par l'unicité de la forme normale, $k = e$.
 > On a donc $f(e) \to^* k=e$, ce qui conclu la preuve.
 
-31. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta K(\omega)$
+32. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta K(\omega)$
 
 33. (*) Donnez une expression $\Theta$ point-fixe.
 
@@ -540,13 +544,13 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 Toute ces questions sont difficile.
 
 1. Donnez un opérateur point fixe tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
-3. Montrez que tout 
+3. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzk4MTI3OCwtMTQ4NTU5ODYwNSw3NT
-MxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3MjMyNTEy
-ODQsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MDE5MzExMS
-wtNjIyNjUxNjUwLDE1OTU1MzUxODgsLTIxMjM1NjY5MiwtMjcz
-MzU2NjIxLDEzODMyNDE0NTksOTMwNTA0MjQ5LC0xNjAyMDc0Mz
-M2LDEyODY2Nzk5OTYsNTk4NTg0MDUzLC0yMDE2NDI3MjMwLC0x
-NzEzMjMxMDE3XX0=
+eyJoaXN0b3J5IjpbLTE2ODA4NjgxNTUsLTE0ODU1OTg2MDUsNz
+UzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwxNzIzMjUx
+Mjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMT
+EsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OTIsLTI3
+MzM1NjYyMSwxMzgzMjQxNDU5LDkzMDUwNDI0OSwtMTYwMjA3ND
+MzNiwxMjg2Njc5OTk2LDU5ODU4NDA1MywtMjAxNjQyNzIzMCwt
+MTcxMzIzMTAxN119
 -->
