@@ -98,6 +98,7 @@ On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ 
 
 9. Montrez que $a=_\beta b$, si et seulement si il existe $n\in\N$ et $M_1,...,M_n \in E$ tel que $a\lrarr M_1\lrarr...\lrarr M_n\lrarr b$
 10. Montrez que $=_\beta$ est une relation d'équivalence sur E. 
+
 ## Le théorème de _Church-Rosser_
 
 On dit que une relation $\mathcal{R}$ sur $E$ respecte la propriété du diamant si :
@@ -284,8 +285,8 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTQyNjcxMiwtMTA1NjkyODU0Myw3Nz
-Y4NTk3MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOTUzMzIzLC0x
-ODQ3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkzNCwtMTIwNz
-gzOTY4NywtNjM0NTcxMzcwXX0=
+eyJoaXN0b3J5IjpbLTE0NTU5MTQyOTgsLTEwNTY5Mjg1NDMsNz
+c2ODU5NzIsMTM4NjMzNDcsODY4Njg5MjMsMTkxMjk1MzMyMywt
+MTg0Nzc3MTYwNCwtNTY4ODQyNTQ0LC03MDYxODk5MzQsLTEyMD
+c4Mzk2ODcsLTYzNDU3MTM3MF19
 -->
