@@ -178,13 +178,15 @@ $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
 28. Montrez que si $\text{fix}(f) \to f(\text{fix}(f))$, alors $\text{fix}(f)$ n'est pas unitaire.
 
-On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
+On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe fort* de $f$ si $f(e)\to^* e$
 
-29. Montrez que si pour tout $e\in E$, on a que $f(e)$ admette une forme normale, alors $\text{fix}(f)$ admet une forme normale.
-30. Montrez que si pour tout $e\in E$, on a que $f(e)$ admette une forme normale, alors $f$ admet un point fixe.
-Donnez un $f$ exemple qui respecte cette propriété. Quel est son point fixe ?
-31. (*) Donnez une expression $\Theta$ point-fixe.
+29. Montrez que tout $f\in E$ admet un point fixe.
 
+30. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe fort.
+
+31. (*) Donnez une expression $Y$ point-fixe.
+
+Bonus.
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
 
@@ -272,7 +274,8 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Remarque : Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2ODU5NzIsMTM4NjMzNDcsODY4Njg5Mj
-MsMTkxMjk1MzMyMywtMTg0Nzc3MTYwNCwtNTY4ODQyNTQ0LC03
-MDYxODk5MzQsLTEyMDc4Mzk2ODcsLTYzNDU3MTM3MF19
+eyJoaXN0b3J5IjpbLTE5NTY4NzEwODIsNzc2ODU5NzIsMTM4Nj
+MzNDcsODY4Njg5MjMsMTkxMjk1MzMyMywtMTg0Nzc3MTYwNCwt
+NTY4ODQyNTQ0LC03MDYxODk5MzQsLTEyMDc4Mzk2ODcsLTYzND
+U3MTM3MF19
 -->
