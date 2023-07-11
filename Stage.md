@@ -5,7 +5,7 @@
 - Différence en OCaml entre `type C of int * int` et `type C of (int * int)`
 - [On ne sait pas bien faire des parcours en profondeur](https://11011110.github.io/blog/2013/12/17/stack-based-graph-traversal.html)
 
-## Retirer le cycle à une liste cyclique en O(n) et O(1)
+## Retirer le cycle à une liste en temps O(n) et espace O(1)
 
 On décompose la liste en la partie $A = x_0 , ... , x_\lambda$ avant le cycle, et la partie $x_{\lambda+1}, ... x_{\lambda+\mu} = B$ cyclique de longueur $\mu$
 1. Sans arithmétique :
@@ -13,10 +13,11 @@ Après avoir trouvé un $x_i\in B$ (lièvre et la tortue, ou alors exponentiatio
 Puis on inverse la liste de $x_0$ à $x_i$, et on fait un parcours partant de $x_i$ et un autre partant de $x_{i+1}$.
 On sait que la somme des longueurs de deux parcours fait $2\lambda + \mu -1$.
 Comme on a $\mu$, on peut trouver la longueur de $\lambda$.
-permet de poser des questions sur inverser une liste, le lièvre et la tortue, la définition d'une liste etc...
+Permet de poser des questions sur inverser une liste, le lièvre et la tortue, la définition d'une liste etc...
 
 2. Avec arithmétique :
-le lièvre et la tortue se termine en l'unique $x_i$ tel que $x_i = x_{2i}$
+le lièvre et la tortue se termine en l'unique $x_i$ tel que $x_i = x_{2i}$ (unique dans le sens ou si $x_r = x_{2r}$, alors $x_r = x_i$)
+A continuer.
 
 ## Récursivité sans `rec` ou boucle :
 1. Méthode par des types :
@@ -42,5 +43,5 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4NTMwNzA4LDE5NjQzNzE5NF19
+eyJoaXN0b3J5IjpbNTI0NjYxOTMzLDE5NjQzNzE5NF19
 -->
