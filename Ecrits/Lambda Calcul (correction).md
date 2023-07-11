@@ -249,7 +249,8 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >    - Si $t=(y\mapsto e)$ (avec $y\neq x$), alors $$
 >    - Si $t=(e_1)(e_2)$, alors $t[x \larr v] = (e_1[x \larr v])(e_2[x \larr v])$ et par hypothèse d'induction, $e_1[x \larr v] \ \triangleright e_1[x \larr v']$ et $e_2[x \larr v] \ \triangleright e_2[x \larr v']$ ce qui montre par la règle 3 que $t[x \larr v]  \ \triangleright t'[x \larr v']$
 > - Règle 2, si on a $t = y\mapsto e \triangleright y\mapsto e' = t'$ avec $e \triangleright e'$, on a par induction que $e[x\larr v] \triangleright e'[x\larr v']$, donc que $t[x \larr v] \triangleright t'[x \larr v']$ par la Règle 2.
-> - Règle 3, si $t = e(y)\triangleright e'(y')$ avec  $e\triangleright e'$ et $y\triangleright y'$
+> - Règle 3, si on a que $t = e(y)\triangleright e'(y')$ avec  $e\triangleright e'$ et $y\triangleright y'$. Dans ce cas, par induction, $e[x \larr v] \triangleright e'[x \larr v']$ et $y[x \larr v] \triangleright y'[x \larr v']$.
+> Donc, par la règle 3, on a que $t[x \larr v] \triangleright t'[x \larr v']$
 
 14. (*) Montrez que $\triangleright$ respecte la *propriété du diamant*.
 15. En déduire le théorème de *Church-Rosser*.
@@ -515,7 +516,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDczOTYyMywxNTk1NTM1MTg4LC0yMT
+eyJoaXN0b3J5IjpbMTI0NDY5Njc4NiwxNTk1NTM1MTg4LC0yMT
 IzNTY2OTIsLTI3MzM1NjYyMSwxMzgzMjQxNDU5LDkzMDUwNDI0
 OSwtMTYwMjA3NDMzNiwxMjg2Njc5OTk2LDU5ODU4NDA1MywtMj
 AxNjQyNzIzMCwtMTcxMzIzMTAxNywtNjIxMTg1MTQxLDE1Nzcx
