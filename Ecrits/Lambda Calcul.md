@@ -276,7 +276,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 ## Pour aller plus loin
 
-1. Donnez un opérateur point fixe $\Theta$ tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
+1. Donnez un opérateur point fixe $\Theta$ tel que $\Theta(f) \to^* f(\Theta(f))$
 
 2. On cherche à calculer la forme normale de $f(e)$, pour cela on met d'abord l'argument $e$ sous forme normale inductivement avant de faire l'évaluation. Comment changer $Y$ tel que $\text{fact}(C_1)$ termine ? 
 
@@ -284,8 +284,8 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxMTQ4MjAwLC0xMDU2OTI4NTQzLDc3Nj
-g1OTcyLDEzODYzMzQ3LDg2ODY4OTIzLDE5MTI5NTMzMjMsLTE4
-NDc3NzE2MDQsLTU2ODg0MjU0NCwtNzA2MTg5OTM0LC0xMjA3OD
-M5Njg3LC02MzQ1NzEzNzBdfQ==
+eyJoaXN0b3J5IjpbMjEwOTQyNjcxMiwtMTA1NjkyODU0Myw3Nz
+Y4NTk3MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOTUzMzIzLC0x
+ODQ3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkzNCwtMTIwNz
+gzOTY4NywtNjM0NTcxMzcwXX0=
 -->
