@@ -18,6 +18,9 @@ type t = T of (t -> t);;
 let fix f = (fun x -> f (x x))(fun x -> f (x x));;
 (* avec eta-réduction : *)
 let fix f = (fun x,u -> f (x x) u)(fun x,u -> f (x x) u);;
+
+let rec_fact rec_me n = match n with | 0 -> 1 | _ -> n*(rec_me (n-1)) in
+let factorial = fix rec_fact;;
 ```
 3. Avec une ref :
 ```ocaml
@@ -26,5 +29,5 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDM3MTk0XX0=
+eyJoaXN0b3J5IjpbMTc3MDU2MTg0OCwxOTY0MzcxOTRdfQ==
 -->
