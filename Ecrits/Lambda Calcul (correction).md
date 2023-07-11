@@ -304,9 +304,9 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > - Si $M_i \rarr M_{i+1}$, alors on sait par la propriété du diamant sur $e_i$ et $M_{i+1}$, tout deux généré par $M_i$ qu'il existe $\alpha$ tel que $e_i \to^* \alpha$ et $M_{i+1}\to^* \alpha$.
 > On pose $e_{i+1} = \alpha$, et on a bien $M_0 \to^* e_i \to^* e_{i+1}$ et $M_{i+1}\to^* e_{i+1}$ 
 
-19. Soit $f\in E$. Donnez un contre-exemple $g$ à : $(\forall e\in E, f(e)=_\beta g(e)) \implies f =_\beta g$
+19. Soit $f\in E$. Donnez une expression contre-exemple $g$ à : $(\forall e\in E, f(e)=_\beta g(e)) \implies f =_\beta g$
 > On peut prendre $g = y \mapsto f(y)$
-> On a bien, soit $e\in E$, $g(e) = f(e)$, mais $f \not=_\beta g$ (les deux sont sous forme normale. S'ils étaient dans la même classe, ils auraient eu la même forme normale)
+> On a bien, soit $e\in E$, $g(e) = f(e)$, mais $f \not=_\beta g$ (les deux sont sous forme normale. S'ils étaient $=_\beta$équivalent, ils auraient eu la même forme normale)
 # Partie III: Entiers et opérations
 
 ## Entiers de Church
@@ -549,16 +549,14 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 ## Pour aller plus loin
 
-Toute ces questions sont difficile.
-
 1. Donnez un opérateur point fixe tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
 3. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODI0OTQ4MjEsLTE0ODU1OTg2MDUsNz
-UzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwxNzIzMjUx
-Mjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMT
-EsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OTIsLTI3
-MzM1NjYyMSwxMzgzMjQxNDU5LDkzMDUwNDI0OSwtMTYwMjA3ND
-MzNiwxMjg2Njc5OTk2LDU5ODU4NDA1MywtMjAxNjQyNzIzMCwt
-MTcxMzIzMTAxN119
+eyJoaXN0b3J5IjpbMTcxODg4NTM1LC0xMzgyNDk0ODIxLC0xND
+g1NTk4NjA1LDc1MzE0ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5
+NDQsMTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0xNDEzODg3MTUxLC
+0yMDcwMTkzMTExLC02MjI2NTE2NTAsMTU5NTUzNTE4OCwtMjEy
+MzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1OSw5MzA1MDQyND
+ksLTE2MDIwNzQzMzYsMTI4NjY3OTk5Niw1OTg1ODQwNTMsLTIw
+MTY0MjcyMzBdfQ==
 -->
