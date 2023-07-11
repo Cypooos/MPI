@@ -116,7 +116,9 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 12. Montrez que si $a\triangleright b$, alors $a\to^* b$
 13. (*) Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : On peut procéder par induction selon la règle obtenue pour avoir $t\triangleright t'$.
-> On pourra aussi montrer  (LEMME)que, soient $t,t',e\in E$ et $x,y\in V$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$ si $x\ne y$ et $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$ sinon
+> On pourra aussi montrer  (LEMME) : soient $t,t',e\in E$ et $x,y\in V$, on a :
+> - si $x\neq y$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
+> - sinon, si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 14. (*) Montrez que $\triangleright$ respecte la *propriété du diamant*.
 15. En déduire le théorème de *Church-Rosser*.
 
@@ -268,7 +270,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Remarque : Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODYwNDY0NDYsMTkxMjk1MzMyMywtMT
-g0Nzc3MTYwNCwtNTY4ODQyNTQ0LC03MDYxODk5MzQsLTEyMDc4
-Mzk2ODcsLTYzNDU3MTM3MF19
+eyJoaXN0b3J5IjpbODY4Njg5MjMsMTkxMjk1MzMyMywtMTg0Nz
+c3MTYwNCwtNTY4ODQyNTQ0LC03MDYxODk5MzQsLTEyMDc4Mzk2
+ODcsLTYzNDU3MTM3MF19
 -->
