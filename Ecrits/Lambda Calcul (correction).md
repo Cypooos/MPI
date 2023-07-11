@@ -298,7 +298,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 18. Montrez que si $a=_\beta b$, alors il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
 
 > On pose $(M_i)_i$ la suite finie dans $E$ tel que $a= M_0 \lrarr M_1 \lrarr ... \lrarr M_n = b$.
-> On mre, par récurrence sur $i$ que il existe $e_i\in E$ tel que $a \to^* e_i$ et $M_i\to^* e_i$ :
+> On montre, par récurrence sur $i$ que il existe $e_i\in E$ tel que $a \to^* e_i$ et $M_i\to^* e_i$ :
 > Pour $i=0$, $e_i = a$ conviens.
 > On suppose que $M_i \to^* e_i$ et que $M_0 \to^* e_i$ :
 > - Si $M_{i} \larr M_{i+1}$, alors on a $M_{i+1} \to M_i \to^* e_i$ et donc $e_{i+1}=e_i$ conviens
@@ -569,7 +569,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDA3Njg5NywtMTM1ODQ5NDIwNiwtMT
+eyJoaXN0b3J5IjpbLTU1MjUyODg3MiwtMTM1ODQ5NDIwNiwtMT
 E1NzU0NDM1MCwxNDYzMDE3ODE2LC03NDE1ODQxNTIsLTE1MTQx
 NjI2OTEsLTExMTc2NTc4NTEsLTEzODI0OTQ4MjEsLTE0ODU1OT
 g2MDUsNzUzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwx
