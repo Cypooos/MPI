@@ -429,17 +429,10 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 > En appliquant la propriété du diamant sur $f(e')$ et $e'$ généré par $f(\text{fix}(f))$, on a que $f(e') \to^* p$ et $e' \to^* p$.
 > Comme $e'$ sous forme normale, on a $p=e'$. Donc $f(e') \to^* e'$.
 
-33. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
-
-> Soit $e$ sous forme normale. On peut donner $K(e)$.
-> En effet, pour tout $a\in E$, on a $f(a) \to e$.
-> On a donc $f$ pour $n>0$, que de $(K(e))^n\text{fix}(K(e))$, les seuls dérivations possibles sont $e$ ou $(K(I))^{n+1}\text{fix}(K(e))$.
-> Alors on a bien que pour tout calcul normalisant $\text{fix}(K(e)) \to^* k=e$, ce qui conclu la preuve.
-
-31. (*) Donnez une expression $Y\Theta$ point-fixe.
+31. (*) Donnez une expression $Y$ point-fixe.
 
 > Bravo si vous l'avez réussie ! Vraiment, vraiment, vraiment pas facile.
-> On peut donner $Y\Theta = (f\mapsto\Big((x\mapsto f(x(x)))(x\mapsto f(x(x)))\Big))$
+> On peut donner $Y = (f\mapsto\Big((x\mapsto f(x(x)))(x\mapsto f(x(x)))\Big))$
 
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
@@ -569,7 +562,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODMwODYyOSwtMTM1ODQ5NDIwNiwtMT
+eyJoaXN0b3J5IjpbMTYzNjQyMjE4NiwtMTM1ODQ5NDIwNiwtMT
 E1NzU0NDM1MCwxNDYzMDE3ODE2LC03NDE1ODQxNTIsLTE1MTQx
 NjI2OTEsLTExMTc2NTc4NTEsLTEzODI0OTQ4MjEsLTE0ODU1OT
 g2MDUsNzUzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwx
