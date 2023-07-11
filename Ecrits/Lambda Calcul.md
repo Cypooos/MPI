@@ -4,10 +4,10 @@ Ce sujet difficile introduit la théorie derrière les langages fonctionnel : le
 
 La partie I introduit le lambda calcul et les booléens.
 La partie II étudie la $\beta$-équivalence et la propriété de Church Rosser.
-La partie III implémente les entiers de church et les opérations classiques dessus.
+La partie III implémente les entiers de Church et les opérations classiques dessus.
 La partie IV introduit le principe d'opérateur point-fixe et la récursivité.
 La partie V définie des types aux expressions du lambda calcul.
-La partie VI est en cours d'écriture, et portera sur des liens avec les grammaires.
+La partie VI, pour aller plus loin. Certaines parties en font référence.
 
 Dépendances des différentes parties :
 $$
@@ -280,9 +280,10 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 3. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
+4. Quel est le point fixe $C_$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzQ0NTkzNiw3NzY4NTk3MiwxMzg2Mz
-M0Nyw4Njg2ODkyMywxOTEyOTUzMzIzLC0xODQ3NzcxNjA0LC01
-Njg4NDI1NDQsLTcwNjE4OTkzNCwtMTIwNzgzOTY4NywtNjM0NT
-cxMzcwXX0=
+eyJoaXN0b3J5IjpbMzI2OTQ1NzgwLDc3Njg1OTcyLDEzODYzMz
+Q3LDg2ODY4OTIzLDE5MTI5NTMzMjMsLTE4NDc3NzE2MDQsLTU2
+ODg0MjU0NCwtNzA2MTg5OTM0LC0xMjA3ODM5Njg3LC02MzQ1Nz
+EzNzBdfQ==
 -->
