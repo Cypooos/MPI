@@ -260,7 +260,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > - Règle 1, si $t = t'$, alors on procède par induction sur $t$:
 >    - Si $t=x$, alors $t[x \larr v] = v \triangleright v' = t'[x \larr v']$
 >    - Si $t= (x\mapsto e)$, alors $t[x \larr v] = t\ \triangleright t' = t'[x \larr v']$
->    - Si $t=(y\mapsto e)$ (avec $y\neq x$), alors par induction on a $t[x \larr v] = (y\mapsto e[x \larr v])\ \triangleright (y\mapsto e[x \larr v']) = t'[x \larr v]$ car $e[x \larr v]$
+>    - Si $t=(y\mapsto e)$ (avec $y\neq x$), alors par induction on a $e[x \larr v] \triangleright (y\mapsto e[x \larr v'])$ on a $t[x \larr v] = (y\mapsto e[x \larr v])\ \triangleright (y\mapsto e[x \larr v']) = t'[x \larr v]$ car 
 >    - Si $t=(e_1)(e_2)$, alors $t[x \larr v] = (e_1[x \larr v])(e_2[x \larr v])$ et par hypothèse d'induction, $e_1[x \larr v] \ \triangleright e_1[x \larr v']$ et $e_2[x \larr v] \ \triangleright e_2[x \larr v']$ ce qui montre par la règle 3 que $t[x \larr v]  \ \triangleright t'[x \larr v']$
 > - Règle 2, si on a $t = y\mapsto e \triangleright y\mapsto e' = t'$ avec $e \triangleright e'$.
 > Dans ce cas, on a par induction que $e[x\larr v] \triangleright e'[x\larr v']$, donc que $t[x \larr v] \triangleright t'[x \larr v']$ par la Règle 2.
@@ -538,11 +538,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxNDQxNTA1LDE5NDU2Mjc1MDAsLTE0MT
-M4ODcxNTEsLTIwNzAxOTMxMTEsLTYyMjY1MTY1MCwxNTk1NTM1
-MTg4LC0yMTIzNTY2OTIsLTI3MzM1NjYyMSwxMzgzMjQxNDU5LD
-kzMDUwNDI0OSwtMTYwMjA3NDMzNiwxMjg2Njc5OTk2LDU5ODU4
-NDA1MywtMjAxNjQyNzIzMCwtMTcxMzIzMTAxNywtNjIxMTg1MT
-QxLDE1NzcxMjkyOTAsLTU4NzUyOTkwMSwtNjk2MDgxNzEzLC0x
-NTk1MjQ3NDA3XX0=
+eyJoaXN0b3J5IjpbMTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0xND
+EzODg3MTUxLC0yMDcwMTkzMTExLC02MjI2NTE2NTAsMTU5NTUz
+NTE4OCwtMjEyMzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1OS
+w5MzA1MDQyNDksLTE2MDIwNzQzMzYsMTI4NjY3OTk5Niw1OTg1
+ODQwNTMsLTIwMTY0MjcyMzAsLTE3MTMyMzEwMTcsLTYyMTE4NT
+E0MSwxNTc3MTI5MjkwLC01ODc1Mjk5MDEsLTY5NjA4MTcxMywt
+MTU5NTI0NzQwN119
 -->
