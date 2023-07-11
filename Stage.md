@@ -8,8 +8,9 @@
 ## Récursivité sans `rec` ou boucle :
 1. Méthode par des types :
 
-```ml
-type 
+```ocaml
+type t = T of (t -> t);;
+(* ?? *)
 ```
 2. Avec l'option `-rectype`, on peut définir l'opérateur point-fixe :
 ```ocaml
@@ -25,5 +26,5 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDE4MTk2NThdfQ==
+eyJoaXN0b3J5IjpbMTk2NDM3MTk0XX0=
 -->
