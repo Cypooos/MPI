@@ -114,7 +114,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 11. Montrez que si $a\to b$, alors $a\triangleright b$.
 12. Montrez que si $a\triangleright b$, alors $a\to^* b$
-13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
+13. ()Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : On peut procéder par induction selon la règle obtenue pour avoir $t\triangleright t'$
 14. (*) Montrez que $\triangleright$ respecte la *propriété du diamant*.
 15. En déduire le théorème de *Church-Rosser*.
@@ -267,7 +267,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Remarque : Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjk1MzMyMywxOTEyOTUzMzIzLC0xOD
-Q3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkzNCwtMTIwNzgz
-OTY4NywtNjM0NTcxMzcwXX0=
+eyJoaXN0b3J5IjpbNjI2NTkzNzcyLDE5MTI5NTMzMjMsLTE4ND
+c3NzE2MDQsLTU2ODg0MjU0NCwtNzA2MTg5OTM0LC0xMjA3ODM5
+Njg3LC02MzQ1NzEzNzBdfQ==
 -->
