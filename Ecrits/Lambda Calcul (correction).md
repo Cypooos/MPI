@@ -276,7 +276,7 @@ $$t[x \larr v]= x\mapsto$$
 > Pour $i=0$, $e_i = a$ conviens.
 > On suppose que $M_i \to^* e_i$ et que $M_0 \to^* e_i$ :
 > - Si $M_{i} \larr M_{i+1}$, alors on a $M_{i+1} \to M_i \to^* e_i$ et donc $e_{i+1}=e_i$ conviens
-> - Si $M_i \rarr M_{i+1}$, alors on sait 
+> - Si $M_i \rarr M_{i+1}$, alors on sait par la propriété du diamant qu'il existe $\alpha$ tel que $M_i \to^* \alpha$ et $M_{i+1}\to^* \alpha$. On pose $e_{i+1}$
 # Partie III: Entiers et opérations
 
 ## Entiers de Church
@@ -514,7 +514,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDE3MTYwNCwtMjczMzU2NjIxLDEzOD
+eyJoaXN0b3J5IjpbMTg4MzIwMDU5NywtMjczMzU2NjIxLDEzOD
 MyNDE0NTksOTMwNTA0MjQ5LC0xNjAyMDc0MzM2LDEyODY2Nzk5
 OTYsNTk4NTg0MDUzLC0yMDE2NDI3MjMwLC0xNzEzMjMxMDE3LC
 02MjExODUxNDEsMTU3NzEyOTI5MCwtNTg3NTI5OTAxLC02OTYw
