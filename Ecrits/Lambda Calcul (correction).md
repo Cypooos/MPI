@@ -415,11 +415,14 @@ On admet qu'il en existe (sauf à la question 32).
 
 > On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées). On a alors $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+1$, absurde.
 
-On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et on appellera $e$ un *point fixe fort* de $f$ si $f(e)\to^* e$.
 
-> On pose $e=\text{fix}(f)$ et on a $f(e) = f ( \to^n e$. Mais on a aussi: $\text{fix}(f)) = _\beta \to f(\text{fix}(f) = e$
+On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe fort* de $f$ si $f(e)\to^* e$
 
-30. Montrez que si pour tout $e\in E)\to^n f(e) \to^* p$ qui est un calcul normalisant par hypothèse. Par l'unicité de la forme normale de $\text{fix}(f)$, $e=p$, don a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe fort.
+29. Montrez que tout $f\in E$ admet un point fixe.
+
+> On pose $e=\text{fix}(f)$ et on a $f(e) = f(\text{fix}(f)) = _\beta \text{fix}(f) = e$
+
+30. Montrez que si pour tout $e\in E$, si on a que $\to^n f(e) \to^* p$ qui est un calcul normalisant par hypothèse. Par l'unicité de la forme normale de $\text{fix}(f)$, $e=p$, don a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe fort.
 > Par la question 18, on a que $f(\text{fix}(f)) \to^* e$ et $\text{fix}(f) \to^* e$ avecc on a $f(e) \to^* e$
 
 30. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
@@ -563,11 +566,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjM2NDk1MDQsLTEzNTg0OTQyMDYsLT
-ExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0
-MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NT
-k4NjA1LDc1MzE0ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQs
-MTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0xNDEzODg3MTUxLC0yMD
-cwMTkzMTExLC02MjI2NTE2NTAsMTU5NTUzNTE4OCwtMjEyMzU2
-NjkyLC0yNzMzNTY2MjFdfQ==
+eyJoaXN0b3J5IjpbMTI0OTQyNDQ5MSwtMTM1ODQ5NDIwNiwtMT
+E1NzU0NDM1MCwxNDYzMDE3ODE2LC03NDE1ODQxNTIsLTE1MTQx
+NjI2OTEsLTExMTc2NTc4NTEsLTEzODI0OTQ4MjEsLTE0ODU1OT
+g2MDUsNzUzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwx
+NzIzMjUxMjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNz
+AxOTMxMTEsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2
+OTIsLTI3MzM1NjYyMV19
 -->
