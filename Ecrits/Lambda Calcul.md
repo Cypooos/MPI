@@ -3,7 +3,7 @@
 Ce sujet difficile introduit la théorie derrière les langages fonctionnel : le lambda calcul.
 
 La partie I introduit le lambda calcul et les booléens.
-La partie II étudie la $\beta$-équivalence et la propriété de Church Rosser.
+La partie II étudie la $\beta$-équivalence et la propriété de Church-Rosser.
 La partie III implémente les entiers de Church et les opérations classiques dessus.
 La partie IV introduit le principe d'opérateur point-fixe et la récursivité.
 La partie V définie des types aux expressions du lambda calcul.
@@ -288,8 +288,9 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwOTU3MzkzNywtMTQ1NTkxNDI5OCwtMT
-A1NjkyODU0Myw3NzY4NTk3MiwxMzg2MzM0Nyw4Njg2ODkyMywx
-OTEyOTUzMzIzLC0xODQ3NzcxNjA0LC01Njg4NDI1NDQsLTcwNj
-E4OTkzNCwtMTIwNzgzOTY4NywtNjM0NTcxMzcwXX0=
+eyJoaXN0b3J5IjpbLTE2OTYyNzkwMCwxNzA5NTczOTM3LC0xND
+U1OTE0Mjk4LC0xMDU2OTI4NTQzLDc3Njg1OTcyLDEzODYzMzQ3
+LDg2ODY4OTIzLDE5MTI5NTMzMjMsLTE4NDc3NzE2MDQsLTU2OD
+g0MjU0NCwtNzA2MTg5OTM0LC0xMjA3ODM5Njg3LC02MzQ1NzEz
+NzBdfQ==
 -->
