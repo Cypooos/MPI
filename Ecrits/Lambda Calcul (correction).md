@@ -442,6 +442,8 @@ $$\text{fix}(F)(e) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
 
 > Indication : On pourra utiliser le graphes des réductions de $\text{fix}(F)(e)$
+
+> 
 ## Un exemple
 On définit :
 $$
@@ -550,7 +552,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 2. On cherche à calculer la forme normale de $f(e)$, pour cela on met d'abord l'argument $e$ sous forme normale inductivement avant de faire l'évaluation. Comment changer $Y$ tel que $\text{fact}(C_1)$ termine ? 
 
-> On peut utiliser $Y = (f\mapsto\Big((x\mapsto f(\mu \mapsto x(x)(\mu)))(x\mapsto f(\mu \mapsto x(x)(\mu)))\Big))$.
+> On peut utiliser $Y = (f\mapsto\Big((x\mapsto f(\mu \mapsto x(x)(\mu)))(x\mapsto f(\mu \mapsto x(x)(\mu)))\Big))$
 
 3. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
@@ -558,11 +560,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTk0ODI3OCwtMTE1NzU0NDM1MCwxND
-YzMDE3ODE2LC03NDE1ODQxNTIsLTE1MTQxNjI2OTEsLTExMTc2
-NTc4NTEsLTEzODI0OTQ4MjEsLTE0ODU1OTg2MDUsNzUzMTQ4MT
-g3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwxNzIzMjUxMjg0LDE5
-NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMTEsLTYyMj
-Y1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OTIsLTI3MzM1NjYy
-MSwxMzgzMjQxNDU5XX0=
+eyJoaXN0b3J5IjpbLTEzNTg0OTQyMDYsLTExNTc1NDQzNTAsMT
+Q2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0MTYyNjkxLC0xMTE3
+NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NTk4NjA1LDc1MzE0OD
+E4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQsMTcyMzI1MTI4NCwx
+OTQ1NjI3NTAwLC0xNDEzODg3MTUxLC0yMDcwMTkzMTExLC02Mj
+I2NTE2NTAsMTU5NTUzNTE4OCwtMjEyMzU2NjkyLC0yNzMzNTY2
+MjEsMTM4MzI0MTQ1OV19
 -->
