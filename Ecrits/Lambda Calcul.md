@@ -242,33 +242,36 @@ $$
  On n'hésitera pas a ajouter des parenthèses pour ce faire comprendre : par défaut, les flèches sont une opération de droite à gauche, ainsi, $\tau\to\tau\to\tau = \tau\to(\tau\to\tau)$
 On notera $e:t$ pour dire qu'une expression $e$ à un typage $t$.
 Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
-
 ## Typage de groupe d'expressions
 
-22. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
+36. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
 
 Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
 
-24. Donnez $t$ un type généralisé de $\{\top, \bot\}$
-25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
+37. Donnez $t$ un type généralisé de $\{\top, \bot\}$
+38. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
 ## Caractérisation des expressions unitaire
 On essaye de montrer que toute les expressions unitaire sont tel que $\Gamma \vdash e:t$.
 
-26. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé.
-27. Montrez que le type d'une expression est invariant par dérivation.
-28. Montrez que si $f$ est sous forme normale, alors il existe $\Gamma,t$ tel que toute variable libre de $f$  est une variable dans un couple de $\Gamma$ et $\Gamma \vdash f:t$
-29. Montrez que si $e$ est unitaire, alors il existe $\Gamma,t$ tel que $\Gamma \vdash e:t$.
-30. Montrez que si $e$ unitaire n'as pas de variable libre, alors $e$ est bien typé.
+39. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé.
+40. Montrez que le type d'une expression est invariant par dérivation.
+41. Montrez que si $f$ est sous forme normale, alors il existe $\Gamma,t$ tel que toute variable libre de $f$  est une variable dans un couple de $\Gamma$ et $\Gamma \vdash f:t$
+42. Montrez que si $e$ est unitaire, alors il existe $\Gamma,t$ tel que $\Gamma \vdash e:t$.
+43. Montrez que si $e$ unitaire n'as pas de variable libre, alors $e$ est bien typé.
 
 ## Réciproque
 On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
-31. En étendant $\phi$, donnez $\varphi : T\to E$ injective 
-32. Soit $\Gamma\vdash e:t$. Montrez que $e\to^* \phi(t)$ et $e$ unitaire.
+44. En étendant $\phi$, donnez $\varphi : T\to E$ injective 
+45. Soit $\Gamma\vdash e:t$. Montrez que $e\to^* \phi(t)$ et $e$ unitaire.
 > A revoir: Je pense avoir fait une erreur quand j'ai écrit la correction, mais je ne sais pas d'où elle viens. Je regarderai avec vos propositions. Ne passez pas trop de temps dessus si elle vous semble impossible.
-33. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
-34. En déduire que $\Delta$ ne possède pas de typage.
+46. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
+47. En déduire que $\Delta$ ne possède pas de typage.
+
+> Remarque : En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même la fonction $\text{pow}$ comme on a pu le voir dans la partie III.
+
+> Remarque : Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
 > Remarque : En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même la fonction $\text{pow}$ comme on a pu le voir dans la partie III.
 
@@ -285,8 +288,8 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU5MTQyOTgsLTEwNTY5Mjg1NDMsNz
-c2ODU5NzIsMTM4NjMzNDcsODY4Njg5MjMsMTkxMjk1MzMyMywt
-MTg0Nzc3MTYwNCwtNTY4ODQyNTQ0LC03MDYxODk5MzQsLTEyMD
-c4Mzk2ODcsLTYzNDU3MTM3MF19
+eyJoaXN0b3J5IjpbLTI0OTM1ODkyLC0xNDU1OTE0Mjk4LC0xMD
+U2OTI4NTQzLDc3Njg1OTcyLDEzODYzMzQ3LDg2ODY4OTIzLDE5
+MTI5NTMzMjMsLTE4NDc3NzE2MDQsLTU2ODg0MjU0NCwtNzA2MT
+g5OTM0LC0xMjA3ODM5Njg3LC02MzQ1NzEzNzBdfQ==
 -->
