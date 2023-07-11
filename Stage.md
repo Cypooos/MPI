@@ -13,8 +13,10 @@ Après avoir trouvé un $x_i\in B$ (lièvre et la tortue, ou alors exponentiatio
 Puis on inverse la liste de $x_0$ à $x_i$, et on fait un parcours partant de $x_i$ et un autre partant de $x_{i+1}$.
 On sait que la somme des longueurs de deux parcours fait $2\lambda + \mu -1$.
 Comme on a $\mu$, on peut trouver la longueur de $\lambda$.
+permet de poser des questions sur inverser une liste, le lièvre et la tortue, la définition d'une liste etc...
 
 2. Avec arithmétique :
+le lièvre et la tortue se termine en l'unique $x_i$ tel que $x_i = x_{2i}$
 
 ## Récursivité sans `rec` ou boucle :
 1. Méthode par des types :
@@ -40,5 +42,5 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODcxNDc5OSwxOTY0MzcxOTRdfQ==
+eyJoaXN0b3J5IjpbODY4NTMwNzA4LDE5NjQzNzE5NF19
 -->
