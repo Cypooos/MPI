@@ -335,7 +335,7 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 > 
 > NB: $\text{add} = (C,C',f,x\mapsto C(f,C'(f,x)))$ marche aussi.
 
-21. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$ 
+22. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$ 
 
 > On pose $\text{mul} = (C,C'\mapsto C(\text{add}(C'),C_0))$ 
 > On a : $\text{mul}(C_n,C_m) \to^2 C_n(\text{add}(C_m),C_0)\to^2 (\text{add}(C_m))^n(C_0) \to ^* C_{n\times m}$
@@ -344,13 +344,13 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 >  - Hérédité: On a $(\text{add}(C_m))^{n+1}(C_0)=\text{add}(C_m)((\text{add}(C_m))^n(C_0)) \to^*\text{add}(C_m)(C_{n\times m}) \to ^* C_{m+n\times m} = C_{(n+1)\times m}$
 
 ## Conditions sur les entiers de Church
-22. Définir $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
+23. Définir $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
 
  > On pose $\text{eq\_0} = (C\mapsto C(K(\bot),\top))$, et on a :
  >  - pour $C_0$ : $\text{eq\_0}(C_0) \to C_0(K(\bot),\top)\to \top$
  >  - soit $n>0$ : $\text{eq\_0}(C_n) \to C_n(K(\bot),\top)\to (K(\bot))^n(\top)\to^*K(\top)((K(\bot))^{n-1}(\top)) \to \bot$
  
-23. Définir $\text{eq}$ une expression tel que :
+24. Définir $\text{eq}$ une expression tel que :
     * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
     * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
 
@@ -374,17 +374,17 @@ $$D = (x,y,z \mapsto z(x,y))$$
 
 qui représente un couple $(x,y)$
 
-24. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$.
+25. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$.
 
 > On a : $D(e,e')(\top)\to \top(e,e')= (x,y\mapsto x)(e,e') \to^2 e$
 > Et aussi : $D(e,e')(\bot)\to \bot(e,e')= (x,y\mapsto y)(e,e') \to^2 e'$
 
-25. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1})$
+26. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1})$
 
 > On pose $A = (d\mapsto D\Big(d(\bot),\text{succ}(d(\bot))\Big))$
 > On a alors : $A(D(e,C_n))\to D\Big(D(e,C_n)(\bot),\text{succ}(D(e,C_n)(\bot))\Big)\to^* D\Big(C_n,\text{succ}(C_n)\Big)\to^* D(C_n,C_{n+1})$
 
-26. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
+27. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
 
 > On \text{decr} = (C\mapsto C(A,D(C_0,C_0))(\top))$
 > L'idée que comme A passe de (x,n) à (n,n+1), en répétant n fois A, on a une fonction qui à (0,0) associe (n-1,n). En récupérant la première composante, on pourra avoir n-1.
@@ -398,7 +398,7 @@ qui représente un couple $(x,y)$
 > Donc $\text{decr}(C_n) \to^* D(C_{\max(n-1;0)},C_n)(\top)\to^*C_{\max(n-1;0)}$
 
 
-27. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$
+28. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$
 
 > On pose $\text{sub} = (C,C'\mapsto C(\text{decr},C'))$
 > Et on a bien $\text{sub}(C_n,C_m) \to^2C_n(\text{decr},C_m)\to^2\text{decr}^n(C_m)\to^*C_{\max\{n-m;0\}}$
@@ -411,25 +411,25 @@ $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
 On admet qu'il en existe (sauf à la question 32).
 
-28. Montrez que si $\text{fix}(f) \to f(\text{fix}(f))$, alors $\text{fix}(f)$ n'est pas unitaire.
+29. Montrez que si $\text{fix}(f) \to f(\text{fix}(f))$, alors $\text{fix}(f)$ n'est pas unitaire.
 
 > On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées). On a alors $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+1$, absurde.
 
 
 On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe fort* de $f$ si $f(e)\to^* e$
 
-29. Montrez que tout $f\in E$ admet un point fixe.
+30. Montrez que tout $f\in E$ admet un point fixe.
 
 > On pose $e=\text{fix}(f)$ et on a $f(e) = f(\text{fix}(f)) = _\beta \text{fix}(f) = e$
 
-30. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe fort.
+31. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe fort.
 
 > Par la question 18, on a que $f(\text{fix}(f)) \to^* e$ et $\text{fix}(f) \to^* e$. Or on peut trouver une forme normale $e'$ de $f(\text{fix}(f))$ par hypothèse, donc on a $e\to^* e'$.
 > On a donc $f(\text{fix}(f))\to^* f(e) \to^* f(e')$ mais aussi $f(\text{fix}(f))\to^* e \to^* e'$.
 > En appliquant la propriété du diamant sur $f(e')$ et $e'$ généré par $f(\text{fix}(f))$, on a que $f(e') \to^* p$ et $e' \to^* p$.
 > Comme $e'$ sous forme normale, on a $p=e'$. Donc $f(e') \to^* e'$.
 
-31. (*) Donnez une expression $Y$ point-fixe.
+32. (*) Donnez une expression $Y$ point-fixe.
 
 > Bravo si vous l'avez réussie ! Vraiment, vraiment, vraiment pas facile.
 > On peut donner $Y = (f\mapsto\Big((x\mapsto f(x(x)))(x\mapsto f(x(x)))\Big))$
@@ -437,7 +437,7 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
 
-32. Montrez que, pour tout $\alpha$ sous forme normale, $\forall e\in E$,
+33. Montrez que, pour tout $\alpha$ sous forme normale, $\forall e\in E$,
 $$\text{fix}(F)(e) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(e)\to^*\alpha$$
 
 
@@ -453,7 +453,7 @@ $$
 $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
-33. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
+34. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 
 > On le montre par récurrence: 
 > Initialisation: On a $\text{fact}(C_0)\to \text{if}((\text{eq\_0}(C_0))(C_1)(\text{mul}(C_0,\text{fact}(\text{sub}(C_0,1)))) \to^*C_1$
@@ -468,7 +468,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 \end{align*}
 $$
 
-34. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
+35. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
 
 > TODO : montrer le $O(\log_2(n))$.
 > On pose $\text{is\_even} = (C\mapsto C(\text{not},\top))$
@@ -517,30 +517,30 @@ Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 
 ## Typage de groupe d'expressions
 
-22. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
+36. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
 
 Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
 
-24. Donnez $t$ un type généralisé de $\{\top, \bot\}$
-25. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
+37. Donnez $t$ un type généralisé de $\{\top, \bot\}$
+38. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
 ## Caractérisation des expressions unitaire
 On essaye de montrer que toute les expressions unitaire sont tel que $\Gamma \vdash e:t$.
 
-26. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé.
-27. Montrez que le type d'une expression est invariant par dérivation.
-28. Montrez que si $f$ est sous forme normale, alors il existe $\Gamma,t$ tel que toute variable libre de $f$  est une variable dans un couple de $\Gamma$ et $\Gamma \vdash f:t$
-29. Montrez que si $e$ est unitaire, alors il existe $\Gamma,t$ tel que $\Gamma \vdash e:t$.
-30. Montrez que si $e$ unitaire n'as pas de variable libre, alors $e$ est bien typé.
+39. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé.
+40. Montrez que le type d'une expression est invariant par dérivation.
+41. Montrez que si $f$ est sous forme normale, alors il existe $\Gamma,t$ tel que toute variable libre de $f$  est une variable dans un couple de $\Gamma$ et $\Gamma \vdash f:t$
+42. Montrez que si $e$ est unitaire, alors il existe $\Gamma,t$ tel que $\Gamma \vdash e:t$.
+43. Montrez que si $e$ unitaire n'as pas de variable libre, alors $e$ est bien typé.
 
 ## Réciproque
 On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
-31. En étendant $\phi$, donnez $\varphi : T\to E$ injective 
-32. Soit $\Gamma\vdash e:t$. Montrez que $e\to^* \phi(t)$ et $e$ unitaire.
+44. En étendant $\phi$, donnez $\varphi : T\to E$ injective 
+45. Soit $\Gamma\vdash e:t$. Montrez que $e\to^* \phi(t)$ et $e$ unitaire.
 > A revoir: Je pense avoir fait une erreur quand j'ai écrit la correction, mais je ne sais pas d'où elle viens. Je regarderai avec vos propositions. Ne passez pas trop de temps dessus si elle vous semble impossible.
-33. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
-34. En déduire que $\Delta$ ne possède pas de typage.
+46. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
+47. En déduire que $\Delta$ ne possède pas de typage.
 
 > Remarque : En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même la fonction $\text{pow}$ comme on a pu le voir dans la partie III.
 
@@ -562,11 +562,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTAwMDQ0OTMsLTEzNTg0OTQyMDYsLT
-ExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0
-MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NT
-k4NjA1LDc1MzE0ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQs
-MTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0xNDEzODg3MTUxLC0yMD
-cwMTkzMTExLC02MjI2NTE2NTAsMTU5NTUzNTE4OCwtMjEyMzU2
-NjkyLC0yNzMzNTY2MjFdfQ==
+eyJoaXN0b3J5IjpbMTgxNjIyODg0NiwtMTM1ODQ5NDIwNiwtMT
+E1NzU0NDM1MCwxNDYzMDE3ODE2LC03NDE1ODQxNTIsLTE1MTQx
+NjI2OTEsLTExMTc2NTc4NTEsLTEzODI0OTQ4MjEsLTE0ODU1OT
+g2MDUsNzUzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwx
+NzIzMjUxMjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNz
+AxOTMxMTEsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2
+OTIsLTI3MzM1NjYyMV19
 -->
