@@ -545,17 +545,20 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 ## Pour aller plus loin
 
 1. Donnez un opérateur point fixe tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
-2. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
+
+> On a $\theta = (f,x\mapsto (x (f(f,x)))(f,x\mapsto (x (f f x)))$(λx. λy. (y (x x y))) (λx. λy. (y (x x y))).
+
+3. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
 > $f$ admet une forme normale $f'$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjk1OTcxMDgsMTQ2MzAxNzgxNiwtNz
-QxNTg0MTUyLC0xNTE0MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgy
-NDk0ODIxLC0xNDg1NTk4NjA1LDc1MzE0ODE4NywtNjkyMzIyOT
-Q4LDIwODY5NDI5NDQsMTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0x
-NDEzODg3MTUxLC0yMDcwMTkzMTExLC02MjI2NTE2NTAsMTU5NT
-UzNTE4OCwtMjEyMzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1
-OSw5MzA1MDQyNDldfQ==
+eyJoaXN0b3J5IjpbLTcxNDYxMzM0LDE0NjMwMTc4MTYsLTc0MT
+U4NDE1MiwtMTUxNDE2MjY5MSwtMTExNzY1Nzg1MSwtMTM4MjQ5
+NDgyMSwtMTQ4NTU5ODYwNSw3NTMxNDgxODcsLTY5MjMyMjk0OC
+wyMDg2OTQyOTQ0LDE3MjMyNTEyODQsMTk0NTYyNzUwMCwtMTQx
+Mzg4NzE1MSwtMjA3MDE5MzExMSwtNjIyNjUxNjUwLDE1OTU1Mz
+UxODgsLTIxMjM1NjY5MiwtMjczMzU2NjIxLDEzODMyNDE0NTks
+OTMwNTA0MjQ5XX0=
 -->
