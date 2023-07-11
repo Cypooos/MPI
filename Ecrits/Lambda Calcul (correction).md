@@ -427,7 +427,7 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 > On a donc $f(e) \to^* k=e$, ce qui conclu la preuve.
 
 
-33. (*) Donnez une expression $Y$ point-fixe.
+31. (*) Donnez une expression $Y$ point-fixe.
 
 > Bravo si vous l'avez réussie ! Vraiment, vraiment, vraiment pas facile.
 > On peut donner $Y = (f\mapsto\Big((x\mapsto f(x(x)))(x\mapsto f(x(x)))\Big))$
@@ -554,11 +554,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NzcxNDgsMTQ2MzAxNzgxNiwtNzQxNT
-g0MTUyLC0xNTE0MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgyNDk0
-ODIxLC0xNDg1NTk4NjA1LDc1MzE0ODE4NywtNjkyMzIyOTQ4LD
-IwODY5NDI5NDQsMTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0xNDEz
-ODg3MTUxLC0yMDcwMTkzMTExLC02MjI2NTE2NTAsMTU5NTUzNT
-E4OCwtMjEyMzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1OSw5
-MzA1MDQyNDldfQ==
+eyJoaXN0b3J5IjpbLTExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNz
+QxNTg0MTUyLC0xNTE0MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgy
+NDk0ODIxLC0xNDg1NTk4NjA1LDc1MzE0ODE4NywtNjkyMzIyOT
+Q4LDIwODY5NDI5NDQsMTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0x
+NDEzODg3MTUxLC0yMDcwMTkzMTExLC02MjI2NTE2NTAsMTU5NT
+UzNTE4OCwtMjEyMzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1
+OSw5MzA1MDQyNDldfQ==
 -->
