@@ -273,8 +273,9 @@ $$t[x \larr v]= x\mapsto$$
 18. Montrez que si $a=_\beta b$, alors il existe $e\in E$ sous forme normale tel que $a\to^* e$ et $b\to^* e$
 > On pose $(M_i)_i$ la suite finie dans $E$ tel que $a= M_0 \lrarr M_1 \lrarr ... \lrarr M_n = b$.
 > On montre par récurrence sur $i$ que il existe $e_i\in E$ tel que $a \to^* e_i$ et $M_i\to^* e_i$ :
-> Pour $i=0$, $e_i = a$ conviens trivialement
-> 
+> Pour $i=0$, $e_i = a$ conviens.
+> On suppose que $M_i \to^* e_i$ et que $M_0 \to^* e_i$ :
+> - Si $M_{i} \larr M_{i+1}$, alors on a $M_{i+1} \to $
 # Partie III: Entiers et opérations
 
 ## Entiers de Church
@@ -512,7 +513,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDE3MzQ1MDQsLTI3MzM1NjYyMSwxMz
+eyJoaXN0b3J5IjpbLTE3MzE0NDA3OTMsLTI3MzM1NjYyMSwxMz
 gzMjQxNDU5LDkzMDUwNDI0OSwtMTYwMjA3NDMzNiwxMjg2Njc5
 OTk2LDU5ODU4NDA1MywtMjAxNjQyNzIzMCwtMTcxMzIzMTAxNy
 wtNjIxMTg1MTQxLDE1NzcxMjkyOTAsLTU4NzUyOTkwMSwtNjk2
