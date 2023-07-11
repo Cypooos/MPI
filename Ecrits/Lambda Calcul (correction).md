@@ -414,7 +414,7 @@ On admet qu'il en existe (sauf à la question 32).
 On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe fort* de $f$ si $f(e)\to^* e$
 
 29. Montrez que tout $f\in E$ admet un point fixe.
-> On pose $e=\text{fix}(f)$ et on a $f(e$
+> On pose $e=\text{fix}(f)$ et on a $f(e) = f ( \text{fix}(f)) = _\beta \text{fix}(f) = e$
 
 30. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe fort.
 > Par la question 18, on a que $f(\text{fix}(f)) \to^* e$ et $\text{fix}(f) \to^* e$ avec $e$ sous forme normale.
@@ -546,7 +546,7 @@ Toute ces questions sont difficile.
 1. Donnez un opérateur point fixe tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
 3. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA4NjgxNTUsLTE0ODU1OTg2MDUsNz
+eyJoaXN0b3J5IjpbLTE1OTU0MzU4NjQsLTE0ODU1OTg2MDUsNz
 UzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwxNzIzMjUx
 Mjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMT
 EsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OTIsLTI3
