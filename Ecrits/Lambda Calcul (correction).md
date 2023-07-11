@@ -407,15 +407,13 @@ $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
 28. Montrez que $\text{fix}(f)$ n'est pas unitaire.
 
-> 
-
-> TODO : changer la correction de toute cette partie pour correspondre avec la nouvelle définition :/
 > On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées). On a alors $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+1$, absurde.
 
 On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
 29. Montrez que si $\text{fix}(f)$ et $\forall e \in E, f(e)$ admettent des formes normales, alors $f$ admet un point fixe.
 
+> TODO : changer la correction de toute cette partie pour correspondre avec la nouvelle définition :/
 > On écrit $\text{fix}(f)\to^n e$. Mais on a aussi: $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e) \to^* p$ qui est un calcul normalisant par hypothèse. Par l'unicité de la forme normale de $\text{fix}(f)$, $e=p$, donc on a $f(e) \to^* e$
 
 30. Soit $e$ sous forme normale. Donnez une expression $f$ respectant les hypothèses de la question précédente qui admet $e$ comme point fixe.
@@ -542,11 +540,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjAxMjAxMDIsMjA4Njk0Mjk0NCwxNz
-IzMjUxMjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAx
-OTMxMTEsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OT
-IsLTI3MzM1NjYyMSwxMzgzMjQxNDU5LDkzMDUwNDI0OSwtMTYw
-MjA3NDMzNiwxMjg2Njc5OTk2LDU5ODU4NDA1MywtMjAxNjQyNz
-IzMCwtMTcxMzIzMTAxNywtNjIxMTg1MTQxLDE1NzcxMjkyOTAs
-LTU4NzUyOTkwMV19
+eyJoaXN0b3J5IjpbLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3Mj
+MyNTEyODQsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MDE5
+MzExMSwtNjIyNjUxNjUwLDE1OTU1MzUxODgsLTIxMjM1NjY5Mi
+wtMjczMzU2NjIxLDEzODMyNDE0NTksOTMwNTA0MjQ5LC0xNjAy
+MDc0MzM2LDEyODY2Nzk5OTYsNTk4NTg0MDUzLC0yMDE2NDI3Mj
+MwLC0xNzEzMjMxMDE3LC02MjExODUxNDEsMTU3NzEyOTI5MCwt
+NTg3NTI5OTAxXX0=
 -->
