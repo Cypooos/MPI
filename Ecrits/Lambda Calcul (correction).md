@@ -409,7 +409,7 @@ $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
 > On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées). On a alors $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+1$, absurde.
 
-On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
+On appellera $e$ un point fixe fort de $f$ si $f(e)\to^* e$, et un point fixe si $f($
 
 29. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe.
 > Par la question 18, on a que $f(\text{fix}(f)) \to^* e$ et $\text{fix}(f) \to^* e$ avec $e$ sous forme normale.
@@ -536,10 +536,12 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 ## Pour aller plus loin
 
-1. Montrez que 
-2. Donnez un opérateur point fixe tel que $\text{fix}(f) $ 
+Toute ces questions sont difficile.
+
+1. Donnez un opérateur point fixe tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
+3. Montrez que tout 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxODUyNjI1NywtMTQ4NTU5ODYwNSw3NT
+eyJoaXN0b3J5IjpbLTQyODI3MzYyMCwtMTQ4NTU5ODYwNSw3NT
 MxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3MjMyNTEy
 ODQsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MDE5MzExMS
 wtNjIyNjUxNjUwLDE1OTU1MzUxODgsLTIxMjM1NjY5MiwtMjcz
