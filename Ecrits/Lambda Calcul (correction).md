@@ -425,7 +425,7 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 32. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
 > $f$ admet une forme normale
-> Si $f \neq x\mapsto e$, alors 
+> Si $f \neq x\mapsto e$, alors $f(\Delta(\Delta))$ possède le calcul infini, donc $f(e)$
 
 33. (*) Donnez une expression $\Theta$ point-fixe.
 
@@ -549,11 +549,11 @@ Toute ces questions sont difficile.
 1. Donnez un opérateur point fixe tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
 3. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDE0Nzc3OTUsLTE0ODU1OTg2MDUsNz
-UzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwxNzIzMjUx
-Mjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMT
-EsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OTIsLTI3
-MzM1NjYyMSwxMzgzMjQxNDU5LDkzMDUwNDI0OSwtMTYwMjA3ND
-MzNiwxMjg2Njc5OTk2LDU5ODU4NDA1MywtMjAxNjQyNzIzMCwt
-MTcxMzIzMTAxN119
+eyJoaXN0b3J5IjpbNjEyNjE3MjUzLC0xNDg1NTk4NjA1LDc1Mz
+E0ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQsMTcyMzI1MTI4
+NCwxOTQ1NjI3NTAwLC0xNDEzODg3MTUxLC0yMDcwMTkzMTExLC
+02MjI2NTE2NTAsMTU5NTUzNTE4OCwtMjEyMzU2NjkyLC0yNzMz
+NTY2MjEsMTM4MzI0MTQ1OSw5MzA1MDQyNDksLTE2MDIwNzQzMz
+YsMTI4NjY3OTk5Niw1OTg1ODQwNTMsLTIwMTY0MjcyMzAsLTE3
+MTMyMzEwMTddfQ==
 -->
