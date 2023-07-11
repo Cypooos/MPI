@@ -548,17 +548,21 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 > On a $\Theta = (f,x\mapsto (x (f(f,x))))(f,x\mapsto (x (f(f,x))))$, l'opérateur de point fixe de Turing.
 
+2. On cherche à calculer la forme normale de $f(e)$, pour cela on met d'abord l'argument $e$ sous forme normale inductivement avant de faire l'évaluation. Comment changer $Y$ tel que $\text{fact}(C_1)$ termine ? 
+
+> On pose $Y = (f\mapsto\Big((x\mapsto f(\mu \mapsto x(x)(\mu)))(x\mapsto f(\mu \mapsto x(x)(\mu)))\Big))$
+
 3. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
 > $f$ admet une forme normale $f'$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNz
-QxNTg0MTUyLC0xNTE0MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgy
-NDk0ODIxLC0xNDg1NTk4NjA1LDc1MzE0ODE4NywtNjkyMzIyOT
-Q4LDIwODY5NDI5NDQsMTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0x
-NDEzODg3MTUxLC0yMDcwMTkzMTExLC02MjI2NTE2NTAsMTU5NT
-UzNTE4OCwtMjEyMzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1
-OSw5MzA1MDQyNDldfQ==
+eyJoaXN0b3J5IjpbMTIxNTYwODgyLC0xMTU3NTQ0MzUwLDE0Nj
+MwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwtMTExNzY1
+Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NTU5ODYwNSw3NTMxNDgxOD
+csLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3MjMyNTEyODQsMTk0
+NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MDE5MzExMSwtNjIyNj
+UxNjUwLDE1OTU1MzUxODgsLTIxMjM1NjY5MiwtMjczMzU2NjIx
+LDEzODMyNDE0NTldfQ==
 -->
