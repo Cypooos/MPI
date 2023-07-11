@@ -411,16 +411,13 @@ $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
 On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
-29. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $\text{fix}(f)$ admet une forme normale.
-> On sait que $\text{fix}(f) =_\beta f(\text{fix}(f))$, donc on choisi $e$ sous forme normale par la question 18 tel que $\text{fix}(f) \to^* e$ et $f(\text{fix}(f)) \to^* e$
-> On a aussi $f(\text{fix}(f)) \to^* k$ sous forme normale par l'hypothèse de l'énoncé.
-> Par l'unicité de la forme normale de $f(\text{fix}(f))$, on a $k=e$. Donc 
-
 30. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe.
 Donnez un $f$ exemple qui respecte cette propriété. Quel est son point fixe ?
 > Par la question 18, on a que $f(\text{fix}(f)) \to^* e$ et $\text{fix}(f) \to^* e$ avec $e$ sous forme normale.
-> On a donc aussi que $f(\text{fix}(f)) \to^* f(e)$ qui est sous forme normale par hypothèse.
-> Donc,par l'unicité de la forme normale, $f(e) = e$
+> On a donc aussi que $f(\text{fix}(f)) \to^* f(e)$ qui admet une forme normale $k$.
+> Donc, par l'unicité de la forme normale, $k = e$.
+> On a donc $f(e) \to^* k=e$, ce qui conclu la preuve.
+> On a $f$
 
 31. (*) Donnez une expression $\Theta$ point-fixe.
 
@@ -540,11 +537,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU0OTMwMjQsLTY5MjMyMjk0OCwyMD
-g2OTQyOTQ0LDE3MjMyNTEyODQsMTk0NTYyNzUwMCwtMTQxMzg4
-NzE1MSwtMjA3MDE5MzExMSwtNjIyNjUxNjUwLDE1OTU1MzUxOD
-gsLTIxMjM1NjY5MiwtMjczMzU2NjIxLDEzODMyNDE0NTksOTMw
-NTA0MjQ5LC0xNjAyMDc0MzM2LDEyODY2Nzk5OTYsNTk4NTg0MD
-UzLC0yMDE2NDI3MjMwLC0xNzEzMjMxMDE3LC02MjExODUxNDEs
-MTU3NzEyOTI5MF19
+eyJoaXN0b3J5IjpbNzUzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Nj
+k0Mjk0NCwxNzIzMjUxMjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcx
+NTEsLTIwNzAxOTMxMTEsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC
+0yMTIzNTY2OTIsLTI3MzM1NjYyMSwxMzgzMjQxNDU5LDkzMDUw
+NDI0OSwtMTYwMjA3NDMzNiwxMjg2Njc5OTk2LDU5ODU4NDA1My
+wtMjAxNjQyNzIzMCwtMTcxMzIzMTAxNywtNjIxMTg1MTQxLDE1
+NzcxMjkyOTBdfQ==
 -->
