@@ -258,7 +258,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  - Si $t=x$, alors $t[x\larr t'][y\larr e] = t'[y\larr e] = x[x\larr t'[y\larr e]] = t[y\larr e][x\larr t'[y\larr e]]$
 >  - Si $t\in V \setminus \{x\}$, alors $t[x\larr t'][y\larr e] = t[y\larr e]$ 
 >
-> On procède par induction selon la règle obtenue pour avoir $t\triangleright t'$ : 
+> Pour la preuve totale, on procède par induction selon la règle obtenue pour avoir $t\triangleright t'$ : 
 > - Règle 1, si $t = t'$, alors on procède par induction sur $t$:
 >    - Si $t=x$, alors $t[x \larr v] = v \triangleright v' = t'[x \larr v']$
 >    - Si $t= (x\mapsto e)$, alors $t[x \larr v] = t\ \triangleright t' = t'[x \larr v']$
@@ -540,7 +540,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTc3MDg3MywxNzIzMjUxMjg0LDE5ND
+eyJoaXN0b3J5IjpbMjA4Njk0Mjk0NCwxNzIzMjUxMjg0LDE5ND
 U2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMTEsLTYyMjY1
 MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OTIsLTI3MzM1NjYyMS
 wxMzgzMjQxNDU5LDkzMDUwNDI0OSwtMTYwMjA3NDMzNiwxMjg2
