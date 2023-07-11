@@ -405,7 +405,7 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 On dit que $\text{fix}$ est un opérateur point-fixe  si il est sous forme normale et que, pour tout $f\in E$, on a :
 $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
-28. Montrez que $\text{fix}(f)$ n'est pas unitaire.
+28. Montrez que si $\text{fix}(f) \to f(\text{fix}(f))$, alors $\text{fix}(f)$ n'est pas unitaire.
 
 > On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées). On a alors $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+1$, absurde.
 
@@ -540,11 +540,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3Mj
-MyNTEyODQsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MDE5
-MzExMSwtNjIyNjUxNjUwLDE1OTU1MzUxODgsLTIxMjM1NjY5Mi
-wtMjczMzU2NjIxLDEzODMyNDE0NTksOTMwNTA0MjQ5LC0xNjAy
-MDc0MzM2LDEyODY2Nzk5OTYsNTk4NTg0MDUzLC0yMDE2NDI3Mj
-MwLC0xNzEzMjMxMDE3LC02MjExODUxNDEsMTU3NzEyOTI5MCwt
-NTg3NTI5OTAxXX0=
+eyJoaXN0b3J5IjpbMTE2NTczMzM4MywtNjkyMzIyOTQ4LDIwOD
+Y5NDI5NDQsMTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0xNDEzODg3
+MTUxLC0yMDcwMTkzMTExLC02MjI2NTE2NTAsMTU5NTUzNTE4OC
+wtMjEyMzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1OSw5MzA1
+MDQyNDksLTE2MDIwNzQzMzYsMTI4NjY3OTk5Niw1OTg1ODQwNT
+MsLTIwMTY0MjcyMzAsLTE3MTMyMzEwMTcsLTYyMTE4NTE0MSwx
+NTc3MTI5MjkwXX0=
 -->
