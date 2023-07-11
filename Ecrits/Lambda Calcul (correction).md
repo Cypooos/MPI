@@ -537,13 +537,13 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 ## Pour aller plus loin
 
 1. Montrez que 
-2. Donnez un opérateur point fixe tel que $\text{fix}(f)$ 
+2. Donnez un opérateur point fixe tel que $\text{fix}(f) $ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzU4Nzc2NTMsLTE0ODU1OTg2MDUsNz
-UzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwxNzIzMjUx
-Mjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMT
-EsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC0yMTIzNTY2OTIsLTI3
-MzM1NjYyMSwxMzgzMjQxNDU5LDkzMDUwNDI0OSwtMTYwMjA3ND
-MzNiwxMjg2Njc5OTk2LDU5ODU4NDA1MywtMjAxNjQyNzIzMCwt
-MTcxMzIzMTAxN119
+eyJoaXN0b3J5IjpbMTgxODUyNjI1NywtMTQ4NTU5ODYwNSw3NT
+MxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3MjMyNTEy
+ODQsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MDE5MzExMS
+wtNjIyNjUxNjUwLDE1OTU1MzUxODgsLTIxMjM1NjY5MiwtMjcz
+MzU2NjIxLDEzODMyNDE0NTksOTMwNTA0MjQ5LC0xNjAyMDc0Mz
+M2LDEyODY2Nzk5OTYsNTk4NTg0MDUzLC0yMDE2NDI3MjMwLC0x
+NzEzMjMxMDE3XX0=
 -->
