@@ -306,7 +306,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 19. Soit $f\in E$. Donnez un contre-exemple $g$ à : $(\forall e\in E, f(e)=_\beta g(e)) \implies f =_\beta g$
 > On peut prendre $g = y \mapsto f(y)$
-> On a bien, soit $e\in E$, $$
+> On a bien, soit $e\in E$, $g(e) = f(e)$, mais $f \not=_\beta g$ (les deux sont sous forme normale. S'ils étaient dans la même classe, ils auraient eu la même forme normale)
 # Partie III: Entiers et opérations
 
 ## Entiers de Church
@@ -554,7 +554,7 @@ Toute ces questions sont difficile.
 1. Donnez un opérateur point fixe tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
 3. Montrez que $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MzIzMjEyNSwtMTQ4NTU5ODYwNSw3NT
+eyJoaXN0b3J5IjpbMTE1NjY2NTI4OCwtMTQ4NTU5ODYwNSw3NT
 MxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3MjMyNTEy
 ODQsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MDE5MzExMS
 wtNjIyNjUxNjUwLDE1OTU1MzUxODgsLTIxMjM1NjY5MiwtMjcz
