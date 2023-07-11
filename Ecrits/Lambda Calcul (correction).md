@@ -254,8 +254,9 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > Dans ce cas, par induction, $e[x \larr v] \triangleright e'[x \larr v']$ et $y[x \larr v] \triangleright y'[x \larr v']$.
 > Donc, par la Règle 3, on a que $t[x \larr v] \triangleright t'[x \larr v']$
 > - Règle 4, si on a $t = (y\mapsto e)(u) \triangleright e'[y\larr u'] = t'$ avec $e \triangleright e'$ et $u \triangleright u'$.
-> Dans ce cas, on a par induction que $e[x\larr v] \triangleright e'[x\larr v]$ et $u[x\larr v] \triangleright u'[x\larr v]$.
-> On a donc par la règle 4 que $(y\mapsto e)(u) \triangleright e'[y\larr u']$
+> Dans ce cas, on a par induction que $e[x\larr v] \triangleright e'[x\larr v']$ et $u[x\larr v] \triangleright u'[x\larr v']$.
+> On a donc par la règle 4 que $(y\mapsto e[x\larr v])(u[x\larr v]) \triangleright e'[x\larr v'][y\larr u'[x\larr v']]$.
+>   - Si $x \neq y$, alors $t[x\larr v] = (y\mapsto e[x\larr v])(u[x\larr v]) \triangleright $
 
 14. (*) Montrez que $\triangleright$ respecte la *propriété du diamant*.
 15. En déduire le théorème de *Church-Rosser*.
@@ -521,11 +522,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ2NzkxMzQzLDE1OTU1MzUxODgsLTIxMj
-M1NjY5MiwtMjczMzU2NjIxLDEzODMyNDE0NTksOTMwNTA0MjQ5
-LC0xNjAyMDc0MzM2LDEyODY2Nzk5OTYsNTk4NTg0MDUzLC0yMD
-E2NDI3MjMwLC0xNzEzMjMxMDE3LC02MjExODUxNDEsMTU3NzEy
-OTI5MCwtNTg3NTI5OTAxLC02OTYwODE3MTMsLTE1OTUyNDc0MD
-csMTI4MjU3ODgzMSwtNzY0NjMzNDUyLDM5MzA3OTUxNywxMTIw
-NjE3MjUwXX0=
+eyJoaXN0b3J5IjpbMTQ5NTI1OSwxNTk1NTM1MTg4LC0yMTIzNT
+Y2OTIsLTI3MzM1NjYyMSwxMzgzMjQxNDU5LDkzMDUwNDI0OSwt
+MTYwMjA3NDMzNiwxMjg2Njc5OTk2LDU5ODU4NDA1MywtMjAxNj
+QyNzIzMCwtMTcxMzIzMTAxNywtNjIxMTg1MTQxLDE1NzcxMjky
+OTAsLTU4NzUyOTkwMSwtNjk2MDgxNzEzLC0xNTk1MjQ3NDA3LD
+EyODI1Nzg4MzEsLTc2NDYzMzQ1MiwzOTMwNzk1MTcsMTEyMDYx
+NzI1MF19
 -->
