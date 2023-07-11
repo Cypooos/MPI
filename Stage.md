@@ -5,7 +5,18 @@
 - Différence en OCaml entre `type C of int * int` et `type C of (int * int)`
 - [On ne sait pas bien faire des parcours en profondeur](https://11011110.github.io/blog/2013/12/17/stack-based-graph-traversal.html)
 
-## récursivité sans
+## Récursivité sans `rec` ou boucle :
+1. Méthode par des types :
+
+```ml
+
+```
+2. avec `-rectype`
+
+Avec l'option `-rectype`, on peut définir l'opérateur point-fixe :
+```
+let fixe f x = 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNjc4MDI3Ml19
+eyJoaXN0b3J5IjpbLTkxNDI4OTc4M119
 -->
