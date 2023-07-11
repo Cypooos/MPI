@@ -411,14 +411,14 @@ $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
 On appellera $e$ un point fixe de $f$ si $f(e)\to^* e$
 
-29. Montrez que si pour tout $e\in E$, on a que $f(e)$ admette une forme normale, alors $\text{fix}(f)$ admet une forme normale.
+29. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $\text{fix}(f)$ admet une forme normale.
 > On sait que $\text{fix}(f) =_\beta f(\text{fix}(f))$, donc on choisi $e$ sous forme normale par la question 18 tel que $\text{fix}(f) \to^* e$ et $f(\text{fix}(f)) \to^* e$
 > On a aussi $f(\text{fix}(f)) \to^* k$ sous forme normale par l'hypothèse de l'énoncé.
 > Par l'unicité de la forme normale de $f(\text{fix}(f))$, on a $k=e$. Donc 
 
-30. Montrez que si pour tout $e\in E$, on a que $f(e)$ admette une forme normale, alors $f$ admet un point fixe.
+30. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe.
 Donnez un $f$ exemple qui respecte cette propriété. Quel est son point fixe ?
-> \text{fix}(f)
+> Par la question 18, on a que $f(\text{fix}(f)) \to^* e$ et $\text{fix}(f)) \to^* e$ sous forme normale
 
 31. (*) Donnez une expression $\Theta$ point-fixe.
 
@@ -538,7 +538,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzg3Mjk4LC02OTIzMjI5NDgsMjA4Nj
+eyJoaXN0b3J5IjpbNDIzNTQyODAxLC02OTIzMjI5NDgsMjA4Nj
 k0Mjk0NCwxNzIzMjUxMjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcx
 NTEsLTIwNzAxOTMxMTEsLTYyMjY1MTY1MCwxNTk1NTM1MTg4LC
 0yMTIzNTY2OTIsLTI3MzM1NjYyMSwxMzgzMjQxNDU5LDkzMDUw
