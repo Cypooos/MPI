@@ -244,6 +244,8 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 13. (*) Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 
+> On montre d'abord 
+>
 > On procède par induction selon la règle obtenue pour avoir $t\triangleright t'$ : 
 > - Règle 1, si $t = t'$, alors on procède par induction sur $t$:
 >    - Si $t=x$, alors $t[x \larr v] = v \triangleright v' = t'[x \larr v']$
@@ -258,10 +260,9 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > - Règle 4, si on a $t = (y\mapsto e)(u) \triangleright e'[y\larr u'] = t'$ avec $e \triangleright e'$ et $u \triangleright u'$.
 > Dans ce cas, on a par induction que $e[x\larr v] \triangleright e'[x\larr v']$ et $u[x\larr v] \triangleright u'[x\larr v']$.
 > On a donc par la règle 4 que $(y\mapsto e[x\larr v])(u[x\larr v]) \triangleright e'[x\larr v'][y\larr u'[x\larr v']]$.
->   - Si $x \neq y$, alors $t[x\larr v] = (y\mapsto e[x\larr v])(u[x\larr v]) \triangleright e'[x\larr v'][y\larr u'[x\larr v']]=e'[y\larr u'][x\larr v'] = t'[x\larr v']$ (question 13prel)
->   - Si $x=y$, alors $t[x\larr v] = (x\mapsto e)(u[x\larr v]) \triangleright e'[x\larr v]$
-
-but $t[x\larr v] = (x\mapsto e)(u[x\larr v]) \triangleright e'[x\larr u'[x\larr v']] = e'[y\larr u'][x\larr v'] = t'[x\larr v']$
+>   - Si $x \neq y$, alors $t[x\larr v] = (y\mapsto e[x\larr v])(u[x\larr v]) \triangleright e'[x\larr v'][y\larr u'[x\larr v']]=e'[y\larr u'][x\larr v'] = t'[x\larr v']$ (LEMME)
+>   - Si $x=y$, alors $t[x\larr v] = (x\mapsto e)(u[x\larr v]) \triangleright e'[x\larr u'[x\larr v']] = e'[y\larr u'][x\larr v'] = t'[x\larr v']$ par la règle 4 et le (LEMME)
+> 
 
 14. (*) Montrez que $\triangleright$ respecte la *propriété du diamant*.
 15. En déduire le théorème de *Church-Rosser*.
@@ -527,11 +528,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI1MDg4OSwtNjIyNjUxNjUwLDE1OT
-U1MzUxODgsLTIxMjM1NjY5MiwtMjczMzU2NjIxLDEzODMyNDE0
-NTksOTMwNTA0MjQ5LC0xNjAyMDc0MzM2LDEyODY2Nzk5OTYsNT
-k4NTg0MDUzLC0yMDE2NDI3MjMwLC0xNzEzMjMxMDE3LC02MjEx
-ODUxNDEsMTU3NzEyOTI5MCwtNTg3NTI5OTAxLC02OTYwODE3MT
-MsLTE1OTUyNDc0MDcsMTI4MjU3ODgzMSwtNzY0NjMzNDUyLDM5
-MzA3OTUxN119
+eyJoaXN0b3J5IjpbMjY0MjkzMTg5LC02MjI2NTE2NTAsMTU5NT
+UzNTE4OCwtMjEyMzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1
+OSw5MzA1MDQyNDksLTE2MDIwNzQzMzYsMTI4NjY3OTk5Niw1OT
+g1ODQwNTMsLTIwMTY0MjcyMzAsLTE3MTMyMzEwMTcsLTYyMTE4
+NTE0MSwxNTc3MTI5MjkwLC01ODc1Mjk5MDEsLTY5NjA4MTcxMy
+wtMTU5NTI0NzQwNywxMjgyNTc4ODMxLC03NjQ2MzM0NTIsMzkz
+MDc5NTE3XX0=
 -->
