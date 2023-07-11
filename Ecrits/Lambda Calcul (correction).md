@@ -254,12 +254,13 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  - Si $t=e_1(e_2)$, alors par induction $t[x\larr t'][y\larr e] = e_1[x\larr t'][y\larr e](e_2[x\larr t'][y\larr e]) = e_1[x\larr t'[y\larr e]](e_1[x\larr t'[y\larr e]]) = t[x\larr t'[y\larr e]]$
 > 
 > Pour le cas $x\neq y$: on procède aussi par induction sur $t$:
+>  - Si $t=$ 
 >
 > On procède par induction selon la règle obtenue pour avoir $t\triangleright t'$ : 
 > - Règle 1, si $t = t'$, alors on procède par induction sur $t$:
 >    - Si $t=x$, alors $t[x \larr v] = v \triangleright v' = t'[x \larr v']$
 >    - Si $t= (x\mapsto e)$, alors $t[x \larr v] = t\ \triangleright t' = t'[x \larr v]$
->    - Si $t=(y\mapsto e)$ (avec $y\neq x$), alors $$
+>    - Si $t=(y\mapsto e)$ (avec $y\neq x$), alors par induction (première induction), on a $$
 >    - Si $t=(e_1)(e_2)$, alors $t[x \larr v] = (e_1[x \larr v])(e_2[x \larr v])$ et par hypothèse d'induction, $e_1[x \larr v] \ \triangleright e_1[x \larr v']$ et $e_2[x \larr v] \ \triangleright e_2[x \larr v']$ ce qui montre par la règle 3 que $t[x \larr v]  \ \triangleright t'[x \larr v']$
 > - Règle 2, si on a $t = y\mapsto e \triangleright y\mapsto e' = t'$ avec $e \triangleright e'$.
 > Dans ce cas, on a par induction que $e[x\larr v] \triangleright e'[x\larr v']$, donc que $t[x \larr v] \triangleright t'[x \larr v']$ par la Règle 2.
@@ -537,11 +538,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMj
-A3MDE5MzExMSwtNjIyNjUxNjUwLDE1OTU1MzUxODgsLTIxMjM1
-NjY5MiwtMjczMzU2NjIxLDEzODMyNDE0NTksOTMwNTA0MjQ5LC
-0xNjAyMDc0MzM2LDEyODY2Nzk5OTYsNTk4NTg0MDUzLC0yMDE2
-NDI3MjMwLC0xNzEzMjMxMDE3LC02MjExODUxNDEsMTU3NzEyOT
-I5MCwtNTg3NTI5OTAxLC02OTYwODE3MTMsLTE1OTUyNDc0MDcs
-MTI4MjU3ODgzMV19
+eyJoaXN0b3J5IjpbMTAzMzQ5NDgzMCwxOTQ1NjI3NTAwLC0xND
+EzODg3MTUxLC0yMDcwMTkzMTExLC02MjI2NTE2NTAsMTU5NTUz
+NTE4OCwtMjEyMzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1OS
+w5MzA1MDQyNDksLTE2MDIwNzQzMzYsMTI4NjY3OTk5Niw1OTg1
+ODQwNTMsLTIwMTY0MjcyMzAsLTE3MTMyMzEwMTcsLTYyMTE4NT
+E0MSwxNTc3MTI5MjkwLC01ODc1Mjk5MDEsLTY5NjA4MTcxMywt
+MTU5NTI0NzQwN119
 -->
