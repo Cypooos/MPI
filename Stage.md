@@ -9,17 +9,21 @@
 1. Méthode par des types :
 
 ```ml
-
+type 
 ```
-2. avec `-rectype`
-
-Avec l'option `-rectype`, on peut définir l'opérateur point-fixe :
+2. Avec l'option `-rectype`, on peut définir l'opérateur point-fixe :
 ```ocaml
 (* sans eta-réduction : *)
 let fix f = (fun x -> f (x x))(fun x -> f (x x));;
 (* avec eta-réduction : *)
 let fix f = (fun x,u -> f (x x) u)(fun x,u -> f (x x) u);;
 ```
+3. Avec une ref :
+```ocaml
+let a = ref (fun () -> ()) in
+!a := (fun () -> !a ()) in
+!a ();;
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODg3OTc0NV19
+eyJoaXN0b3J5IjpbLTEzMDE4MTk2NThdfQ==
 -->
