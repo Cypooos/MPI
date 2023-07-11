@@ -14,9 +14,12 @@
 2. avec `-rectype`
 
 Avec l'option `-rectype`, on peut définir l'opérateur point-fixe :
-```
-let fixe f x = 
+```ocaml
+(* sans eta-réduction : *)
+let fix f = (fun x -> f (x x))(fun x -> f (x x));;
+(* avec eta-réduction : *)
+let fix f = (fun x,u -> f (x x) u)(fun x,u -> f (x x) u);;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDI4OTc4M119
+eyJoaXN0b3J5IjpbMTM5ODg3OTc0NV19
 -->
