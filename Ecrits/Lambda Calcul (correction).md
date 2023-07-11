@@ -240,7 +240,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  Par induction, on a $t\to^* t'$ et $u\to^* u'$. On pose donc le calcul constitué du calcul de $u$, puis de $t$, puis de l’évaluation :
 >  $(x\mapsto t)(u) \to^* (x\mapsto t)(u') \to^* (x\mapsto t')(u') \to t'[x\larr u']$
 
-??. Montrez que, soit $t,u,e\in E$ et $x\in V$, on a $$
+??. Montrez que, soit $t,t',e\in E$ et $x,y\in V$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
 
 13. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 
@@ -525,11 +525,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzcxMTc3NDMsMTU5NTUzNTE4OCwtMj
-EyMzU2NjkyLC0yNzMzNTY2MjEsMTM4MzI0MTQ1OSw5MzA1MDQy
-NDksLTE2MDIwNzQzMzYsMTI4NjY3OTk5Niw1OTg1ODQwNTMsLT
-IwMTY0MjcyMzAsLTE3MTMyMzEwMTcsLTYyMTE4NTE0MSwxNTc3
-MTI5MjkwLC01ODc1Mjk5MDEsLTY5NjA4MTcxMywtMTU5NTI0Nz
-QwNywxMjgyNTc4ODMxLC03NjQ2MzM0NTIsMzkzMDc5NTE3LDEx
-MjA2MTcyNTBdfQ==
+eyJoaXN0b3J5IjpbNzU5OTUwNzAyLDE1OTU1MzUxODgsLTIxMj
+M1NjY5MiwtMjczMzU2NjIxLDEzODMyNDE0NTksOTMwNTA0MjQ5
+LC0xNjAyMDc0MzM2LDEyODY2Nzk5OTYsNTk4NTg0MDUzLC0yMD
+E2NDI3MjMwLC0xNzEzMjMxMDE3LC02MjExODUxNDEsMTU3NzEy
+OTI5MCwtNTg3NTI5OTAxLC02OTYwODE3MTMsLTE1OTUyNDc0MD
+csMTI4MjU3ODgzMSwtNzY0NjMzNDUyLDM5MzA3OTUxNywxMTIw
+NjE3MjUwXX0=
 -->
