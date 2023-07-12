@@ -414,7 +414,7 @@ On admet qu'il en existe (sauf à la question 32).
 
 29. Montrez que si $\text{fix}(f) \to^* f(\text{fix}(f))$, alors $\text{fix}(f)$ n'est pas unitaire.
 
-> On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées). On a alors $\text{fix}(f)\to^* f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+p$ ($p\neq 0$ car $$, absurde.
+> On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées). On a alors $\text{fix}(f)\to^p f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+p$ ($p\neq 0$ car $\text{fix}(f)\neq f(\text{fix}(f))$), absurde.
 
 
 On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe fort* de $f$ si $f(e)\to^* e$
@@ -564,7 +564,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4MjM3MzI1LDY0MjQ2OTA3LDM0NjMxNz
+eyJoaXN0b3J5IjpbMjAzOTk3MzQzLDY0MjQ2OTA3LDM0NjMxNz
 Q0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0MzUw
 LDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwtMT
 ExNzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NTU5ODYwNSw3NTMx
