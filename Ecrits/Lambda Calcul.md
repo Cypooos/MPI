@@ -47,7 +47,7 @@ Soient $e\in E$ et $x,y\in V\times E$, on définit l'opération de substitution 
   - $(u\mapsto e)[x\larr y] := u\mapsto e[x\larr y]$ pour $u\in V\setminus \{x\}$
 
 Informellement, $e[x\larr y]$ est $e$ dans laquelle on a remplacé toute les occurrences libre de $x$ par $y$.
-Dans ce sujet, pour $x,y\in V$, si $y\not\in e$ on identifiera $e$ et $e[x \larr y]$ : un renommage d'une variable ne change pas fondamentalement l'expression.
+Dans ce sujet, un renommage d'une variable non libre ne change pas fondamentalement l'expression. On identifiera donc dans deux expressions à renommage d'une variable non libre près. 
 
 On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$
 
@@ -118,9 +118,9 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 13. Montrer que, soient $t,t',e \in E$ et $x,y\in V$, on a :
 - Si $x\neq y$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
 - Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
-15. (*) Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
+14. (*) Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : On peut procéder par induction selon la règle obtenue pour avoir $t\triangleright t'$.
-16. (\*) Montrez le théorème de *Church-Rosser*.
+15. (\*) Montrez le théorème de *Church-Rosser*.
 
 ## Autour de Church-Rosser
 16. Montrez que si $a\in E$ possède une forme normale, alors celle-ci est unique.
@@ -287,9 +287,9 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1MTExNDEwLC0xNzYxNjk5NzczLC0xNj
-k2Mjc5MDAsMTcwOTU3MzkzNywtMTQ1NTkxNDI5OCwtMTA1Njky
-ODU0Myw3NzY4NTk3MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOT
-UzMzIzLC0xODQ3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkz
-NCwtMTIwNzgzOTY4NywtNjM0NTcxMzcwXX0=
+eyJoaXN0b3J5IjpbLTE3NjkxMTIwODMsLTE3NjE2OTk3NzMsLT
+E2OTYyNzkwMCwxNzA5NTczOTM3LC0xNDU1OTE0Mjk4LC0xMDU2
+OTI4NTQzLDc3Njg1OTcyLDEzODYzMzQ3LDg2ODY4OTIzLDE5MT
+I5NTMzMjMsLTE4NDc3NzE2MDQsLTU2ODg0MjU0NCwtNzA2MTg5
+OTM0LC0xMjA3ODM5Njg3LC02MzQ1NzEzNzBdfQ==
 -->
