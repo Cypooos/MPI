@@ -344,29 +344,6 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 >  - Initialisation: On a $(\text{add}(C_m))^0(C_0) = C_0= C_{n\times m}$
 >  - Hérédité: On a $(\text{add}(C_m))^{n+1}(C_0)=\text{add}(C_m)((\text{add}(C_m))^n(C_0)) \to^*\text{add}(C_m)(C_{n\times m}) \to ^* C_{m+n\times m} = C_{(n+1)\times m}$
 
-## Conditions sur les entiers de Church
-23. Définir $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
-
- > On pose $\text{eq\_0} = (C\mapsto C(K(\bot),\top))$, et on a :
- >  - pour $C_0$ : $\text{eq\_0}(C_0) \to C_0(K(\bot),\top)\to \top$
- >  - soit $n>0$ : $\text{eq\_0}(C_n) \to C_n(K(\bot),\top)\to (K(\bot))^n(\top)\to^*K(\top)((K(\bot))^{n-1}(\top)) \to \bot$
- 
-24. Définir $\text{eq}$ une expression tel que :
-    * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
-    * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
-
-> On pose $\text{eq} = (C,C'\mapsto \text{and}\Big(\text{eq\_0}(\text{sub}(C,C')),\text{eq\_0}(\text{sub}(C',C))\Big))$
-> Soit $n\in\N$, on a
-> $$\begin{align*}\text{eq}(C_n,C_n)&\to^* \text{and}\Big(\text{eq\_0}(\text{sub}(C_n,C_n)),\text{eq\_0}(\text{sub}(C_n,C_n))\Big)
-\\&\to^*\text{and}\Big(\text{eq\_0}(C_0),\text{eq\_0}(C_0)\Big)
-\\&\to^* \text{and}(\top,\top) \\&\to \top\end{align*}$$
-> Soit $n<m$, on a :
-> $$\begin{align*}\text{eq}(C_n,C_m)&\to^* \text{and}\Big(\text{eq\_0}(\text{sub}(C_n,C_m)),\text{eq\_0}(\text{sub}(C_n,C_m))\Big)
-\\&\to^*\text{and}\Big(\text{eq\_0}(C_0),\text{eq\_0}(C_{m-n})\Big)
-\\&\to^* \text{and}(\top,\bot) \\&\to \bot\end{align*}$$
-> Et pareillement si $m<n$
-> NB: Il ne faut pas oublier le $\text{and}$ ! Il est important, car $\text{sub}(C_n,C_m)$ ne marche que pour des $n>m$
-
 ## Soustraction
 
 L'objectif de cette partie est d'implémenter $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m\ ;\ 0\}}$
@@ -403,6 +380,29 @@ qui représente un couple $(x,y)$
 
 > On pose $\text{sub} = (C,C'\mapsto C(\text{decr},C'))$
 > Et on a bien $\text{sub}(C_n,C_m) \to^2C_n(\text{decr},C_m)\to^2\text{decr}^n(C_m)\to^*C_{\max\{n-m;0\}}$
+## Conditions sur les entiers de Church
+23. Définir $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
+
+ > On pose $\text{eq\_0} = (C\mapsto C(K(\bot),\top))$, et on a :
+ >  - pour $C_0$ : $\text{eq\_0}(C_0) \to C_0(K(\bot),\top)\to \top$
+ >  - soit $n>0$ : $\text{eq\_0}(C_n) \to C_n(K(\bot),\top)\to (K(\bot))^n(\top)\to^*K(\top)((K(\bot))^{n-1}(\top)) \to \bot$
+ 
+24. Définir $\text{eq}$ une expression tel que :
+    * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
+    * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
+
+> On pose $\text{eq} = (C,C'\mapsto \text{and}\Big(\text{eq\_0}(\text{sub}(C,C')),\text{eq\_0}(\text{sub}(C',C))\Big))$
+> Soit $n\in\N$, on a
+> $$\begin{align*}\text{eq}(C_n,C_n)&\to^* \text{and}\Big(\text{eq\_0}(\text{sub}(C_n,C_n)),\text{eq\_0}(\text{sub}(C_n,C_n))\Big)
+\\&\to^*\text{and}\Big(\text{eq\_0}(C_0),\text{eq\_0}(C_0)\Big)
+\\&\to^* \text{and}(\top,\top) \\&\to \top\end{align*}$$
+> Soit $n<m$, on a :
+> $$\begin{align*}\text{eq}(C_n,C_m)&\to^* \text{and}\Big(\text{eq\_0}(\text{sub}(C_n,C_m)),\text{eq\_0}(\text{sub}(C_n,C_m))\Big)
+\\&\to^*\text{and}\Big(\text{eq\_0}(C_0),\text{eq\_0}(C_{m-n})\Big)
+\\&\to^* \text{and}(\top,\bot) \\&\to \bot\end{align*}$$
+> Et pareillement si $m<n$
+> NB: Il ne faut pas oublier le $\text{and}$ ! Il est important, car $\text{sub}(C_n,C_m)$ ne marche que pour des $n>m$
+
 # Partie IV: Point-fixe et Récursivité
 Le but de cette partie est de pouvoir faire des fonctions récursives.
 ## L'opérateur Point-fixe
@@ -564,11 +564,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTAwMjIyNjEsNjQyNDY5MDcsMzQ2Mz
-E3NDQxLDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLTExNTc1NDQz
-NTAsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0MTYyNjkxLC
-0xMTE3NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NTk4NjA1LDc1
-MzE0ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQsMTcyMzI1MT
-I4NCwxOTQ1NjI3NTAwLC0xNDEzODg3MTUxLC0yMDcwMTkzMTEx
-LC02MjI2NTE2NTBdfQ==
+eyJoaXN0b3J5IjpbLTk3NTUxMjc4NSwtMTgxMDAyMjI2MSw2ND
+I0NjkwNywzNDYzMTc0NDEsMTgxNjIyODg0NiwtMTM1ODQ5NDIw
+NiwtMTE1NzU0NDM1MCwxNDYzMDE3ODE2LC03NDE1ODQxNTIsLT
+E1MTQxNjI2OTEsLTExMTc2NTc4NTEsLTEzODI0OTQ4MjEsLTE0
+ODU1OTg2MDUsNzUzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mj
+k0NCwxNzIzMjUxMjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEs
+LTIwNzAxOTMxMTFdfQ==
 -->
