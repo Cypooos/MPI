@@ -67,21 +67,21 @@ On définit les expressions suivantes :
 # Partie I: Introduction
 
 ## Préliminaires
-1. Donnez un calcul normalisant de $K(K,I)$, de $I(I)$, de $K(I,\Delta)$
-2. Montrez que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
+1. Donner un calcul normalisant de $K(K,I)$, de $I(I)$, de $K(I,\Delta)$
+2. Montrer que l'expression $\Delta(\Delta)$ ne possède aucun calcul normalisant.
 
 ## Graphe des réductions
 Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe orienté des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $A_e = \{(x,y)\in S_e^2 : x\to y \}$
 
-3. Donnez le graphe des réductions de $I(I(I))$, et de $(x\mapsto x(K(x,x(x))))(\Delta)$
-4. Donnez une expression donnant un graphe des réductions infini.
-5. Montrez que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire. 
+3. Donner le graphe des réductions de $I(I(I))$, et de $(x\mapsto x(K(x,x(x))))(\Delta)$
+4. Donner une expression donnant un graphe des réductions infini.
+5. Montrer que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire. 
 
 ## Booléens
 On pose $\top = (x,y\mapsto x)$ et $\bot = (x,y\mapsto y)$. On pose $B=\{\top,\bot\}$
 On pose $\text{if} = (b,f_1,f_2\mapsto b(f_1,f_2))$
 
-6. Montrez que, soit $e,e'\in E$, on a $\text{if}(\top,e,e') \to^* e$ et $\text{if}(\bot,e,e') \to^* e'$ 
+6. Montrer que, soit $e,e'\in E$, on a $\text{if}(\top,e,e') \to^* e$ et $\text{if}(\bot,e,e') \to^* e'$ 
 7. Définir une expression $\text{not}$ tel que $\text{not}(\top) \to^* \bot$ et $\text{not}(\bot) \to^* \top$
 8. Définir une expression $\text{and}$ tel que, soit $b,b'\in B$, on ai:
    * $\text{and}(b,b') \to^* \top$  si $b=b'=\top$
@@ -97,8 +97,8 @@ On pose $\lrarr$ la fermeture symétrique de $\to$ : on a $x\lrarr y$ si et seul
 On pose $G = (E,A)$ un graphe orienté infini avec $A = \{(x,y)\in E^2 : x\to^* y \}$
 On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ et $y$ appartiennent à la même composante faiblement connexe dans $G$
 
-9. Montrez que $a=_\beta b$, si et seulement si il existe $n\in\N$ et $M_1,...,M_n \in E$ tel que $a\lrarr M_1\lrarr...\lrarr M_n\lrarr b$
-10. Montrez que $=_\beta$ est une relation d'équivalence sur E. 
+9. Montrer que $a=_\beta b$, si et seulement si il existe $n\in\N$ et $M_1,...,M_n \in E$ tel que $a\lrarr M_1\lrarr...\lrarr M_n\lrarr b$
+10. Montrer que $=_\beta$ est une relation d'équivalence sur E. 
 
 ## Le théorème de _Church-Rosser_
 
@@ -114,12 +114,12 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 - $(x\mapsto e)(u) \triangleright t'[x\larr u']$ si $t \triangleright t'$ et $u \triangleright u'$
 
 
-11. Montrez que si $a\to b$, alors $a\triangleright b$.
-12. Montrez que si $a\triangleright b$, alors $a\to^* b$
-13. Montrer que, soient $t,t',e \in E$ et $x,y\in V$, on a :
-- Si $x\neq y$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
-- Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
-14. (*) Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
+11. Montrer que si $a\to b$, alors $a\triangleright b$.
+12. Montrer que si $a\triangleright b$, alors $a\to^* b$
+13. Montrer que, soient $t,t',e \in E$ et $x,y\in V$,
+Si $x\neq y$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
+Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
+14. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : On peut procéder par induction selon la règle obtenue pour avoir $t\triangleright t'$.
 15. (\*) Montrez le théorème de *Church-Rosser*.
 
@@ -288,7 +288,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDAzODQyMTEsLTE5MjM2Nzg3NzcsMT
+eyJoaXN0b3J5IjpbLTE4ODU3MzA0OTYsLTE5MjM2Nzg3NzcsMT
 M0MDc5MjgyLDk5NzUyMjY1MywtMTc2MTY5OTc3MywtMTY5NjI3
 OTAwLDE3MDk1NzM5MzcsLTE0NTU5MTQyOTgsLTEwNTY5Mjg1ND
 MsNzc2ODU5NzIsMTM4NjMzNDcsODY4Njg5MjMsMTkxMjk1MzMy
