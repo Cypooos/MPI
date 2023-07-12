@@ -115,13 +115,12 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 11. Montrez que si $a\to b$, alors $a\triangleright b$.
 12. Montrez que si $a\triangleright b$, alors $a\to^* b$
-13. (*) Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
+13. Montrer que, soient $t,t',e \in E$ et $x,y\in V$, on a :
+- Si $x\neq y$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
+- Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
+15. (*) Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : On peut procéder par induction selon la règle obtenue pour avoir $t\triangleright t'$.
-> On pourra aussi montrer  (LEMME) : soient $t,t',e\in E$ et $x,y\in V$, on a :
-> - si $x\neq y$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
-> - sinon, si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
-14. (*) Montrez que $\triangleright$ respecte la *propriété du diamant*.
-15. En déduire le théorème de *Church-Rosser*.
+16. (\*) Montrez le théorème de *Church-Rosser*.
 
 ## Autour de Church-Rosser
 16. Montrez que si $a\in E$ possède une forme normale, alors celle-ci est unique.
@@ -288,9 +287,9 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDg0ODAzOTksLTE3NjE2OTk3NzMsLT
-E2OTYyNzkwMCwxNzA5NTczOTM3LC0xNDU1OTE0Mjk4LC0xMDU2
-OTI4NTQzLDc3Njg1OTcyLDEzODYzMzQ3LDg2ODY4OTIzLDE5MT
-I5NTMzMjMsLTE4NDc3NzE2MDQsLTU2ODg0MjU0NCwtNzA2MTg5
-OTM0LC0xMjA3ODM5Njg3LC02MzQ1NzEzNzBdfQ==
+eyJoaXN0b3J5IjpbNTQ1MTExNDEwLC0xNzYxNjk5NzczLC0xNj
+k2Mjc5MDAsMTcwOTU3MzkzNywtMTQ1NTkxNDI5OCwtMTA1Njky
+ODU0Myw3NzY4NTk3MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOT
+UzMzIzLC0xODQ3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkz
+NCwtMTIwNzgzOTY4NywtNjM0NTcxMzcwXX0=
 -->
