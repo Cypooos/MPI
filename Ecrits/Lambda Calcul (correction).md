@@ -1,13 +1,14 @@
-# Etude du Lambda Calcul
 
-Ce sujet difficile introduit la théorie derrière les langages fonctionnel : le lambda calcul.
+# Etude du Lambda Calcul (correction)
+
+Ce sujet introduit la théorie derrière les langages fonctionnels : le lambda calcul.
 
 La partie I introduit le lambda calcul et les booléens.
-La partie II étudie la $\beta$-équivalence et la propriété de Church Rosser.
-La partie III implémente les entiers de church et les opérations classiques dessus.
+La partie II étudie la $\beta$-équivalence et la propriété de *Church-Rosser*.
+La partie III implémente les entiers de Church et les opérations classiques dessus.
 La partie IV introduit le principe d'opérateur point-fixe et la récursivité.
 La partie V définie des types aux expressions du lambda calcul.
-La partie VI est en cours d'écriture, et portera sur des liens avec les grammaires.
+La partie VI, pour aller plus loin. Certaines parties en font référence.
 
 Dépendances des différentes parties :
 $$
@@ -28,36 +29,36 @@ Ce sujet n'est pas fait pour être réalisé en 4h.
 # Définitions
 
 
-Soit $V=\{x,y,z,t,u,v,...\}$ un ensemble dénombrable infinie de *variables*.
+Soit $V$ un ensemble dénombrable infinie de *variables*.
 On définit une *expression* inductivement :
  - "$x$" est une expression pour tout $x\in V$
  - "$e_1(e_2)$" est une expression pour tout $e_1,e_2$ deux expressions
  - "$x\mapsto e$" est une expression pour tout $x\in V$ et $e$ une expression
 
-On utilisera des parenthèses pour indiquer de l'ordre des opérations. On note $E$ l'ensemble des expressions.
-Soient $a,A\in E$ deux expressions, si on retrouve $a$ dans $A$, on note cela $a\in A$.
+On utilisera des parenthèses pour lever les ambiguïtés de cette grammaire. On note $E$ l'ensemble des expressions. Si $a$ est une expression présente dans $A$, une autre expression, on note cela $a\in A$.
 
 On pourra noter $x_1,x_2,...,x_n\mapsto e$ pour dénoter $x_1\mapsto (x_2\mapsto(...(x_n\mapsto e)...))$
 On pourra noter $e(x_1,x_2,...,x_n)$ pour dénoter $e(x_1)(x_2)...(x_n)$
  
-Soient $e\in E$ et $x,y\in V\times E$, on définit l'opération de substitution $e[x\larr y]$ inductivement :
- - $x[x\larr y] := y$
-  - $u[x\larr y] := u$ pour $u\in V\setminus \{x\}$
-  - $e(e')[x\larr y] := e[x\larr y]\Big(e'[x\larr y]\Big)$
-  - $(x\mapsto e)[x\larr y] := x\mapsto e$
-  - $(u\mapsto e)[x\larr y] := u\mapsto e[x\larr y]$ pour $u\in V\setminus \{x\}$
+Soient $e\in E$ et $x,a\in V\times E$, on définit l'opération de *substitution* $e[x\larr a]$ inductivement :
+ - $x[x\larr a] := y$
+  - $u[x\larr a] := u$ pour $u\in V\setminus \{x\}$
+  - $e(e')[x\larr a] := e[x\larr a]\Big(e'[x\larr a]\Big)$
+  - $(x\mapsto e)[x\larr a] := x\mapsto e$
+  - $(u\mapsto e)[x\larr a] := u\mapsto e[x\larr a]$ pour $u\in V\setminus \{x\}$
 
-Informellement, $e[x\larr y]$ est $e$ dans laquelle on a remplacé toute les occurrences libre de $x$ par $y$.
-Dans ce sujet, pour $x,y\in V$, si $y\not\in e$ on identifiera $e$ et $e[x \larr y]$ : un renommage d'une variable ne change pas fondamentalement l'expression.
+Informellement, $e[x\larr a]$ est $e$ dans laquelle on a remplacé toutes les occurrences libre de $x$ par $a$.
 
-On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$
+On dit que $x$ est *libre* dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$. Un variable *liée* de $A$ est une variable $x$ non libre avec $x\in A$.
+
+Dans ce sujet, un renommage d'une variable liée ne change pas fondamentalement l'expression. On identifiera donc deux expressions à renommage d'une variable non libre près. 
 
 On appelle *évaluation* de l'expression $a =(x\mapsto e)(e')$ l'expression $â=e[x\larr e']$.
-On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation $\hat a$. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
+On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé une occurrence de $a$ par son évaluation $\hat a$. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^n A_n$ ou $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant.
 
-Si tout les calculs à partir de $A$ sont de longueurs inférieur à un $n$ fixé, on dit que $A$ est unitaire. *(Rem: Dans la littérature, le terme de "fortement normalisable" est plutôt employé.)*
+Si tout les calculs à partir de $A$ sont de longueurs inférieur à un certain $n$, on dit que $A$ est unitaire. *(Rem: Dans la littérature, le terme de "fortement normalisable" est plutôt employé.)*
 
 On définit les expressions suivantes :
  - $I = (x\mapsto x)$
@@ -67,8 +68,7 @@ On définit les expressions suivantes :
 # Partie I: Introduction
 
 ## Préliminaires
-1. Donnez un calcul normalisant de $K(K,I)$, de $I(I)$, de $K(I,\Delta)$
-
+1. Donner un calcul normalisant de $K(K,I)$, de $I(I)$, de $K(I,\Delta)$
 > On a $K(K,I)=K(K)(I)=(y\mapsto (x\mapsto y))(K)(I)\to (x\mapsto K)(I)\to K$, et $K$ est bien sous forme normale.
 > On a $I(I)=(x\mapsto x)(I)\to I$, et $I$ est bien sous forme normale.
 > On a $K(I,\Delta)=K(I)(\Delta)=(y\mapsto (x\mapsto y))(I)(\Delta)\to(x\mapsto I)(\Delta)\to I$, et $I$ est bien sous forme normale.
@@ -564,11 +564,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTUxMjc4NSwtMTgxMDAyMjI2MSw2ND
-I0NjkwNywzNDYzMTc0NDEsMTgxNjIyODg0NiwtMTM1ODQ5NDIw
-NiwtMTE1NzU0NDM1MCwxNDYzMDE3ODE2LC03NDE1ODQxNTIsLT
-E1MTQxNjI2OTEsLTExMTc2NTc4NTEsLTEzODI0OTQ4MjEsLTE0
-ODU1OTg2MDUsNzUzMTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mj
-k0NCwxNzIzMjUxMjg0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEs
-LTIwNzAxOTMxMTFdfQ==
+eyJoaXN0b3J5IjpbNTI0NjMyNzQ3LC0xODEwMDIyMjYxLDY0Mj
+Q2OTA3LDM0NjMxNzQ0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2
+LC0xMTU3NTQ0MzUwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMT
+UxNDE2MjY5MSwtMTExNzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4
+NTU5ODYwNSw3NTMxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOT
+Q0LDE3MjMyNTEyODQsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwt
+MjA3MDE5MzExMV19
 -->
