@@ -1,6 +1,6 @@
 # Etude du Lambda Calcul
 
-Ce sujet difficile introduit la théorie derrière les langages fonctionnel : le lambda calcul.
+Ce sujet difficile introduit la théorie derrière les langages fonctionnels : le lambda calcul.
 
 La partie I introduit le lambda calcul et les booléens.
 La partie II étudie la $\beta$-équivalence et la propriété de Church-Rosser.
@@ -34,22 +34,23 @@ On définit une *expression* inductivement :
  - "$e_1(e_2)$" est une expression pour tout $e_1,e_2$ deux expressions
  - "$x\mapsto e$" est une expression pour tout $x\in V$ et $e$ une expression
 
-On utilisera des parenthèses pour indiquer de l'ordre des opérations. On note $E$ l'ensemble des expressions. Si $a$ est une expression présente dans $A$, une autre expression, on note cela $a\in A$.
+On utilisera des parenthèses pour lever les ambiguïtés de cette grammaire. On note $E$ l'ensemble des expressions. Si $a$ est une expression présente dans $A$, une autre expression, on note cela $a\in A$.
 
 On pourra noter $x_1,x_2,...,x_n\mapsto e$ pour dénoter $x_1\mapsto (x_2\mapsto(...(x_n\mapsto e)...))$
 On pourra noter $e(x_1,x_2,...,x_n)$ pour dénoter $e(x_1)(x_2)...(x_n)$
  
-Soient $e\in E$ et $x,y\in V\times E$, on définit l'opération de substitution $e[x\larr y]$ inductivement :
- - $x[x\larr y] := y$
-  - $u[x\larr y] := u$ pour $u\in V\setminus \{x\}$
-  - $e(e')[x\larr y] := e[x\larr y]\Big(e'[x\larr y]\Big)$
-  - $(x\mapsto e)[x\larr y] := x\mapsto e$
-  - $(u\mapsto e)[x\larr y] := u\mapsto e[x\larr y]$ pour $u\in V\setminus \{x\}$
-
-Informellement, $e[x\larr y]$ est $e$ dans laquelle on a remplacé toute les occurrences libre de $x$ par $y$.
-Dans ce sujet, un renommage d'une variable non libre ne change pas fondamentalement l'expression. On identifiera donc dans deux expressions à renommage d'une variable non libre près. 
+Soient $e\in E$ et $x,a\in V\times E$, on définit l'opération de substitution $e[x\larr a]$ inductivement :
+ - $x[x\larr a] := y$
+  - $u[x\larr a] := u$ pour $u\in V\setminus \{x\}$
+  - $e(e')[x\larr a] := e[x\larr y]\Big(e'[x\larr a]\Big)$
+  - $(x\mapsto e)[x\larr a] := x\mapsto e$
+  - $(u\mapsto e)[x\larr a] := u\mapsto e[x\larr a]$ pour $u\in V\setminus \{x\}$
 
 On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$
+
+Dans ce sujet, un renommage d'une variable non libre ne change pas fondamentalement l'expression. On identifiera donc dans deux expressions à renommage d'une variable non libre près. 
+
+Informellement, $e[x\larr a]$ est $e$ dans laquelle on a remplacé toutes les occurrences libre de $x$ par $a$.
 
 On appelle *évaluation* de l'expression $a =(x\mapsto e)(e')$ l'expression $â=e[x\larr e']$.
 On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation $\hat a$. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
@@ -287,9 +288,9 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjkxMTIwODMsLTE3NjE2OTk3NzMsLT
-E2OTYyNzkwMCwxNzA5NTczOTM3LC0xNDU1OTE0Mjk4LC0xMDU2
-OTI4NTQzLDc3Njg1OTcyLDEzODYzMzQ3LDg2ODY4OTIzLDE5MT
-I5NTMzMjMsLTE4NDc3NzE2MDQsLTU2ODg0MjU0NCwtNzA2MTg5
-OTM0LC0xMjA3ODM5Njg3LC02MzQ1NzEzNzBdfQ==
+eyJoaXN0b3J5IjpbNjAyNzk5OTc3LC0xNzYxNjk5NzczLC0xNj
+k2Mjc5MDAsMTcwOTU3MzkzNywtMTQ1NTkxNDI5OCwtMTA1Njky
+ODU0Myw3NzY4NTk3MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOT
+UzMzIzLC0xODQ3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkz
+NCwtMTIwNzgzOTY4NywtNjM0NTcxMzcwXX0=
 -->
