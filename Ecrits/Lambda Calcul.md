@@ -129,7 +129,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 > Remarque : On a ici prouvé que quelque-soit notre manière d'évaluer une expression $e$ bien écrite, on tombera toujours sur le même résultat. Autrement dit, le lambda calcul est fondamentalement "déterministe" par rapport à son implémentation.
 > Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étapes. Dans le cas de $\text{if}(\top,I,\Delta(\Delta)) \to^* I$, si l'on calcule constamment $\Delta(\Delta)$, on n'atteindra jamais la forme normale $I$, alors qu'elle existe et est unique.
 
-17. En déduire que tout graphe des réductions de $e$ possède un plus petit et un plus grand élément pour la relation $\to^*$. 
+17. En déduire que tout graphe des réductions de $e$ pour $e$ admettant une forme normale possède un plus petit et un plus grand élément pour la relation $\to^*$. 
 18. Montrez que si $a=_\beta b$, alors il existe $e\in E$ tel que $a\to^* e$ et $b\to^* e$
 19. Soit $f\in E$. Donnez une expression contre-exemple $g$ à : $(\forall e\in E, f(e)=_\beta g(e)) \implies f =_\beta g$
 
@@ -150,12 +150,6 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 22. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$ 
 
 
-## Conditions sur les entiers de Church
-23. Définir $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
-24. Définir $\text{eq}$ une expression tel que :
-    * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
-    * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
-
 ## Soustraction
 
 L'objectif de cette partie est d'implémenter $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m\ ;\ 0\}}$
@@ -164,10 +158,16 @@ $$D = (x,y,z \mapsto z(x,y))$$
 
 qui représente un couple $(x,y)$
 
-25. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$.
-26. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1})$
-27. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
-28. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$
+23. Montrez que $D(e,e')(\top) \to^* e$ et  $D(e,e')(\bot) \to^* e'$.
+24. Définir $A$ une expression telle que $A(D(e,C_n)) \to^* D(C_n,C_{n+1})$
+25. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
+26. Définir $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m;0\}}$
+
+## Conditions sur les entiers de Church
+27. Définir $\text{eq\_0}$ une expression tel que $\text{eq\_0}(C_0)\to^* \top$ et $\forall n>0,\ \text{eq\_0}(C_n)\to^* \bot$ 
+28. Définir $\text{eq}$ une expression tel que :
+    * $\text{eq}(C_n,C_m) \to^* \top$ si $n=m$
+    * $\text{eq}(C_n,C_m) \to^* \bot$ si $n\neq m$
 
 # Partie IV: Point-fixe et Récursivité
 Le but de cette partie est de pouvoir faire des fonctions récursives.
@@ -288,7 +288,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzMyNjgxNDUsLTE3NjE2OTk3NzMsLT
+eyJoaXN0b3J5IjpbLTExMDg0ODAzOTksLTE3NjE2OTk3NzMsLT
 E2OTYyNzkwMCwxNzA5NTczOTM3LC0xNDU1OTE0Mjk4LC0xMDU2
 OTI4NTQzLDc3Njg1OTcyLDEzODYzMzQ3LDg2ODY4OTIzLDE5MT
 I5NTMzMjMsLTE4NDc3NzE2MDQsLTU2ODg0MjU0NCwtNzA2MTg5
