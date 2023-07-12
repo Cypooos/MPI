@@ -113,18 +113,18 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 - $t(x)\triangleright t'(x')$ si $t\triangleright t'$ et $x\triangleright x'$
 - $(x\mapsto e)(u) \triangleright t'[x\larr u']$ si $t \triangleright t'$ et $u \triangleright u'$
 
-
+11. Justification de l'app
 11. Montrer que si $a\to b$, alors $a\triangleright b$.
 12. Montrer que si $a\triangleright b$, alors $a\to^* b$
 13. Montrer que, soient $t,t',e \in E$ et $x,y\in V$,
 Si $x\neq y$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
 Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
-14. Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
+14. Montrer que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : On peut procéder par induction selon la règle obtenue pour avoir $t\triangleright t'$.
 15. (\*) Montrez le théorème de *Church-Rosser*.
 
 ## Autour de Church-Rosser
-16. Montrez que si $a\in E$ possède une forme normale, alors celle-ci est unique.
+17. Montrez que si $a\in E$ possède une forme normale, alors celle-ci est unique.
 
 > Remarque : On a ici prouvé que quelque-soit notre manière d'évaluer une expression $e$ bien écrite, on tombera toujours sur le même résultat. Autrement dit, le lambda calcul est fondamentalement "déterministe" par rapport à son implémentation.
 > Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étapes. Dans le cas de $\text{if}(\top,I,\Delta(\Delta)) \to^* I$, si l'on calcule constamment $\Delta(\Delta)$, on n'atteindra jamais la forme normale $I$, alors qu'elle existe et est unique.
@@ -287,7 +287,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4Njc5Nzg5NCwtMTkyMzY3ODc3NywxMz
+eyJoaXN0b3J5IjpbMTAwMDI5MDQ0NCwtMTkyMzY3ODc3NywxMz
 QwNzkyODIsOTk3NTIyNjUzLC0xNzYxNjk5NzczLC0xNjk2Mjc5
 MDAsMTcwOTU3MzkzNywtMTQ1NTkxNDI5OCwtMTA1NjkyODU0My
 w3NzY4NTk3MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOTUzMzIz
