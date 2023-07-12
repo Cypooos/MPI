@@ -447,6 +447,8 @@ Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre 
 > Indication : On pourra utiliser le graphes des réductions de $\text{fix}(F)(e)$
 
 > Soient $e\in E$, et on suppose que $\text{fix}(F)(e)$ admet une forme normale $\alpha$
+> On note $e_i$ la série des dérivations
+> Par l'absurde, supposons que $\forall n_r, F(...(F)...)(e) \not\to^* \alpha$
 ## Un exemple
 On définit :
 $$
@@ -562,11 +564,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTQwNTgsNjQyNDY5MDcsMzQ2MzE3ND
-QxLDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLTExNTc1NDQzNTAs
-MTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0MTYyNjkxLC0xMT
-E3NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NTk4NjA1LDc1MzE0
-ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQsMTcyMzI1MTI4NC
-wxOTQ1NjI3NTAwLC0xNDEzODg3MTUxLC0yMDcwMTkzMTExLC02
-MjI2NTE2NTBdfQ==
+eyJoaXN0b3J5IjpbMTI2Nzc1NDI0Nyw2NDI0NjkwNywzNDYzMT
+c0NDEsMTgxNjIyODg0NiwtMTM1ODQ5NDIwNiwtMTE1NzU0NDM1
+MCwxNDYzMDE3ODE2LC03NDE1ODQxNTIsLTE1MTQxNjI2OTEsLT
+ExMTc2NTc4NTEsLTEzODI0OTQ4MjEsLTE0ODU1OTg2MDUsNzUz
+MTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwxNzIzMjUxMj
+g0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMTEs
+LTYyMjY1MTY1MF19
 -->
