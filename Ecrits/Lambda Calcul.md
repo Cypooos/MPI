@@ -1,9 +1,9 @@
 # Etude du Lambda Calcul
 
-Ce sujet difficile introduit la théorie derrière les langages fonctionnels : le lambda calcul.
+Ce sujet introduit la théorie derrière les langages fonctionnels : le lambda calcul.
 
 La partie I introduit le lambda calcul et les booléens.
-La partie II étudie la $\beta$-équivalence et la propriété de Church-Rosser.
+La partie II étudie la $\beta$-équivalence et la propriété de *Church-Rosser*.
 La partie III implémente les entiers de Church et les opérations classiques dessus.
 La partie IV introduit le principe d'opérateur point-fixe et la récursivité.
 La partie V définie des types aux expressions du lambda calcul.
@@ -28,7 +28,7 @@ Ce sujet n'est pas fait pour être réalisé en 4h.
 # Définitions
 
 
-Soit $V=\{x,y,z,t,u,v,...\}$ un ensemble dénombrable infinie de *variables*.
+Soit $V$ un ensemble dénombrable infinie de *variables*.
 On définit une *expression* inductivement :
  - "$x$" est une expression pour tout $x\in V$
  - "$e_1(e_2)$" est une expression pour tout $e_1,e_2$ deux expressions
@@ -42,7 +42,7 @@ On pourra noter $e(x_1,x_2,...,x_n)$ pour dénoter $e(x_1)(x_2)...(x_n)$
 Soient $e\in E$ et $x,a\in V\times E$, on définit l'opération de substitution $e[x\larr a]$ inductivement :
  - $x[x\larr a] := y$
   - $u[x\larr a] := u$ pour $u\in V\setminus \{x\}$
-  - $e(e')[x\larr a] := e[x\larr y]\Big(e'[x\larr a]\Big)$
+  - $e(e')[x\larr a] := e[x\larr a]\Big(e'[x\larr a]\Big)$
   - $(x\mapsto e)[x\larr a] := x\mapsto e$
   - $(u\mapsto e)[x\larr a] := u\mapsto e[x\larr a]$ pour $u\in V\setminus \{x\}$
 
@@ -288,9 +288,10 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk3NTIyNjUzLC0xNzYxNjk5NzczLC0xNj
-k2Mjc5MDAsMTcwOTU3MzkzNywtMTQ1NTkxNDI5OCwtMTA1Njky
-ODU0Myw3NzY4NTk3MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOT
-UzMzIzLC0xODQ3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkz
-NCwtMTIwNzgzOTY4NywtNjM0NTcxMzcwXX0=
+eyJoaXN0b3J5IjpbLTIwMjE3NzgwNyw5OTc1MjI2NTMsLTE3Nj
+E2OTk3NzMsLTE2OTYyNzkwMCwxNzA5NTczOTM3LC0xNDU1OTE0
+Mjk4LC0xMDU2OTI4NTQzLDc3Njg1OTcyLDEzODYzMzQ3LDg2OD
+Y4OTIzLDE5MTI5NTMzMjMsLTE4NDc3NzE2MDQsLTU2ODg0MjU0
+NCwtNzA2MTg5OTM0LC0xMjA3ODM5Njg3LC02MzQ1NzEzNzBdfQ
+==
 -->
