@@ -1,5 +1,5 @@
 ## Arbre binaire parfaits
-> *Inspiré du sujet d'info-1 du concours des Mines-Ponts 2023 en MPI*
+> *Inspiré du sujet d'info-1 du concours des Mines-Pont 2023 en MPI*
 
 On ce donne le type d'un arbre suivant :
 ```c
@@ -123,11 +123,11 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTExOTQ1NjAsOTEzNTU1MzQwLC0xMz
-c4MzY0ODU1LC04NjYwMzUxODAsLTEwMzM0Mjg1NzgsMTIwNDA0
-NTg4MCwtMjEzMDI5MjEwMCwtMTg4NDI3NjUyNiwtMTUwOTg2Mj
-k3NywtNjg0MjYyMDMxLDgzNjE1ODQ4NSwxNjAwMDIyMzcxLDE4
-OTk2MDY5NDYsMTcyNjg5OTk3NCwyODQzNTMxOTcsLTE4MDQ1OT
-AwMjcsMjAwMzA5MDYyMSwtMjE3ODcyODcwLDEzNjIxMDMzNDIs
-NjcyODU0OTk1XX0=
+eyJoaXN0b3J5IjpbLTEyNzgzMDE0OSw5MTM1NTUzNDAsLTEzNz
+gzNjQ4NTUsLTg2NjAzNTE4MCwtMTAzMzQyODU3OCwxMjA0MDQ1
+ODgwLC0yMTMwMjkyMTAwLC0xODg0Mjc2NTI2LC0xNTA5ODYyOT
+c3LC02ODQyNjIwMzEsODM2MTU4NDg1LDE2MDAwMjIzNzEsMTg5
+OTYwNjk0NiwxNzI2ODk5OTc0LDI4NDM1MzE5NywtMTgwNDU5MD
+AyNywyMDAzMDkwNjIxLC0yMTc4NzI4NzAsMTM2MjEwMzM0Miw2
+NzI4NTQ5OTVdfQ==
 -->
