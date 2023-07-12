@@ -82,15 +82,15 @@ On définit les expressions suivantes :
 ## Graphe des réductions
 Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe orienté des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $A_e = \{(x,y)\in S_e^2 : x\to y \}$
 
-3. Donnez le graphe des réductions de $I(I(I))$, et de $K(I,\Delta(\Delta))$.
+3. Donnez le graphe des réductions de $K(I,\Delta(\Delta))$, et de $(x\mapsto x(K(x,x(x))))(\Delta)$.
 
-> On a le graphe des réductions de $I(I(I))$ :
+> On a le graphe des réductions de $K(I,\Delta(\Delta))$ :
 > $$
 \begin{CD}
-I(I(I)) @>>> I(I) @>>> I\\
+\overbrace{K(I,\Delta(\Delta))}^{\text{Etat bouclant}} @>>> \overbrace{(x\ \mapsto\ I\ )(\Delta(\Delta))}^{\text{Etat bouclant}} @>>> I\\
 \end{CD}
-> $$
-> On a le graphe des réductions de $K(I,\Delta(\Delta))$ :
+$$
+> On a le graphe des réductions de $(x\mapsto x(K(x,x(x))))(\Delta)$ :
 > $$
 \begin{CD}
 \overbrace{K(I,\Delta(\Delta))}^{\text{Etat bouclant}} @>>> \overbrace{(x\ \mapsto\ I\ )(\Delta(\Delta))}^{\text{Etat bouclant}} @>>> I\\
@@ -564,11 +564,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0NjMyNzQ3LC0xODEwMDIyMjYxLDY0Mj
-Q2OTA3LDM0NjMxNzQ0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2
-LC0xMTU3NTQ0MzUwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMT
-UxNDE2MjY5MSwtMTExNzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4
-NTU5ODYwNSw3NTMxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOT
-Q0LDE3MjMyNTEyODQsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwt
-MjA3MDE5MzExMV19
+eyJoaXN0b3J5IjpbLTEyNjQ2NTA3ODksLTE4MTAwMjIyNjEsNj
+QyNDY5MDcsMzQ2MzE3NDQxLDE4MTYyMjg4NDYsLTEzNTg0OTQy
+MDYsLTExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC
+0xNTE0MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgyNDk0ODIxLC0x
+NDg1NTk4NjA1LDc1MzE0ODE4NywtNjkyMzIyOTQ4LDIwODY5ND
+I5NDQsMTcyMzI1MTI4NCwxOTQ1NjI3NTAwLC0xNDEzODg3MTUx
+LC0yMDcwMTkzMTExXX0=
 -->
