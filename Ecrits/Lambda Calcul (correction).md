@@ -432,7 +432,7 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 
 32. (*) Donnez une expression $Y$ point-fixe.
 
-> Bravo si vous l'avez réussie ! Vraiment, vraiment, vraiment pas facile.
+> Bravo si vous l'avez réussie ! Vraiment pas facile.
 > On peut donner $Y = (f\mapsto\Big((x\mapsto f(x(x)))(x\mapsto f(x(x)))\Big))$
 
 ## Récursivité
@@ -564,11 +564,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTk3MzQzLDY0MjQ2OTA3LDM0NjMxNz
-Q0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0MzUw
-LDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwtMT
-ExNzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NTU5ODYwNSw3NTMx
-NDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3MjMyNTEyOD
-QsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MDE5MzExMSwt
-NjIyNjUxNjUwXX0=
+eyJoaXN0b3J5IjpbLTE4MTAwMjIyNjEsNjQyNDY5MDcsMzQ2Mz
+E3NDQxLDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLTExNTc1NDQz
+NTAsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0MTYyNjkxLC
+0xMTE3NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NTk4NjA1LDc1
+MzE0ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQsMTcyMzI1MT
+I4NCwxOTQ1NjI3NTAwLC0xNDEzODg3MTUxLC0yMDcwMTkzMTEx
+LC02MjI2NTE2NTBdfQ==
 -->
