@@ -105,7 +105,7 @@ On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ 
 On dit que une relation $\mathcal{R}$ sur $E$ respecte la propriété du diamant si :
 > Soit $t,u,v\in E$, si $t\mathcal{R}u$ et $t\mathcal{R}v$, alors il existe $\omega\in E$ tel que $u\mathcal{R}\omega$ et $v\mathcal{R}\omega$
 
-Le théorème de Church-Rosser assure que la relation $\to^*$ respecte la propriété du diamant.
+Le théorème de *Church-Rosser* assure que la relation $\to^*$ respecte la propriété du diamant.
 
 Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que :
 - $x\triangleright x$
@@ -288,7 +288,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyNzk5OTc3LC0xNzYxNjk5NzczLC0xNj
+eyJoaXN0b3J5IjpbOTk3NTIyNjUzLC0xNzYxNjk5NzczLC0xNj
 k2Mjc5MDAsMTcwOTU3MzkzNywtMTQ1NTkxNDI5OCwtMTA1Njky
 ODU0Myw3NzY4NTk3MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOT
 UzMzIzLC0xODQ3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkz
