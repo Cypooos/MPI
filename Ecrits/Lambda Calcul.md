@@ -113,7 +113,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 - $t(x)\triangleright t'(x')$ si $t\triangleright t'$ et $x\triangleright x'$
 - $(x\mapsto e)(u) \triangleright t'[x\larr u']$ si $t \triangleright t'$ et $u \triangleright u'$
 
-11. Justification de l'app
+11. 
 11. Montrer que si $a\to b$, alors $a\triangleright b$.
 12. Montrer que si $a\triangleright b$, alors $a\to^* b$
 13. Montrer que, soient $t,t',e \in E$ et $x,y\in V$,
@@ -287,10 +287,10 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMDI5MDQ0NCwtMTkyMzY3ODc3NywxMz
-QwNzkyODIsOTk3NTIyNjUzLC0xNzYxNjk5NzczLC0xNjk2Mjc5
-MDAsMTcwOTU3MzkzNywtMTQ1NTkxNDI5OCwtMTA1NjkyODU0My
-w3NzY4NTk3MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOTUzMzIz
-LC0xODQ3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkzNCwtMT
-IwNzgzOTY4NywtNjM0NTcxMzcwXX0=
+eyJoaXN0b3J5IjpbNjkxOTU4NDMzLC0xOTIzNjc4Nzc3LDEzND
+A3OTI4Miw5OTc1MjI2NTMsLTE3NjE2OTk3NzMsLTE2OTYyNzkw
+MCwxNzA5NTczOTM3LC0xNDU1OTE0Mjk4LC0xMDU2OTI4NTQzLD
+c3Njg1OTcyLDEzODYzMzQ3LDg2ODY4OTIzLDE5MTI5NTMzMjMs
+LTE4NDc3NzE2MDQsLTU2ODg0MjU0NCwtNzA2MTg5OTM0LC0xMj
+A3ODM5Njg3LC02MzQ1NzEzNzBdfQ==
 -->
