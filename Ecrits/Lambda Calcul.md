@@ -46,7 +46,7 @@ Soient $e\in E$ et $x,a\in V\times E$, on définit l'opération de substitution 
   - $(x\mapsto e)[x\larr a] := x\mapsto e$
   - $(u\mapsto e)[x\larr a] := u\mapsto e[x\larr a]$ pour $u\in V\setminus \{x\}$
 
-On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$
+On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$. Un variable lié de $A$ est une variable 
 
 Dans ce sujet, un renommage d'une variable non libre ne change pas fondamentalement l'expression. On identifiera donc dans deux expressions à renommage d'une variable non libre près. 
 
@@ -288,10 +288,9 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjE3NzgwNyw5OTc1MjI2NTMsLTE3Nj
-E2OTk3NzMsLTE2OTYyNzkwMCwxNzA5NTczOTM3LC0xNDU1OTE0
-Mjk4LC0xMDU2OTI4NTQzLDc3Njg1OTcyLDEzODYzMzQ3LDg2OD
-Y4OTIzLDE5MTI5NTMzMjMsLTE4NDc3NzE2MDQsLTU2ODg0MjU0
-NCwtNzA2MTg5OTM0LC0xMjA3ODM5Njg3LC02MzQ1NzEzNzBdfQ
-==
+eyJoaXN0b3J5IjpbMTM0MDc5MjgyLDk5NzUyMjY1MywtMTc2MT
+Y5OTc3MywtMTY5NjI3OTAwLDE3MDk1NzM5MzcsLTE0NTU5MTQy
+OTgsLTEwNTY5Mjg1NDMsNzc2ODU5NzIsMTM4NjMzNDcsODY4Nj
+g5MjMsMTkxMjk1MzMyMywtMTg0Nzc3MTYwNCwtNTY4ODQyNTQ0
+LC03MDYxODk5MzQsLTEyMDc4Mzk2ODcsLTYzNDU3MTM3MF19
 -->
