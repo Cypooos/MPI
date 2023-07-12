@@ -115,10 +115,10 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 11. Montrer que si $a\to b$, alors $a\triangleright b$.
 12. Montrer que si $a\triangleright b$, alors $a\to^* b$
-13. Donnez $e\in E$ tel que, si $$
 14. Montrer que, soient $t,t',e \in E$ et $x,y\in V$,
 Si $x\neq y$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
 Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
+13. Donner $e\in E$ tel que, si $t\to t'$, on a n'a pas $e[x\larr t] \to e[x\larr t']$
 15. Montrer que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : On peut procéder par induction selon la règle obtenue pour avoir $t\triangleright t'$.
 16. (\*) Montrez le théorème de *Church-Rosser*.
@@ -287,10 +287,10 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTc3NTYzNywtMTkyMzY3ODc3NywxMz
-QwNzkyODIsOTk3NTIyNjUzLC0xNzYxNjk5NzczLC0xNjk2Mjc5
-MDAsMTcwOTU3MzkzNywtMTQ1NTkxNDI5OCwtMTA1NjkyODU0My
-w3NzY4NTk3MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOTUzMzIz
-LC0xODQ3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkzNCwtMT
-IwNzgzOTY4NywtNjM0NTcxMzcwXX0=
+eyJoaXN0b3J5IjpbLTE3MjMxOTc2MzUsLTE5MjM2Nzg3NzcsMT
+M0MDc5MjgyLDk5NzUyMjY1MywtMTc2MTY5OTc3MywtMTY5NjI3
+OTAwLDE3MDk1NzM5MzcsLTE0NTU5MTQyOTgsLTEwNTY5Mjg1ND
+MsNzc2ODU5NzIsMTM4NjMzNDcsODY4Njg5MjMsMTkxMjk1MzMy
+MywtMTg0Nzc3MTYwNCwtNTY4ODQyNTQ0LC03MDYxODk5MzQsLT
+EyMDc4Mzk2ODcsLTYzNDU3MTM3MF19
 -->
