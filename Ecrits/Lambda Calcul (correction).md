@@ -446,7 +446,7 @@ Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre 
 
 > Indication : On pourra utiliser le graphes des réductions de $\text{fix}(F)(e)$
 
->
+> Soient $e\in E$, et on suppose que $\text{fix}(F)(e)$ admet une forme normale $\alpha$
 ## Un exemple
 On définit :
 $$
@@ -470,7 +470,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 $$
 
 35. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
-> On fait de exponentiation rapide
+> On fait de l'exponentiation rapide :
 > On pose $\text{is\_even} = (C\mapsto C(\text{not},\top))$
 > On pose $\text{div\_2} = (C\mapsto C(x\mapsto \text{if\_eq}(\text{mul}(x,C_2),C)(x)(\text{sub}(x,1) )(C))$
 > On pose $\text{div\_2\_i} = (C\mapsto C(x\mapsto \text{if\_eq}(\text{mul}(x,C_2),C)(x)(\text{sub}(x,1) )(\text{sub}(C,1)))$ (qui fait la division entière d'un nombre impaire)
@@ -562,11 +562,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyNTgzNTM1LDY0MjQ2OTA3LDM0NjMxNz
-Q0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0MzUw
-LDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwtMT
-ExNzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NTU5ODYwNSw3NTMx
-NDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3MjMyNTEyOD
-QsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MDE5MzExMSwt
-NjIyNjUxNjUwXX0=
+eyJoaXN0b3J5IjpbMTM1MTQwNTgsNjQyNDY5MDcsMzQ2MzE3ND
+QxLDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLTExNTc1NDQzNTAs
+MTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0MTYyNjkxLC0xMT
+E3NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NTk4NjA1LDc1MzE0
+ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQsMTcyMzI1MTI4NC
+wxOTQ1NjI3NTAwLC0xNDEzODg3MTUxLC0yMDcwMTkzMTExLC02
+MjI2NTE2NTBdfQ==
 -->
