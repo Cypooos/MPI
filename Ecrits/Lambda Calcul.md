@@ -53,7 +53,7 @@ On dit que $x$ est *libre* dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$. Un
 Dans ce sujet, un renommage d'une variable liée ne change pas fondamentalement l'expression. On identifiera donc deux expressions à renommage d'une variable non libre près. 
 
 On appelle *évaluation* de l'expression $a =(x\mapsto e)(e')$ l'expression $â=e[x\larr e']$.
-On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation $\hat a$. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
+On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé une occurrence de $a$ par son évaluation $\hat a$. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
 
 On appelle un calcul de $A$ une série de dérivations finie $A\to A_1 \to ... \to A_n$. On note cela $A\to^n A_n$ ou $A\to^* A_n$. Si $A_n$ est sous forme normale, on appelle cela un calcul normalisant.
 
@@ -288,10 +288,10 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NzE3MDc3LDEzNDA3OTI4Miw5OTc1Mj
-I2NTMsLTE3NjE2OTk3NzMsLTE2OTYyNzkwMCwxNzA5NTczOTM3
-LC0xNDU1OTE0Mjk4LC0xMDU2OTI4NTQzLDc3Njg1OTcyLDEzOD
-YzMzQ3LDg2ODY4OTIzLDE5MTI5NTMzMjMsLTE4NDc3NzE2MDQs
-LTU2ODg0MjU0NCwtNzA2MTg5OTM0LC0xMjA3ODM5Njg3LC02Mz
-Q1NzEzNzBdfQ==
+eyJoaXN0b3J5IjpbLTE5MjM2Nzg3NzcsMTM0MDc5MjgyLDk5Nz
+UyMjY1MywtMTc2MTY5OTc3MywtMTY5NjI3OTAwLDE3MDk1NzM5
+MzcsLTE0NTU5MTQyOTgsLTEwNTY5Mjg1NDMsNzc2ODU5NzIsMT
+M4NjMzNDcsODY4Njg5MjMsMTkxMjk1MzMyMywtMTg0Nzc3MTYw
+NCwtNTY4ODQyNTQ0LC03MDYxODk5MzQsLTEyMDc4Mzk2ODcsLT
+YzNDU3MTM3MF19
 -->
