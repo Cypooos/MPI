@@ -412,9 +412,9 @@ $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
 On admet qu'il en existe (sauf à la question 32).
 
-29. Montrez que si $\text{fix}(f) \to f(\text{fix}(f))$, alors $\text{fix}(f)$ n'est pas unitaire.
+29. Montrez que si $\text{fix}(f) \to^* f(\text{fix}(f))$, alors $\text{fix}(f)$ n'est pas unitaire.
 
-> On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées). On a alors $\text{fix}(f)\to f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+1$, absurde.
+> On suppose $\text{fix}(f)$ unitaire par l'absurde. On note alors $\text{fix}(f)\to^n e$ avec le plus grand $n$ possible (ils sont bornées). On a alors $\text{fix}(f)\to^* f(\text{fix}(f))\to^n f(e)$ qui est aussi un calcul normalisant de longueur $n+p$ ($p\neq 0$ car $$, absurde.
 
 
 On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe fort* de $f$ si $f(e)\to^* e$
@@ -447,7 +447,7 @@ Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre 
 > Indication : On pourra utiliser le graphes des réductions de $\text{fix}(F)(e)$
 
 > Soient $e\in E$, et on suppose que $\text{fix}(F)(e)$ admet une forme normale $\alpha$
-> On note $e_i$ la série des dérivations
+> On note $e_i$ la série des dérivations juste avant que l'on fasse $\text{fix}(F)(e)$
 > Par l'absurde, supposons que $\forall n_r, F(...(F)...)(e) \not\to^* \alpha$
 ## Un exemple
 On définit :
@@ -564,11 +564,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2Nzc1NDI0Nyw2NDI0NjkwNywzNDYzMT
-c0NDEsMTgxNjIyODg0NiwtMTM1ODQ5NDIwNiwtMTE1NzU0NDM1
-MCwxNDYzMDE3ODE2LC03NDE1ODQxNTIsLTE1MTQxNjI2OTEsLT
-ExMTc2NTc4NTEsLTEzODI0OTQ4MjEsLTE0ODU1OTg2MDUsNzUz
-MTQ4MTg3LC02OTIzMjI5NDgsMjA4Njk0Mjk0NCwxNzIzMjUxMj
-g0LDE5NDU2Mjc1MDAsLTE0MTM4ODcxNTEsLTIwNzAxOTMxMTEs
-LTYyMjY1MTY1MF19
+eyJoaXN0b3J5IjpbNTM4MjM3MzI1LDY0MjQ2OTA3LDM0NjMxNz
+Q0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0MzUw
+LDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwtMT
+ExNzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NTU5ODYwNSw3NTMx
+NDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3MjMyNTEyOD
+QsMTk0NTYyNzUwMCwtMTQxMzg4NzE1MSwtMjA3MDE5MzExMSwt
+NjIyNjUxNjUwXX0=
 -->
