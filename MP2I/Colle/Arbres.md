@@ -1,5 +1,5 @@
 ## Arbre binaire parfaits
-> *INFO1 MINES MPI 2023*
+> *Inspiré du sujet d'info-1 du concours des Mines-Ponts 2023 en MPI*
 
 On ce donne le type d'un arbre suivant :
 ```c
@@ -20,7 +20,7 @@ On dit que la hauteur de l'arbre nul (sans nœud) est -1.
 5. Donnez `arb arb_trouve(arb a, int k)` renvoyant le `k`ème élément dans l'ordre préfixe de l'arbre. On suppose ici que `a` est parfait et que $0\le k<n$ avec $n$ le nombre de nœuds.
 6. Discutez de la complexité de `arb_trouve` et de potentiels moyens de l'améliorer. On pourra chercher un algorithme en $O(\ln n)$
 ## Arbres d'intervalles
-> Source : https://info-llg.fr/option-mp/pdf/TP_intervalles.pdf
+> Inspiré de https://info-llg.fr/option-mp/pdf/TP_intervalles.pdf
 
 Un *arbre d'intervalles* est un arbre binaire de recherche dont tous les nœuds contiennent un intervalle de la forme $[a; b]$, dont les clefs sont $(a,b)$ dans l'ordre lexicographique définie par la relation d'ordre $\preceq$ :
 $$(a,x)\preceq (b,y) \iff a<b \lor (a=b \land x\le y)$$
@@ -41,7 +41,7 @@ On supposera écrite la fonction `val rotd : arbre_int -> arbre_int` qui effectu
 
 6. Donnez `val ajouter : arbre_int -> intervalle -> arbre_int` tel que `ajouter a i` ajoute à un arbre équilibré `a` l'intervalle `i`. On veillera à ce que `a` reste équilibré.
 ## Arbre canonique
-> *INFO-A X-ENS MPI 2023*
+> *Inspiré du sujet d'info-A du concours X-ENS 2023 en MPI*
 
 On définie une structure d'arbre :
 ```ocaml
@@ -123,11 +123,11 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzNTU1MzQwLC0xMzc4MzY0ODU1LC04Nj
-YwMzUxODAsLTEwMzM0Mjg1NzgsMTIwNDA0NTg4MCwtMjEzMDI5
-MjEwMCwtMTg4NDI3NjUyNiwtMTUwOTg2Mjk3NywtNjg0MjYyMD
-MxLDgzNjE1ODQ4NSwxNjAwMDIyMzcxLDE4OTk2MDY5NDYsMTcy
-Njg5OTk3NCwyODQzNTMxOTcsLTE4MDQ1OTAwMjcsMjAwMzA5MD
-YyMSwtMjE3ODcyODcwLDEzNjIxMDMzNDIsNjcyODU0OTk1LDEy
-MDg2MzMyMDBdfQ==
+eyJoaXN0b3J5IjpbLTE1NTExOTQ1NjAsOTEzNTU1MzQwLC0xMz
+c4MzY0ODU1LC04NjYwMzUxODAsLTEwMzM0Mjg1NzgsMTIwNDA0
+NTg4MCwtMjEzMDI5MjEwMCwtMTg4NDI3NjUyNiwtMTUwOTg2Mj
+k3NywtNjg0MjYyMDMxLDgzNjE1ODQ4NSwxNjAwMDIyMzcxLDE4
+OTk2MDY5NDYsMTcyNjg5OTk3NCwyODQzNTMxOTcsLTE4MDQ1OT
+AwMjcsMjAwMzA5MDYyMSwtMjE3ODcyODcwLDEzNjIxMDMzNDIs
+NjcyODU0OTk1XX0=
 -->
