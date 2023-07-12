@@ -73,7 +73,7 @@ On définit les expressions suivantes :
 ## Graphe des réductions
 Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe orienté des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $A_e = \{(x,y)\in S_e^2 : x\to y \}$
 
-3. Donner le graphe des réductions de $I(I(I))$, et de $(x\mapsto x(K(x,x(x))))(\Delta)$
+3. Donner le graphe des réductions de $K(I,\Delta(\Delta))$, et de $(x\mapsto x(K(x,x(x))))(\Delta)$
 4. Donner une expression donnant un graphe des réductions infini.
 5. Montrer que si le graphe des réductions de $e$ est acyclique fini, alors $e$ est unitaire. 
 
@@ -287,10 +287,10 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTMyNDkxNjQsLTE5MjM2Nzg3NzcsMT
-M0MDc5MjgyLDk5NzUyMjY1MywtMTc2MTY5OTc3MywtMTY5NjI3
-OTAwLDE3MDk1NzM5MzcsLTE0NTU5MTQyOTgsLTEwNTY5Mjg1ND
-MsNzc2ODU5NzIsMTM4NjMzNDcsODY4Njg5MjMsMTkxMjk1MzMy
-MywtMTg0Nzc3MTYwNCwtNTY4ODQyNTQ0LC03MDYxODk5MzQsLT
-EyMDc4Mzk2ODcsLTYzNDU3MTM3MF19
+eyJoaXN0b3J5IjpbLTIwOTQ4MzQwNywtMTkyMzY3ODc3NywxMz
+QwNzkyODIsOTk3NTIyNjUzLC0xNzYxNjk5NzczLC0xNjk2Mjc5
+MDAsMTcwOTU3MzkzNywtMTQ1NTkxNDI5OCwtMTA1NjkyODU0My
+w3NzY4NTk3MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOTUzMzIz
+LC0xODQ3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkzNCwtMT
+IwNzgzOTY4NywtNjM0NTcxMzcwXX0=
 -->
