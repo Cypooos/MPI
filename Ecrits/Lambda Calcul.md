@@ -129,7 +129,6 @@ Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 > Remarque : On a ici prouvé que quelque-soit notre manière d'évaluer une expression $e$ bien écrite, on tombera toujours sur le même résultat. Autrement dit, le lambda calcul est fondamentalement "déterministe" par rapport à son implémentation.
 > Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étapes. Dans le cas de $\text{if}(\top,I,\Delta(\Delta)) \to^* I$, si l'on calcule constamment $\Delta(\Delta)$, on n'atteindra jamais la forme normale $I$, alors qu'elle existe et est unique.
 
-17. En déduire que tout graphe des réductions de $e$ pour $e$ admettant une forme normale possède un plus petit et un plus grand élément pour la relation $\to^*$. 
 18. Montrez que si $a=_\beta b$, alors il existe $e\in E$ tel que $a\to^* e$ et $b\to^* e$
 19. Soit $f\in E$. Donnez une expression contre-exemple $g$ à : $(\forall e\in E, f(e)=_\beta g(e)) \implies f =_\beta g$
 
@@ -288,10 +287,10 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODU3MzA0OTYsLTE5MjM2Nzg3NzcsMT
-M0MDc5MjgyLDk5NzUyMjY1MywtMTc2MTY5OTc3MywtMTY5NjI3
-OTAwLDE3MDk1NzM5MzcsLTE0NTU5MTQyOTgsLTEwNTY5Mjg1ND
-MsNzc2ODU5NzIsMTM4NjMzNDcsODY4Njg5MjMsMTkxMjk1MzMy
-MywtMTg0Nzc3MTYwNCwtNTY4ODQyNTQ0LC03MDYxODk5MzQsLT
-EyMDc4Mzk2ODcsLTYzNDU3MTM3MF19
+eyJoaXN0b3J5IjpbLTg4Njc5Nzg5NCwtMTkyMzY3ODc3NywxMz
+QwNzkyODIsOTk3NTIyNjUzLC0xNzYxNjk5NzczLC0xNjk2Mjc5
+MDAsMTcwOTU3MzkzNywtMTQ1NTkxNDI5OCwtMTA1NjkyODU0My
+w3NzY4NTk3MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOTUzMzIz
+LC0xODQ3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkzNCwtMT
+IwNzgzOTY4NywtNjM0NTcxMzcwXX0=
 -->
