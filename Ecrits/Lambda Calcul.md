@@ -177,7 +177,7 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 On dit que $\text{fix}$ est un opérateur point-fixe  si il est sous forme normale et que, pour tout $f\in E$, on a :
 $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
-29. Montrez que si $\text{fix}(f) \to f(\text{fix}(f))$, alors $\text{fix}(f)$ n'est pas unitaire.
+29. Montrez que si $\text{fix}(f) \to^* f(\text{fix}(f))$, alors $\text{fix}(f)$ n'est pas unitaire.
 
 On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe fort* de $f$ si $f(e)\to^* e$
 
@@ -288,9 +288,9 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjE2OTk3NzMsLTE2OTYyNzkwMCwxNz
-A5NTczOTM3LC0xNDU1OTE0Mjk4LC0xMDU2OTI4NTQzLDc3Njg1
-OTcyLDEzODYzMzQ3LDg2ODY4OTIzLDE5MTI5NTMzMjMsLTE4ND
-c3NzE2MDQsLTU2ODg0MjU0NCwtNzA2MTg5OTM0LC0xMjA3ODM5
-Njg3LC02MzQ1NzEzNzBdfQ==
+eyJoaXN0b3J5IjpbLTE0MzMyNjgxNDUsLTE3NjE2OTk3NzMsLT
+E2OTYyNzkwMCwxNzA5NTczOTM3LC0xNDU1OTE0Mjk4LC0xMDU2
+OTI4NTQzLDc3Njg1OTcyLDEzODYzMzQ3LDg2ODY4OTIzLDE5MT
+I5NTMzMjMsLTE4NDc3NzE2MDQsLTU2ODg0MjU0NCwtNzA2MTg5
+OTM0LC0xMjA3ODM5Njg3LC02MzQ1NzEzNzBdfQ==
 -->
