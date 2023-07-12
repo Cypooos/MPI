@@ -39,18 +39,18 @@ On utilisera des parenthèses pour lever les ambiguïtés de cette grammaire. On
 On pourra noter $x_1,x_2,...,x_n\mapsto e$ pour dénoter $x_1\mapsto (x_2\mapsto(...(x_n\mapsto e)...))$
 On pourra noter $e(x_1,x_2,...,x_n)$ pour dénoter $e(x_1)(x_2)...(x_n)$
  
-Soient $e\in E$ et $x,a\in V\times E$, on définit l'opération de substitution $e[x\larr a]$ inductivement :
+Soient $e\in E$ et $x,a\in V\times E$, on définit l'opération de *substitution* $e[x\larr a]$ inductivement :
  - $x[x\larr a] := y$
   - $u[x\larr a] := u$ pour $u\in V\setminus \{x\}$
   - $e(e')[x\larr a] := e[x\larr a]\Big(e'[x\larr a]\Big)$
   - $(x\mapsto e)[x\larr a] := x\mapsto e$
   - $(u\mapsto e)[x\larr a] := u\mapsto e[x\larr a]$ pour $u\in V\setminus \{x\}$
 
-On dit que $x$ est libre dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$. Un variable lié de $A$ est une variable 
-
-Dans ce sujet, un renommage d'une variable non libre ne change pas fondamentalement l'expression. On identifiera donc dans deux expressions à renommage d'une variable non libre près. 
-
 Informellement, $e[x\larr a]$ est $e$ dans laquelle on a remplacé toutes les occurrences libre de $x$ par $a$.
+
+On dit que $x$ est *libre* dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$. Un variable *liée* de $A$ est une variable $x$ non libre avec $x\in A$.
+
+Dans ce sujet, un renommage d'une variable liée ne change pas fondamentalement l'expression. On identifiera donc deux expressions à renommage d'une variable non libre près. 
 
 On appelle *évaluation* de l'expression $a =(x\mapsto e)(e')$ l'expression $â=e[x\larr e']$.
 On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé $a$ par son évaluation $\hat a$. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
@@ -288,9 +288,10 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDc5MjgyLDk5NzUyMjY1MywtMTc2MT
-Y5OTc3MywtMTY5NjI3OTAwLDE3MDk1NzM5MzcsLTE0NTU5MTQy
-OTgsLTEwNTY5Mjg1NDMsNzc2ODU5NzIsMTM4NjMzNDcsODY4Nj
-g5MjMsMTkxMjk1MzMyMywtMTg0Nzc3MTYwNCwtNTY4ODQyNTQ0
-LC03MDYxODk5MzQsLTEyMDc4Mzk2ODcsLTYzNDU3MTM3MF19
+eyJoaXN0b3J5IjpbLTk0NzE3MDc3LDEzNDA3OTI4Miw5OTc1Mj
+I2NTMsLTE3NjE2OTk3NzMsLTE2OTYyNzkwMCwxNzA5NTczOTM3
+LC0xNDU1OTE0Mjk4LC0xMDU2OTI4NTQzLDc3Njg1OTcyLDEzOD
+YzMzQ3LDg2ODY4OTIzLDE5MTI5NTMzMjMsLTE4NDc3NzE2MDQs
+LTU2ODg0MjU0NCwtNzA2MTg5OTM0LC0xMjA3ODM5Njg3LC02Mz
+Q1NzEzNzBdfQ==
 -->
