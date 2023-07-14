@@ -97,7 +97,7 @@ On note $n$ la taille d'un arbre.
 6. Donnez en OCaml `val rem_tas : arbre -> int -> arbre` qui ajoute à un tas binaire un nœud tel que l'arbre de retour reste un tas. On fera en sorte que la fonction soit en $O(\ln n)$
 7. En déduire un algorithme de tri de liste en $O(n\ln n)$.
 
-## Arbres binaire de recherche via des tableaux
+## ABR par des tableaux
 
 On s'intéresse ici en la représentation d'arbre binaire de recherche sous la forme d'un tableau.
 On pose la structure suivante :
@@ -123,11 +123,11 @@ typedef struct arbre arbre;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzgzMDE0OSw5MTM1NTUzNDAsLTEzNz
-gzNjQ4NTUsLTg2NjAzNTE4MCwtMTAzMzQyODU3OCwxMjA0MDQ1
-ODgwLC0yMTMwMjkyMTAwLC0xODg0Mjc2NTI2LC0xNTA5ODYyOT
-c3LC02ODQyNjIwMzEsODM2MTU4NDg1LDE2MDAwMjIzNzEsMTg5
-OTYwNjk0NiwxNzI2ODk5OTc0LDI4NDM1MzE5NywtMTgwNDU5MD
-AyNywyMDAzMDkwNjIxLC0yMTc4NzI4NzAsMTM2MjEwMzM0Miw2
-NzI4NTQ5OTVdfQ==
+eyJoaXN0b3J5IjpbLTIwNDcyMDUxMDAsLTEyNzgzMDE0OSw5MT
+M1NTUzNDAsLTEzNzgzNjQ4NTUsLTg2NjAzNTE4MCwtMTAzMzQy
+ODU3OCwxMjA0MDQ1ODgwLC0yMTMwMjkyMTAwLC0xODg0Mjc2NT
+I2LC0xNTA5ODYyOTc3LC02ODQyNjIwMzEsODM2MTU4NDg1LDE2
+MDAwMjIzNzEsMTg5OTYwNjk0NiwxNzI2ODk5OTc0LDI4NDM1Mz
+E5NywtMTgwNDU5MDAyNywyMDAzMDkwNjIxLC0yMTc4NzI4NzAs
+MTM2MjEwMzM0Ml19
 -->
