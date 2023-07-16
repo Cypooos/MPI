@@ -130,7 +130,7 @@ Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 > Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étapes. Dans le cas de $\text{if}(\top,I,\Delta(\Delta)) \to^* I$, si l'on calcule constamment $\Delta(\Delta)$, on n'atteindra jamais la forme normale $I$, alors qu'elle existe et est unique.
 
 18. Montrez que si $a=_\beta b$, alors il existe $e\in E$ tel que $a\to^* e$ et $b\to^* e$
-19. Soit $f\in E$. Donnez une expression $g\in E$ contre-exemple à : $(\forall e\in E, f(e)=_\beta g(e)) \implies f =_\beta g$
+19. Soit $f\in E$. Donnez une expression $g$ tel que pour tout $e\in E$ on ai $f(e) =_\beta g(e)$ mais $f \neq_\beta g$
 
 # Partie III: Entiers et opérations
 
@@ -287,11 +287,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3NDQ4NDEwLDQ5NDY0NTc5OCwxMjMwOD
-I4NjM1LDIxMDU0MjgxNzMsLTE5MjM2Nzg3NzcsMTM0MDc5Mjgy
-LDk5NzUyMjY1MywtMTc2MTY5OTc3MywtMTY5NjI3OTAwLDE3MD
-k1NzM5MzcsLTE0NTU5MTQyOTgsLTEwNTY5Mjg1NDMsNzc2ODU5
-NzIsMTM4NjMzNDcsODY4Njg5MjMsMTkxMjk1MzMyMywtMTg0Nz
-c3MTYwNCwtNTY4ODQyNTQ0LC03MDYxODk5MzQsLTEyMDc4Mzk2
-ODddfQ==
+eyJoaXN0b3J5IjpbLTExMjY4ODkyNjAsNDk0NjQ1Nzk4LDEyMz
+A4Mjg2MzUsMjEwNTQyODE3MywtMTkyMzY3ODc3NywxMzQwNzky
+ODIsOTk3NTIyNjUzLC0xNzYxNjk5NzczLC0xNjk2Mjc5MDAsMT
+cwOTU3MzkzNywtMTQ1NTkxNDI5OCwtMTA1NjkyODU0Myw3NzY4
+NTk3MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOTUzMzIzLC0xOD
+Q3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkzNCwtMTIwNzgz
+OTY4N119
 -->
