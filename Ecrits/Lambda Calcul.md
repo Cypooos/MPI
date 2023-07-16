@@ -28,7 +28,7 @@ Ce sujet n'est pas fait pour être réalisé en 4h.
 # Définitions
 
 
-Soit $V$ un ensemble dénombrable infinie de *variables*.
+Soit $V$ un ensemble dénombrable infini de *variables*.
 On définit une *expression* inductivement :
  - "$x$" est une expression pour tout $x\in V$
  - "$e_1(e_2)$" est une expression pour tout $e_1,e_2$ deux expressions
@@ -46,9 +46,9 @@ Soient $e\in E$ et $x,a\in V\times E$, on définit l'opération de *substitution
   - $(x\mapsto e)[x\larr a] := x\mapsto e$
   - $(u\mapsto e)[x\larr a] := u\mapsto e[x\larr a]$ pour $u\in V\setminus \{x\}$
 
-Informellement, $e[x\larr a]$ est $e$ dans laquelle on a remplacé toutes les occurrences libre de $x$ par $a$.
+Informellement, $e[x\larr a]$ est $e$ dans laquelle on a remplacé toutes les occurrences libres de $x$ par $a$.
 
-On dit que $x$ est *libre* dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$. Un variable *liée* de $A$ est une variable $x$ non libre avec $x\in A$.
+On dit que $x$ est *libre* dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$. Une variable *liée* de $A$ est une variable $x$ non libre avec $x\in A$.
 
 Dans ce sujet, un renommage d'une variable liée ne change pas fondamentalement l'expression. On identifiera donc deux expressions à renommage d'une variable non libre près. 
 
@@ -287,10 +287,10 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTQyODE3MywtMTkyMzY3ODc3NywxMz
-QwNzkyODIsOTk3NTIyNjUzLC0xNzYxNjk5NzczLC0xNjk2Mjc5
-MDAsMTcwOTU3MzkzNywtMTQ1NTkxNDI5OCwtMTA1NjkyODU0My
-w3NzY4NTk3MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOTUzMzIz
-LC0xODQ3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkzNCwtMT
-IwNzgzOTY4NywtNjM0NTcxMzcwXX0=
+eyJoaXN0b3J5IjpbLTEyNTMwNDE3OTYsMjEwNTQyODE3MywtMT
+kyMzY3ODc3NywxMzQwNzkyODIsOTk3NTIyNjUzLC0xNzYxNjk5
+NzczLC0xNjk2Mjc5MDAsMTcwOTU3MzkzNywtMTQ1NTkxNDI5OC
+wtMTA1NjkyODU0Myw3NzY4NTk3MiwxMzg2MzM0Nyw4Njg2ODky
+MywxOTEyOTUzMzIzLC0xODQ3NzcxNjA0LC01Njg4NDI1NDQsLT
+cwNjE4OTkzNCwtMTIwNzgzOTY4NywtNjM0NTcxMzcwXX0=
 -->
