@@ -48,9 +48,9 @@ Soient $e\in E$ et $x,a\in V\times E$, on définit l'opération de *substitution
 
 Informellement, $e[x\larr a]$ est $e$ dans laquelle on a remplacé toutes les occurrences libres de $x$ par $a$.
 
-On dit que $x$ est *libre* dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$. Une variable *liée* de $A$ est une variable $x$ non libre avec $x\in A$.
+On dit que $x$ est *libre* dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$. Une variable *liée* de $A$ est une variable $x$ non libre dans $A$ avec $x\in A$.
 
-Dans ce sujet, un renommage d'une variable liée ne change pas fondamentalement l'expression. On identifiera donc deux expressions à renommage d'une variable non libre près. 
+Dans ce sujet, un renommage d'une variable liée ne change pas fondamentalement l'expression. On identifiera donc deux expressions à renommage d'une variable liée près. Par exemple, les expression $x\mapsto x$ et $y\mapsto y$ seront identifiée
 
 On appelle *évaluation* de l'expression $a =(x\mapsto e)(e')$ l'expression $â=e[x\larr e']$.
 On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé une occurrence de $a$ par son évaluation $\hat a$. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
@@ -287,10 +287,10 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTMwNDE3OTYsMjEwNTQyODE3MywtMT
-kyMzY3ODc3NywxMzQwNzkyODIsOTk3NTIyNjUzLC0xNzYxNjk5
-NzczLC0xNjk2Mjc5MDAsMTcwOTU3MzkzNywtMTQ1NTkxNDI5OC
-wtMTA1NjkyODU0Myw3NzY4NTk3MiwxMzg2MzM0Nyw4Njg2ODky
-MywxOTEyOTUzMzIzLC0xODQ3NzcxNjA0LC01Njg4NDI1NDQsLT
-cwNjE4OTkzNCwtMTIwNzgzOTY4NywtNjM0NTcxMzcwXX0=
+eyJoaXN0b3J5IjpbNDc5OTQ5MTg4LDIxMDU0MjgxNzMsLTE5Mj
+M2Nzg3NzcsMTM0MDc5MjgyLDk5NzUyMjY1MywtMTc2MTY5OTc3
+MywtMTY5NjI3OTAwLDE3MDk1NzM5MzcsLTE0NTU5MTQyOTgsLT
+EwNTY5Mjg1NDMsNzc2ODU5NzIsMTM4NjMzNDcsODY4Njg5MjMs
+MTkxMjk1MzMyMywtMTg0Nzc3MTYwNCwtNTY4ODQyNTQ0LC03MD
+YxODk5MzQsLTEyMDc4Mzk2ODcsLTYzNDU3MTM3MF19
 -->
