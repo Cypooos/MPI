@@ -95,7 +95,7 @@ $$
 \begin{array}{ccc} 
 &\Delta((x\mapsto\Delta)(I))&\lrarr&(x\mapsto\Delta)(I)((x\mapsto\Delta)(I))&\\
 &\downarrow&&\downarrow&\\
-&\underbrace{\Delta(\Delta)}_{\text{Etat bouclant}}&\larr&&\\
+&\underbrace{\Delta(\Delta)}_{\text{Etat bouclant}}&\larr&(x\mapsto\Delta)(I)(\Delta)&\\
 \end{array}
 $$
 
@@ -566,11 +566,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC0xMj
-Y0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMxNzQ0
-MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0MzUwLD
-E0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwtMTEx
-NzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NTU5ODYwNSw3NTMxND
-gxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3MjMyNTEyODQs
-MTk0NTYyNzUwMF19
+eyJoaXN0b3J5IjpbMjk0ODYxNzQsMTk1MTQ2NjQ2NiwtODc5MT
+AxMzkwLC0xMjY0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3
+LDM0NjMxNzQ0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMT
+U3NTQ0MzUwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2
+MjY5MSwtMTExNzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NTU5OD
+YwNSw3NTMxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3
+MjMyNTEyODRdfQ==
 -->
