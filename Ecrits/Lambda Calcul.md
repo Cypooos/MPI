@@ -115,7 +115,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 
 11. Montrer que si $a\to b$, alors $a\triangleright b$.
 12. Montrer que si $a\triangleright b$, alors $a\to^* b$
-13. Montrer que, soient $t,t',e \in E$ et $x,y\in V$,
+13. Montrer les règles d'interversion de la substitution, à savoir : soient $t,t',e \in E$ et $x,y\in V$,
 Si $x\neq y$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
 Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 14. Donner un $e\in E$ ayant $x$ comme variable libre tel que, si $t\to t'$, on a n'a pas $e[x\larr t] \to e[x\larr t']$ 
@@ -287,11 +287,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0NjQ1Nzk4LDEyMzA4Mjg2MzUsMjEwNT
-QyODE3MywtMTkyMzY3ODc3NywxMzQwNzkyODIsOTk3NTIyNjUz
-LC0xNzYxNjk5NzczLC0xNjk2Mjc5MDAsMTcwOTU3MzkzNywtMT
-Q1NTkxNDI5OCwtMTA1NjkyODU0Myw3NzY4NTk3MiwxMzg2MzM0
-Nyw4Njg2ODkyMywxOTEyOTUzMzIzLC0xODQ3NzcxNjA0LC01Nj
-g4NDI1NDQsLTcwNjE4OTkzNCwtMTIwNzgzOTY4NywtNjM0NTcx
-MzcwXX0=
+eyJoaXN0b3J5IjpbNjQ3NDQ4NDEwLDQ5NDY0NTc5OCwxMjMwOD
+I4NjM1LDIxMDU0MjgxNzMsLTE5MjM2Nzg3NzcsMTM0MDc5Mjgy
+LDk5NzUyMjY1MywtMTc2MTY5OTc3MywtMTY5NjI3OTAwLDE3MD
+k1NzM5MzcsLTE0NTU5MTQyOTgsLTEwNTY5Mjg1NDMsNzc2ODU5
+NzIsMTM4NjMzNDcsODY4Njg5MjMsMTkxMjk1MzMyMywtMTg0Nz
+c3MTYwNCwtNTY4ODQyNTQ0LC03MDYxODk5MzQsLTEyMDc4Mzk2
+ODddfQ==
 -->
