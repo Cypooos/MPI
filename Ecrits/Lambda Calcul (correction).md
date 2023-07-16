@@ -374,7 +374,7 @@ qui représente un couple $(x,y)$
 
 27. (*) Définir $\text{decr}$ telle que $\text{decr}(C_n) \to^* C_{\max\{n-1;0\}}$. On expliquera le raisonnement.
 
-> On \text{decr} = (C\mapsto C(A,D(C_0,C_0))(\top))$
+> On $\text{decr} = (C\mapsto C(A,D(C_0,C_0))(\top))$
 > L'idée que comme A passe de (x,n) à (n,n+1), en répétant n fois A, on a une fonction qui à (0,0) associe (n-1,n). En récupérant la première composante, on pourra avoir n-1.
 > 
 > On a ainsi $\text{decr}(C_n) \to C_n(A,D(C_0,C_0))(\top)\to^2 A^n(D(C_0,C_0))(\top)$
@@ -574,11 +574,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzEwMDg2OCwxOTUxNDY2NDY2LC04Nz
-kxMDEzOTAsLTEyNjQ2NTA3ODksLTE4MTAwMjIyNjEsNjQyNDY5
-MDcsMzQ2MzE3NDQxLDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLT
-ExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0
-MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NT
-k4NjA1LDc1MzE0ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQs
-MTcyMzI1MTI4NF19
+eyJoaXN0b3J5IjpbLTIxMTAwOTYyMDIsMTA3NzEwMDg2OCwxOT
+UxNDY2NDY2LC04NzkxMDEzOTAsLTEyNjQ2NTA3ODksLTE4MTAw
+MjIyNjEsNjQyNDY5MDcsMzQ2MzE3NDQxLDE4MTYyMjg4NDYsLT
+EzNTg0OTQyMDYsLTExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNzQx
+NTg0MTUyLC0xNTE0MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgyND
+k0ODIxLC0xNDg1NTk4NjA1LDc1MzE0ODE4NywtNjkyMzIyOTQ4
+LDIwODY5NDI5NDRdfQ==
 -->
