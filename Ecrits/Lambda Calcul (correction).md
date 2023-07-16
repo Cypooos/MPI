@@ -243,12 +243,10 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  Par induction, on a $t\to^* t'$ et $u\to^* u'$. On pose donc le calcul constitué du calcul de $u$, puis de $t$, puis de l’évaluation :
 >  $(x\mapsto t)(u) \to^* (x\mapsto t)(u') \to^* (x\mapsto t')(u') \to t'[x\larr u']$
 
-13. (*) (très long) Montrez que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
+13. Montrer que, soient $t,t',e \in E$ et $x,y\in V$,
+Si $x\neq y$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
+Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 
-> On montre d'abord (LEMME) : soient $t,t',e\in E$ et $x,y\in V$, on a :
-> - si $x\neq y$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
-> - sinon, si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
-> 
 > Pour le cas $x=y$: on procède par induction sur $t$:
 >  - Si $t\in V \setminus\{x\}$, alors on a $t[x\larr t'][y\larr e] = t = t[x\larr t'[y\larr e]]$
 >  - Si $t=x$, alors on a $t[x\larr t'][y\larr e] = t'[y\larr e] = t[x\larr t'[y\larr e]]$
@@ -260,8 +258,13 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  - Si $t=x$, alors $t[x\larr t'][y\larr e] = t'[y\larr e] = x[x\larr t'[y\larr e]] = t[y\larr e][x\larr t'[y\larr e]]$
 >  - Sinon si $t=y$, alors $t[x\larr t'][y\larr e] = t[y\larr e] = e = t[y\larr e][x\larr t'[y\larr e]]$
 >  TODO : finir cette preuve demain
->  
-> Pour la preuve totale, on procède par induction selon la règle obtenue pour avoir $t\triangleright t'$ : 
+
+
+14. Donner un $e\in E$ ayant $x$ comme variable libre tel que, si $t\to t'$, on a n'a pas $e[x\larr t] \to e[x\larr t']$ 
+15. Montrer que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
+> Indication : On peut procéder par induction selon la règle obtenue pour avoir $t\triangleright t'$.
+
+> On procède par induction selon la règle obtenue pour avoir $t\triangleright t'$ : 
 > - Règle 1, si $t = t'$, alors on procède par induction sur $t$:
 >    - Si $t=x$, alors $t[x \larr v] = v \triangleright v' = t'[x \larr v']$
 >    - Si $t= (x\mapsto e)$, alors $t[x \larr v] = t\ \triangleright t' = t'[x \larr v']$
@@ -566,11 +569,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0ODYxNzQsMTk1MTQ2NjQ2NiwtODc5MT
-AxMzkwLC0xMjY0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3
-LDM0NjMxNzQ0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMT
-U3NTQ0MzUwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2
-MjY5MSwtMTExNzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NTU5OD
-YwNSw3NTMxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3
-MjMyNTEyODRdfQ==
+eyJoaXN0b3J5IjpbLTEyMjUyMTkwMDksMTk1MTQ2NjQ2NiwtOD
+c5MTAxMzkwLC0xMjY0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2
+OTA3LDM0NjMxNzQ0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC
+0xMTU3NTQ0MzUwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUx
+NDE2MjY5MSwtMTExNzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NT
+U5ODYwNSw3NTMxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0
+LDE3MjMyNTEyODRdfQ==
 -->
