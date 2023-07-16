@@ -446,7 +446,7 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 > On peut donner $Y = (f\mapsto\Big((x\mapsto f(x(x)))(x\mapsto f(x(x)))\Big))$
 
 ## Récursivité
-On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
+On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction.
 
 33. Justifiez sans démonstration que, pour tout $\alpha$ sous forme normale, $\forall e\in E$,
 $$\text{fix}(F)(e) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(e)\to^*\alpha$$
@@ -572,7 +572,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgzMjAxNzg4LDEwNzcxMDA4NjgsMTk1MT
+eyJoaXN0b3J5IjpbNTE1OTEwNDU3LDEwNzcxMDA4NjgsMTk1MT
 Q2NjQ2NiwtODc5MTAxMzkwLC0xMjY0NjUwNzg5LC0xODEwMDIy
 MjYxLDY0MjQ2OTA3LDM0NjMxNzQ0MSwxODE2MjI4ODQ2LC0xMz
 U4NDk0MjA2LC0xMTU3NTQ0MzUwLDE0NjMwMTc4MTYsLTc0MTU4
