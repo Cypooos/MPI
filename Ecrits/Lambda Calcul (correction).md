@@ -263,7 +263,8 @@ Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 14. Donner un $e\in E$ ayant $x$ comme variable libre tel que, si $t\to t'$, on a n'a pas $e[x\larr t] \to e[x\larr t']$ 
 
 > On peut donner $x(x)$ et par exemple $I(I) \to I$ pour $t\to t'$ :
-> $x(x))[x\larr t]$
+> $(x(x))[x\larr I(I)] = I(I)(I(I))$ et $x(x)[x\larr I] = I(I)$.
+> Hors $I(I)(I(I))$ ne se réduit que en 2 étapes à $I(I)$
 
 16. Montrer que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : On peut procéder par induction selon la règle obtenue pour avoir $t\triangleright t'$.
@@ -573,7 +574,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyODYzNzQ2OCwxOTUxNDY2NDY2LC04Nz
+eyJoaXN0b3J5IjpbMTQwNTE5MjA3NSwxOTUxNDY2NDY2LC04Nz
 kxMDEzOTAsLTEyNjQ2NTA3ODksLTE4MTAwMjIyNjEsNjQyNDY5
 MDcsMzQ2MzE3NDQxLDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLT
 ExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0
