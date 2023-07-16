@@ -243,7 +243,7 @@ Pour démontrer cela, on pose $\triangleright$ la réduction parallèle tel que 
 >  Par induction, on a $t\to^* t'$ et $u\to^* u'$. On pose donc le calcul constitué du calcul de $u$, puis de $t$, puis de l’évaluation :
 >  $(x\mapsto t)(u) \to^* (x\mapsto t)(u') \to^* (x\mapsto t')(u') \to t'[x\larr u']$
 
-13. Montrer que, soient $t,t',e \in E$ et $x,y\in V$,
+13. Montrer les règles d'interversion de la substitution, à savoir : soient $t,t',e \in E$ et $x,y\in V$,
 Si $x\neq y$, on a $t[x\larr t'][y\larr e] = t[y\larr e][x\larr t'[y\larr e]]$
 Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 
@@ -257,7 +257,7 @@ Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 > Pour le cas $x\neq y$: on procède aussi par induction sur $t$:
 >  - Si $t=x$, alors $t[x\larr t'][y\larr e] = t'[y\larr e] = x[x\larr t'[y\larr e]] = t[y\larr e][x\larr t'[y\larr e]]$
 >  - Sinon si $t=y$, alors $t[x\larr t'][y\larr e] = t[y\larr e] = e = t[y\larr e][x\larr t'[y\larr e]]$
->  - Sinon, $t=v\in V\setminus\{x,y\}$, et on a $t[x\larr t'][y\larr e] = t'[y\larr e] = x[x\larr t'[y\larr e]] = t[y\larr e][x\larr t'[y\larr e]]$
+>  - Sinon, $t=v\in V\setminus\{x,y\}$, et on a $t[x\larr t'][y\larr e] = t = t[y\larr e][x\larr t'[y\larr e]]$
 >  TODO : finir cette preuve
 
 
@@ -575,7 +575,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDI0NDY0MywyMDUxNTQ0OTc0LDEwNz
+eyJoaXN0b3J5IjpbMTU3NzQ3MDIwNywyMDUxNTQ0OTc0LDEwNz
 cxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC0xMjY0NjUw
 Nzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMxNzQ0MSwxOD
 E2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0MzUwLDE0NjMw
