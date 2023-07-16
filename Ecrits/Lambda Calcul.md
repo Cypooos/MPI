@@ -184,7 +184,7 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 
 31. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe fort.
 
-32. (*) Donnez une expression $Y$ point-fixe.
+32. (*) Donnez une expression point-fixe.
 
 > Voir *Pour aller plus loin*, question 1. et 2.
 ## Récursivité
@@ -201,10 +201,10 @@ On définit :
 $$
 \text{fact\_rec} = (f,x\mapsto \text{if}(\text{eq\_0}(x))(C_1)(\text{mul}(x,f(\text{sub}(x,1)))))
 $$
-Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
+Et on pose $\text{fact} = \text{fix}(\text{fact\_rect})$
 
 34. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
-35. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe dans la définition de $\text{pow\_rec}$. *(On posera ici que $0^0 = 1$)*
+35. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\text{fix}(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe dans la définition de $\text{pow\_rec}$. *(On posera ici que $0^0 = 1$)*
 
 # Partie V: Types (partie fausse)
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -287,7 +287,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjM5OTYyNSwtMTEyNjg4OTI2MCw0OT
+eyJoaXN0b3J5IjpbMTAyMTU2ODczMCwtMTEyNjg4OTI2MCw0OT
 Q2NDU3OTgsMTIzMDgyODYzNSwyMTA1NDI4MTczLC0xOTIzNjc4
 Nzc3LDEzNDA3OTI4Miw5OTc1MjI2NTMsLTE3NjE2OTk3NzMsLT
 E2OTYyNzkwMCwxNzA5NTczOTM3LC0xNDU1OTE0Mjk4LC0xMDU2
