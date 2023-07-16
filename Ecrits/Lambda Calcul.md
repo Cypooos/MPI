@@ -50,7 +50,7 @@ Informellement, $e[x\larr a]$ est $e$ dans laquelle on a remplacé toutes les oc
 
 On dit que $x$ est *libre* dans $e$ si $e \neq e[x\larr x']$ avec $x' \ne x$. Une variable *liée* de $A$ est une variable $x$ non libre dans $A$ avec $x\in A$.
 
-Dans ce sujet, un renommage d'une variable liée ne change pas fondamentalement l'expression. On identifiera donc deux expressions à renommage d'une variable liée près. Par exemple, les expression $x\mapsto x$ et $y\mapsto y$ seront identifiée
+Dans ce sujet, un renommage d'une variable liée ne change pas fondamentalement l'expression. On identifiera donc deux expressions à renommage d'une variable liée près. Par exemple, les expressions $x\mapsto x$ et $y\mapsto y$ seront identifiée, même si $x\neq y$.
 
 On appelle *évaluation* de l'expression $a =(x\mapsto e)(e')$ l'expression $â=e[x\larr e']$.
 On appelle *dérivation* $A\to A'$si il existe $a\in A$ évaluable, avec $A'$ qui est $A$ ou l'on a remplacé une occurrence de $a$ par son évaluation $\hat a$. On dit que $A$ est sous forme normale si $A$ n'est pas dérivable.
@@ -287,10 +287,10 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5OTQ5MTg4LDIxMDU0MjgxNzMsLTE5Mj
-M2Nzg3NzcsMTM0MDc5MjgyLDk5NzUyMjY1MywtMTc2MTY5OTc3
-MywtMTY5NjI3OTAwLDE3MDk1NzM5MzcsLTE0NTU5MTQyOTgsLT
-EwNTY5Mjg1NDMsNzc2ODU5NzIsMTM4NjMzNDcsODY4Njg5MjMs
-MTkxMjk1MzMyMywtMTg0Nzc3MTYwNCwtNTY4ODQyNTQ0LC03MD
-YxODk5MzQsLTEyMDc4Mzk2ODcsLTYzNDU3MTM3MF19
+eyJoaXN0b3J5IjpbMTIzMDgyODYzNSwyMTA1NDI4MTczLC0xOT
+IzNjc4Nzc3LDEzNDA3OTI4Miw5OTc1MjI2NTMsLTE3NjE2OTk3
+NzMsLTE2OTYyNzkwMCwxNzA5NTczOTM3LC0xNDU1OTE0Mjk4LC
+0xMDU2OTI4NTQzLDc3Njg1OTcyLDEzODYzMzQ3LDg2ODY4OTIz
+LDE5MTI5NTMzMjMsLTE4NDc3NzE2MDQsLTU2ODg0MjU0NCwtNz
+A2MTg5OTM0LC0xMjA3ODM5Njg3LC02MzQ1NzEzNzBdfQ==
 -->
