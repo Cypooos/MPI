@@ -206,7 +206,7 @@ Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 34. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
 35. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
 
-# Partie V: Types
+# Partie V: Types (partie fausse)
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
 
 On pose $T$ tel que $\{\tau,\tau_1,\tau_2,...\} \sub T$ et pour tout $t,t'\in T$, on a $(t\to t')\in T$. On appelle $\tau,\tau_1,\tau_2,...$ les *types par défault*.
@@ -285,12 +285,13 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 3. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
+4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTc1ODY3OSwxMjMwODI4NjM1LDIxMD
-U0MjgxNzMsLTE5MjM2Nzg3NzcsMTM0MDc5MjgyLDk5NzUyMjY1
-MywtMTc2MTY5OTc3MywtMTY5NjI3OTAwLDE3MDk1NzM5MzcsLT
-E0NTU5MTQyOTgsLTEwNTY5Mjg1NDMsNzc2ODU5NzIsMTM4NjMz
-NDcsODY4Njg5MjMsMTkxMjk1MzMyMywtMTg0Nzc3MTYwNCwtNT
-Y4ODQyNTQ0LC03MDYxODk5MzQsLTEyMDc4Mzk2ODcsLTYzNDU3
-MTM3MF19
+eyJoaXN0b3J5IjpbLTE2MzY3NTYxNTIsMTIzMDgyODYzNSwyMT
+A1NDI4MTczLC0xOTIzNjc4Nzc3LDEzNDA3OTI4Miw5OTc1MjI2
+NTMsLTE3NjE2OTk3NzMsLTE2OTYyNzkwMCwxNzA5NTczOTM3LC
+0xNDU1OTE0Mjk4LC0xMDU2OTI4NTQzLDc3Njg1OTcyLDEzODYz
+MzQ3LDg2ODY4OTIzLDE5MTI5NTMzMjMsLTE4NDc3NzE2MDQsLT
+U2ODg0MjU0NCwtNzA2MTg5OTM0LC0xMjA3ODM5Njg3LC02MzQ1
+NzEzNzBdfQ==
 -->
