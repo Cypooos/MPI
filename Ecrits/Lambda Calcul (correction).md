@@ -188,7 +188,7 @@ On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ 
 > Donc $M_i$ et $M_{i+1}$ sont bien relié faiblement dans $G$
 
 
-10. Montrez que $=_\beta$ est une relation d'équivalence sur E. 
+10. Montrez que $=_\beta$ est une relation d'équivalence sur $E$. 
 
 > On vérifie les différentes propriétés, qui découle immédiatement du chemin dans G ( "$a,b$ sont dans les mêmes composantes faiblement connexe" est bien une relation d'équivalence) :
 >  - Symétrie : si $a=_\beta b$, alors on a un chemin $(M_{i\le n})_i$ de $a$ vers $b$. En prenant le chemin $(M_{n-i+1})_i$, on a bien une chemin de $b$ vers $a$
@@ -257,7 +257,8 @@ Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 > Pour le cas $x\neq y$: on procède aussi par induction sur $t$:
 >  - Si $t=x$, alors $t[x\larr t'][y\larr e] = t'[y\larr e] = x[x\larr t'[y\larr e]] = t[y\larr e][x\larr t'[y\larr e]]$
 >  - Sinon si $t=y$, alors $t[x\larr t'][y\larr e] = t[y\larr e] = e = t[y\larr e][x\larr t'[y\larr e]]$
->  TODO : finir cette preuve demain
+>  - Sinon, $t=v\in V\setminus\{x,y\}$, et on a $t[x\larr t'][y\larr e] = t'[y\larr e] = x[x\larr t'[y\larr e]] = t[y\larr e][x\larr t'[y\larr e]]$
+>  TODO : finir cette preuve
 
 
 14. Donner un $e\in E$ ayant $x$ comme variable libre tel que, si $t\to t'$, on a n'a pas $e[x\larr t] \to e[x\larr t']$ 
@@ -574,11 +575,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTU0NDk3NCwxMDc3MTAwODY4LDE5NT
-E0NjY0NjYsLTg3OTEwMTM5MCwtMTI2NDY1MDc4OSwtMTgxMDAy
-MjI2MSw2NDI0NjkwNywzNDYzMTc0NDEsMTgxNjIyODg0NiwtMT
-M1ODQ5NDIwNiwtMTE1NzU0NDM1MCwxNDYzMDE3ODE2LC03NDE1
-ODQxNTIsLTE1MTQxNjI2OTEsLTExMTc2NTc4NTEsLTEzODI0OT
-Q4MjEsLTE0ODU1OTg2MDUsNzUzMTQ4MTg3LC02OTIzMjI5NDgs
-MjA4Njk0Mjk0NF19
+eyJoaXN0b3J5IjpbMjEwNDI0NDY0MywyMDUxNTQ0OTc0LDEwNz
+cxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC0xMjY0NjUw
+Nzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMxNzQ0MSwxOD
+E2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0MzUwLDE0NjMw
+MTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwtMTExNzY1Nz
+g1MSwtMTM4MjQ5NDgyMSwtMTQ4NTU5ODYwNSw3NTMxNDgxODcs
+LTY5MjMyMjk0OF19
 -->
