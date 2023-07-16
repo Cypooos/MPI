@@ -261,7 +261,11 @@ Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 
 
 14. Donner un $e\in E$ ayant $x$ comme variable libre tel que, si $t\to t'$, on a n'a pas $e[x\larr t] \to e[x\larr t']$ 
-15. Montrer que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
+
+> On peut donner $x(x)$ et par exemple $I(I) \to I$ pour $t\to t'$ :
+> $x(x))[x\larr t]$
+
+16. Montrer que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : On peut procéder par induction selon la règle obtenue pour avoir $t\triangleright t'$.
 
 > On procède par induction selon la règle obtenue pour avoir $t\triangleright t'$ : 
@@ -569,11 +573,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjUyMTkwMDksMTk1MTQ2NjQ2NiwtOD
-c5MTAxMzkwLC0xMjY0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2
-OTA3LDM0NjMxNzQ0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC
-0xMTU3NTQ0MzUwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUx
-NDE2MjY5MSwtMTExNzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NT
-U5ODYwNSw3NTMxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0
-LDE3MjMyNTEyODRdfQ==
+eyJoaXN0b3J5IjpbMTcyODYzNzQ2OCwxOTUxNDY2NDY2LC04Nz
+kxMDEzOTAsLTEyNjQ2NTA3ODksLTE4MTAwMjIyNjEsNjQyNDY5
+MDcsMzQ2MzE3NDQxLDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLT
+ExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0
+MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NT
+k4NjA1LDc1MzE0ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQs
+MTcyMzI1MTI4NF19
 -->
