@@ -488,7 +488,7 @@ $$
 > On montre que $\text{is\_even}(C_{2n}) \to^* \top$ et $\text{is\_even}(C_{2n+1 }) \to^* \bot$, que
 > $\text{div\_2}(C_{2n})\to^*C_n$ et $\text{div\_2\_i}(C_{2n+1})\to C_n$
 
-# Partie V: Types
+# Partie V: Types (partie fausse)
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
 
 > TODO: faire (recopier) la correction de cette partie 
@@ -571,12 +571,14 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > $f$ admet une forme normale $f'$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
+
+4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1OTEwNDU3LDEwNzcxMDA4NjgsMTk1MT
-Q2NjQ2NiwtODc5MTAxMzkwLC0xMjY0NjUwNzg5LC0xODEwMDIy
-MjYxLDY0MjQ2OTA3LDM0NjMxNzQ0MSwxODE2MjI4ODQ2LC0xMz
-U4NDk0MjA2LC0xMTU3NTQ0MzUwLDE0NjMwMTc4MTYsLTc0MTU4
-NDE1MiwtMTUxNDE2MjY5MSwtMTExNzY1Nzg1MSwtMTM4MjQ5ND
-gyMSwtMTQ4NTU5ODYwNSw3NTMxNDgxODcsLTY5MjMyMjk0OCwy
-MDg2OTQyOTQ0XX0=
+eyJoaXN0b3J5IjpbMjA1MTU0NDk3NCwxMDc3MTAwODY4LDE5NT
+E0NjY0NjYsLTg3OTEwMTM5MCwtMTI2NDY1MDc4OSwtMTgxMDAy
+MjI2MSw2NDI0NjkwNywzNDYzMTc0NDEsMTgxNjIyODg0NiwtMT
+M1ODQ5NDIwNiwtMTE1NzU0NDM1MCwxNDYzMDE3ODE2LC03NDE1
+ODQxNTIsLTE1MTQxNjI2OTEsLTExMTc2NTc4NTEsLTEzODI0OT
+Q4MjEsLTE0ODU1OTg2MDUsNzUzMTQ4MTg3LC02OTIzMjI5NDgs
+MjA4Njk0Mjk0NF19
 -->
