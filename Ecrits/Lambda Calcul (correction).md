@@ -448,13 +448,11 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
 
-33. Montrez que, pour tout $\alpha$ sous forme normale, $\forall e\in E$,
+33. Justifiez sans démonstration que, pour tout $\alpha$ sous forme normale, $\forall e\in E$,
 $$\text{fix}(F)(e) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(e)\to^*\alpha$$
 
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
-
-> Indication : On pourra utiliser le graphes des réductions de $\text{fix}(F)(e)$
 
 > Soient $e\in E$, et on suppose que $\text{fix}(F)(e)$ admet une forme normale $\alpha$
 > On note $e_i$ la série des dérivations juste avant que l'on fasse $\text{fix}(F)(e)$
@@ -574,11 +572,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTAwOTYyMDIsMTA3NzEwMDg2OCwxOT
-UxNDY2NDY2LC04NzkxMDEzOTAsLTEyNjQ2NTA3ODksLTE4MTAw
-MjIyNjEsNjQyNDY5MDcsMzQ2MzE3NDQxLDE4MTYyMjg4NDYsLT
-EzNTg0OTQyMDYsLTExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNzQx
-NTg0MTUyLC0xNTE0MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgyND
-k0ODIxLC0xNDg1NTk4NjA1LDc1MzE0ODE4NywtNjkyMzIyOTQ4
-LDIwODY5NDI5NDRdfQ==
+eyJoaXN0b3J5IjpbOTgzMjAxNzg4LDEwNzcxMDA4NjgsMTk1MT
+Q2NjQ2NiwtODc5MTAxMzkwLC0xMjY0NjUwNzg5LC0xODEwMDIy
+MjYxLDY0MjQ2OTA3LDM0NjMxNzQ0MSwxODE2MjI4ODQ2LC0xMz
+U4NDk0MjA2LC0xMTU3NTQ0MzUwLDE0NjMwMTc4MTYsLTc0MTU4
+NDE1MiwtMTUxNDE2MjY5MSwtMTExNzY1Nzg1MSwtMTM4MjQ5ND
+gyMSwtMTQ4NTU5ODYwNSw3NTMxNDgxODcsLTY5MjMyMjk0OCwy
+MDg2OTQyOTQ0XX0=
 -->
