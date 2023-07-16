@@ -93,7 +93,9 @@ $$
 > On a le graphe des réductions de $\Delta((x\mapsto\Delta)(I))$ :
 > $$
 \begin{array}{ccc} 
-&\Delta((x\mapsto\Delta)(I))&\lrarr&\Delta((x\mapsto\Delta)(I))&\\
+&\Delta((x\mapsto\Delta)(I))&\lrarr&(x\mapsto\Delta)(I)((x\mapsto\Delta)(I))&\\
+&\downarrow&&\downarrow&\\
+&\underbrace{\Delta(\Delta)}_{\text{Etat bouclant}}&\larr&&\\
 \end{array}
 $$
 
@@ -564,11 +566,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjg3ODYyLC04NzkxMDEzOTAsLTEyNj
-Q2NTA3ODksLTE4MTAwMjIyNjEsNjQyNDY5MDcsMzQ2MzE3NDQx
-LDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLTExNTc1NDQzNTAsMT
-Q2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0MTYyNjkxLC0xMTE3
-NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NTk4NjA1LDc1MzE0OD
-E4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQsMTcyMzI1MTI4NCwx
-OTQ1NjI3NTAwXX0=
+eyJoaXN0b3J5IjpbMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC0xMj
+Y0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMxNzQ0
+MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0MzUwLD
+E0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwtMTEx
+NzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NTU5ODYwNSw3NTMxND
+gxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0LDE3MjMyNTEyODQs
+MTk0NTYyNzUwMF19
 -->
