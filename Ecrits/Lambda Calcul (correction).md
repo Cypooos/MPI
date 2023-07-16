@@ -295,7 +295,7 @@ Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 16. (*) Montrez le théorème de _Church-Rosser_.
 
 ## Autour de Church-Rosser
-16. Montrez que si $a\in E$ possède une forme normale, alors celle-ci est unique.
+17. Montrez que si $a\in E$ possède une forme normale, alors celle-ci est unique.
 
 > Soit $a\in E$ tel que $a\to^* \alpha_1$ et $a\to^* \alpha_2$, avec $\alpha_1$ et $\alpha_2$ sous forme normale.
 > On a par la propriété du diamant qu'il existe $w$ tel que $\alpha_1 \to^* w$ et $\alpha_2 \to^* w$. 
@@ -303,12 +303,6 @@ Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 
 > Remarque : On a ici prouvé que quelque-soit notre manière d'évaluer une expression $e$ bien écrite, on tombera toujours sur le même résultat. Autrement dit, le lambda calcul est fondamentalement "déterministe" par rapport à son implémentation.
 > Attention, cela suppose que l'on arrive à atteindre la forme normale après un nombre fini d'étapes. Dans le cas de $\text{if}(\top,I,\Delta(\Delta)) \to^* I$, si l'on calcule constamment $\Delta(\Delta)$, on n'atteindra jamais la forme normale $I$, alors qu'elle existe et est unique.
-
-17. En déduire que tout graphe des réductions de $e$ possède un plus petit et un plus grand élément pour la relation $\to^*$. 
-
-> Le plus petit sera l'unique forme normale $\alpha$, le plus grand sera $e$ : Soit $x \in S_e$ :
->  - On a par définition de $S_e$ que $e \to^* x$ (maximalité de $e$)
->  - Par la propriété du diamant appliqué à $x$ et $\alpha$, tout deux issues de $e$, on a un $w$ tel que $x\to^* w$ et $\alpha \to^* w$, or comme $\alpha$ est sous forme normale, on a $x\to^*w=\alpha$ 
 
 18. Montrez que si $a=_\beta b$, alors il existe $e\in E$  tel que $a\to^* e$ et $b\to^* e$
 
@@ -458,9 +452,7 @@ $$\text{fix}(F)(e) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
 
-> Soient $e\in E$, et on suppose que $\text{fix}(F)(e)$ admet une forme normale $\alpha$
-> On note $e_i$ la série des dérivations juste avant que l'on fasse $\text{fix}(F)(e)$
-> Par l'absurde, supposons que $\forall n_r, F(...(F)...)(e) \not\to^* \alpha$
+> TODO
 ## Un exemple
 On définit :
 $$
@@ -494,8 +486,6 @@ $$
 
 # Partie V: Types (partie fausse)
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
-
-> TODO: faire (recopier) la correction de cette partie 
 
 On pose $T$ tel que $\{\tau,\tau_1,\tau_2,...\} \sub T$ et pour tout $t,t'\in T$, on a $(t\to t')\in T$. On appelle $\tau,\tau_1,\tau_2,...$ les *types par défault*.
 
@@ -578,7 +568,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTUxMTE5MiwtNzQyODE2ODQ0LDIwNT
+eyJoaXN0b3J5IjpbMjA4NDQ5NTQ0MCwtNzQyODE2ODQ0LDIwNT
 E1NDQ5NzQsMTA3NzEwMDg2OCwxOTUxNDY2NDY2LC04NzkxMDEz
 OTAsLTEyNjQ2NTA3ODksLTE4MTAwMjIyNjEsNjQyNDY5MDcsMz
 Q2MzE3NDQxLDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLTExNTc1
