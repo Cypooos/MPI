@@ -190,13 +190,12 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
 
-33. Montrez que, pour tout $\alpha$ sous forme normale, $\forall e\in E$,
+33. Justifiez sans démonstration que, pour tout $\alpha$ sous forme normale, $\forall e\in E$,
 $$\text{fix}(F)(e) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(e)\to^*\alpha$$
 
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
 
-> Indication : On pourra utiliser le graphes des réductions de $\text{fix}(F)(e)$
 ## Un exemple
 On définit :
 $$
@@ -287,11 +286,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTA5OTY1MTUsMTIzMDgyODYzNSwyMT
-A1NDI4MTczLC0xOTIzNjc4Nzc3LDEzNDA3OTI4Miw5OTc1MjI2
-NTMsLTE3NjE2OTk3NzMsLTE2OTYyNzkwMCwxNzA5NTczOTM3LC
-0xNDU1OTE0Mjk4LC0xMDU2OTI4NTQzLDc3Njg1OTcyLDEzODYz
-MzQ3LDg2ODY4OTIzLDE5MTI5NTMzMjMsLTE4NDc3NzE2MDQsLT
-U2ODg0MjU0NCwtNzA2MTg5OTM0LC0xMjA3ODM5Njg3LC02MzQ1
-NzEzNzBdfQ==
+eyJoaXN0b3J5IjpbMTI3NTc1ODY3OSwxMjMwODI4NjM1LDIxMD
+U0MjgxNzMsLTE5MjM2Nzg3NzcsMTM0MDc5MjgyLDk5NzUyMjY1
+MywtMTc2MTY5OTc3MywtMTY5NjI3OTAwLDE3MDk1NzM5MzcsLT
+E0NTU5MTQyOTgsLTEwNTY5Mjg1NDMsNzc2ODU5NzIsMTM4NjMz
+NDcsODY4Njg5MjMsMTkxMjk1MzMyMywtMTg0Nzc3MTYwNCwtNT
+Y4ODQyNTQ0LC03MDYxODk5MzQsLTEyMDc4Mzk2ODcsLTYzNDU3
+MTM3MF19
 -->
