@@ -166,7 +166,7 @@ $$\begin{align*}
 &\to^* \bot
 \end{align*}$$
 >  
-> NB: $\text{and} = (x,y\mapsto x(y(\top,\bot),\bot))$ fonctionne aussi. Directement évaluer un booléen par $e,e'$ est ce que fais $\text{if}$, ici on l'a juste directement simplifié.
+> NB: $\text{and} = (x,y\mapsto x(y(\top,\bot),\bot))$ ou $\text{and} = (x,y\$ fonctionne aussi. Directement évaluer un booléen par $e,e'$ est ce que fais $\text{if}$, ici on l'a juste directement simplifié.
 # Partie II: résultats généralistes
 
 
@@ -283,8 +283,8 @@ Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 > - Règle 4, si on a $t = (y\mapsto e)(u) \triangleright e'[y\larr u'] = t'$ avec $e \triangleright e'$ et $u \triangleright u'$.
 > Dans ce cas, on a par induction que $e[x\larr v] \triangleright e'[x\larr v']$ et $u[x\larr v] \triangleright u'[x\larr v']$.
 > On a donc par la règle 4 que $(y\mapsto e[x\larr v])(u[x\larr v]) \triangleright e'[x\larr v'][y\larr u'[x\larr v']]$.
->   - Si $x \neq y$, alors $t[x\larr v] = (y\mapsto e[x\larr v])(u[x\larr v]) \triangleright e'[x\larr v'][y\larr u'[x\larr v']]=e'[y\larr u'][x\larr v'] = t'[x\larr v']$ (LEMME)
->   - Si $x=y$, alors $t[x\larr v] = (x\mapsto e)(u[x\larr v]) \triangleright e'[x\larr u'[x\larr v']] = e'[y\larr u'][x\larr v'] = t'[x\larr v']$ par la règle 4 et le (LEMME)
+>   - Si $x \neq y$, alors $t[x\larr v] = (y\mapsto e[x\larr v])(u[x\larr v]) \triangleright e'[x\larr v'][y\larr u'[x\larr v']]=e'[y\larr u'][x\larr v'] = t'[x\larr v']$ (Question 13)
+>   - Si $x=y$, alors $t[x\larr v] = (x\mapsto e)(u[x\larr v]) \triangleright e'[x\larr u'[x\larr v']] = e'[y\larr u'][x\larr v'] = t'[x\larr v']$ par la règle 4 et le (Question 13)
 > 
 
 14. (*) Montrez que $\triangleright$ respecte la *propriété du diamant*.
@@ -574,11 +574,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTE5MjA3NSwxOTUxNDY2NDY2LC04Nz
-kxMDEzOTAsLTEyNjQ2NTA3ODksLTE4MTAwMjIyNjEsNjQyNDY5
-MDcsMzQ2MzE3NDQxLDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLT
-ExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0
-MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NT
-k4NjA1LDc1MzE0ODE4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQs
-MTcyMzI1MTI4NF19
+eyJoaXN0b3J5IjpbLTEwNDk4MTMwOTEsMTk1MTQ2NjQ2NiwtOD
+c5MTAxMzkwLC0xMjY0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2
+OTA3LDM0NjMxNzQ0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC
+0xMTU3NTQ0MzUwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUx
+NDE2MjY5MSwtMTExNzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NT
+U5ODYwNSw3NTMxNDgxODcsLTY5MjMyMjk0OCwyMDg2OTQyOTQ0
+LDE3MjMyNTEyODRdfQ==
 -->
