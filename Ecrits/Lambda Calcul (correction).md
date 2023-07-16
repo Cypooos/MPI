@@ -320,7 +320,7 @@ Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 > - Si $M_i \rarr M_{i+1}$, alors on sait par la propriété du diamant sur $e_i$ et $M_{i+1}$, tout deux généré par $M_i$ qu'il existe $\alpha$ tel que $e_i \to^* \alpha$ et $M_{i+1}\to^* \alpha$.
 > On pose $e_{i+1} = \alpha$, et on a bien $M_0 \to^* e_i \to^* e_{i+1}$ et $M_{i+1}\to^* e_{i+1}$ 
 
-19. Soit $f\in E$. Donnez une expression contre-exemple $g$ à : $(\forall e\in E, f(e)=_\beta g(e)) \implies f =_\beta g$
+19. Soit $f\in E$. Donnez une expression $g$ tel
 > On peut prendre $g = y \mapsto f(y)$
 > On a bien, soit $e\in E$, $g(e) = f(e)$, mais $f \not=_\beta g$ (les deux sont sous forme normale, or s'ils étaient dans la même classe dans $=_\beta$, ils auraient eu la même forme normale)
 # Partie III: Entiers et opérations
@@ -578,11 +578,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjgxNjg0NCwyMDUxNTQ0OTc0LDEwNz
-cxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC0xMjY0NjUw
-Nzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMxNzQ0MSwxOD
-E2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0MzUwLDE0NjMw
-MTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwtMTExNzY1Nz
-g1MSwtMTM4MjQ5NDgyMSwtMTQ4NTU5ODYwNSw3NTMxNDgxODcs
-LTY5MjMyMjk0OF19
+eyJoaXN0b3J5IjpbLTE2NjY2NjY3NzAsLTc0MjgxNjg0NCwyMD
+UxNTQ0OTc0LDEwNzcxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAx
+MzkwLC0xMjY0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LD
+M0NjMxNzQ0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3
+NTQ0MzUwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2Mj
+Y5MSwtMTExNzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NTU5ODYw
+NSw3NTMxNDgxODddfQ==
 -->
