@@ -82,7 +82,7 @@ On définit les expressions suivantes :
 ## Graphe des réductions
 Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe orienté des réductions de $e$* avec $S_e = \{x\in E : e \to^* x\}$ et $A_e = \{(x,y)\in S_e^2 : x\to y \}$
 
-3. Donnez le graphe des réductions de $K(I,\Delta(\Delta))$, et de $\Delta(K(\Delta,I))$.
+3. Donnez le graphe des réductions de $K(I,\Delta(\Delta))$, et de $\Delta((x\mapsto\Delta)(I))$.
 
 > On a le graphe des réductions de $K(I,\Delta(\Delta))$ :
 > $$
@@ -90,14 +90,10 @@ Soit $e\in E$, on pose $G_e = (S_e,A_e)$ le *graphe orienté des réductions de 
 \overbrace{K(I,\Delta(\Delta))}^{\text{Etat bouclant}} @>>> \overbrace{(x\ \mapsto\ I\ )(\Delta(\Delta))}^{\text{Etat bouclant}} @>>> I\\
 \end{CD}
 $$
-> On a le graphe des réductions de $\Delta(K(\Delta,I))$ :
+> On a le graphe des réductions de $\Delta((x\mapsto\Delta)(I))$ :
 > $$
-\begin{array}{ccccc} 
-&&\text{I}&\\
-&\swarrow&&\searrow\\
-\text{II}&&&&\text{III}\\
-\downarrow&&\swarrow&&\downarrow\\
-\text{IV}&&&&\text{V}\\
+\begin{array}{ccc} 
+&\Delta((x\mapsto\Delta)(I))&\lrarr&\Delta((x\mapsto\Delta)(I))&\\
 \end{array}
 $$
 
@@ -568,11 +564,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTEwMTM5MCwtMTI2NDY1MDc4OSwtMT
-gxMDAyMjI2MSw2NDI0NjkwNywzNDYzMTc0NDEsMTgxNjIyODg0
-NiwtMTM1ODQ5NDIwNiwtMTE1NzU0NDM1MCwxNDYzMDE3ODE2LC
-03NDE1ODQxNTIsLTE1MTQxNjI2OTEsLTExMTc2NTc4NTEsLTEz
-ODI0OTQ4MjEsLTE0ODU1OTg2MDUsNzUzMTQ4MTg3LC02OTIzMj
-I5NDgsMjA4Njk0Mjk0NCwxNzIzMjUxMjg0LDE5NDU2Mjc1MDAs
-LTE0MTM4ODcxNTFdfQ==
+eyJoaXN0b3J5IjpbLTcyNjg3ODYyLC04NzkxMDEzOTAsLTEyNj
+Q2NTA3ODksLTE4MTAwMjIyNjEsNjQyNDY5MDcsMzQ2MzE3NDQx
+LDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLTExNTc1NDQzNTAsMT
+Q2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0MTYyNjkxLC0xMTE3
+NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NTk4NjA1LDc1MzE0OD
+E4NywtNjkyMzIyOTQ4LDIwODY5NDI5NDQsMTcyMzI1MTI4NCwx
+OTQ1NjI3NTAwXX0=
 -->
