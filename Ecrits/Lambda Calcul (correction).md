@@ -261,7 +261,7 @@ Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 >  - Sinon, si $t=x\mapsto e$
 >  - Sinon, si $t=y\mapsto e$
 >  - Sinon, si $t=v\mapsto e$ avec $v\in V\setminus\{x,y\}$
->  - Sinon, si $t=e(e')$ avec $v\in V\setminus\{x,y\}$
+>  - Sinon, si $t=e(e')$
 >  TODO : finir cette preuve
 
 
@@ -271,7 +271,7 @@ Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 > $(x(x))[x\larr I(I)] = I(I)(I(I))$ et $x(x)[x\larr I] = I(I)$.
 > Hors $I(I)(I(I))$ ne se réduit que en 2 étapes à $I(I)$
 
-16. Montrer que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
+15. Montrer que, soit $t,t',v,v' \in E$ et $x\in V$, si $t\triangleright  t'$ et $v\triangleright v'$, alors $t[x \larr v] \triangleright t'[x \larr v']$
 > Indication : On peut procéder par induction selon la règle obtenue pour avoir $t\triangleright t'$.
 
 > On procède par induction selon la règle obtenue pour avoir $t\triangleright t'$ : 
@@ -292,8 +292,7 @@ Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 >   - Si $x=y$, alors $t[x\larr v] = (x\mapsto e)(u[x\larr v]) \triangleright e'[x\larr u'[x\larr v']] = e'[y\larr u'][x\larr v'] = t'[x\larr v']$ par la règle 4 et le (Question 13)
 > 
 
-14. (*) Montrez que $\triangleright$ respecte la *propriété du diamant*.
-15. En déduire le théorème de *Church-Rosser*.
+16. (*) Montrez le théorème de _Church-Rosser_.
 
 ## Autour de Church-Rosser
 16. Montrez que si $a\in E$ possède une forme normale, alors celle-ci est unique.
@@ -579,7 +578,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDMxOTE4MSwyMDUxNTQ0OTc0LDEwNz
+eyJoaXN0b3J5IjpbLTc0MjgxNjg0NCwyMDUxNTQ0OTc0LDEwNz
 cxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC0xMjY0NjUw
 Nzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMxNzQ0MSwxOD
 E2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0MzUwLDE0NjMw
