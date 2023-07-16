@@ -98,7 +98,7 @@ On pose $G = (E,A)$ un graphe orienté infini avec $A = \{(x,y)\in E^2 : x\to^* 
 On définie $=_\beta$ une relation d'équivalence telle que $x=_\beta y$ si $x$ et $y$ appartiennent à la même composante faiblement connexe dans $G$
 
 9. Montrer que $a=_\beta b$, si et seulement si il existe $n\in\N$ et $M_1,...,M_n \in E$ tel que $a\lrarr M_1\lrarr...\lrarr M_n\lrarr b$
-10. Montrer que $=_\beta$ est une relation d'équivalence sur E. 
+10. Montrer que $=_\beta$ est une relation d'équivalence sur $E$. 
 
 ## Le théorème de _Church-Rosser_
 
@@ -287,11 +287,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzY3NTYxNTIsMTIzMDgyODYzNSwyMT
-A1NDI4MTczLC0xOTIzNjc4Nzc3LDEzNDA3OTI4Miw5OTc1MjI2
-NTMsLTE3NjE2OTk3NzMsLTE2OTYyNzkwMCwxNzA5NTczOTM3LC
-0xNDU1OTE0Mjk4LC0xMDU2OTI4NTQzLDc3Njg1OTcyLDEzODYz
-MzQ3LDg2ODY4OTIzLDE5MTI5NTMzMjMsLTE4NDc3NzE2MDQsLT
-U2ODg0MjU0NCwtNzA2MTg5OTM0LC0xMjA3ODM5Njg3LC02MzQ1
-NzEzNzBdfQ==
+eyJoaXN0b3J5IjpbNDk0NjQ1Nzk4LDEyMzA4Mjg2MzUsMjEwNT
+QyODE3MywtMTkyMzY3ODc3NywxMzQwNzkyODIsOTk3NTIyNjUz
+LC0xNzYxNjk5NzczLC0xNjk2Mjc5MDAsMTcwOTU3MzkzNywtMT
+Q1NTkxNDI5OCwtMTA1NjkyODU0Myw3NzY4NTk3MiwxMzg2MzM0
+Nyw4Njg2ODkyMywxOTEyOTUzMzIzLC0xODQ3NzcxNjA0LC01Nj
+g4NDI1NDQsLTcwNjE4OTkzNCwtMTIwNzgzOTY4NywtNjM0NTcx
+MzcwXX0=
 -->
