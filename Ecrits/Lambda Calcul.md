@@ -173,7 +173,7 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 ## L'opérateur Point-fixe
 
 
-On dit que $\text{fix}$ est un opérateur point-fixe  si il est sous forme normale et que, pour tout $f\in E$, on a :
+On ce donne $\text{fix}$ un opérateur point-fixe, c'est-à dire une expression sous forme normale et telle que, pour tout $f\in E$, on a :
 $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
 29. Montrez que si $\text{fix}(f) \to^* f(\text{fix}(f))$, alors $\text{fix}(f)$ n'est pas unitaire.
@@ -204,7 +204,7 @@ $$
 Et on pose $\text{fact} = \Theta(\text{fact\_rect})$
 
 34. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
-35. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe. *(On posera ici que $0^0 = 1$)*
+35. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\Theta(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe dans la définition de $\text{pow\_rec}$. *(On posera ici que $0^0 = 1$)*
 
 # Partie V: Types (partie fausse)
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -287,11 +287,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjY4ODkyNjAsNDk0NjQ1Nzk4LDEyMz
-A4Mjg2MzUsMjEwNTQyODE3MywtMTkyMzY3ODc3NywxMzQwNzky
-ODIsOTk3NTIyNjUzLC0xNzYxNjk5NzczLC0xNjk2Mjc5MDAsMT
-cwOTU3MzkzNywtMTQ1NTkxNDI5OCwtMTA1NjkyODU0Myw3NzY4
-NTk3MiwxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOTUzMzIzLC0xOD
-Q3NzcxNjA0LC01Njg4NDI1NDQsLTcwNjE4OTkzNCwtMTIwNzgz
-OTY4N119
+eyJoaXN0b3J5IjpbMTMwMjM5OTYyNSwtMTEyNjg4OTI2MCw0OT
+Q2NDU3OTgsMTIzMDgyODYzNSwyMTA1NDI4MTczLC0xOTIzNjc4
+Nzc3LDEzNDA3OTI4Miw5OTc1MjI2NTMsLTE3NjE2OTk3NzMsLT
+E2OTYyNzkwMCwxNzA5NTczOTM3LC0xNDU1OTE0Mjk4LC0xMDU2
+OTI4NTQzLDc3Njg1OTcyLDEzODYzMzQ3LDg2ODY4OTIzLDE5MT
+I5NTMzMjMsLTE4NDc3NzE2MDQsLTU2ODg0MjU0NCwtNzA2MTg5
+OTM0XX0=
 -->
