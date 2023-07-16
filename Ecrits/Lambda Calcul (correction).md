@@ -320,9 +320,9 @@ Si $x=y$, on a $t[x\larr t'][y\larr e] = t[x\larr t'[y\larr e]]$
 > - Si $M_i \rarr M_{i+1}$, alors on sait par la propriété du diamant sur $e_i$ et $M_{i+1}$, tout deux généré par $M_i$ qu'il existe $\alpha$ tel que $e_i \to^* \alpha$ et $M_{i+1}\to^* \alpha$.
 > On pose $e_{i+1} = \alpha$, et on a bien $M_0 \to^* e_i \to^* e_{i+1}$ et $M_{i+1}\to^* e_{i+1}$ 
 
-19. Soit $f\in E$. Donnez une expression $g$ tel
+19. Soit $f\in E$. Donnez une expression $g$ tel que pour tout $e\in E$ on ai $f(e) =_\beta g(e)$ mais $f \neq_\beta g$
 > On peut prendre $g = y \mapsto f(y)$
-> On a bien, soit $e\in E$, $g(e) = f(e)$, mais $f \not=_\beta g$ (les deux sont sous forme normale, or s'ils étaient dans la même classe dans $=_\beta$, ils auraient eu la même forme normale)
+> On a bien, soit $e\in E$, $g(e) = f(e) =_\beta f(e)$, mais $f \not=_\beta g$ (les deux sont sous forme normale, or s'ils étaient dans la même classe dans $=_\beta$, ils auraient eu la même forme normale)
 # Partie III: Entiers et opérations
 
 ## Entiers de Church
@@ -578,11 +578,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjY2NjY3NzAsLTc0MjgxNjg0NCwyMD
-UxNTQ0OTc0LDEwNzcxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAx
-MzkwLC0xMjY0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LD
-M0NjMxNzQ0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3
-NTQ0MzUwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2Mj
-Y5MSwtMTExNzY1Nzg1MSwtMTM4MjQ5NDgyMSwtMTQ4NTU5ODYw
-NSw3NTMxNDgxODddfQ==
+eyJoaXN0b3J5IjpbLTUyNTUxMTE5MiwtNzQyODE2ODQ0LDIwNT
+E1NDQ5NzQsMTA3NzEwMDg2OCwxOTUxNDY2NDY2LC04NzkxMDEz
+OTAsLTEyNjQ2NTA3ODksLTE4MTAwMjIyNjEsNjQyNDY5MDcsMz
+Q2MzE3NDQxLDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLTExNTc1
+NDQzNTAsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0MTYyNj
+kxLC0xMTE3NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NTk4NjA1
+LDc1MzE0ODE4N119
 -->
