@@ -6,8 +6,8 @@
 - [On ne sait pas bien faire des parcours en profondeur](https://11011110.github.io/blog/2013/12/17/stack-based-graph-traversal.html)
 - Sujet d'oral ? https://11011110.github.io/blog/2022/12/13/randomly-traceable-graphs.html
 - Exact Matrix Cover est NP-complet
-- Utiliser les Dancing Links pour faire du cracking efficasse sur des liste triée
-- 
+- Utiliser les Dancing Links pour faire du back-tracking efficace sur des listes triée
+- Calcul de hauteur d'un ABR dans le cas d'un stackoverflow ?
 ## Retirer le cycle à une liste en temps O(n) et espace O(1)
 
 On décompose la liste en la partie $A = x_0 , ... , x_\lambda$ avant le cycle, et la partie $x_{\lambda+1}, ... x_{\lambda+\mu} = B$ cyclique de longueur $\mu$
@@ -46,5 +46,5 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDYxMjUyMDAsMTk2NDM3MTk0XX0=
+eyJoaXN0b3J5IjpbLTE3MDEwNTczMDAsMTk2NDM3MTk0XX0=
 -->
