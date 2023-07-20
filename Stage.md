@@ -16,17 +16,20 @@
 ### Etape 1 : Un solveur SAT
 Naif: Lagorit
 ### Etape 2 : Egalité et fonction
-Décidable !
+Toujours décidable !
 But :
  - Montrer $x_1 =x_2 \land x_3 = x_4 \land ... \implies x_i = x_j$
- - Montrer $f(f(f(x)))=x \land f(f(f(f(f(x))))) = x \implies x=f(x)$
+ - Montrer $f^3(x)=x \land f^5(x) = x \implies x=f(x)$ (avec $f^n$ la composition $n$-ième)
+
 On crée une structure Union-Find pour chaque sous terme apparaissant dans nos éléments, représentant les classes d'équivalence de l'égalité.
 L'union-find nous assure la fermeture par transitivité, réflexivité, symétrie.
 Il faut ajouter l'axiome de Leibniz.
 A chaque iteration, on va retrouver dans une formule une autre sous formule de la classe d'équivalence, et va pouvoir la remplacer pour trouver une nouvelle formule.
+Donc par exemple, 
 
 
 ### Etape 3 : Logique du premier ordre
+Semi-décidable
 
 
 ## Retirer le cycle à une liste en temps O(n) et espace O(1)
@@ -67,6 +70,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NDgxOTk5NCwtMTcwMTA1NzMwMCwxOT
+eyJoaXN0b3J5IjpbLTg5Njk5MzE5MSwtMTcwMTA1NzMwMCwxOT
 Y0MzcxOTRdfQ==
 -->
