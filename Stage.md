@@ -43,15 +43,15 @@ Semi-décidable.
 But : montrer $\forall x.\exist y.y=x$, ou encore $\forall x.\forall y.( S(x)=S(y)\implies x=y)$ ($S$ le successeur de Peano) 
 
 On exprime tout problème sous la forme $X,Y,Z \implies \bot$ (quitte à le faire par l'absurde)
-On sépare les formules en formules commençant par un $\forall$ (on les met dans $H$), et les autres (dans $T$).
+On sépare les formules en prédicats commençant par un $\forall$ (on les met dans $H$), et les autres (dans $T$).
 Pour chaque formule de la forme $\exist c.P$, on rajoute un terme $X_c$ et effectue $P := P[c\larr X_c]$ (remplacer seulement les variables libres par une constante).
 > pas sur :
 > Pour les formules commençant par $\lnot P$, on applique morgan pour faire tomber le not?
 
-On effectue alors notre SAT + algo union-find sur toute les proposition dans $T$.
+On effectue alors notre SAT + algo union-find sur toute les prédicats dans $T$.
 Quand l'on a fini, c'est que l'on doit utilliser une des hypothèses de $H$.
 L'on va alors appliquer tout les $H$ à des termes qui apparaissent dans $T$. Pour savoir lesquels, on peut analyser une hypothèse pour trouver un termes plus utile.
-Par exemple, dans $\forall x(x\neq 0 \implies \exist y. x= S(y$
+Par exemple, dans $\forall x(x\neq 0 \implies \exist y. x= S(y))$, le terme "trigger" serai un terme de la forme $x\neq 0$
 
 
 
@@ -94,6 +94,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI3NjcwNzU2LDI4NTQyNjkyOSwtMTAxNj
-QyMTc4OSwtMTcwMTA1NzMwMCwxOTY0MzcxOTRdfQ==
+eyJoaXN0b3J5IjpbMTUzMTgxMjAzNiwyODU0MjY5MjksLTEwMT
+Y0MjE3ODksLTE3MDEwNTczMDAsMTk2NDM3MTk0XX0=
 -->
