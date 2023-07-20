@@ -31,9 +31,11 @@ $$
 &&\{&x&,&&f^3(x)&&,&&f^5(x)&&\};\{ &&f(x)&&\};\{&&f^2(x)&&\};\{&&f^4(x)&&\}&&\text{init}&\\
 &&\{&x&,&&f^3(x)&&,&&f^5(x)&&,&&f^2(x)&&\};\{&&f(x)&&\};\{&&f^4(x)&&\}&&f^5(x)[f^3(x)\larr x]&\\
 &&\{&x&,&&f^3(x)&&,&&f^5(x)&&,&&f^2(x)&&,&&f(x)&&\};\{&&f^4(x)&&\};&&f^3(x)[f^2(x)\larr x]&\\
+&&\{&x&,&&f^3(x)&&,&&f^5(x)&&,&&f^2(x)&&,&&f(x)&&,&&f^4(x)&&\};&&f^5(x)[f(x)\larr x]&\\
 \end{align*}
 $$
-On
+On continue jusqu’à ce l'on ne peut plus crée de termes présent dans notre structure.
+Dans ce cas, on peut soit laisser le SAT solver faire une supposition $P$ (qui
 
 ### Etape 3 : Logique du premier ordre
 Semi-décidable
@@ -77,6 +79,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODA4MDAyNzksLTEwMTY0MjE3ODksLT
-E3MDEwNTczMDAsMTk2NDM3MTk0XX0=
+eyJoaXN0b3J5IjpbMTI4ODY0OTUyNSwtMTAxNjQyMTc4OSwtMT
+cwMTA1NzMwMCwxOTY0MzcxOTRdfQ==
 -->
