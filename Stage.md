@@ -11,8 +11,11 @@
 - [la conjecture de Robbins est vraie](https://en.wikipedia.org/wiki/Robbins_algebra), preuve par un prouveur automatique
 - Théorème des 4 couleurs à eu 300+ cas vérifier par odinateur, puis elle a été refait en Coq
 - Thomas Hales à fait une preuve demandant aussi bcp de cas que les mathématicien n'ont pas pu vérifier entièrement. Le projet Flyspeck à abouti à une preuve Coq.
-- On peut dérécursifier n'importe quel programme par la continuation (qui donne récusif terminal) puis par simulation de la dérécusification (appellé défonctionalisation) 
+- [On peut dérécursifier n'importe quel programme par la continuation](https://media.devenirenseignant.gouv.fr/file/agregation_externe/32/6/sujet0_agregation_externe_informatique_epreuve1_1422326.pdf) (qui donne une fonction récursif terminale) puis par simulation de la version en continuation par des types somme (appellé défonctionalisation) CF
 ## Fonctionnement d'un prouveur automatique
+### Etape 1 : un solveur SAT
+
+
 
 ## Retirer le cycle à une liste en temps O(n) et espace O(1)
 
@@ -52,6 +55,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDg1Mjg3NywtMTcwMTA1NzMwMCwxOT
-Y0MzcxOTRdfQ==
+eyJoaXN0b3J5IjpbMTE1NjU1OTcsLTE3MDEwNTczMDAsMTk2ND
+M3MTk0XX0=
 -->
