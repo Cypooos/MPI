@@ -27,7 +27,9 @@ Il faut ajouter l'axiome de Leibniz.
 A chaque itération, on va retrouver dans une formule une autre sous formule de la classe d'équivalence, et va pouvoir la remplacer pour trouver une nouvelle formule.
 Par exemple, les étapes d’exécution donne :
 $$
-\{x\};\{f(x)\};\{f^2(x)\};\{f^3(x)\};\{f^4(x)\};\\
+\begin{aligned}
+\{x,f^3(x),f^5(x)\};\{f(x)\};\{f^2(x)\};\{f^4(x)\}\\
+\{x,f^3(x),f^5(x);\};\{f(x)\};\{f^2(x)\};\{f^4(x)\}\\
 $$
 
 
@@ -73,6 +75,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NDI3NDE2MCwtMTcwMTA1NzMwMCwxOT
+eyJoaXN0b3J5IjpbMTI5OTE5ODc5MCwtMTcwMTA1NzMwMCwxOT
 Y0MzcxOTRdfQ==
 -->
