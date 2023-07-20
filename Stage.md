@@ -13,6 +13,7 @@
 - Thomas Hales à fait une preuve demandant aussi bcp de cas que les mathématicien n'ont pas pu vérifier entièrement. Le projet Flyspeck à abouti à une preuve Coq.
 - [On peut dérécursifier n'importe quel programme par la continuation](https://media.devenirenseignant.gouv.fr/file/agregation_externe/32/6/sujet0_agregation_externe_informatique_epreuve1_1422326.pdf) (qui donne une fonction récursif terminale) puis par simulation de la version en continuation par des types somme (appellé défonctionalisation) CF
 - Liste doublement chainé en OCaml avec `type 'a lidb = | Null | E of {mutable before:lidb; mutable after:lidb; mutable val: 'a}`
+- Pour calculer $AB$, transposer $B$ dans la ram pour utilliser les stack L1
 ## Fonctionnement d'un prouveur automatique
 ### Etape 1 : Un solveur SAT
 Naif: Retour sur Trace
@@ -61,6 +62,8 @@ L'on recommence jusqu’à (avec un peu de chance) trouver une preuve de notre s
  - AH-Ergo (français)
 ## Sujet d'oraux
 - Addition Chains, KNUTH, volume II, Chapitre 4, "how fast can we multiply" - 465
+- Calculer $M^n.V$ par $$
+- 
 
 ## Retirer le cycle à une liste en temps O(n) et espace O(1)
 
@@ -100,7 +103,7 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMzE2MTQ3LC0yMDIxNDAwMjYzLDEyMz
+eyJoaXN0b3J5IjpbODk5Njk5NjUzLC0yMDIxNDAwMjYzLDEyMz
 c5MTcxMDcsMTAxMzgwNjI3LDI4NTQyNjkyOSwtMTAxNjQyMTc4
 OSwtMTcwMTA1NzMwMCwxOTY0MzcxOTRdfQ==
 -->
