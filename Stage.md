@@ -28,9 +28,9 @@ A chaque itération, on va retrouver dans une formule une autre sous formule de 
 Par exemple, les étapes d’exécution donne :
 $$
 \begin{align*}
-&&\{&x&,&&f^3(x)&,&&f^5(x)&&\};\{ &&f(x)&\};\{&&f^2(x)&&\};\{&&f^4(x)&\}&&\text{init}&\\
-&&\{&x&,&&f^3(x)&,&&f^5(x)&&,&&f^2(x)&\};\{&&f(x)&&\};\{&&f^4(x)&\}&&f^5(x)[f^3(x)\larr x]&\\
-&&\{&x&,&&f^3(x)&,&&f^5(x)&&\};\{ &&f(x)&\};\{&&f^2(x)&&\};\{&&f^4(x)&\}&&f^5(x)[f^³(x)\larr x]&\\
+&&\{&x&,&&f^3(x)&&,&&f^5(x)&&\};\{ &&f(x)&&\};\{&&f^2(x)&&\};\{&&f^4(x)&&\}&&\text{init}&\\
+&&\{&x&,&&f^3(x)&&,&&f^5(x)&&,&&f^2(x)&&\};\{&&f(x)&&\};\{&&f^4(x)&&\}&&f^5(x)[f^3(x)\larr x]&\\
+&&\{&x&,&&f^3(x)&&,&&f^5(x)&&,&&f^2(x)&&\};\{&&f(x)&&\};\{&&f^4(x)&&\}&&f^5(x)[f^3(x)\larr x]&\\
 \end{align*}
 $$
 
@@ -77,6 +77,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDA2MTQ4NCwtMTcwMTA1NzMwMCwxOT
-Y0MzcxOTRdfQ==
+eyJoaXN0b3J5IjpbLTEwMTY0MjE3ODksLTE3MDEwNTczMDAsMT
+k2NDM3MTk0XX0=
 -->
