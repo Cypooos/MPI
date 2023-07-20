@@ -58,7 +58,7 @@ Par exemple, dans $\forall x(x\neq 0 \implies \exist y. x= S(y))$, le terme "tri
 L'on recommence jusqu’à (avec un peu de chance) trouver une preuve de notre solution.
 
 ### Autre
-On peut aussi faire une approche + naturel
+On peut aussi faire une approche + naturelle, avec la théorie de la Résolution, montré par Robinson.
 **Liste de prouveur automatique SMT :**
  - Z3
  - CVC5
@@ -106,8 +106,8 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2ODY2NjY3LC0xMTQ2MjY1NDkxLC0yMD
-k4MDQzNDk3LDg5OTY5OTY1MywtMjAyMTQwMDI2MywxMjM3OTE3
-MTA3LDEwMTM4MDYyNywyODU0MjY5MjksLTEwMTY0MjE3ODksLT
-E3MDEwNTczMDAsMTk2NDM3MTk0XX0=
+eyJoaXN0b3J5IjpbLTExNDgxNzI0NTYsLTExNDYyNjU0OTEsLT
+IwOTgwNDM0OTcsODk5Njk5NjUzLC0yMDIxNDAwMjYzLDEyMzc5
+MTcxMDcsMTAxMzgwNjI3LDI4NTQyNjkyOSwtMTAxNjQyMTc4OS
+wtMTcwMTA1NzMwMCwxOTY0MzcxOTRdfQ==
 -->
