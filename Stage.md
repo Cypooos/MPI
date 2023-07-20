@@ -57,10 +57,10 @@ Par exemple, dans $\forall x(x\neq 0 \implies \exist y. x= S(y))$, le terme "tri
 
 L'on recommence jusqu’à (avec un peu de chance) trouver une preuve de notre solution.
 ### 
-**Liste de prouveur automatique :**
+**Liste de prouveur automatique SMT :**
  - Z3
  - CVC5
- - AH-Ergo (français)
+ - Alt-Ergo
 ## Sujet d'oraux
 - Addition Chains, KNUTH, volume II, Chapitre 4, "how fast can we multiply" - 465
 - Calculer $M^n.V$ par $$
@@ -104,8 +104,8 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTgwNDM0OTcsODk5Njk5NjUzLC0yMD
-IxNDAwMjYzLDEyMzc5MTcxMDcsMTAxMzgwNjI3LDI4NTQyNjky
-OSwtMTAxNjQyMTc4OSwtMTcwMTA1NzMwMCwxOTY0MzcxOTRdfQ
-==
+eyJoaXN0b3J5IjpbLTExNDYyNjU0OTEsLTIwOTgwNDM0OTcsOD
+k5Njk5NjUzLC0yMDIxNDAwMjYzLDEyMzc5MTcxMDcsMTAxMzgw
+NjI3LDI4NTQyNjkyOSwtMTAxNjQyMTc4OSwtMTcwMTA1NzMwMC
+wxOTY0MzcxOTRdfQ==
 -->
