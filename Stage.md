@@ -40,7 +40,7 @@ On continue ça j'usuqu'a soit que on ai plus de variables à supposer (on a don
 
 ### Etape 3 : Logique du premier ordre
 Semi-décidable.
-But : montrer $\forall x.\exist y.y=x$, ou encore $$
+But : montrer $\forall x.\exist y.y=x$, ou encore $\forall x.\forall y.( S(x)=S(y)\implies x=y)$ ($S$ le successeur de Peano) 
 
 On exprime tout problème sous la forme $X,Y,Z \implies \bot$ (quitte à le faire par l'absurde)
 On sépare les formules en formules commençant par un $\forall$, et les autres.
@@ -48,6 +48,7 @@ Pour chaque formule de la forme $\exist c.P$, on rajoute un terme $X_c$ et effec
 > pas sur :
 > Pour les formules commençant par $\lnot P$, on applique morgan pour faire tomber le not?
 
+On ce retoruve alors avec 
 
 
 
@@ -90,6 +91,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODcyOTM5OCwtMTAxNjQyMTc4OSwtMT
+eyJoaXN0b3J5IjpbLTUwMTI3MjIwMCwtMTAxNjQyMTc4OSwtMT
 cwMTA1NzMwMCwxOTY0MzcxOTRdfQ==
 -->
