@@ -22,7 +22,9 @@ But :
  - Montrer $f(f(f(x)))=x \land f(f(f(f(f(x))))) = x \implies x=f(x)$
 On crée une structure Union-Find pour chaque sous terme apparaissant dans nos éléments, représentant les classes d'équivalence de l'égalité.
 L'union-find nous assure la fermeture par transitivité, réflexivité, symétrie.
-Il faut ajouter
+Il faut ajouter l'axiome de Leibniz.
+A chaque iteration, on va retrouver dans une formule une autre sous formule de la classe d'équivalence, et va pouvoir la remplacer pour trouver une nouvelle formule.
+
 
 ### Etape 3 : Logique du premier ordre
 
@@ -65,6 +67,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODIxOTEzNDMsLTE3MDEwNTczMDAsMT
-k2NDM3MTk0XX0=
+eyJoaXN0b3J5IjpbMTE5NDgxOTk5NCwtMTcwMTA1NzMwMCwxOT
+Y0MzcxOTRdfQ==
 -->
