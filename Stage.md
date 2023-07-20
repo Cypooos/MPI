@@ -14,7 +14,7 @@
 - [On peut dérécursifier n'importe quel programme par la continuation](https://media.devenirenseignant.gouv.fr/file/agregation_externe/32/6/sujet0_agregation_externe_informatique_epreuve1_1422326.pdf) (qui donne une fonction récursif terminale) puis par simulation de la version en continuation par des types somme (appellé défonctionalisation) CF
 ## Fonctionnement d'un prouveur automatique
 ### Etape 1 : Un solveur SAT
-Naif: Lagorit
+Naif: Retour sur Trace
 ### Etape 2 : Egalité et fonction
 Toujours décidable !
 But :
@@ -22,10 +22,13 @@ But :
  - Montrer $f^3(x)=x \land f^5(x) = x \implies x=f(x)$ (avec $f^n$ la composition $n$-ième)
 
 On crée une structure Union-Find pour chaque sous terme apparaissant dans nos éléments, représentant les classes d'équivalence de l'égalité.
-L'union-find nous assure la fermeture par transitivité, réflexivité, symétrie.
+L'Union-find nous assure la fermeture par transitivité, réflexivité, symétrie.
 Il faut ajouter l'axiome de Leibniz.
-A chaque iteration, on va retrouver dans une formule une autre sous formule de la classe d'équivalence, et va pouvoir la remplacer pour trouver une nouvelle formule.
-Donc par exemple, 
+A chaque itération, on va retrouver dans une formule une autre sous formule de la classe d'équivalence, et va pouvoir la remplacer pour trouver une nouvelle formule.
+Par exemple, les étapes d’exécution donne :
+$$
+\{x\};\{f(x)\};\{f^2(x)\};\{f^3(x)\};\{f^4(x)\};\\
+$$
 
 
 ### Etape 3 : Logique du premier ordre
@@ -70,6 +73,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5Njk5MzE5MSwtMTcwMTA1NzMwMCwxOT
+eyJoaXN0b3J5IjpbLTQ3NDI3NDE2MCwtMTcwMTA1NzMwMCwxOT
 Y0MzcxOTRdfQ==
 -->
