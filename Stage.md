@@ -55,7 +55,10 @@ L'on va alors appliquer tout les $H$ à des termes qui apparaissent dans un $T$.
 Par exemple, dans $\forall x(x\neq 0 \implies \exist y. x= S(y))$, le terme "trigger" serai un prédicat de la forme "$e\neq 0$"
 
 L'on recommence j'usqu'a (avec un peu de chance) trouver une preuve de notre solution.
-
+### Liste de prouveur automatique :
+ - Z3
+ - CVC5
+ - AH-Ergo (français)
 
 
 ## Retirer le cycle à une liste en temps O(n) et espace O(1)
@@ -96,7 +99,7 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzkxNzEwNywxMDEzODA2MjcsMjg1ND
-I2OTI5LC0xMDE2NDIxNzg5LC0xNzAxMDU3MzAwLDE5NjQzNzE5
-NF19
+eyJoaXN0b3J5IjpbMTE5MTk3ODUxMywxMjM3OTE3MTA3LDEwMT
+M4MDYyNywyODU0MjY5MjksLTEwMTY0MjE3ODksLTE3MDEwNTcz
+MDAsMTk2NDM3MTk0XX0=
 -->
