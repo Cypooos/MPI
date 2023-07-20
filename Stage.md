@@ -7,11 +7,13 @@
 - Sujet d'oral ? https://11011110.github.io/blog/2022/12/13/randomly-traceable-graphs.html
 - Exact Matrix Cover est NP-complet
 - Utiliser les Dancing Links pour faire du back-tracking efficace sur des listes triée
-- Calcul de hauteur d'un ABR dans le cas d'un stackoverflow ?
-## Fonctionnement d'un prouveur automatique
+- Calcul de hauteur d'un ABR dans le cas d'un stackoverflow ? -> Stack + hauteur ou continuation
 - [la conjecture de Robbins est vraie](https://en.wikipedia.org/wiki/Robbins_algebra), preuve par un prouveur automatique
 - Théorème des 4 couleurs à eu 300+ cas vérifier par odinateur, puis elle a été refait en Coq
-- Thomas Hales à fait une preuve demandant aussi bcp de cas que les mathématicien n'ont pas pu vérifier entièrement. Le projet Flyspeck à abouti à une preuve 
+- Thomas Hales à fait une preuve demandant aussi bcp de cas que les mathématicien n'ont pas pu vérifier entièrement. Le projet Flyspeck à abouti à une preuve Coq.
+- On peut dérécursifier n'importe quel programme par la continuation (qui donne récusif terminal) puis par simulation de la dérécusification (appellé défonctionalisation) 
+## Fonctionnement d'un prouveur automatique
+
 ## Retirer le cycle à une liste en temps O(n) et espace O(1)
 
 On décompose la liste en la partie $A = x_0 , ... , x_\lambda$ avant le cycle, et la partie $x_{\lambda+1}, ... x_{\lambda+\mu} = B$ cyclique de longueur $\mu$
@@ -50,6 +52,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDk5Nzg2NDYsLTE3MDEwNTczMDAsMT
-k2NDM3MTk0XX0=
+eyJoaXN0b3J5IjpbLTE4NDg1Mjg3NywtMTcwMTA1NzMwMCwxOT
+Y0MzcxOTRdfQ==
 -->
