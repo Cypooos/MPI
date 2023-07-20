@@ -35,7 +35,8 @@ $$
 \end{align*}
 $$
 On continue jusqu’à ce l'on ne peut plus crée de termes présent dans notre structure.
-Dans ce cas, on laisse le SAT solver faire une supposition $P$ (qui corresponderai à un $f(x)=g(0,f(t))$ par exemple) et faire tourner notre union-find, j'usqu'a soit voir deux closes  
+Dans ce cas, on laisse le SAT solver faire une supposition $P$ (qui corresponderai à un $f(x)=g(0,f(t))$ par exemple) et re-faire tourner notre union-find.
+On continue ça j'usuqu'a soit que on ai plus de variables à supposer (on a donc une preuve), soit que on a supp, j'usqu'a soit voir deux closes dans la même classe alors qu'elles sont supposer ne pas l'etre (on a supposer 
 
 ### Etape 3 : Logique du premier ordre
 Semi-décidable
@@ -79,6 +80,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY4NjcxNzg1LC0xMDE2NDIxNzg5LC0xNz
-AxMDU3MzAwLDE5NjQzNzE5NF19
+eyJoaXN0b3J5IjpbLTYzNTA3NTIyNywtMTAxNjQyMTc4OSwtMT
+cwMTA1NzMwMCwxOTY0MzcxOTRdfQ==
 -->
