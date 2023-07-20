@@ -56,7 +56,9 @@ L'on va alors appliquer tout les $H$ à des termes qui apparaissent dans un $T$.
 Par exemple, dans $\forall x(x\neq 0 \implies \exist y. x= S(y))$, le terme "trigger" serai un prédicat de la forme "$e\neq 0$"
 
 L'on recommence jusqu’à (avec un peu de chance) trouver une preuve de notre solution.
-### 
+
+### Autre
+On peut aussi faire une approche + naturel
 **Liste de prouveur automatique SMT :**
  - Z3
  - CVC5
@@ -104,8 +106,8 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDYyNjU0OTEsLTIwOTgwNDM0OTcsOD
-k5Njk5NjUzLC0yMDIxNDAwMjYzLDEyMzc5MTcxMDcsMTAxMzgw
-NjI3LDI4NTQyNjkyOSwtMTAxNjQyMTc4OSwtMTcwMTA1NzMwMC
-wxOTY0MzcxOTRdfQ==
+eyJoaXN0b3J5IjpbNjk2ODY2NjY3LC0xMTQ2MjY1NDkxLC0yMD
+k4MDQzNDk3LDg5OTY5OTY1MywtMjAyMTQwMDI2MywxMjM3OTE3
+MTA3LDEwMTM4MDYyNywyODU0MjY5MjksLTEwMTY0MjE3ODksLT
+E3MDEwNTczMDAsMTk2NDM3MTk0XX0=
 -->
