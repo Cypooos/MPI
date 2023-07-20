@@ -12,7 +12,7 @@
 - Théorème des 4 couleurs à eu 300+ cas vérifier par odinateur, puis elle a été refait en Coq
 - Thomas Hales à fait une preuve demandant aussi bcp de cas que les mathématicien n'ont pas pu vérifier entièrement. Le projet Flyspeck à abouti à une preuve Coq.
 - [On peut dérécursifier n'importe quel programme par la continuation](https://media.devenirenseignant.gouv.fr/file/agregation_externe/32/6/sujet0_agregation_externe_informatique_epreuve1_1422326.pdf) (qui donne une fonction récursif terminale) puis par simulation de la version en continuation par des types somme (appellé défonctionalisation) CF
-- Liste doublement chainé en OCaml avec `type 'a lidb = | Null | E of {mutable before:lidb;mutable after:lidb; mutable val: 'a}`
+- Liste doublement chainé en OCaml avec `type 'a lidb = | Null | E of {mutable before:lidb; mutable after:lidb; mutable val: 'a}`
 ## Fonctionnement d'un prouveur automatique
 ### Etape 1 : Un solveur SAT
 Naif: Retour sur Trace
@@ -96,7 +96,7 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjAyNTY4NzMsMTAxMzgwNjI3LDI4NT
-QyNjkyOSwtMTAxNjQyMTc4OSwtMTcwMTA1NzMwMCwxOTY0Mzcx
-OTRdfQ==
+eyJoaXN0b3J5IjpbMTIzNzkxNzEwNywxMDEzODA2MjcsMjg1ND
+I2OTI5LC0xMDE2NDIxNzg5LC0xNzAxMDU3MzAwLDE5NjQzNzE5
+NF19
 -->
