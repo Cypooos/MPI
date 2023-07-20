@@ -19,13 +19,13 @@ Naif: Retour sur Trace
 Toujours décidable !
 But :
  - Montrer $x_1 =x_2 \land x_3 = x_4 \land ... \implies x_i = x_j$
- - Montrer $f^3(x)=x \land f^5(x) = x \implies x=f(x)$ (avec $f^n$ la composition $n$-ième)
+ - Montrer $(2)$ : $f^3(x)=x \land f^5(x) = x \implies x=f(x)$ (avec $f^n$ la composition $n$-ième)
 
 On crée une structure Union-Find pour chaque sous terme apparaissant dans nos éléments, représentant les classes d'équivalence de l'égalité.
 L'Union-find nous assure la fermeture par transitivité, réflexivité, symétrie.
-Il faut ajouter l'axiome de Leibniz.
+Il faut ajouter l'axiome de Leibniz :
 A chaque itération, on va retrouver dans une formule une autre sous formule de la classe d'équivalence, et va pouvoir la remplacer pour trouver une nouvelle formule.
-Par exemple, les étapes d’exécution donne :
+Par exemple, les étapes d’exécutions de $(2)$ donne :
 $$
 \begin{align*}
 &&\{&x&,&&f^3(x)&&,&&f^5(x)&&\};\{ &&f(x)&&\};\{&&f^2(x)&&\};\{&&f^4(x)&&\}&&\text{init}&\\
@@ -36,10 +36,11 @@ $$
 $$
 On continue jusqu’à ce l'on ne peut plus crée de termes présent dans notre structure.
 Dans ce cas, on laisse le SAT solver faire une supposition $P$ (qui corresponderai à un $f(x)=g(0,f(t))$ par exemple) et re-faire tourner notre union-find.
-On continue ça j'usuqu'a soit que on ai plus de variables à supposer (on a donc une preuve), soit que on a supp, j'usqu'a soit voir deux closes dans la même classe alors qu'elles sont supposer ne pas l'etre (on a supposer 
+On continue ça j'usuqu'a soit que on ai plus de variables à supposer (on a donc une preuve), soit que on a supposer $x\neq y$ mais $x$ et $y$ sont dans la même classe, dans ce cas on fait un retour sur trace.
 
 ### Etape 3 : Logique du premier ordre
-Semi-décidable
+Semi-décidable.
+
 
 
 ## Retirer le cycle à une liste en temps O(n) et espace O(1)
@@ -80,6 +81,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTA3NTIyNywtMTAxNjQyMTc4OSwtMT
-cwMTA1NzMwMCwxOTY0MzcxOTRdfQ==
+eyJoaXN0b3J5IjpbODgyMDYwNTE2LC0xMDE2NDIxNzg5LC0xNz
+AxMDU3MzAwLDE5NjQzNzE5NF19
 -->
