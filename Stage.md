@@ -36,7 +36,7 @@ $$
 $$
 On continue jusqu’à ce l'on ne peut plus crée de termes présent dans notre structure.
 Dans ce cas, on laisse le SAT solver faire une supposition $P$ (qui corresponderai à un $f(x)=g(0,f(t))$ par exemple) et re-faire tourner notre union-find.
-On continue ça j'usuqu'a soit que on ai plus de variables à supposer (on a donc une preuve), soit que on a supposer $x\neq y$ mais $x$ et $y$ sont dans la même classe, dans ce cas on fait un retour sur trace.
+On continue ça jusuqu'a soit que on ai plus de variables à supposer (on a donc une preuve), soit que on a supposer $x\neq y$ mais $x$ et $y$ sont dans la même classe, dans ce cas on fait un retour sur trace.
 
 ### Etape 3 : Logique du premier ordre
 Semi-décidable.
@@ -48,7 +48,7 @@ Pour chaque formule de la forme $\exist c.P$, on rajoute un terme $X_c$ et effec
 > pas sur :
 > Pour les formules commençant par $\lnot P$, on applique morgan pour faire tomber le not?
 
-On ce retoruve alors avec 
+On effectue alors notre algo union-find sur toute les hypothèses 
 
 
 
@@ -91,6 +91,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTI3MjIwMCwtMTAxNjQyMTc4OSwtMT
-cwMTA1NzMwMCwxOTY0MzcxOTRdfQ==
+eyJoaXN0b3J5IjpbOTk1NzI2NjcsLTEwMTY0MjE3ODksLTE3MD
+EwNTczMDAsMTk2NDM3MTk0XX0=
 -->
