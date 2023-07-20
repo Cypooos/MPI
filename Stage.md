@@ -41,6 +41,7 @@ On continue ça j'usuqu'a soit que on ai plus de variables à supposer (on a don
 ### Etape 3 : Logique du premier ordre
 Semi-décidable.
 On sépare les formules en formule commençant par un $\forall$, et les autres.
+Pour chaque formule de la forme $\exist c.P$, on rajoute un terme$X_c$  et effectue $P := P[c\larr X_c]$ (remplacer seulement les variables libres.
 
 
 ## Retirer le cycle à une liste en temps O(n) et espace O(1)
@@ -81,6 +82,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTU3ODI2MSwtMTAxNjQyMTc4OSwtMT
+eyJoaXN0b3J5IjpbMTE4NzAyNTc0NCwtMTAxNjQyMTc4OSwtMT
 cwMTA1NzMwMCwxOTY0MzcxOTRdfQ==
 -->
