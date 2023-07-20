@@ -28,8 +28,10 @@ A chaque itération, on va retrouver dans une formule une autre sous formule de 
 Par exemple, les étapes d’exécution donne :
 $$
 \begin{aligned}
-\{x,f^3(x),f^5(x)\};\{f(x)\};\{f^2(x)\};\{f^4(x)\}\\
-\{x,f^3(x),f^5(x);\};\{f(x)\};\{f^2(x)\};\{f^4(x)\}\\
+\{x,f^3(x),f^5(x)\};\{f(x)\};\{f^2(x)\};\{f^4(x)\}&&\text{init}&\\
+\{x,f^3(x),f^5(x);\};\{f(x)\};\{f^2(x)\};\{f^4(x)\}&&f^5(x)[f^³(x)\larr x]&\\
+\{x,f^3(x),f^5(x);\};\{f(x)\};\{f^2(x)\};\{f^4(x)\}&&f^5(x)[f^³(x)\larr x]&\\
+\end{aligned}
 $$
 
 
@@ -75,6 +77,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTE5ODc5MCwtMTcwMTA1NzMwMCwxOT
-Y0MzcxOTRdfQ==
+eyJoaXN0b3J5IjpbLTEwOTAxMzc0MDEsLTE3MDEwNTczMDAsMT
+k2NDM3MTk0XX0=
 -->
