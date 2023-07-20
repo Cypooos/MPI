@@ -44,12 +44,12 @@ But : montrer $\forall x.\exist y.y=x$, ou encore $\forall x.\forall y.( S(x)=S(
 
 On exprime tout problème sous la forme $X,Y,Z \implies \bot$ (quitte à le faire par l'absurde)
 On sépare les formules en formules commençant par un $\forall$ (on les met dans $H$), et les autres (dans $T$).
-Pour chaque formule de la forme $\exist c.P$, on rajoute un terme $X_c$ et effectue $P := P[c\larr X_c]$ (remplacer seulement les variables libres.
+Pour chaque formule de la forme $\exist c.P$, on rajoute un terme $X_c$ et effectue $P := P[c\larr X_c]$ (remplacer seulement les variables libres par une constante).
 > pas sur :
 > Pour les formules commençant par $\lnot P$, on applique morgan pour faire tomber le not?
 
 On effectue alors notre algo union-find sur toute les proposition dans $T$.
-Puis, si notre Sat-solver décide de 
+Puis, si notre Sat-solver décide de supposer une nouvelle porpositio, alors on fait 
 
 
 
@@ -92,6 +92,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg1NDI2OTI5LC0xMDE2NDIxNzg5LC0xNz
-AxMDU3MzAwLDE5NjQzNzE5NF19
+eyJoaXN0b3J5IjpbLTEwNzY5MzQzMTksMjg1NDI2OTI5LC0xMD
+E2NDIxNzg5LC0xNzAxMDU3MzAwLDE5NjQzNzE5NF19
 -->
