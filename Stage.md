@@ -13,8 +13,13 @@
 - Thomas Hales à fait une preuve demandant aussi bcp de cas que les mathématicien n'ont pas pu vérifier entièrement. Le projet Flyspeck à abouti à une preuve Coq.
 - [On peut dérécursifier n'importe quel programme par la continuation](https://media.devenirenseignant.gouv.fr/file/agregation_externe/32/6/sujet0_agregation_externe_informatique_epreuve1_1422326.pdf) (qui donne une fonction récursif terminale) puis par simulation de la version en continuation par des types somme (appellé défonctionalisation) CF
 ## Fonctionnement d'un prouveur automatique
-### Etape 1 : un solveur SAT
+### Etape 1 : Un solveur SAT
 
+### Etape 2 : Egalité et fonction
+but : montrer $x_1$
+On crée une structure Union-Find pour chaque sous terme apparaissant dans nos élément, représentant les classes d'équivalence de l'égalité
+
+### Etape 3 : Logique du premier ordre
 
 
 ## Retirer le cycle à une liste en temps O(n) et espace O(1)
@@ -55,6 +60,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjU1OTcsLTE3MDEwNTczMDAsMTk2ND
-M3MTk0XX0=
+eyJoaXN0b3J5IjpbMTEzODcwNTAzNywtMTcwMTA1NzMwMCwxOT
+Y0MzcxOTRdfQ==
 -->
