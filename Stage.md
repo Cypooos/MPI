@@ -16,7 +16,9 @@
 ### Etape 1 : Un solveur SAT
 
 ### Etape 2 : Egalité et fonction
-but : montrer $x_1$
+But :
+ - Montrer $x_1 =x_2 \land x_3 = x_4 \land ... \implies x_i = x_j$
+ - Montrer $f(f(f(x)))=x \land f(f(f(f(f(x))))) = x \implies x=f(x)$
 On crée une structure Union-Find pour chaque sous terme apparaissant dans nos élément, représentant les classes d'équivalence de l'égalité
 
 ### Etape 3 : Logique du premier ordre
@@ -60,6 +62,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODcwNTAzNywtMTcwMTA1NzMwMCwxOT
+eyJoaXN0b3J5IjpbLTgxMjY5ODE2OSwtMTcwMTA1NzMwMCwxOT
 Y0MzcxOTRdfQ==
 -->
