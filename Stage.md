@@ -50,7 +50,8 @@ Pour chaque formule de la forme $\exist c.P$, on rajoute un terme $X_c$ et effec
 
 On effectue alors notre SAT + algo union-find sur toute les proposition dans $T$.
 Quand l'on a fini, c'est que l'on doit utilliser une des hypothèses de $H$.
-L'on va alors voir dans tout nos termes de $T$
+L'on va alors appliquer tout les $H$ à des termes qui apparaissent dans $T$. Pour savoir lesquels, on peut analyser une hypothèse pour trouver un termes plus utile.
+Par exemple, dans $\forall x(x\neq 0 \implies \exist y. x= S(y$
 
 
 
@@ -93,6 +94,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwNzkyMjMyLDI4NTQyNjkyOSwtMTAxNj
+eyJoaXN0b3J5IjpbNzI3NjcwNzU2LDI4NTQyNjkyOSwtMTAxNj
 QyMTc4OSwtMTcwMTA1NzMwMCwxOTY0MzcxOTRdfQ==
 -->
