@@ -36,19 +36,20 @@ $$
 $$
 On continue jusqu’à ce l'on ne peut plus crée de termes présent dans notre structure.
 Dans ce cas, on laisse le SAT solver faire une supposition $P$ (qui corresponderai à un $f(x)=g(0,f(t))$ par exemple) et re-faire tourner notre union-find.
-On continue ça jusuqu'a soit que on ai plus de variables à supposer (on a donc une preuve), soit que on a supposer $x\neq y$ mais $x$ et $y$ sont dans la même classe, dans ce cas on fait un retour sur trace.
+On continue ça jusqu’à soit que on ai plus de variables à supposer (on a donc une preuve), soit que on a supposer $x\neq y$ mais $x$ et $y$ sont dans la même classe, dans ce cas on fait un retour sur trace.
 
 ### Etape 3 : Logique du premier ordre
 Semi-décidable.
 But : montrer $\forall x.\exist y.y=x$, ou encore $\forall x.\forall y.( S(x)=S(y)\implies x=y)$ ($S$ le successeur de Peano) 
 
 On exprime tout problème sous la forme $X,Y,Z \implies \bot$ (quitte à le faire par l'absurde)
-On sépare les formules en formules commençant par un $\forall$, et les autres.
+On sépare les formules en formules commençant par un $\forall$ (on les met dans $H$), et les autres (dans $T$).
 Pour chaque formule de la forme $\exist c.P$, on rajoute un terme $X_c$ et effectue $P := P[c\larr X_c]$ (remplacer seulement les variables libres.
 > pas sur :
 > Pour les formules commençant par $\lnot P$, on applique morgan pour faire tomber le not?
 
-On effectue alors notre algo union-find sur toute les hypothèses 
+On effectue alors notre algo union-find sur toute les proposition dans $T$.
+Puis, si notre Sat-solver décide de 
 
 
 
@@ -91,6 +92,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1NzI2NjcsLTEwMTY0MjE3ODksLTE3MD
-EwNTczMDAsMTk2NDM3MTk0XX0=
+eyJoaXN0b3J5IjpbMjg1NDI2OTI5LC0xMDE2NDIxNzg5LC0xNz
+AxMDU3MzAwLDE5NjQzNzE5NF19
 -->
