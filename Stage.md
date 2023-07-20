@@ -53,6 +53,7 @@ Quand l'on a fini, c'est que l'on doit utilliser une des formules de $H$.
 L'on va alors appliquer tout les $H$ à des termes qui apparaissent dans un $T$. Pour savoir lesquels, on peut analyser une hypothèse pour trouver un terme plus utile.
 Par exemple, dans $\forall x(x\neq 0 \implies \exist y. x= S(y))$, le terme "trigger" serai un prédicat de la forme "$e\neq 0$"
 
+L'on recommence j'usqu'a (avec un peu de chance) trouver une preuve de notre solution.
 
 
 
@@ -94,6 +95,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDg3MzcyMiwyODU0MjY5MjksLTEwMT
-Y0MjE3ODksLTE3MDEwNTczMDAsMTk2NDM3MTk0XX0=
+eyJoaXN0b3J5IjpbMTAxMzgwNjI3LDI4NTQyNjkyOSwtMTAxNj
+QyMTc4OSwtMTcwMTA1NzMwMCwxOTY0MzcxOTRdfQ==
 -->
