@@ -48,8 +48,9 @@ Pour chaque formule de la forme $\exist c.P$, on rajoute un terme $X_c$ et effec
 > pas sur :
 > Pour les formules commençant par $\lnot P$, on applique morgan pour faire tomber le not?
 
-On effectue alors notre algo union-find sur toute les proposition dans $T$.
-Puis, si notre Sat-solver décide de supposer une nouvelle porpositio, alors on fait 
+On effectue alors notre SAT + algo union-find sur toute les proposition dans $T$.
+Quand l'on a fini, c'est que l'on doit utilliser une des hypothèses de $H$.
+L'on va alors voir dans tout nos termes de $T$
 
 
 
@@ -92,6 +93,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzY5MzQzMTksMjg1NDI2OTI5LC0xMD
-E2NDIxNzg5LC0xNzAxMDU3MzAwLDE5NjQzNzE5NF19
+eyJoaXN0b3J5IjpbOTYwNzkyMjMyLDI4NTQyNjkyOSwtMTAxNj
+QyMTc4OSwtMTcwMTA1NzMwMCwxOTY0MzcxOTRdfQ==
 -->
