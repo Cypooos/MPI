@@ -40,7 +40,7 @@ On continue ça j'usuqu'a soit que on ai plus de variables à supposer (on a don
 
 ### Etape 3 : Logique du premier ordre
 Semi-décidable.
-
+On sépare les formules en formule commençant par un $\forall$, et les autres.
 
 
 ## Retirer le cycle à une liste en temps O(n) et espace O(1)
@@ -81,6 +81,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyMDYwNTE2LC0xMDE2NDIxNzg5LC0xNz
-AxMDU3MzAwLDE5NjQzNzE5NF19
+eyJoaXN0b3J5IjpbMTkyNTU3ODI2MSwtMTAxNjQyMTc4OSwtMT
+cwMTA1NzMwMCwxOTY0MzcxOTRdfQ==
 -->
