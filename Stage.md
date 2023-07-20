@@ -14,12 +14,15 @@
 - [On peut dérécursifier n'importe quel programme par la continuation](https://media.devenirenseignant.gouv.fr/file/agregation_externe/32/6/sujet0_agregation_externe_informatique_epreuve1_1422326.pdf) (qui donne une fonction récursif terminale) puis par simulation de la version en continuation par des types somme (appellé défonctionalisation) CF
 ## Fonctionnement d'un prouveur automatique
 ### Etape 1 : Un solveur SAT
-
+Naif: Lagorit
 ### Etape 2 : Egalité et fonction
+Décidable !
 But :
  - Montrer $x_1 =x_2 \land x_3 = x_4 \land ... \implies x_i = x_j$
  - Montrer $f(f(f(x)))=x \land f(f(f(f(f(x))))) = x \implies x=f(x)$
-On crée une structure Union-Find pour chaque sous terme apparaissant dans nos élément, représentant les classes d'équivalence de l'égalité
+On crée une structure Union-Find pour chaque sous terme apparaissant dans nos éléments, représentant les classes d'équivalence de l'égalité.
+L'union-find nous assure la fermeture par transitivité, réflexivité, symétrie.
+Il faut ajouter
 
 ### Etape 3 : Logique du premier ordre
 
@@ -62,6 +65,6 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjY5ODE2OSwtMTcwMTA1NzMwMCwxOT
-Y0MzcxOTRdfQ==
+eyJoaXN0b3J5IjpbLTEwODIxOTEzNDMsLTE3MDEwNTczMDAsMT
+k2NDM3MTk0XX0=
 -->
