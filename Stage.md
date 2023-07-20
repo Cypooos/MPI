@@ -59,7 +59,8 @@ L'on recommence jusqu’à (avec un peu de chance) trouver une preuve de notre s
  - Z3
  - CVC5
  - AH-Ergo (français)
-
+## Sujet d'oraux
+- Addition Chains, KNUTH, volume II, Chapitre 4, "how fast can we multiply" - 465
 
 ## Retirer le cycle à une liste en temps O(n) et espace O(1)
 
@@ -99,7 +100,7 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjE0MDAyNjMsMTIzNzkxNzEwNywxMD
-EzODA2MjcsMjg1NDI2OTI5LC0xMDE2NDIxNzg5LC0xNzAxMDU3
-MzAwLDE5NjQzNzE5NF19
+eyJoaXN0b3J5IjpbLTYyMzE2MTQ3LC0yMDIxNDAwMjYzLDEyMz
+c5MTcxMDcsMTAxMzgwNjI3LDI4NTQyNjkyOSwtMTAxNjQyMTc4
+OSwtMTcwMTA1NzMwMCwxOTY0MzcxOTRdfQ==
 -->
