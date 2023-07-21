@@ -18,9 +18,9 @@
 ## Fonctionnement d'un prouveur automatique
 ### Etape 1 : Un solveur SAT
 Naif: Retour sur Trace
-### Etape 2 : Egalité et fonction
+### Etape 2 : Egalité de Leibniz + fonction non évalué
 Toujours décidable !
-But :
+Exemples  :
  - Montrer $x_1 =x_2 \land x_3 = x_4 \land ... \implies x_i = x_j$
  - Montrer $(2)$ : $f^3(x)=x \land f^5(x) = x \implies x=f(x)$ (avec $f^n$ la composition $n$-ième)
 
@@ -108,9 +108,9 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDcwNDMyODQsMTYzNDc2NDA0OCwtMT
-E0ODE3MjQ1NiwtMTE0NjI2NTQ5MSwtMjA5ODA0MzQ5Nyw4OTk2
-OTk2NTMsLTIwMjE0MDAyNjMsMTIzNzkxNzEwNywxMDEzODA2Mj
-csMjg1NDI2OTI5LC0xMDE2NDIxNzg5LC0xNzAxMDU3MzAwLDE5
-NjQzNzE5NF19
+eyJoaXN0b3J5IjpbLTk3NjQ3MDc1NywtMTQ0NzA0MzI4NCwxNj
+M0NzY0MDQ4LC0xMTQ4MTcyNDU2LC0xMTQ2MjY1NDkxLC0yMDk4
+MDQzNDk3LDg5OTY5OTY1MywtMjAyMTQwMDI2MywxMjM3OTE3MT
+A3LDEwMTM4MDYyNywyODU0MjY5MjksLTEwMTY0MjE3ODksLTE3
+MDEwNTczMDAsMTk2NDM3MTk0XX0=
 -->
