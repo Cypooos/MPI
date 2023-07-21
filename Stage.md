@@ -67,8 +67,7 @@ On peut aussi faire une approche + naturelle, avec la théorie de la Résolution
  - Alt-Ergo
 ## Sujet d'oraux
 - Addition Chains, KNUTH, volume II, Chapitre 4, "how fast can we multiply" - 465
-- Calculer $M^n.V$ par exp qui $\exp(M,2n,V) = \exp(M,2n,V)^2$
-- 
+- Calculer $M^n.V$ par $\exp(M,2n,V) = \exp(M^2,n,V)$ et $\exp(M,2n+1,V) = \exp(M,n,MV)$ car $MV$ en $O(n^2)$ (négligeable devant $M^2$)
 
 ## Retirer le cycle à une liste en temps O(n) et espace O(1)
 
@@ -108,7 +107,7 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODA2MjQ4NCwtMTQ0NzA0MzI4NCwxNj
+eyJoaXN0b3J5IjpbMTg5MzczMTE1OSwtMTQ0NzA0MzI4NCwxNj
 M0NzY0MDQ4LC0xMTQ4MTcyNDU2LC0xMTQ2MjY1NDkxLC0yMDk4
 MDQzNDk3LDg5OTY5OTY1MywtMjAyMTQwMDI2MywxMjM3OTE3MT
 A3LDEwMTM4MDYyNywyODU0MjY5MjksLTEwMTY0MjE3ODksLTE3
