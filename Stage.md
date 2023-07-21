@@ -14,6 +14,7 @@
 - [On peut dérécursifier n'importe quel programme par la continuation](https://media.devenirenseignant.gouv.fr/file/agregation_externe/32/6/sujet0_agregation_externe_informatique_epreuve1_1422326.pdf) (qui donne une fonction récursif terminale) puis par simulation de la version en continuation par des types somme (appellé défonctionalisation) CF
 - Liste doublement chainé en OCaml avec `type 'a lidb = | Null | E of {mutable before:lidb; mutable after:lidb; mutable val: 'a}`
 - Pour calculer $AB$, transposer $B$ dans la ram pour utilliser les stack L1
+- Jean Gallier fait des cours sur la logique
 ## Fonctionnement d'un prouveur automatique
 ### Etape 1 : Un solveur SAT
 Naif: Retour sur Trace
@@ -106,8 +107,8 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDgxNzI0NTYsLTExNDYyNjU0OTEsLT
-IwOTgwNDM0OTcsODk5Njk5NjUzLC0yMDIxNDAwMjYzLDEyMzc5
-MTcxMDcsMTAxMzgwNjI3LDI4NTQyNjkyOSwtMTAxNjQyMTc4OS
-wtMTcwMTA1NzMwMCwxOTY0MzcxOTRdfQ==
+eyJoaXN0b3J5IjpbMTYzNDc2NDA0OCwtMTE0ODE3MjQ1NiwtMT
+E0NjI2NTQ5MSwtMjA5ODA0MzQ5Nyw4OTk2OTk2NTMsLTIwMjE0
+MDAyNjMsMTIzNzkxNzEwNywxMDEzODA2MjcsMjg1NDI2OTI5LC
+0xMDE2NDIxNzg5LC0xNzAxMDU3MzAwLDE5NjQzNzE5NF19
 -->
