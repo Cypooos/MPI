@@ -250,7 +250,7 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 38. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
 ## Caractérisation des expressions unitaire
-On essaye de montrer que toute les expressions unitaire sont tel que $\empty \vdash e:t$.
+On essaye de montrer que toute les expressions unitaire sont tel que $\Gamma \vdash e:t$.
 
 39. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé.
 40. Montrez que le type d'une expression est invariant par dérivation.
@@ -287,7 +287,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzE5MjYyMCwxMDIxNTY4NzMwLC0xMT
+eyJoaXN0b3J5IjpbMTAyMTU2ODczMCwxMDIxNTY4NzMwLC0xMT
 I2ODg5MjYwLDQ5NDY0NTc5OCwxMjMwODI4NjM1LDIxMDU0Mjgx
 NzMsLTE5MjM2Nzg3NzcsMTM0MDc5MjgyLDk5NzUyMjY1MywtMT
 c2MTY5OTc3MywtMTY5NjI3OTAwLDE3MDk1NzM5MzcsLTE0NTU5
