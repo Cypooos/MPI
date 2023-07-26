@@ -27,10 +27,10 @@ Ce qui est l'équivalent à un `jump` à la case $k$.
 ### IF BOOL
 
 On considère le code 
-| position |  0  | ... | $p$ | $p+1$ | $p+2$ | $p+3$ | $p+4$ |
-|----------|-----|-----|-----|-------|-------|-------|-------|
-| **code** | $p$ | ... |  0  | $p+2$ |  $k$  |  $k$  |  $k$  |
+| position |  0  | ... | $p$ | $p+1$ | $p+2$ | $p+3$ | $p+4$ | $p+5$ | $p+6$ |
+|----------|-----|-----|-----|-------|-------|-------|-------|-------|-------|
+| **code** | $p$ | ... |  1  | $p+5$ |  $0$  |  BOOL |  $k$  |  $k$  |  $k$  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwNTUxMDQsLTk4NjQ4MTE3Ml19
+eyJoaXN0b3J5IjpbLTIxMzE0NjI2MywtOTg2NDgxMTcyXX0=
 -->
