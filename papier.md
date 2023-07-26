@@ -9,7 +9,7 @@ A chaque itération de la machine, les deux opérations suivantes sont réalisé
 Si l'état de la machine ne change pas après une itération, alors elle s’arrête.
 Pour comprendre ces deux opérations, il faut voir $T[0]$ comme l'*instruction pointer* de la machine, incrémenté à chaque itération, et voir la deuxième comme l'opération `mov T[T[0]-2] [T[T[0]-1]]` .
 
-Enfaîte, ces deux opérations sont équivalentes à :
+Enfaîte, ces deux opérations sont équivalentes aux instructions :
 - $(v_1,v_2) = (T[IP],T[IP+1])$ avec $IP = T[0]$, l'*Instruction pointeur*
 - $T[v_1] \larr T[v_2]$
 - Si $T[0]$ n'a pas été modifié, alors $T[0] \larr T[0] + 2$
@@ -21,10 +21,9 @@ On considère le code
 |----------|-----|-----|-----|-------|-------|
 | **code** | $p$ | ... |  0  | $p+2$ | $k$ |
 
-Si l'on effecture l'itération, l'on fera $T[T[T[0]-2]] = T[T[p]]=T[0] \larr T[T[T[0]-1]] = T[T[p+1]]=T[p+2]=k$, soit 
+Si l'on effecture l'itération, l'on fera $T[T[T[0]+2-2]] = T[T[p]]=T[0] \larr T[T[T[0]+2-1]] = T[T[p+1]]=T[p+2]=k$, soit 
 $T[0] \larr k$
 Ce qui est l'équivalent à un jump à la case $k$.
-On posera $\text{jump}(k)$ comme étant le code $...,0,p+2,k$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTA4MDU2Ml19
+eyJoaXN0b3J5IjpbMTg0Njg4MjQ2OF19
 -->
