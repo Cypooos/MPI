@@ -33,6 +33,8 @@ On considère le code
 
 Ici, si BOOL = 1, alors après 2 itérations, on aura $T[0]=k_\top$
 si BOOL = 0, alors après 3 itérations, on aura $T[0]=k_\bot$
+On a donc fait un saut conditionnel.
+D'un ménière analogue, l'on peut faire des SWITCH
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0MzQzNTUzLC05ODY0ODExNzJdfQ==
+eyJoaXN0b3J5IjpbNjQxODgzODgyLC05ODY0ODExNzJdfQ==
 -->
