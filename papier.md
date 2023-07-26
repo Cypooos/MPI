@@ -61,11 +61,12 @@ Si $i$ impair :
 ```
 entry_i: 
   SERIE_DE_IF
-	JUMP entry_{i+1}
+  JUMP entry_{i+1}
 value: 0
 ```
 
+Comme Rule 110 progresse des deux cotés, on a que le bloc $b_{2i}$ représente la case $i$ de Rule 110 et le bloc $b_{2i+1}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4MTkxOTMxLDEyMDMzMzU5ODIsLTk4Nj
-Q4MTE3Ml19
+eyJoaXN0b3J5IjpbLTg4MTcyMjg4MCwxMjAzMzM1OTgyLC05OD
+Y0ODExNzJdfQ==
 -->
