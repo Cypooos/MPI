@@ -21,14 +21,8 @@ On considère le code
 |----------|-----|-----|-----|-------|-------|
 | **code** | $p$ | ... |  0  | $p+2$ | $k$ |
 
-
-
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-
+Si l'on effecture l'itération, l'on fera $T[T[T[0]-2]] = T[] \larr T[T[T[0]-1]]$
+Alors, après 1 itération,  l'*instruction pointeur* pointera vers la case $k$. L'on a donc 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDYyOTUzN119
+eyJoaXN0b3J5IjpbLTE3NTg4OTAxNDJdfQ==
 -->
