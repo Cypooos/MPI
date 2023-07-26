@@ -21,8 +21,9 @@ On considère le code
 |----------|-----|-----|-----|-------|-------|
 | **code** | $p$ | ... |  0  | $p+2$ | $k$ |
 
-Si l'on effecture l'itération, l'on fera $T[T[T[0]-2]] = T[] \larr T[T[T[0]-1]]$
-Alors, après 1 itération,  l'*instruction pointeur* pointera vers la case $k$. L'on a donc 
+Si l'on effecture l'itération, l'on fera $T[T[T[0]-2]] = T[T[p]]=T[0] \larr T[T[T[0]-1]] = T[T[p+1]]=T[p+2]=k$, soit 
+$T[0] \larr k$
+Plus communément app
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg4OTAxNDJdfQ==
+eyJoaXN0b3J5IjpbLTIwMjY1MjU0NTddfQ==
 -->
