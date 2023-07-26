@@ -39,19 +39,18 @@ D'une manière analogue, l'on peut faire des SWITCH, on l'on a une série de poi
 ## Turing complete
 On montre que la machine de cythan est turing complete en simulant l'automate cellulaire Rule 110, qui est Turing complete.
 
-Pour cela, on découpe le tableau en une série de blocs $b_i$ dont ont donne le code :
+Pour cela, on découpe le tableau en une série de blocs $b_i$ dont ont donne le code, avec `SERIE_DE_IF` l'arbre de diagrame de décision permettant de mettre à jour `VALUE`_{} depuis `VALUE`
 
 ```
 entry_i: 
-  
-
-IF is_explored THEN
-	JUMP entry_{i+1}
-ELSE 
-	JUMP set_explored
+  SERIE_DE_IF
+	IF is_explored THEN
+		JUMP entry_{i+1}
+	ELSE 
+		JUMP set_explored
 set_explored: 
   is_explored <- one
-  JUMP
+  JUMP 
 is_explored: 0
 one:1
 value: 0
@@ -60,6 +59,6 @@ value: 0
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDIwNzE1MSwxMjAzMzM1OTgyLC05OD
-Y0ODExNzJdfQ==
+eyJoaXN0b3J5IjpbLTE5NTUyNzI2NTQsMTIwMzMzNTk4MiwtOT
+g2NDgxMTcyXX0=
 -->
