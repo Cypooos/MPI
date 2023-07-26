@@ -36,8 +36,12 @@ si BOOL = 0, alors après 3 itérations, on aura $T[0]=k_\bot$
 On a donc fait un saut conditionnel. 
 D'une manière analogue, l'on peut faire des SWITCH, on l'on a une série de pointeurs vers lesquels sauter selon les différentes valeurs que peut prendre une case. Attention, le SWITCH ne marche que pour un nombre fini de cas, et écrasera les valeurs $T[i]$ pour tout les $i$ les valeurs possibles.
 
+## Turing complete
+On monjtre que la machine de cythan est turing complete 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzMzNTk4MiwtOTg2NDgxMTcyXX0=
+eyJoaXN0b3J5IjpbLTE2Njg1MjQxNTMsMTIwMzMzNTk4MiwtOT
+g2NDgxMTcyXX0=
 -->
