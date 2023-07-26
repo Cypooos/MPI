@@ -14,7 +14,7 @@ Enfaîte, ces deux opérations sont équivalentes aux instructions :
 - $T[v_1] \larr T[v_2]$
 - Si $T[0]$ n'a pas été modifié, alors $T[0] \larr T[0] + 2$
 
-## Exemples de code
+### JU
 
 On considère le code 
 | position |  0  | ... | $p$ | $p+1$ | $p+2$ |
@@ -24,6 +24,8 @@ On considère le code
 Si l'on effecture l'itération, l'on fera $T[T[T[0]+2-2]] = T[T[p]]=T[0] \larr T[T[T[0]+2-1]] = T[T[p+1]]=T[p+2]=k$, soit 
 $T[0] \larr k$
 Ce qui est l'équivalent à un jump à la case $k$.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0Njg4MjQ2OF19
+eyJoaXN0b3J5IjpbLTIxMDY2NjEwMV19
 -->
