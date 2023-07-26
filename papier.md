@@ -61,19 +61,11 @@ Si $i$ impair :
 ```
 entry_i: 
   SERIE_DE_IF
-	IF is_explored THEN
-		JUMP entry_{i+1}
-	ELSE 
-		JUMP set_explored
-set_explored: 
-  is_explored <- one
-  JUMP block_{0}
-is_explored: 0
-one:1
+	JUMP entry_{i+1}
 value: 0
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTUyMDM1MjAsMTIwMzMzNTk4MiwtOT
-g2NDgxMTcyXX0=
+eyJoaXN0b3J5IjpbMzg4MTkxOTMxLDEyMDMzMzU5ODIsLTk4Nj
+Q4MTE3Ml19
 -->
