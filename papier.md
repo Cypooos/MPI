@@ -34,7 +34,9 @@ On considère le code
 Ici, si BOOL = 1, alors après 2 itérations, on aura $T[0]=k_\top$
 si BOOL = 0, alors après 3 itérations, on aura $T[0]=k_\bot$
 On a donc fait un saut conditionnel. 
-D'une manière analogue, l'on peut faire des SWITCH, on l'on a une série de pointeurs vers lesquels sauter selon les différentes valeurs que peut prendre une case. Attention, le SWITCH ne marche que pour un nombre fini de cas, 
+D'une manière analogue, l'on peut faire des SWITCH, on l'on a une série de pointeurs vers lesquels sauter selon les différentes valeurs que peut prendre une case. Attention, le SWITCH ne marche que pour un nombre fini de cas, et écrasera les valeurs $T[i]$ pour tout les $i$
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzI2NzE2MywtOTg2NDgxMTcyXX0=
+eyJoaXN0b3J5IjpbLTE3NDI1MTU5NTYsLTk4NjQ4MTE3Ml19
 -->
