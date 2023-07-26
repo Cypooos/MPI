@@ -10,9 +10,9 @@ Si l'état de la machine ne change pas après une itération, alors elle s’arr
 Pour comprendre ces deux opérations, il faut voir $T[0]$ comme l'*instruction pointer* de la machine, incrémenté à chaque itération, et voir la deuxième comme l'opération `mov T[T[0]-2] [T[T[0]-1]]` .
 
 Enfaîte, ces deux opérations sont équivalente à :
-- Take the value pointed by the _instruction pointer_ (cell at index 0), and the value behind
--  Execute a `mov` on the cells at index value 1 and value 2
--   If cell 0 didn't changed, add 2 to cell 0
+- $(v_1,v_2) = (T[Ip],T[IC+1])$ avec $IC = T[0]$, l'*Instruction pointeur*
+- Execute a `mov` on the cells at index value 1 and value 2
+- If cell 0 didn't changed, add 2 to cell 0
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE5NTk3NDU5XX0=
+eyJoaXN0b3J5IjpbLTEyMTEwNjAwMTVdfQ==
 -->
