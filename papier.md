@@ -21,10 +21,16 @@ On considère le code
 |----------|-----|-----|-----|-------|-------|
 | **code** | $p$ | ... |  0  | $p+2$ | $k$ |
 
-Si l'on effecture l'itération, l'on fera $T[T[T[0]+2-2]] = T[T[p]]=T[0] \larr T[T[T[0]+2-1]] = T[T[p+1]]=T[p+2]=k$, soit l'opération $T[0] \larr k$
-Ce qui est l'équivalent à un jump à la case $k$.
+Si l'on effectue une itération, l'on fera $T[T[T[0]+2-2]] = T[T[p]]=T[0] \larr T[T[T[0]+2-1]] = T[T[p+1]]=T[p+2]=k$, soit l'opération $T[0] \larr k$
+Ce qui est l'équivalent à un `jump` à la case $k$.
 
-### IF
+### IF BOOL
+
+On considère le code 
+| position |  0  | ... | $p$ | $p+1$ | $p+2$ | $p+3$ | $p+4$ |
+|----------|-----|-----|-----|-------|-------|-------|-------|
+| **code** | $p$ | ... |  0  | $p+2$ |  $k$  |  $k$  |  $k$  |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjQ4MTE3Ml19
+eyJoaXN0b3J5IjpbOTQwNTUxMDQsLTk4NjQ4MTE3Ml19
 -->
