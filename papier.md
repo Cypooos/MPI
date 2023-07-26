@@ -1,7 +1,7 @@
 
 # La machine de Cythan
 
-La machine de Cythan constite en un tableau d'entier positifs $T[n]$ indexé par des entiers positifs.
+La machine de Cythan constite en un tableau infini d'entier positifs $T[n]$ indexé par des entiers positifs.
 A chaque itération de la machine, les deux opérations suivantes sont réalisées :
 1. $T[0] \larr T[0]+2$
 2. $T[T[T[0]-2]] \larr T[T[T[0]-1]]$
@@ -37,11 +37,13 @@ On a donc fait un saut conditionnel.
 D'une manière analogue, l'on peut faire des SWITCH, on l'on a une série de pointeurs vers lesquels sauter selon les différentes valeurs que peut prendre une case. Attention, le SWITCH ne marche que pour un nombre fini de cas, et écrasera les valeurs $T[i]$ pour tout les $i$ les valeurs possibles.
 
 ## Turing complete
-On monjtre que la machine de cythan est turing complete 
+On montre que la machine de cythan est turing complete en simulant l'automate cellulaire Rule 110, qui est Turing complete.
+
+Pour cela, on découpe le tableau en une série de blocs dont
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg1MjQxNTMsMTIwMzMzNTk4MiwtOT
-g2NDgxMTcyXX0=
+eyJoaXN0b3J5IjpbLTk4NzY5OTk3MCwxMjAzMzM1OTgyLC05OD
+Y0ODExNzJdfQ==
 -->
