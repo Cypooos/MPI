@@ -17,8 +17,9 @@ Enfaîte, ces deux opérations sont équivalentes à :
 ## Exemples de code
 
 On considère le code 
-|  |  |  |  |
-|--|--|--|--|
+| position | `0` | ... |  |
+|----------|--|--|--|
+| **code** | $p$ |  |  |
 
 
 
@@ -29,5 +30,5 @@ On considère le code
 |Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTgxNjA3NV19
+eyJoaXN0b3J5IjpbLTE3MzY5OTA2MzFdfQ==
 -->
