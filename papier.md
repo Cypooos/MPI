@@ -42,18 +42,24 @@ On montre que la machine de cythan est turing complete en simulant l'automate ce
 Pour cela, on découpe le tableau en une série de blocs $b_i$ dont ont donne le code :
 
 ```
-entry: 
+entry_i: 
   
 
-IF is_explored THEN entry_<>
-
+IF is_explored THEN
+	JUMP entry_{i+1}
+ELSE 
+	JUMP set_explored
+set_explored: 
+  is_explored <- one
+  JUMP
 is_explored: 0
+one:1
 value: 0
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTA0OTAxLDEyMDMzMzU5ODIsLTk4Nj
-Q4MTE3Ml19
+eyJoaXN0b3J5IjpbMTMyMDIwNzE1MSwxMjAzMzM1OTgyLC05OD
+Y0ODExNzJdfQ==
 -->
