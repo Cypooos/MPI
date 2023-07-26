@@ -29,8 +29,10 @@ Ce qui est l'équivalent à un `jump` à la case $k$.
 On considère le code 
 | position |  0  | ... | $p$ | $p+1$ | $p+2$ | $p+3$ | $p+4$ | $p+5$ | $p+6$ | $p+7$ |
 |----------|-----|-----|-----|-------|-------|-------|-------|-------|-------|-------|
-| **code** | $p$ | ... |  1  | $p+6$ |  $0$  |  BOOL |  $0$  | $p+7$ |  $k_\top$  |  $k$  |
+| **code** | $p$ | ... |  1  | $p+6$ |  $0$  |  BOOL |  $0$  | $p+7$ |  $k_\top$  |  $k_\bot$  |
 
+Ici, si BOOL = 1, alors après 2 itérations, on aura $T[0]=k_\top$
+si BOOL = 0, alors après 3 itérations, on aura $T[0]=k_\bot$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzgzNTM5MzYsLTk4NjQ4MTE3Ml19
+eyJoaXN0b3J5IjpbNzg0MzQzNTUzLC05ODY0ODExNzJdfQ==
 -->
