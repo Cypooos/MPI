@@ -7,7 +7,7 @@ A chaque itération de la machine, les deux opérations suivantes sont réalisé
 2. $T[T[T[0]-2]] \larr T[T[T[0]-1]]$
 
 Si l'état de la machine ne change pas après une itération, alors elle s’arrête.
-Pour comprendre ces deux opérations, il faut voir $T[0]$ comme l'*instruction pointer* de la machine, incrémenté à chaque itération, et voir la deuxième comme l'opération `mov T[0]-1 T[0]-2` 
+Pour comprendre ces deux opérations, il faut voir $T[0]$ comme l'*instruction pointer* de la machine, incrémenté à chaque itération, et voir la deuxième comme l'opération `mov T[0]-2 [T[0]-1]` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODMwNDQ1OF19
+eyJoaXN0b3J5IjpbLTY2NDU0Mjc4XX0=
 -->
