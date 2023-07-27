@@ -39,6 +39,8 @@ si BOOL = 0, alors après 3 itérations, on aura $T[0]=k_\bot$
 On a donc fait un saut conditionnel. 
 D'une manière analogue, l'on peut faire des SWITCH, on l'on a une série de pointeurs vers lesquels sauter selon les différentes valeurs que peut prendre une case. Attention, le SWITCH ne marche que pour un nombre fini de cas, et écrasera les valeurs $T[i]$ pour tout les $i$ dans les valeurs possibles.
 
+Si le code initiale est fini (si a partir d'un certain rang, $T$ est nul), alors 
+
 ## Turing complete
 On fait l'esquisse de la preuve que la machine de cythan est turing complete en simulant l'automate cellulaire Rule 110, qui est Turing complete.
 
@@ -91,7 +93,7 @@ L'entré du programme est les valeurs des variables booléennes initiale. La sor
 Alors, je conjecture que ce modèle de calcul est Turing Complete. Je pense que l'on peut re-créer Rule 110 dedans.
 De cette conjecture on peut en déduire que la machine de Cythan est Turing Complete.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDkwOTY1OCwtMTcwOTQ3OTQ3MiwtMT
+eyJoaXN0b3J5IjpbMTc4ODcyMTA0MSwtMTcwOTQ3OTQ3MiwtMT
 k1NTMzNjAzMiwxNjEwMjg0ODcsMTM3NzIzMDMwNCwxMzk1MTIy
 MTg0LDgyNTc1NTc1NSwxMjAzMzM1OTgyLC05ODY0ODExNzJdfQ
 ==
