@@ -14,7 +14,7 @@ En fait, ces deux opérations sont équivalentes aux opérations :
 2. $T[v_1] \larr T[v_2]$
 3. Si $T[0]$ n'a pas été modifié, alors $T[0] \larr T[0] + 2$
 
-L'état initial est une suite quelconque d'entiers potentiellement infinie.
+L'état initial est une suite quelconque d'entiers positif potentiellement infinie.
 
 ### JUMP
 
@@ -95,7 +95,7 @@ L'entré du programme est les valeurs des variables booléennes initiale. La sor
 Alors, je conjecture que ce modèle de calcul est Turing Complete. Je pense que l'on peut re-créer Rule 110 dedans.
 De cette conjecture on peut en déduire que la machine de Cythan est Turing Complete.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjQwMTQzNCwxNDQ3NzY1MjU4LC0xNz
+eyJoaXN0b3J5IjpbMTY1MDc0MDc3MCwxNDQ3NzY1MjU4LC0xNz
 A5NDc5NDcyLC0xOTU1MzM2MDMyLDE2MTAyODQ4NywxMzc3MjMw
 MzA0LDEzOTUxMjIxODQsODI1NzU1NzU1LDEyMDMzMzU5ODIsLT
 k4NjQ4MTE3Ml19
