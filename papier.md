@@ -76,11 +76,12 @@ $b_{1}$ accède à $b_0$ et $b_{3}$
 
 ## Généralisation
 
-On considère un graphe de flot de contrôle $G=(S,A)$ potentiellement infini tel que $S= S_1 \sqcup S_2$ et tel que 
-$\forall x \in S_1, $
+On considère un graphe de flot de contrôle $G=(S= S_1\sqcup S_2,A)$ potentiellement infini ayant seulement deux types de sommets :
+ - $S_1$ contiens des sommets de la forme $B_i \larr \top$ ou $B_i \larr \bot$
+ - $S_2$ contiens des sommets de 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDU0Mzk1OSwtMTcwOTQ3OTQ3MiwtMT
-k1NTMzNjAzMiwxNjEwMjg0ODcsMTM3NzIzMDMwNCwxMzk1MTIy
-MTg0LDgyNTc1NTc1NSwxMjAzMzM1OTgyLC05ODY0ODExNzJdfQ
-==
+eyJoaXN0b3J5IjpbLTE4MDUwODg3NjMsLTE3MDk0Nzk0NzIsLT
+E5NTUzMzYwMzIsMTYxMDI4NDg3LDEzNzcyMzAzMDQsMTM5NTEy
+MjE4NCw4MjU3NTU3NTUsMTIwMzMzNTk4MiwtOTg2NDgxMTcyXX
+0=
 -->
