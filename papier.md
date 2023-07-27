@@ -39,7 +39,7 @@ On a donc fait un saut conditionnel.
 D'une manière analogue, l'on peut faire des SWITCH, on l'on a une série de pointeurs vers lesquels sauter selon les différentes valeurs que peut prendre une case. Attention, le SWITCH ne marche que pour un nombre fini de cas, et écrasera les valeurs $T[i]$ pour tout les $i$ dans les valeurs possibles.
 
 ## Turing complete
-On montre que la machine de cythan est turing complete en simulant l'automate cellulaire Rule 110, qui est Turing complete.
+On fait l'esquisse de la preuve que la machine de cythan est turing complete en simulant l'automate cellulaire Rule 110, qui est Turing complete.
 
 Pour cela, on découpe le tableau en une série de blocs $b_i$ dont on donne le code d'un $b_i$ ci-dessous.
 Comme Rule 110 progresse des deux cotés, on a que le bloc $b_{2i}$ représente la case $i$ de Rule 110 et le bloc $b_{2i+1}$ représente la case $-(i+1)$
@@ -48,13 +48,13 @@ Si $i$ pair :
 ```
 entry_i: 
   SERIE_DE_IF
-	IF is_explored THEN
-		JUMP entry_{i+1}
-	ELSE 
-		JUMP set_explored
+  IF is_explored THEN
+    JUMP entry_{i+1}
+  ELSE 
+    JUMP set_explored
 set_explored: 
   is_explored <- one
-  JUMP block_{0}
+  JUMP entry_0
 is_explored: 0
 one:1
 value: 0
@@ -81,7 +81,7 @@ $$
 S \to |\ \text{if } V\text{ then } S \text{ else } S \text{ endif}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDI4NDg3LDEzNzcyMzAzMDQsMTM5NT
-EyMjE4NCw4MjU3NTU3NTUsMTIwMzMzNTk4MiwtOTg2NDgxMTcy
-XX0=
+eyJoaXN0b3J5IjpbMTUwOTIzOTQyOSwxNjEwMjg0ODcsMTM3Nz
+IzMDMwNCwxMzk1MTIyMTg0LDgyNTc1NTc1NSwxMjAzMzM1OTgy
+LC05ODY0ODExNzJdfQ==
 -->
