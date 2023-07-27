@@ -66,13 +66,13 @@ entry_i:
 value: 0
 ```
 
-Il y a aussi les cas $i\in\{0;1;2\}$ à traiter différemment :
+Avec `SERIE_DE_IF` l'arbre de diagrame de décision permettant de mettre à jour `VALUE`$_{i}$ depuis `VALUE`$_{i-2}$, `VALUE`$_{i}$ et `VALUE`$_{i+2}$
+
+Il y a aussi les cas $i\in\{0;1\}$ à traiter différemment (car $i-2<0$):
 $b_0$ accède à $b_{1}$ et $b_2$ 
 $b_{1}$ accède à $b_0$ et $b_{3}$
-$b_{2}$ accède à $b_{4}$ et $b_{0}$
 
-Avec `SERIE_DE_IF` l'arbre de diagrame de décision permettant de mettre à jour `VALUE`$_{i}$ depuis `VALUE`$_{i-2}$, `VALUE`$_{i}$ et `VALUE`$_{i+2}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTY2Nzk3OSw4MjU3NTU3NTUsMTIwMz
-MzNTk4MiwtOTg2NDgxMTcyXX0=
+eyJoaXN0b3J5IjpbNzE3NTg1Nzk3LDgyNTc1NTc1NSwxMjAzMz
+M1OTgyLC05ODY0ODExNzJdfQ==
 -->
