@@ -76,8 +76,10 @@ $b_{1}$ accède à $b_0$ et $b_{3}$
 
 ## Généralisation
 
+On considère un graphe de flot 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk0Nzk0NzIsLTE5NTUzMzYwMzIsMT
-YxMDI4NDg3LDEzNzcyMzAzMDQsMTM5NTEyMjE4NCw4MjU3NTU3
-NTUsMTIwMzMzNTk4MiwtOTg2NDgxMTcyXX0=
+eyJoaXN0b3J5IjpbLTEwMTg4ODk5NzIsLTE3MDk0Nzk0NzIsLT
+E5NTUzMzYwMzIsMTYxMDI4NDg3LDEzNzcyMzAzMDQsMTM5NTEy
+MjE4NCw4MjU3NTU3NTUsMTIwMzMzNTk4MiwtOTg2NDgxMTcyXX
+0=
 -->
