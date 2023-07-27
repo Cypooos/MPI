@@ -76,10 +76,10 @@ $b_{1}$ accède à $b_0$ et $b_{3}$
 
 ## Généralisation
 
-On considère un graphe de flot 
+On considère un graphe de flot de contrôle $G=(S,A)$ infini tel que $S= S_1 \c$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTg4ODk5NzIsLTE3MDk0Nzk0NzIsLT
-E5NTUzMzYwMzIsMTYxMDI4NDg3LDEzNzcyMzAzMDQsMTM5NTEy
-MjE4NCw4MjU3NTU3NTUsMTIwMzMzNTk4MiwtOTg2NDgxMTcyXX
-0=
+eyJoaXN0b3J5IjpbMTExOTk4MTg4MCwtMTcwOTQ3OTQ3MiwtMT
+k1NTMzNjAzMiwxNjEwMjg0ODcsMTM3NzIzMDMwNCwxMzk1MTIy
+MTg0LDgyNTc1NTc1NSwxMjAzMzM1OTgyLC05ODY0ODExNzJdfQ
+==
 -->
