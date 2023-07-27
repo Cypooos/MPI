@@ -23,8 +23,9 @@ On considère le code
 |----------|-----|-----|-----|-------|-------|
 | **code** | $p$ | ... |  0  | $p+2$ | $k$ |
 
-Si l'on effectue une itération, l'on fera $T[T[T[0]+2-2]] = T[T[p]]=T[0] \larr T[T[T[0]+2-1]] = T[T[p+1]]=T[p+2]=k$, soit l'opération $T[0] \larr k$
-Ce qui est l'équivalent à un `jump` à la case $k$.
+Si l'on effectue une itération, l'on fera
+$$T[T[T[0]+2-2]] = T[T[p]]=T[0] \longleftarrow T[T[T[0]+2-1]] = T[T[p+1]]=T[p+2]=k$$
+Soit l'opération $T[0] \larr k$ : ce qui est l'équivalent à un `jump` à la case $k$.
 
 ### IF BOOL
 
@@ -84,14 +85,14 @@ On évalue le graphe à partir d'un sommet $s$, en gardant en mémoire une liste
  - Si $s = (B_i\larr X)$, on modifie notre $i$-ème variable booléenne pour prendre $X$ et évalue à partir de l'unique fils de $s$.
  - Si $s=(\text{if }B_i)$, on regarde notre $i$-ème variable booléenne, notée $X$. Si $X=\top$, alors on évalue le fils étiqueté par $\top$. Sinon, on évalue le fils étiqueté par $\bot$.
 
-Le programme s'arrette si on évalue un $s\in F$, un certain ensemble.
+Le programme s’arrête si on évalue un $s\in F$, un certain ensemble.
 L'entré du programme est les valeurs des variables booléennes initiale. La sortie est les valeurs des variables booléennes finale.
 
-Alors, je conjecture que ce modèle de calcul est Turing Complete. je pense que l'on peut re-créer Rule 110 dedans.
+Alors, je conjecture que ce modèle de calcul est Turing Complete. Je pense que l'on peut re-créer Rule 110 dedans.
 De cette conjecture on peut en déduire que la machine de Cythan est Turing Complete.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk3MzM3ODQsLTE3MDk0Nzk0NzIsLT
-E5NTUzMzYwMzIsMTYxMDI4NDg3LDEzNzcyMzAzMDQsMTM5NTEy
-MjE4NCw4MjU3NTU3NTUsMTIwMzMzNTk4MiwtOTg2NDgxMTcyXX
-0=
+eyJoaXN0b3J5IjpbLTEyMDkwOTY1OCwtMTcwOTQ3OTQ3MiwtMT
+k1NTMzNjAzMiwxNjEwMjg0ODcsMTM3NzIzMDMwNCwxMzk1MTIy
+MTg0LDgyNTc1NTc1NSwxMjAzMzM1OTgyLC05ODY0ODExNzJdfQ
+==
 -->
