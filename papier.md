@@ -83,7 +83,7 @@ $b_{1}$ accède aux valeurs dans $b_0$ et $b_{3}$
 
 On considère un graphe de flot de contrôle $G=(S= S_1\sqcup S_2,A)$ potentiellement infini ayant seulement deux types de sommets :
  - $S_1$ contiens des sommets de la forme $B_i \larr \top$ ou $B_i \larr \bot$. Ces sommets n'ont qu'une seule arête sortante.
- - $S_2$ contiens des sommets de la forme $\text{if }B_i$. Ces sommets ont que 2 arêtes sortantes, étiquetées par $\top$ ou $\bot$.
+ - $S_2$ contiens des sommets de la forme $\text{if }B_i$. Ces sommets n'ont que 2 arêtes sortantes, étiquetées par $\top$ ou $\bot$.
 
 On évalue le graphe à partir d'un sommet $s$, en gardant en mémoire une liste de variables booléennes vraie ou fausses :
  - Si $s = (B_i\larr X)$, on modifie notre $i$-ème variable booléenne pour prendre $X$ et évalue à partir de l'unique fils de $s$.
@@ -95,8 +95,8 @@ L'entré du programme est les valeurs des variables booléennes initiale. La sor
 Alors, je conjecture que ce modèle de calcul est Turing Complete. Je pense que l'on peut re-créer Rule 110 dedans.
 De cette conjecture on peut en déduire que la machine de Cythan est Turing Complete.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDc0MDc3MCwxNDQ3NzY1MjU4LC0xNz
-A5NDc5NDcyLC0xOTU1MzM2MDMyLDE2MTAyODQ4NywxMzc3MjMw
-MzA0LDEzOTUxMjIxODQsODI1NzU1NzU1LDEyMDMzMzU5ODIsLT
-k4NjQ4MTE3Ml19
+eyJoaXN0b3J5IjpbLTExNTE5NDgxNTEsMTY1MDc0MDc3MCwxND
+Q3NzY1MjU4LC0xNzA5NDc5NDcyLC0xOTU1MzM2MDMyLDE2MTAy
+ODQ4NywxMzc3MjMwMzA0LDEzOTUxMjIxODQsODI1NzU1NzU1LD
+EyMDMzMzU5ODIsLTk4NjQ4MTE3Ml19
 -->
