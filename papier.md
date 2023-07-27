@@ -10,9 +10,11 @@ Si l'état de la machine ne change pas après une itération, alors elle s’arr
 Pour comprendre ces deux opérations, il faut voir $T[0]$ comme l'*instruction pointer* de la machine, incrémenté à chaque itération, et voir la deuxième comme l'opération `mov T[T[0]-2] [T[T[0]-1]]` .
 
 En fait, ces deux opérations sont équivalentes aux instructions :
-- $(v_1,v_2) = (T[IP],T[IP+1])$ avec $IP = T[0]$, l'*Instruction pointeur*
-- $T[v_1] \larr T[v_2]$
-- Si $T[0]$ n'a pas été modifié, alors $T[0] \larr T[0] + 2$
+1. $(v_1,v_2) = (T[IP],T[IP+1])$ avec $IP = T[0]$, l'*Instruction pointeur*
+2. $T[v_1] \larr T[v_2]$
+3. Si $T[0]$ n'a pas été modifié, alors $T[0] \larr T[0] + 2$
+
+L'état initial est une suite quelconque d'entiers potentiellement infinie.
 
 ### JUMP
 
@@ -79,6 +81,6 @@ $$
 S \to |\ \text{if } V\text{ then } S \text{ else } S \text{ endif}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQxNjQxNTQsMTM5NTEyMjE4NCw4Mj
-U3NTU3NTUsMTIwMzMzNTk4MiwtOTg2NDgxMTcyXX0=
+eyJoaXN0b3J5IjpbMTM3NzIzMDMwNCwxMzk1MTIyMTg0LDgyNT
+c1NTc1NSwxMjAzMzM1OTgyLC05ODY0ODExNzJdfQ==
 -->
