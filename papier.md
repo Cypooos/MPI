@@ -76,9 +76,9 @@ $b_{1}$ accède à $b_0$ et $b_{3}$
 
 les programmes généeré par la grammaire 
 $$
-S \rarr
+S \to |\ \text{if } V\text{ then } S \text{ else } S \text{ endif}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODYzMjM3NSw4MjU3NTU3NTUsMTIwMz
+eyJoaXN0b3J5IjpbMTM5NTEyMjE4NCw4MjU3NTU3NTUsMTIwMz
 MzNTk4MiwtOTg2NDgxMTcyXX0=
 -->
