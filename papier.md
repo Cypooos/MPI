@@ -76,12 +76,12 @@ $b_{1}$ accède à $b_0$ et $b_{3}$
 
 ## Généralisation
 
-les programmes généeré par la grammaire 
+les programmes généré par la grammaire 
 $$
 S \to |\ \text{if } V\text{ then } S \text{ else } S \text{ endif}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTIzOTQyOSwxNjEwMjg0ODcsMTM3Nz
-IzMDMwNCwxMzk1MTIyMTg0LDgyNTc1NTc1NSwxMjAzMzM1OTgy
-LC05ODY0ODExNzJdfQ==
+eyJoaXN0b3J5IjpbLTE5NTUzMzYwMzIsMTYxMDI4NDg3LDEzNz
+cyMzAzMDQsMTM5NTEyMjE4NCw4MjU3NTU3NTUsMTIwMzMzNTk4
+MiwtOTg2NDgxMTcyXX0=
 -->
