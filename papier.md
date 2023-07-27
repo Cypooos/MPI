@@ -87,9 +87,10 @@ On évalue le graphe à partir d'un sommet $s$, en gardant en mémoire une liste
 Le programme s'arrette si on évalue un $s\in F$, un certain ensemble.
 L'entré du programme est les valeurs des variables booléennes initiale. La sortie est les valeurs des variables booléennes finale.
 
-Alors, je conjecture queles p
+Alors, je conjecture que ce modèle de calcul est Turing Complete. je pense que l'on peut re-créer Rule 110 dedans.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0MTk4MDkwLC0xNzA5NDc5NDcyLC0xOT
-U1MzM2MDMyLDE2MTAyODQ4NywxMzc3MjMwMzA0LDEzOTUxMjIx
-ODQsODI1NzU1NzU1LDEyMDMzMzU5ODIsLTk4NjQ4MTE3Ml19
+eyJoaXN0b3J5IjpbMTMzMzgwNTQ4NSwtMTcwOTQ3OTQ3MiwtMT
+k1NTMzNjAzMiwxNjEwMjg0ODcsMTM3NzIzMDMwNCwxMzk1MTIy
+MTg0LDgyNTc1NTc1NSwxMjAzMzM1OTgyLC05ODY0ODExNzJdfQ
+==
 -->
