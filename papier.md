@@ -68,7 +68,7 @@ entry_i:
 value: 0
 ```
 
-Avec `SERIE_DE_IF` l'arbre de diagrame de décision permettant de mettre à jour `VALUE`$_{i}$ depuis `VALUE`$_{i-2}$, `VALUE`$_{i}$ et `VALUE`$_{i+2}$
+Avec `SERIE_DE_IF` l'arbre de diagramme de décision permettant de mettre à jour `VALUE`$_{i}$ depuis `VALUE`$_{i-2}$, `VALUE`$_{i}$ et `VALUE`$_{i+2}$
 
 Il y a aussi les cas $i\in\{0;1\}$ à traiter différemment (car $i-2<0$):
 $b_0$ accède à $b_{1}$ et $b_2$ 
@@ -76,12 +76,8 @@ $b_{1}$ accède à $b_0$ et $b_{3}$
 
 ## Généralisation
 
-les programmes généré par la grammaire 
-$$
-S \to |\ \text{if } V\text{ then } S \text{ else } S \text{ endif}
-$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTUzMzYwMzIsMTYxMDI4NDg3LDEzNz
-cyMzAzMDQsMTM5NTEyMjE4NCw4MjU3NTU3NTUsMTIwMzMzNTk4
-MiwtOTg2NDgxMTcyXX0=
+eyJoaXN0b3J5IjpbLTE3MDk0Nzk0NzIsLTE5NTUzMzYwMzIsMT
+YxMDI4NDg3LDEzNzcyMzAzMDQsMTM5NTEyMjE4NCw4MjU3NTU3
+NTUsMTIwMzMzNTk4MiwtOTg2NDgxMTcyXX0=
 -->
