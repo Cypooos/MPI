@@ -88,9 +88,10 @@ Le programme s'arrette si on évalue un $s\in F$, un certain ensemble.
 L'entré du programme est les valeurs des variables booléennes initiale. La sortie est les valeurs des variables booléennes finale.
 
 Alors, je conjecture que ce modèle de calcul est Turing Complete. je pense que l'on peut re-créer Rule 110 dedans.
+De cette conjecture on peut en déduire que la machine de Cythan est Turing Complete.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzgwNTQ4NSwtMTcwOTQ3OTQ3MiwtMT
-k1NTMzNjAzMiwxNjEwMjg0ODcsMTM3NzIzMDMwNCwxMzk1MTIy
-MTg0LDgyNTc1NTc1NSwxMjAzMzM1OTgyLC05ODY0ODExNzJdfQ
-==
+eyJoaXN0b3J5IjpbLTIwMzk3MzM3ODQsLTE3MDk0Nzk0NzIsLT
+E5NTUzMzYwMzIsMTYxMDI4NDg3LDEzNzcyMzAzMDQsMTM5NTEy
+MjE4NCw4MjU3NTU3NTUsMTIwMzMzNTk4MiwtOTg2NDgxMTcyXX
+0=
 -->
