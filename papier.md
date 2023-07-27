@@ -10,7 +10,7 @@ Si l'état de la machine ne change pas après une itération, alors elle s’arr
 Pour comprendre ces deux opérations, il faut voir $T[0]$ comme le *pointer d'instruction* de la machine, incrémenté à chaque itération, et voir la deuxième comme l'opération `mov T[T[0]-2] [T[T[0]-1]]` .
 
 En fait, ces deux opérations sont équivalentes aux opérations :
-1. $(v_1,v_2) = (T[IP],T[IP+1])$ avec $IP = T[0]$, le*pointeur d'instruction*
+1. $(v_1,v_2) = (T[IP],T[IP+1])$ avec $IP = T[0]$, le *pointeur d'instruction*
 2. $T[v_1] \larr T[v_2]$
 3. Si $T[0]$ n'a pas été modifié, alors $T[0] \larr T[0] + 2$
 
@@ -95,8 +95,8 @@ L'entré du programme est les valeurs des variables booléennes initiale. La sor
 Alors, je conjecture que ce modèle de calcul est Turing Complete. Je pense que l'on peut re-créer Rule 110 dedans.
 De cette conjecture on peut en déduire que la machine de Cythan est Turing Complete.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0Nzc2NTI1OCwtMTcwOTQ3OTQ3MiwtMT
-k1NTMzNjAzMiwxNjEwMjg0ODcsMTM3NzIzMDMwNCwxMzk1MTIy
-MTg0LDgyNTc1NTc1NSwxMjAzMzM1OTgyLC05ODY0ODExNzJdfQ
-==
+eyJoaXN0b3J5IjpbLTMyNjQwMTQzNCwxNDQ3NzY1MjU4LC0xNz
+A5NDc5NDcyLC0xOTU1MzM2MDMyLDE2MTAyODQ4NywxMzc3MjMw
+MzA0LDEzOTUxMjIxODQsODI1NzU1NzU1LDEyMDMzMzU5ODIsLT
+k4NjQ4MTE3Ml19
 -->
