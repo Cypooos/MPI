@@ -72,7 +72,13 @@ Il y a aussi les cas $i\in\{0;1\}$ à traiter différemment (car $i-2<0$):
 $b_0$ accède à $b_{1}$ et $b_2$ 
 $b_{1}$ accède à $b_0$ et $b_{3}$
 
+## Généralisation
+
+les programmes généeré par la grammaire 
+$$
+S \rarr
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3NTg1Nzk3LDgyNTc1NTc1NSwxMjAzMz
-M1OTgyLC05ODY0ODExNzJdfQ==
+eyJoaXN0b3J5IjpbLTY5ODYzMjM3NSw4MjU3NTU3NTUsMTIwMz
+MzNTk4MiwtOTg2NDgxMTcyXX0=
 -->
