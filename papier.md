@@ -82,12 +82,12 @@ On considère un graphe de flot de contrôle $G=(S= S_1\sqcup S_2,A)$ potentiell
 
 On évalue le graphe à partir d'un sommet $s$, en gardant en mémoire une liste de variables booléennes vraie ou fausses :
  - Si $s = (B_i\larr X)$, on modifie notre $i$-ème variable booléenne pour prendre $X$ et évalue à partir de l'unique fils de $s$.
- - Si $s=(\text{if }B_i)$, on regarde notre $i$-ème variable booléenne.
+ - Si $s=(\text{if }B_i)$, on regarde notre $i$-ème variable booléenne, notée $X$. Si $X=\top$, alors on évalue le fils   
 
 Le programme s'arrette si on évalue un $s\in F$, un certain ensemble.
-l'entré du programme est les valeurs des variables booléennes initialle. La sortie est les valeurs des variables booléenne
+L'entré du programme est les valeurs des variables booléennes initiale. La sortie est les valeurs des variables booléennes finale.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3OTA1MjQwNCwtMTcwOTQ3OTQ3MiwtMT
+eyJoaXN0b3J5IjpbMTY3MDAzMDE1NiwtMTcwOTQ3OTQ3MiwtMT
 k1NTMzNjAzMiwxNjEwMjg0ODcsMTM3NzIzMDMwNCwxMzk1MTIy
 MTg0LDgyNTc1NTc1NSwxMjAzMzM1OTgyLC05ODY0ODExNzJdfQ
 ==
