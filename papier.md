@@ -82,13 +82,14 @@ On considère un graphe de flot de contrôle $G=(S= S_1\sqcup S_2,A)$ potentiell
 
 On évalue le graphe à partir d'un sommet $s$, en gardant en mémoire une liste de variables booléennes vraie ou fausses :
  - Si $s = (B_i\larr X)$, on modifie notre $i$-ème variable booléenne pour prendre $X$ et évalue à partir de l'unique fils de $s$.
- - Si $s=(\text{if }B_i)$, on regarde notre $i$-ème variable booléenne, notée $X$. Si $X=\top$, alors on évalue le fils   
+ - Si $s=(\text{if }B_i)$, on regarde notre $i$-ème variable booléenne, notée $X$. Si $X=\top$, alors on évalue le fils étiqueté par $\top$. Sinon, on évalue le fils étiqueté par $\bot$.
 
 Le programme s'arrette si on évalue un $s\in F$, un certain ensemble.
 L'entré du programme est les valeurs des variables booléennes initiale. La sortie est les valeurs des variables booléennes finale.
+
+Alors, je conjecture queles p
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MDAzMDE1NiwtMTcwOTQ3OTQ3MiwtMT
-k1NTMzNjAzMiwxNjEwMjg0ODcsMTM3NzIzMDMwNCwxMzk1MTIy
-MTg0LDgyNTc1NTc1NSwxMjAzMzM1OTgyLC05ODY0ODExNzJdfQ
-==
+eyJoaXN0b3J5IjpbNDg0MTk4MDkwLC0xNzA5NDc5NDcyLC0xOT
+U1MzM2MDMyLDE2MTAyODQ4NywxMzc3MjMwMzA0LDEzOTUxMjIx
+ODQsODI1NzU1NzU1LDEyMDMzMzU5ODIsLTk4NjQ4MTE3Ml19
 -->
