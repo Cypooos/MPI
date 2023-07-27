@@ -76,9 +76,10 @@ $b_{1}$ accède à $b_0$ et $b_{3}$
 
 ## Généralisation
 
-On considère un graphe de flot de contrôle $G=(S,A)$ infini tel que $S= S_1 \c$
+On considère un graphe de flot de contrôle $G=(S,A)$ potentiellement infini tel que $S= S_1 \sqcup S_2$ et tel que 
+$\forall x \in S_1, $
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTk4MTg4MCwtMTcwOTQ3OTQ3MiwtMT
+eyJoaXN0b3J5IjpbMTA4NDU0Mzk1OSwtMTcwOTQ3OTQ3MiwtMT
 k1NTMzNjAzMiwxNjEwMjg0ODcsMTM3NzIzMDMwNCwxMzk1MTIy
 MTg0LDgyNTc1NTc1NSwxMjAzMzM1OTgyLC05ODY0ODExNzJdfQ
 ==
