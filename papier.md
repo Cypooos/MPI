@@ -34,7 +34,7 @@ On considère le code
 Ici, si BOOL = 1, alors après 2 itérations, on aura $T[0]=k_\top$
 si BOOL = 0, alors après 3 itérations, on aura $T[0]=k_\bot$
 On a donc fait un saut conditionnel. 
-D'une manière analogue, l'on peut faire des SWITCH, on l'on a une série de pointeurs vers lesquels sauter selon les différentes valeurs que peut prendre une case. Attention, le SWITCH ne marche que pour un nombre fini de cas, et écrasera les valeurs $T[i]$ pour tout les $i$ les valeurs possibles.
+D'une manière analogue, l'on peut faire des SWITCH, on l'on a une série de pointeurs vers lesquels sauter selon les différentes valeurs que peut prendre une case. Attention, le SWITCH ne marche que pour un nombre fini de cas, et écrasera les valeurs $T[i]$ pour tout les $i$ dans les valeurs possibles.
 
 ## Turing complete
 On montre que la machine de cythan est turing complete en simulant l'automate cellulaire Rule 110, qui est Turing complete.
@@ -68,6 +68,6 @@ value: 0
 
 Avec `SERIE_DE_IF` l'arbre de diagrame de décision permettant de mettre à jour `VALUE`$_{i}$ depuis `VALUE`$_{i-2}$, `VALUE`$_{i}$ et `VALUE`$_{i+2}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1NzU1NzU1LDEyMDMzMzU5ODIsLTk4Nj
-Q4MTE3Ml19
+eyJoaXN0b3J5IjpbOTgxNTI1OTUsODI1NzU1NzU1LDEyMDMzMz
+U5ODIsLTk4NjQ4MTE3Ml19
 -->
