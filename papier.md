@@ -7,10 +7,10 @@ A chaque itération de la machine, les deux opérations suivantes sont réalisé
 2. $T[T[T[0]-2]] \larr T[T[T[0]-1]]$
 
 Si l'état de la machine ne change pas après une itération, alors elle s’arrête.
-Pour comprendre ces deux opérations, il faut voir $T[0]$ comme l'*instruction pointer* de la machine, incrémenté à chaque itération, et voir la deuxième comme l'opération `mov T[T[0]-2] [T[T[0]-1]]` .
+Pour comprendre ces deux opérations, il faut voir $T[0]$ comme le *pointer d'instruction* de la machine, incrémenté à chaque itération, et voir la deuxième comme l'opération `mov T[T[0]-2] [T[T[0]-1]]` .
 
-En fait, ces deux opérations sont équivalentes aux instructions :
-1. $(v_1,v_2) = (T[IP],T[IP+1])$ avec $IP = T[0]$, l'*Instruction pointeur*
+En fait, ces deux opérations sont équivalentes aux opérations :
+1. $(v_1,v_2) = (T[IP],T[IP+1])$ avec $IP = T[0]$, le*pointeur d'instruction*
 2. $T[v_1] \larr T[v_2]$
 3. Si $T[0]$ n'a pas été modifié, alors $T[0] \larr T[0] + 2$
 
@@ -40,7 +40,7 @@ On a donc fait un saut conditionnel.
 
 D'une manière analogue, l'on peut faire des SWITCH, on l'on a une série de pointeurs vers lesquels sauter selon les différentes valeurs que peut prendre une case. Attention, le SWITCH ne marche que pour un nombre fini de cas, et écrasera les valeurs $T[i]$ pour tout les $i$ dans les valeurs possibles.
 
-Si le code initial est fini (si a partir d'un certain rang $i$, $T_{\text{init}}$ est nul), alors en posant $x=\underset{0<n<i}{\max}\ T_{\text{init}}[n]$, on a que $T[j]$ ne pourra jamais dépasser $x$ pour tout $j>0$ et pour tout, la mémoire est donc bornée.
+Si le code initial est fini (si a partir d'un certain rang $i$, $T_{\text{init}}$ est nul), alors en posant $x=\underset{0<n<i}{\max}\ T_{\text{init}}[n]$, on a que $T[j]$ ne pourra jamais dépasser $x$ pour tout $j\neq 0$, la mémoire est donc bornée.
 Une preuve que la machine de Cythan soit Turing Complete utilisera donc forcément un code initial infini.
 
 ## Turing complete
@@ -76,8 +76,8 @@ value: 0
 Avec `SERIE_DE_IF` l'arbre de diagramme de décision permettant de mettre à jour `VALUE`$_{i}$ depuis `VALUE`$_{i-2}$, `VALUE`$_{i}$ et `VALUE`$_{i+2}$
 
 Il y a aussi les cas $i\in\{0;1\}$ à traiter différemment (car $i-2<0$):
-$b_0$ accède à $b_{1}$ et $b_2$ 
-$b_{1}$ accède à $b_0$ et $b_{3}$
+$b_0$ accède aux valeurs dans $b_{1}$ et $b_2$ 
+$b_{1}$ accède aux valeurs dans $b_0$ et $b_{3}$
 
 ## Généralisation
 
@@ -95,7 +95,7 @@ L'entré du programme est les valeurs des variables booléennes initiale. La sor
 Alors, je conjecture que ce modèle de calcul est Turing Complete. Je pense que l'on peut re-créer Rule 110 dedans.
 De cette conjecture on peut en déduire que la machine de Cythan est Turing Complete.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTg5MzMxMCwtMTcwOTQ3OTQ3MiwtMT
+eyJoaXN0b3J5IjpbMTQ0Nzc2NTI1OCwtMTcwOTQ3OTQ3MiwtMT
 k1NTMzNjAzMiwxNjEwMjg0ODcsMTM3NzIzMDMwNCwxMzk1MTIy
 MTg0LDgyNTc1NTc1NSwxMjAzMzM1OTgyLC05ODY0ODExNzJdfQ
 ==
