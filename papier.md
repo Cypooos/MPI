@@ -80,11 +80,12 @@ On considère un graphe de flot de contrôle $G=(S= S_1\sqcup S_2,A)$ potentiell
  - $S_1$ contiens des sommets de la forme $B_i \larr \top$ ou $B_i \larr \bot$. Ces sommets n'ont qu'une seule arête sortante.
  - $S_2$ contiens des sommets de la forme $\text{if }B_i$. Ces sommets ont que 2 arêtes sortantes, étiquetées par $\top$ ou $\bot$.
 
-
 On évalue le graphe à partir d'un sommet $s$, en gardant en mémoire une liste de variables booléennes vraie ou fausses :
- - Si $s\in S_1$, on af
+ - Si $s = (B_i\larr \top)$, on modifie notre $i$-ème variable booléenne et évalue à partir de l'unique fils.
+ - Si $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1Mjk2MTI1LC0xNzA5NDc5NDcyLC0xOT
-U1MzM2MDMyLDE2MTAyODQ4NywxMzc3MjMwMzA0LDEzOTUxMjIx
-ODQsODI1NzU1NzU1LDEyMDMzMzU5ODIsLTk4NjQ4MTE3Ml19
+eyJoaXN0b3J5IjpbLTE3ODU3OTg0NSwtMTcwOTQ3OTQ3MiwtMT
+k1NTMzNjAzMiwxNjEwMjg0ODcsMTM3NzIzMDMwNCwxMzk1MTIy
+MTg0LDgyNTc1NTc1NSwxMjAzMzM1OTgyLC05ODY0ODExNzJdfQ
+==
 -->
