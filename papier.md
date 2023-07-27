@@ -77,11 +77,12 @@ $b_{1}$ accède à $b_0$ et $b_{3}$
 ## Généralisation
 
 On considère un graphe de flot de contrôle $G=(S= S_1\sqcup S_2,A)$ potentiellement infini ayant seulement deux types de sommets :
- - $S_1$ contiens des sommets de la forme $B_i \larr \top$ ou $B_i \larr \bot$
- - $S_2$ contiens des sommets de 
+ - $S_1$ contiens des sommets de la forme $B_i \larr \top$ ou $B_i \larr \bot$. Ces sommets n'ont qu'une seule arête sortante.
+ - $S_2$ contiens des sommets de la forme $\text{if }B_i$. Ces sommets ont que 2 arêtes sortantes, étiquetées par $\top$ ou $\bot$
+
+On évalue le graphe 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDUwODg3NjMsLTE3MDk0Nzk0NzIsLT
-E5NTUzMzYwMzIsMTYxMDI4NDg3LDEzNzcyMzAzMDQsMTM5NTEy
-MjE4NCw4MjU3NTU3NTUsMTIwMzMzNTk4MiwtOTg2NDgxMTcyXX
-0=
+eyJoaXN0b3J5IjpbNzM0OTA0MzI0LC0xNzA5NDc5NDcyLC0xOT
+U1MzM2MDMyLDE2MTAyODQ4NywxMzc3MjMwMzA0LDEzOTUxMjIx
+ODQsODI1NzU1NzU1LDEyMDMzMzU5ODIsLTk4NjQ4MTE3Ml19
 -->
