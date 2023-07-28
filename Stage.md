@@ -16,6 +16,8 @@
 - Pour calculer $AB$, transposer $B$ dans la ram pour utilliser les stack L1
 - Jean Gallier fait des cours sur la logique
 - [Projet Euler pour créer des exercices de colles](https://projecteuler.net/problem=215)
+- Coder `val memo` une fonctionelle faisant de la mémoïsation automatiquement, aka
+`let fib = meme (fun fib n -> if n <= 1 then 1 else fib (n-2)`
 ## Fonctionnement d'un prouveur automatique
 ### Etape 1 : Un solveur SAT
 Naif: Retour sur Trace
@@ -108,10 +110,10 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MjQ1MDg0MCw5NzI0MzQ3NzAsMTg5Mz
-czMTE1OSwtMTQ0NzA0MzI4NCwxNjM0NzY0MDQ4LC0xMTQ4MTcy
-NDU2LC0xMTQ2MjY1NDkxLC0yMDk4MDQzNDk3LDg5OTY5OTY1My
-wtMjAyMTQwMDI2MywxMjM3OTE3MTA3LDEwMTM4MDYyNywyODU0
-MjY5MjksLTEwMTY0MjE3ODksLTE3MDEwNTczMDAsMTk2NDM3MT
-k0XX0=
+eyJoaXN0b3J5IjpbLTk4NTY0ODUzNywxNzcyNDUwODQwLDk3Mj
+QzNDc3MCwxODkzNzMxMTU5LC0xNDQ3MDQzMjg0LDE2MzQ3NjQw
+NDgsLTExNDgxNzI0NTYsLTExNDYyNjU0OTEsLTIwOTgwNDM0OT
+csODk5Njk5NjUzLC0yMDIxNDAwMjYzLDEyMzc5MTcxMDcsMTAx
+MzgwNjI3LDI4NTQyNjkyOSwtMTAxNjQyMTc4OSwtMTcwMTA1Nz
+MwMCwxOTY0MzcxOTRdfQ==
 -->
