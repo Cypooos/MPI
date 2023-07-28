@@ -15,6 +15,7 @@
 - Liste doublement chainé en OCaml avec `type 'a lidb = | Null | E of {mutable before:lidb; mutable after:lidb; mutable val: 'a}`
 - Pour calculer $AB$, transposer $B$ dans la ram pour utilliser les stack L1
 - Jean Gallier fait des cours sur la logique
+- projet Euler pour créer des exercices de colles
 ## Fonctionnement d'un prouveur automatique
 ### Etape 1 : Un solveur SAT
 Naif: Retour sur Trace
@@ -107,9 +108,9 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzczMTE1OSwtMTQ0NzA0MzI4NCwxNj
-M0NzY0MDQ4LC0xMTQ4MTcyNDU2LC0xMTQ2MjY1NDkxLC0yMDk4
-MDQzNDk3LDg5OTY5OTY1MywtMjAyMTQwMDI2MywxMjM3OTE3MT
-A3LDEwMTM4MDYyNywyODU0MjY5MjksLTEwMTY0MjE3ODksLTE3
-MDEwNTczMDAsMTk2NDM3MTk0XX0=
+eyJoaXN0b3J5IjpbOTcyNDM0NzcwLDE4OTM3MzExNTksLTE0ND
+cwNDMyODQsMTYzNDc2NDA0OCwtMTE0ODE3MjQ1NiwtMTE0NjI2
+NTQ5MSwtMjA5ODA0MzQ5Nyw4OTk2OTk2NTMsLTIwMjE0MDAyNj
+MsMTIzNzkxNzEwNywxMDEzODA2MjcsMjg1NDI2OTI5LC0xMDE2
+NDIxNzg5LC0xNzAxMDU3MzAwLDE5NjQzNzE5NF19
 -->
