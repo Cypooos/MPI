@@ -18,6 +18,9 @@
 - [Projet Euler pour créer des exercices de colles](https://projecteuler.net/problem=215)
 - Coder `val memo` une fonctionelle faisant de la mémoïsation automatiquement, aka
 `let fib = memo (fun fib n -> if n <= 1 then 1 else fib (n-2) + fib (n-1))`
+
+- `let li = 1::li;; li=li;;` ne termine pas, 
+`type recl = {v:int, q:recl};;let rec a={`
 ## Fonctionnement d'un prouveur automatique
 ### Etape 1 : Un solveur SAT
 Naif: Retour sur Trace
@@ -110,10 +113,10 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4MzgwNDI3LDE3NzI0NTA4NDAsOTcyND
-M0NzcwLDE4OTM3MzExNTksLTE0NDcwNDMyODQsMTYzNDc2NDA0
-OCwtMTE0ODE3MjQ1NiwtMTE0NjI2NTQ5MSwtMjA5ODA0MzQ5Ny
-w4OTk2OTk2NTMsLTIwMjE0MDAyNjMsMTIzNzkxNzEwNywxMDEz
-ODA2MjcsMjg1NDI2OTI5LC0xMDE2NDIxNzg5LC0xNzAxMDU3Mz
-AwLDE5NjQzNzE5NF19
+eyJoaXN0b3J5IjpbLTExNDAwMzk5NCwzNzgzODA0MjcsMTc3Mj
+Q1MDg0MCw5NzI0MzQ3NzAsMTg5MzczMTE1OSwtMTQ0NzA0MzI4
+NCwxNjM0NzY0MDQ4LC0xMTQ4MTcyNDU2LC0xMTQ2MjY1NDkxLC
+0yMDk4MDQzNDk3LDg5OTY5OTY1MywtMjAyMTQwMDI2MywxMjM3
+OTE3MTA3LDEwMTM4MDYyNywyODU0MjY5MjksLTEwMTY0MjE3OD
+ksLTE3MDEwNTczMDAsMTk2NDM3MTk0XX0=
 -->
