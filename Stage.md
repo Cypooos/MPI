@@ -26,6 +26,8 @@ En fait, les trois termine avec la même erreur, mais dans le cas 3 OCaml détec
 
 - On peut créer ces propres opérateurs `let` et `and` en ocaml : https://v2.ocaml.org/manual/bindingops.html
 - On peut créer des [fonctions polymorphique universellement quantifié](https://v2.ocaml.org/manual/polymorphism.html) pour éviter de dépasser les weaks ou préciser la généralisation d'un type.
+- `golly` implémente l'algo du HashLife, utillisé pour faire des execution rapide du jeu de la vie / Rule 110, une sorte de mémoisation spaciale et temporelle
+- 
 
 ## Fonctionnement d'un prouver automatique
 ### Etape 1 : Un solveur SAT
@@ -100,8 +102,8 @@ A continuer.
 
 ```ocaml
 type t = T of (t -> t);;
-let application (T f) x = f x;;
-let delta = (fun 
+let app (T f) x = f x;;
+let delta = (fun x -> app x x)
 (* ?? *)
 ```
 2. Avec l'option `-rectype`, on peut définir l'opérateur point-fixe :
@@ -121,7 +123,7 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDM0MzUxNCwtMjA3MzMzNzk5NCwtOD
+eyJoaXN0b3J5IjpbLTg0MDUwODM4NCwtMjA3MzMzNzk5NCwtOD
 UzMjkyNDE3LC0xNDg4OTYyNzkwLC0xMDY4OTc5NzAyLC05MTc1
 MzQ0MjYsLTE1Mjg0MTExMzQsMzc4MzgwNDI3LDE3NzI0NTA4ND
 AsOTcyNDM0NzcwLDE4OTM3MzExNTksLTE0NDcwNDMyODQsMTYz
