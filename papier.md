@@ -10,7 +10,7 @@ Si l'état de la machine ne change pas après une itération, alors elle s’arr
 Pour comprendre ces deux opérations, il faut voir $T[0]$ comme le *pointer d'instruction* de la machine, incrémenté à chaque itération, et voir la deuxième comme l'opération `mov T[T[0]-2] [T[T[0]-1]]` .
 
 En fait, ces deux opérations sont équivalentes aux opérations :
-1. $(v_1,v_2) = (T[IP],T[IP+1])$ avec $IP = T[0]$, le *pointeur d'instruction*
+.- $(v_1,v_2) = (T[IP],T[IP+1])$ avec $IP = T[0]$, le *pointeur d'instruction*
 2. $T[v_1] \larr T[v_2]$
 3. Si $T[0]$ n'a pas été modifié, alors $T[0] \larr T[0] + 2$
 
@@ -46,7 +46,7 @@ Une preuve que la machine de Cythan soit Turing Complete utilisera donc forcéme
 ## Turing complete
 On fait l'esquisse de la preuve que la machine de cythan est turing complete en simulant l'automate cellulaire Rule 110, qui est Turing complete.
 
-Pour cela, on découpe le tableau en une série de blocs $b_i$ dont on donne le code d'un $b_i$ ci-dessous.
+Pour cela, on découpe le tableau en une série de blocs $b_i$ dont on donne le code d'un $b_i$ dessous.
 Comme Rule 110 progresse des deux cotés, on a que le bloc $b_{2i}$ représente la case $i$ de Rule 110 et le bloc $b_{2i+1}$ représente la case $-(i+1)$
 
 Si $i$ pair :
@@ -56,7 +56,7 @@ entry_i:
   IF is_explored THEN
     JUMP entry_{i+1}
   ELSE 
-    JUMP set_explored
+   		JUMP set_explored
 set_explored: 
   is_explored <- one
   JUMP entry_0
@@ -95,8 +95,8 @@ L'entré du programme est les valeurs des variables booléennes initiale. La sor
 Alors, je conjecture que ce modèle de calcul est Turing Complete. Je pense que l'on peut re-créer Rule 110 dedans.
 De cette conjecture on peut en déduire que la machine de Cythan est Turing Complete.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTE5NDgxNTEsMTY1MDc0MDc3MCwxND
-Q3NzY1MjU4LC0xNzA5NDc5NDcyLC0xOTU1MzM2MDMyLDE2MTAy
-ODQ4NywxMzc3MjMwMzA0LDEzOTUxMjIxODQsODI1NzU1NzU1LD
-EyMDMzMzU5ODIsLTk4NjQ4MTE3Ml19
+eyJoaXN0b3J5IjpbMTE4NDExODI2NCwtMTE1MTk0ODE1MSwxNj
+UwNzQwNzcwLDE0NDc3NjUyNTgsLTE3MDk0Nzk0NzIsLTE5NTUz
+MzYwMzIsMTYxMDI4NDg3LDEzNzcyMzAzMDQsMTM5NTEyMjE4NC
+wxMjAzMzM1OTgyLC05ODY0ODExNzJdfQ==
 -->
