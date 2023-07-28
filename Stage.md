@@ -20,7 +20,11 @@
 `let fib = memo (fun fib n -> if n <= 1 then 1 else fib (n-2) + fib (n-1))`
 
 - `let li = 1::li;; li=li;;` ne termine pas, 
-`type recl = {v:int, q:recl};;let rec a={`
+`type recl = {v:int; q:recl};;let rec b={v=0;q=a};;a=a;;` ne termine pas,
+`type recl = {q:recl; v:int};;let rec b={q=a;v=0};;b=b;;` termine et indique une erreur.
+Enfait, les trois termine avec la même erreur, mais dans le cas 3 OCaml détecte immédatement le cycle et renvoie l'erreur 
+
+
 ## Fonctionnement d'un prouveur automatique
 ### Etape 1 : Un solveur SAT
 Naif: Retour sur Trace
@@ -113,7 +117,7 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDAwMzk5NCwzNzgzODA0MjcsMTc3Mj
+eyJoaXN0b3J5IjpbMTcyNDk3OTM4OCwzNzgzODA0MjcsMTc3Mj
 Q1MDg0MCw5NzI0MzQ3NzAsMTg5MzczMTE1OSwtMTQ0NzA0MzI4
 NCwxNjM0NzY0MDQ4LC0xMTQ4MTcyNDU2LC0xMTQ2MjY1NDkxLC
 0yMDk4MDQzNDk3LDg5OTY5OTY1MywtMjAyMTQwMDI2MywxMjM3
