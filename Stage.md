@@ -7,17 +7,17 @@
 - Sujet d'oral ? https://11011110.github.io/blog/2022/12/13/randomly-traceable-graphs.html
 - Exact Matrix Cover est NP-complet
 - Utiliser les Dancing Links pour faire du back-tracking efficace sur des listes triée
-- Calcul de hauteur d'un ABR dans le cas d'un stackoverflow ? -> Stack + hauteur ou continuation
+- Calcul de hauteur d'un ABR dans le cas d'un stackoverflow ? -> Stack avec (hauteur, arb) ou continuation
 - [la conjecture de Robbins est vraie](https://en.wikipedia.org/wiki/Robbins_algebra), preuve par un prouveur automatique
-- Théorème des 4 couleurs à eu 300+ cas vérifier par odinateur, puis elle a été refait en Coq
-- Thomas Hales à fait une preuve demandant aussi bcp de cas que les mathématicien n'ont pas pu vérifier entièrement. Le projet Flyspeck à abouti à une preuve Coq.
+- Théorème des 4 couleurs à eu 100+ cas vérifier par odinateur, puis elle a été refait en Coq
+- Thomas Hales à fait une preuve demandant aussi bcp de cas que les mathématiciens n'ont pas pu vérifier entièrement. Le projet Flyspeck à abouti à une preuve Coq.
 - [On peut dérécursifier n'importe quel programme par la continuation](https://media.devenirenseignant.gouv.fr/file/agregation_externe/32/6/sujet0_agregation_externe_informatique_epreuve1_1422326.pdf) (qui donne une fonction récursif terminale) puis par simulation de la version en continuation par des types somme (appellé défonctionalisation) CF
 - Liste doublement chainé en OCaml avec `type 'a lidb = | Null | E of {mutable before:lidb; mutable after:lidb; mutable val: 'a}`
 - Pour calculer $AB$, transposer $B$ dans la ram pour utilliser les stack L1
 - Jean Gallier fait des cours sur la logique
 - [Projet Euler pour créer des exercices de colles](https://projecteuler.net/problem=215)
 - Coder `val memo` une fonctionelle faisant de la mémoïsation automatiquement, aka
-`let fib = meme (fun fib n -> if n <= 1 then 1 else fib (n-2)`
+`let fib = memo (fun fib n -> if n <= 1 then 1 else fib (n-2) + fib (n-1))`
 ## Fonctionnement d'un prouveur automatique
 ### Etape 1 : Un solveur SAT
 Naif: Retour sur Trace
@@ -110,10 +110,10 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTY0ODUzNywxNzcyNDUwODQwLDk3Mj
-QzNDc3MCwxODkzNzMxMTU5LC0xNDQ3MDQzMjg0LDE2MzQ3NjQw
-NDgsLTExNDgxNzI0NTYsLTExNDYyNjU0OTEsLTIwOTgwNDM0OT
-csODk5Njk5NjUzLC0yMDIxNDAwMjYzLDEyMzc5MTcxMDcsMTAx
-MzgwNjI3LDI4NTQyNjkyOSwtMTAxNjQyMTc4OSwtMTcwMTA1Nz
-MwMCwxOTY0MzcxOTRdfQ==
+eyJoaXN0b3J5IjpbODM3NTQ0MDA0LDE3NzI0NTA4NDAsOTcyND
+M0NzcwLDE4OTM3MzExNTksLTE0NDcwNDMyODQsMTYzNDc2NDA0
+OCwtMTE0ODE3MjQ1NiwtMTE0NjI2NTQ5MSwtMjA5ODA0MzQ5Ny
+w4OTk2OTk2NTMsLTIwMjE0MDAyNjMsMTIzNzkxNzEwNywxMDEz
+ODA2MjcsMjg1NDI2OTI5LC0xMDE2NDIxNzg5LC0xNzAxMDU3Mz
+AwLDE5NjQzNzE5NF19
 -->
