@@ -27,7 +27,8 @@ En fait, les trois termine avec la même erreur, mais dans le cas 3 OCaml détec
 - On peut créer ces propres opérateurs `let` et `and` en ocaml : https://v2.ocaml.org/manual/bindingops.html
 - On peut créer des [fonctions polymorphique universellement quantifié](https://v2.ocaml.org/manual/polymorphism.html) pour éviter de dépasser les weaks ou préciser la généralisation d'un type.
 - `golly` implémente l'algo du HashLife, utillisé pour faire des execution rapide du jeu de la vie / Rule 110, une sorte de mémoisation spaciale et temporelle
-- En ocaml on a des module en premier ordre, donc on peut faire des fonction qui prend des modules `let fct (module A: ModuleType) = ... A.truc`
+- En ocaml on a des module en premier ordre, donc on peut faire des fonctions qui prend des modules `let fct (module A: ModuleType) = ... A.truc`, et l'on peut faire des foncteurs
+- Pour faire des fonctions universellement quantifié, on peut faire `let f (type a) (x:a) = ...`
 
 ## Fonctionnement d'un prouver automatique
 ### Etape 1 : Un solveur SAT
@@ -123,11 +124,11 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjQ5NjA5MSwtMjA3MzMzNzk5NCwtOD
-UzMjkyNDE3LC0xNDg4OTYyNzkwLC0xMDY4OTc5NzAyLC05MTc1
-MzQ0MjYsLTE1Mjg0MTExMzQsMzc4MzgwNDI3LDE3NzI0NTA4ND
-AsOTcyNDM0NzcwLDE4OTM3MzExNTksLTE0NDcwNDMyODQsMTYz
-NDc2NDA0OCwtMTE0ODE3MjQ1NiwtMTE0NjI2NTQ5MSwtMjA5OD
-A0MzQ5Nyw4OTk2OTk2NTMsLTIwMjE0MDAyNjMsMTIzNzkxNzEw
-NywxMDEzODA2MjddfQ==
+eyJoaXN0b3J5IjpbLTIxMjA1MzY4ODYsLTIwNzMzMzc5OTQsLT
+g1MzI5MjQxNywtMTQ4ODk2Mjc5MCwtMTA2ODk3OTcwMiwtOTE3
+NTM0NDI2LC0xNTI4NDExMTM0LDM3ODM4MDQyNywxNzcyNDUwOD
+QwLDk3MjQzNDc3MCwxODkzNzMxMTU5LC0xNDQ3MDQzMjg0LDE2
+MzQ3NjQwNDgsLTExNDgxNzI0NTYsLTExNDYyNjU0OTEsLTIwOT
+gwNDM0OTcsODk5Njk5NjUzLC0yMDIxNDAwMjYzLDEyMzc5MTcx
+MDcsMTAxMzgwNjI3XX0=
 -->
