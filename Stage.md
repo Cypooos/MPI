@@ -25,6 +25,7 @@
 En fait, les trois termine avec la même erreur, mais dans le cas 3 OCaml détecte immédiatement le cycle et renvoie l'erreur en avance.
 
 - On peut créer ces propres opérateurs `let` et `and` en ocaml : https://v2.ocaml.org/manual/bindingops.html
+- On peut créer des [fonctions polymorphique universellement quantifié](https://v2.ocaml.org/manual/polymorphism.html) pour éviter de dépasser les weaks ou préciser la généralisation d'un type.
 
 ## Fonctionnement d'un prouveur automatique
 ### Etape 1 : Un solveur SAT
@@ -118,11 +119,11 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODg5NjI3OTAsLTEwNjg5Nzk3MDIsLT
-kxNzUzNDQyNiwtMTUyODQxMTEzNCwzNzgzODA0MjcsMTc3MjQ1
-MDg0MCw5NzI0MzQ3NzAsMTg5MzczMTE1OSwtMTQ0NzA0MzI4NC
-wxNjM0NzY0MDQ4LC0xMTQ4MTcyNDU2LC0xMTQ2MjY1NDkxLC0y
-MDk4MDQzNDk3LDg5OTY5OTY1MywtMjAyMTQwMDI2MywxMjM3OT
-E3MTA3LDEwMTM4MDYyNywyODU0MjY5MjksLTEwMTY0MjE3ODks
-LTE3MDEwNTczMDBdfQ==
+eyJoaXN0b3J5IjpbLTg1MzI5MjQxNywtMTQ4ODk2Mjc5MCwtMT
+A2ODk3OTcwMiwtOTE3NTM0NDI2LC0xNTI4NDExMTM0LDM3ODM4
+MDQyNywxNzcyNDUwODQwLDk3MjQzNDc3MCwxODkzNzMxMTU5LC
+0xNDQ3MDQzMjg0LDE2MzQ3NjQwNDgsLTExNDgxNzI0NTYsLTEx
+NDYyNjU0OTEsLTIwOTgwNDM0OTcsODk5Njk5NjUzLC0yMDIxND
+AwMjYzLDEyMzc5MTcxMDcsMTAxMzgwNjI3LDI4NTQyNjkyOSwt
+MTAxNjQyMTc4OV19
 -->
