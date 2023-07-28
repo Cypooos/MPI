@@ -70,7 +70,7 @@ On peut aussi faire une approche + naturelle, avec la théorie de la Résolution
  - Alt-Ergo
 ## Sujet d'oraux
 - Addition Chains, KNUTH, volume II, Chapitre 4, "how fast can we multiply" - 465
-- Calculer $M^n.V$ par $\exp(M,2n,V) = \exp(M^2,n,V)$ et $\exp(M,2n+1,V) = \exp(M,n,MV)$ car $MV$ en $O(n^2)$ (négligeable devant $M^2$)
+- Calculer $M^n.V$ par $\exp(M,2n,V) = \exp(M^2,n,V)$ et $\exp(M,2n+1,V) = \exp(M^2,n,MV)$ car $MV$ en $O(n^2)$ (négligeable devant $M^2$)
 
 ## Retirer le cycle à une liste en temps O(n) et espace O(1)
 
@@ -110,10 +110,10 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTExMTQ2NTcsMTc3MjQ1MDg0MCw5Nz
-I0MzQ3NzAsMTg5MzczMTE1OSwtMTQ0NzA0MzI4NCwxNjM0NzY0
-MDQ4LC0xMTQ4MTcyNDU2LC0xMTQ2MjY1NDkxLC0yMDk4MDQzND
-k3LDg5OTY5OTY1MywtMjAyMTQwMDI2MywxMjM3OTE3MTA3LDEw
-MTM4MDYyNywyODU0MjY5MjksLTEwMTY0MjE3ODksLTE3MDEwNT
-czMDAsMTk2NDM3MTk0XX0=
+eyJoaXN0b3J5IjpbMzc4MzgwNDI3LDE3NzI0NTA4NDAsOTcyND
+M0NzcwLDE4OTM3MzExNTksLTE0NDcwNDMyODQsMTYzNDc2NDA0
+OCwtMTE0ODE3MjQ1NiwtMTE0NjI2NTQ5MSwtMjA5ODA0MzQ5Ny
+w4OTk2OTk2NTMsLTIwMjE0MDAyNjMsMTIzNzkxNzEwNywxMDEz
+ODA2MjcsMjg1NDI2OTI5LC0xMDE2NDIxNzg5LC0xNzAxMDU3Mz
+AwLDE5NjQzNzE5NF19
 -->
