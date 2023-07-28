@@ -22,7 +22,7 @@
 - `let li = 1::li;; li=li;;` ne termine pas, 
 `type recl = {v:int; q:recl};;let rec b={v=0;q=a};;a=a;;` ne termine pas,
 `type recl = {q:recl; v:int};;let rec b={q=a;v=0};;b=b;;` termine et indique une erreur.
-Enfait, les trois termine avec la même erreur, mais dans le cas 3 OCaml détecte immédatement le cycle et renvoie l'erreur 
+En fait, les trois termine avec la même erreur, mais dans le cas 3 OCaml détecte immédiatement le cycle et renvoie l'erreur en avance.
 
 
 ## Fonctionnement d'un prouveur automatique
@@ -117,10 +117,10 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDk3OTM4OCwzNzgzODA0MjcsMTc3Mj
-Q1MDg0MCw5NzI0MzQ3NzAsMTg5MzczMTE1OSwtMTQ0NzA0MzI4
-NCwxNjM0NzY0MDQ4LC0xMTQ4MTcyNDU2LC0xMTQ2MjY1NDkxLC
-0yMDk4MDQzNDk3LDg5OTY5OTY1MywtMjAyMTQwMDI2MywxMjM3
-OTE3MTA3LDEwMTM4MDYyNywyODU0MjY5MjksLTEwMTY0MjE3OD
-ksLTE3MDEwNTczMDAsMTk2NDM3MTk0XX0=
+eyJoaXN0b3J5IjpbLTE1Mjg0MTExMzQsMzc4MzgwNDI3LDE3Nz
+I0NTA4NDAsOTcyNDM0NzcwLDE4OTM3MzExNTksLTE0NDcwNDMy
+ODQsMTYzNDc2NDA0OCwtMTE0ODE3MjQ1NiwtMTE0NjI2NTQ5MS
+wtMjA5ODA0MzQ5Nyw4OTk2OTk2NTMsLTIwMjE0MDAyNjMsMTIz
+NzkxNzEwNywxMDEzODA2MjcsMjg1NDI2OTI5LC0xMDE2NDIxNz
+g5LC0xNzAxMDU3MzAwLDE5NjQzNzE5NF19
 -->
