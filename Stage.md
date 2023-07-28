@@ -24,7 +24,7 @@
 `type recl = {q:recl; v:int};;let rec b={q=a;v=0};;b=b;;` termine et indique une erreur.
 En fait, les trois termine avec la même erreur, mais dans le cas 3 OCaml détecte immédiatement le cycle et renvoie l'erreur en avance.
 
-- On peut créer ces propres opérateurs `let` en ocaml : https://v2.ocaml.org/manual/bindingops.html
+- On peut créer ces propres opérateurs `let` et `and` en ocaml : https://v2.ocaml.org/manual/bindingops.html
 
 ## Fonctionnement d'un prouveur automatique
 ### Etape 1 : Un solveur SAT
@@ -118,11 +118,11 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzUzNDQyNiwtMTUyODQxMTEzNCwzNz
-gzODA0MjcsMTc3MjQ1MDg0MCw5NzI0MzQ3NzAsMTg5MzczMTE1
-OSwtMTQ0NzA0MzI4NCwxNjM0NzY0MDQ4LC0xMTQ4MTcyNDU2LC
-0xMTQ2MjY1NDkxLC0yMDk4MDQzNDk3LDg5OTY5OTY1MywtMjAy
-MTQwMDI2MywxMjM3OTE3MTA3LDEwMTM4MDYyNywyODU0MjY5Mj
-ksLTEwMTY0MjE3ODksLTE3MDEwNTczMDAsMTk2NDM3MTk0XX0=
-
+eyJoaXN0b3J5IjpbLTEwNjg5Nzk3MDIsLTkxNzUzNDQyNiwtMT
+UyODQxMTEzNCwzNzgzODA0MjcsMTc3MjQ1MDg0MCw5NzI0MzQ3
+NzAsMTg5MzczMTE1OSwtMTQ0NzA0MzI4NCwxNjM0NzY0MDQ4LC
+0xMTQ4MTcyNDU2LC0xMTQ2MjY1NDkxLC0yMDk4MDQzNDk3LDg5
+OTY5OTY1MywtMjAyMTQwMDI2MywxMjM3OTE3MTA3LDEwMTM4MD
+YyNywyODU0MjY5MjksLTEwMTY0MjE3ODksLTE3MDEwNTczMDAs
+MTk2NDM3MTk0XX0=
 -->
