@@ -27,7 +27,7 @@ En fait, les trois termine avec la même erreur, mais dans le cas 3 OCaml détec
 - On peut créer ces propres opérateurs `let` et `and` en ocaml : https://v2.ocaml.org/manual/bindingops.html
 - On peut créer des [fonctions polymorphique universellement quantifié](https://v2.ocaml.org/manual/polymorphism.html) pour éviter de dépasser les weaks ou préciser la généralisation d'un type.
 
-## Fonctionnement d'un prouveur automatique
+## Fonctionnement d'un prouver automatique
 ### Etape 1 : Un solveur SAT
 Naif: Retour sur Trace
 ### Etape 2 : Egalité de Leibniz + fonction non évalué
@@ -119,11 +119,11 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MzI5MjQxNywtMTQ4ODk2Mjc5MCwtMT
-A2ODk3OTcwMiwtOTE3NTM0NDI2LC0xNTI4NDExMTM0LDM3ODM4
-MDQyNywxNzcyNDUwODQwLDk3MjQzNDc3MCwxODkzNzMxMTU5LC
-0xNDQ3MDQzMjg0LDE2MzQ3NjQwNDgsLTExNDgxNzI0NTYsLTEx
-NDYyNjU0OTEsLTIwOTgwNDM0OTcsODk5Njk5NjUzLC0yMDIxND
-AwMjYzLDEyMzc5MTcxMDcsMTAxMzgwNjI3LDI4NTQyNjkyOSwt
-MTAxNjQyMTc4OV19
+eyJoaXN0b3J5IjpbLTIwNzMzMzc5OTQsLTg1MzI5MjQxNywtMT
+Q4ODk2Mjc5MCwtMTA2ODk3OTcwMiwtOTE3NTM0NDI2LC0xNTI4
+NDExMTM0LDM3ODM4MDQyNywxNzcyNDUwODQwLDk3MjQzNDc3MC
+wxODkzNzMxMTU5LC0xNDQ3MDQzMjg0LDE2MzQ3NjQwNDgsLTEx
+NDgxNzI0NTYsLTExNDYyNjU0OTEsLTIwOTgwNDM0OTcsODk5Nj
+k5NjUzLC0yMDIxNDAwMjYzLDEyMzc5MTcxMDcsMTAxMzgwNjI3
+LDI4NTQyNjkyOV19
 -->
