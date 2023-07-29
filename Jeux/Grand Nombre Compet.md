@@ -1,8 +1,8 @@
 ## La compétition du plus grand nombre
 
-Le but de cette compétition est de créer un programme C de moins de 400 caractères renvoyant le plus grand entier possible. On suppose que l'on dispose d'une mémoire infinie, et que les entiers ne soient pas bornée.
+Le but de cette compétition est de créer un programme C de moins de 500 caractères renvoyant le plus grand entier possible. On suppose que l'on dispose d'une mémoire infinie, et que les entiers ne soient pas bornée.
 
-Exemple de programme de 174 charretières :
+Exemple de programme de 174 caractères :
 ```c
 int pow(int a, int b) {
 	return b ? a*ipow(a,b-1) : 1;
@@ -19,5 +19,5 @@ Le programme DOIT retourner à la fin l’entier (et donc finir son exécution e
 
 Liste des fonctions utillisable
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODkzNTk2NiwxNTgxMTA3MjI3XX0=
+eyJoaXN0b3J5IjpbLTU5MDczNTc0MywxNTgxMTA3MjI3XX0=
 -->
