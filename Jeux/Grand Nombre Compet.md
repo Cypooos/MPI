@@ -17,14 +17,16 @@ int main(void) {
 Ceci calcule $999^{999^{999^{...}}}$ une tour 999 de haut d'exponentiels imbriqué de $999$.
 Le programme DOIT retourner à la fin l’entier (et donc finir son exécution en un temps fini).
 
+L'algorithout comportement indéterminé ( comme les valeurs initialisé après un `malloc` )
+
 Liste d’opérations utilisable : 
  - `+` `*` `/` `%` `||` `&&` `!` `==` `!=` `<` `>` `<=` `>=` **seulement sur les entiers**
  - L'opérateur ternaire `a ? b : c`
  - Les `#define`
- - L'allocation, la création de structure, de tableau, les opérations
+ - la création de structure, les opérations `free` `malloc``calloc`
  
 Liste 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzIyMDgxNiwtNTkwNzM1NzQzLDE1OD
-ExMDcyMjddfQ==
+eyJoaXN0b3J5IjpbLTEwNzA4NTQ4NzAsLTU5MDczNTc0MywxNT
+gxMTA3MjI3XX0=
 -->
