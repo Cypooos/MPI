@@ -38,7 +38,9 @@ Seul les entiers ne sont pas bornée, le type `char` fonctionne comme habituelle
 Un programme doit faire moins de 500 charactères, sans compter les espaces, les tabulations, les commentaires, les retours à la ligne et les retours chariots (sauf s'ils sont dans un string)
 
 N'hésitez pas à donner avec votre programme une courte description de ses effets / de pourquoi il retourne / et approximation de la taille de son entrée.
+
+La date limite pour envoyer son programme par discord à @cypooos ou par mail à cyprien.bourotte@gmail.com ou par whatsapp est le 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg2MDI2ODQ3LC01OTA3MzU3NDMsMTU4MT
+eyJoaXN0b3J5IjpbOTUyMjA1NjY0LC01OTA3MzU3NDMsMTU4MT
 EwNzIyN119
 -->
