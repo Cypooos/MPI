@@ -25,11 +25,11 @@ Liste d’opérations utilisable :
  - `+` `*` `/` `%` `||` `&&` `!` `==` `!=` `<` `>` `<=` `>=` **seulement sur les entiers**
  - L'opérateur ternaire `a ? b : c`
  - Les `#define`
- - la création de structure, les opérations `free` `malloc` `calloc`
- - La gestion de pointeur (attention
+ - la création de structure, les opérations `free` `malloc` `calloc` `sizeof`
+ - La gestion de pointeur, opérations `*` `&`,  (attention à rester dans un cadre déterministe)
  
 Liste 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzODgzNjI3NywtNTkwNzM1NzQzLDE1OD
+eyJoaXN0b3J5IjpbMTEwODUzOTMwNiwtNTkwNzM1NzQzLDE1OD
 ExMDcyMjddfQ==
 -->
