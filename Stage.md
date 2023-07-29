@@ -29,7 +29,9 @@ En fait, les trois termine avec la même erreur, mais dans le cas 3 OCaml détec
 - En ocaml on a des modules du premier ordre, donc on peut faire des fonctions qui prend des modules `let fct (module A: ModuleType) = ... A.truc`, et l'on peut faire des foncteurs aussi (qui map des modules)
 - Pour faire des fonctions polymorphe universellement quantifié, on peut faire `let f (type a) (x:a) = ...`
 - Sujet d'oral ? https://11011110.github.io/blog/2022/12/13/randomly-traceable-graphs.html
-- Comment faire un pretty-printer à l'aide de fonction mutuellement récursive / un compteur, en temps linéaire ? Comment faire un lexer en temps linéaire ? Un lexer match toujours la plus grande entré possible
+- Comment faire un pretty-printer (qui met un nombre réduit de parenthèses) à l'aide de règle de priorité et de fonction mutuellement récursive / un compteur, en temps linéaire ?
+- Comment faire un lexer en temps linéaire ? Un lexer match toujours la plus grande entré possible avant de passer à match la suivante. 
+- EN ocaml on 
 
 ## Fonctionnement d'un prouver automatique
 ### Etape 1 : Un solveur SAT
@@ -125,7 +127,7 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTc2OTA0MjMsLTIxMjA1MzY4ODYsLT
+eyJoaXN0b3J5IjpbLTIwMzg3NTU0OTMsLTIxMjA1MzY4ODYsLT
 IwNzMzMzc5OTQsLTg1MzI5MjQxNywtMTQ4ODk2Mjc5MCwtMTA2
 ODk3OTcwMiwtOTE3NTM0NDI2LC0xNTI4NDExMTM0LDM3ODM4MD
 QyNywxNzcyNDUwODQwLDk3MjQzNDc3MCwxODkzNzMxMTU5LC0x
