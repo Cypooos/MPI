@@ -35,8 +35,10 @@ On suppose que le programme tourne sur un ordinateur ayant une mémoire infinie,
 
 Seul les entiers ne sont pas bornée, le type `char` fonctionne comme habituellement (bornée par $255$ dans le cas non signé et allant de $-128$ à $127$ dans le cas signé).
 
+Un programme doit faire moins de 500 charactères, en comptant les espaces, les tabulations, les retours char
+
 N'hésitez pas à donner avec votre programme une courte description de ses effets / de pourquoi il retourne / et approximation de la taille de son entrée.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTIxNzM1OCwtNTkwNzM1NzQzLDE1OD
+eyJoaXN0b3J5IjpbLTE1NjM2NTE5NSwtNTkwNzM1NzQzLDE1OD
 ExMDcyMjddfQ==
 -->
