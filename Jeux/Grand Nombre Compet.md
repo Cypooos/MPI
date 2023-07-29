@@ -11,10 +11,12 @@ int power_stack(int a, int b) {
 	return b ? pow(a,power_stack(a,b-1)) : 1;
 }
 int main(void) {
-	return ipowstack(999,999);
+	return power_stack(999,999);
 }
 ```
-Ceci 
+Ceci calcule $999^{999^{999^{...}}}$ une tour 999 de haut d'exponentiels imbriqué de $999$.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTEwNzIyN119
+eyJoaXN0b3J5IjpbNjgzOTgyODM1LDE1ODExMDcyMjddfQ==
 -->
