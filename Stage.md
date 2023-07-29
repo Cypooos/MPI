@@ -28,7 +28,8 @@ En fait, les trois termine avec la même erreur, mais dans le cas 3 OCaml détec
 - `golly` implémente l'algo du HashLife, utillisé pour faire des execution rapide du jeu de la vie / Rule 110, une sorte de mémoisation spaciale et temporelle
 - En ocaml on a des modules du premier ordre, donc on peut faire des fonctions qui prend des modules `let fct (module A: ModuleType) = ... A.truc`, et l'on peut faire des foncteurs aussi (qui map des modules)
 - Pour faire des fonctions polymorphe universellement quantifié, on peut faire `let f (type a) (x:a) = ...`
-- 
+- Sujet d'oral ? https://11011110.github.io/blog/2022/12/13/randomly-traceable-graphs.html
+- Comment faire un pretty-printer à l'aide de fonction mutuellement récursive / un compteur, en temps linéaire ? Comment faire un lexer en temps linéaire ? Un lexer match toujours la plus grande entré possible
 
 ## Fonctionnement d'un prouver automatique
 ### Etape 1 : Un solveur SAT
@@ -124,11 +125,11 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyODE3NTEwLC0yMTIwNTM2ODg2LC0yMD
-czMzM3OTk0LC04NTMyOTI0MTcsLTE0ODg5NjI3OTAsLTEwNjg5
-Nzk3MDIsLTkxNzUzNDQyNiwtMTUyODQxMTEzNCwzNzgzODA0Mj
-csMTc3MjQ1MDg0MCw5NzI0MzQ3NzAsMTg5MzczMTE1OSwtMTQ0
-NzA0MzI4NCwxNjM0NzY0MDQ4LC0xMTQ4MTcyNDU2LC0xMTQ2Mj
-Y1NDkxLC0yMDk4MDQzNDk3LDg5OTY5OTY1MywtMjAyMTQwMDI2
-MywxMjM3OTE3MTA3XX0=
+eyJoaXN0b3J5IjpbLTIwNTc2OTA0MjMsLTIxMjA1MzY4ODYsLT
+IwNzMzMzc5OTQsLTg1MzI5MjQxNywtMTQ4ODk2Mjc5MCwtMTA2
+ODk3OTcwMiwtOTE3NTM0NDI2LC0xNTI4NDExMTM0LDM3ODM4MD
+QyNywxNzcyNDUwODQwLDk3MjQzNDc3MCwxODkzNzMxMTU5LC0x
+NDQ3MDQzMjg0LDE2MzQ3NjQwNDgsLTExNDgxNzI0NTYsLTExND
+YyNjU0OTEsLTIwOTgwNDM0OTcsODk5Njk5NjUzLC0yMDIxNDAw
+MjYzLDEyMzc5MTcxMDddfQ==
 -->
