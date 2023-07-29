@@ -31,8 +31,8 @@ Liste d’opérations utilisable :
 Seuls les types `char` et `int` sont utilisable.
 Aucune bibliothèque sera importé, on n'utilisera pas la librairie standard sauf pour les opérations déjà indiquée.
 
-
+N'hésitez pas à donner avec votre programme une courte description de ses effets / de pourquoi il retourne / et approximation de la taille de son entrée.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NjAyNDUwOSwtNTkwNzM1NzQzLDE1OD
-ExMDcyMjddfQ==
+eyJoaXN0b3J5IjpbNTk2MjgxNTQxLC01OTA3MzU3NDMsMTU4MT
+EwNzIyN119
 -->
