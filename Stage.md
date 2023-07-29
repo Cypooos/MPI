@@ -5,7 +5,7 @@
 - Différence en OCaml entre `type C of int * int` et `type C of (int * int)`
 - [On ne sait pas bien faire des parcours en profondeur](https://11011110.github.io/blog/2013/12/17/stack-based-graph-traversal.html)
 - Exact Matrix Cover est NP-complet
-- Utiliser les Dancing Links pour faire du back-tracking efficace sur des listes triée
+- Utiliser les Dancing Links pour faire du back-tracking efficace sur des listes triée. Utillisé pour faire un algo très efficace sur le problème Exact Matrix Cover. Permet d'implémenté une truture d'ensemble d'entier rudement 
 - Calcul de hauteur d'un ABR dans le cas d'un stackoverflow ? -> Stack avec (hauteur, arb) ou continuation
 - [la conjecture de Robbins est vraie](https://en.wikipedia.org/wiki/Robbins_algebra), preuve par un prouveur automatique
 - Théorème des 4 couleurs à eu 100+ cas vérifier par odinateur, puis elle a été refait en Coq
@@ -127,7 +127,7 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4ODMyNDQzNSwtMjEyMDUzNjg4NiwtMj
+eyJoaXN0b3J5IjpbLTc3ODYyMjc2NCwtMjEyMDUzNjg4NiwtMj
 A3MzMzNzk5NCwtODUzMjkyNDE3LC0xNDg4OTYyNzkwLC0xMDY4
 OTc5NzAyLC05MTc1MzQ0MjYsLTE1Mjg0MTExMzQsMzc4MzgwND
 I3LDE3NzI0NTA4NDAsOTcyNDM0NzcwLDE4OTM3MzExNTksLTE0
