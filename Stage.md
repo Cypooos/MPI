@@ -5,12 +5,12 @@
 - Différence en OCaml entre `type C of int * int` et `type C of (int * int)`
 - [On ne sait pas bien faire des parcours en profondeur](https://11011110.github.io/blog/2013/12/17/stack-based-graph-traversal.html)
 - Exact Matrix Cover est NP-complet
-- Utiliser les Dancing Links pour faire du back-tracking efficace sur des listes triée. Utillisé pour faire un algo très efficace sur le problème Exact Matrix Cover. Permet d'implémenté une truture d'ensemble d'entier rudement 
+- Utiliser les Dancing Links pour faire du back-tracking efficace sur des listes triée. Utillisé pour faire un algo très efficace sur le problème Exact Matrix Cover. Permet d'implémenté une struture d'ensemble d'entier bornée la plus efficace possible ( add et remove en O(1), parcours en O(|S|) ).
 - Calcul de hauteur d'un ABR dans le cas d'un stackoverflow ? -> Stack avec (hauteur, arb) ou continuation
 - [la conjecture de Robbins est vraie](https://en.wikipedia.org/wiki/Robbins_algebra), preuve par un prouveur automatique
 - Théorème des 4 couleurs à eu 100+ cas vérifier par odinateur, puis elle a été refait en Coq
 - Thomas Hales à fait une preuve demandant aussi bcp de cas que les mathématiciens n'ont pas pu vérifier entièrement. Le projet Flyspeck à abouti à une preuve Coq.
-- [On peut dérécursifier n'importe quel programme par la continuation](https://media.devenirenseignant.gouv.fr/file/agregation_externe/32/6/sujet0_agregation_externe_informatique_epreuve1_1422326.pdf) (qui donne une fonction récursif terminale) puis par simulation de la version en continuation par des types somme (appellé défonctionalisation) CF
+- [On peut dérécursifier n'importe quel programme par la continuation](https://media.devenirenseignant.gouv.fr/file/agregation_externe/32/6/sujet0_agregation_externe_informatique_epreuve1_1422326.pdf) (qui donne une fonction récursif terminale) puis par simulation de la version en continuation par des types somme (appellé défonctionalisation). 
 - Liste doublement chainé en OCaml avec `type 'a lidb = | Null | E of {mutable before:lidb; mutable after:lidb; mutable val: 'a}`
 - Pour calculer $AB$, transposer $B$ dans la ram pour utilliser le registre L1
 - Jean Gallier fait des cours sur la logique qui sont bien
@@ -127,7 +127,7 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODYyMjc2NCwtMjEyMDUzNjg4NiwtMj
+eyJoaXN0b3J5IjpbLTkyNjEyNzM2NywtMjEyMDUzNjg4NiwtMj
 A3MzMzNzk5NCwtODUzMjkyNDE3LC0xNDg4OTYyNzkwLC0xMDY4
 OTc5NzAyLC05MTc1MzQ0MjYsLTE1Mjg0MTExMzQsMzc4MzgwND
 I3LDE3NzI0NTA4NDAsOTcyNDM0NzcwLDE4OTM3MzExNTksLTE0
