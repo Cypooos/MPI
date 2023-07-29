@@ -33,10 +33,10 @@ Aucune bibliothèque sera importé, on n'utilisera pas la librairie standard sau
 
 On suppose que le programme tourne sur un ordinateur ayant une mémoire infinie, et ayant des entiers non bornée. Plus concrètement, même si `sizeof(int)` renverra la même chose que dans le cas d'une exécution de C classique, il n'y a pas de Stack Overflow possible ou de dépassement d'entiers. Une allocation est toujours possible et ne causera jamais d'erreur.
 
-Seul les entiers ne sont pas bornée, le type `char` fonctionne comme habituellement (bornée par $2$.
+Seul les entiers ne sont pas bornée, le type `char` fonctionne comme habituellement (bornée par $255$ dans le cas non signé et allant de $-128$ à $127$ dans le cas signé).
 
 N'hésitez pas à donner avec votre programme une courte description de ses effets / de pourquoi il retourne / et approximation de la taille de son entrée.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTQ3MjcyLC01OTA3MzU3NDMsMTU4MT
-EwNzIyN119
+eyJoaXN0b3J5IjpbMTA3OTIxNzM1OCwtNTkwNzM1NzQzLDE1OD
+ExMDcyMjddfQ==
 -->
