@@ -40,11 +40,11 @@ Un programme doit faire moins de 500 charactères, sans compter les espaces, les
 
 N'hésitez pas à donner avec votre programme une courte description de ses effets / de pourquoi il retourne / et approximation de la taille de son entrée.
 
-Le programme vainqueur sera le programme renvoyant le plus grand entier e. Vous pouvez proposer autant de programmes que vous voulez.
+Le programme vainqueur sera le programme renvoyant le plus grand entier en valeur absolu. Vous pouvez proposer autant de programmes que vous voulez.
 
-La date limite pour envoyer vos programmes par discord à @cypooos ou par mail à cyprien.bourotte@gmail.com ou par whatsapp est le lundi 14 août à 14h.
+La date limite pour envoyer vos programmes par discord à @cypooos ou par mail à cyprien.bourotte@gmail.com ou par whatsapp est le **lundi 14 août à 14h**.
 N'hésitez pas à m'envoyer des questions / demande de précisions concernant les règles si besoin ! 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1OTc4OTYxLC01OTA3MzU3NDMsMTU4MT
+eyJoaXN0b3J5IjpbLTg2NzAzNzYyLC01OTA3MzU3NDMsMTU4MT
 EwNzIyN119
 -->
