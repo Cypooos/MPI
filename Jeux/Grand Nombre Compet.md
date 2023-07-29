@@ -26,11 +26,13 @@ Liste d’opérations utilisable :
  - L'opérateur ternaire `a ? b : c`
  - Les `#define`
  - la création de structure, les opérations `free` `malloc` `calloc` `sizeof` `typedef`
- - La gestion de pointeur, opérations `*` `&` (attention à rester dans un cadre déterministe)
+ - La gestion de pointeur, opérations `*` `&` (attention à rester dans un cadre déterministe), la constante `NULL`
  
 Seuls les types `char` et `int` sont utilisable.
-Aucune bibliothèque sera importé, on n'utillsera pas la librairie standard sauf pour les opération déjà indiqué et `NULL`
+Aucune bibliothèque sera importé, on n'utilisera pas la librairie standard sauf pour les opérations déjà indiquée.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjA0MDcyMzksLTU5MDczNTc0MywxNT
-gxMTA3MjI3XX0=
+eyJoaXN0b3J5IjpbMTc4NjAyNDUwOSwtNTkwNzM1NzQzLDE1OD
+ExMDcyMjddfQ==
 -->
