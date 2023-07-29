@@ -27,6 +27,7 @@ Liste d’opérations utilisable :
  - Les `#define`
  - la création de structure, les opérations `free` `malloc` `calloc` `sizeof` `typedef`
  - La gestion de pointeur, opérations `*` `&` (attention à rester dans un cadre déterministe), la constante `NULL`
+ - Toute les structures de contrôle usuelle : création de fonction, `while` `if` `else` et `for`
  
 Seuls les types `char` et `int` sont utilisable.
 Aucune bibliothèque sera importé, on n'utilisera pas la librairie standard sauf pour les opérations déjà indiquée.
@@ -41,6 +42,6 @@ N'hésitez pas à donner avec votre programme une courte description de ses effe
 
 La date limite pour envoyer son programme par discord à @cypooos ou par mail à cyprien.bourotte@gmail.com ou par whatsapp est le lundi 14 août à 14h.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3Njg2NDgwLC01OTA3MzU3NDMsMTU4MT
-EwNzIyN119
+eyJoaXN0b3J5IjpbLTQ0ODY2NzIyMiwtNTkwNzM1NzQzLDE1OD
+ExMDcyMjddfQ==
 -->
