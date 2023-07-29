@@ -28,8 +28,9 @@ Liste d’opérations utilisable :
  - la création de structure, les opérations `free` `malloc` `calloc` `sizeof`
  - La gestion de pointeur, opérations `*` `&`,  (attention à rester dans un cadre déterministe)
  
-Liste 
+Seuls les types `char` et `int` sont utilisable.
+Aucune bibliothèque sera importé.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwODUzOTMwNiwtNTkwNzM1NzQzLDE1OD
-ExMDcyMjddfQ==
+eyJoaXN0b3J5IjpbLTEwMzk3MzkwOTQsLTU5MDczNTc0MywxNT
+gxMTA3MjI3XX0=
 -->
