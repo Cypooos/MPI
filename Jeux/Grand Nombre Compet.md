@@ -34,14 +34,15 @@ Aucune bibliothèque sera importé, on n'utilisera pas la librairie standard sau
 
 On suppose que le programme tourne sur un ordinateur ayant une mémoire infinie, et ayant des entiers non bornée. Plus concrètement, même si `sizeof(int)` renverra la même chose que dans le cas d'une exécution de C classique, il n'y a pas de Stack Overflow possible ou de dépassement d'entiers. Une allocation est toujours possible et ne causera jamais d'erreur.
 
-Seul les entiers ne sont pas bornée, le type `char` fonctionne comme habituellement (bornée par $255$ dans le cas non signé et allant de $-128$ à $127$ dans le cas signé).
+Seul les entiers ne sont pas borné, le type `char` fonctionne comme habituellement (borné par $255$ dans le cas non signé et allant de $-128$ à $127$ dans le cas signé).
 
 Un programme doit faire moins de 500 charactères, sans compter les espaces, les tabulations, les commentaires, les retours à la ligne et les retours chariots (sauf s'ils sont dans un string)
 
 N'hésitez pas à donner avec votre programme une courte description de ses effets / de pourquoi il retourne / et approximation de la taille de son entrée.
 
 La date limite pour envoyer son programme par discord à @cypooos ou par mail à cyprien.bourotte@gmail.com ou par whatsapp est le lundi 14 août à 14h.
+N'hésitez pas à m'envoyer des questions concernant 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODY2NzIyMiwtNTkwNzM1NzQzLDE1OD
-ExMDcyMjddfQ==
+eyJoaXN0b3J5IjpbLTM1NjI1MTk5LC01OTA3MzU3NDMsMTU4MT
+EwNzIyN119
 -->
