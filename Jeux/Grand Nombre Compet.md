@@ -4,14 +4,20 @@ Le but de cette compétition est de créer un programme C de moins de 500 caract
 
 Exemple de programme :
 ```c
-int fct(a) {
-	
+int ipow(int a, int b) {
+	return b ? a*ipow(a,b-1) : 1;
 }
-int main() {
-	int res = 9;
-	for(
+int ipowstack(int a, int b) {
+	if (b == 0) {
+		return 1
+	} else {
+		return b ? ipow(a,ipowstack(a,b-1));
+	} 
+}
+int main(void) {
+	return ipowstack(999,999);
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDQ3MTA5M119
+eyJoaXN0b3J5IjpbMTQ1NTIxMjkxNF19
 -->
