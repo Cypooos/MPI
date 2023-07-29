@@ -17,9 +17,9 @@ int main(void) {
 Ceci calcule $999^{999^{999^{...}}}$ une tour 999 de haut d'exponentiels imbriqué de $999$.
 
 ## Règles 
-Le programme DOIT retourner à la fin lun entier (et donc finir son exécution en un temps fini).
+Le programme DOIT retourner à la fin un entier (et donc finir son exécution en un temps fini).
 
-L'algorithme doit être déterministe; tout comportement indéterminé ( comme les valeurs pointé après un `malloc` ) doit être déterminité ( initialisation d'une structure )
+L'algorithme doit être déterministe; tout comportement indéterministe ( comme les valeurs pointées après un `malloc` ) doit être déterminisé ( par l'initialisation de ces valeurs par exemple )
 
 Liste d’opérations utilisable : 
  - `+` `*` `/` `%` `||` `&&` `!` `==` `!=` `<` `>` `<=` `>=` **seulement sur les entiers**
@@ -41,6 +41,6 @@ N'hésitez pas à donner avec votre programme une courte description de ses effe
 
 La date limite pour envoyer son programme par discord à @cypooos ou par mail à cyprien.bourotte@gmail.com ou par whatsapp est le lundi 14 août à 14h.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxNzU2OTgwLC01OTA3MzU3NDMsMTU4MT
+eyJoaXN0b3J5IjpbOTg3Njg2NDgwLC01OTA3MzU3NDMsMTU4MT
 EwNzIyN119
 -->
