@@ -31,7 +31,7 @@ En fait, les trois termine avec la même erreur, mais dans le cas 3 OCaml détec
 - Sujet d'oral ? https://11011110.github.io/blog/2022/12/13/randomly-traceable-graphs.html
 - Comment faire un pretty-printer (qui met un nombre réduit de parenthèses) à l'aide de règle de priorité et de fonction mutuellement récursive / un compteur, en temps linéaire ?
 - Comment faire un lexer en temps linéaire ? Un lexer match toujours la plus grande entré possible avant de passer à match la suivante. 
-- EN ocaml on 
+- En ocaml on peut utilliser Merlin pour faire un analyser syntaxique et ocamllex pour faire un lexer.
 
 ## Fonctionnement d'un prouver automatique
 ### Etape 1 : Un solveur SAT
@@ -127,11 +127,11 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzg3NTU0OTMsLTIxMjA1MzY4ODYsLT
-IwNzMzMzc5OTQsLTg1MzI5MjQxNywtMTQ4ODk2Mjc5MCwtMTA2
-ODk3OTcwMiwtOTE3NTM0NDI2LC0xNTI4NDExMTM0LDM3ODM4MD
-QyNywxNzcyNDUwODQwLDk3MjQzNDc3MCwxODkzNzMxMTU5LC0x
-NDQ3MDQzMjg0LDE2MzQ3NjQwNDgsLTExNDgxNzI0NTYsLTExND
-YyNjU0OTEsLTIwOTgwNDM0OTcsODk5Njk5NjUzLC0yMDIxNDAw
-MjYzLDEyMzc5MTcxMDddfQ==
+eyJoaXN0b3J5IjpbMTM4ODMyNDQzNSwtMjEyMDUzNjg4NiwtMj
+A3MzMzNzk5NCwtODUzMjkyNDE3LC0xNDg4OTYyNzkwLC0xMDY4
+OTc5NzAyLC05MTc1MzQ0MjYsLTE1Mjg0MTExMzQsMzc4MzgwND
+I3LDE3NzI0NTA4NDAsOTcyNDM0NzcwLDE4OTM3MzExNTksLTE0
+NDcwNDMyODQsMTYzNDc2NDA0OCwtMTE0ODE3MjQ1NiwtMTE0Nj
+I2NTQ5MSwtMjA5ODA0MzQ5Nyw4OTk2OTk2NTMsLTIwMjE0MDAy
+NjMsMTIzNzkxNzEwN119
 -->
