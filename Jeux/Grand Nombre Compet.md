@@ -1,11 +1,11 @@
-## La compétition du plus grand nombre
+# La compétition du plus grand nombre
 
-Le but de cette compétition est de créer un programme C de moins de 500 caractères renvoyant le plus grand entier possible en valeur absolue. On suppose que l'on dispose d'une mémoire infinie, et que les entiers ne soient pas bornée.
+Le but de cette compétition est de créer un programme C de moins de 500 caractères renvoyant le plus grand entier possible en valeur absolu. On suppose que l'on dispose d'une mémoire infinie, et que les entiers ne soient pas bornée.
 
-Exemple de programme de 151caractères :
+Exemple de programme de 151 caractères :
 ```c
 int pow(int a, int b) {
-	return b ? a*ipow(a,b-1) : 1;
+	return b ? a*pow(a,b-1) : 1;
 }
 int power_stack(int a, int b) {
 	return b ? pow(a,power_stack(a,b-1)) : 1;
@@ -17,7 +17,7 @@ int main(void) {
 Ceci calcule $999^{999^{999^{...}}}$ une tour 999 de haut d'exponentiels imbriqué de $999$.
 
 ## Règles 
-Le programme DOIT retourner à la fin l’entier (et donc finir son exécution en un temps fini).
+Le programme DOIT retourner à la fin lun entier (et donc finir son exécution en un temps fini).
 
 L'algorithme doit être déterministe; tout comportement indéterminé ( comme les valeurs pointé après un `malloc` ) doit être déterminité ( initialisation d'une structure )
 
@@ -39,8 +39,8 @@ Un programme doit faire moins de 500 charactères, sans compter les espaces, les
 
 N'hésitez pas à donner avec votre programme une courte description de ses effets / de pourquoi il retourne / et approximation de la taille de son entrée.
 
-La date limite pour envoyer son programme par discord à @cypooos ou par mail à cyprien.bourotte@gmail.com ou par whatsapp est le 
+La date limite pour envoyer son programme par discord à @cypooos ou par mail à cyprien.bourotte@gmail.com ou par whatsapp est le lundi 14 août à 14h.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyMjA1NjY0LC01OTA3MzU3NDMsMTU4MT
+eyJoaXN0b3J5IjpbNDQxNzU2OTgwLC01OTA3MzU3NDMsMTU4MT
 EwNzIyN119
 -->
