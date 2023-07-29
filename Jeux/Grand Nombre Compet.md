@@ -15,14 +15,15 @@ int main(void) {
 }
 ```
 Ceci calcule $999^{999^{999^{...}}}$ une tour 999 de haut d'exponentiels imbriqué de $999$.
-Le programme DOIT retourner à la fin l’entier (et donc finir son exécution en un temps fini)
+Le programme DOIT retourner à la fin l’entier (et donc finir son exécution en un temps fini).
 
 Liste des fonctions utilisable : 
  - Toutes les fonctions du programme de MP2I / MPI
  - L'opérateur ternaire `a ? b : c`
  - Les `#define`
- - 
+ 
+Liste 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0NzI3ODYsLTU5MDczNTc0MywxNTgxMT
-A3MjI3XX0=
+eyJoaXN0b3J5IjpbLTQyNjcyMDQzMCwtNTkwNzM1NzQzLDE1OD
+ExMDcyMjddfQ==
 -->
