@@ -31,8 +31,10 @@ Liste d’opérations utilisable :
 Seuls les types `char` et `int` sont utilisable.
 Aucune bibliothèque sera importé, on n'utilisera pas la librairie standard sauf pour les opérations déjà indiquée.
 
+On suppose que le programme tourne sur un ordinateur ayant une mémoire infinie, et ayant des entiers non bornée. Plus concrètement, même si `sizeof(int)` renverra la même chose que dans le cas d'une execution de C classique, 
+
 N'hésitez pas à donner avec votre programme une courte description de ses effets / de pourquoi il retourne / et approximation de la taille de son entrée.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2MjgxNTQxLC01OTA3MzU3NDMsMTU4MT
-EwNzIyN119
+eyJoaXN0b3J5IjpbLTkxMDA4OTc2OSwtNTkwNzM1NzQzLDE1OD
+ExMDcyMjddfQ==
 -->
