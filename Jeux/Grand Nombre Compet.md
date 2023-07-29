@@ -25,12 +25,12 @@ Liste d’opérations utilisable :
  - `+` `*` `/` `%` `||` `&&` `!` `==` `!=` `<` `>` `<=` `>=` **seulement sur les entiers**
  - L'opérateur ternaire `a ? b : c`
  - Les `#define`
- - la création de structure, les opérations `free` `malloc` `calloc` `sizeof`
- - La gestion de pointeur, opérations `*` `&`,  (attention à rester dans un cadre déterministe)
+ - la création de structure, les opérations `free` `malloc` `calloc` `sizeof` `typedef`
+ - La gestion de pointeur, opérations `*` `&` (attention à rester dans un cadre déterministe)
  
 Seuls les types `char` et `int` sont utilisable.
-Aucune bibliothèque sera importé.
+Aucune bibliothèque sera importé, on n'utillsera pas la librairie standard sauf pour les opération déjà indiqué et `NULL`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzk3MzkwOTQsLTU5MDczNTc0MywxNT
+eyJoaXN0b3J5IjpbLTIxMjA0MDcyMzksLTU5MDczNTc0MywxNT
 gxMTA3MjI3XX0=
 -->
