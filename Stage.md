@@ -4,7 +4,6 @@
 
 - Différence en OCaml entre `type C of int * int` et `type C of (int * int)`
 - [On ne sait pas bien faire des parcours en profondeur](https://11011110.github.io/blog/2013/12/17/stack-based-graph-traversal.html)
-- Sujet d'oral ? https://11011110.github.io/blog/2022/12/13/randomly-traceable-graphs.html
 - Exact Matrix Cover est NP-complet
 - Utiliser les Dancing Links pour faire du back-tracking efficace sur des listes triée
 - Calcul de hauteur d'un ABR dans le cas d'un stackoverflow ? -> Stack avec (hauteur, arb) ou continuation
@@ -27,8 +26,9 @@ En fait, les trois termine avec la même erreur, mais dans le cas 3 OCaml détec
 - On peut créer ces propres opérateurs `let` et `and` en ocaml : https://v2.ocaml.org/manual/bindingops.html
 - On peut créer des [fonctions polymorphique universellement quantifié](https://v2.ocaml.org/manual/polymorphism.html) pour éviter de dépasser les weaks ou préciser la généralisation d'un type.
 - `golly` implémente l'algo du HashLife, utillisé pour faire des execution rapide du jeu de la vie / Rule 110, une sorte de mémoisation spaciale et temporelle
-- En ocaml on a des module en premier ordre, donc on peut faire des fonctions qui prend des modules `let fct (module A: ModuleType) = ... A.truc`, et l'on peut faire des foncteurs
-- Pour faire des fonctions universellement quantifié, on peut faire `let f (type a) (x:a) = ...`
+- En ocaml on a des modules du premier ordre, donc on peut faire des fonctions qui prend des modules `let fct (module A: ModuleType) = ... A.truc`, et l'on peut faire des foncteurs aussi (qui map des modules)
+- Pour faire des fonctions polymorphe universellement quantifié, on peut faire `let f (type a) (x:a) = ...`
+- 
 
 ## Fonctionnement d'un prouver automatique
 ### Etape 1 : Un solveur SAT
@@ -124,11 +124,11 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjA1MzY4ODYsLTIwNzMzMzc5OTQsLT
-g1MzI5MjQxNywtMTQ4ODk2Mjc5MCwtMTA2ODk3OTcwMiwtOTE3
-NTM0NDI2LC0xNTI4NDExMTM0LDM3ODM4MDQyNywxNzcyNDUwOD
-QwLDk3MjQzNDc3MCwxODkzNzMxMTU5LC0xNDQ3MDQzMjg0LDE2
-MzQ3NjQwNDgsLTExNDgxNzI0NTYsLTExNDYyNjU0OTEsLTIwOT
-gwNDM0OTcsODk5Njk5NjUzLC0yMDIxNDAwMjYzLDEyMzc5MTcx
-MDcsMTAxMzgwNjI3XX0=
+eyJoaXN0b3J5IjpbNjMyODE3NTEwLC0yMTIwNTM2ODg2LC0yMD
+czMzM3OTk0LC04NTMyOTI0MTcsLTE0ODg5NjI3OTAsLTEwNjg5
+Nzk3MDIsLTkxNzUzNDQyNiwtMTUyODQxMTEzNCwzNzgzODA0Mj
+csMTc3MjQ1MDg0MCw5NzI0MzQ3NzAsMTg5MzczMTE1OSwtMTQ0
+NzA0MzI4NCwxNjM0NzY0MDQ4LC0xMTQ4MTcyNDU2LC0xMTQ2Mj
+Y1NDkxLC0yMDk4MDQzNDk3LDg5OTY5OTY1MywtMjAyMTQwMDI2
+MywxMjM3OTE3MTA3XX0=
 -->
