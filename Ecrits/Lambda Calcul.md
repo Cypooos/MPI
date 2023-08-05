@@ -252,7 +252,7 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 38. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
 ## Caractérisation des expressions unitaire
-On essaye de montrer que toute les expressions unitaires sont tel que $\Gamma \vdash e:t$.
+On essaye de montrer que toute les expressions unitaires qui ne sont pas des fonctions sont tel que $\empty \vdash e:t$.
 
 ## Réciproque
 
@@ -277,6 +277,6 @@ Toutes les questions ici sont difficiles.
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzkwNTA1MTUsLTE2MTA2NzM1MTUsLT
+eyJoaXN0b3J5IjpbLTEzNzQxNDg3MTIsLTE2MTA2NzM1MTUsLT
 g0NTM1MTQ2NV19
 -->
