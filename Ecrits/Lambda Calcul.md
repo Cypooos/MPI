@@ -6,7 +6,7 @@ La partie I introduit le lambda calcul et les booléens.
 La partie II étudie la $\beta$-équivalence et la propriété de *Church-Rosser*.
 La partie III implémente les entiers de Church et les opérations classiques dessus.
 La partie IV introduit le principe d'opérateur point-fixe et la récursivité.
-La partie V définie des types aux expressions du lambda calcul. Ne pas la faire, elle est en cours d'écriture.
+La partie V définie des types aux expressions du lambda calcul. Elle est en cours d'écriture.
 La partie VI, pour aller plus loin.
 
 Dépendances des différentes parties :
@@ -252,7 +252,7 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 38. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
 ## Caractérisation des expressions unitaire
-On essaye de montrer que toute les expressions unitaire sont tel que $\empty \vdash e:t$.
+On essaye de montrer que toute les expressions unitaires sont tel que $\Gamma \vdash e:t$.
 
 ## Réciproque
 
@@ -277,5 +277,6 @@ Toutes les questions ici sont difficiles.
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTA2NzM1MTUsLTg0NTM1MTQ2NV19
+eyJoaXN0b3J5IjpbLTEzNzkwNTA1MTUsLTE2MTA2NzM1MTUsLT
+g0NTM1MTQ2NV19
 -->
