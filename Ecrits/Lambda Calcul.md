@@ -256,7 +256,6 @@ On essaye de montrer que toute les expressions unitaires qui ne sont pas des fon
 
 ## Réciproque
 
-En déduire que $\Delta$ ne possède pas de typage.
 
 > Remarque : En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même la fonction $\text{pow}$ comme on a pu le voir dans la partie III.
 
@@ -277,6 +276,6 @@ Toutes les questions ici sont difficiles.
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQxNDg3MTIsLTE2MTA2NzM1MTUsLT
+eyJoaXN0b3J5IjpbLTIxMDgyNDc5MDIsLTE2MTA2NzM1MTUsLT
 g0NTM1MTQ2NV19
 -->
