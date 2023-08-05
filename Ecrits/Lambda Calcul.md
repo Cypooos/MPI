@@ -197,6 +197,7 @@ $$\text{fix}(F)(e) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))
 
 Si $\alpha$ est sous forme normale, on appellera le plus petit $n_r$ le *nombre d'appels récursif* de $F(x)$.
 
+> Voir *Pour aller plus loin*, question 4
 ## Un exemple
 On définit :
 $$
@@ -289,7 +290,7 @@ Toutes les questions ici sont difficiles.
 
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTM0NzYzLDEwMjE1Njg3MzAsMTAyMT
+eyJoaXN0b3J5IjpbNjM4NjI0OTMzLDEwMjE1Njg3MzAsMTAyMT
 U2ODczMCwtMTEyNjg4OTI2MCw0OTQ2NDU3OTgsMTIzMDgyODYz
 NSwyMTA1NDI4MTczLC0xOTIzNjc4Nzc3LDEzNDA3OTI4Miw5OT
 c1MjI2NTMsLTE3NjE2OTk3NzMsLTE2OTYyNzkwMCwxNzA5NTcz
