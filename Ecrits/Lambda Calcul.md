@@ -6,7 +6,7 @@ La partie I introduit le lambda calcul et les booléens.
 La partie II étudie la $\beta$-équivalence et la propriété de *Church-Rosser*.
 La partie III implémente les entiers de Church et les opérations classiques dessus.
 La partie IV introduit le principe d'opérateur point-fixe et la récursivité.
-La partie V définie des types aux expressions du lambda calcul.
+La partie V définie des types aux expressions du lambda calcul. Ne pas la faire
 La partie VI, pour aller plus loin. Certaines parties en font référence.
 
 Dépendances des différentes parties :
@@ -287,11 +287,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTU2ODczMCwxMDIxNTY4NzMwLC0xMT
-I2ODg5MjYwLDQ5NDY0NTc5OCwxMjMwODI4NjM1LDIxMDU0Mjgx
-NzMsLTE5MjM2Nzg3NzcsMTM0MDc5MjgyLDk5NzUyMjY1MywtMT
-c2MTY5OTc3MywtMTY5NjI3OTAwLDE3MDk1NzM5MzcsLTE0NTU5
-MTQyOTgsLTEwNTY5Mjg1NDMsNzc2ODU5NzIsMTM4NjMzNDcsOD
-Y4Njg5MjMsMTkxMjk1MzMyMywtMTg0Nzc3MTYwNCwtNTY4ODQy
-NTQ0XX0=
+eyJoaXN0b3J5IjpbLTE2NTc4NTA0MDMsMTAyMTU2ODczMCwxMD
+IxNTY4NzMwLC0xMTI2ODg5MjYwLDQ5NDY0NTc5OCwxMjMwODI4
+NjM1LDIxMDU0MjgxNzMsLTE5MjM2Nzg3NzcsMTM0MDc5MjgyLD
+k5NzUyMjY1MywtMTc2MTY5OTc3MywtMTY5NjI3OTAwLDE3MDk1
+NzM5MzcsLTE0NTU5MTQyOTgsLTEwNTY5Mjg1NDMsNzc2ODU5Nz
+IsMTM4NjMzNDcsODY4Njg5MjMsMTkxMjk1MzMyMywtMTg0Nzc3
+MTYwNF19
 -->
