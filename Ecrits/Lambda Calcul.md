@@ -187,7 +187,7 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 
 32. (*) Donnez une expression point-fixe.
 
-> Voir *Pour aller plus loin*, question 2 et 
+> Voir *Pour aller plus loin*, question 2 et 3
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
 
@@ -278,21 +278,22 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 
 ## Pour aller plus loin
+Toutes les questions ici sont difficiles.
 
-1. Donnez un opérateur point fixe $\Theta$ tel que $\Theta(f) \to^* f(\Theta(f))$
+1. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
-2. On cherche à calculer la forme normale de $f(e)$, pour cela on met d'abord l'argument $e$ sous forme normale inductivement avant de faire l'évaluation. Comment changer $Y$ tel que $\text{fact}(C_1)$ termine ? 
+2. Donnez un opérateur point fixe $\Theta$ tel que $\Theta(f) \to^* f(\Theta(f))$
 
-3. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
+3. On cherche à calculer la forme normale de $f(e)$, pour cela on met d'abord l'argument $e$ sous forme normale inductivement avant de faire l'évaluation. Comment changer $Y$ tel que $\text{fact}(C_1)$ termine ? 
 
-4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
+
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzE0ODk3MSwxMDIxNTY4NzMwLDEwMj
-E1Njg3MzAsLTExMjY4ODkyNjAsNDk0NjQ1Nzk4LDEyMzA4Mjg2
-MzUsMjEwNTQyODE3MywtMTkyMzY3ODc3NywxMzQwNzkyODIsOT
-k3NTIyNjUzLC0xNzYxNjk5NzczLC0xNjk2Mjc5MDAsMTcwOTU3
-MzkzNywtMTQ1NTkxNDI5OCwtMTA1NjkyODU0Myw3NzY4NTk3Mi
-wxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOTUzMzIzLC0xODQ3Nzcx
-NjA0XX0=
+eyJoaXN0b3J5IjpbMTA4NTM0NzYzLDEwMjE1Njg3MzAsMTAyMT
+U2ODczMCwtMTEyNjg4OTI2MCw0OTQ2NDU3OTgsMTIzMDgyODYz
+NSwyMTA1NDI4MTczLC0xOTIzNjc4Nzc3LDEzNDA3OTI4Miw5OT
+c1MjI2NTMsLTE3NjE2OTk3NzMsLTE2OTYyNzkwMCwxNzA5NTcz
+OTM3LC0xNDU1OTE0Mjk4LC0xMDU2OTI4NTQzLDc3Njg1OTcyLD
+EzODYzMzQ3LDg2ODY4OTIzLDE5MTI5NTMzMjMsLTE4NDc3NzE2
+MDRdfQ==
 -->
