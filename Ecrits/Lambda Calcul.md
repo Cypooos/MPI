@@ -6,8 +6,8 @@ La partie I introduit le lambda calcul et les booléens.
 La partie II étudie la $\beta$-équivalence et la propriété de *Church-Rosser*.
 La partie III implémente les entiers de Church et les opérations classiques dessus.
 La partie IV introduit le principe d'opérateur point-fixe et la récursivité.
-La partie V définie des types aux expressions du lambda calcul. Ne pas la faire
-La partie VI, pour aller plus loin. Certaines parties en font référence.
+La partie V définie des types aux expressions du lambda calcul. Ne pas la faire, elle est en cours d'écriture.
+La partie VI, pour aller plus loin.
 
 Dépendances des différentes parties :
 $$
@@ -183,10 +183,11 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 30. Montrez que tout $f\in E$ admet un point fixe.
 
 31. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe fort.
+> Voir *Pour aller plus loin*, question 1
 
 32. (*) Donnez une expression point-fixe.
 
-> Voir *Pour aller plus loin*, question 1. et 2.
+> Voir *Pour aller plus loin*, question 2 et 
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
 
@@ -287,11 +288,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 4. Quel est le point fixe $C^*$ de $\text{succ}$ (obtenu à l'aide $Y$) ? Que représente-t'il ? Que donne $\text{add}(C^*,C_n)$ ?
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTc4NTA0MDMsMTAyMTU2ODczMCwxMD
-IxNTY4NzMwLC0xMTI2ODg5MjYwLDQ5NDY0NTc5OCwxMjMwODI4
-NjM1LDIxMDU0MjgxNzMsLTE5MjM2Nzg3NzcsMTM0MDc5MjgyLD
-k5NzUyMjY1MywtMTc2MTY5OTc3MywtMTY5NjI3OTAwLDE3MDk1
-NzM5MzcsLTE0NTU5MTQyOTgsLTEwNTY5Mjg1NDMsNzc2ODU5Nz
-IsMTM4NjMzNDcsODY4Njg5MjMsMTkxMjk1MzMyMywtMTg0Nzc3
-MTYwNF19
+eyJoaXN0b3J5IjpbMTYxMzE0ODk3MSwxMDIxNTY4NzMwLDEwMj
+E1Njg3MzAsLTExMjY4ODkyNjAsNDk0NjQ1Nzk4LDEyMzA4Mjg2
+MzUsMjEwNTQyODE3MywtMTkyMzY3ODc3NywxMzQwNzkyODIsOT
+k3NTIyNjUzLC0xNzYxNjk5NzczLC0xNjk2Mjc5MDAsMTcwOTU3
+MzkzNywtMTQ1NTkxNDI5OCwtMTA1NjkyODU0Myw3NzY4NTk3Mi
+wxMzg2MzM0Nyw4Njg2ODkyMywxOTEyOTUzMzIzLC0xODQ3Nzcx
+NjA0XX0=
 -->
