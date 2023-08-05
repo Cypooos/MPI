@@ -257,11 +257,7 @@ On essaye de montrer que toute les expressions unitaire sont tel que $\empty \vd
 ## Réciproque
 On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
-44. En étendant $\phi$, donnez $\varphi : T\to E$ injective 
-45. Soit $\Gamma\vdash e:t$. Montrez que $e\to^* \phi(t)$ et $e$ unitaire.
-> A revoir: Je pense avoir fait une erreur quand j'ai écrit la correction, mais je ne sais pas d'où elle viens. Je regarderai avec vos propositions. Ne passez pas trop de temps dessus si elle vous semble impossible.
-46. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
-47. En déduire que $\Delta$ ne possède pas de typage.
+En déduire que $\Delta$ ne possède pas de typage.
 
 > Remarque : En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même la fonction $\text{pow}$ comme on a pu le voir dans la partie III.
 
@@ -285,5 +281,5 @@ Toutes les questions ici sont difficiles.
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTM1MTQ2NV19
+eyJoaXN0b3J5IjpbMTczNTQ1Nzc3MCwtODQ1MzUxNDY1XX0=
 -->
