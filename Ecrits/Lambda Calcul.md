@@ -255,7 +255,6 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 On essaye de montrer que toute les expressions unitaire sont tel que $\empty \vdash e:t$.
 
 ## Réciproque
-On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 En déduire que $\Delta$ ne possède pas de typage.
 
@@ -263,9 +262,6 @@ En déduire que $\Delta$ ne possède pas de typage.
 
 > Remarque : Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
-> Remarque : En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même la fonction $\text{pow}$ comme on a pu le voir dans la partie III.
-
-> Remarque : Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
 
 
 ## Pour aller plus loin
@@ -281,5 +277,5 @@ Toutes les questions ici sont difficiles.
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTQ1Nzc3MCwtODQ1MzUxNDY1XX0=
+eyJoaXN0b3J5IjpbLTE2MTA2NzM1MTUsLTg0NTM1MTQ2NV19
 -->
