@@ -155,7 +155,7 @@ int main(){
 On remarque que effectuer l'opération `r<<=r`, c'est exactement calculer $r2^r = \hat f_2(r)$
 On a ainsi que $\text{lo}(0,x) = \hat f_2^r(r)=\hat f_3(r)$
 On a donc que $\text{lo}(i,x) = \hat f_{3+i}(x)$
-Donc $\text{loy}$
+Donc $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega+3}(n)$
 
 ## Igor (349 caractères)
 ```c
@@ -435,10 +435,10 @@ Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com
 
 Ce code ne se compile pas, la fonction `X` n'est pas définie.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2NjU0Mzc0LDE5OTQ4NzM5NjUsMTc5Mz
-I4MDAzMCwtMTM0NTk3ODQ0NSwxMTM2NDg4OTI5LDQ2NDYxNTA0
-OSwxNTEzNzQwNDY0LC0yMDc5OTcwODA1LC0xMjE0NDE4ODI1LC
-01MTQxMTU2NDgsLTE1MzYyNzUxNzUsMzM4NDYzNjQwLDE4NjQ1
-MzkxNjUsLTY3OTEzOTI3MSwxNjc5MTY5MzEwLC0xNjYxMTA5Mz
-Y3LDE4ODA1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbMTY5Mjg1NzMxNiwxOTk0ODczOTY1LDE3OT
+MyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODkyOSw0NjQ2MTUw
+NDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMTIxNDQxODgyNS
+wtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0MCwxODY0
+NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMCwtMTY2MTEwOT
+M2NywxODgwNTAyNDI5XX0=
 -->
