@@ -10,10 +10,34 @@ Les entrée sont listé avec des explications, de la plus petite (sur la liste p
 Ensuite, vous avez à la fin du document mon entrée (TREE(3)), ainsi que des ressources dans le domaine de la *gogologie*, la branche de l'informatique théorique / des mathématiques étudiant les grands nombres. Vous aurez aussi des conseils sur comment réduire le nombre de caractères pour un programme donné.
 
 Liste principale :
-- ?
+- Quentin *disqualifié*
 - ?
 - 
+
+## Igor
+```c```
+
+
+## Quentin
+```c
+#include <stdio.h>
+int main() {
+
+  int i;
+  int n = 1495000000;
+  int t1 = 0, t2 = 1;
+  int nextTerm = t1 + t2;
+
+  for (i = 3; i <= n; ++i) {
+    t1 = t2;
+    t2 = nextTerm;
+    nextTerm = t1 + t2;
+  }
+  printf("%d, ", nextTerm);
+  return 0;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjg1OTY5MiwtMTY2MTEwOTM2NywxOD
-gwNTAyNDI5XX0=
+eyJoaXN0b3J5IjpbNDgwMTQyMTI3LC0xNjYxMTA5MzY3LDE4OD
+A1MDI0MjldfQ==
 -->
