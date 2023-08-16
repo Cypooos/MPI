@@ -22,10 +22,10 @@ Le programme DOIT retourner à la fin un entier (et donc finir son exécution en
 L'algorithme doit être déterministe; tout comportement indéterministe ( comme les valeurs pointées après un `malloc` ) doit être déterminisé ( par l'initialisation de ces valeurs par exemple )
 
 Liste d’opérations utilisable : 
- - `+` `*` `/` `%` `||` `&&` `^`  `&`  `|` `!` `==` `!=` `<` `>` `<=` `>=` **seulement sur les entiers**
+ - `+` `*` `/` `%` `||` `&&` `^`  `&`  `|` `!` `==` `!=` `<` `>` `<=` `>=` `<<` `>>` et leurs version d'assignation (`+=` `*=` ...) **seulement sur les entiers**
  - L'opérateur ternaire `a ? b : c`
  - Les `#define`
- - la création de structure, les opérations `free` `malloc` `calloc` `sizeof` `typedef`
+ - La création de structure, de types, les opérations `free` `malloc` `calloc` `sizeof` `typedef`
  - La gestion de pointeur, opérations `*` `&` (attention à rester dans un cadre déterministe), la constante `NULL`
  - Toute les structures de contrôle usuelle : création de fonction, `while` `if` `else` et `for`
  
@@ -45,5 +45,5 @@ Le programme vainqueur sera le programme renvoyant le plus grand entier en valeu
 La date limite pour envoyer vos programmes par discord à @cypooos ou par mail à cyprien.bourotte@gmail.com ou par whatsapp est le **lundi 14 août à 14h**.
 N'hésitez pas à m'envoyer des questions / demande de précisions concernant les règles si besoin ! 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzI1NDhdfQ==
+eyJoaXN0b3J5IjpbMzc1Njk4NDAxLDEyNzcyNTQ4XX0=
 -->
