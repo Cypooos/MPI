@@ -172,7 +172,7 @@ int max = 9;
 **Calcul des bornes:**
 On a toujours $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\text{loy}(n) \ge \hat f_{\omega}(n)$
 
-On a l'invarient sur une évaluation de $df$que $\min(i,j)\le n$
+On a l'invarient sur une évaluation de $\text{fks}$ que $\min(i,j)\le n$
 
 On pose $\text{fks}'_i(n) = \text{fks}(i,n,n)$
 On a $\text{fks}(k,0,n) \le \text{fks}'^{k}_{k-1}(\text{max})$
@@ -454,7 +454,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjA5MTE4MCwxMjcyMjA0MTA2LDE1Mz
+eyJoaXN0b3J5IjpbMTQzMjYzMTY1MSwxMjcyMjA0MTA2LDE1Mz
 U1MTExNzgsMjIyMzkyMzU3LDQxNjAwOCwxMTgyODUyMzMsMTk5
 NDg3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0OD
 g5MjksNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUs
