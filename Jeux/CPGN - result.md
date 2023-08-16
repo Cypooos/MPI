@@ -27,6 +27,7 @@ Liste principale :
 Liste secondaire:
 | Entrée  |Borne Inf                      |Borne sup                    |
 |---------|-------------------------------|-----------------------------|
+|Thomas   |0                              |0                            |
 |Cornich' |9|9                            |
 |Quentin  |10               |$\frac{1}{\sqrt{5}}\times2^{1495000001}$|
 |Igor     |$\hat f_{3\omega}(2)$|$\hat f_{3\omega+1}(2)$|
@@ -152,7 +153,7 @@ int main(){
 }
 ```
 **Calcul des bornes :**
-On remarque que effectuer l'opération `r<<=r`, c'est exactement calculer $r2^r = \hat f_2(r)$
+On remarque que effectuer l'opération `r<<=r`, c'est exactement faire $r \larr r2^r = \hat f_2(r)$
 On a ainsi que $\text{lo}(0,x) = \hat f_2^r(r)=\hat f_3(r)$
 On a donc que $\text{lo}(i,x) = \hat f_{3+i}(x)$
 Donc $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\text{loy}(n) \ge \hat f_{\omega}(n)$
@@ -160,7 +161,8 @@ Donc $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\text{loy}(n)
 L'algorithme est bien parti !
 Malheureusement, `max` étant initialisé à 0, et comme `loy(0) = 0`, max est constamment égal à 0.
 Si le programme termine, alors il renvoie 0, car les seuls appels non récursifs de `fks` possible sont ceux qui renvoient `max`.
-Le programme termine car les appels récursif de `fks`
+Le programme termine car les appels récursif de `fks` sont descendant strict pour la relation d'ordre lexicographique.
+Donc le programme renvoie 0.
 
 ## Igor (349 caractères)
 ```c
@@ -440,10 +442,10 @@ Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com
 
 Ce code ne se compile pas, la fonction `X` n'est pas définie.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzU0MjU5MjksMTk5NDg3Mzk2NSwxNz
-kzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0ODg5MjksNDY0NjE1
-MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUsLTEyMTQ0MTg4Mj
-UsLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0NjM2NDAsMTg2
-NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMD
-kzNjcsMTg4MDUwMjQyOV19
+eyJoaXN0b3J5IjpbMTE4Mjg1MjMzLDE5OTQ4NzM5NjUsMTc5Mz
+I4MDAzMCwtMTM0NTk3ODQ0NSwxMTM2NDg4OTI5LDQ2NDYxNTA0
+OSwxNTEzNzQwNDY0LC0yMDc5OTcwODA1LC0xMjE0NDE4ODI1LC
+01MTQxMTU2NDgsLTE1MzYyNzUxNzUsMzM4NDYzNjQwLDE4NjQ1
+MzkxNjUsLTY3OTEzOTI3MSwxNjc5MTY5MzEwLC0xNjYxMTA5Mz
+Y3LDE4ODA1MDI0MjldfQ==
 -->
