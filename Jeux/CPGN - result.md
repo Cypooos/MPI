@@ -201,10 +201,12 @@ Ici, on remarque que $\text{compound}(x,a,b,n)$ calcule $\text{rec}(\text{rec}(.
 Dans le cas de $b=0$, on a $\text{rec}(x,a,b) = \hat f_a(x)$ *exactement*
 On a donc $\text{rec}(x,a,b)=\hat f_{b.\omega+a}(x)$ *exactement*
 On pose $\text{rec}'(n) = \text{rec}(n,n,n)$
-On a ainsi $\hat f_{(n).\omega}(n+1)\le \text{rec}'(n) =\hat f_{n.\omega+n}(n) \le \hat f_{(n+1).\omega}(n+1)$
+On a ainsi $\hat f_{n.\omega}(n)\le \text{rec}'(n) =\hat f_{n.\omega+n}(n) \le \hat f_{(n+1).\omega}(n+1)$
+
+Donc comme $\text{bc}(x) = \text{rec}'()$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzY2NjA4OSwtMTUzNjI3NTE3NSwzMz
+eyJoaXN0b3J5IjpbMjA2NTQ0MTIwOCwtMTUzNjI3NTE3NSwzMz
 g0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkz
 MTAsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
 -->
