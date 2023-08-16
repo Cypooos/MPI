@@ -100,6 +100,42 @@ $$F_n = \frac{1}{\sqrt5}(\varphi^n-\varphi'^n)\le \frac{1}{\sqrt{5}}\times2^n$$
 Avec $\varphi$ le nombre d'or et $\varphi' = -\varphi^{-1}$
 Donc l'entier retournée est inférieur à $\frac{1}{\sqrt{5}}\times2^{1495000001}$.
 
+## Thomas (427 caractères)
+```c
+int max = 0;
+
+int lo(int l,int r){
+	int s=r;
+	if(l==0)for(int i=0;i<s;i++)r<<=r;
+	else for(int i=0;i<s;i++)r=lo(l-1,r);
+	return r;
+}
+
+int loy(int n){
+	return lo(n,n);
+}
+
+int fks(int k,int i,int n){
+	if(k==0){
+		max = loy(max);
+		return loy(max);
+	}
+	if(i==0){
+		for(int j=0;j<k;j++) max = fks(j,max,max);
+		return max;
+	} else if(n==0){
+		max = loy(max);
+		for(int j=0;j<i;j++) max=fks(k,i-j-1,max);
+		return max;
+	}
+	return fks(k,i-1,fks(k-1,i,n-1));
+}
+
+int main(){
+	fks(loy(2<<100),loy(2<<100),loy(2<<100));
+	return 0;
+}
+```
 
 ## Igor (349 caractères)
 ```c
@@ -246,8 +282,9 @@ Finalement, comme $\text{main()} = \text{bc}(999^2)$, cela nous donne les bornes
 $$\boxed{f_{\omega^2+1}(2) \le\text{main()} \le \hat f_{\omega^2+1}(1000000)\le \hat f_{\omega^2+2}(2)}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMT
-IxNDQxODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2
-MzY0MCwxODY0NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMC
-wtMTY2MTEwOTM2NywxODgwNTAyNDI5XX0=
+eyJoaXN0b3J5IjpbMTQ5MzAzMTY0NywxNTEzNzQwNDY0LC0yMD
+c5OTcwODA1LC0xMjE0NDE4ODI1LC01MTQxMTU2NDgsLTE1MzYy
+NzUxNzUsMzM4NDYzNjQwLDE4NjQ1MzkxNjUsLTY3OTEzOTI3MS
+wxNjc5MTY5MzEwLC0xNjYxMTA5MzY3LDE4ODA1MDI0MjldfQ==
+
 -->
