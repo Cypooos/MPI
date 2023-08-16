@@ -67,7 +67,8 @@ I main(void) {
     return c(99999999999,99999999999);
 }
 ```
-
+Dans ce code :
+- $f(a,b,c) \le f_{c\dot}()$
 
 
 ## Quentin
@@ -90,6 +91,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDM4MDUyMDgsLTE2NjExMDkzNjcsMT
-g4MDUwMjQyOV19
+eyJoaXN0b3J5IjpbODA5MDE0NjUwLC0xNjYxMTA5MzY3LDE4OD
+A1MDI0MjldfQ==
 -->
