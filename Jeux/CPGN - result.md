@@ -70,8 +70,8 @@ I main(void) {
 }
 ```
 Dans ce code :
-- $f(a,n,x) \le a^{\hat f_{x}(n)} \le \hat f_{x+2}(n)$
-- $g(d) \le f_{}$
+- $f(a,n,x) = a^{\hat f_{x}(n)} \le \hat f_{x+2}(n)$
+- $g(d) \le f_{\omega+d}(d)$
 
 
 ## Quentin
@@ -94,6 +94,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwMTQ0MDk0LC0xNjYxMTA5MzY3LDE4OD
-A1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbLTcyMDI0NDM0NSwtMTY2MTEwOTM2NywxOD
+gwNTAyNDI5XX0=
 -->
