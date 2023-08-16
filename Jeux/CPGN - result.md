@@ -125,9 +125,8 @@ Si l'on pose $h'(n) = h(n,n)$, on a $h'(n) \le \hat f_{\omega+n+2}(n+2) = \hat f
 Pareillement, si l'on pose $c'(n) = c(n,n)$, on retrouve $c'(n) \le \hat f_{2\omega+n+1}(n+1) = \hat f_{3\omega}(n+1)$ *ici le n+1 viens du fait que la boucle est réalisée $c(x,i-1)$ fois*
 On a donc $\text{main}() = c'(99999999999) \le \hat f_{3\omega}(100000000000)\boxed{\le \hat f_{3\omega+1}(2)}$
 
-
-
+Il est rapide de voir que $\text{main}() \ge f_{3\omega}(2)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM1NjkxMDMsMTY3OTE2OTMxMCwtMT
+eyJoaXN0b3J5IjpbLTE0MjMzMzk1NTIsMTY3OTE2OTMxMCwtMT
 Y2MTEwOTM2NywxODgwNTAyNDI5XX0=
 -->
