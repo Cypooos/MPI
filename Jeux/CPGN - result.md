@@ -413,7 +413,7 @@ int Z(int a, int *t, int n, int k, int *s, int l) {
   int *u = malloc(4 * n);
   for (int i = 0; i < n; i++)
     u[i] = n - k       ? k - i ? t[i] : t[i] - 1
-           : n - 1 - i ? E(a, X(a, t, n, n - 2, s, l), n, s, l)
+           : n - 1 - i ? E(a, Z(a, t, n, n - 2, s, l), n, s, l)
                        : t[i] - 1;
   return u;
 }
@@ -442,9 +442,8 @@ int main() {
 ```
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
-Ce code ne se compile pas, la fonction `X` n'est pas définie.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2NTg2ODkzLDExODI4NTIzMywxOTk0OD
+eyJoaXN0b3J5IjpbMzI2MzgwNDk2LDExODI4NTIzMywxOTk0OD
 czOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODky
 OSw0NjQ2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMT
 IxNDQxODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2
