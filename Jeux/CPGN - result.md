@@ -145,7 +145,7 @@ int main(){
 }
 ```
 **Calcul des bornes :**
-
+On remarque que $\text{lo}(l,r)$ est une répa
 
 
 ## Igor (349 caractères)
@@ -293,7 +293,7 @@ Finalement, comme $\text{main()} = \text{bc}(999^2)$, cela nous donne les bornes
 $$\boxed{f_{\omega^2+1}(2) \le\text{main()} \le \hat f_{\omega^2+1}(1000000)\le \hat f_{\omega^2+2}(2)}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MDA4MDc4OSwxNTEzNzQwNDY0LC0yMD
+eyJoaXN0b3J5IjpbMTg2MDQyNzQ3NiwxNTEzNzQwNDY0LC0yMD
 c5OTcwODA1LC0xMjE0NDE4ODI1LC01MTQxMTU2NDgsLTE1MzYy
 NzUxNzUsMzM4NDYzNjQwLDE4NjQ1MzkxNjUsLTY3OTEzOTI3MS
 wxNjc5MTY5MzEwLC0xNjYxMTA5MzY3LDE4ODA1MDI0MjldfQ==
