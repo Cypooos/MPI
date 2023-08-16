@@ -174,17 +174,17 @@ On a toujours $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\tex
 
 Comme le résultat de chaque appel à `fks` est assigné dans `max`, on en  déduit deux autres fonctions qui encadre la fonction `fks` :
 ```c
-int fks_sup(int k,int i,int n, int max){
+int fks_sup(int k, int i, int n, int max){
 	if(k==0 || i==0){
-		for(int j=0;j<k;j++) max = fks(k-1,max,max,max);
+		for(int j=0;j<k;j++) max = fks_sup(k-1,max,max,max);
 		return loy(loy(max));
 	}
 	else if(n==0) {
 		max = loy(max);
-		for(int j=0;j<i;j++) max=fks(k,i-j-1,max);
+		for(int j=0;j<i;j++) max = fks_sup(k,i-1,max,max);
 		return max;
 	}
-	return fks(k,i-1,fks(k-1,i,n-1));
+	return fks_sup(k,i-1,fks_sup(k-1,i,n-1));
 }
 ```
 
@@ -465,7 +465,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzMwNjEzNSwxMjcyMjA0MTA2LDE1Mz
+eyJoaXN0b3J5IjpbMjA4NTA4MTk1MCwxMjcyMjA0MTA2LDE1Mz
 U1MTExNzgsMjIyMzkyMzU3LDQxNjAwOCwxMTgyODUyMzMsMTk5
 NDg3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0OD
 g5MjksNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUs
