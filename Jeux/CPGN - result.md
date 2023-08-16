@@ -1,13 +1,8 @@
 # Résultats de la compétition du plus grand
 
 Merci à tous d'avoir participé !
-Voici le classement final :
-- Chloé
-- Carfaure
-- Quentin et Thomas $0$
-- Igor *disqualifié*
-
-
+Du fait du grand nombre d'entrée ne respectant les règles,  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
+eyJoaXN0b3J5IjpbLTkyNTg0NDMxMSwtMTY2MTEwOTM2NywxOD
+gwNTAyNDI5XX0=
 -->
