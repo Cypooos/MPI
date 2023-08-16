@@ -176,14 +176,10 @@ Comme le résultat de chaque appel à `fks` est assigné dans `max`, on en  déd
 ```c
 int fks_sup(int k,int i,int n, int max){
 	if(k==0 || i==0){
-		for(int _=0;j<k;j++) max = fks(j,max,max);
-		max = loy(max);
-		return loy(max);
+		for(int j=0;j<k;j++) max = fks(k-1,max,max,max);
+		return loy(loy(max));
 	}
-	if(i==0){
-		for(int j=0;j<k;j++) max = fks(j,max,max);
-		return max;
-	} else if(n==0){
+	else if(n==0) {
 		max = loy(max);
 		for(int j=0;j<i;j++) max=fks(k,i-j-1,max);
 		return max;
@@ -469,11 +465,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3Njg2MTI1LDEyNzIyMDQxMDYsMTUzNT
-UxMTE3OCwyMjIzOTIzNTcsNDE2MDA4LDExODI4NTIzMywxOTk0
-ODczOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4OD
-kyOSw0NjQ2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwt
-MTIxNDQxODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzOD
-Q2MzY0MCwxODY0NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMx
-MF19
+eyJoaXN0b3J5IjpbMjAwMzMwNjEzNSwxMjcyMjA0MTA2LDE1Mz
+U1MTExNzgsMjIyMzkyMzU3LDQxNjAwOCwxMTgyODUyMzMsMTk5
+NDg3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0OD
+g5MjksNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUs
+LTEyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMz
+g0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkz
+MTBdfQ==
 -->
