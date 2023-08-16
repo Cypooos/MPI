@@ -62,8 +62,8 @@ int main() {
 Ce code calcul le `1495000001`ème terme de la suite de Fibonacci.
 Si l'on a $F_n$ le n-ème terme de la suite de Fibonacci, alors on a 
 $$F_n = \frac{1}{\sqrt5}(\varphi^n-\varphi'^n)\le \frac{1}{\sqrt{5}}\times2^n$$
-Avec $\varphi$ le Golden Ratio et $\varphi'$
-Donc l'entier retournée est inférieur à $\frac{1}{\sqrt{5}}\times2^{1495000001}$
+Avec $\varphi$ le nombre d'or et $\varphi' = -\varphi^{-1}$
+Donc l'entier retournée est inférieur à $\frac{1}{\sqrt{5}}\times2^{1495000001}$.
 ## Igor
 ```c
 typedef int I;
@@ -125,6 +125,6 @@ L'on a donc $h(x,i) \le e$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg1ODIwNTU5LC0xNjYxMTA5MzY3LDE4OD
-A1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbLTQ0NDQ3MjgyMiwtMTY2MTEwOTM2NywxOD
+gwNTAyNDI5XX0=
 -->
