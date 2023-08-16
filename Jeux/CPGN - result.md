@@ -92,8 +92,8 @@ int main() {
           f(0, f(0, f(0, 9, 9), 9), f(0, f(0, 9, 9), 9)))));
 }
 ```
-On pose, pour $n>1$ : $f'(n) = f(0,n,n)=f(n^2,1,n) =$
-On a ainsi
+On pose, pour $n\ge1$ : $f'(n) = f(0,n,n)=f(n^2,1,n) = n$
+On a ainsi $\text{main()} = f'()$
 ## Igor (349 caractères)
 ```c
 typedef int I;
@@ -237,8 +237,8 @@ Et on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1)$
 Comme $\hat f_{\omega^2}(2) \gg 999^2$, on a alors $\text{bc}(x) \le \hat f_{\omega^2+2}(2)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjAzMTkxMywtNTE0MTE1NjQ4LC0xNT
-M2Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5MTY1LC02NzkxMzky
-NzEsMTY3OTE2OTMxMCwtMTY2MTEwOTM2NywxODgwNTAyNDI5XX
-0=
+eyJoaXN0b3J5IjpbLTEyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMT
+UzNjI3NTE3NSwzMzg0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5
+MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV
+19
 -->
