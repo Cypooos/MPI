@@ -54,7 +54,7 @@ int main() {
 ```
 On remarque que $f(0,9,9)=f(81,1,9) = 9$
 En remplaçant dans le code toutes les occurrences de la chaine de texte `f(0, 9, 9)` par `9` et ceci sept fois, on ce rend compte que ce programme renvoie $9$.
-D'ailleurs, en compilant  exécutant ce code, il renvoie le code d'erreur 9.
+D'ailleurs, en compilant et exécutant ce code, il renvoie le code d'erreur 9.
 
 Il m'est difficile de comprendre les intentions derrière le code, donc je ne l'ai pas modifié pour la liste secondaire, ce qui donne aussi 9 pour la liste secondaire.
 
@@ -426,9 +426,9 @@ int main() {
 ```
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4NTE0ODE4LDExMzY0ODg5MjksNDY0Nj
-E1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUsLTEyMTQ0MTg4
-MjUsLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0NjM2NDAsMT
-g2NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjEx
-MDkzNjcsMTg4MDUwMjQyOV19
+eyJoaXN0b3J5IjpbLTEzNDU5Nzg0NDUsMTEzNjQ4ODkyOSw0Nj
+Q2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMTIxNDQx
+ODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0MC
+wxODY0NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMCwtMTY2
+MTEwOTM2NywxODgwNTAyNDI5XX0=
 -->
