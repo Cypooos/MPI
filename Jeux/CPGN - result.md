@@ -203,10 +203,10 @@ On a donc $\text{rec}(x,a,b)=\hat f_{b.\omega+a}(x)$ *exactement*
 On pose $\text{rec}'(n) = \text{rec}(n,n,n)$
 On a ainsi $\hat f_{n.\omega}(n)\le \text{rec}'(n) =\hat f_{n.\omega+n}(n) \le \hat f_{(n+1).\omega}(n+1)$
 
-Donc comme $\text{bc}(x) = \text{rec}'^x(1)$
+Donc comme $\text{bc}(x) = \text{rec}'^x(1) = \text{rec}'^{x-1}(2)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTYxNzk3NSwtMTUzNjI3NTE3NSwzMz
+eyJoaXN0b3J5IjpbMjE0MDEzMDYwMSwtMTUzNjI3NTE3NSwzMz
 g0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkz
 MTAsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
 -->
