@@ -154,6 +154,15 @@ int main(){
 **Calcul des bornes :**
 On remarque que $\text{lo}(l,r)$ est une répétition de $r$ fois $\text{lo}(l-1,r)$
 
+```c
+int lo(int l,int r){
+	int s=r;
+	if(l==0)for(int i=0;i<s;i++)r<<=r;
+	else for(int i=0;i<s;i++)r=lo(l-1,r);
+	return r;
+}
+```
+On a que $f(0,x) =x\times2^x$
 
 ## Igor (349 caractères)
 ```c
@@ -433,7 +442,7 @@ Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com
 
 Ce code ne se compile pas, la fonction `X` n'est pas définie.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDA5NzY4OCwxNzkzMjgwMDMwLC0xMz
+eyJoaXN0b3J5IjpbMTk5NDg3Mzk2NSwxNzkzMjgwMDMwLC0xMz
 Q1OTc4NDQ1LDExMzY0ODg5MjksNDY0NjE1MDQ5LDE1MTM3NDA0
 NjQsLTIwNzk5NzA4MDUsLTEyMTQ0MTg4MjUsLTUxNDExNTY0OC
 wtMTUzNjI3NTE3NSwzMzg0NjM2NDAsMTg2NDUzOTE2NSwtNjc5
