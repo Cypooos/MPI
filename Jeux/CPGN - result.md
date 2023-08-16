@@ -68,7 +68,7 @@ I main(void) {
 }
 ```
 Dans ce code :
-- $f(n,n,x) \le f_{x+1}(n)$
+- $f(n,n,x) \le \hat f_{x+1}(n)$
 - $g(d) \le f_{}$
 
 
@@ -92,6 +92,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDYxMDg3MywtMTY2MTEwOTM2NywxOD
-gwNTAyNDI5XX0=
+eyJoaXN0b3J5IjpbLTE0NDU3NDExOTYsLTE2NjExMDkzNjcsMT
+g4MDUwMjQyOV19
 -->
