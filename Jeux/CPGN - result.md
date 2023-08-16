@@ -66,6 +66,22 @@ Si l'on a $F_n$ le n-ème terme de la suite de Fibonacci, alors on a
 $$F_n = \frac{1}{\sqrt5}(\varphi^n-\varphi'^n)\le \frac{1}{\sqrt{5}}\times2^n$$
 Avec $\varphi$ le nombre d'or et $\varphi' = -\varphi^{-1}$
 Donc l'entier retournée est inférieur à $\frac{1}{\sqrt{5}}\times2^{1495000001}$.
+## Cornich 
+```c
+int f(int n,int m,int g)
+{
+    if(n<m){
+        return(f(g*g,n+1,m));
+    }else{ return(g);}
+}
+
+int main(){
+    return f(0,
+    f(0,f(0,f(0,f(0,f(0,f(0,9,9),9),9),f(0,f(0,f(0,9,9),9),9)),f(0,f(0,f(0,f(0,9,9),9),9),f(0,f(0,f(0,9,9),9),9))),f(0,f(0,f(0,f(0,f(0,9,9),9),9),f(0,f(0,f(0,9,9),9),9)),f(0,f(0,f(0,f(0,9,9),9),9),f(0,f(0,f(0,9,9),9),9)))),
+    f(0,f(0,f(0,f(0,f(0,f(0,9,9),9),9),f(0,f(0,f(0,9,9),9),9)),f(0,f(0,f(0,f(0,9,9),9),9),f(0,f(0,9,9),9))),f(0,f(0,f(0,f(0,9,9),9),f(0,f(0,9,9),9)),f(0,f(0,f(0,9,9),9),f(0,f(0,9,9),9))))
+    )
+    ;}
+```
 ## Igor (349 caractères)
 ```c
 typedef int I;
@@ -206,11 +222,11 @@ On a ainsi $\hat f_{n.\omega}(n)\le \text{rec}'(n) =\hat f_{n.\omega+n}(n) \le \
 
 Donc comme $\text{bc}(x) = \text{rec}'^x(1)\le \hat f_{\omega^2}^{x}(2) = \hat f_{\omega^2}^{x+1}(1)$
 Et on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1)$
-Comme $\hat f_{\omega^2}(2) \gg 999^2$, on a alors $\text{bc}(x) \le \hat f_{\omega^2+1}(2)$
+Comme $\hat f_{\omega^2}(2) \gg 999^2$, on a alors $\text{bc}(x) \le \hat f_{\omega^2+2}(2)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzM5MzA5OTEsLTUxNDExNTY0OCwtMT
-UzNjI3NTE3NSwzMzg0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5
-MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV
-19
+eyJoaXN0b3J5IjpbLTE5Mjk3OTIwMiwtNTE0MTE1NjQ4LC0xNT
+M2Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5MTY1LC02NzkxMzky
+NzEsMTY3OTE2OTMxMCwtMTY2MTEwOTM2NywxODgwNTAyNDI5XX
+0=
 -->
