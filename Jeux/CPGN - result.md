@@ -152,10 +152,10 @@ int main(){
 }
 ```
 **Calcul des bornes :**
-On remarque que effectuer l'opération `r<<=r` est exactement calculer $r2^r = \hat f_2(r)$
-On a ainsi que $\text{lo}(0,x) =x\times2^x =\hat f_3(n)$
-On a donc que $\text{lo}(i,x) = \hat f_{2+i}(x)$
-O
+On remarque que effectuer l'opération `r<<=r`, c'est exactement calculer $r2^r = \hat f_2(r)$
+On a ainsi que $\text{lo}(0,x) = \hat f_2^r(r)=\hat f_3(r)$
+On a donc que $\text{lo}(i,x) = \hat f_{3+i}(x)$
+Donc $\text{loy}$
 
 ## Igor (349 caractères)
 ```c
@@ -435,7 +435,7 @@ Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com
 
 Ce code ne se compile pas, la fonction `X` n'est pas définie.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcxMTM4MDg0LDE5OTQ4NzM5NjUsMTc5Mz
+eyJoaXN0b3J5IjpbNDc2NjU0Mzc0LDE5OTQ4NzM5NjUsMTc5Mz
 I4MDAzMCwtMTM0NTk3ODQ0NSwxMTM2NDg4OTI5LDQ2NDYxNTA0
 OSwxNTEzNzQwNDY0LC0yMDc5OTcwODA1LC0xMjE0NDE4ODI1LC
 01MTQxMTU2NDgsLTE1MzYyNzUxNzUsMzM4NDYzNjQwLDE4NjQ1
