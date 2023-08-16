@@ -43,6 +43,26 @@ int main() {
 
 Cette entré est disqualifié pour l'utillisation d'une librairie.
 De plus, même si `printf` - qui ne sert à rien - aurait été utilisable, le code retourne 0.
+
+Le code corrigé de `main` pour la liste secondaire est  :
+```c
+int main() {
+  int i;
+  int n = 1495000000;
+  int t1 = 0, t2 = 1;
+  int nextTerm = t1 + t2;
+  for (i = 3; i <= n; ++i) {
+    t1 = t2;
+    t2 = nextTerm;
+    nextTerm = t1 + t2;
+  }
+  return nextTerm;
+}
+```
+Ce code calcul le `1495000001`ème terme de la suite de Fibonacci.
+Si l'on a 
+Or on a que 
+
 ## Igor
 ```c
 typedef int I;
@@ -104,6 +124,6 @@ L'on a donc $h(x,i) \le e$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTM1ODQ1OSwtMTY2MTEwOTM2NywxOD
+eyJoaXN0b3J5IjpbLTcwNDkwNDE0NCwtMTY2MTEwOTM2NywxOD
 gwNTAyNDI5XX0=
 -->
