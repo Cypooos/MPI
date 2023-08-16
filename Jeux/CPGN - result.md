@@ -9,7 +9,7 @@ Du fait du grand nombre d'entrée ne respectant les règles, deux listes ont ét
 Les entrée sont listé avec des explications, de la plus petite (sur la liste principale) à la plus grande.
 Ensuite, vous avez à la fin du document mon entrée (TREE(3)), ainsi que des ressources dans le domaine de la *gogologie*, la branche de l'informatique théorique / des mathématiques étudiant les grands nombres. Vous aurez aussi des conseils sur comment réduire le nombre de caractères pour un programme donné.
 
-Dans ce document, $\hat f$ représentent les fonctions de la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy), une méthode utilisé pour comparer des fonctions grandissant vite et définies par récurrence.
+Dans ce document, les $\hat f$ représentent les fonctions de la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy), une méthode utilisé pour comparer des fonctions grandissant vite et définies par récurrence.
 
 Liste principale :
 - Quentin *disqualifié*
@@ -94,6 +94,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTc2ODU2NjEsLTE2NjExMDkzNjcsMT
+eyJoaXN0b3J5IjpbLTE1NTY1MDk2NTUsLTE2NjExMDkzNjcsMT
 g4MDUwMjQyOV19
 -->
