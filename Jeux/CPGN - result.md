@@ -15,8 +15,58 @@ Liste principale :
 - 
 
 ## Igor
-```c```
+```c
+typedef int I;
 
+I f(I a,I b,I i){
+    if(i==0){return a*b;}
+    I r = a;
+    for(I j=0;j<b;++j){
+        r=f(a,r,i-1);
+    }
+    return r;
+}
+
+I g(I d){
+    I c=d;
+    for(I j=0;j<d;++j){
+        c=f(c,c,c);
+    }
+    return c;
+}
+
+I h(I x,I i){
+    if(i==0){return g(x);}
+    I y=x;
+    for(I j=0;j<x;++j){
+        y=h(y,i-1);
+    }
+    return y;
+}
+
+I c(I x,I i){
+    if(i==0){return h(x,x);}
+    I y=x;
+    for(I j=0;j<c(x,i-1);++j){
+        y=c(y,i-1);
+    }
+    return y;
+}
+
+I main(void) {
+    c(__INT_MAX__,__INT_MAX__);
+    return 0;
+}
+```
+Cette entré est disqualifié pour l'utillisation de `__INT_MAX__`.
+
+Le code corrigé de `main` pour la liste secondaire est  :
+```c
+I main(void) {
+    c(__INT_MAX__,__INT_MAX__);
+    return 0;
+}
+```
 
 ## Quentin
 ```c
@@ -38,6 +88,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwMTQyMTI3LC0xNjYxMTA5MzY3LDE4OD
-A1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbLTg2MDkwOTA2MSwtMTY2MTEwOTM2NywxOD
+gwNTAyNDI5XX0=
 -->
