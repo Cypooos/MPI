@@ -422,11 +422,11 @@ int main() {
   return N(9, 99, s, 999, 999);
 }
 ```
-Le code d'explication peut etre trouvé ici (trop long pour ce pdf)
+Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNjQ4ODkyOSw0NjQ2MTUwNDksMTUxMz
-c0MDQ2NCwtMjA3OTk3MDgwNSwtMTIxNDQxODgyNSwtNTE0MTE1
-NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5MTY1LC
-02NzkxMzkyNzEsMTY3OTE2OTMxMCwtMTY2MTEwOTM2NywxODgw
-NTAyNDI5XX0=
+eyJoaXN0b3J5IjpbLTE3MDYzNzUxODYsMTEzNjQ4ODkyOSw0Nj
+Q2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMTIxNDQx
+ODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0MC
+wxODY0NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMCwtMTY2
+MTEwOTM2NywxODgwNTAyNDI5XX0=
 -->
