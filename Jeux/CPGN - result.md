@@ -21,7 +21,7 @@ Liste secondaire :
 - Quentin $\le \frac{1}{\sqrt{5}}\times2^{1495000001}$
 - Igor $\le$
 
-## Quentin
+## Quentin (163 caractères)
 ```c
 #include <stdio.h>
 int main() {
@@ -64,7 +64,7 @@ Si l'on a $F_n$ le n-ème terme de la suite de Fibonacci, alors on a
 $$F_n = \frac{1}{\sqrt5}(\varphi^n-\varphi'^n)\le \frac{1}{\sqrt{5}}\times2^n$$
 Avec $\varphi$ le nombre d'or et $\varphi' = -\varphi^{-1}$
 Donc l'entier retournée est inférieur à $\frac{1}{\sqrt{5}}\times2^{1495000001}$.
-## Igor 
+## Igor (349 caractères)
 ```c
 typedef int I;
 
@@ -128,6 +128,6 @@ On a donc $\text{main}() = c'(99999999999) \le \hat f_{3\omega}(100000000000)\bo
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNjI4ODMzNiwxNjc5MTY5MzEwLC0xNj
+eyJoaXN0b3J5IjpbMjEyMDU5ODI1NiwxNjc5MTY5MzEwLC0xNj
 YxMTA5MzY3LDE4ODA1MDI0MjldfQ==
 -->
