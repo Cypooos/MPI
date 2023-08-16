@@ -10,10 +10,11 @@ Les entrée sont listé avec des explications, de la plus petite (sur la liste p
 Ensuite, vous avez à la fin du document mon entrée (TREE(3)), ainsi que des ressources dans le domaine de la *gogologie*, la branche de l'informatique théorique / des mathématiques étudiant les grands nombres. Vous aurez aussi des conseils sur comment réduire le nombre de caractères pour un programme donné.
 
 Dans ce document, les $\hat f$ représentent les fonctions de la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy), une méthode utilisé pour comparer des fonctions grandissant vite et définies par récurrence.
+Les fonctions des codes sont dans l'analyse mathématique appelée par le même nom ($f$, $g$, $\text{main}$ etc...)
 
 Liste principale :
 - Quentin *disqualifié*
-- ?
+- Igor *disqualifié*
 - 
 
 ## Igor
@@ -71,7 +72,7 @@ I main(void) {
 ```
 On a, dans ce code $f(a,n,x) = a^{\hat f_{x}(n)} \le \hat f_{x+2}(n)$.
 On a donc, en posant $f'(n)=f(n,n,n)$, le fait que $f'(n)\le \hat f_{n+2}(n+2)$
-$g(d) = f'^d(d)\le \hat f_{\omega+1}(d+2)$
+Cela donne pour `g` : $g(d) = f'^d(d)\le \hat f_{\omega+1}(d+2)$
 
 
 ## Quentin
@@ -94,6 +95,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4MjM4MDcsLTE2NjExMDkzNjcsMTg4MD
-UwMjQyOV19
+eyJoaXN0b3J5IjpbLTEwMzQ2NjAyMTIsLTE2NjExMDkzNjcsMT
+g4MDUwMjQyOV19
 -->
