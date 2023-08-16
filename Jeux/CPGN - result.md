@@ -196,8 +196,9 @@ int main() {
 }
 ```
 ici, on remarque que $\text{compound}(x,a,b,n)$ calcule $\text{rec}(\text{rec}(...(x)...,a,b),a,b)$, ou autrement dit, $\text{rec}^n_{a,b}(x)$
+Da
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYyNzUxNzUsMzM4NDYzNjQwLDE4Nj
-Q1MzkxNjUsLTY3OTEzOTI3MSwxNjc5MTY5MzEwLC0xNjYxMTA5
-MzY3LDE4ODA1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbLTEzNDk0ODIxNjYsLTE1MzYyNzUxNzUsMz
+M4NDYzNjQwLDE4NjQ1MzkxNjUsLTY3OTEzOTI3MSwxNjc5MTY5
+MzEwLC0xNjYxMTA5MzY3LDE4ODA1MDI0MjldfQ==
 -->
