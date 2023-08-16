@@ -164,6 +164,8 @@ Si le programme termine, alors il renvoie 0, car les seuls appels non récursifs
 Le programme termine car les appels récursif de `fks` sont descendant strict pour la relation d'ordre lexicographique.
 Donc le programme renvoie 0.
 
+
+
 ## Igor (349 caractères)
 ```c
 typedef int I;
@@ -442,10 +444,10 @@ Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com
 
 Ce code ne se compile pas, la fonction `X` n'est pas définie.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Mjg1MjMzLDE5OTQ4NzM5NjUsMTc5Mz
-I4MDAzMCwtMTM0NTk3ODQ0NSwxMTM2NDg4OTI5LDQ2NDYxNTA0
-OSwxNTEzNzQwNDY0LC0yMDc5OTcwODA1LC0xMjE0NDE4ODI1LC
-01MTQxMTU2NDgsLTE1MzYyNzUxNzUsMzM4NDYzNjQwLDE4NjQ1
-MzkxNjUsLTY3OTEzOTI3MSwxNjc5MTY5MzEwLC0xNjYxMTA5Mz
-Y3LDE4ODA1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbODA2NTg2ODkzLDExODI4NTIzMywxOTk0OD
+czOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODky
+OSw0NjQ2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMT
+IxNDQxODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2
+MzY0MCwxODY0NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMC
+wtMTY2MTEwOTM2NywxODgwNTAyNDI5XX0=
 -->
