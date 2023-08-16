@@ -7,13 +7,13 @@ Du fait du grand nombre d'entrée ne respectant les règles, deux listes ont ét
 - Dans la deuxième, je me suis permis d'interprété les différentes erreurs pour corriger les programmes et donner un classement ou personne n'a été disqualifié.
 
 Ce document commence par une introduction de la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy), une méthode utilisé pour comparer des fonctions grandissant vite et définies par récurrence.
-Les entrée sont listé avec des explications des bornes obtenues et leur code, de la plus petite (sur la liste principale) à la plus grande.
+Les entrée sont listé avec des explications des bornes obtenues et leur code, de la plus petite (sur la liste secondaire) à la plus grande.
 Ensuite, vous avez à la fin du document mon entrée (TREE(3)), ainsi que des ressources dans le domaine de la *gogologie*, la branche de l'informatique théorique / des mathématiques étudiant les grands nombres. Vous aurez aussi des conseils sur comment réduire le nombre de caractères pour un programme donné.
 
 Dans ce document, les $\hat f_{...}$ représentent les fonctions de la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy).
 Les fonctions des programmes sont dans l'analyse mathématique représentée par le même nom ($f$, $g$, $\text{main}$ etc...)
 De plus, $f^n$ représente $n$ évaluations emboitée de $f$ : $f^n(x) = f(f(f(...(x)...)))$ répété $n$ fois.
-Je n'ai pas forcément essayé d'avoir les plus belles bornes, juste des bornes su
+Je n'ai pas forcément essayée d'avoir les plus belles bornes, juste des bornes suffisantes pour obtenir un classement
 
 Liste principale :
 | Entrée  |Borne Inf                      |Borne sup                    |
@@ -447,7 +447,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODM5MTg0MywxMTgyODUyMzMsMTk5ND
+eyJoaXN0b3J5IjpbLTI2NjMwNzEwNiwxMTgyODUyMzMsMTk5ND
 g3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0ODg5
 MjksNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUsLT
 EyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0
