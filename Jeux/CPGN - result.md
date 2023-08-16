@@ -59,14 +59,16 @@ I main(void) {
 }
 ```
 Cette entré est disqualifié pour l'utillisation de `__INT_MAX__`.
+De plus, même si `__INT_MAX__` aurait été utilisable, le code retourne 0.
 
 Le code corrigé de `main` pour la liste secondaire est  :
 ```c
 I main(void) {
-    c(__INT_MAX__,__INT_MAX__);
-    return 0;
+    return c(99999999999,99999999999);
 }
 ```
+
+
 
 ## Quentin
 ```c
@@ -88,6 +90,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MDkwOTA2MSwtMTY2MTEwOTM2NywxOD
-gwNTAyNDI5XX0=
+eyJoaXN0b3J5IjpbLTE1MDM4MDUyMDgsLTE2NjExMDkzNjcsMT
+g4MDUwMjQyOV19
 -->
