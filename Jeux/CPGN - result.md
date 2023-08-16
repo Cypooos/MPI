@@ -17,12 +17,12 @@ De plus, $f^n$ représente $n$ évaluations emboitée de $f$ : $f^n(x) = f(f(f(.
 Liste principale :
 - Quentin *disqualifié*
 - Igor *disqualifié*
-- Cornich avec $9$
+- Cornich $=9$
 
 Liste secondaire :
-- Cornich avec $9$ 
-- Quentin avec $\le \frac{1}{\sqrt{5}}\times2^{1495000001}$
-- Igor avec $\le$
+- Cornich $=9$ 
+- Quentin $9< n\le \frac{1}{\sqrt{5}}\times2^{1495000001}$
+- Igor avec $\hat f_{3\omega}(2) \le n \le \hat f_{3\omega+1}(2)$
 
 ## Cornich (493 caractères)
 (code une fois formaté) :
@@ -242,7 +242,7 @@ Et on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1)$
 Comme $\hat f_{\omega^2}(2) \gg 999^2$, on a alors $\text{bc}(x) \le \hat f_{\omega^2+2}(2)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDA2OTMxNDAsLTEyMTQ0MTg4MjUsLT
+eyJoaXN0b3J5IjpbLTE1ODQxMTI2MTUsLTEyMTQ0MTg4MjUsLT
 UxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0NjM2NDAsMTg2NDUz
 OTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkzNj
 csMTg4MDUwMjQyOV19
