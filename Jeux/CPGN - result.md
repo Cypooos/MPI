@@ -172,7 +172,25 @@ int max = 9;
 **Calcul des bornes:**
 On a toujours $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\text{loy}(n) \ge \hat f_{\omega}(n)$
 
-Comme le résultat de chaque appel à `fks` est assigné dans `max`, 
+Comme le résultat de chaque appel à `fks` est assigné dans `max`, on en  déduit deux autres fonctions qui encadre la fonction `fks` :
+```c
+int fks_sup(int k,int i,int n, int max){
+	if(k==0 || i==0){
+		for(int _=0;j<k;j++) max = fks(j,max,max);
+		max = loy(max);
+		return loy(max);
+	}
+	if(i==0){
+		for(int j=0;j<k;j++) max = fks(j,max,max);
+		return max;
+	} else if(n==0){
+		max = loy(max);
+		for(int j=0;j<i;j++) max=fks(k,i-j-1,max);
+		return max;
+	}
+	return fks(k,i-1,fks(k-1,i,n-1));
+}
+```
 
 ## Igor (349 caractères)
 ```c
@@ -451,11 +469,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDE3Mjc2MiwxMjcyMjA0MTA2LDE1Mz
-U1MTExNzgsMjIyMzkyMzU3LDQxNjAwOCwxMTgyODUyMzMsMTk5
-NDg3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0OD
-g5MjksNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUs
-LTEyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMz
-g0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkz
-MTBdfQ==
+eyJoaXN0b3J5IjpbNzc3Njg2MTI1LDEyNzIyMDQxMDYsMTUzNT
+UxMTE3OCwyMjIzOTIzNTcsNDE2MDA4LDExODI4NTIzMywxOTk0
+ODczOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4OD
+kyOSw0NjQ2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwt
+MTIxNDQxODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzOD
+Q2MzY0MCwxODY0NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMx
+MF19
 -->
