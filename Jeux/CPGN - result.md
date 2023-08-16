@@ -206,9 +206,10 @@ On a ainsi $\hat f_{n.\omega}(n)\le \text{rec}'(n) =\hat f_{n.\omega+n}(n) \le \
 
 Donc comme $\text{bc}(x) = \text{rec}'^x(1)\le \hat f_{\omega^2}^{x}(2) = \hat f_{\omega^2}^{x+1}(1)$
 Et on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1)$
+Comme $\hat f_{\omega^2}(2) \gg 999^2$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NzU3MjI4LC0xNTM2Mjc1MTc1LDMzOD
-Q2MzY0MCwxODY0NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMx
-MCwtMTY2MTEwOTM2NywxODgwNTAyNDI5XX0=
+eyJoaXN0b3J5IjpbLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMz
+g0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkz
+MTAsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
 -->
