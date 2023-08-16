@@ -70,7 +70,7 @@ I main(void) {
 }
 ```
 Dans ce code :
-- $f(a,n,x) = a^{\hat f_{x}(n)} \le$ *car c'est exactement la définition de la FGH avec le successeur qui est remplacé par la multiplication d'une constante (a)*
+- $f(a,n,x) \le a^{\hat f_{x}(n)} \le \hat f_{x+2}(n)$
 - $g(d) \le f_{}$
 
 
@@ -94,6 +94,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTkyNDgxMTIsLTE2NjExMDkzNjcsMT
-g4MDUwMjQyOV19
+eyJoaXN0b3J5IjpbNzEwMTQ0MDk0LC0xNjYxMTA5MzY3LDE4OD
+A1MDI0MjldfQ==
 -->
