@@ -68,7 +68,7 @@ I main(void) {
 }
 ```
 Dans ce code :
-- $f(a,b,c) \le f_{c\dot}()$
+- $f(a,b,c) \le f_{c\times \omega}()$
 
 
 ## Quentin
@@ -91,6 +91,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5MDE0NjUwLC0xNjYxMTA5MzY3LDE4OD
-A1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbMjAyOTIyODE1MiwtMTY2MTEwOTM2NywxOD
+gwNTAyNDI5XX0=
 -->
