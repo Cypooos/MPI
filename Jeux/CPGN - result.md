@@ -159,7 +159,8 @@ Donc $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\text{loy}(n)
 
 L'algorithme est bien parti !
 Malheureusement, `max` étant initialisé à 0, et comme `loy(0) = 0`, max est constamment égal à 0.
-Si le programme termine, alors il renvoie 0, car les seuls appels non récursif de 
+Si le programme termine, alors il renvoie 0, car les seuls appels non récursifs de `fks` possible sont ceux qui renvoient `max`.
+Le programme termine car les appels récursif de `fks`
 
 ## Igor (349 caractères)
 ```c
@@ -439,10 +440,10 @@ Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com
 
 Ce code ne se compile pas, la fonction `X` n'est pas définie.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNjM3MzA0NywxOTk0ODczOTY1LDE3OT
-MyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODkyOSw0NjQ2MTUw
-NDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMTIxNDQxODgyNS
-wtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0MCwxODY0
-NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMCwtMTY2MTEwOT
-M2NywxODgwNTAyNDI5XX0=
+eyJoaXN0b3J5IjpbLTE0NzU0MjU5MjksMTk5NDg3Mzk2NSwxNz
+kzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0ODg5MjksNDY0NjE1
+MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUsLTEyMTQ0MTg4Mj
+UsLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0NjM2NDAsMTg2
+NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMD
+kzNjcsMTg4MDUwMjQyOV19
 -->
