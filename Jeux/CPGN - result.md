@@ -291,7 +291,7 @@ Et l'on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1) \ge f_{\omega^2+1}(2)
 
 Finalement, comme $\text{main()} = \text{bc}(999^2)$, cela nous donne les bornes :
 $$\boxed{f_{\omega^2+1}(2) \le\text{main()} \le \hat f_{\omega^2+1}(1000000)\le \hat f_{\omega^2+2}(2)}$$
-## Carfaure (502 caractères)
+## Carfaure (500 caractères)
 ```c
 #define w int
 #define g return
@@ -334,7 +334,7 @@ w v(w n) {
 
 w u(w z, w y) { g y ? z ? u(u(z - 1, y), y - 1) : u(9, y - 1) : v(z); }
 
-w main(void) { g u(9, u(9, 999)); }
+w main(void) { g u(9, u(9, 9)); }
 ```
 Le code d'explication est celui-ci :
 ```c
@@ -392,8 +392,9 @@ int e2(int *t, int n) { // t[0] est z et t[1] est y dans d
 ## Chloé (500 caractères)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNz
-k5NzA4MDUsLTEyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3
-NTE3NSwzMzg0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLD
-E2NzkxNjkzMTAsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
+eyJoaXN0b3J5IjpbLTIwMTcyMDI0NTMsNDY0NjE1MDQ5LDE1MT
+M3NDA0NjQsLTIwNzk5NzA4MDUsLTEyMTQ0MTg4MjUsLTUxNDEx
+NTY0OCwtMTUzNjI3NTE3NSwzMzg0NjM2NDAsMTg2NDUzOTE2NS
+wtNjc5MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkzNjcsMTg4
+MDUwMjQyOV19
 -->
