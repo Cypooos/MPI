@@ -93,7 +93,9 @@ int main() {
 }
 ```
 On remarque que $f(0,9,9)=f(81,1,9) = 9$
-En remplaçant dans le code la chaine de texte `f(0, 9, 9)` par `9` sept fois, on ce rend compte que ce programme renvoie 
+En remplaçant dans le code toutes les occurrences de la chaine de texte `f(0, 9, 9)` par `9` et ceci sept fois, on ce rend compte que ce programme renvoie $9$.
+Il m'est difficile de comprend les intentions der
+
 ## Igor (349 caractères)
 ```c
 typedef int I;
@@ -237,8 +239,8 @@ Et on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1)$
 Comme $\hat f_{\omega^2}(2) \gg 999^2$, on a alors $\text{bc}(x) \le \hat f_{\omega^2+2}(2)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTgwMDIyMSwtMTIxNDQxODgyNSwtNT
-E0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5
-MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMCwtMTY2MTEwOTM2Ny
-wxODgwNTAyNDI5XX0=
+eyJoaXN0b3J5IjpbLTE2MDAwMTUxMDksLTEyMTQ0MTg4MjUsLT
+UxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0NjM2NDAsMTg2NDUz
+OTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkzNj
+csMTg4MDUwMjQyOV19
 -->
