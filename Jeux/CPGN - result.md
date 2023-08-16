@@ -126,7 +126,9 @@ Pareillement, si l'on pose $c'(n) = c(n,n)$, on retrouve $c'(n) \le \hat f_{2\om
 On a donc $\text{main}() = c'(99999999999) \le \hat f_{3\omega}(100000000000)\boxed{\le \hat f_{3\omega+1}(2)}$
 
 Par un raisonnement similaire, on estimera que $\text{main}() \ge \hat f_{3\omega}(2)$
+## Julien
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3OTEzOTI3MSwxNjc5MTY5MzEwLC0xNj
-YxMTA5MzY3LDE4ODA1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbLTExNDI1NDkxNzQsLTY3OTEzOTI3MSwxNj
+c5MTY5MzEwLC0xNjYxMTA5MzY3LDE4ODA1MDI0MjldfQ==
 -->
