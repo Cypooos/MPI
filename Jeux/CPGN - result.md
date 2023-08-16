@@ -111,7 +111,7 @@ I main(void) {
 Cette entré est disqualifié pour l'utillisation de `__INT_MAX__`.
 De plus, même si `__INT_MAX__` aurait été utilisable, le code retourne 0.
 
-Le code corrigé de `main` pour la liste secondaire est  :
+Le code corrigé de la fonction `main` pour la liste secondaire est  :
 ```c
 I main(void) {
     return c(99999999999,99999999999);
@@ -121,10 +121,10 @@ I main(void) {
 On a, dans ce code $f(a,n,x) = a^{\hat f_{x}(n)} \le \hat f_{x+2}(n)$
 On a donc, en posant $f'(n)=f(n,n,n)$, le fait que $f'(n)\le \hat f_{n+2}(n+2)$
 Cela donne $g(d) = f'^d(d)\le \hat f_{\omega+1}(d+2)$
-L'on a donc $h(x,i) \le e$
+L'on a aussi $h(x,i) \le e$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDQ3MjgyMiwtMTY2MTEwOTM2NywxOD
+eyJoaXN0b3J5IjpbMjE0NzMyMDI0NCwtMTY2MTEwOTM2NywxOD
 gwNTAyNDI5XX0=
 -->
