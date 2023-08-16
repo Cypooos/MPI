@@ -160,10 +160,13 @@ Donc $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\text{loy}(n)
 
 L'algorithme est bien parti !
 Malheureusement, `max` étant initialisé à 0, et comme `loy(0) = 0`, max est constamment égal à 0.
-Si le programme termine, alors il renvoie 0, car les seuls appels non récursifs de `fks` possible sont ceux qui renvoient `max`.
-Le programme termine car les appels récursif de `fks` sont descendant strict pour la relation d'ordre lexicographique.
+Si le programme termine, alors il renvoie 0, car les seuls appels non récursifs de `fks` possible sont ceux qui renvoient `max`. Le programme termine car les appels récursif de `fks` sont descendant strict pour la relation d'ordre lexicographique.
 Donc le programme renvoie 0.
 
+Après une deuxième correction, ou l'on remplace la première ligne par :
+```c
+
+```
 
 
 ## Igor (349 caractères)
@@ -443,10 +446,10 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2MzgwNDk2LDExODI4NTIzMywxOTk0OD
-czOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODky
-OSw0NjQ2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMT
-IxNDQxODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2
-MzY0MCwxODY0NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMC
-wtMTY2MTEwOTM2NywxODgwNTAyNDI5XX0=
+eyJoaXN0b3J5IjpbMjAzNzk1NTEzNCwxMTgyODUyMzMsMTk5ND
+g3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0ODg5
+MjksNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUsLT
+EyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0
+NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkzMT
+AsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
 -->
