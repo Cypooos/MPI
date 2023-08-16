@@ -200,10 +200,11 @@ int main() {
 Ici, on remarque que $\text{compound}(x,a,b,n)$ calcule $\text{rec}(\text{rec}(...(x)...,a,b),a,b)$, ou autrement dit, $\text{rec}^n_{a,b}(x)$
 Dans le cas de $b=0$, on a $\text{rec}(x,a,b) = \hat f_a(x)$ *exactement*
 On a donc $\text{rec}(x,a,b)=\hat f_{b.\omega+a}(x)$ *exactement*
-On pose $\text{rec}'(n) = \text{rec}(n,n,n)=\hat f_{n.\omega+n}(n)\le $
+On pose $\text{rec}'(n) = \text{rec}(n,n,n)$
+On a ainsi $\hat f_{(n).\omega}(n+1)\le \text{rec}'(n) =\hat f_{n.\omega+n}(n) \le \hat f_{(n+1).\omega}(n+1)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MjY2OTEzLC0xNTM2Mjc1MTc1LDMzOD
-Q2MzY0MCwxODY0NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMx
-MCwtMTY2MTEwOTM2NywxODgwNTAyNDI5XX0=
+eyJoaXN0b3J5IjpbMTI3MzY2NjA4OSwtMTUzNjI3NTE3NSwzMz
+g0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkz
+MTAsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
 -->
