@@ -136,6 +136,15 @@ int main(){
 	return 0;
 }
 ```
+Le code renvoie 0.
+
+Le code corrigé de la fonction `main` pour la liste secondaire est  :
+```c
+int main(){
+	return fks(loy(2<<100),loy(2<<100),loy(2<<100));
+}
+```
+
 
 ## Igor (349 caractères)
 ```c
@@ -282,9 +291,9 @@ Finalement, comme $\text{main()} = \text{bc}(999^2)$, cela nous donne les bornes
 $$\boxed{f_{\omega^2+1}(2) \le\text{main()} \le \hat f_{\omega^2+1}(1000000)\le \hat f_{\omega^2+2}(2)}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzAzMTY0NywxNTEzNzQwNDY0LC0yMD
-c5OTcwODA1LC0xMjE0NDE4ODI1LC01MTQxMTU2NDgsLTE1MzYy
-NzUxNzUsMzM4NDYzNjQwLDE4NjQ1MzkxNjUsLTY3OTEzOTI3MS
-wxNjc5MTY5MzEwLC0xNjYxMTA5MzY3LDE4ODA1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbLTExNDA1MTE4OTAsMTUxMzc0MDQ2NCwtMj
+A3OTk3MDgwNSwtMTIxNDQxODgyNSwtNTE0MTE1NjQ4LC0xNTM2
+Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5MTY1LC02NzkxMzkyNz
+EsMTY3OTE2OTMxMCwtMTY2MTEwOTM2NywxODgwNTAyNDI5XX0=
 
 -->
