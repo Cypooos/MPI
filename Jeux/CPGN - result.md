@@ -10,7 +10,7 @@ Ce document commence par une introduction de la [Fast-Growing Hierarchy](https:/
 Les entrée sont listé avec des explications des bornes obtenues et leur code, de la plus petite (sur la liste principale) à la plus grande.
 Ensuite, vous avez à la fin du document mon entrée (TREE(3)), ainsi que des ressources dans le domaine de la *gogologie*, la branche de l'informatique théorique / des mathématiques étudiant les grands nombres. Vous aurez aussi des conseils sur comment réduire le nombre de caractères pour un programme donné.
 
-Dans ce document, les $\hat f$ représentent les fonctions de la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy).
+Dans ce document, les $\hat f_{...}$ représentent les fonctions de la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy).
 Les fonctions des programmes sont dans l'analyse mathématique représentée par le même nom ($f$, $g$, $\text{main}$ etc...)
 De plus, $f^n$ représente $n$ évaluations emboitée de $f$ : $f^n(x) = f(f(f(...(x)...)))$ répété $n$ fois
 
@@ -207,7 +207,7 @@ On a ainsi $\hat f_{n.\omega}(n)\le \text{rec}'(n) =\hat f_{n.\omega+n}(n) \le \
 Donc comme $\text{bc}(x) = \text{rec}'^x(1)\le \hat f_{2.\omega}^{x}(2) = \hat f_{2.\omega}^{x}(2)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDEwNjE4OCwtMTUzNjI3NTE3NSwzMz
-g0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkz
-MTAsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
+eyJoaXN0b3J5IjpbLTE0Njk1MjAxOTMsLTE1MzYyNzUxNzUsMz
+M4NDYzNjQwLDE4NjQ1MzkxNjUsLTY3OTEzOTI3MSwxNjc5MTY5
+MzEwLC0xNjYxMTA5MzY3LDE4ODA1MDI0MjldfQ==
 -->
