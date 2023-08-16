@@ -237,13 +237,14 @@ On a donc $\text{rec}(x,a,b)=\hat f_{b.\omega+a}(x)$ *exactement*
 On pose $\text{rec}'(n) = \text{rec}(n,n,n)$
 On a ainsi $\hat f_{n.\omega}(n)\le \text{rec}'(n) =\hat f_{n.\omega+n}(n) \le \hat f_{(n+1).\omega}(n+1)=\hat f_{\omega^2}(n+1)$
 
-Donc comme $\text{bc}(x) = \text{rec}'^x(1)\le \hat f_{\omega^2}^{x}(2)= \hat f_{\omega^2}^{x+1}(1) \le \hat f_{\omega^2+1}(x+1)$
+Donc on a $\text{bc}(x) = \text{rec}'^x(1)\le \hat f_{\omega^2}^{x}(2)= \hat f_{\omega^2}^{x+1}(1) \le \hat f_{\omega^2+1}(x+1)$
+Et l'on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1) \ge f_{\omega^2}(2)$ (pour $x>2)$
 
-Et l'on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1) \ge f_{\omega^2+x}(1)$
+Cela nous donne les bornes
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjc4MDk1MSwtMTIxNDQxODgyNSwtNT
-E0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5
-MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMCwtMTY2MTEwOTM2Ny
-wxODgwNTAyNDI5XX0=
+eyJoaXN0b3J5IjpbLTE3NjIxNDc0MTIsLTEyMTQ0MTg4MjUsLT
+UxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0NjM2NDAsMTg2NDUz
+OTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkzNj
+csMTg4MDUwMjQyOV19
 -->
