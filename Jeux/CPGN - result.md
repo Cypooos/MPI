@@ -425,10 +425,12 @@ int main() {
 }
 ```
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
+
+Ce code ne se compile pas, la fonction `X` n'est pas définie.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDU5Nzg0NDUsMTEzNjQ4ODkyOSw0Nj
-Q2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMTIxNDQx
-ODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0MC
-wxODY0NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMCwtMTY2
-MTEwOTM2NywxODgwNTAyNDI5XX0=
+eyJoaXN0b3J5IjpbMTc5MzI4MDAzMCwtMTM0NTk3ODQ0NSwxMT
+M2NDg4OTI5LDQ2NDYxNTA0OSwxNTEzNzQwNDY0LC0yMDc5OTcw
+ODA1LC0xMjE0NDE4ODI1LC01MTQxMTU2NDgsLTE1MzYyNzUxNz
+UsMzM4NDYzNjQwLDE4NjQ1MzkxNjUsLTY3OTEzOTI3MSwxNjc5
+MTY5MzEwLC0xNjYxMTA5MzY3LDE4ODA1MDI0MjldfQ==
 -->
