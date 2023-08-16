@@ -2,14 +2,15 @@
 
 Merci à tous d'avoir participé !
 
-Du fait du grand nombre d'entrée ne respectant les règles, deux listes ont été crée: 
+Du fait du grand nombre d'entrée ne respectant les règles, deux listes ont été crées: 
 - La première, prends les propositions tel quel, applique les règles du concours, et n'hésite pas à disqualifier des entrées.
 - Dans la deuxième, je me suis permis d'interprété les différentes erreurs pour corriger les programmes et donner un classement ou personne n'a été disqualifié.
 
-Les entrée sont listé avec des explications, de la plus petite (sur la liste principale) à la plus grande.
+Ce document commence par une introduction de la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy), une méthode utilisé pour comparer des fonctions grandissant vite et définies par récurrence.
+Les entrée sont listé avec des explications des bornes obtenues et leur code, de la plus petite (sur la liste principale) à la plus grande.
 Ensuite, vous avez à la fin du document mon entrée (TREE(3)), ainsi que des ressources dans le domaine de la *gogologie*, la branche de l'informatique théorique / des mathématiques étudiant les grands nombres. Vous aurez aussi des conseils sur comment réduire le nombre de caractères pour un programme donné.
 
-Dans ce document, les $\hat f$ représentent les fonctions de la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy), une méthode utilisé pour comparer des fonctions grandissant vite et définies par récurrence.
+Dans ce document, les $\hat f$ représentent les fonctions de la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy).
 Les fonctions des codes sont dans l'analyse mathématique appelée par le même nom ($f$, $g$, $\text{main}$ etc...)
 De plus, $f^n$ représente $n$ évaluations emboitée de $f$ : $f^n(x) = f(f(f(...(x)...)))$ répété $n$ fois
 
@@ -206,7 +207,7 @@ On a ainsi $\hat f_{n.\omega}(n)\le \text{rec}'(n) =\hat f_{n.\omega+n}(n) \le \
 Donc comme $\text{bc}(x) = \text{rec}'^x(1)\le \hat f_{2.\omega}^{x}(2) = \hat f_{2.\omega}^{x}(2)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjY1MTcxNiwtMTUzNjI3NTE3NSwzMz
+eyJoaXN0b3J5IjpbLTE3Mjg5MzY1MywtMTUzNjI3NTE3NSwzMz
 g0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkz
 MTAsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
 -->
