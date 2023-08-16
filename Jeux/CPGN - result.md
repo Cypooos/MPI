@@ -92,7 +92,7 @@ int main() {
           f(0, f(0, f(0, 9, 9), 9), f(0, f(0, 9, 9), 9)))));
 }
 ```
-On pose $f' = f(0,n,n)=f(0,n,n)$
+On pose, pour $n>1$ : $f'(n) = f(0,n,n)=f(n^2,1,n) =$
 On a ainsi
 ## Igor (349 caractères)
 ```c
@@ -237,7 +237,7 @@ Et on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1)$
 Comme $\hat f_{\omega^2}(2) \gg 999^2$, on a alors $\text{bc}(x) \le \hat f_{\omega^2+2}(2)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjY1NDU5NywtNTE0MTE1NjQ4LC0xNT
+eyJoaXN0b3J5IjpbMTM1NjAzMTkxMywtNTE0MTE1NjQ4LC0xNT
 M2Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5MTY1LC02NzkxMzky
 NzEsMTY3OTE2OTMxMCwtMTY2MTEwOTM2NywxODgwNTAyNDI5XX
 0=
