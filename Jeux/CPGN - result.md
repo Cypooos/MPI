@@ -157,8 +157,45 @@ print(bc(pow(999,999)))
 ```
 Par l'utillisation du python (il ne connaissait pas le C), l'entrée est disqualifié.
 Le code analysé pour la liste secondaire :
+```c
+int compound(int x, int a, int b, int n) {
+    if (n == 1) {
+        return rec(x, a, b);
+    } else {
+        return compound(rec(x, a, b), a, b, n - 1);
+    }
+}
 
+int rec(int x, int a, int b) {
+    if (b == 0) {
+        if (a == 0) {
+            return x + 1;
+        } else {
+            return compound(x, a - 1, b, x);
+        }
+    } else {
+        if (a == 0) {
+            return rec(x, x, b - 1);
+        } else {
+            return compound(x, a - 1, b, x);
+        }
+    }
+}
+
+int bc(int x) {
+    if (x == 1) {
+        return rec(x, x, x);
+    } else {
+        return rec(bc(x - 1), bc(x - 1), bc(x - 1));
+    }
+}
+
+int main() {
+    return bc(999*999);
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2Nz
-kxNjkzMTAsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
+eyJoaXN0b3J5IjpbLTEzNjEzNjAxNzksMTg2NDUzOTE2NSwtNj
+c5MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkzNjcsMTg4MDUw
+MjQyOV19
 -->
