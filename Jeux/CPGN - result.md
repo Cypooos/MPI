@@ -2,9 +2,13 @@
 
 Merci à tous d'avoir participé !
 Voici le classement final :
-- ???
-- ???
-- 
+- Chloé
+- Carfaure
+- Quentin *<*
+- Thomas $0$
+- Igor *disqualifié*
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjQ5MzM3OF19
+eyJoaXN0b3J5IjpbMTg4MDUwMjQyOV19
 -->
