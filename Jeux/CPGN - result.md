@@ -241,10 +241,10 @@ Donc on a $\text{bc}(x) = \text{rec}'^x(1)\le \hat f_{\omega^2}^{x}(2)= \hat f_{
 Et l'on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1) \ge f_{\omega^2+1}(2)$ (pour $x\ge2)$
 
 Finalement, comme $\text{main()} = \text{bc}(999^2)$, cela nous donne les bornes :
-$$f_{\omega^2+1}(2) \le\text{main()} \le \text{}$$
+$$f_{\omega^2+1}(2) \le\text{main()} \le \hat f_{\omega^2+1}(1000000)\le \hat f_{\omega^2+2}(2)$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MTQ0ODc2MSwtMTIxNDQxODgyNSwtNT
+eyJoaXN0b3J5IjpbMTU1MDAwNDI1NywtMTIxNDQxODgyNSwtNT
 E0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5
 MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMCwtMTY2MTEwOTM2Ny
 wxODgwNTAyNDI5XX0=
