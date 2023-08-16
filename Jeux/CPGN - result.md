@@ -17,6 +17,9 @@ Liste principale :
 - Igor *disqualifié*
 - 
 
+Liste secondaire :
+- Quentin $\le \frac{1}{\sqrt{2}}\times2^{1495000000}$
+
 ## Igor
 ```c
 typedef int I;
@@ -95,6 +98,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQ2NjAyMTIsLTE2NjExMDkzNjcsMT
-g4MDUwMjQyOV19
+eyJoaXN0b3J5IjpbMjAzNTYwMzAxMCwtMTY2MTEwOTM2NywxOD
+gwNTAyNDI5XX0=
 -->
