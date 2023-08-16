@@ -173,7 +173,7 @@ int max = 9;
 On a toujours $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\text{loy}(n) \ge \hat f_{\omega}(n)$
 
 On pose $\text{fks}'_i(n) = \text{fks}(i,n,n)$
-On a $\text{fks}(k,0,n) \le \text{fks}'_{}$
+On a $\text{fks}(k,0,n) \le \text{fks}'^{k}_{k-1}(\text{max})$
 
 ## Igor (349 caractères)
 ```c
@@ -452,7 +452,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTg0MjA1NCwyMjIzOTIzNTcsNDE2MD
+eyJoaXN0b3J5IjpbMTUzNTUxMTE3OCwyMjIzOTIzNTcsNDE2MD
 A4LDExODI4NTIzMywxOTk0ODczOTY1LDE3OTMyODAwMzAsLTEz
 NDU5Nzg0NDUsMTEzNjQ4ODkyOSw0NjQ2MTUwNDksMTUxMzc0MD
 Q2NCwtMjA3OTk3MDgwNSwtMTIxNDQxODgyNSwtNTE0MTE1NjQ4
