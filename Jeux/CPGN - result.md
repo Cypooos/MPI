@@ -93,7 +93,7 @@ int main() {
 }
 ```
 Ce code calcul le `1495000001`ème terme de la suite de Fibonacci.
-Si l'on a $F_n$ le n-ème terme de la suite de Fibonacci, alors on a 
+Si l'on note $F_n$ le n-ème terme de la suite de Fibonacci, alors on a 
 $$F_n = \frac{1}{\sqrt5}(\varphi^n-\varphi'^n)\le \frac{1}{\sqrt{5}}\times2^n$$
 Avec $\varphi$ le nombre d'or et $\varphi' = -\varphi^{-1}$
 Donc l'entier retournée est inférieur à $\frac{1}{\sqrt{5}}\times2^{1495000001}$.
@@ -242,8 +242,8 @@ Et on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1)$
 Comme $\hat f_{\omega^2}(2) \gg 999^2$, on a alors $\text{bc}(x) \le \hat f_{\omega^2+2}(2)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQxMTI2MTUsLTEyMTQ0MTg4MjUsLT
-UxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0NjM2NDAsMTg2NDUz
-OTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkzNj
-csMTg4MDUwMjQyOV19
+eyJoaXN0b3J5IjpbLTYxNjQ4MjMzMCwtMTIxNDQxODgyNSwtNT
+E0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5
+MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMCwtMTY2MTEwOTM2Ny
+wxODgwNTAyNDI5XX0=
 -->
