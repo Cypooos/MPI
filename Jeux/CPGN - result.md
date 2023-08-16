@@ -152,18 +152,9 @@ int main(){
 }
 ```
 **Calcul des bornes :**
-On remarque que $\text{lo}(l,r)$ est une répétition de $r$ fois $\text{lo}(l-1,r)$
-
-```c
-int lo(int l,int r){
-	int s=r;
-	if(l==0)for(int i=0;i<s;i++)r<<=r;
-	else for(int i=0;i<s;i++)r=lo(l-1,r);
-	return r;
-}
-```
-On a que $f(0,x) =x\times2^x =\hat f_2(n)$
-On a donc que $f(i,x) = \hat f_{2+i}(x)$
+On a que $\text{lo}(0,x) =x\times2^x =\hat f_2(n)$
+On a donc que $\text{lo}(i,x) = \hat f_{2+i}(x)$
+O
 
 ## Igor (349 caractères)
 ```c
@@ -443,7 +434,7 @@ Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com
 
 Ce code ne se compile pas, la fonction `X` n'est pas définie.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODIwMTYwNCwxOTk0ODczOTY1LDE3OT
+eyJoaXN0b3J5IjpbMTU0MTExMjY3OCwxOTk0ODczOTY1LDE3OT
 MyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODkyOSw0NjQ2MTUw
 NDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMTIxNDQxODgyNS
 wtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0MCwxODY0
