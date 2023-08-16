@@ -153,7 +153,7 @@ int main(){
 	return fks(loy(2<<100),loy(2<<100),loy(2<<100));
 }
 ```
-**Calcul des bornes :**
+**Calcul des bornes:**
 On remarque que effectuer l'opération `r<<=r`, c'est exactement faire $r \larr r2^r = \hat f_2(r)$
 On a ainsi que $\text{lo}(0,x) = \hat f_2^r(r)=\hat f_3(r)$
 On a donc que $\text{lo}(i,x) = \hat f_{3+i}(x)$
@@ -162,12 +162,13 @@ Donc $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\text{loy}(n)
 L'algorithme est bien parti !
 Malheureusement, `max` étant initialisé à 0, et comme `loy(0) = 0`, max est constamment égal à 0.
 Si le programme termine, alors il renvoie 0, car les seuls appels non récursifs de `fks` possible sont ceux qui renvoient `max`. Le programme termine car les appels récursif de `fks` sont descendant strict pour la relation d'ordre lexicographique.
-Donc le programme renvoie $\boxed{0}$.
+Donc le programme renvoie $0$.
 
-Après une deuxième correction, ou l'on remplace la première ligne par :
+Il y a donc eu une deuxième correction (appelée `thomas-2` dans le classement), ou l'on remplace la première ligne par :
 ```c
 int max = 9;
 ```
+**Calcul des bornes:**
 
 
 ## Igor (349 caractères)
@@ -447,7 +448,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NjMwNzEwNiwxMTgyODUyMzMsMTk5ND
+eyJoaXN0b3J5IjpbMTU2ODc1NzIwMiwxMTgyODUyMzMsMTk5ND
 g3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0ODg5
 MjksNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUsLT
 EyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0
