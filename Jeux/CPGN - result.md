@@ -162,7 +162,8 @@ int lo(int l,int r){
 	return r;
 }
 ```
-On a que $f(0,x) =x\times2^x$
+On a que $f(0,x) =x\times2^x =\hat f_2(n)$
+On a donc que $f(i,x) = \hat f_{2+i}(x)$
 
 ## Igor (349 caractères)
 ```c
@@ -442,10 +443,10 @@ Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com
 
 Ce code ne se compile pas, la fonction `X` n'est pas définie.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDg3Mzk2NSwxNzkzMjgwMDMwLC0xMz
-Q1OTc4NDQ1LDExMzY0ODg5MjksNDY0NjE1MDQ5LDE1MTM3NDA0
-NjQsLTIwNzk5NzA4MDUsLTEyMTQ0MTg4MjUsLTUxNDExNTY0OC
-wtMTUzNjI3NTE3NSwzMzg0NjM2NDAsMTg2NDUzOTE2NSwtNjc5
-MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkzNjcsMTg4MDUwMj
-QyOV19
+eyJoaXN0b3J5IjpbMTQyODIwMTYwNCwxOTk0ODczOTY1LDE3OT
+MyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODkyOSw0NjQ2MTUw
+NDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMTIxNDQxODgyNS
+wtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0MCwxODY0
+NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMCwtMTY2MTEwOT
+M2NywxODgwNTAyNDI5XX0=
 -->
