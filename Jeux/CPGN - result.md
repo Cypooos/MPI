@@ -17,12 +17,14 @@ De plus, $f^n$ représente $n$ évaluations emboitée de $f$ : $f^n(x) = f(f(f(.
 Liste principale :
 - Quentin *disqualifié*
 - Igor *disqualifié*
+- Julien *disqualifié*
 - Cornich $=9$
 
 Liste secondaire :
 - Cornich $=9$ 
 - Quentin $9< n\le \frac{1}{\sqrt{5}}\times2^{1495000001}$
 - Igor avec $\hat f_{3\omega}(2) \le n \le \hat f_{3\omega+1}(2)$
+- Julien avec $f_{\omega^2+1}(2) \le n \le \hat f_{\omega^2+2}(2)$
 
 ## Cornich (493 caractères)
 (code une fois formaté) :
@@ -244,8 +246,8 @@ Finalement, comme $\text{main()} = \text{bc}(999^2)$, cela nous donne les bornes
 $$\boxed{f_{\omega^2+1}(2) \le\text{main()} \le \hat f_{\omega^2+1}(1000000)\le \hat f_{\omega^2+2}(2)}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk5NzA4MDUsLTEyMTQ0MTg4MjUsLT
-UxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0NjM2NDAsMTg2NDUz
-OTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkzNj
-csMTg4MDUwMjQyOV19
+eyJoaXN0b3J5IjpbMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMT
+IxNDQxODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2
+MzY0MCwxODY0NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMC
+wtMTY2MTEwOTM2NywxODgwNTAyNDI5XX0=
 -->
