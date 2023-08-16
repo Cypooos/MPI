@@ -174,6 +174,7 @@ On a toujours $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\tex
 
 On pose $\text{fks}'_i(n) = \text{fks}(i,n,n)$
 On a $\text{fks}(k,0,n) \le \text{fks}'^{k}_{k-1}(\text{max})$
+Comme $\text{fks}'_{0}(n)$
 
 ## Igor (349 caractères)
 ```c
@@ -452,11 +453,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNTUxMTE3OCwyMjIzOTIzNTcsNDE2MD
-A4LDExODI4NTIzMywxOTk0ODczOTY1LDE3OTMyODAwMzAsLTEz
-NDU5Nzg0NDUsMTEzNjQ4ODkyOSw0NjQ2MTUwNDksMTUxMzc0MD
-Q2NCwtMjA3OTk3MDgwNSwtMTIxNDQxODgyNSwtNTE0MTE1NjQ4
-LC0xNTM2Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5MTY1LC02Nz
-kxMzkyNzEsMTY3OTE2OTMxMCwtMTY2MTEwOTM2NywxODgwNTAy
-NDI5XX0=
+eyJoaXN0b3J5IjpbNTU1ODQzMDYzLDE1MzU1MTExNzgsMjIyMz
+kyMzU3LDQxNjAwOCwxMTgyODUyMzMsMTk5NDg3Mzk2NSwxNzkz
+MjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0ODg5MjksNDY0NjE1MD
+Q5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUsLTEyMTQ0MTg4MjUs
+LTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0NjM2NDAsMTg2ND
+UzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkz
+NjddfQ==
 -->
