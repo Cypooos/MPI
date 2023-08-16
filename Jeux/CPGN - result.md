@@ -68,7 +68,7 @@ I main(void) {
 }
 ```
 Dans ce code :
-- $f(n,n,x) \le f_{x}(n)$
+- $f(n,n,x) \le f_{x+1}(n)$
 
 
 ## Quentin
@@ -91,6 +91,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzMjgwMTYyLC0xNjYxMTA5MzY3LDE4OD
-A1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbLTkwNDQ5ODE4MCwtMTY2MTEwOTM2NywxOD
+gwNTAyNDI5XX0=
 -->
