@@ -20,14 +20,18 @@ Liste principale :
 |Quentin  |*Disqualifié*                  |*Disqualifié*                |
 |Igor     |*Disqualifié*                  |*Disqualifié*                |
 |Julien   |*Disqualifié*                  |*Disqualifié*                |
-|Thomas   |*Disqualifié*                  |*Disqualifié*                |
-Quentin | s| s| s
-- Quentin *disqualifié*
-- Igor *disqualifié*
-- Julien *disqualifié*
-- Thomas $=0$
-- Cornich $=9$
+|Thomas   | 0                             |0                            |
+|Cornich' | 9                             |9                            |
 
+
+Liste secondaire:
+| Entrée  |Borne Inf                      |Borne sup                    |
+|---------|-------------------------------|-----------------------------|
+|Cornich' |9|9                            |
+|Quentin  |10               |$\frac{1}{\sqrt{5}}\times2^{1495000001}$|
+|Thomas   | 0                             |0                            |
+|Igor     |*Disqualifié*                  |*Disqualifié*                |
+|Julien   |*Disqualifié*                  |*Disqualifié*                |
 Liste secondaire :
 - Cornich $=9$ 
 - Quentin $9< n\le \frac{1}{\sqrt{5}}\times2^{1495000001}$
@@ -436,10 +440,10 @@ Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com
 
 Ce code ne se compile pas, la fonction `X` n'est pas définie.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMTc4ODUzNCwxNzkzMjgwMDMwLC0xMz
-Q1OTc4NDQ1LDExMzY0ODg5MjksNDY0NjE1MDQ5LDE1MTM3NDA0
-NjQsLTIwNzk5NzA4MDUsLTEyMTQ0MTg4MjUsLTUxNDExNTY0OC
-wtMTUzNjI3NTE3NSwzMzg0NjM2NDAsMTg2NDUzOTE2NSwtNjc5
-MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkzNjcsMTg4MDUwMj
-QyOV19
+eyJoaXN0b3J5IjpbLTEyOTc4Njg5MzEsMTc5MzI4MDAzMCwtMT
+M0NTk3ODQ0NSwxMTM2NDg4OTI5LDQ2NDYxNTA0OSwxNTEzNzQw
+NDY0LC0yMDc5OTcwODA1LC0xMjE0NDE4ODI1LC01MTQxMTU2ND
+gsLTE1MzYyNzUxNzUsMzM4NDYzNjQwLDE4NjQ1MzkxNjUsLTY3
+OTEzOTI3MSwxNjc5MTY5MzEwLC0xNjYxMTA5MzY3LDE4ODA1MD
+I0MjldfQ==
 -->
