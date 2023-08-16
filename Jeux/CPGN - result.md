@@ -15,9 +15,12 @@ Les fonctions des programmes sont dans l'analyse mathématique représentée par
 De plus, $f^n$ représente $n$ évaluations emboitée de $f$ : $f^n(x) = f(f(f(...(x)...)))$ répété $n$ fois
 
 Liste principale :
+-----|--|--|--
+Quentin | s| s| s
 - Quentin *disqualifié*
 - Igor *disqualifié*
 - Julien *disqualifié*
+- Thomas $=0$
 - Cornich $=9$
 
 Liste secondaire :
@@ -428,9 +431,10 @@ Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com
 
 Ce code ne se compile pas, la fonction `X` n'est pas définie.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzI4MDAzMCwtMTM0NTk3ODQ0NSwxMT
-M2NDg4OTI5LDQ2NDYxNTA0OSwxNTEzNzQwNDY0LC0yMDc5OTcw
-ODA1LC0xMjE0NDE4ODI1LC01MTQxMTU2NDgsLTE1MzYyNzUxNz
-UsMzM4NDYzNjQwLDE4NjQ1MzkxNjUsLTY3OTEzOTI3MSwxNjc5
-MTY5MzEwLC0xNjYxMTA5MzY3LDE4ODA1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbMjg3OTA0NDY4LDE3OTMyODAwMzAsLTEzND
+U5Nzg0NDUsMTEzNjQ4ODkyOSw0NjQ2MTUwNDksMTUxMzc0MDQ2
+NCwtMjA3OTk3MDgwNSwtMTIxNDQxODgyNSwtNTE0MTE1NjQ4LC
+0xNTM2Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5MTY1LC02Nzkx
+MzkyNzEsMTY3OTE2OTMxMCwtMTY2MTEwOTM2NywxODgwNTAyND
+I5XX0=
 -->
