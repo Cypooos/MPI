@@ -390,11 +390,42 @@ int e2(int *t, int n) { // t[0] est z et t[1] est y dans d
 ```
 
 ## Chloé (500 caractères)
+```c
+int Z(int a, int *t, int n, int k, int *s, int l) {
+  int *u = malloc(4 * n);
+  for (int i = 0; i < n; i++)
+    u[i] = n - k       ? k - i ? t[i] : t[i] - 1
+           : n - 1 - i ? E(a, X(a, t, n, n - 2, s, l), n, s, l)
+                       : t[i] - 1;
+  return u;
+}
 
+int E(int a, int *t, int n, int *s, int l) {
+  return n - 1 ? t[n - 1] ? t[n - 2] ? E(a, Z(a, t, n, n, s, l), n, s, l) : a
+                          : E(a, t, n - 1, s, l)
+               : N(a, t[0], Z(a, s, l, 0, s, l), l, l);
+}
+
+int N(int a, int b, int *s, int l, int k) {
+  int *t = malloc(4 * b);
+  for (int i = 0; i < b; i++)
+    t[i] = a;
+  return l ? k ? s[k - 1] ? N(a, b, s, l, k - 1)
+                 : l - k  ? N(a, b, Z(a, s, l, k, s, l), l, k)
+                          : N(a, b, s, l - 1, k)
+               : E(a, t, b, s, l)
+           : a * b;
+}
+
+int main() {
+  int s[999] = {9};
+  return N(9, 99, s, 999, 999);
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTcyMDI0NTMsNDY0NjE1MDQ5LDE1MT
-M3NDA0NjQsLTIwNzk5NzA4MDUsLTEyMTQ0MTg4MjUsLTUxNDEx
-NTY0OCwtMTUzNjI3NTE3NSwzMzg0NjM2NDAsMTg2NDUzOTE2NS
-wtNjc5MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkzNjcsMTg4
-MDUwMjQyOV19
+eyJoaXN0b3J5IjpbNDYyNzY1NzcwLDQ2NDYxNTA0OSwxNTEzNz
+QwNDY0LC0yMDc5OTcwODA1LC0xMjE0NDE4ODI1LC01MTQxMTU2
+NDgsLTE1MzYyNzUxNzUsMzM4NDYzNjQwLDE4NjQ1MzkxNjUsLT
+Y3OTEzOTI3MSwxNjc5MTY5MzEwLC0xNjYxMTA5MzY3LDE4ODA1
+MDI0MjldfQ==
 -->
