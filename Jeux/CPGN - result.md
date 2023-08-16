@@ -12,7 +12,8 @@ Ensuite, vous avez à la fin du document mon entrée (TREE(3)), ainsi que des re
 
 Dans ce document, les $\hat f_{...}$ représentent les fonctions de la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy).
 Les fonctions des programmes sont dans l'analyse mathématique représentée par le même nom ($f$, $g$, $\text{main}$ etc...)
-De plus, $f^n$ représente $n$ évaluations emboitée de $f$ : $f^n(x) = f(f(f(...(x)...)))$ répété $n$ fois
+De plus, $f^n$ représente $n$ évaluations emboitée de $f$ : $f^n(x) = f(f(f(...(x)...)))$ répété $n$ fois.
+Je n'ai pas forcément essayé d'avoir les plus belles bornes, juste des bornes su
 
 Liste principale :
 | Entrée  |Borne Inf                      |Borne sup                    |
@@ -29,7 +30,7 @@ Liste secondaire:
 |---------|-------------------------------|-----------------------------|
 |Thomas   |0                              |0                            |
 |Cornich' |9|9                            |
-|Quentin  |10               |$\frac{1}{\sqrt{5}}\times2^{1495000001}$|
+|Quentin  |1495000000  |$\frac{1}{\sqrt{5}}\times2^{1495000001}$|
 |Igor     |$\hat f_{3\omega}(2)$|$\hat f_{3\omega+1}(2)$|
 |Julien   |$\hat f_{\omega^2+1}(2)$|$\hat f_{\omega^2+2}(2)$|
 ## Cornich (493 caractères)
@@ -106,7 +107,7 @@ Ce code calcul le `1495000001`ème terme de la suite de Fibonacci.
 Si l'on note $F_n$ le n-ème terme de la suite de Fibonacci, alors on a 
 $$F_n = \frac{1}{\sqrt5}(\varphi^n-\varphi'^n)\le \frac{1}{\sqrt{5}}\times2^n$$
 Avec $\varphi$ le nombre d'or et $\varphi' = -\varphi^{-1}$
-Donc l'entier retournée est inférieur à $\frac{1}{\sqrt{5}}\times2^{1495000001}$.
+Donc on a les bornes $\boxed{1495000000 \le n \le \frac{1}{\sqrt{5}}\times2^{1495000001}}$.
 
 ## Thomas (427 caractères)
 ```c
@@ -446,10 +447,10 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTE4MTI2MTIsMTE4Mjg1MjMzLDE5OT
-Q4NzM5NjUsMTc5MzI4MDAzMCwtMTM0NTk3ODQ0NSwxMTM2NDg4
-OTI5LDQ2NDYxNTA0OSwxNTEzNzQwNDY0LC0yMDc5OTcwODA1LC
-0xMjE0NDE4ODI1LC01MTQxMTU2NDgsLTE1MzYyNzUxNzUsMzM4
-NDYzNjQwLDE4NjQ1MzkxNjUsLTY3OTEzOTI3MSwxNjc5MTY5Mz
-EwLC0xNjYxMTA5MzY3LDE4ODA1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbMTc4ODM5MTg0MywxMTgyODUyMzMsMTk5ND
+g3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0ODg5
+MjksNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUsLT
+EyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0
+NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkzMT
+AsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
 -->
