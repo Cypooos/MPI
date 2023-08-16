@@ -122,10 +122,11 @@ On a, dans ce code $f(a,n,x) = a^{\hat f_{x}(n)} \le \hat f_{x+2}(n)$
 On a donc, en posant $f'(n)=f(n,n,n)$, le fait que $f'(n)\le \hat f_{n+2}(n+2)$
 Cela donne $g(d) = f'^d(d)\le \hat f_{\omega+1}(d+2)$
 Si l'on pose $h'(n) = h(n,n)$, on a $h'(n) \le \hat f_{\omega+n+2}(n+2) = \hat f_{2\omega}(n+2)$
-Pareillement, si l'on pose $c'(n) = c(n,n)$, on retrouve $c'(n) \le \hat f_{2\omega+n+1}(n+1) = \hat f_{3\omega}(n+1)$ *ici le n+1 viens du fait que la boucle est réalisé $c(n)$*
+Pareillement, si l'on pose $c'(n) = c(n,n)$, on retrouve $c'(n) \le \hat f_{2\omega+n+1}(n+1) = \hat f_{3\omega}(n+1)$ *ici le n+1 viens du fait que la boucle est réalisée $c(x,i-1)$ fois*
+On a donc $\text{main}() = c'(99999999999) \le \hat f_{3\omega}(100000000000)\le$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTYzMDQxMSwtMTY2MTEwOTM2NywxOD
-gwNTAyNDI5XX0=
+eyJoaXN0b3J5IjpbOTQ4NTQxOTY0LC0xNjYxMTA5MzY3LDE4OD
+A1MDI0MjldfQ==
 -->
