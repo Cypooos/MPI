@@ -1,6 +1,6 @@
 # La compétition du plus grand nombre
 
-Le but de cette compétition est de créer un programme C de moins de 500 caractères renvoyant le plus grand entier possible en valeur absolu. On suppose que l'on dispose d'une mémoire infinie, et que les entiers ne soient pas bornée.
+Le but de cette compétition est de créer un programme C de moins de 500 caractères ASCII renvoyant le plus grand entier possible en valeur absolu. On suppose que l'on dispose d'une mémoire infinie, et que les entiers ne soient pas bornée.
 
 Exemple de programme de 151 caractères :
 ```c
@@ -25,7 +25,7 @@ Liste d’opérations utilisable :
  - `+` `*` `/` `%` `||` `&&` `^`  `&`  `|` `!` `==` `!=` `<` `>` `<=` `>=` `<<` `>>` et leurs version d'assignation (`+=` `*=` ...) **seulement sur les entiers**
  - L'opérateur ternaire `a ? b : c`
  - Les `#define`
- - La création de structure, de types, les opérations `free` `malloc` `calloc` `sizeof` `typedef`
+ - La création de structure, de types, de tableaux, les opérations `free` `malloc` `calloc` `sizeof` `typedef`
  - La gestion de pointeur, opérations `*` `&` (attention à rester dans un cadre déterministe), la constante `NULL`
  - Toute les structures de contrôle usuelle : création de fonction, `while` `if` `else` et `for`
  
@@ -45,5 +45,5 @@ Le programme vainqueur sera le programme renvoyant le plus grand entier en valeu
 La date limite pour envoyer vos programmes par discord à @cypooos ou par mail à cyprien.bourotte@gmail.com ou par whatsapp est le **lundi 14 août à 14h**.
 N'hésitez pas à m'envoyer des questions / demande de précisions concernant les règles si besoin ! 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1Njk4NDAxLDEyNzcyNTQ4XX0=
+eyJoaXN0b3J5IjpbMjAyNDc0MDY2OSwxMjc3MjU0OF19
 -->
