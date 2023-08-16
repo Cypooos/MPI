@@ -127,8 +127,38 @@ On a donc $\text{main}() = c'(99999999999) \le \hat f_{3\omega}(100000000000)\bo
 
 Par un raisonnement similaire, on estimera que $\text{main}() \ge \hat f_{3\omega}(2)$
 ## Julien
+Code (python):
+```py
+def compound(x,a,b,n):
+    if n==1:
+        return rec(x,a,b)
+    else:
+        return compound(rec(x,a,b),a,b,n-1)
+
+def rec(x,a,b):
+    if b==0:
+        if a==0:
+            return x+1
+        else:
+            return compound(x,a-1,b,x)
+    else:
+        if a==0:
+            return rec(x,x,b-1)
+        else:
+            return compound(x,a-1,b,x)
+            
+def bc(x):
+    if x==1:
+        return rec(x,x,x)
+    else:
+        return rec(bc(x-1),bc(x-1),bc(x-1))
+        
+print(bc(pow(999,999)))
+```
+Par l'utillisation du python (il ne connaissait pas le C), l'entrée est disqualifié.
+Le code analysé pour la liste secondaire :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDI1NDkxNzQsLTY3OTEzOTI3MSwxNj
-c5MTY5MzEwLC0xNjYxMTA5MzY3LDE4ODA1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2Nz
+kxNjkzMTAsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
 -->
