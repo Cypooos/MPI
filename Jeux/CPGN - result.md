@@ -204,13 +204,13 @@ On a donc $\text{rec}(x,a,b)=\hat f_{b.\omega+a}(x)$ *exactement*
 On pose $\text{rec}'(n) = \text{rec}(n,n,n)$
 On a ainsi $\hat f_{n.\omega}(n)\le \text{rec}'(n) =\hat f_{n.\omega+n}(n) \le \hat f_{(n+1).\omega}(n+1)=\hat f_{\omega^2}(n+1)$
 
-Donc comme $\text{bc}(x) = \text{rec}'^x(1)\le \hat f_{\omega^2}^{x}(2) = \hat f_{\omega^2}^{x+1}(1)=$
+Donc comme $\text{bc}(x) = \text{rec}'^x(1)\le \hat f_{\omega^2}^{x}(2) = \hat f_{\omega^2}^{x+1}(1)$
 Et on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1)$
 Comme $\hat f_{\omega^2}(2) \gg 999^2$, on a alors $\text{bc}(x) \le \hat f_{\omega^2+1}(2)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODYwNTQ4MiwtNTE0MTE1NjQ4LC0xNT
-M2Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5MTY1LC02NzkxMzky
-NzEsMTY3OTE2OTMxMCwtMTY2MTEwOTM2NywxODgwNTAyNDI5XX
-0=
+eyJoaXN0b3J5IjpbLTIwMzM5MzA5OTEsLTUxNDExNTY0OCwtMT
+UzNjI3NTE3NSwzMzg0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5
+MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV
+19
 -->
