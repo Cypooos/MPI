@@ -17,11 +17,42 @@ De plus, $f^n$ représente $n$ évaluations emboitée de $f$ : $f^n(x) = f(f(f(.
 Liste principale :
 - Quentin *disqualifié*
 - Igor *disqualifié*
-- 
+- Cornich avec $9$
 
 Liste secondaire :
-- Quentin $\le \frac{1}{\sqrt{5}}\times2^{1495000001}$
-- Igor $\le$
+- Cornich avec $9$ 
+- Quentin avec $\le \frac{1}{\sqrt{5}}\times2^{1495000001}$
+- Igor avec $\le$
+
+## Cornich (493 caractères)
+(code une fois formaté) :
+```c
+int f(int n, int m, int g) {
+  if (n < m) {
+    return (f(g * g, n + 1, m));
+  } else {
+    return (g);
+  }
+}
+
+int main() {
+  return f(
+      0,
+      f(0,
+        f(0, f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, f(0, 9, 9), 9), 9)),
+          f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, f(0, 9, 9), 9), 9))),
+        f(0, f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, f(0, 9, 9), 9), 9)),
+          f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, f(0, 9, 9), 9), 9)))),
+      f(0,
+        f(0, f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, f(0, 9, 9), 9), 9)),
+          f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, 9, 9), 9))),
+        f(0, f(0, f(0, f(0, 9, 9), 9), f(0, f(0, 9, 9), 9)),
+          f(0, f(0, f(0, 9, 9), 9), f(0, f(0, 9, 9), 9)))));
+}
+```
+On remarque que $f(0,9,9)=f(81,1,9) = 9$
+En remplaçant dans le code toutes les occurrences de la chaine de texte `f(0, 9, 9)` par `9` et ceci sept fois, on ce rend compte que ce programme renvoie $9$.
+Il m'est difficile de comprendre les intentions derrière le code, donc je ne l'ai pas modifié pour la liste secondaire, ce qui donne aussi 9 pour la liste secondaire.
 
 ## Quentin (163 caractères)
 ```c
@@ -66,35 +97,7 @@ Si l'on a $F_n$ le n-ème terme de la suite de Fibonacci, alors on a
 $$F_n = \frac{1}{\sqrt5}(\varphi^n-\varphi'^n)\le \frac{1}{\sqrt{5}}\times2^n$$
 Avec $\varphi$ le nombre d'or et $\varphi' = -\varphi^{-1}$
 Donc l'entier retournée est inférieur à $\frac{1}{\sqrt{5}}\times2^{1495000001}$.
-## Cornich (493 caractères)
-(code une fois formaté) :
-```c
-int f(int n, int m, int g) {
-  if (n < m) {
-    return (f(g * g, n + 1, m));
-  } else {
-    return (g);
-  }
-}
 
-int main() {
-  return f(
-      0,
-      f(0,
-        f(0, f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, f(0, 9, 9), 9), 9)),
-          f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, f(0, 9, 9), 9), 9))),
-        f(0, f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, f(0, 9, 9), 9), 9)),
-          f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, f(0, 9, 9), 9), 9)))),
-      f(0,
-        f(0, f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, f(0, 9, 9), 9), 9)),
-          f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, 9, 9), 9))),
-        f(0, f(0, f(0, f(0, 9, 9), 9), f(0, f(0, 9, 9), 9)),
-          f(0, f(0, f(0, 9, 9), 9), f(0, f(0, 9, 9), 9)))));
-}
-```
-On remarque que $f(0,9,9)=f(81,1,9) = 9$
-En remplaçant dans le code toutes les occurrences de la chaine de texte `f(0, 9, 9)` par `9` et ceci sept fois, on ce rend compte que ce programme renvoie $9$.
-Il m'est difficile de comprend les intentions der
 
 ## Igor (349 caractères)
 ```c
@@ -239,7 +242,7 @@ Et on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1)$
 Comme $\hat f_{\omega^2}(2) \gg 999^2$, on a alors $\text{bc}(x) \le \hat f_{\omega^2+2}(2)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDAwMTUxMDksLTEyMTQ0MTg4MjUsLT
+eyJoaXN0b3J5IjpbLTExMDA2OTMxNDAsLTEyMTQ0MTg4MjUsLT
 UxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0NjM2NDAsMTg2NDUz
 OTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkzNj
 csMTg4MDUwMjQyOV19
