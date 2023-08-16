@@ -121,10 +121,10 @@ I main(void) {
 On a, dans ce code $f(a,n,x) = a^{\hat f_{x}(n)} \le \hat f_{x+2}(n)$
 On a donc, en posant $f'(n)=f(n,n,n)$, le fait que $f'(n)\le \hat f_{n+2}(n+2)$
 Cela donne $g(d) = f'^d(d)\le \hat f_{\omega+1}(d+2)$
-L'on a aussi $h(x,i) \le e$
+Si l'on pose $h'(n) = h(n,n)$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NzMyMDI0NCwtMTY2MTEwOTM2NywxOD
-gwNTAyNDI5XX0=
+eyJoaXN0b3J5IjpbMTg2NDc3OTk5LC0xNjYxMTA5MzY3LDE4OD
+A1MDI0MjldfQ==
 -->
