@@ -32,6 +32,7 @@ Liste secondaire:
 |Cornich' |9|9                            |
 |Quentin  |1495000000  |$\frac{1}{\sqrt{5}}\times2^{1495000001}$|
 |Igor     |$\hat f_{3\omega}(2)$|$\hat f_{3\omega+1}(2)$|
+|Thomas-2 |0                              |0                            |
 |Julien   |$\hat f_{\omega^2+1}(2)$|$\hat f_{\omega^2+2}(2)$|
 ## Cornich (493 caractères)
 (code une fois formaté) :
@@ -169,6 +170,7 @@ Il y a donc eu une deuxième correction (appelée `thomas-2` dans le classement)
 int max = 9;
 ```
 **Calcul des bornes:**
+On a toujours $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\text{loy}(n) \ge \hat f_{\omega}(n)$
 
 
 ## Igor (349 caractères)
@@ -448,10 +450,10 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODc1NzIwMiwxMTgyODUyMzMsMTk5ND
-g3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0ODg5
-MjksNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUsLT
-EyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0
-NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkzMT
-AsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
+eyJoaXN0b3J5IjpbNDE2MDA4LDExODI4NTIzMywxOTk0ODczOT
+Y1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODkyOSw0
+NjQ2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMTIxND
+QxODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0
+MCwxODY0NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMCwtMT
+Y2MTEwOTM2NywxODgwNTAyNDI5XX0=
 -->
