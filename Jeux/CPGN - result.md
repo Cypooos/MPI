@@ -68,7 +68,7 @@ I main(void) {
 }
 ```
 Dans ce code :
-- $f(n,n,x) \le f_{x\times \omega}()$
+- $f(n,n,x) \le f_{x \omega}(n)$
 
 
 ## Quentin
@@ -91,6 +91,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwNjA0MzM3LC0xNjYxMTA5MzY3LDE4OD
-A1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbLTE1NTY1MTgwNzksLTE2NjExMDkzNjcsMT
+g4MDUwMjQyOV19
 -->
