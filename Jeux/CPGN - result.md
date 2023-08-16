@@ -66,23 +66,33 @@ Si l'on a $F_n$ le n-ème terme de la suite de Fibonacci, alors on a
 $$F_n = \frac{1}{\sqrt5}(\varphi^n-\varphi'^n)\le \frac{1}{\sqrt{5}}\times2^n$$
 Avec $\varphi$ le nombre d'or et $\varphi' = -\varphi^{-1}$
 Donc l'entier retournée est inférieur à $\frac{1}{\sqrt{5}}\times2^{1495000001}$.
-## Cornich 
+## Cornich (493 caractères)
+(code une fois formaté) :
 ```c
-int f(int n,int m,int g) {
-  if(n<m){
-    return (f(g*g,n+1,m));
-  } else{
+int f(int n, int m, int g) {
+  if (n < m) {
+    return (f(g * g, n + 1, m));
+  } else {
     return (g);
   }
 }
 
-int main(){
-  return f(0,f(0,f(0,f(0,f(0,f(0,f(0,9,9),9),9),f(0,f(0,f(0,9,9),9),9)),f(0,f(0,f(0,f(0,9,9),9),9),f(0,f(0,f(0,9,9),9),9))),
-  f(0,f(0,f(0,f(0,f(0,9,9),9),9),f(0,f(0,f(0,9,9),9),9)),f(0,f(0,f(0,f(0,9,9),9),9),f(0,f(0,f(0,9,9),9),9)))),
-f(0,f(0,f(0,f(0,f(0,f(0,9,9),9),9),f(0,f(0,f(0,9,9),9),9)),f(0,f(0,f(0,f(0,9,9),9),9),f(0,f(0,9,9),9))),
-  f(0,f(0,f(0,f(0,9,9),9),f(0,f(0,9,9),9)),f(0,f(0,f(0,9,9),9),f(0,f(0,9,9),9)))));
+int main() {
+  return f(
+      0,
+      f(0,
+        f(0, f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, f(0, 9, 9), 9), 9)),
+          f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, f(0, 9, 9), 9), 9))),
+        f(0, f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, f(0, 9, 9), 9), 9)),
+          f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, f(0, 9, 9), 9), 9)))),
+      f(0,
+        f(0, f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, f(0, 9, 9), 9), 9)),
+          f(0, f(0, f(0, f(0, 9, 9), 9), 9), f(0, f(0, 9, 9), 9))),
+        f(0, f(0, f(0, f(0, 9, 9), 9), f(0, f(0, 9, 9), 9)),
+          f(0, f(0, f(0, 9, 9), 9), f(0, f(0, 9, 9), 9)))));
 }
 ```
+On a ici $f(n,m,g)$
 ## Igor (349 caractères)
 ```c
 typedef int I;
@@ -226,8 +236,8 @@ Et on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1)$
 Comme $\hat f_{\omega^2}(2) \gg 999^2$, on a alors $\text{bc}(x) \le \hat f_{\omega^2+2}(2)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzIxNjI3NCwtNTE0MTE1NjQ4LC0xNT
-M2Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5MTY1LC02NzkxMzky
-NzEsMTY3OTE2OTMxMCwtMTY2MTEwOTM2NywxODgwNTAyNDI5XX
-0=
+eyJoaXN0b3J5IjpbMzk3ODU0NTEwLC01MTQxMTU2NDgsLTE1Mz
+YyNzUxNzUsMzM4NDYzNjQwLDE4NjQ1MzkxNjUsLTY3OTEzOTI3
+MSwxNjc5MTY5MzEwLC0xNjYxMTA5MzY3LDE4ODA1MDI0MjldfQ
+==
 -->
