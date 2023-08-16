@@ -194,8 +194,9 @@ int main() {
     return bc(999*999);
 }
 ```
+ici, on remarque que $\text{compound}(x,a,b,n)$ calcule $\text{rec}(\text{rec}(...(a)...),a,$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4NDYzNjQwLDE4NjQ1MzkxNjUsLTY3OT
-EzOTI3MSwxNjc5MTY5MzEwLC0xNjYxMTA5MzY3LDE4ODA1MDI0
-MjldfQ==
+eyJoaXN0b3J5IjpbLTE3ODYzMTI3ODQsMzM4NDYzNjQwLDE4Nj
+Q1MzkxNjUsLTY3OTEzOTI3MSwxNjc5MTY5MzEwLC0xNjYxMTA5
+MzY3LDE4ODA1MDI0MjldfQ==
 -->
