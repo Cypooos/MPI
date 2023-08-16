@@ -291,7 +291,7 @@ Et l'on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1) \ge f_{\omega^2+1}(2)
 
 Finalement, comme $\text{main()} = \text{bc}(999^2)$, cela nous donne les bornes :
 $$\boxed{f_{\omega^2+1}(2) \le\text{main()} \le \hat f_{\omega^2+1}(1000000)\le \hat f_{\omega^2+2}(2)}$$
-## Carfaure
+## Carfaure (502 caractères)
 ```c
 #define w int
 #define g return
@@ -389,7 +389,7 @@ int e2(int *t, int n) { // t[0] est z et t[1] est y dans d
 // z est copymodif et e est e2 réecrit
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4MTQ0MzAyLDE1MTM3NDA0NjQsLTIwNz
+eyJoaXN0b3J5IjpbOTQwMjMxMTY2LDE1MTM3NDA0NjQsLTIwNz
 k5NzA4MDUsLTEyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3
 NTE3NSwzMzg0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLD
 E2NzkxNjkzMTAsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
