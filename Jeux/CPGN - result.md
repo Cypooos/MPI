@@ -195,10 +195,12 @@ int main() {
     return bc(999*999);
 }
 ```
-ici, on remarque que $\text{compound}(x,a,b,n)$ calcule $\text{rec}(\text{rec}(...(x)...,a,b),a,b)$, ou autrement dit, $\text{rec}^n_{a,b}(x)$
-Da
+
+**Calcul des bornes :**
+Ici, on remarque que $\text{compound}(x,a,b,n)$ calcule $\text{rec}(\text{rec}(...(x)...,a,b),a,b)$, ou autrement dit, $\text{rec}^n_{a,b}(x)$
+Dans le cas de de $b=0$, on a $\text{rec}(x,a,b) = \hat f_a(x)$ *exactement*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk0ODIxNjYsLTE1MzYyNzUxNzUsMz
+eyJoaXN0b3J5IjpbLTExODc3Mzk1MDMsLTE1MzYyNzUxNzUsMz
 M4NDYzNjQwLDE4NjQ1MzkxNjUsLTY3OTEzOTI3MSwxNjc5MTY5
 MzEwLC0xNjYxMTA5MzY3LDE4ODA1MDI0MjldfQ==
 -->
