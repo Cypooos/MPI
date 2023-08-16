@@ -161,7 +161,7 @@ Donc $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\text{loy}(n)
 L'algorithme est bien parti !
 Malheureusement, `max` étant initialisé à 0, et comme `loy(0) = 0`, max est constamment égal à 0.
 Si le programme termine, alors il renvoie 0, car les seuls appels non récursifs de `fks` possible sont ceux qui renvoient `max`. Le programme termine car les appels récursif de `fks` sont descendant strict pour la relation d'ordre lexicographique.
-Donc le programme renvoie 0.
+Donc le programme renvoie $\boxed{0}$.
 
 Après une deuxième correction, ou l'on remplace la première ligne par :
 ```c
@@ -446,7 +446,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzU3MjM3MDAsMTE4Mjg1MjMzLDE5OT
+eyJoaXN0b3J5IjpbLTE5OTE4MTI2MTIsMTE4Mjg1MjMzLDE5OT
 Q4NzM5NjUsMTc5MzI4MDAzMCwtMTM0NTk3ODQ0NSwxMTM2NDg4
 OTI5LDQ2NDYxNTA0OSwxNTEzNzQwNDY0LC0yMDc5OTcwODA1LC
 0xMjE0NDE4ODI1LC01MTQxMTU2NDgsLTE1MzYyNzUxNzUsMzM4
