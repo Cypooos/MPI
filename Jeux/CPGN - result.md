@@ -9,6 +9,8 @@ Du fait du grand nombre d'entrée ne respectant les règles, deux listes ont ét
 Les entrée sont listé avec des explications, de la plus petite (sur la liste principale) à la plus grande.
 Ensuite, vous avez à la fin du document mon entrée (TREE(3)), ainsi que des ressources dans le domaine de la *gogologie*, la branche de l'informatique théorique / des mathématiques étudiant les grands nombres. Vous aurez aussi des conseils sur comment réduire le nombre de caractères pour un programme donné.
 
+Dans ce document, $\hat f$ représente les fonctions de la Fats Growing Hirachie
+
 Liste principale :
 - Quentin *disqualifié*
 - ?
@@ -68,7 +70,7 @@ I main(void) {
 }
 ```
 Dans ce code :
-- $f(n,n,x) \le \hat f_{x+1}(n)$
+- $f(n,n,x) \le \hat f_{x+1}(n)$ *car c'est exactement la définition de la FGH avec le successeur qui est remplacé par la multiplication d'une constante*
 - $g(d) \le f_{}$
 
 
@@ -92,6 +94,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDU3NDExOTYsLTE2NjExMDkzNjcsMT
-g4MDUwMjQyOV19
+eyJoaXN0b3J5IjpbLTIwNjI0ODI3OCwtMTY2MTEwOTM2NywxOD
+gwNTAyNDI5XX0=
 -->
