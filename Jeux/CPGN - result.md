@@ -92,8 +92,8 @@ int main() {
           f(0, f(0, f(0, 9, 9), 9), f(0, f(0, 9, 9), 9)))));
 }
 ```
-On pose, pour $n\ge1$ : $f'(n) = f(0,n,n)=f(n^2,1,n) = n$
-En remplaçant dans le code la chaine de texte `f(0, 9, 9)` par `ç`
+On remarque que $f(0,9,9)=f(81,1,9) = 9$
+En remplaçant dans le code la chaine de texte `f(0, 9, 9)` par `9` sept fois, on ce rend compte que ce programme renvoie 
 ## Igor (349 caractères)
 ```c
 typedef int I;
@@ -237,8 +237,8 @@ Et on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1)$
 Comme $\hat f_{\omega^2}(2) \gg 999^2$, on a alors $\text{bc}(x) \le \hat f_{\omega^2+2}(2)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjA3MTUwMDYsLTEyMTQ0MTg4MjUsLT
-UxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0NjM2NDAsMTg2NDUz
-OTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkzNj
-csMTg4MDUwMjQyOV19
+eyJoaXN0b3J5IjpbMTc1OTgwMDIyMSwtMTIxNDQxODgyNSwtNT
+E0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5
+MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMCwtMTY2MTEwOTM2Ny
+wxODgwNTAyNDI5XX0=
 -->
