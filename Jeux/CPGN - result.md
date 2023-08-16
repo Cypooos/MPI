@@ -70,8 +70,8 @@ I main(void) {
 }
 ```
 Dans ce code :
-- $f(a,n,x) = a^{\hat f_{x}(n)} \le \hat f_{x+2}(n)$
-- $g(d) \le f_{\omega+d}(d)$
+- $f(a,n,x) = a^{\hat f_{x}(n)} \le \hat f_{x+2}(n)$. On a donc, en posant $f'(n)=f(n,n,n)$, $f'$
+- $g(d) = f^d(d)=$
 
 
 ## Quentin
@@ -94,6 +94,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDI0NDM0NSwtMTY2MTEwOTM2NywxOD
-gwNTAyNDI5XX0=
+eyJoaXN0b3J5IjpbLTE3MzE0NzIxMzQsLTE2NjExMDkzNjcsMT
+g4MDUwMjQyOV19
 -->
