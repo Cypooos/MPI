@@ -18,7 +18,8 @@ Liste principale :
 - 
 
 Liste secondaire :
-- Quentin $\le \frac{1}{\sqrt{2}}\times2^{1495000000}$
+- Quentin $\le \frac{1}{\sqrt{5}}\times2^{1495000000}$
+- Igor $\le$
 
 ## Igor
 ```c
@@ -73,9 +74,10 @@ I main(void) {
     return c(99999999999,99999999999);
 }
 ```
-On a, dans ce code $f(a,n,x) = a^{\hat f_{x}(n)} \le \hat f_{x+2}(n)$.
+**Calcul d'une borne max :**
+On a, dans ce code $f(a,n,x) = a^{\hat f_{x}(n)} \le \hat f_{x+2}(n)$
 On a donc, en posant $f'(n)=f(n,n,n)$, le fait que $f'(n)\le \hat f_{n+2}(n+2)$
-Cela donne pour `g` : $g(d) = f'^d(d)\le \hat f_{\omega+1}(d+2)$
+Cela donne $g(d) = f'^d(d)\le \hat f_{\omega+1}(d+2)$
 
 
 ## Quentin
@@ -98,6 +100,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTYwMzAxMCwtMTY2MTEwOTM2NywxOD
-gwNTAyNDI5XX0=
+eyJoaXN0b3J5IjpbLTE2NTgwNzEzMjIsLTE2NjExMDkzNjcsMT
+g4MDUwMjQyOV19
 -->
