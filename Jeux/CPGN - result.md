@@ -293,48 +293,55 @@ Finalement, comme $\text{main()} = \text{bc}(999^2)$, cela nous donne les bornes
 $$\boxed{f_{\omega^2+1}(2) \le\text{main()} \le \hat f_{\omega^2+1}(1000000)\le \hat f_{\omega^2+2}(2)}$$
 ## Carfaure
 ```c
-#define w int 
+#define w int
 #define g return
-w* z(w* t, w n, w p, w k){
-  w* j=malloc(n*4);
-  for(w i=0;i<n;i++){
-    j[i]= i==p ? k : t[i];
+w *z(w *t, w n, w p, w k) {
+  w *j = malloc(n * 4);
+  for (w i = 0; i < n; i++) {
+    j[i] = i == p ? k : t[i];
   }
   g j;
 }
 
-w e(w* t, w n, w i){
-  g i ? t[i] ? e(z(z(t,n, i-1, e(z(t, n, i-1, t[i-1]-1),n,n-1)),n, i, t[i]-1),n,n-1) : e(t,n,i-1) : t[0]?t[0]*e(z(t,n,0,t[0]-1),n,n-1):9;
+w e(w *t, w n, w i) {
+  g i ? t[i] ? e(z(z(t, n, i - 1, e(z(t, n, i - 1, t[i - 1] - 1), n, n - 1)), n,
+                   i, t[i] - 1),
+                 n, n - 1)
+             : e(t, n, i - 1)
+  : t[0] ? t[0] * e(z(t, n, 0, t[0] - 1), n, n - 1)
+         : 9;
 }
 
-w y(w n){
-  w* j=calloc(n,4);
-  j[n-1]=n;
-  g e(j,n,n-1);
+w y(w n) {
+  w *j = calloc(n, 4);
+  j[n - 1] = n;
+  g e(j, n, n - 1);
 }
 
-w f(w* t, w n, w i){
-  g i ? t[i] ? f(z(z(t,n, i-1, f(z(t, n, i-1, t[i-1]-1),n,n-1)),n, i, t[i]-1),n,n-1) : f(t,n,i-1):y(t[i]);
+w f(w *t, w n, w i) {
+  g i ? t[i] ? f(z(z(t, n, i - 1, f(z(t, n, i - 1, t[i - 1] - 1), n, n - 1)), n,
+                   i, t[i] - 1),
+                 n, n - 1)
+             : f(t, n, i - 1)
+      : y(t[i]);
 }
 
-w v(w n){
-  w* j=calloc(n,4);
-  j[n-1]=n;
-  g f(j,n,n-1);
+w v(w n) {
+  w *j = calloc(n, 4);
+  j[n - 1] = n;
+  g f(j, n, n - 1);
 }
 
-w u(w z, w y){
-  g y ? z ? u(u(z-1,y),y-1) : u(9,y-1) : v(z);
-}
+w u(w z, w y) { g y ? z ? u(u(z - 1, y), y - 1) : u(9, y - 1) : v(z); }
 
-w main(void){
-  g u(9,u(9,999));
-}
+w main(void) { g u(9, u(9, 999)); }
 ```
+Le code d'explication est celui-ci :
+``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzkxOTY3OCwxNTEzNzQwNDY0LC0yMD
-c5OTcwODA1LC0xMjE0NDE4ODI1LC01MTQxMTU2NDgsLTE1MzYy
-NzUxNzUsMzM4NDYzNjQwLDE4NjQ1MzkxNjUsLTY3OTEzOTI3MS
-wxNjc5MTY5MzEwLC0xNjYxMTA5MzY3LDE4ODA1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbLTE4NzMxNDIzNTQsMTUxMzc0MDQ2NCwtMj
+A3OTk3MDgwNSwtMTIxNDQxODgyNSwtNTE0MTE1NjQ4LC0xNTM2
+Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5MTY1LC02NzkxMzkyNz
+EsMTY3OTE2OTMxMCwtMTY2MTEwOTM2NywxODgwNTAyNDI5XX0=
 
 -->
