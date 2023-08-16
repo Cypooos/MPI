@@ -337,11 +337,60 @@ w u(w z, w y) { g y ? z ? u(u(z - 1, y), y - 1) : u(9, y - 1) : v(z); }
 w main(void) { g u(9, u(9, 999)); }
 ```
 Le code d'explication est celui-ci :
-``````
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzMxNDIzNTQsMTUxMzc0MDQ2NCwtMj
-A3OTk3MDgwNSwtMTIxNDQxODgyNSwtNTE0MTE1NjQ4LC0xNTM2
-Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5MTY1LC02NzkxMzkyNz
-EsMTY3OTE2OTMxMCwtMTY2MTEwOTM2NywxODgwNTAyNDI5XX0=
+```c
+#include <stdio.h>
+#include <stdlib.h>
 
+int a(int n) { // n!
+  return n ? n * a(n - 1) : 1;
+}
+
+int b(int n) { // 9 puis n fois !
+  return n ? a(b(n - 1)) : a(9);
+}
+
+int c(int n) { // b(b(b(b(b(b(b(...))))))) avec n fois b
+  return n ? b(c(n - 1)) : b(9);
+}
+//...
+
+// apres generalisation :
+int d(int z, int y) { // si y=0 alors a(z) si y=1 alors b(z) si y=2 alors c(z)
+                      // etc... meme principe que ackermann
+  return y   ? (z ? d(d(z - 1, y), y - 1) : d(9, y - 1))
+         : z ? z * d(z - 1, 0)
+             : 9;
+}
+
+// apres generalisation :
+int *copy_modif(int *t, int n, int p, int k) { // copy t et fait copie[p]=k
+  int *j = malloc(n * sizeof(int));
+  for (int i = 0; i < n; i++) {
+    j[i] = i == p ? k : t[i];
+  }
+  return t;
+}
+
+int e2(int *t, int n) { // t[0] est z et t[1] est y dans d
+  for (int i = n - 1; i > 0; i--) {
+    if (i == 0) {
+      return t[0]; // mis en factorielle
+    } else {
+      if (t[i] != 0) {
+        return e2(
+            copy_modif(copy_modif(t, n, i - 1,
+                                  e2(copy_modif(t, n, i - 1, t[i - 1] - 1), n)),
+                       n, i, t[i] - 1),
+            n);
+      }
+    }
+  }
+}
+// z est copymodif et e est e2 réecrit
+```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNTk4MTQ0MzAyLDE1MTM3NDA0NjQsLTIwNz
+k5NzA4MDUsLTEyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3
+NTE3NSwzMzg0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLD
+E2NzkxNjkzMTAsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
 -->
