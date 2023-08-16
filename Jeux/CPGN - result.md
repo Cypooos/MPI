@@ -172,9 +172,6 @@ int max = 9;
 **Calcul des bornes:**
 On a toujours $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\text{loy}(n) \ge \hat f_{\omega}(n)$
 
-On pose $\text{fks}'_i(n) = \text{fks}(i,n,n)$
-On a $\text{fks}(k,0,n) \le \text{fks}'^{k}_{k-1}(\text{max})$
-Comme $\text{fks}'_{0}(n) = \text{loy}(\text{loy}(n))$, on a 
 ## Igor (349 caractères)
 ```c
 typedef int I;
@@ -452,11 +449,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjIwNDEwNiwxMjcyMjA0MTA2LDE1Mz
-U1MTExNzgsMjIyMzkyMzU3LDQxNjAwOCwxMTgyODUyMzMsMTk5
-NDg3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0OD
-g5MjksNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUs
-LTEyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMz
-g0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkz
-MTBdfQ==
+eyJoaXN0b3J5IjpbLTI2NDA0MTcwLDEyNzIyMDQxMDYsMTUzNT
+UxMTE3OCwyMjIzOTIzNTcsNDE2MDA4LDExODI4NTIzMywxOTk0
+ODczOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4OD
+kyOSw0NjQ2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwt
+MTIxNDQxODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzOD
+Q2MzY0MCwxODY0NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMx
+MF19
 -->
