@@ -156,7 +156,7 @@ def bc(x):
 print(bc(pow(999,999)))
 ```
 Par l'utillisation du python (il ne connaissait pas le C), l'entrée est disqualifié.
-Le code analysé pour la liste secondaire :
+Le code analysé pour la liste secondaire (à 365 caractères), transformé par ChatGPT:
 ```c
 int compound(int x, int a, int b, int n) {
     if (n == 1) {
@@ -195,7 +195,7 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjEzNjAxNzksMTg2NDUzOTE2NSwtNj
+eyJoaXN0b3J5IjpbLTE0NTIyMTAxMDEsMTg2NDUzOTE2NSwtNj
 c5MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkzNjcsMTg4MDUw
 MjQyOV19
 -->
