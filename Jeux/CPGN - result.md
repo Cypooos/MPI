@@ -21,6 +21,28 @@ Liste secondaire :
 - Quentin $\le \frac{1}{\sqrt{5}}\times2^{1495000000}$
 - Igor $\le$
 
+## Quentin
+```c
+#include <stdio.h>
+int main() {
+
+  int i;
+  int n = 1495000000;
+  int t1 = 0, t2 = 1;
+  int nextTerm = t1 + t2;
+
+  for (i = 3; i <= n; ++i) {
+    t1 = t2;
+    t2 = nextTerm;
+    nextTerm = t1 + t2;
+  }
+  printf("%d, ", nextTerm);
+  return 0;
+}
+```
+
+Cette entré est disqualifié pour l'utillisation d'une librairie.
+De plus, même si `printf` - qui ne sert à rien - aurait été utilisable, le code retourne 0.
 ## Igor
 ```c
 typedef int I;
@@ -81,26 +103,7 @@ Cela donne $g(d) = f'^d(d)\le \hat f_{\omega+1}(d+2)$
 L'on a donc $h(x,i) \le e$
 
 
-## Quentin
-```c
-#include <stdio.h>
-int main() {
-
-  int i;
-  int n = 1495000000;
-  int t1 = 0, t2 = 1;
-  int nextTerm = t1 + t2;
-
-  for (i = 3; i <= n; ++i) {
-    t1 = t2;
-    t2 = nextTerm;
-    nextTerm = t1 + t2;
-  }
-  printf("%d, ", nextTerm);
-  return 0;
-}
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzU2OTEzOTMsLTE2NjExMDkzNjcsMT
-g4MDUwMjQyOV19
+eyJoaXN0b3J5IjpbMTA5OTM1ODQ1OSwtMTY2MTEwOTM2NywxOD
+gwNTAyNDI5XX0=
 -->
