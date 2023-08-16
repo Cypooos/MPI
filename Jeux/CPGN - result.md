@@ -172,6 +172,8 @@ int max = 9;
 **Calcul des bornes:**
 On a toujours $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\text{loy}(n) \ge \hat f_{\omega}(n)$
 
+
+
 On pose $\text{fks}'_i(n) = \text{fks}(i,n,n)$
 On a $\text{fks}(k,0,n) \le \text{fks}'^{k}_{k-1}(\text{max})$
 Comme $\text{fks}'_{0}(n) = \text{loy}(\text{loy}(n))$, on a 
@@ -452,11 +454,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjIwNDEwNiwxNTM1NTExMTc4LDIyMj
-M5MjM1Nyw0MTYwMDgsMTE4Mjg1MjMzLDE5OTQ4NzM5NjUsMTc5
-MzI4MDAzMCwtMTM0NTk3ODQ0NSwxMTM2NDg4OTI5LDQ2NDYxNT
-A0OSwxNTEzNzQwNDY0LC0yMDc5OTcwODA1LC0xMjE0NDE4ODI1
-LC01MTQxMTU2NDgsLTE1MzYyNzUxNzUsMzM4NDYzNjQwLDE4Nj
-Q1MzkxNjUsLTY3OTEzOTI3MSwxNjc5MTY5MzEwLC0xNjYxMTA5
-MzY3XX0=
+eyJoaXN0b3J5IjpbLTgwODc0NzE1NCwxMjcyMjA0MTA2LDE1Mz
+U1MTExNzgsMjIyMzkyMzU3LDQxNjAwOCwxMTgyODUyMzMsMTk5
+NDg3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0OD
+g5MjksNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUs
+LTEyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMz
+g0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkz
+MTBdfQ==
 -->
