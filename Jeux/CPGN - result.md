@@ -239,11 +239,11 @@ On a ainsi $\hat f_{n.\omega}(n)\le \text{rec}'(n) =\hat f_{n.\omega+n}(n) \le \
 
 Donc comme $\text{bc}(x) = \text{rec}'^x(1)\le \hat f_{\omega^2}^{x}(2)= \hat f_{\omega^2}^{x+1}(1) \le \hat f_{\omega^2+1}(x+1)$
 
-Et l'on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1) \ge f_{\omega^2-}(2)$
+Et l'on a aussi $\text{bc}(x) \ge \hat f_{\omega^2}^{x}(1) \ge f_{\omega^2+x}(1)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2MTc1MDcwLC0xMjE0NDE4ODI1LC01MT
-QxMTU2NDgsLTE1MzYyNzUxNzUsMzM4NDYzNjQwLDE4NjQ1Mzkx
-NjUsLTY3OTEzOTI3MSwxNjc5MTY5MzEwLC0xNjYxMTA5MzY3LD
-E4ODA1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbLTE0Mjc4MDk1MSwtMTIxNDQxODgyNSwtNT
+E0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5
+MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMCwtMTY2MTEwOTM2Ny
+wxODgwNTAyNDI5XX0=
 -->
