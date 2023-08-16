@@ -60,7 +60,8 @@ int main() {
 }
 ```
 Ce code calcul le `1495000001`ème terme de la suite de Fibonacci.
-Si l'on a 
+Si l'on a $F_n$ le n-ème terme de la suite de Fibonacci, alors on a 
+$$F_n = \frac{1}{\sqrt5}(\varphi^n-\varphi'^n)\le$$
 Or on a que 
 
 ## Igor
@@ -124,6 +125,6 @@ L'on a donc $h(x,i) \le e$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDkwNDE0NCwtMTY2MTEwOTM2NywxOD
+eyJoaXN0b3J5IjpbLTYxNjE1NzY0OCwtMTY2MTEwOTM2NywxOD
 gwNTAyNDI5XX0=
 -->
