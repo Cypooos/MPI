@@ -172,6 +172,7 @@ int max = 9;
 **Calcul des bornes:**
 On a toujours $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\text{loy}(n) \ge \hat f_{\omega}(n)$
 
+On a $\text{fks}(k,0,n)$
 
 ## Igor (349 caractères)
 ```c
@@ -450,10 +451,10 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2MDA4LDExODI4NTIzMywxOTk0ODczOT
-Y1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODkyOSw0
-NjQ2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMTIxND
-QxODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0
-MCwxODY0NTM5MTY1LC02NzkxMzkyNzEsMTY3OTE2OTMxMCwtMT
-Y2MTEwOTM2NywxODgwNTAyNDI5XX0=
+eyJoaXN0b3J5IjpbMjIyMzkyMzU3LDQxNjAwOCwxMTgyODUyMz
+MsMTk5NDg3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDEx
+MzY0ODg5MjksNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5Nz
+A4MDUsLTEyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3NTE3
+NSwzMzg0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2Nz
+kxNjkzMTAsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
 -->
