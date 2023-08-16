@@ -388,8 +388,11 @@ int e2(int *t, int n) { // t[0] est z et t[1] est y dans d
 }
 // z est copymodif et e est e2 réecrit
 ```
+
+## Chloé (500 caractères)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwMjMxMTY2LDE1MTM3NDA0NjQsLTIwNz
+eyJoaXN0b3J5IjpbNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNz
 k5NzA4MDUsLTEyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3
 NTE3NSwzMzg0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLD
 E2NzkxNjkzMTAsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
