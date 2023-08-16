@@ -165,7 +165,7 @@ Donc le programme renvoie 0.
 
 Après une deuxième correction, ou l'on remplace la première ligne par :
 ```c
-
+int max = 9;
 ```
 
 
@@ -446,10 +446,10 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNzk1NTEzNCwxMTgyODUyMzMsMTk5ND
-g3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0ODg5
-MjksNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUsLT
-EyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0
-NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkzMT
-AsLTE2NjExMDkzNjcsMTg4MDUwMjQyOV19
+eyJoaXN0b3J5IjpbLTIwMzU3MjM3MDAsMTE4Mjg1MjMzLDE5OT
+Q4NzM5NjUsMTc5MzI4MDAzMCwtMTM0NTk3ODQ0NSwxMTM2NDg4
+OTI5LDQ2NDYxNTA0OSwxNTEzNzQwNDY0LC0yMDc5OTcwODA1LC
+0xMjE0NDE4ODI1LC01MTQxMTU2NDgsLTE1MzYyNzUxNzUsMzM4
+NDYzNjQwLDE4NjQ1MzkxNjUsLTY3OTEzOTI3MSwxNjc5MTY5Mz
+EwLC0xNjYxMTA5MzY3LDE4ODA1MDI0MjldfQ==
 -->
