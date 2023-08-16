@@ -11,6 +11,7 @@ Ensuite, vous avez à la fin du document mon entrée (TREE(3)), ainsi que des re
 
 Dans ce document, les $\hat f$ représentent les fonctions de la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy), une méthode utilisé pour comparer des fonctions grandissant vite et définies par récurrence.
 Les fonctions des codes sont dans l'analyse mathématique appelée par le même nom ($f$, $g$, $\text{main}$ etc...)
+De plus,
 
 Liste principale :
 - Quentin *disqualifié*
@@ -194,9 +195,9 @@ int main() {
     return bc(999*999);
 }
 ```
-ici, on remarque que $\text{compound}(x,a,b,n)$ calcule $\text{rec}(\text{rec}(...(a)...),a,$
+ici, on remarque que $\text{compound}(x,a,b,n)$ calcule $\text{rec}(\text{rec}(...(x)...,a,b),a,b)$, ou autrement dit, $\text{rec}^n_{a,b}(x)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODYzMTI3ODQsMzM4NDYzNjQwLDE4Nj
-Q1MzkxNjUsLTY3OTEzOTI3MSwxNjc5MTY5MzEwLC0xNjYxMTA5
-MzY3LDE4ODA1MDI0MjldfQ==
+eyJoaXN0b3J5IjpbLTUxNzc5NjQ4NCwzMzg0NjM2NDAsMTg2ND
+UzOTE2NSwtNjc5MTM5MjcxLDE2NzkxNjkzMTAsLTE2NjExMDkz
+NjcsMTg4MDUwMjQyOV19
 -->
