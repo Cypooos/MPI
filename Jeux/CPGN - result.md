@@ -187,15 +187,15 @@ int fks_sup(int k, int i, int n, int max){
 		for(int j=0;j<i;j++) max = fks_sup(k, i-1, max, max);
 		return max;
 	}
-	max = fks_sup(k,i,n-1,max);
-	return fks_sup(k, i-1, max, max);
+	max = fks_sup(k, i, n-1, max);
+	return fks_sup(k, i, n-1, max);
+	// supérieur à fks_sup(k, i-1, max, max); car appelle cette
+	// fonction dans les sous-appels récursif
 }
 ```
 
-
-On a $\text{fks}_+(k,0,n,\text{max}) = \text{fks}_+^k(k-1,\text{max},\text{max},\text{max}) \le \text{fks}_+^\text{max}(k-1,\text{max},\text{max},\text{max})$
-Ce qui donne que $\text{fks}_+(k,0,n,\text{max}) \le \text{loy}^{\hat f_{\omega}(\text{max})}(\text{max})$
-
+On a $\text{fks}_+($
+Ceci est un peu plus grand que le code de $\hat f_\omega^3(\text{max})$
 
 
 ```c
@@ -492,11 +492,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzM5ODQ4MSwtMTQxMDg0NDA5MCwyMT
-E5MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUxMTE3OCwyMjIzOTIz
-NTcsNDE2MDA4LDExODI4NTIzMywxOTk0ODczOTY1LDE3OTMyOD
-AwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODkyOSw0NjQ2MTUwNDks
-MTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMTIxNDQxODgyNSwtNT
-E0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0MCwxODY0NTM5
-MTY1XX0=
+eyJoaXN0b3J5IjpbMTcxMDU2ODIxNiwxNDE3Mzk4NDgxLC0xND
+EwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIwNDEwNiwxNTM1NTEx
+MTc4LDIyMjM5MjM1Nyw0MTYwMDgsMTE4Mjg1MjMzLDE5OTQ4Nz
+M5NjUsMTc5MzI4MDAzMCwtMTM0NTk3ODQ0NSwxMTM2NDg4OTI5
+LDQ2NDYxNTA0OSwxNTEzNzQwNDY0LC0yMDc5OTcwODA1LC0xMj
+E0NDE4ODI1LC01MTQxMTU2NDgsLTE1MzYyNzUxNzUsMzM4NDYz
+NjQwXX0=
 -->
