@@ -191,7 +191,7 @@ int fks_sup(int k, int i, int n, int max){
 	return fks_sup(k, i-1, max, max);
 }
 ```
-On a $\text{fks}_+(k,0,$
+On a $\text{fks}_+(k,0,n,\text{max}) = \text{fks}_+^k(k-1,\text{max},\text{max},\text{max})\le \text{fks}_+^(k-1,\text{max},\text{max},\text{max})$
 
 ```c
 int fks_inf(int k, int i, int n, int max){
@@ -487,7 +487,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjc4OTg0OCwtMTQxMDg0NDA5MCwyMT
+eyJoaXN0b3J5IjpbMTk3NTc0NDgyMywtMTQxMDg0NDA5MCwyMT
 E5MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUxMTE3OCwyMjIzOTIz
 NTcsNDE2MDA4LDExODI4NTIzMywxOTk0ODczOTY1LDE3OTMyOD
 AwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODkyOSw0NjQ2MTUwNDks
