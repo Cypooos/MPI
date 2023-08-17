@@ -194,7 +194,8 @@ int fks_sup(int k, int i, int n, int max){
 }
 ```
 Pour le triplet $(k,i,n)$ on associe l'ordinal $k\omega^2+i\omega+n$
-On remarque alors que $\text{fks-sup}_\alpha(\text{max}) \le $
+On remarque alors que :
+ - si $(k,i,n) \ne (0,0,0)$ alors $\text{fks-sup}_{k\omega^2+i\omega+n}(\text{max}) \le $
 
 On a alors $\text{fks-sup}_\alpha$
 On a $\text{fks}_+(k,0,n,\text{max}) = \text{loy}^{2\times \hat f_{k\omega}(\text{max})}(\text{max})$
@@ -495,11 +496,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5MzcxMDY0LDE0MTczOTg0ODEsLTE0MT
-A4NDQwOTAsMjExOTAzNjUyMCwxMjcyMjA0MTA2LDE1MzU1MTEx
-NzgsMjIyMzkyMzU3LDQxNjAwOCwxMTgyODUyMzMsMTk5NDg3Mz
-k2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0ODg5Mjks
-NDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUsLTEyMT
-Q0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0NjM2
-NDBdfQ==
+eyJoaXN0b3J5IjpbMTYxODI3NDAzOSwxNDE3Mzk4NDgxLC0xND
+EwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIwNDEwNiwxNTM1NTEx
+MTc4LDIyMjM5MjM1Nyw0MTYwMDgsMTE4Mjg1MjMzLDE5OTQ4Nz
+M5NjUsMTc5MzI4MDAzMCwtMTM0NTk3ODQ0NSwxMTM2NDg4OTI5
+LDQ2NDYxNTA0OSwxNTEzNzQwNDY0LC0yMDc5OTcwODA1LC0xMj
+E0NDE4ODI1LC01MTQxMTU2NDgsLTE1MzYyNzUxNzUsMzM4NDYz
+NjQwXX0=
 -->
