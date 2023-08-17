@@ -200,9 +200,9 @@ On remarque alors que :
  - sinon si $k \ne 0$ alors $\text{fks-sup}_{k\omega^2}(\text{max}) \le \text{fks-sup}^{\text{max}}_{(k-1)\omega^2+\text{max}\omega+\text{max}}(\text{max})$
 
 Donc $\text{fks-sup}$ est inférieur à $\hat f_{k\omega^2+i\omega+n}(\text{max})$ compositions de $\text{loy}^2$.
-Précisément, à cause de la faon dont sont faite les conditions, on estimera que 
+Précisément, à cause de la façon dont sont faite les conditions, on estimera que 
 $$
-\text{fks-sup}(k,i,n,\text{max}) \le \hat f_{2(k\omega^2+(i-1)\omega+n)}(\max)
+\text{fks-sup}(k,i,n,\text{max}) \le \hat f_{2((k-1\omega^2+(i-1)\omega+n)}(\max)
 $$
 Cette borne est **TRÈS** avantageuse, notamment à cause de la sur-évaluation effectué lors du cas $(k,i,n) \ne (0,0,0)$. La réalité est plutôt de l'ordre de $4\omega(k-1)$ intuitivement.
 
@@ -510,11 +510,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDE4MzUwNzgsMTQxNzM5ODQ4MSwtMT
-QxMDg0NDA5MCwyMTE5MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUx
-MTE3OCwyMjIzOTIzNTcsNDE2MDA4LDExODI4NTIzMywxOTk0OD
-czOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODky
-OSw0NjQ2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMT
-IxNDQxODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2
-MzY0MF19
+eyJoaXN0b3J5IjpbMjU2NjQyNjIzLC0yMDAxODM1MDc4LDE0MT
+czOTg0ODEsLTE0MTA4NDQwOTAsMjExOTAzNjUyMCwxMjcyMjA0
+MTA2LDE1MzU1MTExNzgsMjIyMzkyMzU3LDQxNjAwOCwxMTgyOD
+UyMzMsMTk5NDg3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1
+LDExMzY0ODg5MjksNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNz
+k5NzA4MDUsLTEyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3
+NTE3NV19
 -->
