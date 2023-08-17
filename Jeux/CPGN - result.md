@@ -172,20 +172,19 @@ int max = 9;
 **Calcul des bornes:**
 On a toujours $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\text{loy}(n) \ge \hat f_{\omega}(n)$
 
-On pose deux autres fonctions qui encadre la fonction `fks` :
+On pose une fonction qui majore la fonction `fks` :
 ```c
 int fks_sup(int k, int i, int n, int max){
 	if (n==0) {
-			max = loy(max);
-			// répéter i fois 
-			for(int j=0;j<i;j++) max = fks_sup(k, i-1, max, max);
-			return max;
+		max = loy(max);
+		// répéter i fois 
+		for(int j=0;j<i;j++) max = fks_sup(k, i-1, max, max);
+		return max;
 	} else if (i==0) {
 		// répéter k fois 
 		for(int j=0;j<k;j++) max = fks_sup(k-1, max, max, max);
 		return max;
-	} else 
-	if(k==0){
+	} else if(k==0){
 		return loy(loy(max));
 	} 
 	max = fks_sup(k, i, n-1, max);
@@ -194,6 +193,8 @@ int fks_sup(int k, int i, int n, int max){
 	// fonction dans les sous-appels récursif
 }
 ```
+Ici les conditions ont été inversé d'ordre, permettant d'e
+
 Pour le triplet $(k,i,n)$ on associe l'ordinal $k\omega^2+i\omega+n$
 On a alors $\text{fks-sup}_\alpha$
 On a $\text{fks}_+(k,0,n,\text{max}) = \text{loy}^{2\times \hat f_{k\omega}(\text{max})}(\text{max})$
@@ -494,7 +495,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTk0NzIyNSwxNDE3Mzk4NDgxLC0xND
+eyJoaXN0b3J5IjpbLTIwNDM4MjkzOSwxNDE3Mzk4NDgxLC0xND
 EwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIwNDEwNiwxNTM1NTEx
 MTc4LDIyMjM5MjM1Nyw0MTYwMDgsMTE4Mjg1MjMzLDE5OTQ4Nz
 M5NjUsMTc5MzI4MDAzMCwtMTM0NTk3ODQ0NSwxMTM2NDg4OTI5
