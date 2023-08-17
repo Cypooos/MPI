@@ -202,7 +202,7 @@ On remarque alors que :
 Donc $\text{fks-sup}$ est inférieur à $\hat f_{k\omega^2+i\omega+n}(\text{max})$ compositions de $\text{loy}^2$.
 Précisément, à cause de la façon dont sont faite les conditions, on estimera que 
 $$
-\text{fks-sup}(k,i,n,\text{max}) \le \hat f_{2(\omega+3)+((k-1)\omega^2+(i-1)\omega+n)}(\max) \le \hat f_{2k\omega^2}(\max)
+\text{fks-sup}(k,i,n,\text{max}) \le \hat f_{2(\omega+3)+((k-1)\omega^2+(i-1)\omega+n)}(\max) \le \hat f_{(k-1)\omega^2}(\max)
 $$
 Cette borne est **TRÈS** avantageuse, notamment à cause de la sur-évaluation effectué lors du cas $(k,i,n) \ne (0,0,0)$. La réalité est plutôt de l'ordre de $4\omega(k-1)$ intuitivement.
 
@@ -510,7 +510,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTQ5MjU1MywtODQ2NTA0NTE2LC0yMD
+eyJoaXN0b3J5IjpbLTIyOTcxNjE5MiwtODQ2NTA0NTE2LC0yMD
 AxODM1MDc4LDE0MTczOTg0ODEsLTE0MTA4NDQwOTAsMjExOTAz
 NjUyMCwxMjcyMjA0MTA2LDE1MzU1MTExNzgsMjIyMzkyMzU3LD
 QxNjAwOCwxMTgyODUyMzMsMTk5NDg3Mzk2NSwxNzkzMjgwMDMw
