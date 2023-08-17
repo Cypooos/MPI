@@ -200,7 +200,7 @@ On remarque alors que :
  - sinon si $k \ne 0$ alors $\text{fks-sup}_{k\omega^2}(\text{max}) \le \text{fks-sup}^{\text{max}}_{(k-1)\omega^2+\text{max}\omega+\text{max}}(\text{max})$
 
 Donc $\text{fks-sup}$ est inférieur à $\hat f_{k\omega^2+i\omega+n}(\text{max})$ compositions de $\text{loy}^2$.
-Précisément, à cause de la façon dont sont faite les conditions, on estimera que (si $\text{max} >1$ et $i,n \ll$ )
+Précisément, à cause de la façon dont sont faite les conditions, on estimera que (si $\text{max} >1$ et $i,n \ll f_{k\omega^2}(\text{max})$ )
 $$
 \text{fks-sup}(k,i,n,\text{max}) \le \hat f_{2(\omega+3)+(k-1)\omega^2+(i-1)\omega+n}(\max) = \hat f_{(k-1)\omega^2 + (i+1)\omega+n+6}(\max) \le \hat f_{k\omega^2+1}(\max)
 $$
@@ -213,7 +213,7 @@ $$
 $$
 On a donc notre encadrement final :
 $$
-\boxed{\hat f_{2^{101}\omega}(2) \le \text{main}() \le \hat f_{2(2^{101}\omega^2+(2^{101}-1)\omega+2^{101})}(n) }
+\boxed{\hat f_{2^{101}\omega}(2) \le \text{main}() \le \hat f_{2^{101}\omega^2+1}(2)}
 $$
 
 
@@ -511,11 +511,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2ODUwOTc3LC04NDY1MDQ1MTYsLTIwMD
-E4MzUwNzgsMTQxNzM5ODQ4MSwtMTQxMDg0NDA5MCwyMTE5MDM2
-NTIwLDEyNzIyMDQxMDYsMTUzNTUxMTE3OCwyMjIzOTIzNTcsND
-E2MDA4LDExODI4NTIzMywxOTk0ODczOTY1LDE3OTMyODAwMzAs
-LTEzNDU5Nzg0NDUsMTEzNjQ4ODkyOSw0NjQ2MTUwNDksMTUxMz
-c0MDQ2NCwtMjA3OTk3MDgwNSwtMTIxNDQxODgyNSwtNTE0MTE1
-NjQ4XX0=
+eyJoaXN0b3J5IjpbLTE3NDIyODUxMzMsLTg0NjUwNDUxNiwtMj
+AwMTgzNTA3OCwxNDE3Mzk4NDgxLC0xNDEwODQ0MDkwLDIxMTkw
+MzY1MjAsMTI3MjIwNDEwNiwxNTM1NTExMTc4LDIyMjM5MjM1Ny
+w0MTYwMDgsMTE4Mjg1MjMzLDE5OTQ4NzM5NjUsMTc5MzI4MDAz
+MCwtMTM0NTk3ODQ0NSwxMTM2NDg4OTI5LDQ2NDYxNTA0OSwxNT
+EzNzQwNDY0LC0yMDc5OTcwODA1LC0xMjE0NDE4ODI1LC01MTQx
+MTU2NDhdfQ==
 -->
