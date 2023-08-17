@@ -212,7 +212,7 @@ $$
 $$
 On a donc notre encadrement final :
 $$
-\hat f_{4\omega(2^{100}-1)}(n) \le \text{fks-sup}(x,x,x,n) \le \hat f_{2(x\omega^2+(x-1)\omega+x)}(n) 
+\boxed{\hat f_{4\omega(2^{101}-1)}(n) \le \text{main}() \le \hat f_{2(2^{101}\omega^2+(2^{101}-1)\omega+2^{101})}(n) }
 $$
 
 
@@ -510,7 +510,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDc0MDA2ODcsMTQxNzM5ODQ4MSwtMT
+eyJoaXN0b3J5IjpbLTIwMDE4MzUwNzgsMTQxNzM5ODQ4MSwtMT
 QxMDg0NDA5MCwyMTE5MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUx
 MTE3OCwyMjIzOTIzNTcsNDE2MDA4LDExODI4NTIzMywxOTk0OD
 czOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODky
