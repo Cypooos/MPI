@@ -196,9 +196,8 @@ int fks_sup(int k, int i, int n, int max){
 Pour le triplet $(k,i,n)$ on associe l'ordinal $k\omega^2+i\omega+n$
 On remarque alors que :
  - si $(k,i,n) \ne (0,0,0)$ alors $\text{fks-sup}_{k\omega^2+i\omega+n}(\text{max}) \le \text{fks-sup}^{\text{max}}_{k\omega^2+i\omega+n-1}(\text{max})$ pour $\text{max}\ge 2$
- - sinon si $(k,i) \ne (0,0)$ alors $\text{fks-sup}_{k\omega^2+i\omega}(\text{max}) \le \text{fks-sup}^{\text{max}}_{k\omega^2+(i-\omega+}(\text{max})$ pour $\text{max}\ge 2$
- - si $(k,i,n) \ne (0,0,0)$ alors $\text{fks-sup}_{k\omega^2+i\omega+n}(\text{max}) \le \text{fks-sup}^{\text{max}}_{k\omega^2+i\omega+n-1}(\text{max})$ pour $\text{max}\ge 2$
- - 
+ - sinon si $(k,i) \ne (0,0)$ alors $\text{fks-sup}_{k\omega^2+i\omega}(\text{max}) \le \text{fks-sup}^{\text{max}}_{k\omega^2+(i-1)\omega+\text{max}}(\text{max})$
+ - sinon si $k \ne 0$ alors $\text{fks-sup}_{k\omega^2+i\omega}(\text{max}) \le \text{fks-sup}^{\text{max}}_{k\omega^2+(i-1)\omega+\text{max}}(\text{max})$ 
 
 On a alors $\text{fks-sup}_\alpha$
 On a $\text{fks}_+(k,0,n,\text{max}) = \text{loy}^{2\times \hat f_{k\omega}(\text{max})}(\text{max})$
@@ -499,7 +498,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTA4OTkwMCwxNDE3Mzk4NDgxLC0xND
+eyJoaXN0b3J5IjpbLTIwMzY3NjI5NywxNDE3Mzk4NDgxLC0xND
 EwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIwNDEwNiwxNTM1NTEx
 MTc4LDIyMjM5MjM1Nyw0MTYwMDgsMTE4Mjg1MjMzLDE5OTQ4Nz
 M5NjUsMTc5MzI4MDAzMCwtMTM0NTk3ODQ0NSwxMTM2NDg4OTI5
