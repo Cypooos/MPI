@@ -202,9 +202,13 @@ On remarque alors que :
 Donc $\text{fks-sup}$ est inférieur à $\hat f_{k\omega^2+i\omega+n}(\text{max})$ compositions de $\text{loy}^2$.
 Précisément, à cause de la faon dont sont faite les conditions, on estimera que 
 $$
-\text{fks-sup}(k,i,n,\text{max}) \le \hat f_{2(k\omega^2+(i-1)\omega+)}
+\text{fks-sup}(k,i,n,\text{max}) \le \hat f_{2(k\omega^2+(i-1)\omega+n)}(\max)
 $$
 
+On a donc
+$$
+\text{fks-inf}(k,i,n,\text{max}) \le \hat f_{2(k\omega^2+(i-1)\omega+n)}(\max)
+$$
 On a alors $\text{fks-sup}_\alpha$
 On a $\text{fks}_+(k,0,n,\text{max}) = \text{loy}^{2\times \hat f_{k\omega}(\text{max})}(\text{max})$
 Ceci est un peu plus grand que le code de $\hat f_\omega^3(\text{max})$
@@ -504,11 +508,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0Nzg4NDMsMTQxNzM5ODQ4MSwtMTQxMD
-g0NDA5MCwyMTE5MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUxMTE3
-OCwyMjIzOTIzNTcsNDE2MDA4LDExODI4NTIzMywxOTk0ODczOT
-Y1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODkyOSw0
-NjQ2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMTIxND
-QxODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2MzY0
-MF19
+eyJoaXN0b3J5IjpbLTE2ODQzOTM4MzcsMTQxNzM5ODQ4MSwtMT
+QxMDg0NDA5MCwyMTE5MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUx
+MTE3OCwyMjIzOTIzNTcsNDE2MDA4LDExODI4NTIzMywxOTk0OD
+czOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODky
+OSw0NjQ2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMT
+IxNDQxODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2
+MzY0MF19
 -->
