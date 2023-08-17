@@ -194,7 +194,7 @@ int fks_sup(int k, int i, int n, int max){
 }
 ```
 Pour le triplet $(k,i,n)$ on associe l'ordinal $k\omega^2+i\omega+n$
-On remarque alors que $\fks$
+On remarque alors que $\text{fks-sup}_\alpha(\text{max}) \le $
 
 On a alors $\text{fks-sup}_\alpha$
 On a $\text{fks}_+(k,0,n,\text{max}) = \text{loy}^{2\times \hat f_{k\omega}(\text{max})}(\text{max})$
@@ -495,7 +495,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MzEyMjE0LDE0MTczOTg0ODEsLTE0MT
+eyJoaXN0b3J5IjpbNjc5MzcxMDY0LDE0MTczOTg0ODEsLTE0MT
 A4NDQwOTAsMjExOTAzNjUyMCwxMjcyMjA0MTA2LDE1MzU1MTEx
 NzgsMjIyMzkyMzU3LDQxNjAwOCwxMTgyODUyMzMsMTk5NDg3Mz
 k2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0ODg5Mjks
