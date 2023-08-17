@@ -187,10 +187,11 @@ int fks_sup(int k, int i, int n, int max){
 		for(int j=0;j<i;j++) max = fks_sup(k, i-1, max, max);
 		return max;
 	}
-	max = fks_sup(k-1,i,n-1);
+	max = fks_sup(k-1,i,n-1,max);
 	return fks_sup(k, i-1, max, max);
 }
 ```
+
 
 ```c
 int fks_inf(int k, int i, int n, int max){
@@ -486,11 +487,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTA4NDQwOTAsMjExOTAzNjUyMCwxMj
-cyMjA0MTA2LDE1MzU1MTExNzgsMjIyMzkyMzU3LDQxNjAwOCwx
-MTgyODUyMzMsMTk5NDg3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OT
-c4NDQ1LDExMzY0ODg5MjksNDY0NjE1MDQ5LDE1MTM3NDA0NjQs
-LTIwNzk5NzA4MDUsLTEyMTQ0MTg4MjUsLTUxNDExNTY0OCwtMT
-UzNjI3NTE3NSwzMzg0NjM2NDAsMTg2NDUzOTE2NSwtNjc5MTM5
-MjcxXX0=
+eyJoaXN0b3J5IjpbLTc5NDU1ODI4LC0xNDEwODQ0MDkwLDIxMT
+kwMzY1MjAsMTI3MjIwNDEwNiwxNTM1NTExMTc4LDIyMjM5MjM1
+Nyw0MTYwMDgsMTE4Mjg1MjMzLDE5OTQ4NzM5NjUsMTc5MzI4MD
+AzMCwtMTM0NTk3ODQ0NSwxMTM2NDg4OTI5LDQ2NDYxNTA0OSwx
+NTEzNzQwNDY0LC0yMDc5OTcwODA1LC0xMjE0NDE4ODI1LC01MT
+QxMTU2NDgsLTE1MzYyNzUxNzUsMzM4NDYzNjQwLDE4NjQ1Mzkx
+NjVdfQ==
 -->
