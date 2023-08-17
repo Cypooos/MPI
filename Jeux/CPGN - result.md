@@ -199,10 +199,10 @@ On remarque alors que :
  - sinon si $(k,i) \ne (0,0)$ alors $\text{fks-sup}_{k\omega^2+i\omega}(\text{max}) \le \text{fks-sup}^{\text{max}}_{k\omega^2+(i-1)\omega+\text{max}}(\text{max})$
  - sinon si $k \ne 0$ alors $\text{fks-sup}_{k\omega^2}(\text{max}) \le \text{fks-sup}^{\text{max}}_{(k-1)\omega^2+\text{max}\omega+\text{max}}(\text{max})$
 
-Donc $\text{fks-sup} \le 2\hat f_{k\omega^2+i\omega+n}(\text{max})$.
+Donc $\text{fks-sup}$ est inférieur à $\hat f_{k\omega^2+i\omega+n}(\text{max})$ compositions de $\text{loy}^2$.
 Précisément, à cause de la faon dont sont faite les conditions, on estimera que 
 $$
-\text{fks-sup}(k,i,
+\text{fks-sup}(k,i,n,\text{max}) \le
 $$
 
 On a alors $\text{fks-sup}_\alpha$
@@ -504,11 +504,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkyMzAwOTQ1LDE0MTczOTg0ODEsLTE0MT
-A4NDQwOTAsMjExOTAzNjUyMCwxMjcyMjA0MTA2LDE1MzU1MTEx
-NzgsMjIyMzkyMzU3LDQxNjAwOCwxMTgyODUyMzMsMTk5NDg3Mz
-k2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0ODg5Mjks
-NDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUsLTEyMT
-Q0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0NjM2
-NDBdfQ==
+eyJoaXN0b3J5IjpbLTE4MDc5NTU4NjUsMTQxNzM5ODQ4MSwtMT
+QxMDg0NDA5MCwyMTE5MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUx
+MTE3OCwyMjIzOTIzNTcsNDE2MDA4LDExODI4NTIzMywxOTk0OD
+czOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODky
+OSw0NjQ2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMT
+IxNDQxODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2
+MzY0MF19
 -->
