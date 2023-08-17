@@ -167,7 +167,7 @@ Donc le programme renvoie $0$.
 
 Il y a donc eu une deuxième correction (appelée `thomas-2` dans le classement), ou l'on remplace la première ligne par :
 ```c
-int max = 9;
+int max = 2;
 ```
 **Calcul des bornes:**
 On a toujours $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\text{loy}(n) \ge \hat f_{\omega}(n)$
@@ -206,9 +206,9 @@ $$
 $$
 Cette borne est **TRÈS** avantageuse, notamment à cause de la sur-évaluation effectué lors du cas $(k,i,n) \ne (0,0,0)$. La réalité est plutôt de l'ordre de $4\omega(k-1)$ intuitivement.
 
-On encadrera donc $\text{fks-sup}(x,x,x,x)$ par
+On encadrera donc $\text{fks-sup}(x,x,x,n)$ par
 $$
-\text{}
+\hat f_{4\omega(x-1)}(n) \le \text{fks-sup}(x,x,x,n)
 $$
 
 
@@ -506,7 +506,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNDI5MzI3MiwxNDE3Mzk4NDgxLC0xND
+eyJoaXN0b3J5IjpbMTA5OTI5MTQ3MSwxNDE3Mzk4NDgxLC0xND
 EwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIwNDEwNiwxNTM1NTEx
 MTc4LDIyMjM5MjM1Nyw0MTYwMDgsMTE4Mjg1MjMzLDE5OTQ4Nz
 M5NjUsMTc5MzI4MDAzMCwtMTM0NTk3ODQ0NSwxMTM2NDg4OTI5
