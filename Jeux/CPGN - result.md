@@ -213,7 +213,7 @@ $$
 $$
 On a donc notre encadrement final :
 $$
-\boxed{\hat f_{4\omega(2^{101}-1)}(n) \le \text{main}() \le \hat f_{2(2^{101}\omega^2+(2^{101}-1)\omega+2^{101})}(n) }
+\boxed{\hat f_{2^{101}\omega}(2) \le \text{main}() \le \hat f_{2(2^{101}\omega^2+(2^{101}-1)\omega+2^{101})}(n) }
 $$
 
 
@@ -511,7 +511,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyNzczMzk4LC04NDY1MDQ1MTYsLTIwMD
+eyJoaXN0b3J5IjpbMzA2ODUwOTc3LC04NDY1MDQ1MTYsLTIwMD
 E4MzUwNzgsMTQxNzM5ODQ4MSwtMTQxMDg0NDA5MCwyMTE5MDM2
 NTIwLDEyNzIyMDQxMDYsMTUzNTUxMTE3OCwyMjIzOTIzNTcsND
 E2MDA4LDExODI4NTIzMywxOTk0ODczOTY1LDE3OTMyODAwMzAs
