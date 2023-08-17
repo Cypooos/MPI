@@ -208,7 +208,11 @@ Cette borne est **TRÈS** avantageuse, notamment à cause de la sur-évaluation 
 
 On encadrera donc $\text{fks-sup}(x,x,x,n)$ par
 $$
-\hat f_{4\omega(x-1)}(n) \le \text{fks-sup}(x,x,x,n)
+\hat f_{4\omega(x-1)}(n) \le \text{fks-sup}(x,x,x,n) \le \hat f_{2(x\omega^2+(x-1)\omega+x)}(n) 
+$$
+On a donc notre encadrement final :
+$$
+\hat f_{4\omega(2^{100}-1)}(n) \le \text{fks-sup}(x,x,x,n) \le \hat f_{2(x\omega^2+(x-1)\omega+x)}(n) 
 $$
 
 
@@ -506,11 +510,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTI5MTQ3MSwxNDE3Mzk4NDgxLC0xND
-EwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIwNDEwNiwxNTM1NTEx
-MTc4LDIyMjM5MjM1Nyw0MTYwMDgsMTE4Mjg1MjMzLDE5OTQ4Nz
-M5NjUsMTc5MzI4MDAzMCwtMTM0NTk3ODQ0NSwxMTM2NDg4OTI5
-LDQ2NDYxNTA0OSwxNTEzNzQwNDY0LC0yMDc5OTcwODA1LC0xMj
-E0NDE4ODI1LC01MTQxMTU2NDgsLTE1MzYyNzUxNzUsMzM4NDYz
-NjQwXX0=
+eyJoaXN0b3J5IjpbLTIxMDc0MDA2ODcsMTQxNzM5ODQ4MSwtMT
+QxMDg0NDA5MCwyMTE5MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUx
+MTE3OCwyMjIzOTIzNTcsNDE2MDA4LDExODI4NTIzMywxOTk0OD
+czOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODky
+OSw0NjQ2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMT
+IxNDQxODgyNSwtNTE0MTE1NjQ4LC0xNTM2Mjc1MTc1LDMzODQ2
+MzY0MF19
 -->
