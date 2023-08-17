@@ -175,18 +175,19 @@ On a toujours $\text{loy}(n) = \hat f_{3+n}(n)\le \hat f_{\omega}(n+3)$ et $\tex
 On pose deux autres fonctions qui encadre la fonction `fks` :
 ```c
 int fks_sup(int k, int i, int n, int max){
-	if(k==0){
-		return loy(loy(max));
+	if (n==0) {
+			max = loy(max);
+			// répéter i fois 
+			for(int j=0;j<i;j++) max = fks_sup(k, i-1, max, max);
+			return max;
 	} else if (i==0) {
 		// répéter k fois 
 		for(int j=0;j<k;j++) max = fks_sup(k-1, max, max, max);
 		return max;
-	} else if (n==0) {
-		max = loy(max);
-		// répéter i fois 
-		for(int j=0;j<i;j++) max = fks_sup(k, i-1, max, max);
-		return max;
-	}
+	} else 
+	if(k==0){
+		return loy(loy(max));
+	} 
 	max = fks_sup(k, i, n-1, max);
 	return fks_sup(k, i, n-1, max);
 	// supérieur à fks_sup(k, i-1, max, max); car appelle cette
@@ -194,7 +195,7 @@ int fks_sup(int k, int i, int n, int max){
 }
 ```
 Pour le triplet $(k,i,n)$ on associe l'ordinal $k\omega^2+i\omega+n$
-On a alors 
+On a alors $\text{fks-sup}_\alpha$
 On a $\text{fks}_+(k,0,n,\text{max}) = \text{loy}^{2\times \hat f_{k\omega}(\text{max})}(\text{max})$
 Ceci est un peu plus grand que le code de $\hat f_\omega^3(\text{max})$
 
@@ -493,11 +494,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5NzYxMzgwLDE0MTczOTg0ODEsLTE0MT
-A4NDQwOTAsMjExOTAzNjUyMCwxMjcyMjA0MTA2LDE1MzU1MTEx
-NzgsMjIyMzkyMzU3LDQxNjAwOCwxMTgyODUyMzMsMTk5NDg3Mz
-k2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0ODg5Mjks
-NDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUsLTEyMT
-Q0MTg4MjUsLTUxNDExNTY0OCwtMTUzNjI3NTE3NSwzMzg0NjM2
-NDBdfQ==
+eyJoaXN0b3J5IjpbMTE5OTk0NzIyNSwxNDE3Mzk4NDgxLC0xND
+EwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIwNDEwNiwxNTM1NTEx
+MTc4LDIyMjM5MjM1Nyw0MTYwMDgsMTE4Mjg1MjMzLDE5OTQ4Nz
+M5NjUsMTc5MzI4MDAzMCwtMTM0NTk3ODQ0NSwxMTM2NDg4OTI5
+LDQ2NDYxNTA0OSwxNTEzNzQwNDY0LC0yMDc5OTcwODA1LC0xMj
+E0NDE4ODI1LC01MTQxMTU2NDgsLTE1MzYyNzUxNzUsMzM4NDYz
+NjQwXX0=
 -->
