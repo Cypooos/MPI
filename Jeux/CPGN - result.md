@@ -33,7 +33,7 @@ Liste secondaire:
 |Cornich' |9|9                            |
 |Quentin  |1495000000  |$\frac{1}{\sqrt{5}}\times2^{1495000001}$|
 |Igor     |$\hat f_{3\omega}(2)$|$\hat f_{3\omega+1}(2)$|
-|Thomas-2 |$\hat f_{2^{101}\omega}(2)$    |$\hat f_{2^{101}\omega^2+1}(2)$  *borne temporaire et large*|
+|Thomas-2 |$\hat f_{2^{101}\omega}(2)$|$\hat f_{2^{101}\omega^2+1}(2)$  *borne temporaire et large* |
 |Julien   |$\hat f_{\omega^2+1}(2)$|$\hat f_{\omega^2+2}(2)$|
 |Carfaure |$\hat f_{\omega^\omega}(2)$ *borne temporaire et large*     |$\hat f_{\omega^{\omega^\omega}+1}(9)$ *borne temporaire et large*   |
 ## Cornich (493 caractères)
@@ -502,7 +502,8 @@ en
 On la corrige aussi dans le code de `f`
 
 *pour la correction de demain, jugement non final:*
-Dans ce cas, on a:
+Dans ce cas, on a 
+- $e(t,$
 ## Chloé (500 caractères)
 ```c
 int Z(int a, int *t, int n, int k, int *s, int l) {
@@ -539,11 +540,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1Njg3NDAwMSwtNTE0MDUxNTkwLDU3MD
-AyMjUyMiw3MDgzODkzMTEsLTI2NDExMDMxLC00ODA0MDkyODIs
-LTE3NDIyODUxMzMsLTg0NjUwNDUxNiwtMjAwMTgzNTA3OCwxND
-E3Mzk4NDgxLC0xNDEwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIw
-NDEwNiwxNTM1NTExMTc4LDIyMjM5MjM1Nyw0MTYwMDgsMTE4Mj
-g1MjMzLDE5OTQ4NzM5NjUsMTc5MzI4MDAzMCwtMTM0NTk3ODQ0
-NV19
+eyJoaXN0b3J5IjpbNzM4NTAwMTk3LC01MTQwNTE1OTAsNTcwMD
+IyNTIyLDcwODM4OTMxMSwtMjY0MTEwMzEsLTQ4MDQwOTI4Miwt
+MTc0MjI4NTEzMywtODQ2NTA0NTE2LC0yMDAxODM1MDc4LDE0MT
+czOTg0ODEsLTE0MTA4NDQwOTAsMjExOTAzNjUyMCwxMjcyMjA0
+MTA2LDE1MzU1MTExNzgsMjIyMzkyMzU3LDQxNjAwOCwxMTgyOD
+UyMzMsMTk5NDg3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1
+XX0=
 -->
