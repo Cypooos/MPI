@@ -484,6 +484,7 @@ Rapidement :
 
 Code soumis :
 - `e` cherche le dernier `i` tel que `t[i] != 0`
+- `e([n,0,...,0],_,`
 ## Chloé (500 caractères)
 ```c
 int Z(int a, int *t, int n, int k, int *s, int l) {
@@ -520,7 +521,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTQzODI1MCw1NzAwMjI1MjIsNzA4Mz
+eyJoaXN0b3J5IjpbMTE0Njk2NTM5NSw1NzAwMjI1MjIsNzA4Mz
 g5MzExLC0yNjQxMTAzMSwtNDgwNDA5MjgyLC0xNzQyMjg1MTMz
 LC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMTQxNzM5ODQ4MSwtMT
 QxMDg0NDA5MCwyMTE5MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUx
