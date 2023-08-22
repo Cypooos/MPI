@@ -480,7 +480,10 @@ Rapidement :
 - $c(n) = c^n(9) \le f_4^n(9) \le f_4^n(n) \le f_5(n)$
 - $d(n,0) = n!$ et $d(n,e) = d_{k=e-1}^n(9) \le d_{k=e-1}^n(n) \le \hat f_{k+3}(n)$
 - copie modif n'est pas bon dans le code d'explication, mais est bon dans le code soumis et est la fonction `z`
-- si $n=1$, `e2` ne retourne rien. le cas `i==0` n'arrive jamais.
+- si $n=1$, `e2` ne retourne rien. le cas `i==0` n'arrive jamais. Corrigé dans le code soumis.
+
+Code soumis :
+- `e` cherche le dernier `i` tel que `t[i] != 0`
 ## Chloé (500 caractères)
 ```c
 int Z(int a, int *t, int n, int k, int *s, int l) {
@@ -517,11 +520,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwMDIyNTIyLDcwODM4OTMxMSwtMjY0MT
-EwMzEsLTQ4MDQwOTI4MiwtMTc0MjI4NTEzMywtODQ2NTA0NTE2
-LC0yMDAxODM1MDc4LDE0MTczOTg0ODEsLTE0MTA4NDQwOTAsMj
-ExOTAzNjUyMCwxMjcyMjA0MTA2LDE1MzU1MTExNzgsMjIyMzky
-MzU3LDQxNjAwOCwxMTgyODUyMzMsMTk5NDg3Mzk2NSwxNzkzMj
-gwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0ODg5MjksNDY0NjE1MDQ5
-XX0=
+eyJoaXN0b3J5IjpbMTEwOTQzODI1MCw1NzAwMjI1MjIsNzA4Mz
+g5MzExLC0yNjQxMTAzMSwtNDgwNDA5MjgyLC0xNzQyMjg1MTMz
+LC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMTQxNzM5ODQ4MSwtMT
+QxMDg0NDA5MCwyMTE5MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUx
+MTE3OCwyMjIzOTIzNTcsNDE2MDA4LDExODI4NTIzMywxOTk0OD
+czOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODky
+OV19
 -->
