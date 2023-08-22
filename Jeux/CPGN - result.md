@@ -499,7 +499,7 @@ en
 ```c
   g i ? t[i] ? e(z(z(t, n, i - 1, e(z(t, n, i, t[i] - 1), n, n - 1)), n,
 ```
-il y aura ptet d'autres corrections.
+il y aura ptet d'autres corrections à faire, ce double `z` me semble suspect.
 On la corrige aussi dans le code de `f`
 
 *pour la correction de demain, jugement non final:*
@@ -542,7 +542,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzk5NjczODYsLTUxNDA1MTU5MCw1Nz
+eyJoaXN0b3J5IjpbLTE3NzcxOTUwMTUsLTUxNDA1MTU5MCw1Nz
 AwMjI1MjIsNzA4Mzg5MzExLC0yNjQxMTAzMSwtNDgwNDA5Mjgy
 LC0xNzQyMjg1MTMzLC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMT
 QxNzM5ODQ4MSwtMTQxMDg0NDA5MCwyMTE5MDM2NTIwLDEyNzIy
