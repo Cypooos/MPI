@@ -475,7 +475,8 @@ int e2(int *t, int n) { // t[0] est z et t[1] est y dans d
 // z est copymodif et e est e2 réecrit
 ```
 Rapidement :
-- $a(n) =n!<n^n$
+- $a(n) =n!<n^n\le \hat f_3(n)$
+- $b(n) = a^n(9) \le a^n(9)$
 ## Chloé (500 caractères)
 ```c
 int Z(int a, int *t, int n, int k, int *s, int l) {
@@ -512,11 +513,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1NTU0MDIxLC0xNzQyMjg1MTMzLC04ND
-Y1MDQ1MTYsLTIwMDE4MzUwNzgsMTQxNzM5ODQ4MSwtMTQxMDg0
-NDA5MCwyMTE5MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUxMTE3OC
-wyMjIzOTIzNTcsNDE2MDA4LDExODI4NTIzMywxOTk0ODczOTY1
-LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODkyOSw0Nj
-Q2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3MDgwNSwtMTIxNDQx
-ODgyNV19
+eyJoaXN0b3J5IjpbLTQ4MDQwOTI4MiwtMTc0MjI4NTEzMywtOD
+Q2NTA0NTE2LC0yMDAxODM1MDc4LDE0MTczOTg0ODEsLTE0MTA4
+NDQwOTAsMjExOTAzNjUyMCwxMjcyMjA0MTA2LDE1MzU1MTExNz
+gsMjIyMzkyMzU3LDQxNjAwOCwxMTgyODUyMzMsMTk5NDg3Mzk2
+NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LDExMzY0ODg5MjksND
+Y0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5NzA4MDUsLTEyMTQ0
+MTg4MjVdfQ==
 -->
