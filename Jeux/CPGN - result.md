@@ -35,7 +35,7 @@ Liste secondaire:
 |Igor     |$\hat f_{3\omega}(2)$|$\hat f_{3\omega+1}(2)$|
 |Thomas-2 |0                              |0                            |
 |Julien   |$\hat f_{\omega^2+1}(2)$|$\hat f_{\omega^2+2}(2)$|
-|Carfaure |$\hat f_{\omeg}$               |*Ne termine pas*             |
+|Carfaure |$\hat f_{\omega^\omega}(2)$ *borne temporaire et large*     |$\hat f_{\omega^{\omega^\omega}+1}(9)$ *borne temporaire et large*   |
 ## Cornich (493 caractères)
 (code une fois formaté) :
 ```c
@@ -539,11 +539,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODY5NTIzNjAsLTUxNDA1MTU5MCw1Nz
-AwMjI1MjIsNzA4Mzg5MzExLC0yNjQxMTAzMSwtNDgwNDA5Mjgy
-LC0xNzQyMjg1MTMzLC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMT
-QxNzM5ODQ4MSwtMTQxMDg0NDA5MCwyMTE5MDM2NTIwLDEyNzIy
-MDQxMDYsMTUzNTUxMTE3OCwyMjIzOTIzNTcsNDE2MDA4LDExOD
-I4NTIzMywxOTk0ODczOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0
-NDVdfQ==
+eyJoaXN0b3J5IjpbMTU2Mzk0ODUyNywtNTE0MDUxNTkwLDU3MD
+AyMjUyMiw3MDgzODkzMTEsLTI2NDExMDMxLC00ODA0MDkyODIs
+LTE3NDIyODUxMzMsLTg0NjUwNDUxNiwtMjAwMTgzNTA3OCwxND
+E3Mzk4NDgxLC0xNDEwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIw
+NDEwNiwxNTM1NTExMTc4LDIyMjM5MjM1Nyw0MTYwMDgsMTE4Mj
+g1MjMzLDE5OTQ4NzM5NjUsMTc5MzI4MDAzMCwtMTM0NTk3ODQ0
+NV19
 -->
