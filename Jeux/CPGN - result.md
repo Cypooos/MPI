@@ -479,7 +479,7 @@ Rapidement :
 - $b(n) = a^n(9) \le f_3^n(9) \le f_3^n(n) \le f_4(n)$
 - $c(n) = c^n(9) \le f_4^n(9) \le f_4^n(n) \le f_5(n)$
 - $d(n,0) = n!$ et $d(n,e) = d_{k=e-1}^n(9) \le d_{k=e-1}^n(n) \le \hat f_{k+3}(n)$
-- copie modif n'est pas bon dans le code d'explication, mais est bon dans le code soumiset est la fonction `z`
+- copie modif n'est pas bon dans le code d'explication, mais est bon dans le code soumis et est la fonction `z`
 - 
 ## Chloé (500 caractères)
 ```c
@@ -517,7 +517,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODk5OTgyNiw3MDgzODkzMTEsLTI2ND
+eyJoaXN0b3J5IjpbLTg4OTU0NzQyOCw3MDgzODkzMTEsLTI2ND
 ExMDMxLC00ODA0MDkyODIsLTE3NDIyODUxMzMsLTg0NjUwNDUx
 NiwtMjAwMTgzNTA3OCwxNDE3Mzk4NDgxLC0xNDEwODQ0MDkwLD
 IxMTkwMzY1MjAsMTI3MjIwNDEwNiwxNTM1NTExMTc4LDIyMjM5
