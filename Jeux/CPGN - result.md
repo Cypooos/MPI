@@ -499,6 +499,7 @@ en
 ```c
   g i ? t[i] ? e(z(z(t, n, i - 1, e(z(t, n, i, t[i] - 1), n, n - 1)), n,
 ```
+il y aura ptet d'autres corrections.
 On la corrige aussi dans le code de `f`
 
 *pour la correction de demain, jugement non final:*
@@ -541,11 +542,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTg5OTk1NCwtNTE0MDUxNTkwLDU3MD
-AyMjUyMiw3MDgzODkzMTEsLTI2NDExMDMxLC00ODA0MDkyODIs
-LTE3NDIyODUxMzMsLTg0NjUwNDUxNiwtMjAwMTgzNTA3OCwxND
-E3Mzk4NDgxLC0xNDEwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIw
-NDEwNiwxNTM1NTExMTc4LDIyMjM5MjM1Nyw0MTYwMDgsMTE4Mj
-g1MjMzLDE5OTQ4NzM5NjUsMTc5MzI4MDAzMCwtMTM0NTk3ODQ0
-NV19
+eyJoaXN0b3J5IjpbLTEyNzk5NjczODYsLTUxNDA1MTU5MCw1Nz
+AwMjI1MjIsNzA4Mzg5MzExLC0yNjQxMTAzMSwtNDgwNDA5Mjgy
+LC0xNzQyMjg1MTMzLC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMT
+QxNzM5ODQ4MSwtMTQxMDg0NDA5MCwyMTE5MDM2NTIwLDEyNzIy
+MDQxMDYsMTUzNTUxMTE3OCwyMjIzOTIzNTcsNDE2MDA4LDExOD
+I4NTIzMywxOTk0ODczOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0
+NDVdfQ==
 -->
