@@ -33,7 +33,7 @@ Liste secondaire:
 |Cornich' |9|9                            |
 |Quentin  |1495000000  |$\frac{1}{\sqrt{5}}\times2^{1495000001}$|
 |Igor     |$\hat f_{3\omega}(2)$|$\hat f_{3\omega+1}(2)$|
-|Thomas-2 |0                              |0                            |
+|Thomas-2 |$\hat f_{2^{101}\omega}(2)$    |$\hat f_{2^{101}\omega^2+1}(2)$  *borne temporaire et large*|
 |Julien   |$\hat f_{\omega^2+1}(2)$|$\hat f_{\omega^2+2}(2)$|
 |Carfaure |$\hat f_{\omega^\omega}(2)$ *borne temporaire et large*     |$\hat f_{\omega^{\omega^\omega}+1}(9)$ *borne temporaire et large*   |
 ## Cornich (493 caractères)
@@ -213,7 +213,7 @@ On encadrera donc $\text{fks}(x,x,x,n)$ par
 $$
 \hat f_{x\omega}(n) \le \text{fks-sup}(x,x,x,n) \le  \hat f_{k\omega^2+1}(n)
 $$
-On a donc notre encadrement final :
+On a donc notre encadrement *temporaire*:
 $$
 \boxed{\hat f_{2^{101}\omega}(2) \le \text{main}() \le \hat f_{2^{101}\omega^2+1}(2)}
 $$
@@ -539,7 +539,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2Mzk0ODUyNywtNTE0MDUxNTkwLDU3MD
+eyJoaXN0b3J5IjpbMjA1Njg3NDAwMSwtNTE0MDUxNTkwLDU3MD
 AyMjUyMiw3MDgzODkzMTEsLTI2NDExMDMxLC00ODA0MDkyODIs
 LTE3NDIyODUxMzMsLTg0NjUwNDUxNiwtMjAwMTgzNTA3OCwxND
 E3Mzk4NDgxLC0xNDEwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIw
