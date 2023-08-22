@@ -485,7 +485,8 @@ Rapidement :
 Code soumis :
 - `e` cherche le dernier `i` tel que `t[i] != 0`
 - `e([n,0,...,0],_,_)` $= n!$
-- 
+- Ce programme ne s'arette pas : on a que `e([x,1], 2, 1)` appele
+
 ## Chloé (500 caractères)
 ```c
 int Z(int a, int *t, int n, int k, int *s, int l) {
@@ -522,11 +523,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDA1MTU5MCw1NzAwMjI1MjIsNzA4Mz
-g5MzExLC0yNjQxMTAzMSwtNDgwNDA5MjgyLC0xNzQyMjg1MTMz
-LC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMTQxNzM5ODQ4MSwtMT
-QxMDg0NDA5MCwyMTE5MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUx
-MTE3OCwyMjIzOTIzNTcsNDE2MDA4LDExODI4NTIzMywxOTk0OD
-czOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMTEzNjQ4ODky
-OV19
+eyJoaXN0b3J5IjpbLTE1OTUyMDY4MjgsLTUxNDA1MTU5MCw1Nz
+AwMjI1MjIsNzA4Mzg5MzExLC0yNjQxMTAzMSwtNDgwNDA5Mjgy
+LC0xNzQyMjg1MTMzLC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMT
+QxNzM5ODQ4MSwtMTQxMDg0NDA5MCwyMTE5MDM2NTIwLDEyNzIy
+MDQxMDYsMTUzNTUxMTE3OCwyMjIzOTIzNTcsNDE2MDA4LDExOD
+I4NTIzMywxOTk0ODczOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0
+NDVdfQ==
 -->
