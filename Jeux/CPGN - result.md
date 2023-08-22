@@ -504,7 +504,7 @@ On la corrige aussi dans le code de `f`
 *pour la correction de demain, jugement non final:*
 
 Dans ce cas, on a 
-$$e(t,n,n-1)\le \hat f_{\large{3+\sum_{i=1}^{n-1} t[i]\omega^{i-1}}}()$$
+$$e(t,n,n-1)\le \hat f_{3\omega+\large{\sum_{i=0}^{n-1} t[i]\omega^{i}}}()$$
 ## Chloé (500 caractères)
 ```c
 int Z(int a, int *t, int n, int k, int *s, int l) {
@@ -541,7 +541,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NDExMDA1NiwtNTE0MDUxNTkwLDU3MD
+eyJoaXN0b3J5IjpbMTA4MTg5OTk1NCwtNTE0MDUxNTkwLDU3MD
 AyMjUyMiw3MDgzODkzMTEsLTI2NDExMDMxLC00ODA0MDkyODIs
 LTE3NDIyODUxMzMsLTg0NjUwNDUxNiwtMjAwMTgzNTA3OCwxND
 E3Mzk4NDgxLC0xNDEwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIw
