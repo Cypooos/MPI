@@ -476,8 +476,8 @@ int e2(int *t, int n) { // t[0] est z et t[1] est y dans d
 ```
 Rapidement :
 - $a(n) =n!<n^n\le \hat f_3(n)$
-- $b(n) = a^n(9) \le f_3^n(n) \le f_3^n(n) \le f_4(n)$
-- $c(n) = b^n(9) \le f_4^n(n) \le a^n(n) \le f_4(n)$
+- $b(n) = a^n(9) \le f_3^n(9) \le f_3^n(n) \le f_4(n)$
+- $c(n) = c^n(9) \le f_4^n(9) \le f_4^n(n) \le f_5(n)$
 ## Chloé (500 caractères)
 ```c
 int Z(int a, int *t, int n, int k, int *s, int l) {
@@ -514,11 +514,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA5MzczNjYsLTQ4MDQwOTI4MiwtMT
-c0MjI4NTEzMywtODQ2NTA0NTE2LC0yMDAxODM1MDc4LDE0MTcz
-OTg0ODEsLTE0MTA4NDQwOTAsMjExOTAzNjUyMCwxMjcyMjA0MT
-A2LDE1MzU1MTExNzgsMjIyMzkyMzU3LDQxNjAwOCwxMTgyODUy
-MzMsMTk5NDg3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1LD
-ExMzY0ODg5MjksNDY0NjE1MDQ5LDE1MTM3NDA0NjQsLTIwNzk5
-NzA4MDVdfQ==
+eyJoaXN0b3J5IjpbLTc2MjEzMTI1OCwtNDgwNDA5MjgyLC0xNz
+QyMjg1MTMzLC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMTQxNzM5
+ODQ4MSwtMTQxMDg0NDA5MCwyMTE5MDM2NTIwLDEyNzIyMDQxMD
+YsMTUzNTUxMTE3OCwyMjIzOTIzNTcsNDE2MDA4LDExODI4NTIz
+MywxOTk0ODczOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0NDUsMT
+EzNjQ4ODkyOSw0NjQ2MTUwNDksMTUxMzc0MDQ2NCwtMjA3OTk3
+MDgwNV19
 -->
