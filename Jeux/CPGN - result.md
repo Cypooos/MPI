@@ -497,13 +497,14 @@ On corrige pour la liste secondaire la ligne
 ```
 en 
 ```c
-  g i ? t[i] ? e(z(z(t, n, i - 1, e(z(t, n, i - 1, t[i] - 1), n, n - 1)), n,
+  g i ? t[i] ? e(z(z(t, n, i - 1, e(z(t, n, i, t[i] - 1), n, n - 1)), n,
 ```
 On la corrige aussi dans le code de `f`
 
 *pour la correction de demain, jugement non final:*
+
 Dans ce cas, on a 
-- $e(t,$
+- $e(t,n,n-1)\le \hat f_{\Sum}$
 ## Chloé (500 caractères)
 ```c
 int Z(int a, int *t, int n, int k, int *s, int l) {
@@ -540,11 +541,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM4NTAwMTk3LC01MTQwNTE1OTAsNTcwMD
-IyNTIyLDcwODM4OTMxMSwtMjY0MTEwMzEsLTQ4MDQwOTI4Miwt
-MTc0MjI4NTEzMywtODQ2NTA0NTE2LC0yMDAxODM1MDc4LDE0MT
-czOTg0ODEsLTE0MTA4NDQwOTAsMjExOTAzNjUyMCwxMjcyMjA0
-MTA2LDE1MzU1MTExNzgsMjIyMzkyMzU3LDQxNjAwOCwxMTgyOD
-UyMzMsMTk5NDg3Mzk2NSwxNzkzMjgwMDMwLC0xMzQ1OTc4NDQ1
-XX0=
+eyJoaXN0b3J5IjpbLTE4NzM5NDE0NDQsLTUxNDA1MTU5MCw1Nz
+AwMjI1MjIsNzA4Mzg5MzExLC0yNjQxMTAzMSwtNDgwNDA5Mjgy
+LC0xNzQyMjg1MTMzLC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMT
+QxNzM5ODQ4MSwtMTQxMDg0NDA5MCwyMTE5MDM2NTIwLDEyNzIy
+MDQxMDYsMTUzNTUxMTE3OCwyMjIzOTIzNTcsNDE2MDA4LDExOD
+I4NTIzMywxOTk0ODczOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0
+NDVdfQ==
 -->
