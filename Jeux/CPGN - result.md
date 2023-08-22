@@ -478,7 +478,7 @@ Rapidement :
 - $a(n) =n!<n^n\le \hat f_3(n)$
 - $b(n) = a^n(9) \le f_3^n(9) \le f_3^n(n) \le f_4(n)$
 - $c(n) = c^n(9) \le f_4^n(9) \le f_4^n(n) \le f_5(n)$
-- $d(n,0) = n!$ et $d(0,k)$
+- $d(n,0) = n!$ et $d(n,e) = d_{k=e-1}^n(n=9) \le$
 ## Chloé (500 caractères)
 ```c
 int Z(int a, int *t, int n, int k, int *s, int l) {
@@ -515,11 +515,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDExMDMxLC00ODA0MDkyODIsLTE3ND
-IyODUxMzMsLTg0NjUwNDUxNiwtMjAwMTgzNTA3OCwxNDE3Mzk4
-NDgxLC0xNDEwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIwNDEwNi
-wxNTM1NTExMTc4LDIyMjM5MjM1Nyw0MTYwMDgsMTE4Mjg1MjMz
-LDE5OTQ4NzM5NjUsMTc5MzI4MDAzMCwtMTM0NTk3ODQ0NSwxMT
-M2NDg4OTI5LDQ2NDYxNTA0OSwxNTEzNzQwNDY0LC0yMDc5OTcw
-ODA1XX0=
+eyJoaXN0b3J5IjpbLTMyOTU4MzMzMiwtMjY0MTEwMzEsLTQ4MD
+QwOTI4MiwtMTc0MjI4NTEzMywtODQ2NTA0NTE2LC0yMDAxODM1
+MDc4LDE0MTczOTg0ODEsLTE0MTA4NDQwOTAsMjExOTAzNjUyMC
+wxMjcyMjA0MTA2LDE1MzU1MTExNzgsMjIyMzkyMzU3LDQxNjAw
+OCwxMTgyODUyMzMsMTk5NDg3Mzk2NSwxNzkzMjgwMDMwLC0xMz
+Q1OTc4NDQ1LDExMzY0ODg5MjksNDY0NjE1MDQ5LDE1MTM3NDA0
+NjRdfQ==
 -->
