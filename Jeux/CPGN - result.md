@@ -485,8 +485,16 @@ Rapidement :
 Code soumis :
 - `e` cherche le dernier `i` tel que `t[i] != 0`
 - `e([n,0,...,0],_,_)` $= n!$
-- Ce programme ne s'arette pas : on a que `e([x,1], 2, 1)` appelle `e(z([x,1], 2, 0, t[0]-1 ), 2, 1)` qui donne `e([x-1,1], n, 0, -1), 2, 1)`
+- Ce programme ne s’arrête pas : on a que `e([x,1], 2, 1)` appelle `e(z([x,1], 2, 0, t[0]-1 ), 2, 1)` qui donne `e([x-1,1], 2, 1)` qui appelle `e([x-2,1], 2, 1)` etc...
 
+On corrige la ligne
+```c
+  g i ? t[i] ? e(z(z(t, n, i - 1, e(z(t, n, i - 1, t[i - 1] - 1), n, n - 1)), n,
+```
+en 
+```c
+  g i ? t[i] ? e(z(z(t, n, i - 1, e(z(t, n, i - 1, t[i] - 1), n, n - 1)), n,
+```
 ## Chloé (500 caractères)
 ```c
 int Z(int a, int *t, int n, int k, int *s, int l) {
@@ -523,7 +531,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDkyNDc5MywtNTE0MDUxNTkwLDU3MD
+eyJoaXN0b3J5IjpbLTI5MzY3MzQyMSwtNTE0MDUxNTkwLDU3MD
 AyMjUyMiw3MDgzODkzMTEsLTI2NDExMDMxLC00ODA0MDkyODIs
 LTE3NDIyODUxMzMsLTg0NjUwNDUxNiwtMjAwMTgzNTA3OCwxND
 E3Mzk4NDgxLC0xNDEwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIw
