@@ -497,13 +497,9 @@ Axiome, pour $(x,t) \in \Gamma$ :
 $$
 \frac{}{\Gamma \vdash x: t}\tiny\text{(ax)}\\
 $$
-Généralisation :
-$$
-\frac{\Gamma \vdash x: t}{\Gamma\cup\Gamma' \vdash x: t}\tiny\text{(gen)}\\
-$$
 Evaluation :
 $$
-\frac{\Gamma \vdash f: t\to t',\qquad \Gamma \vdash x: t}{\Gamma \vdash f(x): t'}\tiny\text{(ev)}
+\frac{\Gamma_0 \vdash f: t\to t',\qquad \Gamma_1 \vdash x: t}{\Gamma_0\cup\Gamma_1 \vdash f(x): t'}\tiny\text{(ev)}
 $$
 Abstraction :
 $$
@@ -559,7 +555,7 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 > 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzgxOTUwNzQsMjA5MDcxMzEzNiwtMT
+eyJoaXN0b3J5IjpbLTIwNDMzNDkzMzAsMjA5MDcxMzEzNiwtMT
 A5MjYwOTY5NCwyMDg0NDk1NDQwLC03NDI4MTY4NDQsMjA1MTU0
 NDk3NCwxMDc3MTAwODY4LDE5NTE0NjY0NjYsLTg3OTEwMTM5MC
 wtMTI2NDY1MDc4OSwtMTgxMDAyMjI2MSw2NDI0NjkwNywzNDYz
