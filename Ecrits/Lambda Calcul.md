@@ -244,7 +244,7 @@ On notera $e:t$ pour dire qu'une expression $e$ à un typage $t$.
 Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 ## Typage de groupe d'expressions
 
-36. Donner un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
+36. Donner un arbre de dérivation donnant un typage de $\top$ et $C_1$
 
 Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
 
@@ -272,6 +272,7 @@ Toutes les questions ici sont difficiles.
 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODY3MzEwMTAsMTgyNDQyMTEwMiwtMj
-EwODI0NzkwMiwtMTYxMDY3MzUxNSwtODQ1MzUxNDY1XX0=
+eyJoaXN0b3J5IjpbLTEzOTU5NzUyMCwtMTM4NjczMTAxMCwxOD
+I0NDIxMTAyLC0yMTA4MjQ3OTAyLC0xNjEwNjczNTE1LC04NDUz
+NTE0NjVdfQ==
 -->
