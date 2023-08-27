@@ -555,7 +555,11 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 
 37. Donner $t$ un type généralisé de $\{\top, \bot\}$
 
+> On a $\tau \to \tau \to \tau$
+
 38. Donner $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
+
+> On a $(\tau\to\tau) \to \tau \to \tau$
 
 ## Caractérisation des expressions unitaire sans variable libre
 
@@ -586,7 +590,7 @@ Le but de cette partie est de montrer que tout les expressions unitaire sans var
 > 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNjQ0NjI2NiwyMDkwNzEzMTM2LC0xMD
+eyJoaXN0b3J5IjpbMTk4ODgzMjE3NiwyMDkwNzEzMTM2LC0xMD
 kyNjA5Njk0LDIwODQ0OTU0NDAsLTc0MjgxNjg0NCwyMDUxNTQ0
 OTc0LDEwNzcxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC
 0xMjY0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMx
