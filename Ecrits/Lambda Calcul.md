@@ -40,7 +40,7 @@ On pourra noter $x_1,x_2,...,x_n\mapsto e$ pour dénoter $x_1\mapsto (x_2\mapsto
 On pourra noter $e(x_1,x_2,...,x_n)$ pour dénoter $e(x_1)(x_2)...(x_n)$
  
 Soient $e\in E$ et $x,a\in V\times E$, on définit l'opération de *substitution* $e[x\larr a]$ inductivement :
- - $x[x\larr a] := y$
+ - $x[x\larr a] := a$
   - $u[x\larr a] := u$ pour $u\in V\setminus \{x\}$
   - $e(e')[x\larr a] := e[x\larr a]\Big(e'[x\larr a]\Big)$
   - $(x\mapsto e)[x\larr a] := x\mapsto e$
@@ -274,7 +274,7 @@ Toutes les questions ici sont difficiles.
 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDA0MDY3MiwtMTM4NjczMTAxMCwxOD
-I0NDIxMTAyLC0yMTA4MjQ3OTAyLC0xNjEwNjczNTE1LC04NDUz
-NTE0NjVdfQ==
+eyJoaXN0b3J5IjpbLTE5MDgxODM1NDQsLTI2MDA0MDY3MiwtMT
+M4NjczMTAxMCwxODI0NDIxMTAyLC0yMTA4MjQ3OTAyLC0xNjEw
+NjczNTE1LC04NDUzNTE0NjVdfQ==
 -->
