@@ -529,13 +529,15 @@ Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 $$
 \cfrac {}{\cfrac{
 	\{(x,\tau)\} \vdash x: \tau}{\cfrac{
-	\{(x,\tau)\} \vdash x\mapsto x : \tau\to \tau
+	\{(x,\tau)\} \vdash y\mapsto x : \tau' \to \tau}{
+	\empty \vdash x,y\mapsto x : \tau \to \tau' \to \tau
+}\tiny\text{(ab)}
 }\tiny\text{(ab)}
 }\tiny\text{(ax)}\\
 $$
 > Pour $K$ :
 
-Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
+Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$.
 
 37. Donnez $t$ un type généralisé de $\{\top, \bot\}$
 38. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
@@ -567,7 +569,7 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 > 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjQ1ODYwNiwyMDkwNzEzMTM2LC0xMD
+eyJoaXN0b3J5IjpbMTM1MzY2NzM3MSwyMDkwNzEzMTM2LC0xMD
 kyNjA5Njk0LDIwODQ0OTU0NDAsLTc0MjgxNjg0NCwyMDUxNTQ0
 OTc0LDEwNzcxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC
 0xMjY0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMx
