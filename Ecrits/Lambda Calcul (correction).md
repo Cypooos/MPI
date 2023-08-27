@@ -352,6 +352,7 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 >  - Initialisation: On a $(\text{add}(C_m))^0(C_0) = C_0= C_{n\times m}$
 >  - Hérédité: On a $(\text{add}(C_m))^{n+1}(C_0)=\text{add}(C_m)((\text{add}(C_m))^n(C_0)) \to^*\text{add}(C_m)(C_{n\times m}) \to ^* C_{m+n\times m} = C_{(n+1)\times m}$
 
+
 ## Soustraction
 
 L'objectif de cette partie est d'implémenter $\text{sub}$ telle que $\text{sub}(C_n,C_m) \to^* C_{\max\{n-m\ ;\ 0\}}$
@@ -568,11 +569,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDQ5NTQ0MCwtNzQyODE2ODQ0LDIwNT
-E1NDQ5NzQsMTA3NzEwMDg2OCwxOTUxNDY2NDY2LC04NzkxMDEz
-OTAsLTEyNjQ2NTA3ODksLTE4MTAwMjIyNjEsNjQyNDY5MDcsMz
-Q2MzE3NDQxLDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLTExNTc1
-NDQzNTAsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0MTYyNj
-kxLC0xMTE3NjU3ODUxLC0xMzgyNDk0ODIxLC0xNDg1NTk4NjA1
-LDc1MzE0ODE4N119
+eyJoaXN0b3J5IjpbLTEwOTI2MDk2OTQsMjA4NDQ5NTQ0MCwtNz
+QyODE2ODQ0LDIwNTE1NDQ5NzQsMTA3NzEwMDg2OCwxOTUxNDY2
+NDY2LC04NzkxMDEzOTAsLTEyNjQ2NTA3ODksLTE4MTAwMjIyNj
+EsNjQyNDY5MDcsMzQ2MzE3NDQxLDE4MTYyMjg4NDYsLTEzNTg0
+OTQyMDYsLTExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNzQxNTg0MT
+UyLC0xNTE0MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgyNDk0ODIx
+LC0xNDg1NTk4NjA1XX0=
 -->
