@@ -246,12 +246,14 @@ Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 
 36. Donner un arbre de dérivation donnant un typage de $\top$ et $C_1$
 
-Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
+Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$. Un type généralisé est plus général qu’un autre s'il utilise plus de *types par défaut* différents.
 
 37. Donner $t$ un type généralisé de $\{\top, \bot\}$
 38. Donner $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
-## Caractérisation des expressions unitaire
+
+## Caractérisation des expressions unitaire sans variable libre
+
 Le but de cette partie est de montrer que tout les expressions unitaire sans variable libre sont typé.
 > Les questions arriveront....
 
@@ -272,7 +274,7 @@ Toutes les questions ici sont difficiles.
 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzIxNzQ4MTMsLTEzODY3MzEwMTAsMT
-gyNDQyMTEwMiwtMjEwODI0NzkwMiwtMTYxMDY3MzUxNSwtODQ1
-MzUxNDY1XX0=
+eyJoaXN0b3J5IjpbMTczMDM4OTczLC0xMzg2NzMxMDEwLDE4Mj
+Q0MjExMDIsLTIxMDgyNDc5MDIsLTE2MTA2NzM1MTUsLTg0NTM1
+MTQ2NV19
 -->
