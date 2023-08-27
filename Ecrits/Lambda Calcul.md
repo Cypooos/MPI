@@ -261,7 +261,7 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 
 
 
-## Pour aller plus loin
+# VI Pour aller plus loin
 Toutes les questions ici sont difficiles.
 
 1. Donner un opérateur point fixe $\Theta$ tel que $\Theta(f) \to^* f(\Theta(f))$
@@ -272,6 +272,6 @@ Toutes les questions ici sont difficiles.
 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNDQyMTEwMiwtMjEwODI0NzkwMiwtMT
-YxMDY3MzUxNSwtODQ1MzUxNDY1XX0=
+eyJoaXN0b3J5IjpbLTEzODY3MzEwMTAsMTgyNDQyMTEwMiwtMj
+EwODI0NzkwMiwtMTYxMDY3MzUxNSwtODQ1MzUxNDY1XX0=
 -->
