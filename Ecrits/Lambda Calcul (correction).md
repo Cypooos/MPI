@@ -555,10 +555,10 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 1. Donner un opérateur point fixe $\Theta$ tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
 
-> On a $\Theta = (f,x\mapsto (x (f(f,x))))(f,x\mapsto (x (f(f,x))))$, l'opérateur de point fixe de Turing.
+> On a $\Theta = (f,x\mapsto (x (f(f,x))))(f,x\mapsto (x (f(f,x))))$, l'opérateur point fixe de Turing.
 
 
-2. Montrer que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
+2. Montrer que si pour tout $e\in E$, on a que $f(e)$ unitaire, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
 > $f$ admet une forme normale $f'$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
@@ -575,11 +575,11 @@ qui admet
 > 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDcxMzEzNiwtMTA5MjYwOTY5NCwyMD
-g0NDk1NDQwLC03NDI4MTY4NDQsMjA1MTU0NDk3NCwxMDc3MTAw
-ODY4LDE5NTE0NjY0NjYsLTg3OTEwMTM5MCwtMTI2NDY1MDc4OS
-wtMTgxMDAyMjI2MSw2NDI0NjkwNywzNDYzMTc0NDEsMTgxNjIy
-ODg0NiwtMTM1ODQ5NDIwNiwtMTE1NzU0NDM1MCwxNDYzMDE3OD
-E2LC03NDE1ODQxNTIsLTE1MTQxNjI2OTEsLTExMTc2NTc4NTEs
-LTEzODI0OTQ4MjFdfQ==
+eyJoaXN0b3J5IjpbNzAxNTM2NDU4LDIwOTA3MTMxMzYsLTEwOT
+I2MDk2OTQsMjA4NDQ5NTQ0MCwtNzQyODE2ODQ0LDIwNTE1NDQ5
+NzQsMTA3NzEwMDg2OCwxOTUxNDY2NDY2LC04NzkxMDEzOTAsLT
+EyNjQ2NTA3ODksLTE4MTAwMjIyNjEsNjQyNDY5MDcsMzQ2MzE3
+NDQxLDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLTExNTc1NDQzNT
+AsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0MTYyNjkxLC0x
+MTE3NjU3ODUxXX0=
 -->
