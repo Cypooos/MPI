@@ -553,27 +553,28 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 ## Pour aller plus loin
 
-1. Donnez un opérateur point fixe tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
+1. Donner un opérateur point fixe $$ tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
 
 > On a $\Theta = (f,x\mapsto (x (f(f,x))))(f,x\mapsto (x (f(f,x))))$, l'opérateur de point fixe de Turing.
 
-2. On cherche à calculer la forme normale de $f(e)$, pour cela on met d'abord l'argument $e$ sous forme normale inductivement avant de faire l'évaluation. Comment changer $Y$ tel que $\text{fact}(C_1)$ termine ? 
 
-> On peut utiliser $Y = (f\mapsto\Big((x\mapsto f(\mu \mapsto x(x)(\mu)))(x\mapsto f(\mu \mapsto x(x)(\mu)))\Big))$
-
-3. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
+2. Montrer que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
 > $f$ admet une forme normale $f'$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
 > Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 
-4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
+2. On cherche à calculer la forme normale de $f(e)$, pour cela on met d'abord l'argument $e$ sous forme normale inductivement avant de faire l'évaluation. Comment changer $Y$ tel que $\text{fact}(C_1)$ termine ? 
+
+> On peut utiliser $Y = (f\mapsto\Big((x\mapsto f(\mu \mapsto x(x)(\mu)))(x\mapsto f(\mu \mapsto x(x)(\mu)))\Big))$
+> 
+4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTI2MDk2OTQsMjA4NDQ5NTQ0MCwtNz
-QyODE2ODQ0LDIwNTE1NDQ5NzQsMTA3NzEwMDg2OCwxOTUxNDY2
-NDY2LC04NzkxMDEzOTAsLTEyNjQ2NTA3ODksLTE4MTAwMjIyNj
-EsNjQyNDY5MDcsMzQ2MzE3NDQxLDE4MTYyMjg4NDYsLTEzNTg0
-OTQyMDYsLTExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNzQxNTg0MT
-UyLC0xNTE0MTYyNjkxLC0xMTE3NjU3ODUxLC0xMzgyNDk0ODIx
-LC0xNDg1NTk4NjA1XX0=
+eyJoaXN0b3J5IjpbLTE3MjU4Njk4NjksLTEwOTI2MDk2OTQsMj
+A4NDQ5NTQ0MCwtNzQyODE2ODQ0LDIwNTE1NDQ5NzQsMTA3NzEw
+MDg2OCwxOTUxNDY2NDY2LC04NzkxMDEzOTAsLTEyNjQ2NTA3OD
+ksLTE4MTAwMjIyNjEsNjQyNDY5MDcsMzQ2MzE3NDQxLDE4MTYy
+Mjg4NDYsLTEzNTg0OTQyMDYsLTExNTc1NDQzNTAsMTQ2MzAxNz
+gxNiwtNzQxNTg0MTUyLC0xNTE0MTYyNjkxLC0xMTE3NjU3ODUx
+LC0xMzgyNDk0ODIxXX0=
 -->
