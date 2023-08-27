@@ -267,14 +267,13 @@ On essaye de montrer que toute les expressions unitaires qui ne sont pas des fon
 Toutes les questions ici sont difficiles.
 
 1. Donner un opérateur point fixe $\Theta$ tel que $\Theta(f) \to^* f(\Theta(f))$
-2. Montrer que si pour tout $e\in E$, on a que $f(e)$ unitaire, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
+2. Montrer que si pour tout $e\in E$, on a que $f(e)$ normalisable, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
-3. On cherche à calculer la forme normale de $f(e)$, pour cela on met d'abord l'argument $e$ sous forme normale inductivement avant de faire l'évaluation. Comment changer $Y$ tel que $\text{fact}(C_1)$ termine ? 
+3. On cherche à calculer la forme normale de $f(e)$, pour cela on met d'abord l'argument $e$ sous forme normale inductivement avant de faire l'évaluation. Comment changer $Y$ tel que le calcul de $\text{fact}(C_1)$ termine ? 
 
 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0NjI4OTczLC0yMTA4MjQ3OTAyLC0xNj
-EwNjczNTE1LC04NDUzNTE0NjVdfQ==
+eyJoaXN0b3J5IjpbMTIwNjgwNDY3OSwtMjEwODI0NzkwMiwtMT
+YxMDY3MzUxNSwtODQ1MzUxNDY1XX0=
 -->
