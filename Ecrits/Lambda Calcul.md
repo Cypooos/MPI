@@ -148,7 +148,6 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 21. Définir une expression $\text{add}$ tel que $\text{add}(C_n,C_m) \to^* C_{n+m}$
 22. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$ 
 
-> Voir *pour aller plus loin*, question 1
 
 
 ## Soustraction
@@ -188,7 +187,7 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 
 32. (*) Donnez une expression point-fixe.
 
-> Voir *Pour aller plus loin*, question 2, 3 et 4
+> Voir *Pour aller plus loin*, question 1, 2 et 3
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
 
@@ -277,6 +276,6 @@ Toutes les questions ici sont difficiles.
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjI4OTcxOCwtMjEwODI0NzkwMiwtMT
+eyJoaXN0b3J5IjpbMTE0ODkxMzg4NiwtMjEwODI0NzkwMiwtMT
 YxMDY3MzUxNSwtODQ1MzUxNDY1XX0=
 -->
