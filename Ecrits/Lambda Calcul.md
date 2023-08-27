@@ -252,7 +252,7 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 38. Donner $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
 ## Caractérisation des expressions unitaire
-
+Le but de cette partie est de montrer que tout les expressions unitaire sans variable libre sont typé.
 > Les questions arriveront....
 
 ## Réciproque
@@ -272,7 +272,7 @@ Toutes les questions ici sont difficiles.
 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTU5NzUyMCwtMTM4NjczMTAxMCwxOD
-I0NDIxMTAyLC0yMTA4MjQ3OTAyLC0xNjEwNjczNTE1LC04NDUz
-NTE0NjVdfQ==
+eyJoaXN0b3J5IjpbLTE3MzIxNzQ4MTMsLTEzODY3MzEwMTAsMT
+gyNDQyMTEwMiwtMjEwODI0NzkwMiwtMTYxMDY3MzUxNSwtODQ1
+MzUxNDY1XX0=
 -->
