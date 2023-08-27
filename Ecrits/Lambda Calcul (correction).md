@@ -562,8 +562,12 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 > $f$ admet une forme normale $f'$
 > Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
-> Sinon, on montre que $x$ est n'est pas une variable libre dans $e$ par l'absurde : 
-> Supposons que $x$ soit non 
+> Sinon, on montre que $x$ est n'est pas une variable libre qui apparait dans $e$ par l'absurde : 
+> Supposons que $x$ soit libre et apparaisse dans $e$. Alors on a 
+$$
+f(\Delta(\Delta))
+$$
+qui admet 
 
 2. On cherche à calculer la forme normale de $f(e)$, pour cela on met d'abord l'argument $e$ sous forme normale inductivement avant de faire l'évaluation. Comment changer $Y$ tel que $\text{fact}(C_1)$ termine ? 
 
@@ -571,11 +575,11 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjcyNTUxMTgsLTEwOTI2MDk2OTQsMj
-A4NDQ5NTQ0MCwtNzQyODE2ODQ0LDIwNTE1NDQ5NzQsMTA3NzEw
-MDg2OCwxOTUxNDY2NDY2LC04NzkxMDEzOTAsLTEyNjQ2NTA3OD
-ksLTE4MTAwMjIyNjEsNjQyNDY5MDcsMzQ2MzE3NDQxLDE4MTYy
-Mjg4NDYsLTEzNTg0OTQyMDYsLTExNTc1NDQzNTAsMTQ2MzAxNz
-gxNiwtNzQxNTg0MTUyLC0xNTE0MTYyNjkxLC0xMTE3NjU3ODUx
-LC0xMzgyNDk0ODIxXX0=
+eyJoaXN0b3J5IjpbMjA5MDcxMzEzNiwtMTA5MjYwOTY5NCwyMD
+g0NDk1NDQwLC03NDI4MTY4NDQsMjA1MTU0NDk3NCwxMDc3MTAw
+ODY4LDE5NTE0NjY0NjYsLTg3OTEwMTM5MCwtMTI2NDY1MDc4OS
+wtMTgxMDAyMjI2MSw2NDI0NjkwNywzNDYzMTc0NDEsMTgxNjIy
+ODg0NiwtMTM1ODQ5NDIwNiwtMTE1NzU0NDM1MCwxNDYzMDE3OD
+E2LC03NDE1ODQxNTIsLTE1MTQxNjI2OTEsLTExMTc2NTc4NTEs
+LTEzODI0OTQ4MjFdfQ==
 -->
