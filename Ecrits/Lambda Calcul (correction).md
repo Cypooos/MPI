@@ -538,7 +538,7 @@ $$
 > Pour $C_1$ :
 $$
 \cfrac {}{\cfrac{
-	\{(x,\tau)\} \vdash x: \tau}{\cfrac{
+	\{(x,\tau)\} \vdash x: \tau }{\cfrac{
 	\{(x,\tau)\} \vdash y\mapsto x : \tau' \to \tau}{
 	\empty \vdash x,y\mapsto x : \tau \to \tau' \to \tau
 }\tiny\text{(ab)}
@@ -578,11 +578,11 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 > 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjczMjQyNzksMjA5MDcxMzEzNiwtMT
-A5MjYwOTY5NCwyMDg0NDk1NDQwLC03NDI4MTY4NDQsMjA1MTU0
-NDk3NCwxMDc3MTAwODY4LDE5NTE0NjY0NjYsLTg3OTEwMTM5MC
-wtMTI2NDY1MDc4OSwtMTgxMDAyMjI2MSw2NDI0NjkwNywzNDYz
-MTc0NDEsMTgxNjIyODg0NiwtMTM1ODQ5NDIwNiwtMTE1NzU0ND
-M1MCwxNDYzMDE3ODE2LC03NDE1ODQxNTIsLTE1MTQxNjI2OTEs
-LTExMTc2NTc4NTFdfQ==
+eyJoaXN0b3J5IjpbLTM3NTU5NjU3MywyMDkwNzEzMTM2LC0xMD
+kyNjA5Njk0LDIwODQ0OTU0NDAsLTc0MjgxNjg0NCwyMDUxNTQ0
+OTc0LDEwNzcxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC
+0xMjY0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMx
+NzQ0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0Mz
+UwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwt
+MTExNzY1Nzg1MV19
 -->
