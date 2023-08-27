@@ -523,6 +523,9 @@ Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 ## Typage de groupe d'expressions
 
 36. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
+$$
+\cfrac{}{\cfrac{(x,\tau) \vdash x: \tau}{\empty \vdash x\mapsto x : \tau\to \tau}\tiny\text{(ab)}}\tiny\text{(ax)}\\
+$$
 
 Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
 
@@ -530,26 +533,12 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 38. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
 ## Caractérisation des expressions unitaire
-On essaye de montrer que toute les expressions unitaire sont tel que $\Gamma \vdash e:t$.
 
-39. Montrez que si $e:t$ est typé, alors pour tout $a\in e$, $a:t'$ est typé.
-40. Montrez que le type d'une expression est invariant par dérivation.
-41. Montrez que si $f$ est sous forme normale, alors il existe $\Gamma,t$ tel que toute variable libre de $f$  est une variable dans un couple de $\Gamma$ et $\Gamma \vdash f:t$
-42. Montrez que si $e$ est unitaire, alors il existe $\Gamma,t$ tel que $\Gamma \vdash e:t$.
-43. Montrez que si $e$ unitaire n'as pas de variable libre, alors $e$ est bien typé.
+> Les questions arriveront....
 
 ## Réciproque
-On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
-44. En étendant $\phi$, donnez $\varphi : T\to E$ injective 
-45. Soit $\Gamma\vdash e:t$. Montrez que $e\to^* \phi(t)$ et $e$ unitaire.
-> A revoir: Je pense avoir fait une erreur quand j'ai écrit la correction, mais je ne sais pas d'où elle viens. Je regarderai avec vos propositions. Ne passez pas trop de temps dessus si elle vous semble impossible.
-46. En déduire que si $e$ est typé, alors $e$ est unitaire et n'as pas de variable libre.
-47. En déduire que $\Delta$ ne possède pas de typage.
-
-> Remarque : En pratique, le lambda calcul typé est assez faible, il ne permet pas de faire de fonctions récursive, de boucle, ou même la fonction $\text{pow}$ comme on a pu le voir dans la partie III.
-
-> Remarque : Le compromis pris par OCaml est de forcer l'existence d'un opérateur point-fixe, dont on ne vérifiera jamais le type. Quand une fonction est définie avec le mot clef `rec`, alors sa "vraie" signature est `val fct : fix -> RESTE`, mais ce premier argument n'est ni affiché, ni vérifié. OCaml ajoute aussi des types par défaut tel que `int`, `string`, `bool` etc...
+> Les questions arriveront....
 
 ## Pour aller plus loin
 
@@ -570,7 +559,7 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 > 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjU4Njk4NjksMjA5MDcxMzEzNiwtMT
+eyJoaXN0b3J5IjpbLTEzMzgxOTUwNzQsMjA5MDcxMzEzNiwtMT
 A5MjYwOTY5NCwyMDg0NDk1NDQwLC03NDI4MTY4NDQsMjA1MTU0
 NDk3NCwxMDc3MTAwODY4LDE5NTE0NjY0NjYsLTg3OTEwMTM5MC
 wtMTI2NDY1MDc4OSwtMTgxMDAyMjI2MSw2NDI0NjkwNywzNDYz
