@@ -509,7 +509,7 @@ $$
 On dit que $t$ est un *typage* de $x$ si $\empty \vdash x:t$.
 Par exemple, ce qui suit est un arbre de dérivation montrant que $\tau\to\tau$ est un typage de $I$ :
 $$
-\cfrac{}{\cfrac{\{(x,\tau) \vdash x: \tau}{\empty \vdash x\mapsto x : \tau\to \tau}\tiny\text{(ab)}}\tiny\text{(ax)}\\
+\cfrac{}{\cfrac{\{(x,\tau)\} \vdash x: \tau}{\empty \vdash x\mapsto x : \tau\to \tau}\tiny\text{(ab)}}\tiny\text{(ax)}\\
 $$
 
  On n'hésitera pas a ajouter des parenthèses pour ce faire comprendre : par défaut, les flèches sont une opération de droite à gauche, ainsi, $\tau\to\tau\to\tau = \tau\to(\tau\to\tau)$
@@ -520,7 +520,7 @@ Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 
 36. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
 $$
-\cfrac{}{\cfrac{(x,\tau) \vdash x: \tau}{\empty \vdash x\mapsto x : \tau\to \tau}\tiny\text{(ab)}}\tiny\text{(ax)}\\
+\cfrac{a`\quad a}{}
 $$
 
 Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
@@ -555,11 +555,11 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 > 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyNDQzNDA2LDIwOTA3MTMxMzYsLTEwOT
-I2MDk2OTQsMjA4NDQ5NTQ0MCwtNzQyODE2ODQ0LDIwNTE1NDQ5
-NzQsMTA3NzEwMDg2OCwxOTUxNDY2NDY2LC04NzkxMDEzOTAsLT
-EyNjQ2NTA3ODksLTE4MTAwMjIyNjEsNjQyNDY5MDcsMzQ2MzE3
-NDQxLDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLTExNTc1NDQzNT
-AsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0MTYyNjkxLC0x
-MTE3NjU3ODUxXX0=
+eyJoaXN0b3J5IjpbMTc2MDEzNzkwMiwyMDkwNzEzMTM2LC0xMD
+kyNjA5Njk0LDIwODQ0OTU0NDAsLTc0MjgxNjg0NCwyMDUxNTQ0
+OTc0LDEwNzcxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC
+0xMjY0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMx
+NzQ0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0Mz
+UwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwt
+MTExNzY1Nzg1MV19
 -->
