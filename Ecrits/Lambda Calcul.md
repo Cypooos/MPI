@@ -147,6 +147,7 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 20. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to^* C_{n+1}$
 21. Définir une expression $\text{add}$ tel que $\text{add}(C_n,C_m) \to^* C_{n+m}$
 22. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$ 
+23.(* Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$ 
 
 
 ## Soustraction
@@ -183,11 +184,10 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 30. Montrez que tout $f\in E$ admet un point fixe.
 
 31. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe fort.
-> Voir *Pour aller plus loin*, question 1
 
 32. (*) Donnez une expression point-fixe.
 
-> Voir *Pour aller plus loin*, question 2 et 3
+> Voir *Pour aller plus loin*, question 1, 2 et 3
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
 
@@ -266,9 +266,9 @@ On essaye de montrer que toute les expressions unitaires qui ne sont pas des fon
 ## Pour aller plus loin
 Toutes les questions ici sont difficiles.
 
-1. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
-2. Donnez un opérateur point fixe $\Theta$ tel que $\Theta(f) \to^* f(\Theta(f))$
+1. Donnez un opérateur point fixe $\Theta$ tel que $\Theta(f) \to^* f(\Theta(f))$
+2. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
 3. On cherche à calculer la forme normale de $f(e)$, pour cela on met d'abord l'argument $e$ sous forme normale inductivement avant de faire l'évaluation. Comment changer $Y$ tel que $\text{fact}(C_1)$ termine ? 
 
@@ -276,6 +276,6 @@ Toutes les questions ici sont difficiles.
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDgyNDc5MDIsLTE2MTA2NzM1MTUsLT
-g0NTM1MTQ2NV19
+eyJoaXN0b3J5IjpbLTI4MzIzNzIzOCwtMjEwODI0NzkwMiwtMT
+YxMDY3MzUxNSwtODQ1MzUxNDY1XX0=
 -->
