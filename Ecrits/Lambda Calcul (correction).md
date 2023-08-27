@@ -554,6 +554,7 @@ $$
 Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$.
 
 37. Donner $t$ un type généralisé de $\{\top, \bot\}$
+
 38. Donner $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
 ## Caractérisation des expressions unitaire sans variable libre
@@ -585,11 +586,11 @@ Le but de cette partie est de montrer que tout les expressions unitaire sans var
 > 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcyMjg4NDAsMjA5MDcxMzEzNiwtMTA5Mj
-YwOTY5NCwyMDg0NDk1NDQwLC03NDI4MTY4NDQsMjA1MTU0NDk3
-NCwxMDc3MTAwODY4LDE5NTE0NjY0NjYsLTg3OTEwMTM5MCwtMT
-I2NDY1MDc4OSwtMTgxMDAyMjI2MSw2NDI0NjkwNywzNDYzMTc0
-NDEsMTgxNjIyODg0NiwtMTM1ODQ5NDIwNiwtMTE1NzU0NDM1MC
-wxNDYzMDE3ODE2LC03NDE1ODQxNTIsLTE1MTQxNjI2OTEsLTEx
-MTc2NTc4NTFdfQ==
+eyJoaXN0b3J5IjpbMTMwNjQ0NjI2NiwyMDkwNzEzMTM2LC0xMD
+kyNjA5Njk0LDIwODQ0OTU0NDAsLTc0MjgxNjg0NCwyMDUxNTQ0
+OTc0LDEwNzcxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC
+0xMjY0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMx
+NzQ0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0Mz
+UwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwt
+MTExNzY1Nzg1MV19
 -->
