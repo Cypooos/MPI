@@ -553,18 +553,16 @@ On pose $\phi$ injective de $\{\tau,\tau_1,...\}$ dans $V$
 
 ## Pour aller plus loin
 
-1. Donner un opérateur point fixe $\Theta$ tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
+1. Donner un opérateur point fixe $$ tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
 
-> On a $\Theta = (f,x\mapsto (x (f(f,x))))(f,x\mapsto (x (f(f,x))))$, l'opérateur point fixe de Turing.
+> On a $\Theta = (f,x\mapsto (x (f(f,x))))(f,x\mapsto (x (f(f,x))))$, l'opérateur de point fixe de Turing.
 
 
-2. Montrer que si pour tout $e\in E$, on a que $f(e)$ unitaire, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
+2. Montrer que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
 > $f$ admet une forme normale $f'$
-> Si $f' \neq x\mapsto e$, alors $f'$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
-> Sinon, on montre que $x$ est n'est pas une variable libre qui apparait dans $e$ par l'absurde : 
-> Supposons que $x$ soit libre et apparaisse dans $e$. Alors on a $x\in f(\Theta(f))$
-qui admet 
+> Si $f' \neq x\mapsto e$, alors $e$ est sous forme normale et $f(\Delta(\Delta))$ n'est pas normalisable (le seul calcul est $f(\Delta(\Delta))\to f(\Delta(\Delta)) \to ...$), donc $f(e)$ n'admet pas de forme normal pour tout $e$, absurde
+> Sinon, on montre que $x\not\in e$ par l'absurde, mais je ne sais pas le finir.
 
 2. On cherche à calculer la forme normale de $f(e)$, pour cela on met d'abord l'argument $e$ sous forme normale inductivement avant de faire l'évaluation. Comment changer $Y$ tel que $\text{fact}(C_1)$ termine ? 
 
@@ -572,11 +570,11 @@ qui admet
 > 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTg4NzA4NSwyMDkwNzEzMTM2LC0xMD
-kyNjA5Njk0LDIwODQ0OTU0NDAsLTc0MjgxNjg0NCwyMDUxNTQ0
-OTc0LDEwNzcxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC
-0xMjY0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMx
-NzQ0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0Mz
-UwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwt
-MTExNzY1Nzg1MV19
+eyJoaXN0b3J5IjpbLTE3MjU4Njk4NjksMjA5MDcxMzEzNiwtMT
+A5MjYwOTY5NCwyMDg0NDk1NDQwLC03NDI4MTY4NDQsMjA1MTU0
+NDk3NCwxMDc3MTAwODY4LDE5NTE0NjY0NjYsLTg3OTEwMTM5MC
+wtMTI2NDY1MDc4OSwtMTgxMDAyMjI2MSw2NDI0NjkwNywzNDYz
+MTc0NDEsMTgxNjIyODg0NiwtMTM1ODQ5NDIwNiwtMTE1NzU0ND
+M1MCwxNDYzMDE3ODE2LC03NDE1ODQxNTIsLTE1MTQxNjI2OTEs
+LTExMTc2NTc4NTFdfQ==
 -->
