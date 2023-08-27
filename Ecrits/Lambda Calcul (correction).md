@@ -573,7 +573,7 @@ Le but de cette partie est de montrer que tout les expressions unitaire sans var
 
 # VI Pour aller plus loin
 
-1. Donner un opérateur point fixe $$ tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
+1. Donner un opérateur point fixe $\Theta$ tel que $\text{fix}(f) \to^* f(\text{fix}(f))$
 
 > On a $\Theta = (f,x\mapsto (x (f(f,x))))(f,x\mapsto (x (f(f,x))))$, l'opérateur de point fixe de Turing.
 
@@ -588,13 +588,15 @@ Le but de cette partie est de montrer que tout les expressions unitaire sans var
 
 > On peut utiliser $Y = (f\mapsto\Big((x\mapsto f(\mu \mapsto x(x)(\mu)))(x\mapsto f(\mu \mapsto x(x)(\mu)))\Big))$
 > 
-4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
+3. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
+
+> Aucune idée
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODgzMjE3NiwyMDkwNzEzMTM2LC0xMD
-kyNjA5Njk0LDIwODQ0OTU0NDAsLTc0MjgxNjg0NCwyMDUxNTQ0
-OTc0LDEwNzcxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC
-0xMjY0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMx
-NzQ0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0Mz
-UwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwt
-MTExNzY1Nzg1MV19
+eyJoaXN0b3J5IjpbMjQ4MDk4NSwyMDkwNzEzMTM2LC0xMDkyNj
+A5Njk0LDIwODQ0OTU0NDAsLTc0MjgxNjg0NCwyMDUxNTQ0OTc0
+LDEwNzcxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC0xMj
+Y0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMxNzQ0
+MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0MzUwLD
+E0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwtMTEx
+NzY1Nzg1MV19
 -->
