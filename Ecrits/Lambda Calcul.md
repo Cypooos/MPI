@@ -147,7 +147,8 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 20. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to^* C_{n+1}$
 21. Définir une expression $\text{add}$ tel que $\text{add}(C_n,C_m) \to^* C_{n+m}$
 22. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$ 
-23. 
+
+> Voir *pour aller plus loin*, question 1
 
 
 ## Soustraction
@@ -187,7 +188,7 @@ On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe f
 
 32. (*) Donnez une expression point-fixe.
 
-> Voir *Pour aller plus loin*, question 1, 2 et 3
+> Voir *Pour aller plus loin*, question 2, 3 et 4
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
 
@@ -266,7 +267,7 @@ On essaye de montrer que toute les expressions unitaires qui ne sont pas des fon
 ## Pour aller plus loin
 Toutes les questions ici sont difficiles.
 
-
+1. Donnez une expression $\text{pow}$ tel que 
 1. Donnez un opérateur point fixe $\Theta$ tel que $\Theta(f) \to^* f(\Theta(f))$
 2. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
@@ -276,6 +277,6 @@ Toutes les questions ici sont difficiles.
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzgwNzI0NzMsLTIxMDgyNDc5MDIsLT
-E2MTA2NzM1MTUsLTg0NTM1MTQ2NV19
+eyJoaXN0b3J5IjpbMjA2MjI4OTcxOCwtMjEwODI0NzkwMiwtMT
+YxMDY3MzUxNSwtODQ1MzUxNDY1XX0=
 -->
