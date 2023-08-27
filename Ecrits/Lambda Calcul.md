@@ -147,7 +147,7 @@ On appelle $C_n$ l'*entier de Church* associé à $n$.
 20. Définir une expression $\text{succ}$ tel que $\text{succ}(C_n)\to^* C_{n+1}$
 21. Définir une expression $\text{add}$ tel que $\text{add}(C_n,C_m) \to^* C_{n+m}$
 22. Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$ 
-23.(* Définir une expression $\text{mul}$ tel que $\text{mul}(C_n,C_m) \to^* C_{n\times m}$ 
+23. 
 
 
 ## Soustraction
@@ -276,6 +276,6 @@ Toutes les questions ici sont difficiles.
 4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MzIzNzIzOCwtMjEwODI0NzkwMiwtMT
-YxMDY3MzUxNSwtODQ1MzUxNDY1XX0=
+eyJoaXN0b3J5IjpbLTExMzgwNzI0NzMsLTIxMDgyNDc5MDIsLT
+E2MTA2NzM1MTUsLTg0NTM1MTQ2NV19
 -->
