@@ -537,13 +537,7 @@ $$
 $$
 > Pour $C_1$ :
 $$
-\cfrac {}{\cfrac{
-	\{(x,\tau)\} \vdash x: \tau }{\cfrac{
-	\{(x,\tau)\} \vdash y\mapsto x : \tau' \to \tau}{
-	\empty \vdash x,y\mapsto x : \tau \to \tau' \to \tau
-}\tiny\text{(ab)}
-}\tiny\text{(ab)}
-}\tiny\text{(ax)}\\
+\cfrac {}{\empty \vdash f,x\mapsto f(x) : (\tau \to \tau'}\tiny\text{(ab)}
 $$
 
 Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$.
@@ -578,7 +572,7 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 > 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NTU5NjU3MywyMDkwNzEzMTM2LC0xMD
+eyJoaXN0b3J5IjpbMjExNDQxMDc4OSwyMDkwNzEzMTM2LC0xMD
 kyNjA5Njk0LDIwODQ0OTU0NDAsLTc0MjgxNjg0NCwyMDUxNTQ0
 OTc0LDEwNzcxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC
 0xMjY0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMx
