@@ -205,8 +205,8 @@ $$
 $$
 Et on pose $\text{fact} = \text{fix}(\text{fact\_rect})$
 
-34. Montrez que $\text{fact}(C_n) \to^* C_{n!}$
-35. (*) Donnez une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\text{fix}(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe dans la définition de $\text{pow\_rec}$. *(On posera ici que $0^0 = 1$)*
+34. Montrer que $\text{fact}(C_n) \to^* C_{n!}$
+35. (*) Donner une expression $\text{pow\_rec}$ tel que, soit $n,m\in\N$, on ai $\text{fix}(\text{pow\_rec})(C_n,C_m) \to^* C_{n^m}$ avec $n_r = O(\log_2(m))$. On n’utilisera pas d'opérateur point fixe dans la définition de $\text{pow\_rec}$. *(On posera ici que $0^0 = 1$)*
 
 # Partie V: Types (en cours)
 Cette partie s'intéresse au lambda calcul typé, elle cherche à imposer des règles telle que on obtienne un caractérisation des expressions unitaire.
@@ -244,12 +244,12 @@ On notera $e:t$ pour dire qu'une expression $e$ à un typage $t$.
 Si $t$ un type est présent dans $t'$ un autre type, on notera cela $t\in t'$.
 ## Typage de groupe d'expressions
 
-36. Donnez un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
+36. Donner un arbre de dérivation donnant un typage de $\top$, $K$ et $C_0$
 
 Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$, on dira que $t$ est le type généralisé de $A$
 
-37. Donnez $t$ un type généralisé de $\{\top, \bot\}$
-38. Donnez $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
+37. Donner $t$ un type généralisé de $\{\top, \bot\}$
+38. Donner $t$ un type généralisé de $\{C_n\ |\ n\in\N\}$
 
 ## Caractérisation des expressions unitaire
 On essaye de montrer que toute les expressions unitaires qui ne sont pas des fonctions sont tel que $\empty \vdash e:t$.
@@ -267,7 +267,7 @@ On essaye de montrer que toute les expressions unitaires qui ne sont pas des fon
 Toutes les questions ici sont difficiles.
 
 1. Donner un opérateur point fixe $\Theta$ tel que $\Theta(f) \to^* f(\Theta(f))$
-2. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
+2. Montrer que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
 3. On cherche à calculer la forme normale de $f(e)$, pour cela on met d'abord l'argument $e$ sous forme normale inductivement avant de faire l'évaluation. Comment changer $Y$ tel que $\text{fact}(C_1)$ termine ? 
 
@@ -275,6 +275,6 @@ Toutes les questions ici sont difficiles.
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDgxMDA4MzAsLTIxMDgyNDc5MDIsLT
+eyJoaXN0b3J5IjpbLTIwMDU4NjAwNjIsLTIxMDgyNDc5MDIsLT
 E2MTA2NzM1MTUsLTg0NTM1MTQ2NV19
 -->
