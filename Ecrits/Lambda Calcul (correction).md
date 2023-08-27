@@ -41,7 +41,7 @@ On pourra noter $x_1,x_2,...,x_n\mapsto e$ pour dénoter $x_1\mapsto (x_2\mapsto
 On pourra noter $e(x_1,x_2,...,x_n)$ pour dénoter $e(x_1)(x_2)...(x_n)$
  
 Soient $e\in E$ et $x,a\in V\times E$, on définit l'opération de *substitution* $e[x\larr a]$ inductivement :
- - $x[x\larr a] := y$
+ - $x[x\larr a] := \xcancel{y}\ a$
   - $u[x\larr a] := u$ pour $u\in V\setminus \{x\}$
   - $e(e')[x\larr a] := e[x\larr a]\Big(e'[x\larr a]\Big)$
   - $(x\mapsto e)[x\larr a] := x\mapsto e$
@@ -592,11 +592,11 @@ Le but de cette partie est de montrer que tout les expressions unitaire sans var
 
 > Aucune idée
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4MDk4NSwyMDkwNzEzMTM2LC0xMDkyNj
-A5Njk0LDIwODQ0OTU0NDAsLTc0MjgxNjg0NCwyMDUxNTQ0OTc0
-LDEwNzcxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC0xMj
-Y0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMxNzQ0
-MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0MzUwLD
-E0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwtMTEx
-NzY1Nzg1MV19
+eyJoaXN0b3J5IjpbMTQ5MzkwMTU5NCwyNDgwOTg1LDIwOTA3MT
+MxMzYsLTEwOTI2MDk2OTQsMjA4NDQ5NTQ0MCwtNzQyODE2ODQ0
+LDIwNTE1NDQ5NzQsMTA3NzEwMDg2OCwxOTUxNDY2NDY2LC04Nz
+kxMDEzOTAsLTEyNjQ2NTA3ODksLTE4MTAwMjIyNjEsNjQyNDY5
+MDcsMzQ2MzE3NDQxLDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLT
+ExNTc1NDQzNTAsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0
+MTYyNjkxXX0=
 -->
