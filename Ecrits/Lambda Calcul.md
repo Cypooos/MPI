@@ -177,21 +177,21 @@ Le but de cette partie est de pouvoir faire des fonctions récursives.
 On ce donne $\text{fix}$ un opérateur point-fixe, c'est-à dire une expression sous forme normale et telle que, pour tout $f\in E$, on a :
 $$\text{fix}(f) =_\beta f(\text{fix}(f))$$
 
-29. Montrez que si $\text{fix}(f) \to^* f(\text{fix}(f))$, alors $\text{fix}(f)$ n'est pas unitaire.
+29. Montrer que si $\text{fix}(f) \to^* f(\text{fix}(f))$, alors $\text{fix}(f)$ n'est pas unitaire.
 
 On appellera $e$ un *point fixe* de $f$ si $f(e) =_\beta e$, et un *point fixe fort* de $f$ si $f(e)\to^* e$
 
-30. Montrez que tout $f\in E$ admet un point fixe.
+30. Montrer que tout $f\in E$ admet un point fixe.
 
 31. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ admet un point fixe fort.
 
-32. (*) Donnez une expression point-fixe.
+32. (*) Donner une expression point-fixe.
 
 > Voir *Pour aller plus loin*, question 1, 2 et 3
 ## Récursivité
 On considère ici $F$ de la forme $F=(f,x\mapsto e)$ une fonction récursive, c'est à dire que $F$ sera appelé constamment avec $F$ comme premier argument. 
 
-33. Justifiez sans démonstration que, pour tout $\alpha$ sous forme normale, $\forall e\in E$,
+33. Justifier sans démonstration que, pour tout $\alpha$ sous forme normale, $\forall e\in E$,
 $$\text{fix}(F)(e) \to^* \alpha \implies\exist n_r,\ \underbrace{F(F(...(F)...))}_{n_r\text{ fois}}(e)\to^*\alpha$$
 
 
@@ -266,16 +266,15 @@ On essaye de montrer que toute les expressions unitaires qui ne sont pas des fon
 ## Pour aller plus loin
 Toutes les questions ici sont difficiles.
 
-1. Donnez une expression $\text{pow}$ tel que 
-1. Donnez un opérateur point fixe $\Theta$ tel que $\Theta(f) \to^* f(\Theta(f))$
+1. Donner un opérateur point fixe $\Theta$ tel que $\Theta(f) \to^* f(\Theta(f))$
 2. Montrez que si pour tout $e\in E$, on a que $f(e)$ admet une forme normale, alors $f$ est constante, c'est à dire que il existe $\omega \in E$ tel que $x\not \in \omega$ et $f =_\beta (x\mapsto \omega)$
 
 3. On cherche à calculer la forme normale de $f(e)$, pour cela on met d'abord l'argument $e$ sous forme normale inductivement avant de faire l'évaluation. Comment changer $Y$ tel que $\text{fact}(C_1)$ termine ? 
 
 
-4. Faite la preuve de la question 33 avec l’opérateur point fixe $\Theta$
+4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODkxMzg4NiwtMjEwODI0NzkwMiwtMT
-YxMDY3MzUxNSwtODQ1MzUxNDY1XX0=
+eyJoaXN0b3J5IjpbLTEwNDgxMDA4MzAsLTIxMDgyNDc5MDIsLT
+E2MTA2NzM1MTUsLTg0NTM1MTQ2NV19
 -->
