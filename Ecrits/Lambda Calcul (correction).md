@@ -540,9 +540,9 @@ $$
 \cfrac {
 	\cfrac {
 		\cfrac {
-		\cfrac {}{}
-		\qquad 
-		\cfrac {}{}
+			\cfrac {}{\{(x:\tau)\}\vdash} \tiny\text{(ax)}
+			\qquad 
+			\cfrac {}{} \tiny\text{(ev)}
 		}
 		{\{(x,\tau),(f,\tau\to\tau')\} \vdash f(x) :\tau'}   \tiny\text{(ev)}
 	}
@@ -583,11 +583,11 @@ Soit $A\sube E$. Si $t$ est un type tel que $\forall a\in A, \empty \vdash a:t$,
 > 
 4. Faire la preuve de la question 33 avec l’opérateur point fixe $\Theta$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcwMzkyNDgxLDIwOTA3MTMxMzYsLTEwOT
-I2MDk2OTQsMjA4NDQ5NTQ0MCwtNzQyODE2ODQ0LDIwNTE1NDQ5
-NzQsMTA3NzEwMDg2OCwxOTUxNDY2NDY2LC04NzkxMDEzOTAsLT
-EyNjQ2NTA3ODksLTE4MTAwMjIyNjEsNjQyNDY5MDcsMzQ2MzE3
-NDQxLDE4MTYyMjg4NDYsLTEzNTg0OTQyMDYsLTExNTc1NDQzNT
-AsMTQ2MzAxNzgxNiwtNzQxNTg0MTUyLC0xNTE0MTYyNjkxLC0x
-MTE3NjU3ODUxXX0=
+eyJoaXN0b3J5IjpbLTM0ODIxNjI3OCwyMDkwNzEzMTM2LC0xMD
+kyNjA5Njk0LDIwODQ0OTU0NDAsLTc0MjgxNjg0NCwyMDUxNTQ0
+OTc0LDEwNzcxMDA4NjgsMTk1MTQ2NjQ2NiwtODc5MTAxMzkwLC
+0xMjY0NjUwNzg5LC0xODEwMDIyMjYxLDY0MjQ2OTA3LDM0NjMx
+NzQ0MSwxODE2MjI4ODQ2LC0xMzU4NDk0MjA2LC0xMTU3NTQ0Mz
+UwLDE0NjMwMTc4MTYsLTc0MTU4NDE1MiwtMTUxNDE2MjY5MSwt
+MTExNzY1Nzg1MV19
 -->
