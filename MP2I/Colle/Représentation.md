@@ -28,7 +28,6 @@ On dit qu'un tableau $T$ de taille $n$ est un tableau auto-référent si $T[i]$ 
 4. Il n'existe au maximum qu'un seul $i>n/2$ tel que $T[i] \ne  0$
 5. Soit $n\in\N$. Donnez `int nb_table(int n)` qui donne le nombre de tableau représentatif de taille $n$
 
-1,2,1,0
 ## Représentation des entiers négatifs
 
 ## Calcul de matrices
@@ -79,8 +78,8 @@ On s'intéresse ici à implémenté une structure représentant des ensembles, e
 La complexité en espace sera de $O(M)$
 Écrire le code  pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDQ5NzYxMywxNDI3NDcyMzExLDEyMD
-g3Njc3MTMsOTI2NjAyODY1LC0xNzQxODQ3MTIwLDg2MDcxMzEx
-MCwtOTMyMjczNDE0LC0xNzQ5NTgxMTYsLTE5NTI0MTg3MTYsMT
-czNDUxMTM4Ml19
+eyJoaXN0b3J5IjpbLTE4NzM3ODc4ODUsMTc2NDQ5NzYxMywxND
+I3NDcyMzExLDEyMDg3Njc3MTMsOTI2NjAyODY1LC0xNzQxODQ3
+MTIwLDg2MDcxMzExMCwtOTMyMjczNDE0LC0xNzQ5NTgxMTYsLT
+E5NTI0MTg3MTYsMTczNDUxMTM4Ml19
 -->
