@@ -38,9 +38,9 @@ Ici, si BOOL = 1, alors après 2 itérations, on aura $T[0]=k_\top$
 si BOOL = 0, alors après 3 itérations, on aura $T[0]=k_\bot$
 On a donc fait un saut conditionnel. 
 
-D'une manière analogue, l'on peut faire des SWITCH, on l'on a une série de pointeurs vers lesquels sauter selon les différentes valeurs que peut prendre une case. Attention, le SWITCH ne marche que pour un nombre fini de cas, et écrasera les valeurs $T[i]$ pour tout les $i$ dans les valeurs possibles.
+D'une manière analogue, l'on peut faire des SWITCH, on l'on a une série de pointeurs vers lesquels sauter selon les différentes valeurs que peut prendre une case. Attention, le SWITCH ne marche que pour un nombre fini de cas, et écrasera les cases $T[i]$ pour tout les $i$ dans l'ensemble des valeurs possibles.
 
-Si le code initial est fini (si a partir d'un certain rang $i$, $T_{\text{init}}$ est nul), alors en posant $x=\underset{0<n<i}{\max}\ T_{\text{init}}[n]$, on a que $T[j]$ ne pourra jamais dépasser $x$ pour tout $j\neq 0$, la mémoire est donc bornée.
+Si le code initial est fini (si a partir d'un certain rang $i$, $T_{\text{init}}$ est nul), alors en posant $x=\max n,\underset{0<n<i}{\max}\ T_{\text{init}}[n]$, on a que $T[j]$ ne pourra jamais dépasser $x$ pour tout $j\neq 0$, la mémoire est donc bornée.
 Une preuve que la machine de Cythan soit Turing Complete utilisera donc forcément un code initial infini.
 
 ## Turing complete
@@ -95,9 +95,9 @@ L'entré du programme est les valeurs des variables booléennes initiale. La sor
 Alors, je conjecture que ce modèle de calcul est Turing Complete. Je pense que l'on peut re-créer Rule 110 dedans.
 De cette conjecture on peut en déduire que la machine de Cythan est Turing Complete.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzE5MzM3MzgsMTE4NDExODI2NCwtMT
-E1MTk0ODE1MSwxNjUwNzQwNzcwLDE0NDc3NjUyNTgsLTE3MDk0
-Nzk0NzIsLTE5NTUzMzYwMzIsMTYxMDI4NDg3LDEzNzcyMzAzMD
-QsMTM5NTEyMjE4NCwxMjAzMzM1OTgyLC05ODY0ODExNzJdfQ==
-
+eyJoaXN0b3J5IjpbMTM4NTk3MTY1MywtMTUzMTkzMzczOCwxMT
+g0MTE4MjY0LC0xMTUxOTQ4MTUxLDE2NTA3NDA3NzAsMTQ0Nzc2
+NTI1OCwtMTcwOTQ3OTQ3MiwtMTk1NTMzNjAzMiwxNjEwMjg0OD
+csMTM3NzIzMDMwNCwxMzk1MTIyMTg0LDEyMDMzMzU5ODIsLTk4
+NjQ4MTE3Ml19
 -->
