@@ -40,7 +40,7 @@ On a donc fait un saut conditionnel.
 
 D'une manière analogue, l'on peut faire des SWITCH, on l'on a une série de pointeurs vers lesquels sauter selon les différentes valeurs que peut prendre une case. Attention, le SWITCH ne marche que pour un nombre fini de cas, et écrasera les cases $T[i]$ pour tout les $i$ dans l'ensemble des valeurs possibles.
 
-Si le code initial est fini (si a partir d'un certain rang $i$, $T_{\text{init}}$ est nul), alors en posant $x=\max n,\underset{0<n<i}{\max}\ T_{\text{init}}[n]$, on a que $T[j]$ ne pourra jamais dépasser $x$ pour tout $j\neq 0$, la mémoire est donc bornée.
+Si le code initial est fini (si a partir d'un certain rang $i$, $T_{\text{init}}$ est nul), alors en posant $x=\max\Big(n; \underset{0<n<i}{\max}\ T_{\text{init}}[n]\Big)$, on a que $T[j]$ ne pourra jamais dépasser $x$ pour tout $j\neq 0$, la mémoire est donc bornée.
 Une preuve que la machine de Cythan soit Turing Complete utilisera donc forcément un code initial infini.
 
 ## Turing complete
@@ -95,7 +95,7 @@ L'entré du programme est les valeurs des variables booléennes initiale. La sor
 Alors, je conjecture que ce modèle de calcul est Turing Complete. Je pense que l'on peut re-créer Rule 110 dedans.
 De cette conjecture on peut en déduire que la machine de Cythan est Turing Complete.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTk3MTY1MywtMTUzMTkzMzczOCwxMT
+eyJoaXN0b3J5IjpbMTQ0NTUzNzgzOSwtMTUzMTkzMzczOCwxMT
 g0MTE4MjY0LC0xMTUxOTQ4MTUxLDE2NTA3NDA3NzAsMTQ0Nzc2
 NTI1OCwtMTcwOTQ3OTQ3MiwtMTk1NTMzNjAzMiwxNjEwMjg0OD
 csMTM3NzIzMDMwNCwxMzk1MTIyMTg0LDEyMDMzMzU5ODIsLTk4
