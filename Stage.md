@@ -110,7 +110,7 @@ let app (T f) x = f x;;
 let delta = (fun x -> app x x);;
 let inf = delta (T delta);;
 
-let y = (fun x
+let y = (fun (T f) -> (fun x -> app (f (app x x)))(fun x -> app (f (app x x))) )
 ```
 2. Avec l'option `-rectype`, on peut définir l'opérateur point-fixe :
 ```ocaml
@@ -129,11 +129,11 @@ let a = ref (fun () -> ()) in
 !a ();;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDUyNDY4NDAsMTM0NDY2ODA3MCwtOT
-I2MTI3MzY3LC0yMTIwNTM2ODg2LC0yMDczMzM3OTk0LC04NTMy
-OTI0MTcsLTE0ODg5NjI3OTAsLTEwNjg5Nzk3MDIsLTkxNzUzND
-QyNiwtMTUyODQxMTEzNCwzNzgzODA0MjcsMTc3MjQ1MDg0MCw5
-NzI0MzQ3NzAsMTg5MzczMTE1OSwtMTQ0NzA0MzI4NCwxNjM0Nz
-Y0MDQ4LC0xMTQ4MTcyNDU2LC0xMTQ2MjY1NDkxLC0yMDk4MDQz
-NDk3LDg5OTY5OTY1M119
+eyJoaXN0b3J5IjpbMjAzNjkwNjg2OSwxMzQ0NjY4MDcwLC05Mj
+YxMjczNjcsLTIxMjA1MzY4ODYsLTIwNzMzMzc5OTQsLTg1MzI5
+MjQxNywtMTQ4ODk2Mjc5MCwtMTA2ODk3OTcwMiwtOTE3NTM0ND
+I2LC0xNTI4NDExMTM0LDM3ODM4MDQyNywxNzcyNDUwODQwLDk3
+MjQzNDc3MCwxODkzNzMxMTU5LC0xNDQ3MDQzMjg0LDE2MzQ3Nj
+QwNDgsLTExNDgxNzI0NTYsLTExNDYyNjU0OTEsLTIwOTgwNDM0
+OTcsODk5Njk5NjUzXX0=
 -->
