@@ -514,7 +514,7 @@ L'analyse de $f$ nous montre que, pour $k>8$ :
 `f([k,0,...,0],_,_)` $= y(k) \le \hat f _ {\omega^{k+1}} (9) \le \hat f _ {\omega^\omega} (k+1)$
 Dans ce cas, on a que, si on appelle $x$ le dernier élément de $t$ (et qu'il est non nul): 
 $$
-f(t,|t|,|t|-1) \le \hat f_{\omega^\omega}(\hat f _ {(x+1)\omega^{|t|}+3} (9)) \le \hat f_{\omega^\omega}(\hat f _ {(x+1)\omega^{|t|}+3} (9))
+f(t,|t|,|t|-1) \le y(\hat f _ {(x+1)\omega^{|t|}+3} (9)) \le \hat f_{\omega^\omega}(\hat f _ {(x+1)\omega^{|t|}+3} (9)) \le \hat f_{\omega^\omega}(\hat f _ {(x+1)\omega^{|t|}+3} (9))
 $$
 ## Chloé (500 caractères)
 ```c
@@ -552,7 +552,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTA0MTI1OSwxNDgxOTYzOTgsLTE3Nz
+eyJoaXN0b3J5IjpbLTU1NTM1MzM5MCwxNDgxOTYzOTgsLTE3Nz
 cxOTUwMTUsLTUxNDA1MTU5MCw1NzAwMjI1MjIsNzA4Mzg5MzEx
 LC0yNjQxMTAzMSwtNDgwNDA5MjgyLC0xNzQyMjg1MTMzLC04ND
 Y1MDQ1MTYsLTIwMDE4MzUwNzgsMTQxNzM5ODQ4MSwtMTQxMDg0
