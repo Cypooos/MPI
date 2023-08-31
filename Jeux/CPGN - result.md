@@ -514,7 +514,7 @@ On a donc que $\hat f_{\omega^\omega}(k-1) \le$ `f([k,0,...,0],_,_)` $\le \hat f
 
 Dans ce cas, on a que, si on appelle $x$ le dernier élément de $t$ (et qu'il est non nul): 
 $$
-f(t,|t|,|t|-1) \le y(\hat f _ {(x+1)\omega^{|t|}+3} (9)) \le \hat f_{\omega^\omega}(\hat f_{\omega^\omega} (n+1)+1) \le \hat f_{\omega^\omega+1}(n)
+f(t,|t|,|t|-1) \le v(\hat f _ {|t|\omega^{|t|}+3} (9)) \le \hat f_{\omega^\omega}(\hat f_{\omega^\omega} (n+1)+1) \le \hat f_{\omega^\omega+1}(n)
 $$
 et 
 $$
@@ -556,11 +556,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjgwNDczOSwzODc3Mjk1MzcsNTk0Nj
-QwNDAsMjE0MDg5MTQ4NCwxNDgxOTYzOTgsLTE3NzcxOTUwMTUs
-LTUxNDA1MTU5MCw1NzAwMjI1MjIsNzA4Mzg5MzExLC0yNjQxMT
-AzMSwtNDgwNDA5MjgyLC0xNzQyMjg1MTMzLC04NDY1MDQ1MTYs
-LTIwMDE4MzUwNzgsMTQxNzM5ODQ4MSwtMTQxMDg0NDA5MCwyMT
-E5MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUxMTE3OCwyMjIzOTIz
-NTddfQ==
+eyJoaXN0b3J5IjpbMTQ2NzIzMjU1LDM4NzcyOTUzNyw1OTQ2ND
+A0MCwyMTQwODkxNDg0LDE0ODE5NjM5OCwtMTc3NzE5NTAxNSwt
+NTE0MDUxNTkwLDU3MDAyMjUyMiw3MDgzODkzMTEsLTI2NDExMD
+MxLC00ODA0MDkyODIsLTE3NDIyODUxMzMsLTg0NjUwNDUxNiwt
+MjAwMTgzNTA3OCwxNDE3Mzk4NDgxLC0xNDEwODQ0MDkwLDIxMT
+kwMzY1MjAsMTI3MjIwNDEwNiwxNTM1NTExMTc4LDIyMjM5MjM1
+N119
 -->
