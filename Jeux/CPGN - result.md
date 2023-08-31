@@ -481,7 +481,7 @@ Rapidement :
 - $b(n) = a^n(9) \le f_3^n(9) \le f_3^n(n) \le f_4(n)$
 - $c(n) = c^n(9) \le f_4^n(9) \le f_4^n(n) \le f_5(n)$
 - $d(n,0) = n!$ et $d(n,e) = d_{k=e-1}^n(9) \le d_{k=e-1}^n(n) \le \hat f_{k+3}(n)$
-- copie modif n'est pas bon dans le code d'explication, mais est bon dans le code soumis et est la fonction `z`
+- `copy_modif` n'est pas bon dans le code d'explication, mais est bon dans le code soumis et est la fonction `z`
 - si $n=1$, `e2` ne retourne rien. le cas `i==0` n'arrive jamais. Corrigé dans le code soumis.
 
 Code soumis :
@@ -542,11 +542,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzcxOTUwMTUsLTUxNDA1MTU5MCw1Nz
-AwMjI1MjIsNzA4Mzg5MzExLC0yNjQxMTAzMSwtNDgwNDA5Mjgy
-LC0xNzQyMjg1MTMzLC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMT
-QxNzM5ODQ4MSwtMTQxMDg0NDA5MCwyMTE5MDM2NTIwLDEyNzIy
-MDQxMDYsMTUzNTUxMTE3OCwyMjIzOTIzNTcsNDE2MDA4LDExOD
-I4NTIzMywxOTk0ODczOTY1LDE3OTMyODAwMzAsLTEzNDU5Nzg0
-NDVdfQ==
+eyJoaXN0b3J5IjpbMTE0ODQ3NjEzNywtMTc3NzE5NTAxNSwtNT
+E0MDUxNTkwLDU3MDAyMjUyMiw3MDgzODkzMTEsLTI2NDExMDMx
+LC00ODA0MDkyODIsLTE3NDIyODUxMzMsLTg0NjUwNDUxNiwtMj
+AwMTgzNTA3OCwxNDE3Mzk4NDgxLC0xNDEwODQ0MDkwLDIxMTkw
+MzY1MjAsMTI3MjIwNDEwNiwxNTM1NTExMTc4LDIyMjM5MjM1Ny
+w0MTYwMDgsMTE4Mjg1MjMzLDE5OTQ4NzM5NjUsMTc5MzI4MDAz
+MF19
 -->
