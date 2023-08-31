@@ -507,11 +507,10 @@ $$
 \hat f _ {\omega^{|t|}} (9) \le e(t,|t|,|t|-1) \le \hat f _ {(x+1)\omega^{|t|}+3} (9)
 $$
 
-On a donc $\hat f _ {\omega^{n-1}} (n-1) \le \hat f _ {\omega^{n}} (9) \le y(n) \le \hat f _ {(n+1)\omega^{n}+3} (9) \le \hat f _ {\omega^{n+1}} (n+1) = \hat f_{\omega^\omega}(n+1)$ (pour $n>1$)
+On a donc $\hat f_{\omega^\omega}(n-1)=\hat f _ {\omega^{n-1}} (n-1) \le \hat f _ {\omega^{n}} (9) \le y(n) \le \hat f _ {(n+1)\omega^{n}+3} (9) \le \hat f _ {\omega^{n+1}} (n+1) = \hat f_{\omega^\omega}(n+1)$ (pour $n>1$)
 $y$ diagonalise donc les $\hat f_{\omega^i}$, donc est une implémentation de $\hat f_{\omega^\omega}$ !
 
-L'analyse de $f$ nous montre que, pour $k>8$ :
-`f([k,0,...,0],_,_)` $= y(k) \le \hat f _ {\omega^\omega} (k+1)$ et est supérieur à $\hat f _ {\omega^{k}} (9)$
+On a donc que $f\le $`f([k,0,...,0],_,_)` $= y(k) \le \hat f _ {\omega^\omega} (k+1)$ et est supérieur à $\hat f _ {\omega^{k}} (9)$
 Dans ce cas, on a que, si on appelle $x$ le dernier élément de $t$ (et qu'il est non nul): 
 $$
 f(t,|t|,|t|-1) \le y(\hat f _ {(x+1)\omega^{|t|}+3} (9)) \le \hat f_{\omega^\omega}(\hat f _ {(x+1)\omega^{|t|}+3} (9))
@@ -556,7 +555,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTMwNTQwNzQsMzg3NzI5NTM3LDU5ND
+eyJoaXN0b3J5IjpbLTE5NTM2MDAzNzMsMzg3NzI5NTM3LDU5ND
 Y0MDQwLDIxNDA4OTE0ODQsMTQ4MTk2Mzk4LC0xNzc3MTk1MDE1
 LC01MTQwNTE1OTAsNTcwMDIyNTIyLDcwODM4OTMxMSwtMjY0MT
 EwMzEsLTQ4MDQwOTI4MiwtMTc0MjI4NTEzMywtODQ2NTA0NTE2
