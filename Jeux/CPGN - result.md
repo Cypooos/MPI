@@ -484,7 +484,7 @@ Rapidement :
 - `copy_modif` n'est pas bon dans le code d'explication, mais est bon dans le code soumis et est la fonction `z`
 - si $n=1$, `e2` ne retourne rien. le cas `i==0` n'arrive jamais. Corrigé dans le code soumis.
 
-Code soumis :
+Dans le code soumis :
 - `e` cherche le dernier `i` tel que `t[i] != 0`
 - `e([n,0,...,0],_,_)` $= n!$
 - Ce programme ne s’arrête pas : on a que `e([x,1], 2, 1)` appelle `e(z([x,1], 2, 0, t[0]-1 ), 2, 1)` qui donne `e([x-1,1], 2, 1)` qui appelle `e([x-2,1], 2, 1)` etc...
@@ -499,13 +499,9 @@ en
 ```c
   g i ? t[i] ? e(z(z(t, n, i - 1, e(z(t, n, i, t[i] - 1), n, n - 1)), n,
 ```
-il y aura ptet d'autres corrections à faire, ce double `z` me semble suspect.
-On la corrige aussi dans le code de `f`
+On corrige aussi cette ligne dans `f`.
+On a donc 
 
-*pour la correction de demain, jugement non final:*
-
-Dans ce cas, on a 
-$$e(t,n,n-1)\le \hat f_{3\omega+\large{\sum_{i=0}^{n-1} t[i]\omega^{i}}}()$$
 ## Chloé (500 caractères)
 ```c
 int Z(int a, int *t, int n, int k, int *s, int l) {
@@ -542,11 +538,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODQ3NjEzNywtMTc3NzE5NTAxNSwtNT
-E0MDUxNTkwLDU3MDAyMjUyMiw3MDgzODkzMTEsLTI2NDExMDMx
-LC00ODA0MDkyODIsLTE3NDIyODUxMzMsLTg0NjUwNDUxNiwtMj
-AwMTgzNTA3OCwxNDE3Mzk4NDgxLC0xNDEwODQ0MDkwLDIxMTkw
-MzY1MjAsMTI3MjIwNDEwNiwxNTM1NTExMTc4LDIyMjM5MjM1Ny
-w0MTYwMDgsMTE4Mjg1MjMzLDE5OTQ4NzM5NjUsMTc5MzI4MDAz
-MF19
+eyJoaXN0b3J5IjpbLTEyNzI1MzkzNzcsLTE3NzcxOTUwMTUsLT
+UxNDA1MTU5MCw1NzAwMjI1MjIsNzA4Mzg5MzExLC0yNjQxMTAz
+MSwtNDgwNDA5MjgyLC0xNzQyMjg1MTMzLC04NDY1MDQ1MTYsLT
+IwMDE4MzUwNzgsMTQxNzM5ODQ4MSwtMTQxMDg0NDA5MCwyMTE5
+MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUxMTE3OCwyMjIzOTIzNT
+csNDE2MDA4LDExODI4NTIzMywxOTk0ODczOTY1LDE3OTMyODAw
+MzBdfQ==
 -->
