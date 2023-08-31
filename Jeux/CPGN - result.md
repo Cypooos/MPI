@@ -504,7 +504,7 @@ en
 On corrige aussi cette ligne dans `f`.
 Dans ce cas, on a que, si on appelle $x$ le dernier élément de $t$ : 
 $$
-\le e(t,|t|,|t|-1) \le \hat f (
+\hat f _ {(x+1)\omega^{|t|}+3} (9)\le e(t,|t|,|t|-1) \le \hat f _ {(x+1)\omega^{|t|}+3} (9)
 $$
 
 On a donc 
@@ -545,7 +545,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDU1MjYzMTcsLTE3NzcxOTUwMTUsLT
+eyJoaXN0b3J5IjpbLTE3NDYyODA0ODYsLTE3NzcxOTUwMTUsLT
 UxNDA1MTU5MCw1NzAwMjI1MjIsNzA4Mzg5MzExLC0yNjQxMTAz
 MSwtNDgwNDA5MjgyLC0xNzQyMjg1MTMzLC04NDY1MDQ1MTYsLT
 IwMDE4MzUwNzgsMTQxNzM5ODQ4MSwtMTQxMDg0NDA5MCwyMTE5
