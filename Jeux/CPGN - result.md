@@ -476,7 +476,7 @@ int e2(int *t, int n) { // t[0] est z et t[1] est y dans d
 }
 // z est copymodif et e est e2 réecrit
 ```
-Rapidement :
+Dans le code d'explication :
 - $a(n) =n!<n^n\le \hat f_3(n)$
 - $b(n) = a^n(9) \le f_3^n(9) \le f_3^n(n) \le f_4(n)$
 - $c(n) = c^n(9) \le f_4^n(9) \le f_4^n(n) \le f_5(n)$
@@ -484,7 +484,7 @@ Rapidement :
 - `copy_modif` n'est pas bon dans le code d'explication, mais est bon dans le code soumis et est la fonction `z`
 - si $n=1$, `e2` ne retourne rien. Le cas `i==0` n'arrive jamais. Cette erreur est corrigé dans le code soumis.
 
-Dans le code soumis :
+Analyse du code soumis :
 - `e` cherche le dernier `i` tel que `t[i] != 0`
 - `e([n,0,...,0],_,_)` $= n!$
 - Ce programme ne s’arrête pas : on a que `e([x,1], 2, 1)` appelle `e(z([x,1], 2, 0, t[0]-1 ), 2, 1)` qui donne `e([x-1,1], 2, 1)` qui appelle `e([x-2,1], 2, 1)` etc...
@@ -511,7 +511,7 @@ On a donc $\hat f _ {\omega^{n}} (9) \le y(n) \le \hat f _ {(n+1)\omega^{n}+3} (
 $y$ diagonalise donc les $\hat f_{\omega^i}$, donc est une implémentation de $\hat f_{\omega^\omega}$ !
 
 L'analyse de $f$ nous montre que :
-- 
+- `e([k,0,...,0],_,_)`
 
 ## Chloé (500 caractères)
 ```c
@@ -549,11 +549,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5NTU2MDAwLC0xNzc3MTk1MDE1LC01MT
-QwNTE1OTAsNTcwMDIyNTIyLDcwODM4OTMxMSwtMjY0MTEwMzEs
-LTQ4MDQwOTI4MiwtMTc0MjI4NTEzMywtODQ2NTA0NTE2LC0yMD
-AxODM1MDc4LDE0MTczOTg0ODEsLTE0MTA4NDQwOTAsMjExOTAz
-NjUyMCwxMjcyMjA0MTA2LDE1MzU1MTExNzgsMjIyMzkyMzU3LD
-QxNjAwOCwxMTgyODUyMzMsMTk5NDg3Mzk2NSwxNzkzMjgwMDMw
-XX0=
+eyJoaXN0b3J5IjpbLTQ3Mjg3MjIwMCwtMTc3NzE5NTAxNSwtNT
+E0MDUxNTkwLDU3MDAyMjUyMiw3MDgzODkzMTEsLTI2NDExMDMx
+LC00ODA0MDkyODIsLTE3NDIyODUxMzMsLTg0NjUwNDUxNiwtMj
+AwMTgzNTA3OCwxNDE3Mzk4NDgxLC0xNDEwODQ0MDkwLDIxMTkw
+MzY1MjAsMTI3MjIwNDEwNiwxNTM1NTExMTc4LDIyMjM5MjM1Ny
+w0MTYwMDgsMTE4Mjg1MjMzLDE5OTQ4NzM5NjUsMTc5MzI4MDAz
+MF19
 -->
