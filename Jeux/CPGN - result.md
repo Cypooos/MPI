@@ -512,7 +512,7 @@ $y$ diagonalise donc les $\hat f_{\omega^i}$, donc est une implémentation de $\
 
 On a donc que $\hat f_{\omega^\omega}(k-1) \le$ `f([k,0,...,0],_,_)` $\le \hat f _ {\omega^\omega} (k+1)$
 
-Le problème dans ce code est que $$
+Le problème dans ce code est que, quelquesoit les calculs précédemment effectué, $$
 
 Dans ce cas, on a que, si on appelle $x$ le dernier élément de $t$ (et qu'il est non nul): 
 $$
@@ -558,11 +558,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzAyMjAyMyw1NjMwNTU3NzEsMzg3Nz
-I5NTM3LDU5NDY0MDQwLDIxNDA4OTE0ODQsMTQ4MTk2Mzk4LC0x
-Nzc3MTk1MDE1LC01MTQwNTE1OTAsNTcwMDIyNTIyLDcwODM4OT
-MxMSwtMjY0MTEwMzEsLTQ4MDQwOTI4MiwtMTc0MjI4NTEzMywt
-ODQ2NTA0NTE2LC0yMDAxODM1MDc4LDE0MTczOTg0ODEsLTE0MT
-A4NDQwOTAsMjExOTAzNjUyMCwxMjcyMjA0MTA2LDE1MzU1MTEx
-NzhdfQ==
+eyJoaXN0b3J5IjpbNzQ4Njk3ODExLC01OTMwMjIwMjMsNTYzMD
+U1NzcxLDM4NzcyOTUzNyw1OTQ2NDA0MCwyMTQwODkxNDg0LDE0
+ODE5NjM5OCwtMTc3NzE5NTAxNSwtNTE0MDUxNTkwLDU3MDAyMj
+UyMiw3MDgzODkzMTEsLTI2NDExMDMxLC00ODA0MDkyODIsLTE3
+NDIyODUxMzMsLTg0NjUwNDUxNiwtMjAwMTgzNTA3OCwxNDE3Mz
+k4NDgxLC0xNDEwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIwNDEw
+Nl19
 -->
