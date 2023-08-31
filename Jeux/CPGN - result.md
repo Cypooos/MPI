@@ -512,9 +512,11 @@ $y$ diagonalise donc les $\hat f_{\omega^i}$, donc est une implémentation de $\
 
 On a donc que $\hat f_{\omega^\omega}(k-1) \le$ `f([k,0,...,0],_,_)` $\le \hat f _ {\omega^\omega} (k+1)$
 
+Le problème dans ce code
+
 Dans ce cas, on a que, si on appelle $x$ le dernier élément de $t$ (et qu'il est non nul): 
 $$
-f(t,|t|,|t|-1) \le v(\hat f _ {x\omega^{|t|-1}} (9)) \le \hat f_{\omega^\omega}(\hat f_{\omega^\omega} (n+1)+1) \le \hat f_{\omega^\omega+1}(n)
+f(t,|t|,|t|-1) \le v(\hat f _ {x\omega^{|t|}} (9)) \le \hat f_{\omega^\omega}(\hat f_{\omega^\omega} (n+1)+1) \le \hat f_{\omega^\omega+1}(n)
 $$
 et 
 $$
@@ -556,11 +558,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyMzgzMjg3LDU2MzA1NTc3MSwzODc3Mj
-k1MzcsNTk0NjQwNDAsMjE0MDg5MTQ4NCwxNDgxOTYzOTgsLTE3
-NzcxOTUwMTUsLTUxNDA1MTU5MCw1NzAwMjI1MjIsNzA4Mzg5Mz
-ExLC0yNjQxMTAzMSwtNDgwNDA5MjgyLC0xNzQyMjg1MTMzLC04
-NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMTQxNzM5ODQ4MSwtMTQxMD
-g0NDA5MCwyMTE5MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUxMTE3
-OF19
+eyJoaXN0b3J5IjpbLTE5NTQ5NDY3MDIsNTYzMDU1NzcxLDM4Nz
+cyOTUzNyw1OTQ2NDA0MCwyMTQwODkxNDg0LDE0ODE5NjM5OCwt
+MTc3NzE5NTAxNSwtNTE0MDUxNTkwLDU3MDAyMjUyMiw3MDgzOD
+kzMTEsLTI2NDExMDMxLC00ODA0MDkyODIsLTE3NDIyODUxMzMs
+LTg0NjUwNDUxNiwtMjAwMTgzNTA3OCwxNDE3Mzk4NDgxLC0xND
+EwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIwNDEwNiwxNTM1NTEx
+MTc4XX0=
 -->
