@@ -510,8 +510,8 @@ $$
 On a donc $\hat f _ {\omega^{n}} (9) \le y(n) \le \hat f _ {(n+1)\omega^{n}+3} (9) \le \hat f _ {\omega^{n+1}} (9)$
 $y$ diagonalise donc les $\hat f_{\omega^i}$, donc est une implémentation de $\hat f_{\omega^\omega}$ !
 
-L'analyse de $f$ nous montre que :
-- `e([k,0,...,0],_,_)`
+L'analyse de $f$ nous montre que, pour $k>8$ :
+- `f([k,0,...,0],_,_)` $= y(k) \le \hat f _ {\omega^{k+1}} (9) \le \hat f _ {\omega^\omega} (k+1)$
 
 ## Chloé (500 caractères)
 ```c
@@ -549,11 +549,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3Mjg3MjIwMCwtMTc3NzE5NTAxNSwtNT
-E0MDUxNTkwLDU3MDAyMjUyMiw3MDgzODkzMTEsLTI2NDExMDMx
-LC00ODA0MDkyODIsLTE3NDIyODUxMzMsLTg0NjUwNDUxNiwtMj
-AwMTgzNTA3OCwxNDE3Mzk4NDgxLC0xNDEwODQ0MDkwLDIxMTkw
-MzY1MjAsMTI3MjIwNDEwNiwxNTM1NTExMTc4LDIyMjM5MjM1Ny
-w0MTYwMDgsMTE4Mjg1MjMzLDE5OTQ4NzM5NjUsMTc5MzI4MDAz
-MF19
+eyJoaXN0b3J5IjpbMTQ4MTk2Mzk4LC0xNzc3MTk1MDE1LC01MT
+QwNTE1OTAsNTcwMDIyNTIyLDcwODM4OTMxMSwtMjY0MTEwMzEs
+LTQ4MDQwOTI4MiwtMTc0MjI4NTEzMywtODQ2NTA0NTE2LC0yMD
+AxODM1MDc4LDE0MTczOTg0ODEsLTE0MTA4NDQwOTAsMjExOTAz
+NjUyMCwxMjcyMjA0MTA2LDE1MzU1MTExNzgsMjIyMzkyMzU3LD
+QxNjAwOCwxMTgyODUyMzMsMTk5NDg3Mzk2NSwxNzkzMjgwMDMw
+XX0=
 -->
