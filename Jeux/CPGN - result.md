@@ -508,6 +508,9 @@ $$
 $$
 
 On a donc $\hat f _ {\omega^{n}} (9) \le y(n) \le \hat f _ {(n+1)\omega^{n}+3} (9) \le \hat f _ {\omega^{n+1}} (9)$
+$y$ diagonalise donc les $\hat f_{\omega^i}$, donc est une implémentation de $\hat f_{\omega^\omega}$ !
+
+
 
 ## Chloé (500 caractères)
 ```c
@@ -545,11 +548,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTI1ODA5MjAsLTE3NzcxOTUwMTUsLT
-UxNDA1MTU5MCw1NzAwMjI1MjIsNzA4Mzg5MzExLC0yNjQxMTAz
-MSwtNDgwNDA5MjgyLC0xNzQyMjg1MTMzLC04NDY1MDQ1MTYsLT
-IwMDE4MzUwNzgsMTQxNzM5ODQ4MSwtMTQxMDg0NDA5MCwyMTE5
-MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUxMTE3OCwyMjIzOTIzNT
-csNDE2MDA4LDExODI4NTIzMywxOTk0ODczOTY1LDE3OTMyODAw
-MzBdfQ==
+eyJoaXN0b3J5IjpbODQxOTQ2NjY1LC0xNzc3MTk1MDE1LC01MT
+QwNTE1OTAsNTcwMDIyNTIyLDcwODM4OTMxMSwtMjY0MTEwMzEs
+LTQ4MDQwOTI4MiwtMTc0MjI4NTEzMywtODQ2NTA0NTE2LC0yMD
+AxODM1MDc4LDE0MTczOTg0ODEsLTE0MTA4NDQwOTAsMjExOTAz
+NjUyMCwxMjcyMjA0MTA2LDE1MzU1MTExNzgsMjIyMzkyMzU3LD
+QxNjAwOCwxMTgyODUyMzMsMTk5NDg3Mzk2NSwxNzkzMjgwMDMw
+XX0=
 -->
