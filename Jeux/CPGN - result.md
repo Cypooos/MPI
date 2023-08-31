@@ -493,11 +493,13 @@ Or `e` est appelé avec un tableau non trivial. Donc il ne termine pas.
 
 On corrige pour la liste secondaire la ligne
 ```c
-  g i ? t[i] ? e(z(z(t, n, i - 1, e(z(t, n, i - 1, t[i - 1] - 1), n, n - 1)), n,
+  g i ? t[i] ? e(z(z(t, n, i - 1, e(z(t, n, i - 1, t[i - 1] - 1),
+  n, n - 1)), n,
 ```
 en 
 ```c
-  g i ? t[i] ? e(z(z(t, n, i - 1, e(z(t, n, i, t[i] - 1), n, n - 1)), n,
+  g i ? t[i] ? e(z(z(t, n, i - 1, e(z(t, n, i, t[i] - 1),
+  n, n - 1)), n,
 ```
 On corrige aussi cette ligne dans `f`.
 On a donc 
@@ -538,7 +540,7 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzI1MzkzNzcsLTE3NzcxOTUwMTUsLT
+eyJoaXN0b3J5IjpbLTE0ODkxOTkzMjcsLTE3NzcxOTUwMTUsLT
 UxNDA1MTU5MCw1NzAwMjI1MjIsNzA4Mzg5MzExLC0yNjQxMTAz
 MSwtNDgwNDA5MjgyLC0xNzQyMjg1MTMzLC04NDY1MDQ1MTYsLT
 IwMDE4MzUwNzgsMTQxNzM5ODQ4MSwtMTQxMDg0NDA5MCwyMTE5
