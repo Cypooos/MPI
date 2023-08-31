@@ -502,12 +502,12 @@ en
   n, n - 1)), n,
 ```
 On corrige aussi cette ligne dans `f`.
-Dans ce cas, on a que, si on appelle $x$ le dernier élément de $t$ : 
+Dans ce cas, on a que, si on appelle $x$ le dernier élément de $t$ (et qu'il est non nul): 
 $$
-\hat f _ {(x+1)\omega^{|t|}+3} (9)\le e(t,|t|,|t|-1) \le \hat f _ {(x+1)\omega^{|t|}+3} (9)
+\hat f _ {\omega^{|t|}+3} (9) \le e(t,|t|,|t|-1) \le \hat f _ {(x+1)\omega^{|t|}+3} (9)
 $$
 
-On a donc 
+On a donc $y(n) \le \hat f _ {(n+1)\omega^{|t|}+3} (9)$
 
 ## Chloé (500 caractères)
 ```c
@@ -545,11 +545,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDYyODA0ODYsLTE3NzcxOTUwMTUsLT
-UxNDA1MTU5MCw1NzAwMjI1MjIsNzA4Mzg5MzExLC0yNjQxMTAz
-MSwtNDgwNDA5MjgyLC0xNzQyMjg1MTMzLC04NDY1MDQ1MTYsLT
-IwMDE4MzUwNzgsMTQxNzM5ODQ4MSwtMTQxMDg0NDA5MCwyMTE5
-MDM2NTIwLDEyNzIyMDQxMDYsMTUzNTUxMTE3OCwyMjIzOTIzNT
-csNDE2MDA4LDExODI4NTIzMywxOTk0ODczOTY1LDE3OTMyODAw
-MzBdfQ==
+eyJoaXN0b3J5IjpbMjA1NTk0MDczMiwtMTc3NzE5NTAxNSwtNT
+E0MDUxNTkwLDU3MDAyMjUyMiw3MDgzODkzMTEsLTI2NDExMDMx
+LC00ODA0MDkyODIsLTE3NDIyODUxMzMsLTg0NjUwNDUxNiwtMj
+AwMTgzNTA3OCwxNDE3Mzk4NDgxLC0xNDEwODQ0MDkwLDIxMTkw
+MzY1MjAsMTI3MjIwNDEwNiwxNTM1NTExMTc4LDIyMjM5MjM1Ny
+w0MTYwMDgsMTE4Mjg1MjMzLDE5OTQ4NzM5NjUsMTc5MzI4MDAz
+MF19
 -->
