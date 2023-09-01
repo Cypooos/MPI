@@ -69,7 +69,7 @@ int main() {
 	b[2] = fct(50);
 }
 ```
-25. **Comment sont implémenté `true` et `false` en C ? Que fais `if (n)` avec `n` un nombre ?** 
+25. **Comment sont implémenté `true` et `false` en C ? Que fais `if (n)` avec `n` un entier ?** 
 26. Distinction entre structure de données mutable et immuable.
 27. Qu'est ce qu'un Constructeur ? Accesseur ? Transformateur ? **Destructeur ?**
 28. Qu'est-ce qu'une structure de donnée abstraite ? Donnez une structure de donnée abstraite représentant une hashmap (un dictionnaire).
@@ -218,11 +218,11 @@ On pose pour cette partie le schéma suivant :
 
 > *Version 0.3 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTcxNzc1MjAsOTcwMTM4MDk4LC0xNz
-I0MTAwODEyLDgxMjY1MzQ3MCwtMTQxODUyMjYyNiwtMTcyNDEw
-MDgxMiw0NDM4OTc2NzEsNDIxNTQ1ODAsLTIxMzYxNjg5OSwtNj
-AwMjU3NTE1LC0xNzQ0NzE1NDA2LDUxMDY2NzcxNSw0MTgxMDI2
-OTcsMTgxOTk2MDgzNywtMTM3OTE1NjA1OCwtMTQ0MjA5NzEzMy
-w0Njg3MzYyOTcsMjEwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNzE0
-MDE5NDldfQ==
+eyJoaXN0b3J5IjpbMjA1MzIxMTg1NCw5NzAxMzgwOTgsLTE3Mj
+QxMDA4MTIsODEyNjUzNDcwLC0xNDE4NTIyNjI2LC0xNzI0MTAw
+ODEyLDQ0Mzg5NzY3MSw0MjE1NDU4MCwtMjEzNjE2ODk5LC02MD
+AyNTc1MTUsLTE3NDQ3MTU0MDYsNTEwNjY3NzE1LDQxODEwMjY5
+NywxODE5OTYwODM3LC0xMzc5MTU2MDU4LC0xNDQyMDk3MTMzLD
+Q2ODczNjI5NywyMTAxNDE5NzE3LDE3NDQ5MzQwNDAsMTA3MTQw
+MTk0OV19
 -->
