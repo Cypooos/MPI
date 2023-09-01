@@ -97,7 +97,7 @@ int main() {
 49. Montrez que $G=(S,A)$ est un arbre, ssi pour tout paires $a,b\in S$ il existe un unique chemin de $a$ à $b$ sans cycle
 50. Montrez que $\sum_{s\in S} \deg (s) = |A|/2$
 51. Quelle est la structure unir et retrouver ? Donnez les optimisations de compression de chemin et de réunir à la plus grande racine. **La complexité amortie est $O(\alpha(n))$ où $\alpha = \{x\mapsto A(x,x)\}^{-1}$ avec $A$ la fonction d'Ackermann**
-52. Recherche d'un arbre couvrant de poids minimal (Algorithme de Kruskal). Preuve de sa correction et terminaison. **Complexité en $O(\log^*(n))$, en pratique O(1)**
+52. Recherche d'un arbre couvrant de poids minimal (Algorithme de Kruskal). Preuve de sa correction et terminaison. **Complexité en $O(E \log^*(V))$, en pratique O(E)**
 
 ## Langages formels
 53. Définition d'un alphabet, mot, langage.
@@ -218,11 +218,11 @@ On pose pour cette partie le schéma suivant :
 
 > *Version 0.3 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MzIxMTg1NCw5NzAxMzgwOTgsLTE3Mj
-QxMDA4MTIsODEyNjUzNDcwLC0xNDE4NTIyNjI2LC0xNzI0MTAw
-ODEyLDQ0Mzg5NzY3MSw0MjE1NDU4MCwtMjEzNjE2ODk5LC02MD
-AyNTc1MTUsLTE3NDQ3MTU0MDYsNTEwNjY3NzE1LDQxODEwMjY5
-NywxODE5OTYwODM3LC0xMzc5MTU2MDU4LC0xNDQyMDk3MTMzLD
-Q2ODczNjI5NywyMTAxNDE5NzE3LDE3NDQ5MzQwNDAsMTA3MTQw
-MTk0OV19
+eyJoaXN0b3J5IjpbLTExNjI5Njk2MTcsOTcwMTM4MDk4LC0xNz
+I0MTAwODEyLDgxMjY1MzQ3MCwtMTQxODUyMjYyNiwtMTcyNDEw
+MDgxMiw0NDM4OTc2NzEsNDIxNTQ1ODAsLTIxMzYxNjg5OSwtNj
+AwMjU3NTE1LC0xNzQ0NzE1NDA2LDUxMDY2NzcxNSw0MTgxMDI2
+OTcsMTgxOTk2MDgzNywtMTM3OTE1NjA1OCwtMTQ0MjA5NzEzMy
+w0Njg3MzYyOTcsMjEwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNzE0
+MDE5NDldfQ==
 -->
