@@ -9,7 +9,7 @@ Il manque encore à ce document:
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
 2. Qu'est ce-qu'un langage de programmation compilé ? Interprété ? **Compilé à la volé ?**
 3. Quelle est la différence entre un `signed` et un `unsigned` ? Comment sont encodé les nombre négatifs ?
-4. Comment sont encodé les flottants ? Qu'est-ce que la mantisse ? En sachant que un `float` (encodé sur 32a 8 bits d'exposants, combien de chiffre significatifs en base 10 peuvent-ils stoker ?
+4. Comment sont encodé les flottants ? Qu'est-ce que la mantisse ? En sachant que un `float` (encodé sur 32bits a 8 bits d'exposants, combien de chiffre significatifs en base 10 peuvent-ils stoker ?
 5. Démontrez que la fonction `getter` suivante termine :
 ```ocaml
 let rec get m l = match l with
@@ -218,11 +218,11 @@ On pose pour cette partie le schéma suivant :
 
 > *Version 0.3 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwMTM4MDk4LC0xNzI0MTAwODEyLDgxMj
-Y1MzQ3MCwtMTQxODUyMjYyNiwtMTcyNDEwMDgxMiw0NDM4OTc2
-NzEsNDIxNTQ1ODAsLTIxMzYxNjg5OSwtNjAwMjU3NTE1LC0xNz
-Q0NzE1NDA2LDUxMDY2NzcxNSw0MTgxMDI2OTcsMTgxOTk2MDgz
-NywtMTM3OTE1NjA1OCwtMTQ0MjA5NzEzMyw0Njg3MzYyOTcsMj
-EwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNzE0MDE5NDksLTE2NjUz
-NDg2NzhdfQ==
+eyJoaXN0b3J5IjpbMTk5MTI0NzMyOCw5NzAxMzgwOTgsLTE3Mj
+QxMDA4MTIsODEyNjUzNDcwLC0xNDE4NTIyNjI2LC0xNzI0MTAw
+ODEyLDQ0Mzg5NzY3MSw0MjE1NDU4MCwtMjEzNjE2ODk5LC02MD
+AyNTc1MTUsLTE3NDQ3MTU0MDYsNTEwNjY3NzE1LDQxODEwMjY5
+NywxODE5OTYwODM3LC0xMzc5MTU2MDU4LC0xNDQyMDk3MTMzLD
+Q2ODczNjI5NywyMTAxNDE5NzE3LDE3NDQ5MzQwNDAsMTA3MTQw
+MTk0OV19
 -->
