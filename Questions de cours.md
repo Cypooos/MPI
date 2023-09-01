@@ -1,4 +1,4 @@
-Par Cyprien (@Cypooos) en MPI* à Fénelon Sainte Marie. Droit à toute sorte de publication et modification, mais gardez les crédits !
+Par Coda (@Cypooos) en MPI* à Fénelon Sainte Marie. Droit à toute sorte de publication et modification, mais gardez les crédits !
 En **gras** sont les questions non officiellement au programme (parfois explicitement hors programme), mais qu'il est bon de connaitre.
 
 Il manque encore à ce document:
@@ -9,7 +9,7 @@ Il manque encore à ce document:
 1.  Qu'est-ce qu'un paradigme ? Expliquez les paradigmes suivant : paradigme logique, paradigme impératif structuré, paradigme fonctionnel, **paradigme orienté objet ?**
 2. Qu'est ce-qu'un langage de programmation compilé ? Interprété ? **Compilé à la volé ?**
 3. Quelle est la différence entre un `signed` et un `unsigned` ? Comment sont encodé les nombre négatifs ?
-4. Comment sont encodé les flottants ? Qu'est-ce que la mantisse ? En sachant que un `float` (encodé sur 32bits a 8 bits d'exposants, combien de chiffre significatifs en base 10 peuvent-ils stoker ?
+4. Comment sont encodé les flottants ? Qu'est-ce que la mantisse ? En sachant que un `float` (encodé sur 32 bits possède 8 bits d'exposants, combien de chiffre significatifs en base 10 peuvent-ils stoker ?
 5. Démontrez que la fonction `getter` suivante termine :
 ```ocaml
 let rec get m l = match l with
@@ -50,7 +50,7 @@ int q11(int* liste,int n,int k) {
 17. Différence entre un lien symbolique et physique ?
 18. Qu'est-ce qu'une instruction atomique ?
 19. Différence entre mutex et sémaphore. Notion de section critique.
-20. Donnez un exemple d'algorithme qui donnera une situation d'interblocage possiblement avec 2 threads.
+20. Donnez un exemple d'algorithme qui donnera une pottentielle situation d'interblocage avec 2 threads.
 21. Quel est le problème du diner des philosophe ?
 22. Algorithme de Peterson pour une implémentation des mutex avec 2 threads.
 23. Algorithme de la Boulangerie de Lamport pour implémentation des mutex avec k threads.
@@ -218,11 +218,11 @@ On pose pour cette partie le schéma suivant :
 
 > *Version 0.3 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTI0NzMyOCw5NzAxMzgwOTgsLTE3Mj
-QxMDA4MTIsODEyNjUzNDcwLC0xNDE4NTIyNjI2LC0xNzI0MTAw
-ODEyLDQ0Mzg5NzY3MSw0MjE1NDU4MCwtMjEzNjE2ODk5LC02MD
-AyNTc1MTUsLTE3NDQ3MTU0MDYsNTEwNjY3NzE1LDQxODEwMjY5
-NywxODE5OTYwODM3LC0xMzc5MTU2MDU4LC0xNDQyMDk3MTMzLD
-Q2ODczNjI5NywyMTAxNDE5NzE3LDE3NDQ5MzQwNDAsMTA3MTQw
-MTk0OV19
+eyJoaXN0b3J5IjpbLTIwMTcxNzc1MjAsOTcwMTM4MDk4LC0xNz
+I0MTAwODEyLDgxMjY1MzQ3MCwtMTQxODUyMjYyNiwtMTcyNDEw
+MDgxMiw0NDM4OTc2NzEsNDIxNTQ1ODAsLTIxMzYxNjg5OSwtNj
+AwMjU3NTE1LC0xNzQ0NzE1NDA2LDUxMDY2NzcxNSw0MTgxMDI2
+OTcsMTgxOTk2MDgzNywtMTM3OTE1NjA1OCwtMTQ0MjA5NzEzMy
+w0Njg3MzYyOTcsMjEwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNzE0
+MDE5NDldfQ==
 -->
