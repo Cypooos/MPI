@@ -209,7 +209,7 @@ On pose pour cette partie le schéma suivant :
 - USERS : `nom:char[20]` `prenom:char[20]` `email:char[40]` `est_admin:binary`
 - COMMANDES : `date:int` `article_id:int` `adresse:varchar[100]`
 - ARTICLES : `id:int` `nom:char[50]` `contact_email:char[50]`
-142. Démontrez que une association $*-*$ peut être transformer en deux associations $1-*$ 
+142. Démontrez qu'une association $*-*$ peut être transformé en deux associations $1-*$ 
 143. Donnez le type d'association entre USERS et COMMANDES. Entre COMMANDES et ARTICLES.
 144. Donnez des clefs primaire possible pour USERS. Il y a t'il des clefs étrangères ?
 145. Affichez tout les utilisateurs qui ont mis en vente un article.
@@ -218,11 +218,11 @@ On pose pour cette partie le schéma suivant :
 
 > *Version 0.3 (beta), par @Cypooos*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjI5Njk2MTcsOTcwMTM4MDk4LC0xNz
-I0MTAwODEyLDgxMjY1MzQ3MCwtMTQxODUyMjYyNiwtMTcyNDEw
-MDgxMiw0NDM4OTc2NzEsNDIxNTQ1ODAsLTIxMzYxNjg5OSwtNj
-AwMjU3NTE1LC0xNzQ0NzE1NDA2LDUxMDY2NzcxNSw0MTgxMDI2
-OTcsMTgxOTk2MDgzNywtMTM3OTE1NjA1OCwtMTQ0MjA5NzEzMy
-w0Njg3MzYyOTcsMjEwMTQxOTcxNywxNzQ0OTM0MDQwLDEwNzE0
-MDE5NDldfQ==
+eyJoaXN0b3J5IjpbNjY5NjA4NTUxLDk3MDEzODA5OCwtMTcyND
+EwMDgxMiw4MTI2NTM0NzAsLTE0MTg1MjI2MjYsLTE3MjQxMDA4
+MTIsNDQzODk3NjcxLDQyMTU0NTgwLC0yMTM2MTY4OTksLTYwMD
+I1NzUxNSwtMTc0NDcxNTQwNiw1MTA2Njc3MTUsNDE4MTAyNjk3
+LDE4MTk5NjA4MzcsLTEzNzkxNTYwNTgsLTE0NDIwOTcxMzMsND
+Y4NzM2Mjk3LDIxMDE0MTk3MTcsMTc0NDkzNDA0MCwxMDcxNDAx
+OTQ5XX0=
 -->
