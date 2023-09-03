@@ -78,8 +78,9 @@ typedef struct liste liste;
 2. Donnez `void add(liste* li, int v)` qui à une liste `li` ajoute en tête le chainon contenant la valeur `v`. On utilisera une assertion pour vérifier que l’allocation dynamique de mémoire est bien réalisée.
 3. Donnez `void remove(liste* li, int v)` qui retire tous les maillons ayant `v` comme valeur à `li`.
 4. Donnez `bool is_cyclique(liste* li)` qui détecte si un cycle est présent ou non dans la liste, en $O(n)$ avec $n$ la longueur de la liste.
-5. Transformer la fonction pour qu'elle transforme la liste en une liste acyclique sans perdre aucun maillon. On cherchera la meilleur complexité.
+5. Transformer la fonction pour qu'elle transforme la liste en une liste acyclique sans perdre aucun maillon. On cherchera la meilleur complexité en temps et en espace.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NDk5NzI3NCwxMDE0OTM0MDY2XX0=
+eyJoaXN0b3J5IjpbMTkxODQ0MjU5NywtMjg0OTk3Mjc0LDEwMT
+Q5MzQwNjZdfQ==
 -->
