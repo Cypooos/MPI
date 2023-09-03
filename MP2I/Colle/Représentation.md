@@ -21,7 +21,8 @@ typedef struct RepGauche rg;
 ```
 ## Tableau auto-référent
 
-On dit qu'un tableau $T$ de taille $n$ est un tableau auto-référent si $T[i]$ indique le nombre de $i$ dans $T$.
+On dit qu'un tableau $T$ de taille $n$ est un tableau auto-référent si $T[i]$ correspond au nombre de $i$ dans $T$.
+Par exemple, le tableau `[1,2]`
 1. Existe-t'il des tableaux d'indices auto-représentatif pour $n=1$ ? pour $n=2$ ?
 2. Donnez un exemple de tableau d'indice auto-représentatif.
 3. Montrez que, si $T$ est un tableau de longueur $n$ d'indice auto-représentatif :
@@ -78,8 +79,8 @@ On s'intéresse ici à implémenté une structure représentant des ensembles, e
 La complexité en espace sera de $O(M)$
 Écrire le code  pour ces opérations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzM3ODc4ODUsMTc2NDQ5NzYxMywxND
-I3NDcyMzExLDEyMDg3Njc3MTMsOTI2NjAyODY1LC0xNzQxODQ3
-MTIwLDg2MDcxMzExMCwtOTMyMjczNDE0LC0xNzQ5NTgxMTYsLT
-E5NTI0MTg3MTYsMTczNDUxMTM4Ml19
+eyJoaXN0b3J5IjpbLTcxODA2NjU0NywtMTg3Mzc4Nzg4NSwxNz
+Y0NDk3NjEzLDE0Mjc0NzIzMTEsMTIwODc2NzcxMyw5MjY2MDI4
+NjUsLTE3NDE4NDcxMjAsODYwNzEzMTEwLC05MzIyNzM0MTQsLT
+E3NDk1ODExNiwtMTk1MjQxODcxNiwxNzM0NTExMzgyXX0=
 -->
