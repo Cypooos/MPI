@@ -559,14 +559,164 @@ int main() {
 ```
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
  TODO
+ 
  ## Tree(n)
- TODO : moins de 500 charactè
+ 
+ Version explicative :
+ ```c
+#define bool int
+#define true 1
+#define false 0
+
+// bijective pairing
+int pair(int a, int b) { return ((a << 1) | 1) << b; }
+int get_b(int couple) { return couple & 1 ? 0 : 1 + get_b(couple >> 1); }
+int get_a(int couple) { return couple >> (1 + get_b(couple)); }
+
+// a node is the couple (X, (N, (A,(B,(C,...(D,E)...)) with X the color (!= 1)
+// and N the number of sons. A,B,...,E are the sons
+//
+// an end is 0, aka not a couple (a couple must contain a 1 in the binary
+// notation)
+int get_color(int tree) { return get_a(tree); }
+int get_nb(int tree) { return get_a(get_b(tree)); }
+int get_son(int tree, int n) {
+  return n == 0 ? get_a(get_b(get_b(tree))) : get_son(get_b(tree), n - 1);
+}
+int remove_son_inner(int tree_inner /* without the X and N pairs */, int n) {
+  if (n == 0) {
+    return get_b(tree_inner);
+  }
+  int recu = remove_son_inner(get_b(tree_inner), n - 1);
+  return pair(get_a(tree_inner), recu);
+}
+int remove_son(int tree, int n) { // inline ?
+  return pair(get_color(tree),
+              pair(get_nb(tree) - 1, remove_son_inner(get_b(get_b(tree)), n)));
+}
+int add_son(int tree, int son) {
+  return pair(get_color(tree),
+              pair(get_nb(tree) + 1, pair(son, get_b(get_b(tree)))));
+}
+int is_empty(int tree) { return !tree; }
+int get_size(int tree) {
+  return is_empty(tree) || !get_nb(tree)
+             ? 0
+             : get_size(get_son(tree, 0)) + 1 + get_size(remove_son(tree, 0));
+}
+
+void print_bin(int x) {
+  if (x > 1) {
+    print_bin(x >> 1);
+  }
+  printf("%d", x & 1);
+}
+
+// search for tree_to_find as a subtree of main_tree starting at a height of
+// at_height. return true if found - false if not -
+// if at_height is negative it means we need to test all sons of tree_to_find
+// from the same node at the heigh -at_height
+// h(main_tree) <= height_borne_max
+bool is_in(int main_tree, int tree_to_find, int at_height,
+           int height_borne_max) {
+  if (is_empty(tree_to_find) || (get_nb(tree_to_find) == 0 && at_height < 0)) {
+    return true;
+  }
+  if (is_empty(main_tree)) {
+    return false;
+  }
+
+  // if height > 0 test if we found one at a certain bigger height sup
+  if (at_height > 0) {
+    for (int i = 0; i < get_nb(main_tree); i++) { // test all sons
+      if (is_in(get_son(main_tree, i), tree_to_find, at_height - 1,
+                height_borne_max - 1)) {
+        return true;
+      }
+    }
+  }
+
+  // if height < 0 we need to test sons at -height (we have at least one)
+  if (at_height < 0) {
+    int son_to_test = get_son(tree_to_find, 0);
+    int new_tree = remove_son(tree_to_find, 0);
+    for (int son_i = 0; son_i < get_nb(main_tree); son_i++) {
+      if (is_in(get_son(main_tree, son_i), son_to_test, -at_height,
+                height_borne_max) &&
+          is_in(remove_son(main_tree, son_i), new_tree, at_height,
+                height_borne_max)) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  // need for color to be good
+  if (get_color(main_tree) != get_color(tree_to_find)) {
+    return false;
+  }
+
+  // test all sons at all possible heights recursively (we have at least one to
+  // do)
+  for (int h = 1; h < height_borne_max; h++) {
+    if (is_in(main_tree, tree_to_find, -h, height_borne_max)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+// TO TEST table = pair(int tree, int* next) ?
+int iterate(int *table, int *trees, int n, int nb_trees, int colors) {
+  // will be transformed to malloc(n*8) bc n*4*2 >= (n+1)*4 (for n>0)
+  int *table2 = malloc(n * 4 + 4);
+  int *trees2 = malloc(nb_trees * nb_trees);
+  for (int i = 0; i < n; i++) {
+    table2[i] = table[i];
+    trees2[i] = trees[i];
+  }
+  // get all k-colored tree with <=n vertices
+  for (int i = 0; i < nb_trees; i++) {
+    for (int j = 0; j < nb_trees; j++) {
+      int to_add = add_son(trees[i], trees[j]);
+      trees2[(i + 1) * nb_trees + j] = get_size(to_add) > n ? 1 : to_add;
+    }
+  }
+
+  // recursive call
+  int c = 1;
+  for (int i = 0; i < nb_trees * nb_trees; i++) {
+    int call_recur = true;
+    for (int j = 0; j < n; j++) {
+      for (int h = 0; h < n; h++) {
+        call_recur &= !is_in(table[j], table[n], h, n);
+      }
+    }
+    if (call_recur) {
+      c += iterate(table, trees2, n + 1, nb_trees * nb_trees, colors);
+    }
+  }
+  return c;
+}
+int TREE(int k) {
+  int *init_trees = malloc((k + 1) * 4);
+  for (int i = 1; i <= k; i++) {
+    init_trees[i] = pair(i, pair(0, 1));
+  }
+  init_trees[0] = 1;
+  return iterate(0, init_trees, 0, k + 1, k);
+}
+
+int main(void) {
+  return TREE(3);
+}
+ ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1OTEzNzk2OCwxNTI3ODgyMzgzLC0yMD
-QzMDI3OTY3LDc0ODY5NzgxMSwtNTkzMDIyMDIzLDU2MzA1NTc3
-MSwzODc3Mjk1MzcsNTk0NjQwNDAsMjE0MDg5MTQ4NCwxNDgxOT
-YzOTgsLTE3NzcxOTUwMTUsLTUxNDA1MTU5MCw1NzAwMjI1MjIs
-NzA4Mzg5MzExLC0yNjQxMTAzMSwtNDgwNDA5MjgyLC0xNzQyMj
-g1MTMzLC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMTQxNzM5ODQ4
-MV19
+eyJoaXN0b3J5IjpbMTEzMDkwNzQwLDE1Mjc4ODIzODMsLTIwND
+MwMjc5NjcsNzQ4Njk3ODExLC01OTMwMjIwMjMsNTYzMDU1Nzcx
+LDM4NzcyOTUzNyw1OTQ2NDA0MCwyMTQwODkxNDg0LDE0ODE5Nj
+M5OCwtMTc3NzE5NTAxNSwtNTE0MDUxNTkwLDU3MDAyMjUyMiw3
+MDgzODkzMTEsLTI2NDExMDMxLC00ODA0MDkyODIsLTE3NDIyOD
+UxMzMsLTg0NjUwNDUxNiwtMjAwMTgzNTA3OCwxNDE3Mzk4NDgx
+XX0=
 -->
