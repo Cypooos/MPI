@@ -4,7 +4,7 @@ Merci à tous d'avoir participé !
 
 Du fait du grand nombre d'entrée ne respectant les règles, deux listes ont été crées: 
 - La première, prends les propositions tel quel, applique les règles du concours, et n'hésite pas à disqualifier des entrées.
-- Dans la deuxième, je me suis permis d'interprété les différentes erreurs pour corriger les programmes et donner un classement ou personne n'a été disqualifié.
+- Dans la deuxième, je me suis permis d'interpréter les différentes erreurs pour corriger les programmes et donner un classement ou personne n'a été disqualifié.
 
 Ce document commence par une introduction de la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy), une méthode utilisé pour comparer des fonctions grandissant vite et définies par récurrence.
 Les entrée sont listé avec des explications des bornes obtenues et leur code, de la plus petite (sur la liste secondaire) à la plus grande.
@@ -558,11 +558,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4Njk3ODExLC01OTMwMjIwMjMsNTYzMD
-U1NzcxLDM4NzcyOTUzNyw1OTQ2NDA0MCwyMTQwODkxNDg0LDE0
-ODE5NjM5OCwtMTc3NzE5NTAxNSwtNTE0MDUxNTkwLDU3MDAyMj
-UyMiw3MDgzODkzMTEsLTI2NDExMDMxLC00ODA0MDkyODIsLTE3
-NDIyODUxMzMsLTg0NjUwNDUxNiwtMjAwMTgzNTA3OCwxNDE3Mz
-k4NDgxLC0xNDEwODQ0MDkwLDIxMTkwMzY1MjAsMTI3MjIwNDEw
-Nl19
+eyJoaXN0b3J5IjpbLTIwNDMwMjc5NjcsNzQ4Njk3ODExLC01OT
+MwMjIwMjMsNTYzMDU1NzcxLDM4NzcyOTUzNyw1OTQ2NDA0MCwy
+MTQwODkxNDg0LDE0ODE5NjM5OCwtMTc3NzE5NTAxNSwtNTE0MD
+UxNTkwLDU3MDAyMjUyMiw3MDgzODkzMTEsLTI2NDExMDMxLC00
+ODA0MDkyODIsLTE3NDIyODUxMzMsLTg0NjUwNDUxNiwtMjAwMT
+gzNTA3OCwxNDE3Mzk4NDgxLC0xNDEwODQ0MDkwLDIxMTkwMzY1
+MjBdfQ==
 -->
