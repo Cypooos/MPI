@@ -6,6 +6,8 @@ Du fait du grand nombre d'entrée ne respectant les règles, deux listes ont ét
 - La première, prends les propositions tel quel, applique les règles du concours, et n'hésite pas à disqualifier des entrées.
 - Dans la deuxième, je me suis permis d'interpréter les différentes erreurs pour corriger les programmes et donner un classement ou personne n'a été disqualifié.
 
+Cette compétition à été une version plus simple d'une compétition qui a déjà été réalisée, le BIGN.
+
 Ce document utilise pour comparer les différentes fonctions la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy).
 Les entrées sont listées avec des explications des bornes obtenues et leur code, de la plus petite (sur la liste secondaire) à la plus grande.
 Ensuite, vous avez à la fin du document mon entrée (TREE(n)), ainsi que des ressources dans le domaine de la *gogologie*, la branche de l'informatique théorique / des mathématiques étudiant les grands nombres. Vous aurez aussi des conseils sur comment réduire le nombre de caractères pour un programme donné.
@@ -741,11 +743,11 @@ m * m, c);}}R c;}I Y(I k) {I *l = H(k * 8);O (I i = 1; i <= k; i++) {l[i] = P(i,
 P(0, 1));}l[0] = 1;R F(0, l, 0, k + 1, k);}I main(void) { R Y(3); }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTQ5MDM0NSwxNTI3ODgyMzgzLC0yMD
-QzMDI3OTY3LDc0ODY5NzgxMSwtNTkzMDIyMDIzLDU2MzA1NTc3
-MSwzODc3Mjk1MzcsNTk0NjQwNDAsMjE0MDg5MTQ4NCwxNDgxOT
-YzOTgsLTE3NzcxOTUwMTUsLTUxNDA1MTU5MCw1NzAwMjI1MjIs
-NzA4Mzg5MzExLC0yNjQxMTAzMSwtNDgwNDA5MjgyLC0xNzQyMj
-g1MTMzLC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMTQxNzM5ODQ4
-MV19
+eyJoaXN0b3J5IjpbNTM4OTI1MjE1LDE1Mjc4ODIzODMsLTIwND
+MwMjc5NjcsNzQ4Njk3ODExLC01OTMwMjIwMjMsNTYzMDU1Nzcx
+LDM4NzcyOTUzNyw1OTQ2NDA0MCwyMTQwODkxNDg0LDE0ODE5Nj
+M5OCwtMTc3NzE5NTAxNSwtNTE0MDUxNTkwLDU3MDAyMjUyMiw3
+MDgzODkzMTEsLTI2NDExMDMxLC00ODA0MDkyODIsLTE3NDIyOD
+UxMzMsLTg0NjUwNDUxNiwtMjAwMTgzNTA3OCwxNDE3Mzk4NDgx
+XX0=
 -->
