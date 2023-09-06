@@ -328,7 +328,7 @@ def bc(x):
 print(bc(pow(999,999)))
 ```
 Par l'utillisation du python (il ne connaissait pas le C), l'entrée est disqualifié.
-Le code analysé pour la liste secondaire (à 365 caractères), transformé par ChatGPT:
+Le code analysé pour la liste secondaire (à 365 caractères), transformé par ChatGPT (pour éviter d'introduire un biais personnel quelconque):
 ```c
 int compound(int x, int a, int b, int n) {
     if (n == 1) {
@@ -558,11 +558,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzg4MjM4MywtMjA0MzAyNzk2Nyw3ND
-g2OTc4MTEsLTU5MzAyMjAyMyw1NjMwNTU3NzEsMzg3NzI5NTM3
-LDU5NDY0MDQwLDIxNDA4OTE0ODQsMTQ4MTk2Mzk4LC0xNzc3MT
-k1MDE1LC01MTQwNTE1OTAsNTcwMDIyNTIyLDcwODM4OTMxMSwt
-MjY0MTEwMzEsLTQ4MDQwOTI4MiwtMTc0MjI4NTEzMywtODQ2NT
-A0NTE2LC0yMDAxODM1MDc4LDE0MTczOTg0ODEsLTE0MTA4NDQw
-OTBdfQ==
+eyJoaXN0b3J5IjpbLTE0MTQxNTU4MTIsMTUyNzg4MjM4MywtMj
+A0MzAyNzk2Nyw3NDg2OTc4MTEsLTU5MzAyMjAyMyw1NjMwNTU3
+NzEsMzg3NzI5NTM3LDU5NDY0MDQwLDIxNDA4OTE0ODQsMTQ4MT
+k2Mzk4LC0xNzc3MTk1MDE1LC01MTQwNTE1OTAsNTcwMDIyNTIy
+LDcwODM4OTMxMSwtMjY0MTEwMzEsLTQ4MDQwOTI4MiwtMTc0Mj
+I4NTEzMywtODQ2NTA0NTE2LC0yMDAxODM1MDc4LDE0MTczOTg0
+ODFdfQ==
 -->
