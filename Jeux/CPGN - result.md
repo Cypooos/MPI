@@ -502,20 +502,18 @@ en
   n, n - 1)), n,
 ```
 On corrige aussi cette ligne dans `f`.
-Dans ce cas, on a que, si on appelle $x$ le dernier élément de $t$ (et qu'il est non nul): 
+> Dans ce cas, on a que, si on appelle $x$ le dernier élément de $t$ (et qu'il est non nul): 
 $$
 \hat f _ {\omega^{|t|}} (9) \le e(t,|t|,|t|-1) \le \hat f _ {(x+1)\omega^{|t|}+3} (9)
 $$
-
-On a donc $\hat f_{\omega^\omega}(n-1)=\hat f _ {\omega^{n-1}} (n-1) \le \hat f _ {\omega^{n}} (9) \le y(n) \le \hat f _ {(n+1)\omega^{n}+3} (9) \le \hat f _ {\omega^{n+1}} (n+1) = \hat f_{\omega^\omega}(n+1)$ (pour $n>1$)
-$y$ diagonalise donc les $\hat f_{\omega^i}$, donc est une implémentation de $\hat f_{\omega^\omega}$ !
-
-On a donc que $\hat f_{\omega^\omega}(k-1) \le$ `f([k,0,...,0],_,_)` $\le \hat f _ {\omega^\omega} (k+1)$
-
-Le problème dans ce code est que, quelquesoit les calculs précédemment effectué, (A continuer, mais ce code est au final de l'ordre de $\hat f_\omega(n)$ )
-
-Dans ce cas, on a que, si on appelle $x$ le dernier élément de $t$ (et qu'il est non nul): 
-$$
+>
+> On a donc $\hat f_{\omega^\omega}(n-1)=\hat f _ {\omega^{n-1}} (n-1) \le \hat f _ {\omega^{n}} (9) \le y(n) \le \hat f _ {(n+1)\omega^{n}+3} (9) \le \hat f _ {\omega^{n+1}} (n+1) = \hat f_{\omega^\omega}(n+1)$ (pour $n>1$)
+>$y$ diagonalise donc les $\hat f_{\omega^i}$, donc est une implémentation de $\hat f_{\omega^\omega}$ !
+>
+>On a donc que $\hat f_{\omega^\omega}(k-1) \le$ `f([k,0,...,0],_,_)` $\le \hat f _ {\omega^\omega} (k+1)$
+>
+>Dans ce cas, on a que, si on appelle $x$ le dernier élément de $t$ (et qu'il est non nul): 
+>$$
 f(t,|t|,|t|-1) \le v(\hat f _ {x\omega^{|t|}} (9)) \le \hat f_{\omega^\omega}(\hat f_{\omega^\omega} (n+1)+1) \le \hat f_{\omega^\omega+1}(n)
 $$
 et 
@@ -523,6 +521,8 @@ $$
 f(t,|t|,|t|-1) \ge y(\hat f _ {(x+1)\omega^{|t|}+3} (9)) \le \hat f_{\omega^\omega}(\hat f _ {(x+1)\omega^{|t|}+3} (9))
 $$
 
+Problème dans le calcul de la borne supérieure faite au dessus : 
+Le problème dans ce code est que, quelquesoit les calculs précédemment effectué, (A continuer, mais ce code est au final de l'ordre de $\hat f_\omega(n)$ ) TODO
 
 ## Chloé (500 caractères)
 ```c
@@ -558,13 +558,13 @@ int main() {
 }
 ```
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
-
+ TODO
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjczMzIxNSwxNTI3ODgyMzgzLC0yMD
-QzMDI3OTY3LDc0ODY5NzgxMSwtNTkzMDIyMDIzLDU2MzA1NTc3
-MSwzODc3Mjk1MzcsNTk0NjQwNDAsMjE0MDg5MTQ4NCwxNDgxOT
-YzOTgsLTE3NzcxOTUwMTUsLTUxNDA1MTU5MCw1NzAwMjI1MjIs
-NzA4Mzg5MzExLC0yNjQxMTAzMSwtNDgwNDA5MjgyLC0xNzQyMj
-g1MTMzLC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMTQxNzM5ODQ4
-MV19
+eyJoaXN0b3J5IjpbNzQxMzA1NjM0LDE1Mjc4ODIzODMsLTIwND
+MwMjc5NjcsNzQ4Njk3ODExLC01OTMwMjIwMjMsNTYzMDU1Nzcx
+LDM4NzcyOTUzNyw1OTQ2NDA0MCwyMTQwODkxNDg0LDE0ODE5Nj
+M5OCwtMTc3NzE5NTAxNSwtNTE0MDUxNTkwLDU3MDAyMjUyMiw3
+MDgzODkzMTEsLTI2NDExMDMxLC00ODA0MDkyODIsLTE3NDIyOD
+UxMzMsLTg0NjUwNDUxNiwtMjAwMTgzNTA3OCwxNDE3Mzk4NDgx
+XX0=
 -->
