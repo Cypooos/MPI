@@ -512,7 +512,7 @@ $y$ diagonalise donc les $\hat f_{\omega^i}$, donc est une implémentation de $\
 
 On a donc que $\hat f_{\omega^\omega}(k-1) \le$ `f([k,0,...,0],_,_)` $\le \hat f _ {\omega^\omega} (k+1)$
 
-Le problème dans ce code est que, quelquesoit les calculs précédemment effectué, $$
+Le problème dans ce code est que, quelquesoit les calculs précédemment effectué, (A continuer, mais ce code est au final de l'ordre de $\hat f_\omega(n)$ )
 
 Dans ce cas, on a que, si on appelle $x$ le dernier élément de $t$ (et qu'il est non nul): 
 $$
@@ -522,6 +522,8 @@ et
 $$
 f(t,|t|,|t|-1) \ge y(\hat f _ {(x+1)\omega^{|t|}+3} (9)) \le \hat f_{\omega^\omega}(\hat f _ {(x+1)\omega^{|t|}+3} (9))
 $$
+
+
 ## Chloé (500 caractères)
 ```c
 int Z(int a, int *t, int n, int k, int *s, int l) {
@@ -558,11 +560,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQxNTU4MTIsMTUyNzg4MjM4MywtMj
-A0MzAyNzk2Nyw3NDg2OTc4MTEsLTU5MzAyMjAyMyw1NjMwNTU3
-NzEsMzg3NzI5NTM3LDU5NDY0MDQwLDIxNDA4OTE0ODQsMTQ4MT
-k2Mzk4LC0xNzc3MTk1MDE1LC01MTQwNTE1OTAsNTcwMDIyNTIy
-LDcwODM4OTMxMSwtMjY0MTEwMzEsLTQ4MDQwOTI4MiwtMTc0Mj
-I4NTEzMywtODQ2NTA0NTE2LC0yMDAxODM1MDc4LDE0MTczOTg0
-ODFdfQ==
+eyJoaXN0b3J5IjpbLTM4NjczMzIxNSwxNTI3ODgyMzgzLC0yMD
+QzMDI3OTY3LDc0ODY5NzgxMSwtNTkzMDIyMDIzLDU2MzA1NTc3
+MSwzODc3Mjk1MzcsNTk0NjQwNDAsMjE0MDg5MTQ4NCwxNDgxOT
+YzOTgsLTE3NzcxOTUwMTUsLTUxNDA1MTU5MCw1NzAwMjI1MjIs
+NzA4Mzg5MzExLC0yNjQxMTAzMSwtNDgwNDA5MjgyLC0xNzQyMj
+g1MTMzLC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMTQxNzM5ODQ4
+MV19
 -->
