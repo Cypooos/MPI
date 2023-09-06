@@ -6,7 +6,7 @@ Du fait du grand nombre d'entrée ne respectant les règles, deux listes ont ét
 - La première, prends les propositions tel quel, applique les règles du concours, et n'hésite pas à disqualifier des entrées.
 - Dans la deuxième, je me suis permis d'interpréter les différentes erreurs pour corriger les programmes et donner un classement ou personne n'a été disqualifié.
 
-Ce document commence par une introduction de la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy), une méthode utilisé pour comparer des fonctions grandissant vite et définies par récurrence.
+Ce document utilise pour comparer les différentes fonctions la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy).
 Les entrées sont listées avec des explications des bornes obtenues et leur code, de la plus petite (sur la liste secondaire) à la plus grande.
 Ensuite, vous avez à la fin du document mon entrée (TREE(n)), ainsi que des ressources dans le domaine de la *gogologie*, la branche de l'informatique théorique / des mathématiques étudiant les grands nombres. Vous aurez aussi des conseils sur comment réduire le nombre de caractères pour un programme donné.
 
@@ -559,12 +559,14 @@ int main() {
 ```
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
  TODO
+ ## Tree(n)
+ TODO : moins de 500 charactè
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQxMzA1NjM0LDE1Mjc4ODIzODMsLTIwND
-MwMjc5NjcsNzQ4Njk3ODExLC01OTMwMjIwMjMsNTYzMDU1Nzcx
-LDM4NzcyOTUzNyw1OTQ2NDA0MCwyMTQwODkxNDg0LDE0ODE5Nj
-M5OCwtMTc3NzE5NTAxNSwtNTE0MDUxNTkwLDU3MDAyMjUyMiw3
-MDgzODkzMTEsLTI2NDExMDMxLC00ODA0MDkyODIsLTE3NDIyOD
-UxMzMsLTg0NjUwNDUxNiwtMjAwMTgzNTA3OCwxNDE3Mzk4NDgx
-XX0=
+eyJoaXN0b3J5IjpbLTQ1OTEzNzk2OCwxNTI3ODgyMzgzLC0yMD
+QzMDI3OTY3LDc0ODY5NzgxMSwtNTkzMDIyMDIzLDU2MzA1NTc3
+MSwzODc3Mjk1MzcsNTk0NjQwNDAsMjE0MDg5MTQ4NCwxNDgxOT
+YzOTgsLTE3NzcxOTUwMTUsLTUxNDA1MTU5MCw1NzAwMjI1MjIs
+NzA4Mzg5MzExLC0yNjQxMTAzMSwtNDgwNDA5MjgyLC0xNzQyMj
+g1MTMzLC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMTQxNzM5ODQ4
+MV19
 -->
