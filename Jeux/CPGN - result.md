@@ -35,7 +35,7 @@ Liste secondaire:
 |Igor     |$\hat f_{3\omega}(2)$|$\hat f_{3\omega+1}(2)$|
 |Thomas-2 |$\hat f_{2^{101}\omega}(2)$|$\hat f_{2^{101}\omega^2+1}(2)$  *borne temporaire et large* |
 |Julien   |$\hat f_{\omega^2+1}(2)$|$\hat f_{\omega^2+2}(2)$|
-|Carfaure |~~$\strike{\hat f_{\omega^\omega}(2)}$~~ A REVOIR     |$\hat f_{\omega^{\omega^\omega}+1}(9)$ *borne temporaire et large*   |
+|Carfaure |$\sout{\hat f_{\omega^\omega}(2)}$ A REVOIR     |$\hat f_{\omega^{\omega^\omega}+1}(9)$ *borne temporaire et large*   |
 ## Cornich (493 caractères)
 (code une fois formaté) :
 ```c
@@ -558,11 +558,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ3NzkyODIzLC0yMDQzMDI3OTY3LDc0OD
-Y5NzgxMSwtNTkzMDIyMDIzLDU2MzA1NTc3MSwzODc3Mjk1Mzcs
-NTk0NjQwNDAsMjE0MDg5MTQ4NCwxNDgxOTYzOTgsLTE3NzcxOT
-UwMTUsLTUxNDA1MTU5MCw1NzAwMjI1MjIsNzA4Mzg5MzExLC0y
-NjQxMTAzMSwtNDgwNDA5MjgyLC0xNzQyMjg1MTMzLC04NDY1MD
-Q1MTYsLTIwMDE4MzUwNzgsMTQxNzM5ODQ4MSwtMTQxMDg0NDA5
-MF19
+eyJoaXN0b3J5IjpbLTIxMDY0NjY2MTAsLTIwNDMwMjc5NjcsNz
+Q4Njk3ODExLC01OTMwMjIwMjMsNTYzMDU1NzcxLDM4NzcyOTUz
+Nyw1OTQ2NDA0MCwyMTQwODkxNDg0LDE0ODE5NjM5OCwtMTc3Nz
+E5NTAxNSwtNTE0MDUxNTkwLDU3MDAyMjUyMiw3MDgzODkzMTEs
+LTI2NDExMDMxLC00ODA0MDkyODIsLTE3NDIyODUxMzMsLTg0Nj
+UwNDUxNiwtMjAwMTgzNTA3OCwxNDE3Mzk4NDgxLC0xNDEwODQ0
+MDkwXX0=
 -->
