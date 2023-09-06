@@ -712,7 +712,7 @@ int main(void) {
 }
 ```
 
-version optimisé :
+version optimisé (malheureusement, + de 500 caractères) :
 ```c
 #define I int
 #define T if
@@ -737,11 +737,11 @@ m * m, c);}}R c;}I Y(I k) {I *l = H(k * 8);O (I i = 1; i <= k; i++) {l[i] = P(i,
 P(0, 1));}l[0] = 1;R F(0, l, 0, k + 1, k);}I main(void) { R Y(3); }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDQyMDEwMSwxNTI3ODgyMzgzLC0yMD
-QzMDI3OTY3LDc0ODY5NzgxMSwtNTkzMDIyMDIzLDU2MzA1NTc3
-MSwzODc3Mjk1MzcsNTk0NjQwNDAsMjE0MDg5MTQ4NCwxNDgxOT
-YzOTgsLTE3NzcxOTUwMTUsLTUxNDA1MTU5MCw1NzAwMjI1MjIs
-NzA4Mzg5MzExLC0yNjQxMTAzMSwtNDgwNDA5MjgyLC0xNzQyMj
-g1MTMzLC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMTQxNzM5ODQ4
-MV19
+eyJoaXN0b3J5IjpbLTE2MDY4Mjk3NDcsMTUyNzg4MjM4MywtMj
+A0MzAyNzk2Nyw3NDg2OTc4MTEsLTU5MzAyMjAyMyw1NjMwNTU3
+NzEsMzg3NzI5NTM3LDU5NDY0MDQwLDIxNDA4OTE0ODQsMTQ4MT
+k2Mzk4LC0xNzc3MTk1MDE1LC01MTQwNTE1OTAsNTcwMDIyNTIy
+LDcwODM4OTMxMSwtMjY0MTEwMzEsLTQ4MDQwOTI4MiwtMTc0Mj
+I4NTEzMywtODQ2NTA0NTE2LC0yMDAxODM1MDc4LDE0MTczOTg0
+ODFdfQ==
 -->
