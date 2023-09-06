@@ -6,7 +6,7 @@ Du fait du grand nombre d'entrée ne respectant les règles, deux listes ont ét
 - La première, prends les propositions tel quel, applique les règles du concours, et n'hésite pas à disqualifier des entrées.
 - Dans la deuxième, je me suis permis d'interpréter les différentes erreurs pour corriger les programmes et donner un classement ou personne n'a été disqualifié.
 
-Cette compétition à été une version plus simple d'une compétition qui a déjà été réalisée, le BIGN.
+Cette compétition à été une version plus simple d'une compétition qui a déjà été réalisée, le [BIGNUM BAKEOFF](http://djm.cc/bignum-rules-posted.txt).
 
 Ce document utilise pour comparer les différentes fonctions la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy).
 Les entrées sont listées avec des explications des bornes obtenues et leur code, de la plus petite (sur la liste secondaire) à la plus grande.
@@ -743,7 +743,7 @@ m * m, c);}}R c;}I Y(I k) {I *l = H(k * 8);O (I i = 1; i <= k; i++) {l[i] = P(i,
 P(0, 1));}l[0] = 1;R F(0, l, 0, k + 1, k);}I main(void) { R Y(3); }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4OTI1MjE1LDE1Mjc4ODIzODMsLTIwND
+eyJoaXN0b3J5IjpbLTk1NzA1MTQyLDE1Mjc4ODIzODMsLTIwND
 MwMjc5NjcsNzQ4Njk3ODExLC01OTMwMjIwMjMsNTYzMDU1Nzcx
 LDM4NzcyOTUzNyw1OTQ2NDA0MCwyMTQwODkxNDg0LDE0ODE5Nj
 M5OCwtMTc3NzE5NTAxNSwtNTE0MDUxNTkwLDU3MDAyMjUyMiw3
