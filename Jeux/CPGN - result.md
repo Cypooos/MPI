@@ -666,7 +666,6 @@ bool is_in(int main_tree, int tree_to_find, int at_height,
   return false;
 }
 
-// TO TEST table = pair(int tree, int* next) ?
 int iterate(int *table, int *trees, int n, int nb_trees, int colors) {
   // will be transformed to malloc(n*8) bc n*4*2 >= (n+1)*4 (for n>0)
   int *table2 = malloc(n * 4 + 4);
@@ -675,6 +674,7 @@ int iterate(int *table, int *trees, int n, int nb_trees, int colors) {
     table2[i] = table[i];
     trees2[i] = trees[i];
   }
+  
   // get all k-colored tree with <=n vertices
   for (int i = 0; i < nb_trees; i++) {
     for (int j = 0; j < nb_trees; j++) {
@@ -710,13 +710,129 @@ int TREE(int k) {
 int main(void) {
   return TREE(3);
 }
- ```
+```
+
+version optimisé :
+```c
+#define I int
+#define T if
+#define O for
+#define H malloc
+#define R return
+
+
+I P(I a, I b) { R ((a << 1) | 1) << b; }
+I B(I c) { R c & 1 ? 0 : 1 + B(c >> 1); }
+I A(I c) { R c >> (1 + B(c)); }
+I C(I t) { R A(t); }
+I N(I t) { R A(B(t)); }
+I G(I t, I n) {
+R n ? G(B(t), n - 1) : A(B(B(t)));
+}
+I _(I t, I n) {
+R n ? P(A(t), _(B(t), n - 1))
+: B(t);
+}
+I M(I t, I n) {
+R P(C(t),
+P(N(t) - 1, _(B(B(t)), n)));
+}
+I S(I t) {
+R t && N(t)
+? S(G(t, 0)) + 1 + S(M(t, 0))
+: 0;
+}
+
+I E(I t, I f, I h,
+I b) {
+T (!f || (N(f) == 0 && h < 0)) {
+R 1;
+}
+T (!t) {
+R 0;
+}
+
+T (h > 0) {
+O (I i = 0; i < N(t); i++) {
+T (E(G(t, i), f, h - 1,
+b - 1)) {
+R 1;
+}
+}
+}
+
+T (h < 0) {
+I s = G(f, 0);
+I a = M(f, 0);
+O (I s = 0; s < N(t); s++) {
+T (E(G(t, s), s, -h,
+b) &&
+E(M(t, s), a, h,
+b)) {
+R 1;
+}
+}
+R 0;
+}
+
+T (C(t) != C(f)) {
+R 0;
+}
+
+O (I h = 1; h < b; h++) {
+T (E(t, f, -h, b)) {
+R 1;
+}
+}
+R 0;
+}
+
+I F(I *l, I *t, I n, I m, I c) {
+I *q = H(n * 8);
+I *u = H(m * m);
+O (I i = 0; i < n; i++) {
+q[i] = l[i];
+u[i] = t[i];
+}
+O (I i = 0; i < m; i++) {
+O (I j = 0; j < m; j++) {
+I p = P(
+C(t[i]),
+P(N(t[i]) + 1, P(t[j], B(B(t[i])))));
+u[(i + 1) * m + j] = S(p) > n ? 1 : p;
+}
+}
+
+I c = 1;
+O (I i = 0; i < m * m; i++) {
+I b = 1;
+O (I j = 0; j < n; j++) {
+O (I h = 0; h < n; h++) {
+b &= !E(l[j], l[n], h, n);
+}
+}
+T (b) {
+c += F(l, u, n + 1, m * m, c);
+}
+}
+R c;
+} I Y(I k) {
+I *l = H(k * 8);
+O (I i = 1; i <= k; i++) {
+l[i] = P(i, P(0, 1));
+}
+l[0] = 1;
+R F(0, l, 0, k + 1, k);
+}
+
+I main(void) { R Y(3); }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDkwNzQwLDE1Mjc4ODIzODMsLTIwND
-MwMjc5NjcsNzQ4Njk3ODExLC01OTMwMjIwMjMsNTYzMDU1Nzcx
-LDM4NzcyOTUzNyw1OTQ2NDA0MCwyMTQwODkxNDg0LDE0ODE5Nj
-M5OCwtMTc3NzE5NTAxNSwtNTE0MDUxNTkwLDU3MDAyMjUyMiw3
-MDgzODkzMTEsLTI2NDExMDMxLC00ODA0MDkyODIsLTE3NDIyOD
-UxMzMsLTg0NjUwNDUxNiwtMjAwMTgzNTA3OCwxNDE3Mzk4NDgx
-XX0=
+eyJoaXN0b3J5IjpbLTY1ODMzODg1NSwxNTI3ODgyMzgzLC0yMD
+QzMDI3OTY3LDc0ODY5NzgxMSwtNTkzMDIyMDIzLDU2MzA1NTc3
+MSwzODc3Mjk1MzcsNTk0NjQwNDAsMjE0MDg5MTQ4NCwxNDgxOT
+YzOTgsLTE3NzcxOTUwMTUsLTUxNDA1MTU5MCw1NzAwMjI1MjIs
+NzA4Mzg5MzExLC0yNjQxMTAzMSwtNDgwNDA5MjgyLC0xNzQyMj
+g1MTMzLC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMTQxNzM5ODQ4
+MV19
 -->
