@@ -525,7 +525,7 @@ $$
 f(t,|t|,|t|-1) \ge y(\hat f _ {(x+1)\omega^{|t|}+3} (9)) \le \hat f_{\omega^\omega}(\hat f _ {(x+1)\omega^{|t|}+3} (9))
 $$
 
-Problème dans le calcul de la borne supérieure faite au dessus : 
+Problème dans le calcul de la borne supérieure fait au dessus : 
 Le problème dans ce code est que, quelquesoit les calculs précédemment effectué, (A continuer, mais ce code est au final de l'ordre de $\hat f_\omega(n)$ ) TODO
 
 ## Chloé (500 caractères)
@@ -743,11 +743,11 @@ m * m, c);}}R c;}I Y(I k) {I *l = H(k * 8);O (I i = 1; i <= k; i++) {l[i] = P(i,
 P(0, 1));}l[0] = 1;R F(0, l, 0, k + 1, k);}I main(void) { R Y(3); }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzA1MTQyLDE1Mjc4ODIzODMsLTIwND
-MwMjc5NjcsNzQ4Njk3ODExLC01OTMwMjIwMjMsNTYzMDU1Nzcx
-LDM4NzcyOTUzNyw1OTQ2NDA0MCwyMTQwODkxNDg0LDE0ODE5Nj
-M5OCwtMTc3NzE5NTAxNSwtNTE0MDUxNTkwLDU3MDAyMjUyMiw3
-MDgzODkzMTEsLTI2NDExMDMxLC00ODA0MDkyODIsLTE3NDIyOD
-UxMzMsLTg0NjUwNDUxNiwtMjAwMTgzNTA3OCwxNDE3Mzk4NDgx
-XX0=
+eyJoaXN0b3J5IjpbMTA4NzQyNDg3MywxNTI3ODgyMzgzLC0yMD
+QzMDI3OTY3LDc0ODY5NzgxMSwtNTkzMDIyMDIzLDU2MzA1NTc3
+MSwzODc3Mjk1MzcsNTk0NjQwNDAsMjE0MDg5MTQ4NCwxNDgxOT
+YzOTgsLTE3NzcxOTUwMTUsLTUxNDA1MTU5MCw1NzAwMjI1MjIs
+NzA4Mzg5MzExLC0yNjQxMTAzMSwtNDgwNDA5MjgyLC0xNzQyMj
+g1MTMzLC04NDY1MDQ1MTYsLTIwMDE4MzUwNzgsMTQxNzM5ODQ4
+MV19
 -->
