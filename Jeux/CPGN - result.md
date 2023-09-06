@@ -36,6 +36,8 @@ Liste secondaire:
 |Thomas-2 |$\hat f_{2^{101}\omega}(2)$|$\hat f_{2^{101}\omega^2+1}(2)$  *borne temporaire et large* |
 |Julien   |$\hat f_{\omega^2+1}(2)$|$\hat f_{\omega^2+2}(2)$|
 |Carfaure |$\sout{\hat f_{\omega^\omega}(2)}$ A REVOIR     |$\sout{\hat f_{\omega^{\omega^\omega}+1}(9)}$ A REVOIR   |
+
+TODO: Il me reste le code de Chloé à juger.
 ## Cornich (493 caractères)
 (code une fois formaté) :
 ```c
@@ -713,7 +715,8 @@ int main(void) {
 ```
 
 version optimisé (malheureusement, + de 500 caractères) :
-TODO: petite problème de transpileur, une variable `c` est redéfinie dans le même environnement...
+TODO: petite problème de transpileur, une variable `c` est redéfinie...
+TODO: utiliser ternaire + récursion pour optimiser les boucles
 ```c
 #define I int
 #define T if
@@ -738,7 +741,7 @@ m * m, c);}}R c;}I Y(I k) {I *l = H(k * 8);O (I i = 1; i <= k; i++) {l[i] = P(i,
 P(0, 1));}l[0] = 1;R F(0, l, 0, k + 1, k);}I main(void) { R Y(3); }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDQ5Mjg3OSwxNTI3ODgyMzgzLC0yMD
+eyJoaXN0b3J5IjpbMTM4NTQ5MDM0NSwxNTI3ODgyMzgzLC0yMD
 QzMDI3OTY3LDc0ODY5NzgxMSwtNTkzMDIyMDIzLDU2MzA1NTc3
 MSwzODc3Mjk1MzcsNTk0NjQwNDAsMjE0MDg5MTQ4NCwxNDgxOT
 YzOTgsLTE3NzcxOTUwMTUsLTUxNDA1MTU5MCw1NzAwMjI1MjIs
