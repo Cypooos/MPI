@@ -7,8 +7,8 @@ Du fait du grand nombre d'entrée ne respectant les règles, deux listes ont ét
 - Dans la deuxième, je me suis permis d'interpréter les différentes erreurs pour corriger les programmes et donner un classement ou personne n'a été disqualifié.
 
 Ce document commence par une introduction de la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy), une méthode utilisé pour comparer des fonctions grandissant vite et définies par récurrence.
-Les entrée sont listé avec des explications des bornes obtenues et leur code, de la plus petite (sur la liste secondaire) à la plus grande.
-Ensuite, vous avez à la fin du document mon entrée (TREE(3)), ainsi que des ressources dans le domaine de la *gogologie*, la branche de l'informatique théorique / des mathématiques étudiant les grands nombres. Vous aurez aussi des conseils sur comment réduire le nombre de caractères pour un programme donné.
+Les entrées sont listées avec des explications des bornes obtenues et leur code, de la plus petite (sur la liste secondaire) à la plus grande.
+Ensuite, vous avez à la fin du document mon entrée (TREE(n)), ainsi que des ressources dans le domaine de la *gogologie*, la branche de l'informatique théorique / des mathématiques étudiant les grands nombres. Vous aurez aussi des conseils sur comment réduire le nombre de caractères pour un programme donné.
 
 Dans ce document, les $\hat f_{...}$ représentent les fonctions de la [Fast-Growing Hierarchy](https://en.wikipedia.org/wiki/Fast-growing_hierarchy).
 Les fonctions des programmes sont dans l'analyse mathématique représentée par le même nom ($f$, $g$, $\text{main}$ etc...)
@@ -35,7 +35,7 @@ Liste secondaire:
 |Igor     |$\hat f_{3\omega}(2)$|$\hat f_{3\omega+1}(2)$|
 |Thomas-2 |$\hat f_{2^{101}\omega}(2)$|$\hat f_{2^{101}\omega^2+1}(2)$  *borne temporaire et large* |
 |Julien   |$\hat f_{\omega^2+1}(2)$|$\hat f_{\omega^2+2}(2)$|
-|Carfaure |$\hat f_{\omega^\omega}(2)$ *borne temporaire et large*     |$\hat f_{\omega^{\omega^\omega}+1}(9)$ *borne temporaire et large*   |
+|Carfaure |~~$\strike{\hat f_{\omega^\omega}(2)}$~~ A REVOIR     |$\hat f_{\omega^{\omega^\omega}+1}(9)$ *borne temporaire et large*   |
 ## Cornich (493 caractères)
 (code une fois formaté) :
 ```c
@@ -558,11 +558,11 @@ int main() {
 Le code d'explication peut être trouvé [ici](https://raw.githubusercontent.com/Cypooos/CPGN-2023/main/2023/Chlo%C3%A9/chall_cyp2.c?token=GHSAT0AAAAAACFXSPRTKWK4H447HHV6GBSYZG443XQ) (trop long pour ce pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDMwMjc5NjcsNzQ4Njk3ODExLC01OT
-MwMjIwMjMsNTYzMDU1NzcxLDM4NzcyOTUzNyw1OTQ2NDA0MCwy
-MTQwODkxNDg0LDE0ODE5NjM5OCwtMTc3NzE5NTAxNSwtNTE0MD
-UxNTkwLDU3MDAyMjUyMiw3MDgzODkzMTEsLTI2NDExMDMxLC00
-ODA0MDkyODIsLTE3NDIyODUxMzMsLTg0NjUwNDUxNiwtMjAwMT
-gzNTA3OCwxNDE3Mzk4NDgxLC0xNDEwODQ0MDkwLDIxMTkwMzY1
-MjBdfQ==
+eyJoaXN0b3J5IjpbNDQ3NzkyODIzLC0yMDQzMDI3OTY3LDc0OD
+Y5NzgxMSwtNTkzMDIyMDIzLDU2MzA1NTc3MSwzODc3Mjk1Mzcs
+NTk0NjQwNDAsMjE0MDg5MTQ4NCwxNDgxOTYzOTgsLTE3NzcxOT
+UwMTUsLTUxNDA1MTU5MCw1NzAwMjI1MjIsNzA4Mzg5MzExLC0y
+NjQxMTAzMSwtNDgwNDA5MjgyLC0xNzQyMjg1MTMzLC04NDY1MD
+Q1MTYsLTIwMDE4MzUwNzgsMTQxNzM5ODQ4MSwtMTQxMDg0NDA5
+MF19
 -->
